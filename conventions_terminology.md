@@ -129,3 +129,38 @@
 Οι τρεις περιπτώσεις χωρίς επαρκή τοπική τεκμηρίωση είναι τα χίντι, τα αραβικά και τα ταϊλανδικά. Στα ρωσικά το πολυγλωσσικό γλωσσάρι δίνει τη σχετική αντιστοίχιση, αλλά αναζητείται πρόσθετη πηγή από ρωσόφωνο μπριτζιστικό ιστότοπο. Δεν χρησιμοποιούμε αυτόματη μετάφραση για να καλύψουμε αυτά τα κενά.
 
 Ο όρος penalty double αφορά την πρόθεση να αμυνθούμε στο συμβόλαιο των αντιπάλων με κοντρ. Δεν συγχέεται με κοντρ ομιλίας, κοντρ αντάμ, κάρτα ποινής ή γενική ποινή κανονισμών.
+
+## Συμπληρωματικός έλεγχος για τις τέσσερις συμβάσεις — 13/11/2026
+
+Αφορά Multi Landy, Michaels Cue Bid, Unusual 2NT και DONT. Οι πηγές χρησιμοποιούνται για την ορολογία, όχι για αλλαγή των συμφωνημένων ελληνικών κανόνων. Το «Michaels» σε ορισμένες τοπικές πηγές αναφέρεται σε διαφορετικές εκδοχές (π.χ. Michaels précisés). Αυτές δεν μεταφέρονται αυτόματα στα άρθρα μας.
+
+| Γλώσσα | Όροι που ελέγχθηκαν ή κατάσταση | Πηγή |
+| --- | --- | --- |
+| en | one-suited / two-suited hand, direct / balancing seat, penalty double, pass or correct | [Larry Cohen — DONT](https://www.larryco.com/bridge-articles/dont), [ACBL — DONT](https://web2.acbl.org/documentLibrary/play/Commonly_Used_Conventions/dontover1nt.pdf) |
+| fr | intervention, bicolore, sans-atout, majeure / mineure· διάκριση από τα Michaels précisés | [Philippe Chailley — D](https://www.bridge-chailley.fr/dictionnaires/termes-de-bridge-a-l/dictionnaire-d-l/), [PF Bridge](https://pfbridge.fr/posts/2019/08/comment-m%C3%A9moriser-les-interventions-bicolores/) |
+| nl | Michaels cue-bid, tweekleurenspel, volgbod | [Nunspeetse B.C.](https://10003.bridge.nl/michaels-cue-bid/) |
+| zh | 迈克尔斯扣叫, 双套牌, 争叫, 高花 / 低花, 无将 | [桥牌学习网](https://newprec.mybridge.club/?id=399), [NACBA](https://nacba-bridge.org/docs/20210716_NACBA%E6%B2%99%E9%BE%99.pdf) |
+| it | intervento, bicolore, senza atout· οι τοπικές συμφωνίες μπορεί να διαφέρουν | [Pescara Bridge — Interventi speciali e difese](https://www.pescarabridge.it/wp-content/uploads/2024/04/11-Interventi-speciali-e-difese.pdf) |
+| de | Zweifärber, Gegenreizung, Oberfarbe / Unterfarbe | [Turnierbridge](https://www.turnierbridge.de/b148-zweifaerber-in-der-gegenreizung/), [DBV](https://www.bridge-verband.de/clients/bridge/content/e180/e193/e10914/e10917/files11559/DBV2019-IILektion7SperrerffnungenKurzbeschreibungGegenreizung.pdf) |
+| sv | överbud, tvåfärgshand, sang, högfärg / lågfärg | [Svenska Bridgeförbundet](https://www.svenskbridge.se/storsj%C3%B6bygdens-bk/grundsystem-n%C3%A4r-motst%C3%A5ndarna-%C3%B6ppnat) |
+| da | overmelding, tofarvede hænder, indmelding, sans | [MereBridge — Michaels](https://merebridge.dk/undervisning/system/michaels-cuebid), [DBf](https://www.bridge.dk/4273/Undervisning.html) |
+| no | overmelding, tofarge-melding, innmelding, grand, Marmic 2NT / Unusual 2NT | [Norsk Bridgeforbund](https://www.bridge.no/Bridgemateriell/Blogger/GeOs-blogg/%28day%29/12/%28month%29/1/%28year%29/2021) |
+| pl | dwukolorówki Michaelsa, wejście, bez atu, kolor starszy / młodszy | [Szkolenia brydżowe](https://szkoleniabrydzowe.pl/dwukolorowki-michaelsa/), [PZBS](https://szkola.pzbs.pl/index.html%3Fp%3D1356.html) |
+| ja | マイケルズキュービッド· η απόδοση τεκμηριώνεται σε ιαπωνική μετάφραση εκπαιδευτικού συστήματος | [Hardy Standard, ιαπωνική έκδοση](https://kubotaya.client.jp/hardy_bridge/HardyStandard_JP_1.pdf) |
+| he | מייקלס קיו-ביד, דו-סדרתי, משחק מלא | [Ισραηλινή Ομοσπονδία — Ιούλιος 2016](https://main.bridge.co.il/uploads/files/BITAON/FullBitaon/full-7.16.pdf), [Bridge Tips](https://bridge-tips.co.il/%D7%A7%D7%95%D7%A0%D7%91%D7%A0%D7%A6%D7%99%D7%99%D7%AA-michaels-cue-bid/) |
+| es | intervención, bicolor, sin triunfo, mayores / menores | [Asociación Española de Bridge — κάρτα συμβάσεων](https://www.aebridge.com/sites/default/files/2023-11/Hoja%20convenciones%20Mari%CC%81a%20S%20de%20Vicun%CC%83a.pdf), [Confederación Sudamericana](https://csbnews.org/los-michaels-cuebids/) |
+| pt | bicolor, naipe, sem trunfo, leilão· έλεγχος πορτογαλικής χρήσης | [Federação Portuguesa de Bridge](https://fpbridge.pt/regras-do-jogo/), [Funbridge pt-PT](https://www.funbridge.com/pt-PT/dicionario-de-bridge) |
+| hi | Εκκρεμεί: δεν εντοπίστηκε επαρκής μπριτζιστική πηγή στα χίντι για τους ειδικούς όρους | Δεν υιοθετούνται γενικές μεταφράσεις λεξικών ως μπριτζιστική τεκμηρίωση. |
+| tr | Michaels Kübid, Alışılmamış 2NT, araya giriş, iki renkli el | [Türkiye Briç Federasyonu — Ders Notları](https://cdn.tbricfed.org.tr/wp-content/uploads/2022/11/Bric-Baslangic-Seviyesi-Ders-Notlari-.pdf) |
+| ru | кюбид, двухмастный, вход, минор· μερική τεκμηρίωση από δημοσιευμένες σημειώσεις συστήματος | [Общий язык](https://wj2008-m.narod.ru/). Οι τοπικές αγοραστικές συμφωνίες διαφέρουν από τα άρθρα μας. |
+| el | Παρεμβολή, δίχρωμο / μονόχρωμο χέρι, μαζέρ / μινέρ, κοντρ τιμωρίας, pass or correct | Συμφωνημένη ορολογία Βασιλικής· ελληνικά άρθρα του αποθετηρίου. |
+| fi | sangi, yläväri / alaväri, arvopiste· δεν επιβεβαιώθηκε ειδική τοπική απόδοση των ονομάτων των τεσσάρων συμβάσεων | [Jukka Korpela — Luonnollinen tarjousjärjestelmä](https://jkorpela.fi/bridge/luonn.html). Το välitarjous τεκμηριώνεται στον προηγούμενο πίνακα. |
+| cs | dvoubarevný zásah, manš, cue-bid· μερική τεκμηρίωση | [Český bridžový svaz](https://www.czechbridge.cz/articles/reportaze-z-akci/934). Δεν χρησιμοποιείται σλοβακική πηγή ως τεκμήριο τσεχικής ορολογίας. |
+| is | tveir lægstu ómeldaðir litir, grand, hálitir, Michaels | [Bridgesamband Íslands — Kerfiskort](https://www.bridge.is/meistarastig/BSI/2013/issvkurs/kerfiskort/Stefan-Kjartan-Kerfiskort.pdf), [Standard](https://bridge.is/media/35448/standardtoflurgpa2017382990255.pdf) |
+| hu | kétszínű lap, közbeszólás, szan· Michaels / Szokatlan NT σε πρόγραμμα μαθημάτων | [Magyar Bridzs Szövetség](https://bridzs.hu/hu/bridzselet/bajnoksagokrol/impbajnoksag_2026_8_jatekhet), [MTK — μαθήματα](https://mtk.hu/hirek/bridzs-tanfolyam-indul) |
+| id | overcall dua warna, pembukaan 1NT, major· αγγλικά ονόματα συμβάσεων μέσα σε ινδονησιακό κείμενο | [Bert Toar Polii — Competitive bidding](https://bertpolii.blogspot.com/2026/08/mengenal-konvensi-competitive-bidding.html), [Landy](https://bertpolii.blogspot.com/2026/09/) |
+| ar | Μόνο γενική ορολογία παιχνιδιού επιβεβαιώθηκε· οι ειδικοί όροι των συμβάσεων παραμένουν εκκρεμείς | [Νادي العين — البريدج](https://acmg.ae/ar/mental-games/118) |
+| th | Εκκρεμεί: βρέθηκαν κυρίως σελίδες αυτόματης μετάφρασης, που δεν γίνονται δεκτές ως τεκμήρια τοπικής μπριτζιστικής ορολογίας | Τα διεθνή ονόματα των συμβάσεων δεν αντικαθίστανται από ανεπιβεβαίωτη τοπική γραφή. |
+| ko | 큐비드, 오버콜, 게임 포싱, 아티피설 비딩, 레이즈 | [HWP — 브리지 용어](https://brunch.co.kr/%4071752462fdec4c1/70), [서울스포츠 — 기본 용어](https://news.seoulsports.or.kr/web/pds/pdsView.do?catid=15&pdsid=1845&scattit=) |
+
+Οι παραπάνω έλεγχοι δεν σημαίνουν ότι ολοκληρώθηκαν οι μεταφράσεις ή ότι επαληθεύτηκε κάθε ειδικός όρος σε κάθε γλώσσα. Οι κατανομές, τα όρια και οι συνέχειες μεταφέρονται από τα συμφωνημένα ελληνικά κείμενα, χωρίς υιοθέτηση διαφορετικών τοπικών συστημάτων.
