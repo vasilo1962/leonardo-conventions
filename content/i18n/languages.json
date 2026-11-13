@@ -1,0 +1,172 @@
+[
+  {
+    "code": "el",
+    "name": "Ελληνικά",
+    "suits": [
+      "πίκες",
+      "κούπες",
+      "καρά",
+      "σπαθιά"
+    ],
+    "ranks": {
+      "A": "άσος",
+      "K": "ρήγας",
+      "Q": "ντάμα",
+      "J": "βαλές",
+      "T": "δέκα"
+    },
+    "ui": {
+      "conventions": "Συμβάσεις",
+      "skip": "Στο περιεχόμενο",
+      "lesson": "Σε αυτό το μάθημα",
+      "intro": "Εφαρμογή, παραδείγματα και απαντήσεις",
+      "learn": "Μαθαίνουμε μπριτζ",
+      "description": "Εξηγήσεις, παραδείγματα χεριών και συνέχειες αγορών.",
+      "play": "Παίξε τώρα",
+      "table": "Πίνακας αγορών",
+      "playText": "Στο Leonardo Bridge μπορείς να παίζεις online μπριτζ δωρεάν και απεριόριστα. Κάνε εξάσκηση με ρομπότ στον δικό σου ρυθμό, πάρε μέρος σε τουρνουά ή παίξε με φίλους."
+    },
+    "cards": [
+      "Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.",
+      "Δίχρωμες παρεμβολές μετά από άνοιγμα ένα σε χρώμα.",
+      "Τα δύο χαμηλότερα μη αγορασμένα χρώματα με μία αγορά.",
+      "Μονόχρωμες και δίχρωμες παρεμβολές μετά από δυνατό 1ΝΤ."
+    ]
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "suits": [
+      "spades",
+      "hearts",
+      "diamonds",
+      "clubs"
+    ],
+    "ranks": {
+      "A": "ace",
+      "K": "king",
+      "Q": "queen",
+      "J": "jack",
+      "T": "ten"
+    },
+    "ui": {
+      "conventions": "Conventions",
+      "skip": "Skip to content",
+      "lesson": "In this lesson",
+      "intro": "Application, examples and responses",
+      "learn": "Learning bridge",
+      "description": "Explanations, example hands and bidding continuations.",
+      "play": "Play now",
+      "table": "Bidding table",
+      "playText": "Play bridge online for free and without limits at Leonardo Bridge. Practise with robots at your own pace, enter tournaments or play with friends."
+    },
+    "cards": [
+      "Overcalls after a natural 1NT opening.",
+      "Two-suited overcalls after a one-level suit opening.",
+      "The two lowest-ranking unbid suits in one bid.",
+      "One-suited and two-suited overcalls against a strong 1NT."
+    ]
+  },
+  {
+    "code": "fr",
+    "name": "Français",
+    "suits": [
+      "piques",
+      "cœurs",
+      "carreaux",
+      "trèfles"
+    ],
+    "ranks": {
+      "A": "as",
+      "K": "roi",
+      "Q": "dame",
+      "J": "valet",
+      "T": "dix"
+    },
+    "ui": {
+      "conventions": "Conventions",
+      "skip": "Aller au contenu",
+      "lesson": "Dans cette leçon",
+      "intro": "Application, exemples et réponses",
+      "learn": "Apprendre le bridge",
+      "description": "Explications, exemples de mains et développements des enchères.",
+      "play": "Jouer maintenant",
+      "table": "Tableau des enchères",
+      "playText": "Sur Leonardo Bridge, jouez au bridge en ligne gratuitement et sans limite. Entraînez-vous avec des robots à votre rythme, participez à des tournois ou jouez avec des amis."
+    },
+    "cards": [
+      "Interventions après l’ouverture naturelle de 1SA.",
+      "Interventions bicolores après une ouverture de un à la couleur.",
+      "Les deux couleurs non annoncées les moins chères en une enchère.",
+      "Interventions unicolores et bicolores contre un 1SA fort."
+    ]
+  },
+  {
+    "code": "de",
+    "name": "Deutsch",
+    "suits": [
+      "Pik",
+      "Coeur",
+      "Karo",
+      "Treff"
+    ],
+    "ranks": {
+      "A": "Ass",
+      "K": "König",
+      "Q": "Dame",
+      "J": "Bube",
+      "T": "Zehn"
+    },
+    "ui": {
+      "conventions": "Konventionen",
+      "skip": "Zum Inhalt",
+      "lesson": "In dieser Lektion",
+      "intro": "Anwendung, Beispiele und Antworten",
+      "learn": "Bridge lernen",
+      "description": "Erklärungen, Beispielhände und Weiterreizungen.",
+      "play": "Jetzt spielen",
+      "table": "Reiztabelle",
+      "playText": "Auf Leonardo Bridge kannst du kostenlos und unbegrenzt online Bridge spielen. Übe mit Robotern in deinem Tempo, nimm an Turnieren teil oder spiele mit Freunden."
+    },
+    "cards": [
+      "Gegenreizungen nach einer natürlichen 1SA-Eröffnung.",
+      "Zweifärber nach einer Farberöffnung auf Einerstufe.",
+      "Die beiden niedrigsten ungereizten Farben mit einem Gebot.",
+      "Einfärber und Zweifärber gegen eine starke 1SA-Eröffnung."
+    ]
+  },
+  {
+    "code": "it",
+    "name": "Italiano",
+    "suits": [
+      "picche",
+      "cuori",
+      "quadri",
+      "fiori"
+    ],
+    "ranks": {
+      "A": "asso",
+      "K": "re",
+      "Q": "donna",
+      "J": "fante",
+      "T": "dieci"
+    },
+    "ui": {
+      "conventions": "Convenzioni",
+      "skip": "Vai al contenuto",
+      "lesson": "In questa lezione",
+      "intro": "Applicazione, esempi e risposte",
+      "learn": "Imparare il bridge",
+      "description": "Spiegazioni, mani di esempio e sviluppi della dichiarazione.",
+      "play": "Gioca ora",
+      "table": "Tabella delle dichiarazioni",
+      "playText": "Su Leonardo Bridge puoi giocare a bridge online gratuitamente e senza limiti. Allenati con i robot al tuo ritmo, partecipa ai tornei o gioca con gli amici."
+    },
+    "cards": [
+      "Interventi dopo l’apertura naturale di 1SA.",
+      "Interventi bicolori dopo un’apertura di uno a colore.",
+      "I due colori non dichiarati di rango più basso con una dichiarazione.",
+      "Interventi monocolori e bicolori contro 1SA forte."
+    ]
+  }
+]

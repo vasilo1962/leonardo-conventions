@@ -164,3 +164,12 @@
 | ko | 큐비드, 오버콜, 게임 포싱, 아티피설 비딩, 레이즈 | [HWP — 브리지 용어](https://brunch.co.kr/%4071752462fdec4c1/70), [서울스포츠 — 기본 용어](https://news.seoulsports.or.kr/web/pds/pdsView.do?catid=15&pdsid=1845&scattit=) |
 
 Οι παραπάνω έλεγχοι δεν σημαίνουν ότι ολοκληρώθηκαν οι μεταφράσεις ή ότι επαληθεύτηκε κάθε ειδικός όρος σε κάθε γλώσσα. Οι κατανομές, τα όρια και οι συνέχειες μεταφέρονται από τα συμφωνημένα ελληνικά κείμενα, χωρίς υιοθέτηση διαφορετικών τοπικών συστημάτων.
+
+## Πρώτη μεταφραστική ομάδα — en, fr, de, it
+
+13/11/2026: ετοιμάστηκαν πλήρεις αποδόσεις και των τεσσάρων άρθρων. Δεν υιοθετήθηκαν διαφορετικές τοπικές αγοραστικές εκδοχές. Τα κοινά παραδείγματα ελέγχονται αυτόματα ως προς την ταυτότητα των φύλλων.
+
+- Αγγλικά: overcall, penalty double, one-suited / two-suited hand, direct / balancing seat, game invitation. Πηγή: [Larry Cohen — DONT](https://www.larryco.com/bridge-articles/dont) και [ACBL — DONT](https://web2.acbl.org/documentLibrary/play/Commonly_Used_Conventions/dontover1nt.pdf).
+- Γαλλικά: intervention, contre punitif, unicolore / bicolore, majeure / mineure, réveil, manche. Χρησιμοποιείται SA στις αγορές. Πηγή: [Comprenez le Bridge — I–L](https://www.bridge-chailley.fr/dictionnaires/index-m-z/i-l/), [D](https://www.bridge-chailley.fr/dictionnaires/termes-de-bridge-a-l/dictionnaire-d-l/). Τα Michaels εδώ δεν είναι τα γαλλικά «précisés».
+- Γερμανικά: Gegenreizung, Strafkontra, Einfärber / Zweifärber, Oberfarbe / Unterfarbe, Wiederbelebung, Vollspiel. Χρησιμοποιείται SA στις αγορές. Πηγή: [DBV — Wiederbelebungskontra](https://www.bridge-verband.de/clients/bridge/content/e180/e193/e10914/e12858/files12870/DBV2020AllesberKontraLektion10Wiederbelebungskontra.pdf), [Turnierbridge — Multi Landy](https://www.turnierbridge.de/wp-content/uploads/2023/12/Multi-Landy-Dez-23.pdf). Οι διαφορετικές σημασίες του κοντρ στην πηγή δεν μεταφέρονται στα άρθρα μας.
+- Ιταλικά: intervento, contro punitivo, monocolore / bicolore, nobile / minore, surlicita, riapertura, manche, passa o correggi. Χρησιμοποιείται SA στις αγορές. Πηγή: [FIGB — γλωσσάρι](https://www.federbridge.it/AlbiFed/Download/I_diventare/12%40GLOSSARIO.pdf), [FIGB — Bridge d’Italia 2020](https://www.federbridge.it/Riviste/2020/1/99.pdf), [Pescara Bridge — Interventi speciali e difese](https://www.pescarabridge.it/wp-content/uploads/2024/04/11-Interventi-speciali-e-difese.pdf).
