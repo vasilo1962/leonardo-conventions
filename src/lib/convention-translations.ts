@@ -1,3 +1,5 @@
+import type { ConventionArticle } from '@/lib/bridge-conventions';
+import registry from '@/generated/conventions.json';
 import type { InfoLanguage } from '@/lib/info-popup-translations';
 
 export const CONVENTION_LANGUAGE_NAMES: Record<InfoLanguage, string> = {
@@ -609,8 +611,6 @@ export function getConventionUiCopy(language: InfoLanguage) { return ui[language
 /** Game vocabulary is independent of educational article publication. */
 export function getBenConventionVocabulary(language: InfoLanguage) { return vocabulary[language]; }
 
-import type { ConventionArticle } from '@/lib/bridge-conventions';
-import registry from '@/generated/conventions.json';
 export function getLocalizedConvention(article: ConventionArticle, language: InfoLanguage): ConventionArticle {
   const id = article.conventionId;
   const translated = (registry.articles as ConventionArticle[]).find(item => item.conventionId === id && item.language === language);

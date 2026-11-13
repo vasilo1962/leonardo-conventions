@@ -1,5 +1,4 @@
 import { getConvention, getConventionArticles } from '@/lib/bridge-conventions';
-import { CONVENTION_LANGUAGE_NAMES as LANGUAGE_NAMES } from '@/lib/convention-translations';
 import { useLocalSearchParams } from 'expo-router';
 import { useState } from 'react';
 import { Platform, useWindowDimensions, View } from 'react-native';
@@ -16,7 +15,7 @@ export default function HeaderLanguageControl({ size, gap, fontSize, onMenuHover
   const { language, selectLanguage } = usePlayerLanguage();
   const {slug} = useLocalSearchParams<{slug?:string}>();
   const currentArticle = getConvention(slug);
-  const availableLanguages = (Object.keys(LANGUAGE_NAMES) as InfoLanguage[]).filter(option => !currentArticle || getConventionArticles(option).some(item => item.conventionId === currentArticle.conventionId));
+  const availableLanguages = (Object.keys(CONVENTION_LANGUAGE_NAMES) as InfoLanguage[]).filter(option => !currentArticle || getConventionArticles(option).some(item => item.conventionId === currentArticle.conventionId));
   const [focused, setFocused] = useState(false);
   const { width, height } = useWindowDimensions();
   const label = getConventionUiCopy(language).selectLanguage;
