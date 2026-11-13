@@ -1,0 +1,7 @@
+{
+  "name": "leonardo-conventions",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs" },
+  "devDependencies": { "marked": "17.0.5" }
+}
