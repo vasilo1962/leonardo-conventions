@@ -304,5 +304,141 @@
       "Konuşulmamış en ucuz iki rengi tek deklareyle göstermek.",
       "Kuvvetli 1NT’ye karşı tek renkli ve iki renkli araya girişler."
     ]
+  },
+  {
+    "code": "sv",
+    "name": "Svenska",
+    "suits": [
+      "spader",
+      "hjärter",
+      "ruter",
+      "klöver"
+    ],
+    "ranks": {
+      "A": "ess",
+      "K": "kung",
+      "Q": "dam",
+      "J": "knekt",
+      "T": "tio"
+    },
+    "ui": {
+      "conventions": "Konventioner",
+      "skip": "Till innehållet",
+      "lesson": "I den här lektionen",
+      "intro": "Användning, exempel och svar",
+      "learn": "Lär dig bridge",
+      "description": "Förklaringar, exempel på händer och fortsatt budgivning.",
+      "play": "Spela nu",
+      "table": "Budtabell",
+      "playText": "På Leonardo Bridge kan du spela bridge online gratis och utan begränsningar. Öva med robotar i din egen takt, delta i tävlingar eller spela med vänner."
+    },
+    "cards": [
+      "Inkliv efter en naturlig 1NT-öppning.",
+      "Tvåfärgshänder efter en färgöppning på enläget.",
+      "De två lägsta objudna färgerna med ett enda bud.",
+      "Enfärgs- och tvåfärgshänder mot en stark 1NT."
+    ]
+  },
+  {
+    "code": "da",
+    "name": "Dansk",
+    "suits": [
+      "spar",
+      "hjerter",
+      "ruder",
+      "klør"
+    ],
+    "ranks": {
+      "A": "es",
+      "K": "konge",
+      "Q": "dame",
+      "J": "knægt",
+      "T": "ti"
+    },
+    "ui": {
+      "conventions": "Konventioner",
+      "skip": "Til indholdet",
+      "lesson": "I denne lektion",
+      "intro": "Anvendelse, eksempler og svar",
+      "learn": "Lær bridge",
+      "description": "Forklaringer, eksempelhænder og videre meldinger.",
+      "play": "Spil nu",
+      "table": "Meldetabel",
+      "playText": "På Leonardo Bridge kan du spille bridge online gratis og uden begrænsninger. Øv dig med robotter i dit eget tempo, deltag i turneringer eller spil med venner."
+    },
+    "cards": [
+      "Indmeldinger efter en naturlig åbning 1UT.",
+      "Tofarvede indmeldinger efter en farveåbning på 1-trinnet.",
+      "De to laveste umeldte farver med én melding.",
+      "Enfarvede og tofarvede indmeldinger mod en stærk 1UT."
+    ]
+  },
+  {
+    "code": "no",
+    "name": "Norsk",
+    "suits": [
+      "spar",
+      "hjerter",
+      "ruter",
+      "kløver"
+    ],
+    "ranks": {
+      "A": "ess",
+      "K": "konge",
+      "Q": "dame",
+      "J": "knekt",
+      "T": "ti"
+    },
+    "ui": {
+      "conventions": "Konvensjoner",
+      "skip": "Til innholdet",
+      "lesson": "I denne leksjonen",
+      "intro": "Bruk, eksempler og svar",
+      "learn": "Lær bridge",
+      "description": "Forklaringer, eksempelhender og videre meldinger.",
+      "play": "Spill nå",
+      "table": "Meldetabell",
+      "playText": "På Leonardo Bridge kan du spille bridge på nett gratis og uten begrensninger. Øv med roboter i ditt eget tempo, delta i turneringer eller spill med venner."
+    },
+    "cards": [
+      "Innmeldinger etter en naturlig åpning 1NT.",
+      "Tofargede innmeldinger etter en fargeåpning på ett-trinnet.",
+      "De to laveste umeldte fargene med én melding.",
+      "Enfargede og tofargede innmeldinger mot en sterk 1NT."
+    ]
+  },
+  {
+    "code": "fi",
+    "name": "Suomi",
+    "suits": [
+      "pata",
+      "hertta",
+      "ruutu",
+      "risti"
+    ],
+    "ranks": {
+      "A": "ässä",
+      "K": "kuningas",
+      "Q": "rouva",
+      "J": "sotamies",
+      "T": "kymmenen"
+    },
+    "ui": {
+      "conventions": "Konventiot",
+      "skip": "Siirry sisältöön",
+      "lesson": "Tässä oppitunnissa",
+      "intro": "Käyttö, esimerkit ja vastaukset",
+      "learn": "Opi bridgeä",
+      "description": "Selityksiä, esimerkkikäsiä ja tarjoussarjojen jatkoja.",
+      "play": "Pelaa nyt",
+      "table": "Tarjoustaulukko",
+      "playText": "Leonardo Bridgessä voit pelata bridgeä verkossa maksutta ja rajattomasti. Harjoittele robottien kanssa omaan tahtiisi, osallistu kilpailuihin tai pelaa ystävien kanssa."
+    },
+    "cards": [
+      "Välitarjoukset luonnollisen 1NT-avauksen jälkeen.",
+      "Kaksivärivälitarjoukset yhden tason väriavauksen jälkeen.",
+      "Kaksi alinta tarjoamatonta väriä yhdellä tarjouksella.",
+      "Yksi- ja kaksivärivälitarjoukset vahvaa 1NT:tä vastaan."
+    ]
   }
 ]
