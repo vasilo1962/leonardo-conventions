@@ -24,7 +24,6 @@ let html = marked.parse(content).replace(/<h2>(.*?)<\/h2>/g, (_, title) => {
   return `<h2 id="${id}">${title}</h2>`;
 }).replace(/<table>/g, '<div class="table-wrap" role="region" aria-label="Πίνακας αγορών" tabindex="0"><table>').replace(/<\/table>/g, '</table></div>').replace(/<th>/g, '<th scope="col">');
 if (headings.length !== ids.length) throw new Error('Μη αναμενόμενη δομή άρθρου');
-const legacy = JSON.parse(await readFile('content/legacy/conventions.el.json', 'utf8'));
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 function page({ title, description, route = '', canonicalRoute = route, body }) {
   const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
@@ -48,38 +47,15 @@ await writeFile('site/el/multi-landy/index.html', page({
     '</ol></nav><main id="main"><article><p class="eyebrow">ΠΑΡΕΜΒΟΛΕΣ ΜΕΤΑ ΑΠΟ 1ΝΤ</p><h1>Multi Landy</h1><p class="intro-label">Εφαρμογή, παραδείγματα και απαντήσεις</p>' +
     html + '</article>' + playOnline + '</main></div>'
 }));
-const groups = [...new Set(legacy.articles.map(a => a.group))];
 for (const [path, prefix, route] of [['site/index.html', '', ''], ['site/el/index.html', '../', 'el/']]) {
-  const cards = groups.map((group, index) => '<section aria-labelledby="group-' + index + '"><h3 id="group-' + index + '">' + escapeHtml(group) + '</h3><ul class="convention-list">' +
-    legacy.articles.filter(a => a.group === group).map(a => '<li><a href="' + prefix + a.slug + '/">' + escapeHtml(a.title) + '</a></li>').join('') +
-    '</ul></section>').join('');
   await writeFile(path, page({
     title: 'Συμβάσεις μπριτζ | Leonardo Bridge',
-    description: 'Συμβάσεις μπριτζ, αναλυτικοί οδηγοί με παραδείγματα και σημειώσεις συστήματος.',
+    description: 'Συμβάσεις μπριτζ με αναλυτικές εξηγήσεις, παραδείγματα χεριών και συνέχειες αγορών.',
     route,
     body: '<main id="main" class="listing catalog"><p class="eyebrow">ΜΑΘΑΙΝΟΥΜΕ ΜΠΡΙΤΖ</p><h1>Συμβάσεις μπριτζ</h1>' +
       '<p>Εξηγήσεις, παραδείγματα χεριών και συνέχειες αγορών.</p>' +
-      '<section aria-labelledby="detailed-guides"><h2 id="detailed-guides">Αναλυτικοί οδηγοί</h2>' +
-      '<a class="card-link" href="' + prefix + 'el/multi-landy/"><strong>Multi Landy</strong><span>Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.</span></a></section>' +
-      '<section aria-labelledby="system-notes"><h2 id="system-notes">Σημειώσεις συστήματος</h2><p class="catalog-note">Σύντομες σημειώσεις που περιγράφουν συμφωνίες συγκεκριμένου ζευγαριού. Οι εκδοχές μπορεί να διαφέρουν από τους αναλυτικούς οδηγούς.</p>' +
-      cards + '</section>' + playOnline + '</main>'
+      '<section aria-label="Διαθέσιμες συμβάσεις"><a class="card-link" href="' + prefix + 'el/multi-landy/"><strong>Multi Landy</strong><span>Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.</span></a></section>' +
+      playOnline + '</main>'
   }));
 }
-for (const a of legacy.articles) {
-  const content = a.sections.map(section => (section.heading ? '<h2>' + escapeHtml(section.heading) + '</h2>' : '') +
-    section.lines.map(line => '<p>' + escapeHtml(line) + '</p>').join('')).join('');
-  const variantNote = a.slug === 'asmeniadis-two-suit-overcalls'
-    ? '<p class="variant-note">Η ενότητα Multi Landy παρακάτω περιγράφει διαφορετικές συμφωνίες από τον <a href="../el/multi-landy/">αναλυτικό οδηγό Multi Landy</a>.</p>' : '';
-  for (const slug of [a.slug, ...Object.keys(legacy.aliases).filter(alias => legacy.aliases[alias] === a.slug)]) {
-    await mkdir('site/' + slug, { recursive: true });
-    await writeFile('site/' + slug + '/index.html', page({
-      title: a.title + ' | Συμβάσεις μπριτζ | Leonardo Bridge',
-      description: (a.title + ': ' + (a.sections[0]?.lines[0] || 'Σημειώσεις συστήματος')).slice(0, 155),
-      route: slug + '/', canonicalRoute: a.slug + '/',
-      body: '<div class="legacy-layout"><main id="main"><article><p class="eyebrow">ΣΗΜΕΙΩΣΕΙΣ ΣΥΣΤΗΜΑΤΟΣ</p><h1>' + escapeHtml(a.title) +
-        '</h1><p class="intro-label">Συμφωνίες συγκεκριμένου ζευγαριού · ' + escapeHtml(a.group) + '</p>' + variantNote +
-        content + '</article>' + playOnline + '</main></div>'
-    }));
-  }
-}
-console.log('Έτοιμες ' + (3 + legacy.articles.length + Object.keys(legacy.aliases).length) + ' στατικές σελίδες · 8 χέρια · 23 παλιά κείμενα και 16 παλιές εναλλακτικές διευθύνσεις.');
+console.log('Έτοιμες 3 στατικές σελίδες · Multi Landy με 8 χέρια · κατάλογος με μόνο τις νέες συμβάσεις.');
