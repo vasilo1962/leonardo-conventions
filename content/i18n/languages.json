@@ -168,5 +168,141 @@
       "I due colori non dichiarati di rango più basso con una dichiarazione.",
       "Interventi monocolori e bicolori contro 1SA forte."
     ]
+  },
+  {
+    "code": "es",
+    "name": "Español",
+    "suits": [
+      "picas",
+      "corazones",
+      "diamantes",
+      "tréboles"
+    ],
+    "ranks": {
+      "A": "as",
+      "K": "rey",
+      "Q": "dama",
+      "J": "jota",
+      "T": "diez"
+    },
+    "ui": {
+      "conventions": "Convenciones",
+      "skip": "Ir al contenido",
+      "lesson": "En esta lección",
+      "intro": "Aplicación, ejemplos y respuestas",
+      "learn": "Aprender bridge",
+      "description": "Explicaciones, manos de ejemplo y desarrollos de la subasta.",
+      "play": "Jugar ahora",
+      "table": "Tabla de subasta",
+      "playText": "En Leonardo Bridge puedes jugar al bridge en línea gratis y sin límites. Practica con robots a tu ritmo, participa en torneos o juega con amigos."
+    },
+    "cards": [
+      "Intervenciones después de una apertura natural de 1ST.",
+      "Intervenciones bicolores después de una apertura de uno a palo.",
+      "Los dos palos no declarados de menor rango en una sola voz.",
+      "Intervenciones monocolores y bicolores contra un 1ST fuerte."
+    ]
+  },
+  {
+    "code": "pt",
+    "name": "Português",
+    "suits": [
+      "espadas",
+      "copas",
+      "ouros",
+      "paus"
+    ],
+    "ranks": {
+      "A": "ás",
+      "K": "rei",
+      "Q": "dama",
+      "J": "valete",
+      "T": "dez"
+    },
+    "ui": {
+      "conventions": "Convenções",
+      "skip": "Ir para o conteúdo",
+      "lesson": "Nesta lição",
+      "intro": "Aplicação, exemplos e respostas",
+      "learn": "Aprender bridge",
+      "description": "Explicações, mãos de exemplo e desenvolvimentos do leilão.",
+      "play": "Jogar agora",
+      "table": "Tabela de vozes",
+      "playText": "No Leonardo Bridge podes jogar bridge online gratuitamente e sem limites. Pratica com robôs ao teu ritmo, participa em torneios ou joga com amigos."
+    },
+    "cards": [
+      "Intervenções após uma abertura natural em 1ST.",
+      "Intervenções bicolores após uma abertura de um em naipe.",
+      "Os dois naipes não anunciados de menor hierarquia numa só voz.",
+      "Intervenções unicolores e bicolores contra 1ST forte."
+    ]
+  },
+  {
+    "code": "nl",
+    "name": "Nederlands",
+    "suits": [
+      "schoppen",
+      "harten",
+      "ruiten",
+      "klaveren"
+    ],
+    "ranks": {
+      "A": "aas",
+      "K": "heer",
+      "Q": "vrouw",
+      "J": "boer",
+      "T": "tien"
+    },
+    "ui": {
+      "conventions": "Conventies",
+      "skip": "Naar de inhoud",
+      "lesson": "In deze les",
+      "intro": "Toepassing, voorbeelden en antwoorden",
+      "learn": "Bridge leren",
+      "description": "Uitleg, voorbeeldhanden en vervolgbiedingen.",
+      "play": "Nu spelen",
+      "table": "Biedtabel",
+      "playText": "Bij Leonardo Bridge kun je gratis en onbeperkt online bridgen. Oefen met robots in je eigen tempo, doe mee aan toernooien of speel met vrienden."
+    },
+    "cards": [
+      "Volgbiedingen na een natuurlijke 1SA-opening.",
+      "Tweekleurenspellen na een kleuropening op éénniveau.",
+      "De twee laagste ongeboden kleuren met één bod.",
+      "Eenkleurenspellen en tweekleurenspellen tegen een sterke 1SA."
+    ]
+  },
+  {
+    "code": "tr",
+    "name": "Türkçe",
+    "suits": [
+      "pik",
+      "kör",
+      "karo",
+      "trefli"
+    ],
+    "ranks": {
+      "A": "as",
+      "K": "rua",
+      "Q": "dam",
+      "J": "vale",
+      "T": "on"
+    },
+    "ui": {
+      "conventions": "Konvansiyonlar",
+      "skip": "İçeriğe geç",
+      "lesson": "Bu derste",
+      "intro": "Uygulama, örnekler ve cevaplar",
+      "learn": "Briç öğreniyoruz",
+      "description": "Açıklamalar, örnek eller ve deklarasyon devamları.",
+      "play": "Hemen oyna",
+      "table": "Deklarasyon tablosu",
+      "playText": "Leonardo Bridge’de ücretsiz ve sınırsız çevrimiçi briç oynayabilirsin. Robotlarla kendi hızında pratik yap, turnuvalara katıl veya arkadaşlarınla oyna."
+    },
+    "cards": [
+      "Natürel 1NT açışına karşı araya girişler.",
+      "Bir seviyesindeki renk açışlarına karşı iki renkli araya girişler.",
+      "Konuşulmamış en ucuz iki rengi tek deklareyle göstermek.",
+      "Kuvvetli 1NT’ye karşı tek renkli ve iki renkli araya girişler."
+    ]
   }
 ]
