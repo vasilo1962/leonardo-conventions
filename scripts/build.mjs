@@ -5,7 +5,8 @@ const { marked } = await import(require.resolve('marked'));
 
 const articles = [
   { slug: 'multi-landy', title: 'Multi Landy', hands: 8, eyebrow: 'ΠΑΡΕΜΒΟΛΕΣ ΜΕΤΑ ΑΠΟ 1ΝΤ', description: 'Multi Landy μετά από άνοιγμα 1ΝΤ: οι παρεμβολές, οι απαντήσεις και παραδείγματα χεριών, βήμα βήμα.' },
-  { slug: 'michaels-cue-bid', title: 'Michaels Cue Bid', hands: 5, eyebrow: 'ΔΙΧΡΩΜΕΣ ΠΑΡΕΜΒΟΛΕΣ', description: 'Michaels Cue Bid: δίχρωμες παρεμβολές με τουλάχιστον 5-5, απαντήσεις και παραδείγματα χεριών.' }
+  { slug: 'michaels-cue-bid', title: 'Michaels Cue Bid', hands: 5, eyebrow: 'ΔΙΧΡΩΜΕΣ ΠΑΡΕΜΒΟΛΕΣ', description: 'Michaels Cue Bid: δίχρωμες παρεμβολές με τουλάχιστον 5-5, απαντήσεις και παραδείγματα χεριών.' },
+  { slug: 'unusual-2nt', title: 'Unusual 2NT', hands: 5, eyebrow: 'ΔΙΧΡΩΜΕΣ ΠΑΡΕΜΒΟΛΕΣ', description: 'Unusual 2NT: τα δύο χαμηλότερα μη αγορασμένα χρώματα, απαντήσεις και παραδείγματα χεριών.' }
 ];
 const playOnline = (await readFile('content/shared/play-online.el.html', 'utf8')) + '\n';
 const suits = ['πίκες', 'κούπες', 'καρά', 'σπαθιά'];
@@ -60,8 +61,8 @@ for (const [path, prefix, route] of [['site/index.html', '', ''], ['site/el/inde
     route,
     body: '<main id="main" class="listing catalog"><p class="eyebrow">ΜΑΘΑΙΝΟΥΜΕ ΜΠΡΙΤΖ</p><h1>Συμβάσεις μπριτζ</h1>' +
       '<p>Εξηγήσεις, παραδείγματα χεριών και συνέχειες αγορών.</p>' +
-      '<section aria-label="Διαθέσιμες συμβάσεις"><a class="card-link" href="' + prefix + 'el/multi-landy/"><strong>Multi Landy</strong><span>Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.</span></a><a class="card-link" href="' + prefix + 'el/michaels-cue-bid/"><strong>Michaels Cue Bid</strong><span>Δίχρωμες παρεμβολές μετά από άνοιγμα ένα σε χρώμα.</span></a></section>' +
+      '<section aria-label="Διαθέσιμες συμβάσεις"><a class="card-link" href="' + prefix + 'el/multi-landy/"><strong>Multi Landy</strong><span>Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.</span></a><a class="card-link" href="' + prefix + 'el/michaels-cue-bid/"><strong>Michaels Cue Bid</strong><span>Δίχρωμες παρεμβολές μετά από άνοιγμα ένα σε χρώμα.</span></a><a class="card-link" href="' + prefix + 'el/unusual-2nt/"><strong>Unusual 2NT</strong><span>Τα δύο χαμηλότερα μη αγορασμένα χρώματα με μία αγορά.</span></a></section>' +
       playOnline + '</main>'
   }));
 }
-console.log('Έτοιμες 4 στατικές σελίδες · Multi Landy με 8 χέρια · Michaels με 5 χέρια.');
+console.log('Έτοιμες 5 στατικές σελίδες · Multi Landy με 8 χέρια · Michaels και Unusual με 5 χέρια το καθένα.');
