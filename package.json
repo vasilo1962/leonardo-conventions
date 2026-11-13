@@ -39,7 +39,7 @@
   "scripts": {
     "start": "expo start",
     "prepare": "node scripts/prepare-content.mjs",
-    "build": "node scripts/prepare-content.mjs && expo export --platform web && node scripts/finalize-export.mjs",
+    "build": "node scripts/prepare-content.mjs && expo export --platform web && node scripts/finalize-export.mjs && node scripts/check-export.mjs",
     "lint": "expo lint"
   },
   "private": true,

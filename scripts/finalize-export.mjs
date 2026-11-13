@@ -10,7 +10,8 @@ const mode=process.env.CONVENTIONS_MODE||'preview';
 assert(['preview','publish'].includes(mode));
 const basePath=process.env.CONVENTIONS_BASE_PATH||'/conventions';
 assert.equal(basePath,mode==='publish'?'/conventions':'/conventions-preview/'+sha);
-for(const article of registry.articles){
+const localizedPages = [...registry.articles, ...Object.entries(registry.redirects).map(([slug,target])=>({...registry.articles.find(article=>article.slug===target),slug}))];
+for(const article of localizedPages){
   const path=resolve(dist,article.slug+'.html');
   const html=await readFile(path,'utf8');
   const direction=['ar','he'].includes(article.language)?'rtl':'ltr';
