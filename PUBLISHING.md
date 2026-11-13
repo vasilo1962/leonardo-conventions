@@ -4,7 +4,7 @@
 
 ## Καθημερινή εργασία στο Leonardo Επικοινωνία
 
-1. Ξεκίνα από main του vasilo1962/leonardo-conventions μέσω GitHub connector.
+1. Ξεκίνα από main του vasilo1962/leonardo-conventions μέσω GitHub connector και διάβασε το CONVENTIONS_PROJECT_RULES.md.
 2. Αποθήκευσε τις συμφωνημένες αλλαγές σε branch. Κάθε content/<id>/<γλώσσα>.json είναι ανεξάρτητη μετάφραση. Νέα σύμβαση προστίθεται στο catalog.json. status: draft για προσχέδιο, published για επιλεγμένη δημοσίευση.
 3. Από Actions > Conventions preview and publication, επίλεξε mode preview και το πλήρες source_commit. Δεν εκτελούνται έλεγχοι παιχνιδιού.
 4. Η προεπισκόπηση βρίσκεται στο https://leonardobridge.com/conventions-preview/<πλήρες-commit>/. Είναι δημόσια προσβάσιμη αλλά αποκλείεται από ευρετηρίαση.
