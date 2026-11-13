@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-hu",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Szuperelfogadás",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Szuperelfogadás dublóval: licitáljuk a színt.",
+        "2NT: Szuperelfogadás dublóval (a transzfer színe).",
+        "Minimummal a válaszoló retransferrel folytatja.",
+        "Minden más licit cuebid."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "hu",
+  "status": "published"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-is",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ án samlegu, hvorki einlita né tvílita hönd.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: veikt, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 spil í ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 spil í ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: þriggja spila samlega, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: áskorun með þriggja spila stuðningi.",
+        "2♠: 6 spil í ♠, veikt.",
+        "2NT: Jordan, fjögur spil, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ án samlegu, hvorki einlita né tvílita hönd.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: veikt, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 spil í ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 spil í ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: þriggja spila samlega, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: áskorun með þriggja spila stuðningi.",
+        "2♠: þriggja spila samlega, veikt.",
+        "2NT: Jordan, fjögur spil, limit+.",
+        "Bergen-sagnvenjan gildir.",
+        "Með einlita hönd: yfirfærsla og hækkun."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "is",
+  "status": "published"
+}

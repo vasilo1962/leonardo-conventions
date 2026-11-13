@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-es",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "Subasta artificial tras cualquier respuesta a Stayman que pide describir la mano."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: exactamente un menor de cuatro cartas.",
+        "3♥: ¿qué menor? 3♠: 4 cartas en ♣ · 3NT: 4 cartas en ♦.",
+        "3♥: 5 cartas en ♣.",
+        "3♠: 5 cartas en ♦.",
+        "3NT: 4-4 en los menores."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: exactamente un menor de cuatro cartas.",
+        "3♥*: ¿qué menor? 3♠*: 4 cartas en ♣ · 3NT: 4 cartas en ♦.",
+        "3♥: 5 cartas en ♥.",
+        "3♠: 4 cartas en ♠.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: exactamente un menor de cuatro cartas.",
+        "3♥*: ¿qué menor? 3♠*: 4 cartas en ♣ · 3NT: 4 cartas en ♦.",
+        "3♠: 5 cartas en ♠.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Regla mnemotécnica",
+      "lines": [
+        "La respuesta de 3♦ siempre muestra exactamente un menor de cuatro cartas."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "es",
+  "status": "published"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-pl",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Próba szlemowa po Staymanie",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: fit, próba szlemowa z singletonem (OM: drugi starszy kolor).",
+        "3NT: pyta o singletona.",
+        "4X (X≠M): singleton.",
+        "4♥: singleton ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: ilościowe z fitem.",
+        "4NT: ilościowe bez fitu."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "pl",
+  "status": "published"
+}

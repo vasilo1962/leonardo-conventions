@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-pl",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: ręka niezrównoważona.",
+        "1NT: ręka zrównoważona."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: jeśli odpowiadający kontynuuje, inwit z czterema kartami w ♥/♠.",
+        "2♦: GF, pyta o ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "pl",
+  "status": "published"
+}

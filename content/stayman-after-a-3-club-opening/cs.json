@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-cs",
+  "group": "Ανοίγματα",
+  "title": "Stayman po zahájení 3♣",
+  "sections": [
+    {
+      "heading": "Odpovědi",
+      "lines": [
+        "3♦: Stayman na třílistou drahou barvu.",
+        "3♥/3♠: tři karty ve druhé drahé barvě (aby hrála silnější ruka).",
+        "3NT: žádná.",
+        "4♣: tři karty v obou drahých barvách."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "cs",
+  "status": "published"
+}

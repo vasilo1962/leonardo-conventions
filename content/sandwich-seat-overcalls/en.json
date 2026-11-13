@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-en",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Sandwich-Seat Overcalls",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: natural.",
+        "Double: the other two suits.",
+        "2♣: 5-5 the other two suits.",
+        "2♥: natural.",
+        "2NT: wild distribution (6-5), very few points.",
+        "With very strong hands, start with double."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "en",
+  "status": "published"
+}

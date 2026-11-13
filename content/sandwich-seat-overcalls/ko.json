@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-ko",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "샌드위치 위치의 오버콜",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: 내추럴.",
+        "Double: 나머지 두 수트.",
+        "2♣: 5-5 나머지 두 수트.",
+        "2♥: 내추럴.",
+        "2NT: 극단적인 분포 (6-5), 매우 적은 점수.",
+        "매우 강한 핸드는 더블부터 시작한다."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "ko",
+  "status": "published"
+}

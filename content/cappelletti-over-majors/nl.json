@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-nl",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ zonder fit, geen eenkleurenspel of tweekleurenspel.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: zwak, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 kaarten in ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 kaarten in ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: driekaartfit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviterend met driekaartsteun.",
+        "2♠: 6 kaarten in ♠, zwak.",
+        "2NT: Jordan, vier kaarten, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ zonder fit, geen eenkleurenspel of tweekleurenspel.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: zwak, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 kaarten in ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 kaarten in ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: driekaartfit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviterend met driekaartsteun.",
+        "2♠: driekaartfit, zwak.",
+        "2NT: Jordan, vier kaarten, limit+.",
+        "De Bergen-conventie geldt.",
+        "Met een eenkleurenspel: transfer en verhoging."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "nl",
+  "status": "published"
+}

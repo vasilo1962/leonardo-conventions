@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-cs",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Odpověď se šikénou",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: lichý počet + šikéna (5: lichý počet).",
+        "6♣: ptá se na barvu šikény.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "cs",
+  "status": "published"
+}

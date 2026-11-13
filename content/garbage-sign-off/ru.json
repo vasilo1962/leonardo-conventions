@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-ru",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 или 5-4 или 5-5 и 0 очков (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "С тремя пиками открывающий ВСЕГДА исправляет на 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "ru",
+  "status": "published"
+}

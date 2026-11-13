@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-id",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Respons dengan Void",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: jumlah ganjil + void (5: jumlah ganjil).",
+        "6♣: menanyakan warna void.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "id",
+  "status": "published"
+}

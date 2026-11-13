@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-id",
+  "group": "Ανοίγματα",
+  "title": "Stayman Setelah Pembukaan 3♣",
+  "sections": [
+    {
+      "heading": "Respons",
+      "lines": [
+        "3♦: Stayman untuk mayor tiga kartu.",
+        "3♥/3♠: tiga kartu pada mayor lainnya (agar tangan kuat menjadi deklarer).",
+        "3NT: tidak ada.",
+        "4♣: tiga kartu pada kedua mayor."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "id",
+  "status": "published"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "5-4-or-5-5-in-the-majors-after-1nt-is",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "5-4 eða 5-5 í hálitum eftir 1NT",
+  "sections": [
+    {
+      "heading": "Limit",
+      "lines": [
+        "5♥ / 4♠: 1NT – 2♦* · 2♥ – 2♠.",
+        "5♠ / 4♥: 1NT – 2♣ · 2♦ – 2♠.",
+        "5-5: 1NT – 2♥* · 2♠ – 3♥."
+      ]
+    },
+    {
+      "heading": "Game Forcing",
+      "lines": [
+        "5-4 (Smolen)",
+        "1NT – 2♣ · 2♦ – 3 í fjórlitnum.",
+        "5-5",
+        "1NT – 2♥ · 2♠ – 4♥.",
+        "6-5 eða 6-6",
+        "Allar 6-5 eða 6-6 hendur eru að minnsta kosti geimkrafa.",
+        "1NT – 4♣."
+      ]
+    },
+    {
+      "heading": "Minnisreglur fyrir 1NT",
+      "lines": [
+        "Áskorun með 5-4",
+        "A. Opnari spilar ekki spaða, eða",
+        "B. Byrjum á fimmlitnum (2♣ fyrir ♠, 2♦ fyrir ♥).",
+        "Allar 5-5 hendur",
+        "Byrjum á 2♥."
+      ]
+    }
+  ],
+  "conventionId": "5-4-or-5-5-in-the-majors-after-1nt",
+  "language": "is",
+  "status": "published"
+}

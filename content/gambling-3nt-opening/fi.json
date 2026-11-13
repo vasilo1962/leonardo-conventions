@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-fi",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT -avaus",
+  "sections": [
+    {
+      "lines": [
+        "Seitsemän kortin juokseva alaväri ilman sivuässää tai -kuningasta."
+      ]
+    },
+    {
+      "heading": "Vastaukset",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (minulla on ruutuässä).",
+        "4♦: vahva tarjous, slammiyritys, kysyy onko avaajalla singelton."
+      ]
+    },
+    {
+      "heading": "Vastaukset 4♦",
+      "lines": [
+        "4NT: ei singeltonia.",
+        "4♥/♠: singelton ♥/♠.",
+        "5♣/♦: singelton toisessa alavärissä."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "fi",
+  "status": "published"
+}

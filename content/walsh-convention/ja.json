@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-ja",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: アンバランスハンド.",
+        "1NT: バランスハンド."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: レスポンダーが続ければ、♥/♠4枚のインビテーショナル.",
+        "2♦: GF, ♥/♠を尋ねる."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "ja",
+  "status": "published"
+}

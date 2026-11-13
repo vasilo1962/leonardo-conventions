@@ -1,0 +1,17 @@
+{
+  "slug": "limit-after-1nt-with-one-or-both-four-card-majors-ko",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "1NT 후 하나 또는 두 개의 4장 메이저로 초청",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2NT*: 4장 메이저가 없을 수도 있다.",
+        "1NT – 2♣ · 2♥ – 2♠*: 초청, 스페이드 없음, 하트.",
+        "1NT – 2♣ · 2♥ – 2NT*: 스페이드 4장으로 초청."
+      ]
+    }
+  ],
+  "conventionId": "limit-after-1nt-with-one-or-both-four-card-majors",
+  "language": "ko",
+  "status": "published"
+}

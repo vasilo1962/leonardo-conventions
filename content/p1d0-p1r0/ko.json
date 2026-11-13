@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-ko",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: 첫 번째 단계 (우리의 첫 번째 단계: 1-4).",
+        "4NT – (5X) – double: 두 번째 단계 (3-0).",
+        "4NT – (double) – pass: 첫 번째 단계 (1-4).",
+        "4NT – (double) – redouble: 두 번째 단계 (3-0).",
+        "따라서: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "ko",
+  "status": "published"
+}

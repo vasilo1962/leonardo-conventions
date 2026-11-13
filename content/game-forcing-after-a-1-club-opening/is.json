@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-is",
+  "group": "Ανοίγματα",
+  "title": "Geimkrafa eftir 1♣ opnun",
+  "sections": [
+    {
+      "heading": "Svör",
+      "lines": [
+        "<limit; 4 spil í ♥/♠: 1♥/♠ (óháð fjölda ♦).",
+        "1♣ – 2NT: 12–14 eða 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "is",
+  "status": "published"
+}

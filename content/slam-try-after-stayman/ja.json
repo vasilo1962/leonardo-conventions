@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-ja",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "ステイマン後のスラムトライ",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: フィット、シングルトンを持つスラムトライ（OM：もう一方のメジャー）.",
+        "3NT: シングルトンを尋ねる.",
+        "4X (X≠M): シングルトン.",
+        "4♥: シングルトン ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: フィットありのクオンティタティブ.",
+        "4NT: フィットなしのクオンティタティブ."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "ja",
+  "status": "published"
+}

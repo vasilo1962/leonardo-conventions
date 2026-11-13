@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-nl",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "Een kunstmatig bod na elk Stayman-antwoord dat om een handbeschrijving vraagt."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: precies één vierkaart laag.",
+        "3♥: welke lage kleur? 3♠: 4 kaarten in ♣ · 3NT: 4 kaarten in ♦.",
+        "3♥: 5 kaarten in ♣.",
+        "3♠: 5 kaarten in ♦.",
+        "3NT: 4-4 in de lage kleuren."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: precies één vierkaart laag.",
+        "3♥*: welke lage kleur? 3♠*: 4 kaarten in ♣ · 3NT: 4 kaarten in ♦.",
+        "3♥: 5 kaarten in ♥.",
+        "3♠: 4 kaarten in ♠.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: precies één vierkaart laag.",
+        "3♥*: welke lage kleur? 3♠*: 4 kaarten in ♣ · 3NT: 4 kaarten in ♦.",
+        "3♠: 5 kaarten in ♠.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Ezelsbruggetje",
+      "lines": [
+        "Het antwoord 3♦ toont altijd precies één vierkaart laag."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "nl",
+  "status": "published"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-de",
+  "group": "Ανοίγματα",
+  "title": "Partieforcierend nach einer 1♣-Eröffnung",
+  "sections": [
+    {
+      "heading": "Antworten",
+      "lines": [
+        "<limit; 4 Karten in ♥/♠: 1♥/♠ (unabhängig von der Anzahl der ♦).",
+        "1♣ – 2NT: 12–14 oder 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "de",
+  "status": "published"
+}

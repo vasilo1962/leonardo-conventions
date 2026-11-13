@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-da",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: ubalanceret hånd.",
+        "1NT: balanceret hånd."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: hvis svarhånden fortsætter, inviterende med fire kort i ♥/♠.",
+        "2♦: GF, spørger efter ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "da",
+  "status": "published"
+}

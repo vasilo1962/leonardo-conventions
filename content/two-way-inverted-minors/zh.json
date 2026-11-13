@@ -1,0 +1,38 @@
+{
+  "slug": "two-way-inverted-minors-zh",
+  "group": "Ανοίγματα",
+  "title": "Two Way Inverted Minors",
+  "sections": [
+    {
+      "heading": "1♣ – 2♣ Limit",
+      "lines": [
+        "应叫:",
+        "2♦/♥/♠: 止张.",
+        "2NT: min, 各花色均有止张, to play.",
+        "3♣: super min.",
+        "3♦/♥/♠: splinter.",
+        "3NT: to play.",
+        "4♣: minorwood.",
+        "4♦/♥/♠: exclusion blackwood.",
+        "优先叫3♣。"
+      ]
+    },
+    {
+      "heading": "1♣ – 2♦ FG",
+      "lines": [
+        "应叫:",
+        "2♥/♠: 止张.",
+        "2NT: min, 各花色均有止张, 12–14 或 18–19.",
+        "3♣: super min. 优先叫3♣。",
+        "3♦: 止张.",
+        "3♥/♠ 和 4♦: splinter.",
+        "3NT: max, 各花色均有止张, 15–17.",
+        "4♣: minorwood.",
+        "4♥/♠ 和 5♦: exclusion blackwood."
+      ]
+    }
+  ],
+  "conventionId": "two-way-inverted-minors",
+  "language": "zh",
+  "status": "published"
+}

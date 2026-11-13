@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-fi",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Asmeniadis-kaksivärivälitarjoukset",
+  "sections": [
+    {
+      "heading": "Väriavaus yhden tasolla (ΥΧΑ)",
+      "lines": [
+        "Vähintään 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: ylemmät värit.",
+        "(1X) – 2NT: alemmat värit.",
+        "(1X) – 3♣: äärimmäiset värit."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: 5 korttia ♣ tai ♦ / 4 korttia ♥ tai ♠.",
+        "Vastaukset: 2♦ alaväri on parempi · 2♥ yläväri on parempi.",
+        "2♣: majors.",
+        "2♦: 6 korttia värissä ♥/♠.",
+        "Vastaukset: 2/3/4♥/♠ pass or correct (jos yksi yläväri kiinnostaa, tarjoa toinen).",
+        "2♥: ♥ + ♣ tai ♦.",
+        "2♠: ♠ + ♣ tai ♦.",
+        "2NT: viiden kortin alaväri, neljän kortin yläväri.",
+        "Vastaukset muistiinpanojen mukaan: 2♣ pass or correct minor · 2♦ tarjoa yläväri."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "fi",
+  "status": "published"
+}

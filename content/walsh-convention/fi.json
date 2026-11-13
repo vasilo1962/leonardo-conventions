@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-fi",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: epätasainen käsi.",
+        "1NT: tasainen käsi."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: jos vastaaja jatkaa, inviitti neljällä ♥/♠-kortilla.",
+        "2♦: GF, kysyy ♥/♠-värejä."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "fi",
+  "status": "published"
+}

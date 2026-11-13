@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-cs",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Lebensohl po slabém dva",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "Po 2NT*",
+      "lines": [
+        "3♣: povinná odpověď¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, zádrž.",
+        "3NT: zádrž, bez čtyřlisté drahé barvy.",
+        "4♣: ♣ + druhá drahá barva (5-5).",
+        "4♦: ♦ + druhá drahá barva (5-5)."
+      ]
+    },
+    {
+      "heading": "Přímé odpovědi",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, bez zádrže (FAD).",
+        "3B (B>X): pět karet / FG.",
+        "3NT: bez zádrže, bez čtyřlisté drahé barvy (FAD).",
+        "¹ Se singletonem nemusí kontrující nabídnout 3♣."
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "cs",
+  "status": "published"
+}

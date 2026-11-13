@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-tr",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 veya 5-4 veya 5-5 ve 0 puan (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Üç pikle açıcı HER ZAMAN 2♠’e düzeltir."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "tr",
+  "status": "published"
+}

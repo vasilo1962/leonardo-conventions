@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-sv",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Svar med renons",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: udda antal + renons (5: udda antal).",
+        "6♣: frågar efter renonsfärgen.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "sv",
+  "status": "published"
+}

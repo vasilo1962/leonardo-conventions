@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-de",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Antwort mit Chicane",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: ungerade Anzahl + Chicane (5: ungerade Anzahl).",
+        "6♣: fragt nach der Chicane-Farbe.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "de",
+  "status": "published"
+}

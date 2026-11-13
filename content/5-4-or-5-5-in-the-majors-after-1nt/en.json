@@ -1,0 +1,40 @@
+{
+  "slug": "5-4-or-5-5-in-the-majors-after-1nt-en",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "5-4 or 5-5 in the Majors After 1NT",
+  "sections": [
+    {
+      "heading": "Limit",
+      "lines": [
+        "5♥ / 4♠: 1NT – 2♦* · 2♥ – 2♠.",
+        "5♠ / 4♥: 1NT – 2♣ · 2♦ – 2♠.",
+        "5-5: 1NT – 2♥* · 2♠ – 3♥."
+      ]
+    },
+    {
+      "heading": "Game Forcing",
+      "lines": [
+        "5-4 (Smolen)",
+        "1NT – 2♣ · 2♦ – 3 in the four-card suit.",
+        "5-5",
+        "1NT – 2♥ · 2♠ – 4♥.",
+        "6-5 or 6-6",
+        "All 6-5 or 6-6 hands are at least game forcing.",
+        "1NT – 4♣."
+      ]
+    },
+    {
+      "heading": "Memory aids for 1NT",
+      "lines": [
+        "Invitational 5-4",
+        "A. Opener does not play spades, or",
+        "B. Start with the five-card suit (2♣ for ♠, 2♦ for ♥).",
+        "All 5-5 hands",
+        "Start with 2♥."
+      ]
+    }
+  ],
+  "conventionId": "5-4-or-5-5-in-the-majors-after-1nt",
+  "language": "en",
+  "status": "published"
+}

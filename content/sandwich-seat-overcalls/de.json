@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-de",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Interventionen in Sandwich-Position",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: natürlich.",
+        "Double: die anderen beiden Farben.",
+        "2♣: 5-5 die anderen beiden Farben.",
+        "2♥: natürlich.",
+        "2NT: wilde Verteilung (6-5), sehr wenige Punkte.",
+        "Mit sehr starken Händen mit Kontra beginnen."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "de",
+  "status": "published"
+}

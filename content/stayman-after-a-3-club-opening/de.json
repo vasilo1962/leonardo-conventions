@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-de",
+  "group": "Ανοίγματα",
+  "title": "Stayman nach einer 3♣-Eröffnung",
+  "sections": [
+    {
+      "heading": "Antworten",
+      "lines": [
+        "3♦: Stayman für eine Dreieroberfarbe.",
+        "3♥/3♠: drei Karten in der anderen Oberfarbe (damit die stärkere Hand spielt).",
+        "3NT: keine.",
+        "4♣: drei Karten in beiden Oberfarben."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "de",
+  "status": "published"
+}

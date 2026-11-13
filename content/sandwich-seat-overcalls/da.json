@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-da",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Indmeldinger i sandwichposition",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: naturlig.",
+        "Double: de to andre farver.",
+        "2♣: 5-5 de to andre farver.",
+        "2♥: naturlig.",
+        "2NT: vild fordeling (6-5), meget få point.",
+        "Med meget stærke hænder begynder vi med dobler."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "da",
+  "status": "published"
+}

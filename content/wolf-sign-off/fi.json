@@ -1,0 +1,27 @@
+{
+  "slug": "wolf-sign-off-fi",
+  "group": "Συμβάσεις",
+  "title": "Wolf Sign-off",
+  "sections": [
+    {
+      "heading": "1♥",
+      "lines": [
+        "1♣/♦ – 1♥ · 2NT – 3♣.",
+        "3♦: ei kolmea korttia värissä ♥. Vastaukset: 3♥ to play · 3♠ FG (näin käy 4-4-jakaumalla).",
+        "3♥: kolme korttia värissä ♥. Vastaukset: pass · 3NT 4 korttia värissä ♠."
+      ]
+    },
+    {
+      "heading": "1♠",
+      "lines": [
+        "1♣/♦ – 1♠ · 2NT – 3♣.",
+        "3♦: ei kolmea korttia värissä ♠. Vastaukset: 3♠ to play.",
+        "3♠: kolme korttia värissä ♠. Vastaukset: pass · 3NT.",
+        "Huomaa: 5-4 ♠/♥ -jakaumalla tarjoamme omat värimme."
+      ]
+    }
+  ],
+  "conventionId": "wolf-sign-off",
+  "language": "fi",
+  "status": "published"
+}

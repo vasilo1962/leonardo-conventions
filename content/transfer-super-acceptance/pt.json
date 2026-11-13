@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-pt",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Superaceitação",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Superaceitação com um doubleton: declarar o naipe.",
+        "2NT: Superaceitação com um doubleton (o naipe do transfer).",
+        "Com mínimo, o respondente faz retransfer.",
+        "Qualquer outro lance é um cuebid."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "pt",
+  "status": "published"
+}

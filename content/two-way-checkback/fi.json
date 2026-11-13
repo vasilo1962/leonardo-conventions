@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-fi",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit tai pitkä ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit tai pitkä ♦.",
+        "2♦: pakollinen tarjous."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "Erityisesti: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Vastaukset tärkeysjärjestyksessä: 2♥ neljä korttia · 2♠ kolme korttia."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "fi",
+  "status": "published"
+}

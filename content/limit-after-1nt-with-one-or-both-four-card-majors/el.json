@@ -1,0 +1,17 @@
+{
+  "slug": "limit-after-1nt-with-one-or-both-four-card-majors-el",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Limit After 1NT with One or Both Four-Card Majors",
+  "sections": [
+    {
+      "lines": [
+        "1ΧΑ – 2♣ · 2♦ – 2ΧΑ*: μπορεί και να μην έχει τετράφυλλο μαζέρ.",
+        "1ΧΑ – 2♣ · 2♥ – 2♠*: προτασιακό, χωρίς πίκες, κούπες.",
+        "1ΧΑ – 2♣ · 2♥ – 2ΧΑ*: προτασιακό με τέσσερις πίκες."
+      ]
+    }
+  ],
+  "conventionId": "limit-after-1nt-with-one-or-both-four-card-majors",
+  "language": "el",
+  "status": "published"
+}

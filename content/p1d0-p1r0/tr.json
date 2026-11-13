@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-tr",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: birinci basamak (bizim birinci basamağımız: 1-4).",
+        "4NT – (5X) – double: ikinci basamak (3-0).",
+        "4NT – (double) – pass: birinci basamak (1-4).",
+        "4NT – (double) – redouble: ikinci basamak (3-0).",
+        "Dolayısıyla: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "tr",
+  "status": "published"
+}

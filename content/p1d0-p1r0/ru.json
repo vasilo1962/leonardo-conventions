@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-ru",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: первая ступень (наша первая ступень: 1-4).",
+        "4NT – (5X) – double: вторая ступень (3-0).",
+        "4NT – (double) – pass: первая ступень (1-4).",
+        "4NT – (double) – redouble: вторая ступень (3-0).",
+        "Следовательно: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "ru",
+  "status": "published"
+}

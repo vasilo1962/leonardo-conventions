@@ -1,0 +1,15 @@
+{
+  "slug": "impossible-2-spades-after-a-1-heart-opening-ru",
+  "group": "Συμβάσεις",
+  "title": "Невозможные 2♠ после открытия 1♥",
+  "sections": [
+    {
+      "lines": [
+        "1♥ – 1NT* · 2♣/♦ – 2♠*: резкий расклад <limit, fit ♣/♦."
+      ]
+    }
+  ],
+  "conventionId": "impossible-2-spades-after-a-1-heart-opening",
+  "language": "ru",
+  "status": "published"
+}

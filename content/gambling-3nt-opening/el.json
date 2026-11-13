@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-el",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT Opening",
+  "sections": [
+    {
+      "lines": [
+        "Με επτάφυλλο άκοπο μινέρ, χωρίς εξωτερική αξία (Α ή Κ)."
+      ]
+    },
+    {
+      "heading": "Απαντήσεις",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (έχω τον άσσο καρό).",
+        "4♦: δυνατή αγορά, slam try, ρωτάει τον ανοίξαντα αν έχει σόλο."
+      ]
+    },
+    {
+      "heading": "Απαντήσεις στο 4♦",
+      "lines": [
+        "4ΧΑ: όχι σόλο.",
+        "4♥/♠: σόλο ♥/♠.",
+        "5♣/♦: έχω σόλο το άλλο μινέρ."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "el",
+  "status": "published"
+}

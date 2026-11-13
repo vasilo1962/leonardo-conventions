@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-zh",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "弱二开叫后的Lebensohl",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "2NT*之后",
+      "lines": [
+        "3♣: 强制应叫¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, 止张.",
+        "3NT: 止张, 没有四张高花.",
+        "4♣: ♣ + 另一高花 (5-5).",
+        "4♦: ♦ + 另一高花 (5-5)."
+      ]
+    },
+    {
+      "heading": "直接应叫",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, 没有止张 (FAD).",
+        "3B (B>X): 五张 / FG.",
+        "3NT: 没有止张, 没有四张高花 (FAD).",
+        "¹ 加倍人持单张时，可以不叫3♣。"
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "zh",
+  "status": "published"
+}

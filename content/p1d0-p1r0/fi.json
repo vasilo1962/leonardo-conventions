@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-fi",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: ensimmäinen askel (meidän ensimmäinen askel: 1-4).",
+        "4NT – (5X) – double: toinen askel (3-0).",
+        "4NT – (double) – pass: ensimmäinen askel (1-4).",
+        "4NT – (double) – redouble: toinen askel (3-0).",
+        "Siis: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "fi",
+  "status": "published"
+}

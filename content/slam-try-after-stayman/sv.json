@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-sv",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Slamförsök efter Stayman",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: stöd, slamförsök med singelton (OM: andra högfärgen).",
+        "3NT: frågar efter singelton.",
+        "4X (X≠M): singelton.",
+        "4♥: singelton ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: kvantitativt med stöd.",
+        "4NT: kvantitativt utan stöd."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "sv",
+  "status": "published"
+}

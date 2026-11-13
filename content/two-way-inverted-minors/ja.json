@@ -1,0 +1,38 @@
+{
+  "slug": "two-way-inverted-minors-ja",
+  "group": "Ανοίγματα",
+  "title": "Two Way Inverted Minors",
+  "sections": [
+    {
+      "heading": "1♣ – 2♣ Limit",
+      "lines": [
+        "レスポンス:",
+        "2♦/♥/♠: ストッパー.",
+        "2NT: min, 全スートにストッパー, to play.",
+        "3♣: super min.",
+        "3♦/♥/♠: splinter.",
+        "3NT: to play.",
+        "4♣: minorwood.",
+        "4♦/♥/♠: exclusion blackwood.",
+        "3♣のビッドを優先する。"
+      ]
+    },
+    {
+      "heading": "1♣ – 2♦ FG",
+      "lines": [
+        "レスポンス:",
+        "2♥/♠: ストッパー.",
+        "2NT: min, 全スートにストッパー, 12–14 または 18–19.",
+        "3♣: super min. 3♣のビッドを優先する。",
+        "3♦: ストッパー.",
+        "3♥/♠ と 4♦: splinter.",
+        "3NT: max, 全スートにストッパー, 15–17.",
+        "4♣: minorwood.",
+        "4♥/♠ と 5♦: exclusion blackwood."
+      ]
+    }
+  ],
+  "conventionId": "two-way-inverted-minors",
+  "language": "ja",
+  "status": "published"
+}

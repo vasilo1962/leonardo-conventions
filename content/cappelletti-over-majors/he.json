@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-he",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: ⁧10+ ללא התאמה, יד שאינה חד־סדרתית או דו־סדרתית⁩.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: ⁧חלש⁩, 6+ ♣.",
+        "2♣ – (pass) – 2♦: ⁧5 קלפים ב־♦⁩, tolerance.",
+        "2♣ – (pass) – 2♥: ⁧2 קלפים ב־♥⁩, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: ⁧התאמה של שלושה קלפים⁩, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: ⁧הזמנה עם תמיכה של שלושה קלפים⁩.",
+        "2♠: ⁧6 קלפים ב־♠⁩, ⁧חלש⁩.",
+        "2NT: Jordan, ⁧ארבעה קלפים⁩, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: ⁧10+ ללא התאמה, יד שאינה חד־סדרתית או דו־סדרתית⁩.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: ⁧חלש⁩, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: ⁧5 קלפים ב־♦/♥⁩, tolerance.",
+        "2♣ – (pass) – 2♠: ⁧2 קלפים ב־♠⁩, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: ⁧התאמה של שלושה קלפים⁩, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: ⁧הזמנה עם תמיכה של שלושה קלפים⁩.",
+        "2♠: ⁧התאמה של שלושה קלפים⁩, ⁧חלש⁩.",
+        "2NT: Jordan, ⁧ארבעה קלפים⁩, limit+.",
+        "⁧קונבנציית ברגן חלה.⁩",
+        "⁧עם יד חד־סדרתית: העברה והעלאה.⁩"
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "he",
+  "status": "published"
+}

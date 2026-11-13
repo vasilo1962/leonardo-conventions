@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-pl",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 lub 5-4 lub 5-5 i 0 punktów (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Z trzema pikami otwierający ZAWSZE poprawia na 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "pl",
+  "status": "published"
+}

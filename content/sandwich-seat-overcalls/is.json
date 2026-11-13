@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-is",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Innákoma í samlokustöðu",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: eðlilegt.",
+        "Double: hinir tveir litirnir.",
+        "2♣: 5-5 hinir tveir litirnir.",
+        "2♥: eðlilegt.",
+        "2NT: mikil skipting (6-5), mjög fáir punktar.",
+        "Með mjög sterkar hendur byrjum við á dobli."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "is",
+  "status": "published"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "jump-cuebid-hu",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Jump Cuebid",
+  "sections": [
+    {
+      "lines": [
+        "(1♠) – 3♠: ütések egy minorban.",
+        "Válaszok: pikkfogással 3NT, különben 4♣ (pass or correct)."
+      ]
+    }
+  ],
+  "conventionId": "jump-cuebid",
+  "language": "hu",
+  "status": "published"
+}

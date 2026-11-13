@@ -1,0 +1,40 @@
+{
+  "slug": "5-4-or-5-5-in-the-majors-after-1nt-no",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "5-4 eller 5-5 i majorfargene etter 1NT",
+  "sections": [
+    {
+      "heading": "Limit",
+      "lines": [
+        "5♥ / 4♠: 1NT – 2♦* · 2♥ – 2♠.",
+        "5♠ / 4♥: 1NT – 2♣ · 2♦ – 2♠.",
+        "5-5: 1NT – 2♥* · 2♠ – 3♥."
+      ]
+    },
+    {
+      "heading": "Game Forcing",
+      "lines": [
+        "5-4 (Smolen)",
+        "1NT – 2♣ · 2♦ – 3 i firekortsfargen.",
+        "5-5",
+        "1NT – 2♥ · 2♠ – 4♥.",
+        "6-5 eller 6-6",
+        "Alle 6-5- eller 6-6-hender er minst utgangskrav.",
+        "1NT – 4♣."
+      ]
+    },
+    {
+      "heading": "Huskeregler for 1NT",
+      "lines": [
+        "Invitt med 5-4",
+        "A. Åpneren spiller ikke spar, eller",
+        "B. Begynn med femkortsfargen (2♣ for ♠, 2♦ for ♥).",
+        "Alle 5-5-hender",
+        "Begynn med 2♥."
+      ]
+    }
+  ],
+  "conventionId": "5-4-or-5-5-in-the-majors-after-1nt",
+  "language": "no",
+  "status": "published"
+}

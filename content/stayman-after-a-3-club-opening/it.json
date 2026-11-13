@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-it",
+  "group": "Ανοίγματα",
+  "title": "Stayman dopo l’apertura di 3♣",
+  "sections": [
+    {
+      "heading": "Risposte",
+      "lines": [
+        "3♦: Stayman per un maggiore terzo.",
+        "3♥/3♠: tre carte nell’altro maggiore (per far giocare la mano forte).",
+        "3NT: nessuno.",
+        "4♣: tre carte in entrambi i maggiori."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "it",
+  "status": "published"
+}

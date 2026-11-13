@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-tr",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: dengesiz el.",
+        "1NT: dengeli el."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: cevapçı devam ederse ♥/♠ renginde dört kartla davet.",
+        "2♦: GF, ♥/♠ sorar."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "tr",
+  "status": "published"
+}

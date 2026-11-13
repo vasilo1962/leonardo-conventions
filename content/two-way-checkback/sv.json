@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-sv",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit eller långa ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit eller långa ♦.",
+        "2♦: obligatoriskt bud."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "Specifikt: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Svar i prioritetsordning: 2♥ fyra kort · 2♠ tre kort."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "sv",
+  "status": "published"
+}

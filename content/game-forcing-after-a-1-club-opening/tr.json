@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-tr",
+  "group": "Ανοίγματα",
+  "title": "1♣ Açışından Sonra Zon Forsing",
+  "sections": [
+    {
+      "heading": "Yanıtlar",
+      "lines": [
+        "<limit; ♥/♠ renginde 4 kart: 1♥/♠ (♦ sayısından bağımsız olarak).",
+        "1♣ – 2NT: 12–14 veya 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "tr",
+  "status": "published"
+}

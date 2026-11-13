@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-hu",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + a másik nemes szín (5-5).",
+        "(2♥/♠) – 4♦: ♦ + a másik nemes szín (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "hu",
+  "status": "published"
+}

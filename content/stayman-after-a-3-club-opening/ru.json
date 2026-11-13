@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-ru",
+  "group": "Ανοίγματα",
+  "title": "Стейман после открытия 3♣",
+  "sections": [
+    {
+      "heading": "Ответы",
+      "lines": [
+        "3♦: Стейман на трёхкарточный мажор.",
+        "3♥/3♠: три карты в другом мажоре (чтобы играла сильная рука).",
+        "3NT: нет.",
+        "4♣: три карты в обоих мажорах."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "ru",
+  "status": "published"
+}

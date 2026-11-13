@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-fi",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ ilman sopivuutta, ei yksivärinen eikä kaksivärinen käsi.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: heikko, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 korttia värissä ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 korttia värissä ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: kolmen kortin sopivuus, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviitti kolmen kortin tuella.",
+        "2♠: 6 korttia värissä ♠, heikko.",
+        "2NT: Jordan, neljä korttia, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ ilman sopivuutta, ei yksivärinen eikä kaksivärinen käsi.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: heikko, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 korttia värissä ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 korttia värissä ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: kolmen kortin sopivuus, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviitti kolmen kortin tuella.",
+        "2♠: kolmen kortin sopivuus, heikko.",
+        "2NT: Jordan, neljä korttia, limit+.",
+        "Bergen-konventio on käytössä.",
+        "Yksivärisellä kädellä: siirtotarjous ja korotus."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "fi",
+  "status": "published"
+}

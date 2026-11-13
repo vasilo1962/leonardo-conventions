@@ -1,0 +1,17 @@
+{
+  "slug": "limit-after-1nt-with-one-or-both-four-card-majors-zh",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "1NT后持一门或两门四张高花的邀局",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2NT*: 可能没有四张高花.",
+        "1NT – 2♣ · 2♥ – 2♠*: 邀局，无黑桃，红心.",
+        "1NT – 2♣ · 2♥ – 2NT*: 持四张黑桃的邀局."
+      ]
+    }
+  ],
+  "conventionId": "limit-after-1nt-with-one-or-both-four-card-majors",
+  "language": "zh",
+  "status": "published"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-ko",
+  "group": "Συμβάσεις",
+  "title": "블랙우드 – 보이드 응답",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: 홀수 + 보이드 (5: 홀수).",
+        "6♣: 보이드 수트를 묻는다.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "ko",
+  "status": "published"
+}

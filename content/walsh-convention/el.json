@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-el",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: unbalanced hand.",
+        "1ΝΤ: balanced hand."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1ΝΤ",
+      "lines": [
+        "2♣* transfer · 2♦: αν συνεχίσει, είναι limit με τετράφυλλο ♥/♠.",
+        "2♦: GF, ρωτάει για ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "el",
+  "status": "published"
+}

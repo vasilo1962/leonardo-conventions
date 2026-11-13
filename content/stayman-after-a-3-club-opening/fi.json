@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-fi",
+  "group": "Ανοίγματα",
+  "title": "Stayman 3♣-avauksen jälkeen",
+  "sections": [
+    {
+      "heading": "Vastaukset",
+      "lines": [
+        "3♦: Stayman kolmen kortin ylävärille.",
+        "3♥/3♠: kolme korttia toisessa ylävärissä (jotta vahva käsi pelaa).",
+        "3NT: ei kumpaakaan.",
+        "4♣: kolme korttia molemmissa yläväreissä."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "fi",
+  "status": "published"
+}

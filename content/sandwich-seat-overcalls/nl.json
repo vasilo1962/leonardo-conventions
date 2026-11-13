@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-nl",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Volgbiedingen in sandwichpositie",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: natuurlijk.",
+        "Double: de andere twee kleuren.",
+        "2♣: 5-5 de andere twee kleuren.",
+        "2♥: natuurlijk.",
+        "2NT: wilde verdeling (6-5), heel weinig punten.",
+        "Begin met doublet bij zeer sterke handen."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "nl",
+  "status": "published"
+}

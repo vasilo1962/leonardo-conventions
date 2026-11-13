@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-id",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Penerimaan Super",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Penerimaan super dengan dua kartu: tawar warna tersebut.",
+        "2NT: Penerimaan super dengan dua kartu (warna transfer).",
+        "Dengan minimum, penjawab melakukan retransfer.",
+        "Penawaran lain apa pun adalah cuebid."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "id",
+  "status": "published"
+}

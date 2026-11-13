@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-ja",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit または 長い♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit または 長い♦.",
+        "2♦: 必須のビッド."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "特に: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "優先順位順のレスポンス: 2♥ 4枚 · 2♠ 3枚."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "ja",
+  "status": "published"
+}

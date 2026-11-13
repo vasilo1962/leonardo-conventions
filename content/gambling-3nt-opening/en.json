@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-en",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT Opening",
+  "sections": [
+    {
+      "lines": [
+        "A solid seven-card minor with no outside Ace or King."
+      ]
+    },
+    {
+      "heading": "Responses",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (I have the diamond Ace).",
+        "4♦: strong bid, slam try, asks whether opener has a singleton."
+      ]
+    },
+    {
+      "heading": "Responses 4♦",
+      "lines": [
+        "4NT: no singleton.",
+        "4♥/♠: singleton ♥/♠.",
+        "5♣/♦: singleton in the other minor."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "en",
+  "status": "published"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-ja",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: 第1ステップ (私たちの第1ステップ：1-4).",
+        "4NT – (5X) – double: 第2ステップ (3-0).",
+        "4NT – (double) – pass: 第1ステップ (1-4).",
+        "4NT – (double) – redouble: 第2ステップ (3-0).",
+        "したがって: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "ja",
+  "status": "published"
+}

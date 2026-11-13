@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-tr",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "Stayman’a verilen herhangi bir yanıttan sonra elin tarifini isteyen yapay konuşma."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: tam olarak bir dörtlü minör.",
+        "3♥: hangi minör? 3♠: ♣ renginde 4 kart · 3NT: ♦ renginde 4 kart.",
+        "3♥: ♣ renginde 5 kart.",
+        "3♠: ♦ renginde 5 kart.",
+        "3NT: minörlerde 4-4."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: tam olarak bir dörtlü minör.",
+        "3♥*: hangi minör? 3♠*: ♣ renginde 4 kart · 3NT: ♦ renginde 4 kart.",
+        "3♥: ♥ renginde 5 kart.",
+        "3♠: ♠ renginde 4 kart.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: tam olarak bir dörtlü minör.",
+        "3♥*: hangi minör? 3♠*: ♣ renginde 4 kart · 3NT: ♦ renginde 4 kart.",
+        "3♠: ♠ renginde 5 kart.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Hatırlama kuralı",
+      "lines": [
+        "3♦ yanıtı her zaman tam olarak bir dörtlü minör gösterir."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "tr",
+  "status": "published"
+}

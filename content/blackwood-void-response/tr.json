@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-tr",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Şikanla Yanıt",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: tek sayı + şikan (5: tek sayı).",
+        "6♣: şikan rengini sorar.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "tr",
+  "status": "published"
+}

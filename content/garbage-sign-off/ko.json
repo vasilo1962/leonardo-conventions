@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-ko",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 또는 5-4 또는 5-5이며 0점 (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "스페이드 3장인 오프너는 항상 2♠로 수정한다."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "ko",
+  "status": "published"
+}

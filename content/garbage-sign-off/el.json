@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-el",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 ή 5-4 ή 5-5 και 0 πόντους (Garbage)",
+      "lines": [
+        "1ΧΑ – 2♣ · 2♦ – 2♥.",
+        "Ο ανοίξας με τρίφυλλη πίκα διορθώνει ΠΑΝΤΑ σε 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "el",
+  "status": "published"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-th",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ ไม่มีฟิต ไม่ใช่มือดอกเดียวหรือสองดอก.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: อ่อน, 6+ ♣.",
+        "2♣ – (pass) – 2♦: ♦ จำนวน 5 ใบ, tolerance.",
+        "2♣ – (pass) – 2♥: ♥ จำนวน 2 ใบ, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: ฟิตสามใบ, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: เชิญขึ้นเกมด้วยการสนับสนุนสามใบ.",
+        "2♠: ♠ จำนวน 6 ใบ, อ่อน.",
+        "2NT: Jordan, สี่ใบ, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ ไม่มีฟิต ไม่ใช่มือดอกเดียวหรือสองดอก.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: อ่อน, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: ♦/♥ จำนวน 5 ใบ, tolerance.",
+        "2♣ – (pass) – 2♠: ♠ จำนวน 2 ใบ, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: ฟิตสามใบ, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: เชิญขึ้นเกมด้วยการสนับสนุนสามใบ.",
+        "2♠: ฟิตสามใบ, อ่อน.",
+        "2NT: Jordan, สี่ใบ, limit+.",
+        "ใช้คอนเวนชัน Bergen",
+        "มือดอกเดียว: ทรานส์เฟอร์แล้วเพิ่มระดับ"
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "th",
+  "status": "published"
+}

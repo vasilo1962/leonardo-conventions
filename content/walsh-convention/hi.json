@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-hi",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: असंतुलित हाथ.",
+        "1NT: संतुलित हाथ."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: उत्तरदाता आगे बढ़े तो ♥/♠ में चार पत्तों के साथ आमंत्रण.",
+        "2♦: GF, ♥/♠ पूछता है."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "hi",
+  "status": "published"
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-cs",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ bez fitu, ani jednobarevný, ani dvoubarevný list.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: slabé, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 karet v ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 karet v ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: tříkartový fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invit s tříkartovou podporou.",
+        "2♠: 6 karet v ♠, slabé.",
+        "2NT: Jordan, čtyři karty, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ bez fitu, ani jednobarevný, ani dvoubarevný list.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: slabé, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 karet v ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 karet v ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: tříkartový fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invit s tříkartovou podporou.",
+        "2♠: tříkartový fit, slabé.",
+        "2NT: Jordan, čtyři karty, limit+.",
+        "Platí konvence Bergen.",
+        "S jednobarevným listem: transfer a zvýšení."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "cs",
+  "status": "published"
+}

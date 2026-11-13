@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-da",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit eller lange ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit eller lange ♦.",
+        "2♦: tvungen melding."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "Specielt: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Svar i prioriteret rækkefølge: 2♥ fire kort · 2♠ tre kort."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "da",
+  "status": "published"
+}

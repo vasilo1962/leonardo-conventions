@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-is",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + hinn háliturinn (5-5).",
+        "(2♥/♠) – 4♦: ♦ + hinn háliturinn (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "is",
+  "status": "published"
+}

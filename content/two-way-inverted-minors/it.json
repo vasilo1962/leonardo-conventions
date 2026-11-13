@@ -1,0 +1,38 @@
+{
+  "slug": "two-way-inverted-minors-it",
+  "group": "Ανοίγματα",
+  "title": "Two Way Inverted Minors",
+  "sections": [
+    {
+      "heading": "1♣ – 2♣ Limit",
+      "lines": [
+        "Risposte:",
+        "2♦/♥/♠: fermo.",
+        "2NT: min, fermi in tutti i colori, to play.",
+        "3♣: super min.",
+        "3♦/♥/♠: splinter.",
+        "3NT: to play.",
+        "4♣: minorwood.",
+        "4♦/♥/♠: exclusion blackwood.",
+        "La dichiarazione di 3♣ ha priorità."
+      ]
+    },
+    {
+      "heading": "1♣ – 2♦ FG",
+      "lines": [
+        "Risposte:",
+        "2♥/♠: fermo.",
+        "2NT: min, fermi in tutti i colori, 12–14 o 18–19.",
+        "3♣: super min. La dichiarazione di 3♣ ha priorità.",
+        "3♦: fermo.",
+        "3♥/♠ e 4♦: splinter.",
+        "3NT: max, fermi in tutti i colori, 15–17.",
+        "4♣: minorwood.",
+        "4♥/♠ e 5♦: exclusion blackwood."
+      ]
+    }
+  ],
+  "conventionId": "two-way-inverted-minors",
+  "language": "it",
+  "status": "published"
+}

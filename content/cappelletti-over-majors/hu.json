@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-hu",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ fit nélkül, sem egyszínű, sem kétszínű kéz.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: gyenge, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 lap ♦-ben, tolerance.",
+        "2♣ – (pass) – 2♥: 2 lap ♥-ben, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: hármas fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invit hármas támogatással.",
+        "2♠: 6 lap ♠-ben, gyenge.",
+        "2NT: Jordan, négy lap, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ fit nélkül, sem egyszínű, sem kétszínű kéz.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: gyenge, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 lap ♦/♥-ben, tolerance.",
+        "2♣ – (pass) – 2♠: 2 lap ♠-ben, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: hármas fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invit hármas támogatással.",
+        "2♠: hármas fit, gyenge.",
+        "2NT: Jordan, négy lap, limit+.",
+        "A Bergen-konvenció érvényes.",
+        "Egyszínű kézzel: transzfer és emelés."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "hu",
+  "status": "published"
+}

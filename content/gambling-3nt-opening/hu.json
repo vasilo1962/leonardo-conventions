@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-hu",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT indulás",
+  "sections": [
+    {
+      "lines": [
+        "Zárt hetes minor, külső Ász vagy Király nélkül."
+      ]
+    },
+    {
+      "heading": "Válaszok",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (nálam a káró Ász).",
+        "4♦: erős licit, szlemkísérlet, azt kérdezi, van-e az indulónak szinglije."
+      ]
+    },
+    {
+      "heading": "Válaszok 4♦",
+      "lines": [
+        "4NT: nincs szingli.",
+        "4♥/♠: szingli ♥/♠.",
+        "5♣/♦: szingli a másik minorban."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "hu",
+  "status": "published"
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-tr",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Stayman Sonrası Şlem Denemesi",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: fit, tekli kartla şlem denemesi (OM: diğer majör).",
+        "3NT: tekliyi sorar.",
+        "4X (X≠M): tekli.",
+        "4♥: tekli ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: fitle kantitatif.",
+        "4NT: fitsiz kantitatif."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "tr",
+  "status": "published"
+}

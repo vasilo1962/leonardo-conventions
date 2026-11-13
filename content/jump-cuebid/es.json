@@ -1,0 +1,16 @@
+{
+  "slug": "jump-cuebid-es",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Jump Cuebid",
+  "sections": [
+    {
+      "lines": [
+        "(1♠) – 3♠: bazas en un menor.",
+        "Respuestas: con parada en picas, 3NT; si no, 4♣ (pass or correct)."
+      ]
+    }
+  ],
+  "conventionId": "jump-cuebid",
+  "language": "es",
+  "status": "published"
+}

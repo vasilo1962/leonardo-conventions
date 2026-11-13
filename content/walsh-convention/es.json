@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-es",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: mano desequilibrada.",
+        "1NT: mano equilibrada."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: si el respondedor continúa, invitativa con cuatro cartas en ♥/♠.",
+        "2♦: GF, pregunta por ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "es",
+  "status": "published"
+}

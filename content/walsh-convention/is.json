@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-is",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: ójöfn hönd.",
+        "1NT: jöfn hönd."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: ef svarhöndin heldur áfram, áskorun með fjögur spil í ♥/♠.",
+        "2♦: GF, spyr um ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "is",
+  "status": "published"
+}

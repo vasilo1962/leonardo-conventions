@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-de",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: erste Stufe (unsere erste Stufe: 1-4).",
+        "4NT – (5X) – double: zweite Stufe (3-0).",
+        "4NT – (double) – pass: erste Stufe (1-4).",
+        "4NT – (double) – redouble: zweite Stufe (3-0).",
+        "Also: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "de",
+  "status": "published"
+}

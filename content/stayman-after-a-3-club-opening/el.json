@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-el",
+  "group": "Ανοίγματα",
+  "title": "Stayman After a 3♣ Opening",
+  "sections": [
+    {
+      "heading": "Απαντήσεις",
+      "lines": [
+        "3♦: Stayman για τρίφυλλο μαζέρ.",
+        "3♥/3♠: έχω τρίφυλλο το άλλο μαζέρ (για να το παίξει ο έχων τη δύναμη).",
+        "3ΧΑ: δεν έχω.",
+        "4♣: έχω και τα δύο τρίφυλλα μαζέρ."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "el",
+  "status": "published"
+}

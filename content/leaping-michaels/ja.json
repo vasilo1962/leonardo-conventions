@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-ja",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + もう一方のメジャー (5-5).",
+        "(2♥/♠) – 4♦: ♦ + もう一方のメジャー (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "ja",
+  "status": "published"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-cs",
+  "group": "Ανοίγματα",
+  "title": "Zahájení Gambling 3NT",
+  "sections": [
+    {
+      "lines": [
+        "Celá sedmilistá levná barva bez vedlejšího Esa nebo Krále."
+      ]
+    },
+    {
+      "heading": "Odpovědi",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (mám kárové Eso).",
+        "4♦: silná nabídka, pokus o slem, ptá se, zda má zahajitel singleton."
+      ]
+    },
+    {
+      "heading": "Odpovědi 4♦",
+      "lines": [
+        "4NT: bez singletonu.",
+        "4♥/♠: singleton ♥/♠.",
+        "5♣/♦: singleton ve druhé levné barvě."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "cs",
+  "status": "published"
+}

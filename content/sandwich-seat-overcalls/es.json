@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-es",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Intervenciones en posición sándwich",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: natural.",
+        "Double: los otros dos palos.",
+        "2♣: 5-5 los otros dos palos.",
+        "2♥: natural.",
+        "2NT: distribución extrema (6-5), muy pocos puntos.",
+        "Con manos muy fuertes, empezar por doblo."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "es",
+  "status": "published"
+}

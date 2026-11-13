@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-fr",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Réponse avec chicane",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: nombre impair + chicane (5 : nombre impair).",
+        "6♣: demande la couleur de la chicane.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "fr",
+  "status": "published"
+}

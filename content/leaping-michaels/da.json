@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-da",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + den anden major (5-5).",
+        "(2♥/♠) – 4♦: ♦ + den anden major (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "da",
+  "status": "published"
+}

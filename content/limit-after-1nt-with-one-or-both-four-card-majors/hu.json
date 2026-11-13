@@ -1,0 +1,17 @@
+{
+  "slug": "limit-after-1nt-with-one-or-both-four-card-majors-hu",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Invit 1NT után egy vagy mindkét négyes nemes színnel",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2NT*: nem feltétlenül van négyes nemes színe.",
+        "1NT – 2♣ · 2♥ – 2♠*: invit, pikk nélkül, kőr.",
+        "1NT – 2♣ · 2♥ – 2NT*: invit négy pikkel."
+      ]
+    }
+  ],
+  "conventionId": "limit-after-1nt-with-one-or-both-four-card-majors",
+  "language": "hu",
+  "status": "published"
+}

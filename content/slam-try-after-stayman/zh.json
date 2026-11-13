@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-zh",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Stayman后的满贯试探",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: 配合，带单张的满贯试探（OM：另一高花）.",
+        "3NT: 询问单张.",
+        "4X (X≠M): 单张.",
+        "4♥: 单张 ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: 有配合的定量叫.",
+        "4NT: 无配合的定量叫."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "zh",
+  "status": "published"
+}

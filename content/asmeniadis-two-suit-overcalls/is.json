@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-is",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Asmeniadis tvílita innákomur",
+  "sections": [
+    {
+      "heading": "Litopnun á fyrsta þrepi (ΥΧΑ)",
+      "lines": [
+        "Að minnsta kosti 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: hærri litirnir.",
+        "(1X) – 2NT: lægri litirnir.",
+        "(1X) – 3♣: ystu litirnir."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: 5 spil í ♣ eða ♦ / 4 spil í ♥ eða ♠.",
+        "Svör: 2♦ kýs láglit · 2♥ kýs hálit.",
+        "2♣: majors.",
+        "2♦: 6 spil í ♥/♠.",
+        "Svör: 2/3/4♥/♠ pass or correct (með áhuga á öðrum hálitnum, segðu hinn).",
+        "2♥: ♥ + ♣ eða ♦.",
+        "2♠: ♠ + ♣ eða ♦.",
+        "2NT: fimmlitur í láglit, fjórlitur í hálit.",
+        "Svör samkvæmt glósunum: 2♣ pass or correct minor · 2♦ segðu hálitinn."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "is",
+  "status": "published"
+}

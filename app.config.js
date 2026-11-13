@@ -1,0 +1,1 @@
+module.exports = { expo: { name: 'Leonardo Bridge Conventions', slug: 'leonardo-conventions', web: {output: 'static'}, plugins: ['expo-router'], experiments: {reactCompiler:true, baseUrl: process.env.CONVENTIONS_BASE_PATH || '/conventions'} } };

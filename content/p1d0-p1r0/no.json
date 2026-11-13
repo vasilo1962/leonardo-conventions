@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-no",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: første trinn (vårt første trinn: 1-4).",
+        "4NT – (5X) – double: andre trinn (3-0).",
+        "4NT – (double) – pass: første trinn (1-4).",
+        "4NT – (double) – redouble: andre trinn (3-0).",
+        "Dermed: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "no",
+  "status": "published"
+}

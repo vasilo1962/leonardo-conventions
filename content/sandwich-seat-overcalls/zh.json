@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-zh",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "夹心位置的争叫",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: 自然叫.",
+        "Double: 另外两门花色.",
+        "2♣: 5-5 另外两门花色.",
+        "2♥: 自然叫.",
+        "2NT: 极端牌型（6-5），极少点力.",
+        "很强的牌从加倍开始。"
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "zh",
+  "status": "published"
+}

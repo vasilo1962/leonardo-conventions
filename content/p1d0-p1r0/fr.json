@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-fr",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: premier palier (notre premier palier : 1-4).",
+        "4NT – (5X) – double: deuxième palier (3-0).",
+        "4NT – (double) – pass: premier palier (1-4).",
+        "4NT – (double) – redouble: deuxième palier (3-0).",
+        "Donc: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "fr",
+  "status": "published"
+}

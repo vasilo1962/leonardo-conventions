@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-zh",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – 超接受",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "持双张的超接受: 叫出该花色.",
+        "2NT: 持双张的超接受 (转移花色).",
+        "最低限牌力的应叫人再次转移。",
+        "其他任何叫牌均为扣叫。"
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "zh",
+  "status": "published"
+}

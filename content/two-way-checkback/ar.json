@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-ar",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit ⁧أو⁩ ⁧♦ طويل⁩",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit ⁧أو⁩ ⁧♦ طويل⁩.",
+        "2♦: ⁧إعلان إجباري⁩."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "⁧خصوصاً⁩: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "⁧الردود حسب الأولوية⁩: 2♥ ⁧أربع ورقات⁩ · 2♠ ⁧ثلاث ورقات⁩."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "ar",
+  "status": "published"
+}

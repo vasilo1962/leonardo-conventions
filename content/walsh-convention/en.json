@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-en",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: unbalanced hand.",
+        "1NT: balanced hand."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: if responder continues, invitational with four cards in ♥/♠.",
+        "2♦: GF, asks about ♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "en",
+  "status": "published"
+}

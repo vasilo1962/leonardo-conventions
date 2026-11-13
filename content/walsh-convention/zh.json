@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-zh",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: 非均型牌.",
+        "1NT: 均型牌."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: 应叫人继续叫牌表示邀局，♥/♠四张.",
+        "2♦: GF, 询问♥/♠."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "zh",
+  "status": "published"
+}

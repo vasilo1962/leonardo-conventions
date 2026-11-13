@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-it",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Risposta con vuoto",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: numero dispari + vuoto (5: numero dispari).",
+        "6♣: chiede il colore del vuoto.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "it",
+  "status": "published"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-he",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit ⁧או⁩ ⁧♦ ארוך⁩",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit ⁧או⁩ ⁧♦ ארוך⁩.",
+        "2♦: ⁧הכרזה מחויבת⁩."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "⁧בפרט⁩: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "⁧תשובות לפי סדר עדיפות⁩: 2♥ ⁧ארבעה קלפים⁩ · 2♠ ⁧שלושה קלפים⁩."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "he",
+  "status": "published"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-ko",
+  "group": "Ανοίγματα",
+  "title": "갬블링 3NT 오픈",
+  "sections": [
+    {
+      "lines": [
+        "확실한 7장 마이너, 외부 에이스나 킹 없음."
+      ]
+    },
+    {
+      "heading": "응답",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (다이아몬드 에이스가 있다).",
+        "4♦: 강한 비드, 슬램 시도, 오프너의 싱글턴을 묻는다."
+      ]
+    },
+    {
+      "heading": "응답 4♦",
+      "lines": [
+        "4NT: 싱글턴 없음.",
+        "4♥/♠: 싱글턴 ♥/♠.",
+        "5♣/♦: 다른 마이너의 싱글턴."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "ko",
+  "status": "published"
+}

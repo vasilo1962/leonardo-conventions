@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-tr",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit veya uzun ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit veya uzun ♦.",
+        "2♦: zorunlu konuşma."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "Özellikle: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Öncelik sırasına göre yanıtlar: 2♥ dört kart · 2♠ üç kart."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "tr",
+  "status": "published"
+}

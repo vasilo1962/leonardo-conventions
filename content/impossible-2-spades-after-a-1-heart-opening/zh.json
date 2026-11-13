@@ -1,0 +1,15 @@
+{
+  "slug": "impossible-2-spades-after-a-1-heart-opening-zh",
+  "group": "Συμβάσεις",
+  "title": "1♥开叫后不可能的2♠",
+  "sections": [
+    {
+      "lines": [
+        "1♥ – 1NT* · 2♣/♦ – 2♠*: 极端牌型 <limit, fit ♣/♦."
+      ]
+    }
+  ],
+  "conventionId": "impossible-2-spades-after-a-1-heart-opening",
+  "language": "zh",
+  "status": "published"
+}

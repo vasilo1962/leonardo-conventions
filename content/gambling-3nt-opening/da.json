@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-da",
+  "group": "Ανοίγματα",
+  "title": "Gamblingåbning 3NT",
+  "sections": [
+    {
+      "lines": [
+        "En gående syvkort minor uden es eller konge ved siden af."
+      ]
+    },
+    {
+      "heading": "Svar",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (jeg har ruder es).",
+        "4♦: stærk melding, slemforsøg, spørger om åbneren har singleton."
+      ]
+    },
+    {
+      "heading": "Svar 4♦",
+      "lines": [
+        "4NT: ingen singleton.",
+        "4♥/♠: singleton ♥/♠.",
+        "5♣/♦: singleton i den anden minor."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "da",
+  "status": "published"
+}

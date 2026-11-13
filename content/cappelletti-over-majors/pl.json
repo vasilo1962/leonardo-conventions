@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-pl",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ bez fitu, ręka ani jednokolorowa, ani dwukolorowa.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: słabe, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 kart w ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 kart w ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: fit trzykartowy, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inwit z trzykartowym poparciem.",
+        "2♠: 6 kart w ♠, słabe.",
+        "2NT: Jordan, cztery karty, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ bez fitu, ręka ani jednokolorowa, ani dwukolorowa.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: słabe, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 kart w ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 kart w ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: fit trzykartowy, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inwit z trzykartowym poparciem.",
+        "2♠: fit trzykartowy, słabe.",
+        "2NT: Jordan, cztery karty, limit+.",
+        "Obowiązuje konwencja Bergen.",
+        "Z ręką jednokolorową: transfer i podniesienie."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "pl",
+  "status": "published"
+}

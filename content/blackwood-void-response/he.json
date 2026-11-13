@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-he",
+  "group": "Συμβάσεις",
+  "title": "⁧בלקווד – תשובה עם חוסר⁩",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: ⁧מספר אי־זוגי + חוסר (5: מספר אי־זוגי)⁩.",
+        "6♣: ⁧שואל על סדרת החוסר⁩.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "he",
+  "status": "published"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-en",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Asmeniadis Two-Suit Overcalls",
+  "sections": [
+    {
+      "heading": "One-level suit opening (ΥΧΑ)",
+      "lines": [
+        "At least 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: the higher suits.",
+        "(1X) – 2NT: the lower suits.",
+        "(1X) – 3♣: the extreme suits."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: 5 cards in ♣ or ♦ / 4 cards in ♥ or ♠.",
+        "Responses: 2♦ prefer a minor · 2♥ prefer a major.",
+        "2♣: majors.",
+        "2♦: 6 cards in ♥/♠.",
+        "Responses: 2/3/4♥/♠ pass or correct (with interest in one major, bid the other).",
+        "2♥: ♥ + ♣ or ♦.",
+        "2♠: ♠ + ♣ or ♦.",
+        "2NT: five-card minor, four-card major.",
+        "Responses as recorded: 2♣ pass or correct minor · 2♦ bid the major."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "en",
+  "status": "published"
+}

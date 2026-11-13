@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-hu",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Válasz sikénnel",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: páratlan szám + sikén (5: páratlan szám).",
+        "6♣: a sikén színét kérdezi.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "hu",
+  "status": "published"
+}

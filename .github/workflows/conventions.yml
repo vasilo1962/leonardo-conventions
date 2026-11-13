@@ -1,0 +1,78 @@
+name: Conventions preview and publication
+on:
+  workflow_dispatch:
+    inputs:
+      source_commit:
+        description: Exact approved or preview source commit (40 characters)
+        required: true
+        type: string
+      mode:
+        description: Preview, or publish after Vaso approval of this commit
+        required: true
+        type: choice
+        options: [preview, publish]
+        default: preview
+permissions:
+  contents: read
+concurrency:
+  group: conventions-${{ inputs.mode }}
+  cancel-in-progress: false
+jobs:
+  conventions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_commit }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Validate source and publication scope
+        env:
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+          MODE: ${{ inputs.mode }}
+        run: |
+          test "$(git rev-parse HEAD)" = "$SOURCE_COMMIT"
+          test "$MODE" = preview || test "$MODE" = publish
+          if [ "$MODE" = publish ]; then
+            git merge-base --is-ancestor "$SOURCE_COMMIT" origin/main
+          fi
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Build conventions only
+        env:
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+          CONVENTIONS_MODE: ${{ inputs.mode }}
+          EXPO_PUBLIC_SUPABASE_URL: ${{ vars.EXPO_PUBLIC_SUPABASE_URL }}
+          EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ vars.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          if [ "$CONVENTIONS_MODE" = publish ]; then
+            export CONVENTIONS_BASE_PATH=/conventions
+          else
+            export CONVENTIONS_BASE_PATH="/conventions-preview/$SOURCE_COMMIT"
+          fi
+          export EXPO_ROUTER_APP_ROOT="$PWD/src/app"
+          npm run build
+          npx tsc --noEmit
+      - name: Upload to isolated convention directory
+        env:
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+          MODE: ${{ inputs.mode }}
+          PUBLISH_KEY: ${{ secrets.CONVENTIONS_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.CONVENTIONS_KNOWN_HOSTS }}
+          PUBLISH_HOST: ${{ vars.CONVENTIONS_HOST }}
+        run: |
+          test -n "$PUBLISH_KEY" && test -n "$KNOWN_HOSTS" && test -n "$PUBLISH_HOST"
+          umask 077
+          key_file=$(mktemp)
+          hosts_file=$(mktemp)
+          trap 'rm -f "$key_file" "$hosts_file"' EXIT
+          printf '%s\n' "$PUBLISH_KEY" > "$key_file"
+          printf '%s\n' "$KNOWN_HOSTS" > "$hosts_file"
+          tar --format=ustar -C dist -czf - . |
+            ssh -i "$key_file" -o IdentitiesOnly=yes \
+              -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$hosts_file" \
+              "conventions-publisher@$PUBLISH_HOST" "$MODE $SOURCE_COMMIT"

@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-th",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: ขั้นแรก (ขั้นแรกของเรา: 1-4).",
+        "4NT – (5X) – double: ขั้นที่สอง (3-0).",
+        "4NT – (double) – pass: ขั้นแรก (1-4).",
+        "4NT – (double) – redouble: ขั้นที่สอง (3-0).",
+        "ดังนั้น: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "th",
+  "status": "published"
+}

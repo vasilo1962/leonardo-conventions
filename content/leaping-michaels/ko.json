@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-ko",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + 다른 메이저 (5-5).",
+        "(2♥/♠) – 4♦: ♦ + 다른 메이저 (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "ko",
+  "status": "published"
+}

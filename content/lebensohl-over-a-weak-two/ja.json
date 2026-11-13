@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-ja",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "ウィークツーに対するレーベンソール",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "2NT*の後",
+      "lines": [
+        "3♣: 必須のレスポンス¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, ストッパー.",
+        "3NT: ストッパー, 4枚メジャーなし.",
+        "4♣: ♣ + もう一方のメジャー (5-5).",
+        "4♦: ♦ + もう一方のメジャー (5-5)."
+      ]
+    },
+    {
+      "heading": "直接のレスポンス",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, ストッパーなし (FAD).",
+        "3B (B>X): 5枚 / FG.",
+        "3NT: ストッパーなし, 4枚メジャーなし (FAD).",
+        "¹ ダブラーにシングルトンがあれば、3♣をビッドしなくてもよい。"
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "ja",
+  "status": "published"
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-el",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit ή long ♦",
+      "lines": [
+        "1Α – 1Β · 1ΝΤ – 2♣*: limit ή long ♦.",
+        "2♦: υποχρεωτική αγορά."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1Α – 1Β · 1ΝΤ – 2♦*: FG.",
+        "Ειδικά: 1♣/♦ – 1♠ · 1ΝΤ – 2♦*.",
+        "Απαντήσεις με σειρά προτεραιότητας: 2♥ τετράφυλλο · 2♠ τρίφυλλο."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "el",
+  "status": "published"
+}

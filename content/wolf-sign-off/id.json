@@ -1,0 +1,27 @@
+{
+  "slug": "wolf-sign-off-id",
+  "group": "Συμβάσεις",
+  "title": "Wolf Sign-off",
+  "sections": [
+    {
+      "heading": "1♥",
+      "lines": [
+        "1♣/♦ – 1♥ · 2NT – 3♣.",
+        "3♦: tidak ada tiga kartu ♥. Respons: 3♥ to play · 3♠ FG (ini terjadi dengan 4-4).",
+        "3♥: dengan tiga kartu ♥. Respons: pass · 3NT 4 kartu pada ♠."
+      ]
+    },
+    {
+      "heading": "1♠",
+      "lines": [
+        "1♣/♦ – 1♠ · 2NT – 3♣.",
+        "3♦: tidak ada tiga kartu ♠. Respons: 3♠ to play.",
+        "3♠: dengan tiga kartu ♠. Respons: pass · 3NT.",
+        "Catatan: dengan 5-4 ♠/♥, tawar warna kita."
+      ]
+    }
+  ],
+  "conventionId": "wolf-sign-off",
+  "language": "id",
+  "status": "published"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-ar",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "⁧ليبنسول فوق افتتاح ضعيف على مستوى اثنين⁩",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "⁧بعد 2NT*⁩",
+      "lines": [
+        "3♣: ⁧رد إجباري⁩¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, ⁧إيقاف⁩.",
+        "3NT: ⁧إيقاف⁩, ⁧لا يوجد لون كبير من أربع ورقات⁩.",
+        "4♣: ♣ + ⁧اللون الكبير الآخر⁩ (5-5).",
+        "4♦: ♦ + ⁧اللون الكبير الآخر⁩ (5-5)."
+      ]
+    },
+    {
+      "heading": "⁧الردود المباشرة⁩",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, ⁧لا يوجد إيقاف⁩ (FAD).",
+        "3B (B>X): ⁧خمس ورقات⁩ / FG.",
+        "3NT: ⁧لا يوجد إيقاف⁩, ⁧لا يوجد لون كبير من أربع ورقات⁩ (FAD).",
+        "⁧¹ مع ورقة منفردة، يمكن لمن أعلن المضاعفة ألا يعلن 3♣.⁩"
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "ar",
+  "status": "published"
+}

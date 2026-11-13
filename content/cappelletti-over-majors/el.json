@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-el",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ χωρίς φιτ, όχι μονόχρωμο ή δίχρωμο χέρι.",
+        "1ΧΑ: transfer ♣.",
+        "2♣ – (pass) – pass: weak, 6+ ♣.",
+        "2♣ – (pass) – 2♦: πεντάφυλλο ♦, tolerance.",
+        "2♣ – (pass) – 2♥: δίφυλλο ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: τρίφυλλο fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: limit τρίφυλλο.",
+        "2♠: εξάφυλλο ♠, αδύνατο.",
+        "2ΝΤ: Jordan, τετράφυλλο, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ χωρίς φιτ, όχι μονόχρωμο ή δίχρωμο χέρι.",
+        "1ΧΑ: transfer ♣.",
+        "2♣ – (pass) – pass: weak, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: πεντάφυλλο ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: δίφυλλο ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: τρίφυλλο fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: limit τρίφυλλο.",
+        "2♠: τρίφυλλο fit, αδύνατο.",
+        "2ΝΤ: Jordan, τετράφυλλο, limit+.",
+        "Ισχύει η σύμβαση Bergen.",
+        "Με μονόχρωμο χέρι: transfer και raise."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "el",
+  "status": "published"
+}

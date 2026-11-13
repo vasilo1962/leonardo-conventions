@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-fi",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Välitarjoukset sandwich-asemassa",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: luonnollinen.",
+        "Double: kaksi muuta väriä.",
+        "2♣: 5-5 kaksi muuta väriä.",
+        "2♥: luonnollinen.",
+        "2NT: raju jakauma (6-5), hyvin vähän pisteitä.",
+        "Aloita erittäin vahvoilla käsillä kahdennuksella."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "fi",
+  "status": "published"
+}

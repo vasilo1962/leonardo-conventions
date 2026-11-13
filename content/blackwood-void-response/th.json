@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-th",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – คำตอบเมื่อมีวอยด์",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: จำนวนคี่ + วอยด์ (5: จำนวนคี่).",
+        "6♣: ถามดอกที่เป็นวอยด์.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "th",
+  "status": "published"
+}

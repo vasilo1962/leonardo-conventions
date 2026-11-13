@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-ja",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4または5-4または5-5、0点（Garbage）",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "スペード3枚のオープナーは必ず2♠に修正する。"
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "ja",
+  "status": "published"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-cs",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 nebo 5-4 nebo 5-5 a 0 bodů (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Se třemi pikami zahajitel VŽDY opraví na 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "cs",
+  "status": "published"
+}

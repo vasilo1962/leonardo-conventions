@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-th",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit หรือ ♦ ยาว",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit หรือ ♦ ยาว.",
+        "2♦: บิดบังคับ."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "โดยเฉพาะ: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "คำตอบเรียงตามความสำคัญ: 2♥ สี่ใบ · 2♠ สามใบ."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "th",
+  "status": "published"
+}

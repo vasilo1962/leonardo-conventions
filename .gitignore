@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+dist-check/
+src/generated/
+public/media/
+public/sitemap.xml
+.env
+.env.*

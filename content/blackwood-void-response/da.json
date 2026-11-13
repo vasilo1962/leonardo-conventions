@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-da",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Svar med renonce",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: ulige antal + renonce (5: ulige antal).",
+        "6♣: spørger efter renoncefarven.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "da",
+  "status": "published"
+}

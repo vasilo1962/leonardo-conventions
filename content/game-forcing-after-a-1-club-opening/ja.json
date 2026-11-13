@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-ja",
+  "group": "Ανοίγματα",
+  "title": "1♣オープン後のゲームフォーシング",
+  "sections": [
+    {
+      "heading": "レスポンス",
+      "lines": [
+        "<limit; ♥/♠が4枚: 1♥/♠ (♦の枚数に関係なく).",
+        "1♣ – 2NT: 12–14 または 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "ja",
+  "status": "published"
+}

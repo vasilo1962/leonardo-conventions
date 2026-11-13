@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-id",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ tanpa fit, bukan tangan satu warna maupun dua warna.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: lemah, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 kartu pada ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 kartu pada ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: fit tiga kartu, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invitasi dengan dukungan tiga kartu.",
+        "2♠: 6 kartu pada ♠, lemah.",
+        "2NT: Jordan, empat kartu, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ tanpa fit, bukan tangan satu warna maupun dua warna.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: lemah, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 kartu pada ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 kartu pada ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: fit tiga kartu, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invitasi dengan dukungan tiga kartu.",
+        "2♠: fit tiga kartu, lemah.",
+        "2NT: Jordan, empat kartu, limit+.",
+        "Konvensi Bergen berlaku.",
+        "Dengan tangan satu warna: transfer lalu naikkan."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "id",
+  "status": "published"
+}

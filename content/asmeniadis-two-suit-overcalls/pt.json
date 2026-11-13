@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-pt",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Intervenções bicolores Asmeniadis",
+  "sections": [
+    {
+      "heading": "Abertura de um em naipe (ΥΧΑ)",
+      "lines": [
+        "Pelo menos 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: os naipes mais altos.",
+        "(1X) – 2NT: os naipes mais baixos.",
+        "(1X) – 3♣: os naipes extremos."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: 5 cartas em ♣ ou ♦ / 4 cartas em ♥ ou ♠.",
+        "Respostas: 2♦ prefiro um menor · 2♥ prefiro um maior.",
+        "2♣: majors.",
+        "2♦: 6 cartas em ♥/♠.",
+        "Respostas: 2/3/4♥/♠ pass or correct (com interesse num maior, declarar o outro).",
+        "2♥: ♥ + ♣ ou ♦.",
+        "2♠: ♠ + ♣ ou ♦.",
+        "2NT: menor quinto, maior quarto.",
+        "Respostas conforme as notas: 2♣ pass or correct minor · 2♦ declarar o maior."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "pt",
+  "status": "published"
+}

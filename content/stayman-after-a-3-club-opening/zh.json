@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-zh",
+  "group": "Ανοίγματα",
+  "title": "3♣开叫后的Stayman",
+  "sections": [
+    {
+      "heading": "应叫",
+      "lines": [
+        "3♦: 询问三张高花的Stayman.",
+        "3♥/3♠: 另一高花有三张（让强手主打）.",
+        "3NT: 没有.",
+        "4♣: 两门高花各三张."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "zh",
+  "status": "published"
+}

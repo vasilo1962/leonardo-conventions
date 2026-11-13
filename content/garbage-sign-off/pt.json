@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-pt",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 ou 5-4 ou 5-5 e 0 pontos (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Com três espadas, o abridor corrige SEMPRE para 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "pt",
+  "status": "published"
+}

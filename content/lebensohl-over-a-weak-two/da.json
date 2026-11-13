@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-da",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Lebensohl efter en svag toåbning",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "Efter 2NT*",
+      "lines": [
+        "3♣: tvunget svar¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, hold.",
+        "3NT: hold, ingen firkort major.",
+        "4♣: ♣ + den anden major (5-5).",
+        "4♦: ♦ + den anden major (5-5)."
+      ]
+    },
+    {
+      "heading": "Direkte svar",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, intet hold (FAD).",
+        "3B (B>X): fem kort / FG.",
+        "3NT: intet hold, ingen firkort major (FAD).",
+        "¹ Med singleton kan dobleren vælge IKKE at melde 3♣."
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "da",
+  "status": "published"
+}

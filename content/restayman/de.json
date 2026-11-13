@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-de",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "Künstliches Gebot nach jeder Stayman-Antwort, das nach der Handbeschreibung fragt."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: genau eine Viererunterfarbe.",
+        "3♥: welche Unterfarbe? 3♠: 4 Karten in ♣ · 3NT: 4 Karten in ♦.",
+        "3♥: 5 Karten in ♣.",
+        "3♠: 5 Karten in ♦.",
+        "3NT: 4-4 in den Unterfarben."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: genau eine Viererunterfarbe.",
+        "3♥*: welche Unterfarbe? 3♠*: 4 Karten in ♣ · 3NT: 4 Karten in ♦.",
+        "3♥: 5 Karten in ♥.",
+        "3♠: 4 Karten in ♠.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: genau eine Viererunterfarbe.",
+        "3♥*: welche Unterfarbe? 3♠*: 4 Karten in ♣ · 3NT: 4 Karten in ♦.",
+        "3♠: 5 Karten in ♠.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Merkregel",
+      "lines": [
+        "Die Antwort 3♦ zeigt immer genau eine Viererunterfarbe."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "de",
+  "status": "published"
+}

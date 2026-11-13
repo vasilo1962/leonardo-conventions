@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-no",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Superaksept",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Superaksept med dobbelton: meld fargen.",
+        "2NT: Superaksept med dobbelton (overføringsfargen).",
+        "Med minimum gjør svarhånden retransfer.",
+        "Alle andre bud er cuebid."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "no",
+  "status": "published"
+}

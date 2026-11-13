@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-hu",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: egyenetlen kéz.",
+        "1NT: egyenletes kéz."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: ha a válaszoló folytatja, invit négy ♥/♠ lappal.",
+        "2♦: GF, ♥/♠-ről kérdez."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "hu",
+  "status": "published"
+}

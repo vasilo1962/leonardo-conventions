@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-en",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ without a fit, neither a one-suited nor a two-suited hand.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: weak, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 cards in ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 cards in ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: three-card fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invitational with three-card support.",
+        "2♠: 6 cards in ♠, weak.",
+        "2NT: Jordan, four cards, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ without a fit, neither a one-suited nor a two-suited hand.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: weak, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 cards in ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 cards in ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: three-card fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: invitational with three-card support.",
+        "2♠: three-card fit, weak.",
+        "2NT: Jordan, four cards, limit+.",
+        "The Bergen convention applies.",
+        "With a one-suited hand: transfer and raise."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "en",
+  "status": "published"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "impossible-2-spades-after-a-1-heart-opening-ko",
+  "group": "Συμβάσεις",
+  "title": "1♥ 오픈 후 임파서블 2♠",
+  "sections": [
+    {
+      "lines": [
+        "1♥ – 1NT* · 2♣/♦ – 2♠*: 극단적인 분포 <limit, fit ♣/♦."
+      ]
+    }
+  ],
+  "conventionId": "impossible-2-spades-after-a-1-heart-opening",
+  "language": "ko",
+  "status": "published"
+}

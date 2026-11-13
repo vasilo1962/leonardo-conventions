@@ -1,0 +1,16 @@
+{
+  "slug": "jump-cuebid-fi",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Jump Cuebid",
+  "sections": [
+    {
+      "lines": [
+        "(1♠) – 3♠: tikkejä alavärissä.",
+        "Vastaukset: patapidolla 3NT, muuten 4♣ (pass or correct)."
+      ]
+    }
+  ],
+  "conventionId": "jump-cuebid",
+  "language": "fi",
+  "status": "published"
+}

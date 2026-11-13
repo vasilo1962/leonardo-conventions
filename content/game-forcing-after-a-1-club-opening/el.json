@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-el",
+  "group": "Ανοίγματα",
+  "title": "Game Forcing After a 1♣ Opening",
+  "sections": [
+    {
+      "heading": "Απαντήσεις",
+      "lines": [
+        "Με χέρι <limit και 4φυλλο ♥/♠: 1♥/♠ ανεξαρτήτως αριθμού ♦.",
+        "1♣ – 2ΝΤ: 12–14 ή 18–19.",
+        "1♣ – 3ΝΤ: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "el",
+  "status": "published"
+}

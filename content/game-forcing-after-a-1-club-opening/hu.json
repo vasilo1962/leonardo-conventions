@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-hu",
+  "group": "Ανοίγματα",
+  "title": "Gémforsz 1♣ indulás után",
+  "sections": [
+    {
+      "heading": "Válaszok",
+      "lines": [
+        "<limit; 4 lap ♥/♠-ben: 1♥/♠ (a ♦ lapok számától függetlenül).",
+        "1♣ – 2NT: 12–14 vagy 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "hu",
+  "status": "published"
+}

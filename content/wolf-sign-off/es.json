@@ -1,0 +1,27 @@
+{
+  "slug": "wolf-sign-off-es",
+  "group": "Συμβάσεις",
+  "title": "Wolf Sign-off",
+  "sections": [
+    {
+      "heading": "1♥",
+      "lines": [
+        "1♣/♦ – 1♥ · 2NT – 3♣.",
+        "3♦: sin tres cartas en ♥. Respuestas: 3♥ to play · 3♠ FG (esto ocurre con 4-4).",
+        "3♥: con tres cartas en ♥. Respuestas: pass · 3NT 4 cartas en ♠."
+      ]
+    },
+    {
+      "heading": "1♠",
+      "lines": [
+        "1♣/♦ – 1♠ · 2NT – 3♣.",
+        "3♦: sin tres cartas en ♠. Respuestas: 3♠ to play.",
+        "3♠: con tres cartas en ♠. Respuestas: pass · 3NT.",
+        "Nota: con 5-4 ♠/♥, subastar nuestros palos."
+      ]
+    }
+  ],
+  "conventionId": "wolf-sign-off",
+  "language": "es",
+  "status": "published"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-zh",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4或5-4或5-5，0点（Garbage）",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "开叫人持三张黑桃时，总是修正为2♠。"
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "zh",
+  "status": "published"
+}

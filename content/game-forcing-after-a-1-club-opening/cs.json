@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-cs",
+  "group": "Ανοίγματα",
+  "title": "Forsing do hry po zahájení 1♣",
+  "sections": [
+    {
+      "heading": "Odpovědi",
+      "lines": [
+        "<limit; 4 karet v ♥/♠: 1♥/♠ (bez ohledu na počet ♦).",
+        "1♣ – 2NT: 12–14 nebo 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "cs",
+  "status": "published"
+}

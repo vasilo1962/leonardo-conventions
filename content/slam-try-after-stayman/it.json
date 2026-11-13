@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-it",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Tentativo di slam dopo Stayman",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: fit, tentativo di slam con un singolo (OM: altro maggiore).",
+        "3NT: chiede il singolo.",
+        "4X (X≠M): singolo.",
+        "4♥: singolo ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: quantitativa con fit.",
+        "4NT: quantitativa senza fit."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "it",
+  "status": "published"
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "5-4-or-5-5-in-the-majors-after-1nt-fi",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "5-4 tai 5-5 yläväreissä 1NT:n jälkeen",
+  "sections": [
+    {
+      "heading": "Limit",
+      "lines": [
+        "5♥ / 4♠: 1NT – 2♦* · 2♥ – 2♠.",
+        "5♠ / 4♥: 1NT – 2♣ · 2♦ – 2♠.",
+        "5-5: 1NT – 2♥* · 2♠ – 3♥."
+      ]
+    },
+    {
+      "heading": "Game Forcing",
+      "lines": [
+        "5-4 (Smolen)",
+        "1NT – 2♣ · 2♦ – 3 neljän kortin värissä.",
+        "5-5",
+        "1NT – 2♥ · 2♠ – 4♥.",
+        "6-5 tai 6-6",
+        "Kaikki 6-5- tai 6-6-kädet ovat vähintään täyspeliin pakottavia.",
+        "1NT – 4♣."
+      ]
+    },
+    {
+      "heading": "Muistisäännöt 1NT:lle",
+      "lines": [
+        "Inviitti 5-4",
+        "A. Avaaja ei pelaa pataa, tai",
+        "B. Aloita viiden kortin värillä (2♣ padalle, 2♦ hertalle).",
+        "Kaikki 5-5-kädet",
+        "Aloita 2♥:lla."
+      ]
+    }
+  ],
+  "conventionId": "5-4-or-5-5-in-the-majors-after-1nt",
+  "language": "fi",
+  "status": "published"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-it",
+  "group": "Ανοίγματα",
+  "title": "Forzante a manche dopo l’apertura di 1♣",
+  "sections": [
+    {
+      "heading": "Risposte",
+      "lines": [
+        "<limit; 4 carte a ♥/♠: 1♥/♠ (indipendentemente dal numero di ♦).",
+        "1♣ – 2NT: 12–14 o 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "it",
+  "status": "published"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-da",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Asmeniadis tofarvede indmeldinger",
+  "sections": [
+    {
+      "heading": "Farveåbning på ettrinnet (ΥΧΑ)",
+      "lines": [
+        "Mindst 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: de højere farver.",
+        "(1X) – 2NT: de lavere farver.",
+        "(1X) – 3♣: yderfarverne."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: 5 kort i ♣ eller ♦ / 4 kort i ♥ eller ♠.",
+        "Svar: 2♦ foretrækker minor · 2♥ foretrækker major.",
+        "2♣: majors.",
+        "2♦: 6 kort i ♥/♠.",
+        "Svar: 2/3/4♥/♠ pass or correct (med interesse i en major meldes den anden).",
+        "2♥: ♥ + ♣ eller ♦.",
+        "2♠: ♠ + ♣ eller ♦.",
+        "2NT: femkort minor, firkort major.",
+        "Svar som i noterne: 2♣ pass or correct minor · 2♦ meld majorfarven."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "da",
+  "status": "published"
+}

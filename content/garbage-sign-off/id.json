@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-id",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 atau 5-4 atau 5-5 dan 0 poin (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Dengan tiga sekop, pembuka SELALU mengoreksi ke 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "id",
+  "status": "published"
+}

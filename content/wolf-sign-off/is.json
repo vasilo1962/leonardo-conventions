@@ -1,0 +1,27 @@
+{
+  "slug": "wolf-sign-off-is",
+  "group": "Συμβάσεις",
+  "title": "Wolf Sign-off",
+  "sections": [
+    {
+      "heading": "1♥",
+      "lines": [
+        "1♣/♦ – 1♥ · 2NT – 3♣.",
+        "3♦: ekki þrjú spil í ♥. Svör: 3♥ to play · 3♠ FG (þetta kemur fyrir með 4-4).",
+        "3♥: með þrjú spil í ♥. Svör: pass · 3NT 4 spil í ♠."
+      ]
+    },
+    {
+      "heading": "1♠",
+      "lines": [
+        "1♣/♦ – 1♠ · 2NT – 3♣.",
+        "3♦: ekki þrjú spil í ♠. Svör: 3♠ to play.",
+        "3♠: með þrjú spil í ♠. Svör: pass · 3NT.",
+        "Athugið: með 5-4 ♠/♥ segjum við litina okkar."
+      ]
+    }
+  ],
+  "conventionId": "wolf-sign-off",
+  "language": "is",
+  "status": "published"
+}

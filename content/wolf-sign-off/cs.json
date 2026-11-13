@@ -1,0 +1,27 @@
+{
+  "slug": "wolf-sign-off-cs",
+  "group": "Συμβάσεις",
+  "title": "Wolf Sign-off",
+  "sections": [
+    {
+      "heading": "1♥",
+      "lines": [
+        "1♣/♦ – 1♥ · 2NT – 3♣.",
+        "3♦: bez tří karet v ♥. Odpovědi: 3♥ to play · 3♠ FG (to nastává při 4-4).",
+        "3♥: se třemi kartami v ♥. Odpovědi: pass · 3NT 4 karet v ♠."
+      ]
+    },
+    {
+      "heading": "1♠",
+      "lines": [
+        "1♣/♦ – 1♠ · 2NT – 3♣.",
+        "3♦: bez tří karet v ♠. Odpovědi: 3♠ to play.",
+        "3♠: se třemi kartami v ♠. Odpovědi: pass · 3NT.",
+        "Poznámka: s 5-4 ♠/♥ dražíme své barvy."
+      ]
+    }
+  ],
+  "conventionId": "wolf-sign-off",
+  "language": "cs",
+  "status": "published"
+}

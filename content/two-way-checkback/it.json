@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-it",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit o ♦ lunghi",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit o ♦ lunghi.",
+        "2♦: dichiarazione obbligata."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "In particolare: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Risposte in ordine di priorità: 2♥ quattro carte · 2♠ tre carte."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "it",
+  "status": "published"
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-da",
+  "group": "Ανοίγματα",
+  "title": "Udgangskrav efter åbningen 1♣",
+  "sections": [
+    {
+      "heading": "Svar",
+      "lines": [
+        "<limit; 4 kort i ♥/♠: 1♥/♠ (uanset antallet af ♦).",
+        "1♣ – 2NT: 12–14 eller 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "da",
+  "status": "published"
+}

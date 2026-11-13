@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-nl",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: eerste stap (onze eerste stap: 1-4).",
+        "4NT – (5X) – double: tweede stap (3-0).",
+        "4NT – (double) – pass: eerste stap (1-4).",
+        "4NT – (double) – redouble: tweede stap (3-0).",
+        "Dus: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "nl",
+  "status": "published"
+}

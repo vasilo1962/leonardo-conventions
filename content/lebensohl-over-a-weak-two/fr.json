@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-fr",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Lebensohl sur un deux faible",
+  "sections": [
+    {
+      "lines": [
+        "(2X) – double.",
+        "2A: minimum.",
+        "2NT*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "Après 2NT*",
+      "lines": [
+        "3♣: réponse obligatoire¹.",
+        "3A (A<X): minimum, to play.",
+        "3B (B>X): constructive.",
+        "3X (cuebid): Stayman, arrêt.",
+        "3NT: arrêt, pas de majeure quatrième.",
+        "4♣: ♣ + l’autre majeure (5-5).",
+        "4♦: ♦ + l’autre majeure (5-5)."
+      ]
+    },
+    {
+      "heading": "Réponses directes",
+      "lines": [
+        "3A (A<X): constructive.",
+        "3X (cuebid): Stayman, pas d’arrêt (FAD).",
+        "3B (B>X): cinq cartes / FG.",
+        "3NT: pas d’arrêt, pas de majeure quatrième (FAD).",
+        "¹ Avec un singleton, le contreur peut choisir de NE PAS enchérir 3♣."
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "fr",
+  "status": "published"
+}

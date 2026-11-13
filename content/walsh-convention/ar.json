@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-ar",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: ⁧يد غير متوازنة⁩.",
+        "1NT: ⁧يد متوازنة⁩."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: ⁧إذا تابع المجيب، فهي دعوة بأربع ورقات ♥/♠⁩.",
+        "2♦: GF, ⁧يسأل عن ♥/♠⁩."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "ar",
+  "status": "published"
+}

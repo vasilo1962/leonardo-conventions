@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-hu",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: első lépcső (a mi első lépcsőnk: 1-4).",
+        "4NT – (5X) – double: második lépcső (3-0).",
+        "4NT – (double) – pass: első lépcső (1-4).",
+        "4NT – (double) – redouble: második lépcső (3-0).",
+        "Tehát: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "hu",
+  "status": "published"
+}

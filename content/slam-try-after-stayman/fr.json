@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-fr",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Recherche de chelem après Stayman",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: fit, recherche de chelem avec un singleton (OM : autre majeure).",
+        "3NT: demande le singleton.",
+        "4X (X≠M): singleton.",
+        "4♥: singleton ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: quantitatif avec fit.",
+        "4NT: quantitatif sans fit."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "fr",
+  "status": "published"
+}

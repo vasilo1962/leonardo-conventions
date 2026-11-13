@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-el",
+  "group": "Συμβάσεις",
+  "title": "PIDO – PIRO",
+  "sections": [
+    {
+      "lines": [
+        "4ΝΤ – (5Χ) – pass: πρώτο βήμα (ό,τι είναι για εμάς το πρώτο βήμα: 1-4).",
+        "4ΝΤ – (5Χ) – double: δεύτερο βήμα (3-0).",
+        "4ΝΤ – (double) – pass: πρώτο βήμα (1-4).",
+        "4ΝΤ – (double) – redouble: δεύτερο βήμα (3-0).",
+        "Επομένως: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "el",
+  "status": "published"
+}

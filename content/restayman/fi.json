@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-fi",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "Keinotekoinen tarjous minkä tahansa Stayman-vastauksen jälkeen; pyytää käden kuvausta."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: täsmälleen yksi neljän kortin alaväri.",
+        "3♥: kumpi alaväri? 3♠: 4 korttia värissä ♣ · 3NT: 4 korttia värissä ♦.",
+        "3♥: 5 korttia värissä ♣.",
+        "3♠: 5 korttia värissä ♦.",
+        "3NT: 4-4 alaväreissä."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: täsmälleen yksi neljän kortin alaväri.",
+        "3♥*: kumpi alaväri? 3♠*: 4 korttia värissä ♣ · 3NT: 4 korttia värissä ♦.",
+        "3♥: 5 korttia värissä ♥.",
+        "3♠: 4 korttia värissä ♠.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: täsmälleen yksi neljän kortin alaväri.",
+        "3♥*: kumpi alaväri? 3♠*: 4 korttia värissä ♣ · 3NT: 4 korttia värissä ♦.",
+        "3♠: 5 korttia värissä ♠.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Muistisääntö",
+      "lines": [
+        "Vastaus 3♦ näyttää aina täsmälleen yhden neljän kortin alavärin."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "fi",
+  "status": "published"
+}

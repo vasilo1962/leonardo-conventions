@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-ru",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ без фита, рука не одномастная и не двухмастная.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: слабо, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 карты в ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 карты в ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: трёхкарточный фит, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: инвит с трёхкарточной поддержкой.",
+        "2♠: 6 карты в ♠, слабо.",
+        "2NT: Jordan, четыре карты, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ без фита, рука не одномастная и не двухмастная.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: слабо, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 карты в ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 карты в ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: трёхкарточный фит, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: инвит с трёхкарточной поддержкой.",
+        "2♠: трёхкарточный фит, слабо.",
+        "2NT: Jordan, четыре карты, limit+.",
+        "Применяется конвенция Берген.",
+        "С одномастной рукой: трансфер и подъём."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "ru",
+  "status": "published"
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "limit-after-1nt-with-one-or-both-four-card-majors-is",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Áskorun eftir 1NT með annan eða báða háliti fjórlita",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2NT*: getur verið án fjórlitar í hálit.",
+        "1NT – 2♣ · 2♥ – 2♠*: áskorun, án spaða, hjörtu.",
+        "1NT – 2♣ · 2♥ – 2NT*: áskorun með fjóra spaða."
+      ]
+    }
+  ],
+  "conventionId": "limit-after-1nt-with-one-or-both-four-card-majors",
+  "language": "is",
+  "status": "published"
+}

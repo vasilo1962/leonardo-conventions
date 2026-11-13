@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-nl",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit of lange ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit of lange ♦.",
+        "2♦: verplicht bod."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "Specifiek: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "Antwoorden in volgorde van prioriteit: 2♥ vier kaarten · 2♠ drie kaarten."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "nl",
+  "status": "published"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "p1d0-p1r0-is",
+  "group": "Συμβάσεις",
+  "title": "P1D0 – P1R0",
+  "sections": [
+    {
+      "lines": [
+        "4NT – (5X) – pass: fyrsta þrep (okkar fyrsta þrep: 1-4).",
+        "4NT – (5X) – double: annað þrep (3-0).",
+        "4NT – (double) – pass: fyrsta þrep (1-4).",
+        "4NT – (double) – redouble: annað þrep (3-0).",
+        "Því: pass = 5♣."
+      ]
+    }
+  ],
+  "conventionId": "p1d0-p1r0",
+  "language": "is",
+  "status": "published"
+}

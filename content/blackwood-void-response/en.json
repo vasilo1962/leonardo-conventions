@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-en",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Void Response",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: odd number + void (5: odd number).",
+        "6♣: asks for the void suit.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "en",
+  "status": "published"
+}

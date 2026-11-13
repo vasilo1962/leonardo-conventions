@@ -1,0 +1,18 @@
+{
+  "slug": "game-forcing-after-a-1-club-opening-ar",
+  "group": "Ανοίγματα",
+  "title": "⁧فرض الجيم بعد افتتاح 1♣⁩",
+  "sections": [
+    {
+      "heading": "⁧الردود⁩",
+      "lines": [
+        "<limit; ⁧4 ورقات في ♥/♠⁩: 1♥/♠ (⁧بغض النظر عن عدد ورقات ♦⁩).",
+        "1♣ – 2NT: 12–14 ⁧أو⁩ 18–19.",
+        "1♣ – 3NT: 15–17."
+      ]
+    }
+  ],
+  "conventionId": "game-forcing-after-a-1-club-opening",
+  "language": "ar",
+  "status": "published"
+}

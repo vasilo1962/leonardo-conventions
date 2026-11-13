@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-hu",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 vagy 5-4 vagy 5-5 és 0 pont (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Három pikkel az induló MINDIG 2♠-re javít."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "hu",
+  "status": "published"
+}

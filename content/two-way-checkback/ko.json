@@ -1,0 +1,25 @@
+{
+  "slug": "two-way-checkback-ko",
+  "group": "Συμβάσεις",
+  "title": "Two Way Checkback",
+  "sections": [
+    {
+      "heading": "2♣: limit 또는 긴 ♦",
+      "lines": [
+        "1A – 1B · 1NT – 2♣*: limit 또는 긴 ♦.",
+        "2♦: 필수 비드."
+      ]
+    },
+    {
+      "heading": "2♦: FG",
+      "lines": [
+        "1A – 1B · 1NT – 2♦*: FG.",
+        "특히: 1♣/♦ – 1♠ · 1NT – 2♦*.",
+        "우선순위에 따른 응답: 2♥ 4장 · 2♠ 3장."
+      ]
+    }
+  ],
+  "conventionId": "two-way-checkback",
+  "language": "ko",
+  "status": "published"
+}

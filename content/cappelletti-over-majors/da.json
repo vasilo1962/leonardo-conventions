@@ -1,0 +1,46 @@
+{
+  "slug": "cappelletti-over-majors-da",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Cappelletti Over Majors",
+  "sections": [
+    {
+      "heading": "1♥ – (double)",
+      "lines": [
+        "Redouble: 10+ uden fit, hverken enfarvet eller tofarvet hånd.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: svag, 6+ ♣.",
+        "2♣ – (pass) – 2♦: 5 kort i ♦, tolerance.",
+        "2♣ – (pass) – 2♥: 2 kort i ♥, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: trekort fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviterende med trekort støtte.",
+        "2♠: 6 kort i ♠, svag.",
+        "2NT: Jordan, fire kort, limit+."
+      ]
+    },
+    {
+      "heading": "1♠ – (double)",
+      "lines": [
+        "Redouble: 10+ uden fit, hverken enfarvet eller tofarvet hånd.",
+        "1NT: transfer ♣.",
+        "2♣ – (pass) – pass: svag, 6+ ♣.",
+        "2♣ – (pass) – 2♦/♥: 5 kort i ♦/♥, tolerance.",
+        "2♣ – (pass) – 2♠: 2 kort i ♠, constructive.",
+        "2♣: transfer ♦.",
+        "2♦: transfer ♥.",
+        "2♥: trekort fit, constructive+.",
+        "2♠ – (pass) – pass: constructive.",
+        "2♠ – (pass) – 3♠: inviterende med trekort støtte.",
+        "2♠: trekort fit, svag.",
+        "2NT: Jordan, fire kort, limit+.",
+        "Bergenkonventionen gælder.",
+        "Med en enfarvet hånd: transfer og støtte."
+      ]
+    }
+  ],
+  "conventionId": "cappelletti-over-majors",
+  "language": "da",
+  "status": "published"
+}

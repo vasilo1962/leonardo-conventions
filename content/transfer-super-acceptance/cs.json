@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-cs",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Superpřijetí",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Superpřijetí s doubletonem: dražte barvu.",
+        "2NT: Superpřijetí s doubletonem (barva transferu).",
+        "S minimem odpovídající provede retransfer.",
+        "Každá jiná nabídka je cuebid."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "cs",
+  "status": "published"
+}

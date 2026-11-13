@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-ko",
+  "group": "Ανοίγματα",
+  "title": "3♣ 오픈 후 스테이먼",
+  "sections": [
+    {
+      "heading": "응답",
+      "lines": [
+        "3♦: 3장 메이저를 묻는 스테이먼.",
+        "3♥/3♠: 다른 메이저에 3장 (강한 핸드가 선언자가 되도록).",
+        "3NT: 없음.",
+        "4♣: 두 메이저 모두 3장."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "ko",
+  "status": "published"
+}

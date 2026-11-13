@@ -1,0 +1,39 @@
+{
+  "slug": "lebensohl-over-a-weak-two-el",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Lebensohl μετά από Weak Two",
+  "sections": [
+    {
+      "lines": [
+        "(2Χ) – double.",
+        "2Α: minimum.",
+        "2ΝΤ*: Lebensohl."
+      ]
+    },
+    {
+      "heading": "Μετά το 2ΝΤ*",
+      "lines": [
+        "3♣: υποχρεωτική απάντηση¹.",
+        "3Α (Α<Χ): minimum, to play.",
+        "3Β (Β>Χ): constructive.",
+        "3Χ (cuebid): Stayman stopper.",
+        "3ΝΤ: stopper, no four-card major.",
+        "4♣: ♣ + το άλλο μαζέρ (5-5).",
+        "4♦: ♦ + το άλλο μαζέρ (5-5)."
+      ]
+    },
+    {
+      "heading": "Άμεσες απαντήσεις",
+      "lines": [
+        "3Α (Α<Χ): constructive.",
+        "3Χ (cuebid): Stayman, no stopper (FAD).",
+        "3Β (Β>Χ): πεντάφυλλο / FG.",
+        "3ΝΤ: no stopper, no four-card major (FAD).",
+        "¹ Αν ο double έχει το σόλο μπορεί να ΜΗΝ αγοράσει 3♣."
+      ]
+    }
+  ],
+  "conventionId": "lebensohl-over-a-weak-two",
+  "language": "el",
+  "status": "published"
+}

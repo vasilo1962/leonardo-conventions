@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-hi",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – वॉइड के साथ उत्तर",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: विषम संख्या + वॉइड (5: विषम संख्या).",
+        "6♣: वॉइड का सूट पूछता है.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "hi",
+  "status": "published"
+}

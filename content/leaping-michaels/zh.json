@@ -1,0 +1,17 @@
+{
+  "slug": "leaping-michaels-zh",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Leaping Michaels",
+  "sections": [
+    {
+      "lines": [
+        "2♥/♠:",
+        "(2♥/♠) – 4♣: ♣ + 另一高花 (5-5).",
+        "(2♥/♠) – 4♦: ♦ + 另一高花 (5-5)."
+      ]
+    }
+  ],
+  "conventionId": "leaping-michaels",
+  "language": "zh",
+  "status": "published"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "bergen-raises-ar",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Bergen Raises",
+  "sections": [
+    {
+      "lines": [
+        "(1♣/♦/♥) – 1♠ · (pass) – 3♣/♦/♠: Bergen."
+      ]
+    }
+  ],
+  "conventionId": "bergen-raises",
+  "language": "ar",
+  "status": "published"
+}

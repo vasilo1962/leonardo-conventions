@@ -1,0 +1,38 @@
+{
+  "slug": "two-way-inverted-minors-he",
+  "group": "Ανοίγματα",
+  "title": "Two Way Inverted Minors",
+  "sections": [
+    {
+      "heading": "1♣ – 2♣ Limit",
+      "lines": [
+        "⁧תשובות⁩:",
+        "2♦/♥/♠: ⁧עוצר⁩.",
+        "2NT: min, ⁧עוצרים בכל הסדרות⁩, to play.",
+        "3♣: super min.",
+        "3♦/♥/♠: splinter.",
+        "3NT: to play.",
+        "4♣: minorwood.",
+        "4♦/♥/♠: exclusion blackwood.",
+        "⁧להכרזה 3♣ יש עדיפות.⁩"
+      ]
+    },
+    {
+      "heading": "1♣ – 2♦ FG",
+      "lines": [
+        "⁧תשובות⁩:",
+        "2♥/♠: ⁧עוצר⁩.",
+        "2NT: min, ⁧עוצרים בכל הסדרות⁩, 12–14 ⁧או⁩ 18–19.",
+        "3♣: super min. ⁧להכרזה 3♣ יש עדיפות.⁩",
+        "3♦: ⁧עוצר⁩.",
+        "3♥/♠ ⁧ו⁩ 4♦: splinter.",
+        "3NT: max, ⁧עוצרים בכל הסדרות⁩, 15–17.",
+        "4♣: minorwood.",
+        "4♥/♠ ⁧ו⁩ 5♦: exclusion blackwood."
+      ]
+    }
+  ],
+  "conventionId": "two-way-inverted-minors",
+  "language": "he",
+  "status": "published"
+}

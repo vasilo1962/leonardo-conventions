@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-sv",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Inkliv i sandwichposition",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: naturligt.",
+        "Double: de två andra färgerna.",
+        "2♣: 5-5 de två andra färgerna.",
+        "2♥: naturligt.",
+        "2NT: vild fördelning (6-5), mycket få poäng.",
+        "Börja med dubbelt med mycket starka händer."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "sv",
+  "status": "published"
+}

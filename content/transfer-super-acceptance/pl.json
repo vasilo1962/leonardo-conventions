@@ -1,0 +1,19 @@
+{
+  "slug": "transfer-super-acceptance-pl",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Transfer – Superakcept",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♦/♥.",
+        "Superakcept z dubletonem: zalicytuj kolor.",
+        "2NT: Superakcept z dubletonem (kolor transferu).",
+        "Z minimum odpowiadający wykonuje retransfer.",
+        "Każda inna odzywka jest cue-bidem."
+      ]
+    }
+  ],
+  "conventionId": "transfer-super-acceptance",
+  "language": "pl",
+  "status": "published"
+}

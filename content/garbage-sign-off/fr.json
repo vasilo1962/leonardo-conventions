@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-fr",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 ou 5-4 ou 5-5 et 0 point (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Avec trois piques, l’ouvreur rectifie TOUJOURS à 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "fr",
+  "status": "published"
+}

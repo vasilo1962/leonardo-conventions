@@ -1,0 +1,16 @@
+{
+  "slug": "jump-cuebid-ko",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Jump Cuebid",
+  "sections": [
+    {
+      "lines": [
+        "(1♠) – 3♠: 어떤 마이너에서의 트릭.",
+        "응답: 스페이드 스토퍼가 있으면 3NT, 없으면 4♣ (pass or correct)."
+      ]
+    }
+  ],
+  "conventionId": "jump-cuebid",
+  "language": "ko",
+  "status": "published"
+}

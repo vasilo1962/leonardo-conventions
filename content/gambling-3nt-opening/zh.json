@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-zh",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT开叫",
+  "sections": [
+    {
+      "lines": [
+        "七张坚固低花，边花没有A或K。"
+      ]
+    },
+    {
+      "heading": "应叫",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (我有方块A).",
+        "4♦: 强叫，满贯试探，询问开叫人是否有单张."
+      ]
+    },
+    {
+      "heading": "应叫 4♦",
+      "lines": [
+        "4NT: 没有单张.",
+        "4♥/♠: 单张 ♥/♠.",
+        "5♣/♦: 另一低花为单张."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "zh",
+  "status": "published"
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "stayman-after-a-3-club-opening-sv",
+  "group": "Ανοίγματα",
+  "title": "Stayman efter öppningen 3♣",
+  "sections": [
+    {
+      "heading": "Svar",
+      "lines": [
+        "3♦: Stayman för trekorts högfärg.",
+        "3♥/3♠: tre kort i den andra högfärgen (så att den starka handen spelar).",
+        "3NT: ingen.",
+        "4♣: tre kort i båda högfärgerna."
+      ]
+    }
+  ],
+  "conventionId": "stayman-after-a-3-club-opening",
+  "language": "sv",
+  "status": "published"
+}

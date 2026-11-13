@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-zh",
+  "group": "Συμβάσεις",
+  "title": "Blackwood——带缺门的应叫",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: 奇数＋缺门（5：奇数）.",
+        "6♣: 询问缺门花色.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "zh",
+  "status": "published"
+}

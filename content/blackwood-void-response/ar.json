@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-ar",
+  "group": "Συμβάσεις",
+  "title": "⁧بلاكوود – الرد مع فراغ⁩",
+  "sections": [
+    {
+      "lines": [
+        "4NT – 5NT: ⁧عدد فردي + فراغ (5: عدد فردي)⁩.",
+        "6♣: ⁧يسأل عن لون الفراغ⁩.",
+        "6X: void X.",
+        "6A: void ♣.",
+        "6X (X<A): 2 + void X.",
+        "6A: 2 + void X>A."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "ar",
+  "status": "published"
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "walsh-convention-ko",
+  "group": "Συμβάσεις",
+  "title": "Walsh Convention",
+  "sections": [
+    {
+      "heading": "1♣ – 1♦",
+      "lines": [
+        "1♥/♠: 불균형 핸드.",
+        "1NT: 균형 핸드."
+      ]
+    },
+    {
+      "heading": "1♣ – 1♦ · 1NT",
+      "lines": [
+        "2♣* transfer · 2♦: 응답자가 계속 비드하면 ♥/♠ 4장으로 초청.",
+        "2♦: GF, ♥/♠를 묻는다."
+      ]
+    }
+  ],
+  "conventionId": "walsh-convention",
+  "language": "ko",
+  "status": "published"
+}

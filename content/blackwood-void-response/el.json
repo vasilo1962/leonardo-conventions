@@ -1,0 +1,20 @@
+{
+  "slug": "blackwood-void-response-el",
+  "group": "Συμβάσεις",
+  "title": "Blackwood – Void Response",
+  "sections": [
+    {
+      "lines": [
+        "4ΝΤ – 5ΝΤ: μονός αριθμός + void (5: μονός αριθμός).",
+        "6♣: ρωτάει το χρώμα του void.",
+        "6Χ: void Χ.",
+        "6Α: void ♣.",
+        "6Χ (Χ<Α): 2 + void Χ.",
+        "6Α: 2 + void σε Χ>Α."
+      ]
+    }
+  ],
+  "conventionId": "blackwood-void-response",
+  "language": "el",
+  "status": "published"
+}

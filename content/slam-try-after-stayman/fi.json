@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-fi",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Slammiyritys Staymanin jälkeen",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: valtti­sopivuus, slammiyritys singeltonilla (OM: toinen yläväri).",
+        "3NT: kysyy singeltonia.",
+        "4X (X≠M): singelton.",
+        "4♥: singelton ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: kvantitatiivinen, valttisopivuus.",
+        "4NT: kvantitatiivinen ilman valttisopivuutta."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "fi",
+  "status": "published"
+}

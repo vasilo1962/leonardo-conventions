@@ -1,0 +1,50 @@
+{
+  "slug": "restayman-da",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Restayman",
+  "sections": [
+    {
+      "lines": [
+        "En kunstig melding efter ethvert Staymansvar, der beder om en beskrivelse af hånden."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♦ – 3♣*",
+      "lines": [
+        "3♦: præcis én firkort minor.",
+        "3♥: hvilken minor? 3♠: 4 kort i ♣ · 3NT: 4 kort i ♦.",
+        "3♥: 5 kort i ♣.",
+        "3♠: 5 kort i ♦.",
+        "3NT: 4-4 i minorfarverne."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♥ – 3♣*",
+      "lines": [
+        "3♦*: præcis én firkort minor.",
+        "3♥*: hvilken minor? 3♠*: 4 kort i ♣ · 3NT: 4 kort i ♦.",
+        "3♥: 5 kort i ♥.",
+        "3♠: 4 kort i ♠.",
+        "3NT: 3-4-3-3."
+      ]
+    },
+    {
+      "heading": "1NT – 2♣ · 2♠ – 3♣*",
+      "lines": [
+        "3♦*: præcis én firkort minor.",
+        "3♥*: hvilken minor? 3♠*: 4 kort i ♣ · 3NT: 4 kort i ♦.",
+        "3♠: 5 kort i ♠.",
+        "3NT: 4-3-3-3."
+      ]
+    },
+    {
+      "heading": "Huskeregel",
+      "lines": [
+        "Svaret 3♦ viser altid præcis én firkort minor."
+      ]
+    }
+  ],
+  "conventionId": "restayman",
+  "language": "da",
+  "status": "published"
+}

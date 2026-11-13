@@ -1,0 +1,17 @@
+{
+  "slug": "garbage-sign-off-sv",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Garbage Sign-off",
+  "sections": [
+    {
+      "heading": "4-4 eller 5-4 eller 5-5 och 0 poäng (Garbage)",
+      "lines": [
+        "1NT – 2♣ · 2♦ – 2♥.",
+        "Med tre spader korrigerar öppnaren ALLTID till 2♠."
+      ]
+    }
+  ],
+  "conventionId": "garbage-sign-off",
+  "language": "sv",
+  "status": "published"
+}

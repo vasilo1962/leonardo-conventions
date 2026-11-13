@@ -1,0 +1,21 @@
+{
+  "slug": "slam-try-after-stayman-da",
+  "group": "Άνοιγμα 1ΝΤ",
+  "title": "Slemforsøg efter Stayman",
+  "sections": [
+    {
+      "lines": [
+        "1NT – 2♣ · 2M – 3OM: fit, slemforsøg med singleton (OM: den anden major).",
+        "3NT: spørger efter singleton.",
+        "4X (X≠M): singleton.",
+        "4♥: singleton ♠.",
+        "4♣: fit, blackwood.",
+        "4♦: kvantitativ med fit.",
+        "4NT: kvantitativ uden fit."
+      ]
+    }
+  ],
+  "conventionId": "slam-try-after-stayman",
+  "language": "da",
+  "status": "published"
+}

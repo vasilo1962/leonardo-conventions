@@ -1,0 +1,21 @@
+{
+  "slug": "sandwich-seat-overcalls-it",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Interventi in posizione sandwich",
+  "sections": [
+    {
+      "lines": [
+        "(1♣) – pass – (1♥):",
+        "1NT: naturale.",
+        "Double: gli altri due colori.",
+        "2♣: 5-5 gli altri due colori.",
+        "2♥: naturale.",
+        "2NT: distribuzione estrema (6-5), pochissimi punti.",
+        "Con mani molto forti, iniziare dal contro."
+      ]
+    }
+  ],
+  "conventionId": "sandwich-seat-overcalls",
+  "language": "it",
+  "status": "published"
+}

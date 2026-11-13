@@ -1,0 +1,34 @@
+{
+  "slug": "asmeniadis-two-suit-overcalls-tr",
+  "group": "Συναγωνιστικές αγορές",
+  "title": "Asmeniadis Çift Renkli Araya Girişleri",
+  "sections": [
+    {
+      "heading": "Bir seviyesinde renk açışı (ΥΧΑ)",
+      "lines": [
+        "En az 5-5.",
+        "(1♣) – 2♦: majors.",
+        "(1♦/♥/♠) – 2♦/♥/♠: üst renkler.",
+        "(1X) – 2NT: alt renkler.",
+        "(1X) – 3♣: uç renkler."
+      ]
+    },
+    {
+      "heading": "1NT (Multi Landy)",
+      "lines": [
+        "(1NT) – double: ♣ veya ♦ renginde 5 kart / ♥ veya ♠ renginde 4 kart.",
+        "Yanıtlar: 2♦ minörü tercih ederim · 2♥ majörü tercih ederim.",
+        "2♣: majors.",
+        "2♦: ♥/♠ renginde 6 kart.",
+        "Yanıtlar: 2/3/4♥/♠ pass or correct (bir majöre ilgi varsa diğerini söyleyin).",
+        "2♥: ♥ + ♣ veya ♦.",
+        "2♠: ♠ + ♣ veya ♦.",
+        "2NT: beşli minör, dörtlü majör.",
+        "Notlardaki yanıtlar: 2♣ pass or correct minor · 2♦ majörü söyleyin."
+      ]
+    }
+  ],
+  "conventionId": "asmeniadis-two-suit-overcalls",
+  "language": "tr",
+  "status": "published"
+}

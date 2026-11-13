@@ -1,0 +1,31 @@
+{
+  "slug": "gambling-3nt-opening-is",
+  "group": "Ανοίγματα",
+  "title": "Gambling 3NT opnun",
+  "sections": [
+    {
+      "lines": [
+        "Gangandi sjölitur í láglit, án áss eða kóngs til hliðar."
+      ]
+    },
+    {
+      "heading": "Svör",
+      "lines": [
+        "4/5/6♣: pass or correct.",
+        "7♣: to play (ég á tígulás).",
+        "4♦: sterk sögn, slemmutilraun, spyr hvort opnari sé með einspil."
+      ]
+    },
+    {
+      "heading": "Svör 4♦",
+      "lines": [
+        "4NT: ekkert einspil.",
+        "4♥/♠: einspil ♥/♠.",
+        "5♣/♦: einspil í hinum láglitnum."
+      ]
+    }
+  ],
+  "conventionId": "gambling-3nt-opening",
+  "language": "is",
+  "status": "published"
+}
