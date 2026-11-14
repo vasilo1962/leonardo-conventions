@@ -1,0 +1,32 @@
+# Δοκιμή ασκήσεων Multi Landy — 14/11/2026
+
+Η δοκιμή βρίσκεται στο /conventions/el/multi-landy/practice/ και συνδέεται από το ελληνικό άρθρο Multi Landy στην ίδια έκδοση. Είναι αυτοτελής στατική εφαρμογή με τοπική αξιολόγηση μίας αγοράς. Δεν παράγει πλήρεις διανομές ούτε καλεί υπηρεσίες του παιχνιδιού.
+
+## Εκπαιδευτικό περιεχόμενο
+
+Το multi-landy.el.json περιέχει δύο ομάδες των 10 ασκήσεων. Κάθε ομάδα έχει 8 συμβατικές περιπτώσεις και 2 αντιπαραδείγματα. Στις παρεμβολές τα αντιπαραδείγματα απαιτούν πάσο χωρίς κατάλληλη κατανομή. Στις απαντήσεις απαιτούν αναγνώριση φυσικών 3♣ / 3♦ αντί των συμβατικών 2♣ / 2♦. Όλες οι αγορές ακολουθούν το εγκεκριμένο ελληνικό μάθημα.
+
+Ο χρήστης βλέπει μόνο το χέρι του, τη θέση του, τη δύναμη του αντίπαλου 1NT, τις μανς και την προηγούμενη αγορά. Η αξιολόγηση κλειδώνει την πρώτη απάντηση και εμφανίζει σύντομη εξήγηση. Κάθε ομάδα ολοκληρώνεται με αποτέλεσμα και δυνατότητα επανάληψης σε διαφορετική σειρά.
+
+## Παρουσίαση τραπεζιού
+
+Η υπάρχουσα παρουσίαση του παιχνιδιού προσαρμόστηκε σε HTML/CSS/JavaScript για το αποθετήριο των συμβάσεων. Χρησιμοποιούνται οι ίδιες βασικές αναλογίες, η σειρά φύλλων χωρίς ατού ♠ ♥ ♣ ♦, οι τέσσερις χρωματισμοί και το bidding box 7×5 με XX / PASS / X. Η στενή οθόνη διατηρεί πλάτος bidding box 80% και ύψος 70% του πλάτους του, με προεπισκόπηση αφής πριν την αγορά.
+
+Πηγές αναφοράς που διαβάστηκαν στο main του vasilo1962/bridge365:
+
+- [src/components/playing-card.tsx](https://github.com/vasilo1962/bridge365/blob/main/src/components/playing-card.tsx)
+- [src/components/just-declare-hand.tsx](https://github.com/vasilo1962/bridge365/blob/main/src/components/just-declare-hand.tsx)
+- [src/components/just-declare-position-marker.tsx](https://github.com/vasilo1962/bridge365/blob/main/src/components/just-declare-position-marker.tsx)
+- [src/bridge/auction/use-bridge-auction.tsx](https://github.com/vasilo1962/bridge365/blob/main/src/bridge/auction/use-bridge-auction.tsx)
+- [src/lib/card-constants.ts](https://github.com/vasilo1962/bridge365/blob/main/src/lib/card-constants.ts)
+- [src/lib/game-area-layout.ts](https://github.com/vasilo1962/bridge365/blob/main/src/lib/game-area-layout.ts)
+- [src/shared/accessibility/bidding-grid-navigation.ts](https://github.com/vasilo1962/bridge365/blob/main/src/shared/accessibility/bidding-grid-navigation.ts)
+
+Οι αλλαγές της δοκιμής γίνονται αποκλειστικά στο vasilo1962/leonardo-conventions. Η υλοποίηση χρησιμοποιεί μεταφορά της παρουσίασης, όχι εισαγωγή των bundles ή των δεδομένων του παιχνιδιού.
+
+## Έλεγχοι και παράδοση
+
+- scripts/check-exercises.mjs: χέρια, αναλογία 80/20 ανά ομάδα, σημασίες αγορών, νόμιμες επιλογές, κίνηση πληκτρολογίου και αρχεία της προεπισκόπησης.
+- scripts/check-site.mjs: έλεγχος των υφιστάμενων άρθρων και συνδέσμων.
+- Η δοκιμή έχει noindex και παραδίδεται πρώτα ως ακριβής προεπισκόπηση. Η δημοσίευση απαιτεί ξεχωριστή έγκριση.
+- Το sitemap παραμένει αρμοδιότητα του κεντρικού ψηφιακού βοηθού.

@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
+import { buildExercisePreview } from './exercise-page.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
@@ -69,9 +70,11 @@ for (const language of languages) {
     const { html, headings } = renderArticle(source, article, language);
     const route = `${language.code}/${article.slug}/`;
     const title = article.title + ' | Leonardo Bridge';
+    const exercises = language.code === 'el' && article.slug === 'multi-landy'
+      ? '<aside class="play-online"><p><strong>Ασκήσεις Multi Landy</strong></p><p>Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>' : '';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: language.cards[index], route, slug: article.slug,
-      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + play + '</main></div>'
+      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
     }));
     pageCount++;
   }
@@ -86,4 +89,5 @@ for (const language of languages) {
 }
 await writeFile('site/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   [...sitemapUrls].sort().map(url => '  <url><loc>' + escapeHtml(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
-console.log(`${pageCount} static pages, ${languages.length} languages, ${articles.length} conventions.`);
+await buildExercisePreview();
+console.log(`${pageCount} lesson/catalog pages, ${languages.length} languages, ${articles.length} conventions, plus one Greek exercise preview.`);
