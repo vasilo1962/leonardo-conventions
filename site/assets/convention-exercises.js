@@ -139,6 +139,8 @@ function initializeExercises() {
   function select(call) {
     const session = sessions[mode]; const question = current();
     if (session.answers.has(question.id) || !legalCalls(question.auction).includes(call)) return;
+    clearTimeout(announceTimer);
+    $('#exercise-announcement').textContent = '';
     session.answers.set(question.id, call);
     showFeedback(question, call);
     drawBidding(question, call);
@@ -190,6 +192,8 @@ function initializeExercises() {
     bidding.replaceChildren(grid, actions);
   }
   function render(focus = false) {
+    clearTimeout(announceTimer);
+    $('#exercise-announcement').textContent = '';
     const session = sessions[mode];
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     summary.hidden = !session.finished; table.hidden = session.finished; feedback.hidden = true;
