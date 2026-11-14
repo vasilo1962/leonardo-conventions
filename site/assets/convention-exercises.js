@@ -87,7 +87,7 @@ function initializeExercises() {
     // Same ratios as card-constants.ts, game-area-layout.ts and use-bridge-auction.tsx.
     const cardWidth = mobile ? width * .99 / 13 : width * .70 / 13;
     const cardHeight = cardWidth * 1.5;
-    const boxWidth = mobile ? width * .80 : Math.min(352 * 1.10, width * .60);
+    const boxWidth = mobile ? width * .80 : Math.min(320 * 1.10, width * .60);
     const boxHeight = mobile ? boxWidth * .70 : boxWidth / 1.10;
     const optionHeight = boxHeight / 8;
     const optionWidth = boxWidth / 5;
