@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
 import { sharedHeader, headerAssets, accessibilityShell } from './shared-header.mjs';
+import { accessibleTables } from './table-speech.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
@@ -51,12 +52,13 @@ function renderArticle(source, article, language) {
     const id = sectionIds[headings.length];
     headings.push({ id, title });
     return `<h2 id="${id}">${title}</h2>`;
-  }).replace(/<table>/g, '<div class="table-wrap" role="region" aria-label="' + escapeHtml(language.ui.table) + '" tabindex="0"><table>').replace(/<\/table>/g, '</table></div>').replace(/<th>/g, '<th scope="col">');
+  }).replace(/<table>/g, '<div class="table-wrap" role="region" aria-label="' + escapeHtml(language.ui.table) + '"><table>').replace(/<\/table>/g, '</table></div>').replace(/<th>/g, '<th scope="col">');
   if (headings.length !== sectionIds.length) throw new Error(`${language.code}/${article.slug}: wrong heading structure`);
   if (language.dir === 'rtl') {
     html = isolateRtl(html);
     for (const heading of headings) heading.title = isolateRtl(heading.title);
   }
+  html = accessibleTables(html, language.code);
   return { html, headings };
 }
 async function playOnline(language) {

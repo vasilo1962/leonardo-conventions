@@ -24,3 +24,5 @@ body.voice-enabled{padding-bottom:40px}
 .site-header .voice-settings label span{display:inline;color:#183242;font-size:16px}
 .site-header .voice-toggle span,.site-header .voice-settings summary span{display:block;color:#f2cc79;font-size:22px}
 @media(max-width:767px){.site-header .voice-toggle span,.site-header .voice-settings summary span{font-size:20px}}
+
+.spoken-table-row:focus-visible{outline:3px solid #b78012;outline-offset:-3px}

@@ -39,7 +39,7 @@ if(source){
   hint();
  });
  // Mouse exploration focuses the actual element, never clicks or emits a hover live message.
- const controls='a,button:not(:disabled),input,select,summary,[tabindex],main p,main h1,main h2,main h3,.hand-row,.exercise-auction th,.exercise-auction td,.voice-settings label';
+ const controls='a,button:not(:disabled),input,select,summary,[tabindex],main p,main h1,main h2,main h3,.hand-row,.exercise-auction th,.exercise-auction td,.voice-settings label,.spoken-table-row,.table-wrap th';
  const editable=()=>document.activeElement?.matches('input:not([type=checkbox]):not([type=radio]),textarea,select,[contenteditable]');
  document.addEventListener('pointerover',event=>{
   if(event.pointerType==='touch'||editable())return;
