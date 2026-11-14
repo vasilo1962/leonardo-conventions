@@ -19,3 +19,8 @@ body.voice-enabled{padding-bottom:40px}
 @media(max-width:767px){.site-header .bar{padding:10px 14px;gap:10px}.site-header .header-links{gap:7px;font-size:14px}.site-header .brand{max-width:45%;min-width:115px}.site-header .brand img{width:190px}.voice-toggle,.voice-settings summary{min-width:36px;min-height:36px;font-size:20px;padding:3px 6px}.voice-intro{padding:22px;font-size:16px}#voice-caption{font-size:13px}}
 @media(max-width:900px){.layout>nav{max-height:none;overflow:visible}}
 @media print{.site-header,.voice-intro,#voice-caption,#voice-live{display:none!important}}
+
+/* Header navigation's decorative spans must not hide or fade setting labels. */
+.site-header .voice-settings label span{display:inline;color:#183242;font-size:16px}
+.site-header .voice-toggle span,.site-header .voice-settings summary span{display:block;color:#f2cc79;font-size:22px}
+@media(max-width:767px){.site-header .voice-toggle span,.site-header .voice-settings summary span{font-size:20px}}

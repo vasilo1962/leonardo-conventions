@@ -39,11 +39,12 @@ if(source){
   hint();
  });
  // Mouse exploration focuses the actual element, never clicks or emits a hover live message.
- const controls='a,button:not(:disabled),input,select,summary,[tabindex],main p,main h1,main h2,main h3,.hand-row,.exercise-auction th,.exercise-auction td';
- const editable=()=>document.activeElement?.matches('input,textarea,select,[contenteditable]');
+ const controls='a,button:not(:disabled),input,select,summary,[tabindex],main p,main h1,main h2,main h3,.hand-row,.exercise-auction th,.exercise-auction td,.voice-settings label';
+ const editable=()=>document.activeElement?.matches('input:not([type=checkbox]):not([type=radio]),textarea,select,[contenteditable]');
  document.addEventListener('pointerover',event=>{
   if(event.pointerType==='touch'||editable())return;
-  const target=event.target instanceof Element?event.target.closest(controls):null;
+  let target=event.target instanceof Element?event.target.closest(controls):null;
+  if(target?.matches('.voice-settings label'))target=target.querySelector('input');
   if(!target||target.closest('[hidden]')||(dialog.open&&!dialog.contains(target)))return;
   if(event.relatedTarget instanceof Node&&target.contains(event.relatedTarget))return;
   if(target.matches('.hand-row')){const text=target.querySelector('.sr-only')?.textContent;if(text)target.setAttribute('aria-label',text);}
