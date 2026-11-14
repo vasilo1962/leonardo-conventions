@@ -10,5 +10,10 @@
 .exercise-summary.has-next-group #restart-exercises{background:transparent;color:#0a3c6a;border-color:#b8c9d4;margin-left:10px}
 .exercise-modes button.completed-mode[aria-pressed="true"]{background:#fff;color:#0a3c6a;border-color:#b8c9d4}
 .exercise-modes button.suggested-mode{background:#0a3c6a;color:#fff;border-color:#0a3c6a}
-.exercise-table #exercise-question,.exercise-feedback #feedback-title{font-size:23px;line-height:1.3}
-@media(max-width:767px){.exercise-table #exercise-question,.exercise-feedback #feedback-title{font-size:21px}.exercise-summary.has-next-group #restart-exercises{margin:10px 0 0}}
+.exercise-feedback #feedback-title{font-size:23px;line-height:1.3}
+@media(max-width:767px){.exercise-feedback #feedback-title{font-size:21px}.exercise-summary.has-next-group #restart-exercises{margin:10px 0 0}}
+
+/* The prompt uses the same readable body size as the answer explanation. */
+.exercise-main{--exercise-copy-size:18px}
+.exercise-situation,.exercise-feedback p{font-size:var(--exercise-copy-size);line-height:1.75}
+@media(max-width:767px){.exercise-main{--exercise-copy-size:16px}}
