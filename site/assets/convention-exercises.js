@@ -188,12 +188,19 @@ function initializeExercises() {
     const session = sessions[mode];
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     summary.hidden = !session.finished; table.hidden = session.finished; feedback.hidden = true;
+    const continueResponses = session.finished && mode === 'overcall' && !sessions.response.finished;
+    $('#continue-responses').hidden = !continueResponses;
+    summary.classList.toggle('has-next-group', continueResponses);
+    document.querySelectorAll('[data-mode]').forEach(button => {
+      button.classList.toggle('suggested-mode', continueResponses && button.dataset.mode === 'response');
+      button.classList.toggle('completed-mode', continueResponses && button.dataset.mode === 'overcall');
+    });
     if (session.finished) {
       const correct = session.questions.filter(q => session.answers.get(q.id) === q.answer).length;
       $('#summary-score').textContent = `Σωστές απαντήσεις: ${correct} από ${session.questions.length}.`;
       $('#exercise-progress').textContent = 'Η ομάδα ολοκληρώθηκε';
       $('#exercise-context').textContent = '';
-      summary.focus({ preventScroll: true });
+      (continueResponses ? $('#continue-responses') : summary).focus({ preventScroll: true });
       announce($('#summary-score').textContent);
       return;
     }
@@ -223,6 +230,7 @@ function initializeExercises() {
     render(true);
     (session.finished ? summary : $('#exercise-question')).scrollIntoView({ block: 'start', behavior: 'instant' });
   });
+  $('#continue-responses').addEventListener('click', () => { mode = 'response'; render(true); $('#exercise-question').scrollIntoView({ block: 'start', behavior: 'instant' }); });
   $('#restart-exercises').addEventListener('click', () => { sessions[mode] = start(mode); render(true); });
   $('#toggle-bidding').addEventListener('click', () => {
     biddingHidden = !biddingHidden; bidding.hidden = biddingHidden;

@@ -5,3 +5,10 @@
 .exercise-bid-preview{position:absolute;z-index:5;pointer-events:none;display:flex;align-items:center;justify-content:center;background:#faf4ee;border:2px solid #0a3c6a;border-radius:var(--bid-radius);box-shadow:0 4px 6px #0006;font:bold calc(var(--bid-font)*1.60)/1 "Arial Narrow",Arial,sans-serif}@media(max-width:767px){.exercise-bidding{touch-action:none}}
 /* Keep the whole decision — auction, bidding box and own hand — together. */
 @media(min-width:768px){.exercise-main{margin-top:16px;padding-top:20px}.exercise-heading h1{font-size:36px;margin-bottom:4px}.exercise-heading .eyebrow{font-size:11px;line-height:1.4;margin-bottom:4px}.exercise-intro{font-size:15px;line-height:1.5;margin-bottom:12px}.exercise-modes{margin-bottom:12px}.exercise-modes button{font-size:15px;line-height:1.4;padding:8px 14px}.exercise-progress{font-size:13px;line-height:1.5}.exercise-progress p{margin-bottom:8px}.exercise-table{padding-top:14px;padding-bottom:12px}.exercise-table h2{font-size:21px;line-height:1.3}.exercise-situation{line-height:1.5;margin-bottom:10px}.exercise-auction{margin-bottom:12px}.exercise-auction th{padding:3px 2px}.exercise-auction td{font-size:21px;padding:4px 2px}.exercise-bidding-area{margin-bottom:14px}}
+
+/* Completion guides the learner into the response group. */
+.exercise-summary.has-next-group #restart-exercises{background:transparent;color:#0a3c6a;border-color:#b8c9d4;margin-left:10px}
+.exercise-modes button.completed-mode[aria-pressed="true"]{background:#fff;color:#0a3c6a;border-color:#b8c9d4}
+.exercise-modes button.suggested-mode{background:#0a3c6a;color:#fff;border-color:#0a3c6a}
+.exercise-table #exercise-question,.exercise-feedback #feedback-title{font-size:23px;line-height:1.3}
+@media(max-width:767px){.exercise-table #exercise-question,.exercise-feedback #feedback-title{font-size:21px}.exercise-summary.has-next-group #restart-exercises{margin:10px 0 0}}

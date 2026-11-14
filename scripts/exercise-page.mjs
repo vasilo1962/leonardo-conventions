@@ -30,7 +30,7 @@ export async function buildExercisePreview() {
 <div class="exercise-south"><div class="exercise-cards" id="exercise-hand" role="list" aria-label="Το χέρι σου, 13 φύλλα"></div><div class="exercise-position"><span class="south-symbol" aria-hidden="true">S</span><span>Εσύ · Νότος</span><span class="turn-label">Η σειρά σου</span></div></div>
 </section>
 <section class="exercise-feedback" id="exercise-feedback" aria-label="Αποτέλεσμα" hidden><h2 id="feedback-title"></h2><p id="feedback-answer"></p><p id="feedback-explanation"></p><button type="button" id="next-exercise">Επόμενη άσκηση</button></section>
-<section class="exercise-summary" id="exercise-summary" tabindex="-1" hidden><h2>Ολοκλήρωσες την ομάδα</h2><p id="summary-score"></p><button type="button" id="restart-exercises">Ξανά με τα ίδια χέρια</button><a href="../">Επιστροφή στο μάθημα</a></section>
+<section class="exercise-summary" id="exercise-summary" tabindex="-1" hidden><h2>Ολοκλήρωσες την ομάδα</h2><p id="summary-score"></p><button type="button" id="continue-responses" hidden>Απαντώ στον συμπαίκτη</button><button type="button" id="restart-exercises">Ξανά με τα ίδια χέρια</button><a href="../">Επιστροφή στο μάθημα</a></section>
 <p id="exercise-announcement" class="sr-only" aria-live="polite" aria-atomic="true"></p>
 <noscript><p>Για τις διαδραστικές ασκήσεις χρειάζεται JavaScript. <a href="../">Μπορείς να διαβάσεις το μάθημα ${data.title}.</a></p></noscript>
 <script type="application/json" id="exercise-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
