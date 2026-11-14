@@ -440,5 +440,141 @@
       "Kaksi alinta tarjoamatonta väriä yhdellä tarjouksella.",
       "Yksi- ja kaksivärivälitarjoukset vahvaa 1NT:tä vastaan."
     ]
+  },
+  {
+    "code": "pl",
+    "name": "Polski",
+    "suits": [
+      "piki",
+      "kiery",
+      "kara",
+      "trefle"
+    ],
+    "ranks": {
+      "A": "as",
+      "K": "król",
+      "Q": "dama",
+      "J": "walet",
+      "T": "dziesiątka"
+    },
+    "ui": {
+      "conventions": "Konwencje",
+      "skip": "Przejdź do treści",
+      "lesson": "W tej lekcji",
+      "intro": "Zastosowanie, przykłady i odpowiedzi",
+      "learn": "Uczymy się brydża",
+      "description": "Objaśnienia, przykładowe ręce i dalszy przebieg licytacji.",
+      "play": "Zagraj teraz",
+      "table": "Tabela licytacji",
+      "playText": "W Leonardo Bridge możesz grać w brydża online bezpłatnie i bez ograniczeń. Ćwicz z robotami we własnym tempie, bierz udział w turniejach lub graj ze znajomymi."
+    },
+    "cards": [
+      "Wejścia po naturalnym otwarciu 1BA.",
+      "Wejścia dwukolorowe po otwarciu jeden w kolor.",
+      "Dwa najniższe nielicytowane kolory w jednej odzywce.",
+      "Wejścia jednokolorowe i dwukolorowe przeciw silnemu 1BA."
+    ]
+  },
+  {
+    "code": "cs",
+    "name": "Čeština",
+    "suits": [
+      "piky",
+      "srdce",
+      "kára",
+      "trefy"
+    ],
+    "ranks": {
+      "A": "eso",
+      "K": "král",
+      "Q": "dáma",
+      "J": "kluk",
+      "T": "deset"
+    },
+    "ui": {
+      "conventions": "Konvence",
+      "skip": "Přejít na obsah",
+      "lesson": "V této lekci",
+      "intro": "Použití, příklady a odpovědi",
+      "learn": "Učíme se bridž",
+      "description": "Vysvětlení, příklady listů a pokračování dražby.",
+      "play": "Hrát nyní",
+      "table": "Tabulka dražby",
+      "playText": "Na Leonardo Bridge můžeš hrát bridž online zdarma a bez omezení. Trénuj s roboty vlastním tempem, účastni se turnajů nebo hraj s přáteli."
+    },
+    "cards": [
+      "Zásahy po přirozeném zahájení 1BT.",
+      "Dvoubarevné zásahy po zahájení jednou v barvě.",
+      "Dvě nejnižší nedražené barvy jedinou hláškou.",
+      "Jednobarevné a dvoubarevné zásahy proti silnému 1BT."
+    ]
+  },
+  {
+    "code": "hu",
+    "name": "Magyar",
+    "suits": [
+      "pikk",
+      "kőr",
+      "káró",
+      "treff"
+    ],
+    "ranks": {
+      "A": "ász",
+      "K": "király",
+      "Q": "dáma",
+      "J": "bubi",
+      "T": "tíz"
+    },
+    "ui": {
+      "conventions": "Konvenciók",
+      "skip": "Ugrás a tartalomra",
+      "lesson": "Ebben a leckében",
+      "intro": "Alkalmazás, példák és válaszok",
+      "learn": "Tanuljunk bridzselni",
+      "description": "Magyarázatok, példalapok és licitfolytatások.",
+      "play": "Játssz most",
+      "table": "Licittáblázat",
+      "playText": "A Leonardo Bridge-en ingyenesen és korlátlanul bridzselhetsz online. Gyakorolj robotokkal a saját tempódban, vegyél részt versenyeken, vagy játssz a barátaiddal."
+    },
+    "cards": [
+      "Közbeszólások természetes 1NT indulás után.",
+      "Kétszínű közbeszólások egyes magasságú színindulás után.",
+      "A két legalacsonyabb nem licitált szín egy licittel.",
+      "Egyszínű és kétszínű közbeszólások erős 1NT ellen."
+    ]
+  },
+  {
+    "code": "is",
+    "name": "Íslenska",
+    "suits": [
+      "spaðar",
+      "hjörtu",
+      "tíglar",
+      "lauf"
+    ],
+    "ranks": {
+      "A": "ás",
+      "K": "kóngur",
+      "Q": "drottning",
+      "J": "gosi",
+      "T": "tíu"
+    },
+    "ui": {
+      "conventions": "Sagnvenjur",
+      "skip": "Fara í efnið",
+      "lesson": "Í þessari kennslustund",
+      "intro": "Notkun, dæmi og svör",
+      "learn": "Lærum bridge",
+      "description": "Útskýringar, dæmi um spil og framhald sagna.",
+      "play": "Spila núna",
+      "table": "Sagnatafla",
+      "playText": "Á Leonardo Bridge geturðu spilað bridge á netinu ókeypis og án takmarkana. Æfðu þig með vélmennum á þínum hraða, taktu þátt í mótum eða spilaðu með vinum."
+    },
+    "cards": [
+      "Innákomur eftir eðlilega opnun á 1NT.",
+      "Tvílitar innákomur eftir opnun á einum í lit.",
+      "Tveir lægstu ósögðu litirnir með einni sögn.",
+      "Einlitar og tvílitar innákomur gegn sterku 1NT."
+    ]
   }
 ]
