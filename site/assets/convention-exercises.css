@@ -15,5 +15,5 @@
 
 /* The prompt uses the same readable body size as the answer explanation. */
 .exercise-main{--exercise-copy-size:18px}
-.exercise-situation,.exercise-feedback p{font-size:var(--exercise-copy-size);line-height:1.75}
+.exercise-intro,.exercise-situation,.exercise-feedback p{font-size:var(--exercise-copy-size);line-height:1.75}
 @media(max-width:767px){.exercise-main{--exercise-copy-size:16px}}
