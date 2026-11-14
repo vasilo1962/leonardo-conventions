@@ -16,7 +16,7 @@ export function accessibleTables(html,language){
    const values=[...cells.matchAll(/<td>([\s\S]*?)<\/td>/g)].map(m=>tableTextSpeech(m[1],language));
    const speech=values.map((v,i)=>v?(headings[i]?headings[i]+': ':'')+v:'').filter(Boolean).join('. ')+'.';
    return `<tr class="spoken-table-row" tabindex="0" aria-label="${escape(speech)}">`+cells.replace(/<td>([\s\S]*?)<\/td>/g,(_,text)=>'<td>'+spokenCell(text,language)+'</td>')+'</tr>';
-  })+'</tbody>').replace(/(<th[^>]*>)([\s\S]*?)(<\/th>)/g,(_,open,text,close)=>open+spokenCell(text,language)+close);
+  })+'</tbody>').replace(/(<th[^>]*>)([\s\S]*?)(<\/th>)/g,(_,open,text,close)=>open.slice(0,-1)+' aria-label="'+escape(tableTextSpeech(text,language))+'">'+spokenCell(text,language)+close);
   return '<table>'+result+'</table>';
  });
 }
