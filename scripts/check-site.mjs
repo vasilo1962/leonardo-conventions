@@ -16,9 +16,13 @@ for (const language of languages) {
     assert.ok(!translated.includes('{{H'));
     if (language.code !== 'el') assert.ok(!/[\u0370-\u03ff]/.test(translated), `${language.code}/${slug}: untranslated Greek`);
     const html = await readFile(`site/${language.code}/${slug}/index.html`, 'utf8');
-    assert.ok(html.includes(`<html lang="${language.code}">`));
+    assert.ok(html.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
     assert.ok(html.includes(`rel="canonical" href="https://leonardobridge.com/conventions/${language.code}/${slug}/"`));
-    assert.ok(html.includes('class="brand" href="https://leonardobridge.com/"'));
+    assert.ok(html.includes('class="brand" dir="ltr" href="https://leonardobridge.com/"'));
+    if (language.dir === 'rtl') {
+      assert.ok(html.includes('<bdi dir="ltr">'));
+      assert.equal((html.match(/aria-hidden="true" dir="ltr"/g)||[]).length, 4 * hands(reference).length);
+    }
     assert.equal((html.match(/class="hand"/g)||[]).length, hands(reference).length);
     assert.equal((html.match(/class="sr-only"/g)||[]).length, 4 * hands(reference).length);
     const localBase = new URL(`https://leonardobridge.com/conventions/${language.code}/${slug}/`);
@@ -44,7 +48,7 @@ for (const language of languages) {
     checked++;
   }
   const catalog = await readFile(`site/${language.code}/index.html`, 'utf8');
-  assert.ok(catalog.includes(`<html lang="${language.code}">`));
+  assert.ok(catalog.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
   for (const slug of articles) assert.ok(catalog.includes(`href="../${language.code}/${slug}/"`));
 }
 assert.ok((await readFile('site/index.html','utf8')).includes('href="el/dont/"'));
