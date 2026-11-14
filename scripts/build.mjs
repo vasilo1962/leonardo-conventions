@@ -13,6 +13,7 @@ const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'at
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const isolateRtl = html => html.split(/(<[^>]+>)/g).map((part, index) => index % 2 ? part : part.replace(/\b[1-7](?:NT|[♠♥♦♣])|\b\d+[––-]\d+|\b[A-Za-z][A-Za-z0-9]*(?:[ .-]+[A-Za-z][A-Za-z0-9]*)*/g, token => '<bdi dir="ltr">' + token + '</bdi>')).join('');
 const canonicalRoot = 'https://leonardobridge.com/conventions/';
+const sitemapUrls = new Set();
 function languageMenu(language, route, slug) {
   const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
   return '<details class="language-menu"><summary dir="auto" lang="' + language.code + '">' + escapeHtml(language.name) + '</summary><ul>' +
@@ -21,6 +22,7 @@ function languageMenu(language, route, slug) {
 function page({ language, title, description, route, slug, body }) {
   const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
   const canonical = canonicalRoot + route;
+  sitemapUrls.add(canonical);
   const alternates = languages.map(other => '<link rel="alternate" hreflang="' + other.code + '" href="' + canonicalRoot + other.code + '/' + (slug ? slug + '/' : '') + '">').join('');
   return '<!doctype html>\n<html lang="' + language.code + '"' + (language.dir === 'rtl' ? ' dir="rtl"' : '') + '><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<base href="/conventions/' + route + '">' +
@@ -82,4 +84,6 @@ for (const language of languages) {
     pageCount++;
   }
 }
+await writeFile('site/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+  [...sitemapUrls].sort().map(url => '  <url><loc>' + escapeHtml(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
 console.log(`${pageCount} static pages, ${languages.length} languages, ${articles.length} conventions.`);

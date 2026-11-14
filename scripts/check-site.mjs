@@ -53,3 +53,18 @@ for (const language of languages) {
 }
 assert.ok((await readFile('site/index.html','utf8')).includes('href="el/dont/"'));
 console.log(`Verified ${checked} articles, ${languages.length} languages: identical hands, localized accessibility, metadata, language links and internal navigation.`);
+
+// The sitemap must cover exactly the generated canonical pages, including every language.
+const sitemap = await readFile('site/sitemap.xml', 'utf8');
+assert.ok(sitemap.startsWith('<?xml version="1.0" encoding="UTF-8"?>'));
+assert.ok(sitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'));
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
+const expectedUrls = ['https://leonardobridge.com/conventions/'];
+for (const language of languages) {
+  expectedUrls.push('https://leonardobridge.com/conventions/' + language.code + '/');
+  for (const slug of articles) expectedUrls.push('https://leonardobridge.com/conventions/' + language.code + '/' + slug + '/');
+}
+assert.deepEqual([...sitemapUrls].sort(), expectedUrls.sort(), 'Sitemap missing, duplicate or unexpected URL');
+assert.ok(!sitemap.includes('conventions-preview'));
+assert.ok(!sitemap.includes('<lastmod>'), 'Do not invent modification dates on rebuild');
+console.log('Verified sitemap: ' + sitemapUrls.length + ' canonical URLs, no preview URLs or duplicates.');
