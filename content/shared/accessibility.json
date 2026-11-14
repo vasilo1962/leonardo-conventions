@@ -1,0 +1,236 @@
+{
+  "en": {
+    "message": "You are in the mode for blind users. If you do not need it, turn it off to stop its notifications.",
+    "close": "Close",
+    "disable": "Turn off",
+    "settings": "Customize",
+    "reader": "I use a screen reader",
+    "mode": "Voice Mode",
+    "hint": "For better screen reader support, enable Leonardo Bridge's Voice Mode using the speaker icon in the top bar."
+  },
+  "el": {
+    "message": "Βρίσκεσαι σε λειτουργία για μη βλέποντες. Αν δεν τη χρειάζεσαι, απενεργοποίησέ την για να σταματήσουν οι ειδοποιήσεις της.",
+    "close": "Κλείσιμο",
+    "disable": "Απενεργοποίηση",
+    "settings": "Προσαρμογή",
+    "reader": "Χρησιμοποιώ αναγνώστη οθόνης",
+    "mode": "Ηχητική λειτουργία",
+    "hint": "Για καλύτερη λειτουργία με αναγνώστη οθόνης, ενεργοποίησε τη λειτουργία του Leonardo Bridge από το εικονίδιο του ηχείου στην επάνω μπάρα."
+  },
+  "fr": {
+    "message": "Tu es en mode pour les personnes aveugles. Si tu n’en as pas besoin, désactive-le pour arrêter ses notifications.",
+    "close": "Fermer",
+    "disable": "Désactiver",
+    "settings": "Personnalisation",
+    "reader": "J’utilise un lecteur d’écran",
+    "mode": "Mode vocal",
+    "hint": "Pour mieux utiliser le lecteur d’écran, active le mode vocal de Leonardo Bridge avec l’icône du haut-parleur dans la barre du haut."
+  },
+  "nl": {
+    "message": "Je gebruikt de modus voor blinde gebruikers. Schakel deze uit als je deze niet nodig hebt om de meldingen te stoppen.",
+    "close": "Sluiten",
+    "disable": "Uitschakelen",
+    "settings": "Aanpassen",
+    "reader": "Ik gebruik een schermlezer",
+    "mode": "Spraakmodus",
+    "hint": "Schakel voor betere ondersteuning van je schermlezer de Voice Mode van Leonardo Bridge in via het luidsprekerpictogram bovenaan."
+  },
+  "zh": {
+    "message": "您已进入盲人模式。如果不需要此模式，请关闭它以停止相关通知。",
+    "close": "关闭",
+    "disable": "停用",
+    "settings": "自定义",
+    "reader": "我使用屏幕阅读器",
+    "mode": "语音模式",
+    "hint": "为更好地使用屏幕阅读器，请通过顶部栏的扬声器图标启用 Leonardo Bridge 的语音模式。"
+  },
+  "it": {
+    "message": "È attiva la modalità per persone non vedenti. Se non ne hai bisogno, disattivala per interrompere le relative notifiche.",
+    "close": "Chiudi",
+    "disable": "Disattiva",
+    "settings": "Personalizza",
+    "reader": "Uso un lettore di schermo",
+    "mode": "Modalità vocale",
+    "hint": "Per un migliore utilizzo con il lettore di schermo, attiva la modalità vocale di Leonardo Bridge dall’icona dell’altoparlante nella barra in alto."
+  },
+  "de": {
+    "message": "Der Modus für blinde Nutzer ist aktiviert. Wenn du ihn nicht brauchst, deaktiviere ihn, um seine Benachrichtigungen zu beenden.",
+    "close": "Schließen",
+    "disable": "Deaktivieren",
+    "settings": "Anpassen",
+    "reader": "Ich verwende einen Screenreader",
+    "mode": "Sprachmodus",
+    "hint": "Aktiviere für eine bessere Nutzung mit Screenreader den Sprachmodus von Leonardo Bridge über das Lautsprechersymbol in der oberen Leiste."
+  },
+  "sv": {
+    "message": "Du använder läget för blinda användare. Stäng av det om du inte behöver det för att stoppa dess aviseringar.",
+    "close": "Stäng",
+    "disable": "Stäng av",
+    "settings": "Anpassa",
+    "reader": "Jag använder en skärmläsare",
+    "mode": "Röstläge",
+    "hint": "Aktivera Leonardo Bridges röstläge via högtalarikonen i det övre fältet för bättre stöd för skärmläsare."
+  },
+  "da": {
+    "message": "Du bruger tilstanden for blinde brugere. Slå den fra, hvis du ikke har brug for den, for at stoppe dens meddelelser.",
+    "close": "Luk",
+    "disable": "Slå fra",
+    "settings": "Tilpas",
+    "reader": "Jeg bruger en skærmlæser",
+    "mode": "Stemmetilstand",
+    "hint": "Aktivér Leonardo Bridges stemmetilstand via højttalerikonet i den øverste bjælke for bedre understøttelse af skærmlæsere."
+  },
+  "no": {
+    "message": "Du bruker modusen for blinde brukere. Slå den av hvis du ikke trenger den, for å stoppe varslene fra den.",
+    "close": "Lukk",
+    "disable": "Slå av",
+    "settings": "Tilpass",
+    "reader": "Jeg bruker en skjermleser",
+    "mode": "Talemodus",
+    "hint": "Aktiver Leonardo Bridges talemodus via høyttalerikonet i den øverste linjen for bedre støtte for skjermleser."
+  },
+  "pl": {
+    "message": "Włączony jest tryb dla osób niewidomych. Jeśli go nie potrzebujesz, wyłącz go, aby zatrzymać jego powiadomienia.",
+    "close": "Zamknij",
+    "disable": "Wyłącz",
+    "settings": "Dostosuj",
+    "reader": "Korzystam z czytnika ekranu",
+    "mode": "Tryb głosowy",
+    "hint": "Aby lepiej korzystać z czytnika ekranu, włącz tryb głosowy Leonardo Bridge ikoną głośnika na górnym pasku."
+  },
+  "ja": {
+    "message": "視覚障害者向けモードが有効です。不要な場合は、このモードを無効にすると関連通知が停止します。",
+    "close": "閉じる",
+    "disable": "無効にする",
+    "settings": "カスタマイズ",
+    "reader": "スクリーンリーダーを使用しています",
+    "mode": "音声モード",
+    "hint": "スクリーンリーダーをより快適に使うには、上部バーのスピーカーアイコンで Leonardo Bridge の音声モードを有効にしてください。"
+  },
+  "he": {
+    "message": "מצב למשתמשים עיוורים פעיל. אם אין בו צורך, כבה אותו כדי להפסיק את ההתראות שלו.",
+    "close": "סגירה",
+    "disable": "כיבוי",
+    "settings": "התאמה אישית",
+    "reader": "אני משתמש בקורא מסך",
+    "mode": "מצב קולי",
+    "hint": "לשימוש טוב יותר בקורא מסך, הפעל את מצב הקול של Leonardo Bridge דרך סמל הרמקול בסרגל העליון."
+  },
+  "es": {
+    "message": "Está activo el modo para personas ciegas. Si no lo necesitas, desactívalo para detener sus notificaciones.",
+    "close": "Cerrar",
+    "disable": "Desactivar",
+    "settings": "Personalizar",
+    "reader": "Uso un lector de pantalla",
+    "mode": "Modo de voz",
+    "hint": "Para usar mejor el lector de pantalla, activa el modo de voz de Leonardo Bridge desde el icono del altavoz de la barra superior."
+  },
+  "pt": {
+    "message": "O modo para pessoas cegas está ativo. Se não precisares dele, desativa-o para interromper as notificações desse modo.",
+    "close": "Fechar",
+    "disable": "Desativar",
+    "settings": "Personalizar",
+    "reader": "Uso um leitor de ecrã",
+    "mode": "Modo de voz",
+    "hint": "Para uma melhor utilização com leitor de ecrã, ativa o modo de voz do Leonardo Bridge no ícone do altifalante da barra superior."
+  },
+  "hi": {
+    "message": "दृष्टिहीन उपयोगकर्ताओं के लिए मोड चालू है। यदि तुम्हें इसकी आवश्यकता नहीं है, तो इसकी सूचनाएँ बंद करने के लिए इसे निष्क्रिय करो।",
+    "close": "बंद करो",
+    "disable": "निष्क्रिय करो",
+    "settings": "अनुकूलित करें",
+    "reader": "मैं स्क्रीन रीडर का उपयोग करता हूँ",
+    "mode": "वॉइस मोड",
+    "hint": "स्क्रीन रीडर के बेहतर उपयोग के लिए ऊपर की पट्टी में स्पीकर आइकन से Leonardo Bridge का वॉइस मोड चालू करो।"
+  },
+  "tr": {
+    "message": "Görme engelli kullanıcılar için mod etkin. İhtiyacın yoksa bildirimlerini durdurmak için bu modu kapat.",
+    "close": "Kapat",
+    "disable": "Devre dışı bırak",
+    "settings": "Özelleştir",
+    "reader": "Ekran okuyucu kullanıyorum",
+    "mode": "Ses modu",
+    "hint": "Ekran okuyucuyla daha iyi kullanım için üst çubuktaki hoparlör simgesinden Leonardo Bridge ses modunu etkinleştir."
+  },
+  "ru": {
+    "message": "Включён режим для незрячих пользователей. Если он тебе не нужен, отключи его, чтобы прекратить его уведомления.",
+    "close": "Закрыть",
+    "disable": "Отключить",
+    "settings": "Настроить",
+    "reader": "Я использую программу чтения с экрана",
+    "mode": "Голосовой режим",
+    "hint": "Для удобной работы с программой экранного доступа включи голосовой режим Leonardo Bridge значком динамика на верхней панели."
+  },
+  "fi": {
+    "message": "Sokeille käyttäjille tarkoitettu tila on käytössä. Jos et tarvitse sitä, poista se käytöstä lopettaaksesi sen ilmoitukset.",
+    "close": "Sulje",
+    "disable": "Poista käytöstä",
+    "settings": "Mukauta",
+    "reader": "Käytän ruudunlukijaa",
+    "mode": "Puhetila",
+    "hint": "Ota Leonardo Bridgen äänitila käyttöön yläpalkin kaiutinkuvakkeesta, jotta ruudunlukija toimii paremmin."
+  },
+  "cs": {
+    "message": "Je zapnutý režim pro nevidomé uživatele. Pokud jej nepotřebuješ, vypni jej, aby se přestala zobrazovat jeho oznámení.",
+    "close": "Zavřít",
+    "disable": "Vypnout",
+    "settings": "Přizpůsobit",
+    "reader": "Používám čtečku obrazovky",
+    "mode": "Hlasový režim",
+    "hint": "Pro lepší používání čtečky obrazovky zapni hlasový režim Leonardo Bridge ikonou reproduktoru v horní liště."
+  },
+  "is": {
+    "message": "Kveikt er á ham fyrir blinda notendur. Ef þú þarft hann ekki skaltu slökkva á honum til að stöðva tilkynningar hans.",
+    "close": "Loka",
+    "disable": "Slökkva",
+    "settings": "Sérsníða",
+    "reader": "Ég nota skjálesara",
+    "mode": "Raddhamur",
+    "hint": "Kveiktu á raddham Leonardo Bridge með hátalaratákninu á efstu stikunni til að bæta notkun með skjálesara."
+  },
+  "hu": {
+    "message": "A vak felhasználóknak szánt mód aktív. Ha nincs rá szükséged, kapcsold ki az értesítései leállításához.",
+    "close": "Bezárás",
+    "disable": "Kikapcsolás",
+    "settings": "Testreszabás",
+    "reader": "Képernyőolvasót használok",
+    "mode": "Hangmód",
+    "hint": "A képernyőolvasó jobb használatához kapcsold be a Leonardo Bridge hangmódját a felső sáv hangszóróikonjával."
+  },
+  "id": {
+    "message": "Mode untuk pengguna tunanetra aktif. Jika tidak memerlukannya, nonaktifkan mode ini untuk menghentikan notifikasinya.",
+    "close": "Tutup",
+    "disable": "Nonaktifkan",
+    "settings": "Sesuaikan",
+    "reader": "Saya menggunakan pembaca layar",
+    "mode": "Mode suara",
+    "hint": "Untuk dukungan pembaca layar yang lebih baik, aktifkan mode suara Leonardo Bridge melalui ikon pengeras suara di bilah atas."
+  },
+  "ar": {
+    "message": "وضع المستخدمين المكفوفين مفعّل. إذا لم تكن بحاجة إليه، فعطّله لإيقاف إشعاراته.",
+    "close": "إغلاق",
+    "disable": "تعطيل",
+    "settings": "تخصيص",
+    "reader": "أستخدم قارئ شاشة",
+    "mode": "الوضع الصوتي",
+    "hint": "لاستخدام أفضل لقارئ الشاشة، فعّل الوضع الصوتي في Leonardo Bridge من أيقونة مكبر الصوت في الشريط العلوي."
+  },
+  "th": {
+    "message": "ขณะนี้เปิดโหมดสำหรับผู้ใช้ที่ตาบอด หากไม่ต้องการใช้ ให้ปิดโหมดนี้เพื่อหยุดการแจ้งเตือนของโหมด",
+    "close": "ปิด",
+    "disable": "ปิดโหมด",
+    "settings": "ปรับแต่ง",
+    "reader": "ฉันใช้โปรแกรมอ่านหน้าจอ",
+    "mode": "โหมดเสียง",
+    "hint": "เพื่อให้ใช้งานโปรแกรมอ่านหน้าจอได้ดีขึ้น ให้เปิดโหมดเสียงของ Leonardo Bridge จากไอคอนลำโพงในแถบด้านบน"
+  },
+  "ko": {
+    "message": "시각장애인용 모드가 켜져 있습니다. 필요하지 않으면 이 모드를 꺼서 관련 알림을 중지하세요.",
+    "close": "닫기",
+    "disable": "모드 끄기",
+    "settings": "맞춤 설정",
+    "reader": "스크린 리더를 사용합니다",
+    "mode": "음성 모드",
+    "hint": "스크린 리더를 더 편리하게 사용하려면 상단 바의 스피커 아이콘으로 Leonardo Bridge 음성 모드를 켜세요."
+  }
+}

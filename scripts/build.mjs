@@ -1,6 +1,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
+import { sharedHeader, headerAssets, accessibilityShell } from './shared-header.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
@@ -31,9 +32,9 @@ function page({ language, title, description, route, slug, body }) {
     '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '">' +
     '<link rel="canonical" href="' + canonical + '">' + alternates +
     '<meta property="og:type" content="' + (slug ? 'article' : 'website') + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + canonical + '">' +
-    '<link rel="stylesheet" href="' + prefix + 'assets/conventions.css"></head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
-    '<header><div class="bar"><a class="brand" dir="ltr" href="https://leonardobridge.com/">Leonardo Bridge</a><div class="header-links"><a href="' + (route ? prefix + language.code + '/' : './') + '">' + escapeHtml(language.ui.conventions) + '</a>' + languageMenu(language, route, slug) + '</div></div></header>' +
-    body + '<footer>Leonardo Bridge · ' + escapeHtml(language.ui.conventions) + '</footer></body></html>\n';
+    '<link rel="stylesheet" href="' + prefix + 'assets/conventions.css">' + headerAssets(prefix) + '</head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
+    sharedHeader({prefix, language:language.code, links:'<a href="' + (route ? prefix + language.code + '/' : './') + '">' + escapeHtml(language.ui.conventions) + '</a>' + languageMenu(language, route, slug)}) +
+    body + '<footer>Leonardo Bridge · ' + escapeHtml(language.ui.conventions) + '</footer>' + accessibilityShell(language.code) + '</body></html>\n';
 }
 function renderArticle(source, article, language) {
   let handCount = 0;

@@ -24,7 +24,7 @@ for (const language of languages) {
       assert.equal((html.match(/aria-hidden="true" dir="ltr"/g)||[]).length, 4 * hands(reference).length);
     }
     assert.equal((html.match(/class="hand"/g)||[]).length, hands(reference).length);
-    assert.equal((html.match(/class="sr-only"/g)||[]).length, 4 * hands(reference).length);
+    assert.equal((html.match(/<span class="sr-only"/g)||[]).length, 4 * hands(reference).length);
     const localBase = new URL(`https://leonardobridge.com/conventions/${language.code}/${slug}/`);
     for (const [,href] of html.matchAll(/href="([^"]+)"/g)) {
       if (href.startsWith('#')) {

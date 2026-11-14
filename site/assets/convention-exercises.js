@@ -75,8 +75,10 @@ function initializeExercises() {
   const summary = $('#exercise-summary');
   let biddingHidden = false;
   let announceTimer;
+  const voiceEnabled = () => document.documentElement.dataset.voiceMode === 'true';
   const announce = text => {
     clearTimeout(announceTimer);
+    if (!voiceEnabled() || document.querySelector('.voice-intro')?.open) return;
     $('#exercise-announcement').textContent = '';
     announceTimer = setTimeout(() => { $('#exercise-announcement').textContent = text; }, 40);
   };
@@ -141,8 +143,11 @@ function initializeExercises() {
     showFeedback(question, call);
     drawBidding(question, call);
     $('.turn-label').textContent = 'Απάντησες';
-    announce(`${callSpeech(call)}. ${call === question.answer ? 'Σωστά.' : 'Η σωστή αγορά είναι ' + callSpeech(question.answer) + '.'} ${question.explanation}`);
-    $('#next-exercise').focus({ preventScroll: true });
+    if (voiceEnabled()) {
+      feedback.tabIndex = -1;
+      feedback.setAttribute('aria-label', `${callSpeech(call)}. ${call === question.answer ? 'Σωστά.' : 'Η σωστή αγορά είναι ' + callSpeech(question.answer) + '.'} ${question.explanation}`);
+      feedback.focus({ preventScroll: true });
+    } else $('#next-exercise').focus({ preventScroll: true });
     feedback.scrollIntoView({ block: 'nearest', behavior: 'instant' });
   }
   function showFeedback(question, call) {
@@ -201,7 +206,8 @@ function initializeExercises() {
       $('#exercise-progress').textContent = 'Η ομάδα ολοκληρώθηκε';
       $('#exercise-context').textContent = '';
       (continueResponses ? $('#continue-responses') : summary).focus({ preventScroll: true });
-      announce($('#summary-score').textContent);
+      const target = continueResponses ? $('#continue-responses') : summary;
+      target.setAttribute('aria-describedby', 'summary-score');
       return;
     }
     const question = current();
@@ -220,8 +226,13 @@ function initializeExercises() {
     bidding.hidden = false; biddingHidden = false;
     $('#toggle-bidding').setAttribute('aria-expanded', 'true'); $('#toggle-bidding').textContent = 'ΑΠΟΚΡΥΨΗ';
     geometry();
-    if (focus) $('#exercise-question').focus({ preventScroll: true });
-    announce(`${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. Η σειρά σου.`);
+    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. Η σειρά σου.`;
+    const heading = $('#exercise-question');
+    heading.removeAttribute('aria-label');
+    if (focus) {
+      if (voiceEnabled()) heading.setAttribute('aria-label', speech);
+      heading.focus({ preventScroll: true });
+    } else announce(speech);
   }
   document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => { mode = button.dataset.mode; render(true); }));
   $('#next-exercise').addEventListener('click', () => {
