@@ -201,8 +201,9 @@ function initializeExercises() {
     $('#exercise-question').dataset.questionId = question.id;
     $('#exercise-question').textContent = mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;';
     $('#exercise-progress').textContent = `Άσκηση ${session.index + 1} από ${session.questions.length}`;
-    $('#exercise-context').textContent = `1NT: ${question.ntRange} πόντοι · Χωρίς μανς`;
-    const situation = mode === 'overcall' ? 'Η Ανατολή ανοίγει 1NT. Είναι η σειρά σου.' : 'Η Δύση ανοίγει 1NT. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.';
+    $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
+    const opening = callLabel(question.auction[0].call);
+    const situation = mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`;
     $('#exercise-situation').textContent = situation;
     drawHand(question); drawAuction(question);
     const selected = session.answers.get(question.id);

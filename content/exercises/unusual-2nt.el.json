@@ -1,0 +1,486 @@
+{
+  "title": "Unusual 2NT",
+  "language": "el",
+  "questions": [
+    {
+      "id": "unusual-2nt-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "6",
+        "H": "KJ975",
+        "D": "QJ864",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1C"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT με άλμα: καρά και κούπες, τα δύο χαμηλότερα μη αγορασμένα χρώματα. Έχουμε τουλάχιστον 5–5 και αδύνατο χέρι."
+    },
+    {
+      "id": "unusual-2nt-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "84",
+        "H": "QJ975",
+        "D": "6",
+        "C": "KJ864"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1D"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT με άλμα, δείχνοντας 5 σπαθιά και 5 κούπες. Τα καρά έχουν ήδη αγοραστεί, οπότε δεν ανήκουν στα δύο χρώματα που δείχνουμε."
+    },
+    {
+      "id": "unusual-2nt-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "6",
+        "H": "84",
+        "D": "KJ975",
+        "C": "QJ864"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1H"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT: μετά το άνοιγμα 1♥ τα δύο χαμηλότερα μη αγορασμένα χρώματα είναι τα μινέρ. Έχουμε 5 σπαθιά και 5 καρά."
+    },
+    {
+      "id": "unusual-2nt-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "84",
+        "H": "6",
+        "D": "QJ864",
+        "C": "KJ975"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1S"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT, δείχνοντας τα δύο μινέρ με τουλάχιστον 5–5. Η αγορά είναι συμβατική, χωρίς πρόθεση να παίξουμε χωρίς ατού."
+    },
+    {
+      "id": "unusual-2nt-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "6",
+        "H": "AKJ84",
+        "D": "AQ975",
+        "C": "K2"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1C"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT με το πολύ δυνατό χέρι: 5 καρά και 5 κούπες. Η εκδοχή μας περιλαμβάνει αδύνατα και πολύ δυνατά χέρια· τη δύναμη θα τη δείξουμε στη συνέχεια."
+    },
+    {
+      "id": "unusual-2nt-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K2",
+        "H": "AQ975",
+        "D": "6",
+        "C": "AKJ84"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1D"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT με 5 σπαθιά και 5 κούπες και πολύ δυνατό χέρι. Δεν δείχνουμε ομαλή κατανομή, παρά την ονομασία της αγοράς."
+    },
+    {
+      "id": "unusual-2nt-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K2",
+        "H": "6",
+        "D": "AKJ84",
+        "C": "AQ975"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1H"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT: 5–5 στα μινέρ και το πολύ δυνατό χέρι. Μετά την απλή προτίμηση του συμπαίκτη θα συνεχίσουμε για να δείξουμε επιπλέον δύναμη."
+    },
+    {
+      "id": "unusual-2nt-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "6",
+        "H": "K2",
+        "D": "AQ975",
+        "C": "AKJ84"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1S"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2NT με τα δύο 5φυλλα μινέρ. Η πολύ μεγάλη δύναμη επιτρέπεται από τη συμφωνία μας και θα φανεί με τη συνέχεια της αγοράς."
+    },
+    {
+      "id": "unusual-2nt-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "J84",
+        "H": "Q73",
+        "D": "K82",
+        "C": "9642"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1H"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Δεν έχουμε τα δύο τουλάχιστον 5φυλλα μινέρ που χρειάζεται το Unusual μετά από άνοιγμα σε μαζέρ, ούτε αξίες για άλλη παρεμβολή."
+    },
+    {
+      "id": "unusual-2nt-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "QT84",
+        "H": "J75",
+        "D": "82",
+        "C": "K963"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1C"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Μετά το 1♣ το Unusual απαιτεί 5 καρά και 5 κούπες. Το χέρι μας δεν έχει αυτή την κατανομή και είναι πολύ αδύνατο για άλλη αγορά."
+    },
+    {
+      "id": "unusual-2nt-response-1",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "874",
+        "H": "Q963",
+        "D": "J852",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1S"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♦. Ο συμπαίκτης έδειξε τα δύο μινέρ και προτιμάμε τα 4 καρά από τα δύο σπαθιά. Δεν πασάρουμε το συμβατικό 2NT."
+    },
+    {
+      "id": "unusual-2nt-response-2",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "874",
+        "H": "Q963",
+        "D": "74",
+        "C": "J852"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1H"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♣, απλή προτίμηση με 4 σπαθιά και δύο καρά. Το 2NT του συμπαίκτη έδειξε τα μινέρ, όχι φυσική δύναμη χωρίς ατού."
+    },
+    {
+      "id": "unusual-2nt-response-3",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "8742",
+        "H": "Q963",
+        "D": "85",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1C"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♥. Μετά το άνοιγμα 1♣ ο συμπαίκτης έχει καρά και κούπες. Επιλέγουμε τις 4 κούπες αντί για τα δύο καρά."
+    },
+    {
+      "id": "unusual-2nt-response-4",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "8742",
+        "H": "85",
+        "D": "Q963",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1C"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♦. Ο συμπαίκτης έχει καρά και κούπες, επομένως δίνουμε προτίμηση στο χρώμα με τα 4 φύλλα, στο χαμηλότερο διαθέσιμο επίπεδο."
+    },
+    {
+      "id": "unusual-2nt-response-5",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "8742",
+        "H": "Q963",
+        "D": "K72",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1D"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♥. Μετά το 1♦ το 2NT δείχνει σπαθιά και κούπες. Με 4 κούπες και δύο σπαθιά η προτίμησή μας είναι σαφής."
+    },
+    {
+      "id": "unusual-2nt-response-6",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "8742",
+        "H": "85",
+        "D": "K72",
+        "C": "Q963"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1D"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♣. Τα δύο χρώματα του συμπαίκτη είναι σπαθιά και κούπες. Έχουμε 4φυλλη υποστήριξη στα σπαθιά και μόνο δύο κούπες."
+    },
+    {
+      "id": "unusual-2nt-response-7",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q963",
+        "H": "874",
+        "D": "J852",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1S"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♦ με 4 καρά. Η οικονομική προτίμηση δεν υπόσχεται αρκετούς πόντους για μανς· απλώς επιλέγουμε ανάμεσα στα μινέρ του συμπαίκτη."
+    },
+    {
+      "id": "unusual-2nt-response-8",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q963",
+        "H": "874",
+        "D": "74",
+        "C": "J852"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1H"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 3♣ με τα 4 σπαθιά μας. Επιλέγουμε ένα από τα δύο μινέρ του συμπαίκτη, χωρίς να ανεβάζουμε περισσότερο το επίπεδο με λίγες αξίες."
+    },
+    {
+      "id": "unusual-2nt-response-9",
+      "role": "response",
+      "kind": "contrast",
+      "hand": {
+        "S": "J864",
+        "H": "Q72",
+        "D": "963",
+        "C": "874"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1C"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Ο συμπαίκτης έκανε φυσική παρεμβολή 1♠, όχι Unusual. Με υποστήριξη αλλά ελάχιστες αξίες δεν αναζητούμε μινέρ ούτε αυξάνουμε το επίπεδο."
+    },
+    {
+      "id": "unusual-2nt-response-10",
+      "role": "response",
+      "kind": "contrast",
+      "hand": {
+        "S": "Q72",
+        "H": "J864",
+        "D": "963",
+        "C": "874"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1D"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Το φυσικό 1♥ δεν δείχνει δύο χρώματα. Με αυτό το πολύ αδύνατο χέρι και υποστήριξη αφήνουμε τον συμπαίκτη να παίξει στις κούπες."
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "title": "DONT",
+  "language": "el",
+  "questions": [
+    {
+      "id": "dont-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "83",
+        "H": "KQJ974",
+        "D": "A62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "X",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε κοντρ, δείχνοντας μονόχρωμο χέρι. Μετά το 2♣ του συμπαίκτη θα δείξουμε τις κούπες με 2♥. Το άμεσο 2♥ θα έδειχνε τα δύο μαζέρ.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "84",
+        "H": "75",
+        "D": "Q62",
+        "C": "KQJ974"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "X",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε κοντρ με τα 6 σπαθιά. Αν ο συμπαίκτης αγοράσει 2♣ και οι αντίπαλοι πασάρουν, θα πασάρουμε. Το κοντρ του DONT δεν είναι τιμωρίας.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "84",
+        "H": "75",
+        "D": "KQJ974",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "X",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε κοντρ με το 6φυλλο χρώμα στα καρά. Μετά την αναμονή 2♣ του συμπαίκτη θα αγοράσουμε 2♦, δείχνοντας το πραγματικό μας χρώμα.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KJ84",
+        "H": "6",
+        "D": "972",
+        "C": "AQ965"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♣: σπαθιά και ανώτερο χρώμα, εδώ οι πίκες. Στο DONT αρκεί τουλάχιστον 5–4 και ο συμπαίκτης μπορεί να μείνει στα σπαθιά ή να αναζητήσει το δεύτερο χρώμα.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "6",
+        "H": "972",
+        "D": "AQ965",
+        "C": "KJ84"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♣ με 4 σπαθιά και 5 καρά. Το χαμηλότερο χρώμα δεν είναι υποχρεωτικά το 5φυλλο. Δείχνουμε σπαθιά και κάποιο ανώτερο χρώμα.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KJ84",
+        "H": "6",
+        "D": "AQ975",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♦, δείχνοντας καρά και ένα μαζέρ. Εδώ το μαζέρ είναι οι πίκες· αν ο συμπαίκτης απαντήσει 2♥, θα διορθώσουμε σε 2♠.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KJ84",
+        "H": "AQ975",
+        "D": "6",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♥, δείχνοντας τα δύο μαζέρ με τουλάχιστον 5–4. Η αγορά δεν είναι φυσική παρεμβολή με μονόχρωμο χέρι στις κούπες.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "7",
+        "D": "K82",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♠, φυσικά με το αδύνατο μονόχρωμο χέρι. Στη συμφωνία μας αυτή η άμεση αγορά είναι ασθενέστερη από κοντρ και στη συνέχεια 2♠.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "J84",
+        "H": "Q73",
+        "D": "K82",
+        "C": "9642"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Δεν έχουμε κατάλληλη δίχρωμη κατανομή ή μακρύ χρώμα. Το DONT επιτρέπει ελαφριές παρεμβολές, αλλά δεν αρκούν λίγες αξίες χωρίς κατανομή.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "QT84",
+        "H": "J75",
+        "D": "82",
+        "C": "K963"
+      },
+      "auction": [
+        {
+          "seat": "E",
+          "call": "1NT"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Το 4–4 στις πίκες και στα σπαθιά δεν φτάνει: στις δίχρωμες αγορές μας απαιτούμε τουλάχιστον 5–4 και ικανοποιητική ποιότητα χρωμάτων.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-1",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "84",
+        "H": "75",
+        "D": "Q962",
+        "C": "J8742"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "X"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♣ για να μάθουμε το χρώμα του συμπαίκτη. Το κοντρ δείχνει μονόχρωμο χέρι και δεν το αφήνουμε σαν να ήταν κοντρ τιμωρίας.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-2",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q864",
+        "H": "975",
+        "D": "J84",
+        "C": "962"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "X"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♣, την οικονομική αναμονή για το μονόχρωμο του συμπαίκτη. Δεν υποσχόμαστε σπαθιά· εκείνος θα πασάρει με σπαθιά ή θα ονομάσει το χρώμα του.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-3",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q742",
+        "H": "83",
+        "D": "K962",
+        "C": "J75"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο με 3φυλλη υποστήριξη στα σπαθιά. Αν αναζητήσουμε το δεύτερο χρώμα, μπορεί να βρούμε κούπες, όπου έχουμε μόνο δύο φύλλα.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-4",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q864",
+        "H": "K975",
+        "D": "J842",
+        "C": "6"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♦, pass or correct. Δεν μας εξυπηρετούν τα σπαθιά, αλλά έχουμε υποστήριξη σε κάθε ανώτερο χρώμα που μπορεί να δείξει ο συμπαίκτης.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-5",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q742",
+        "H": "83",
+        "D": "J75",
+        "C": "K962"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο με 3φυλλη υποστήριξη στα καρά. Η αναζήτηση του μαζέρ δεν εγγυάται καλύτερο φιτ, ιδίως αν ο συμπαίκτης έχει κούπες.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-6",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "Q864",
+        "H": "K975",
+        "D": "6",
+        "C": "J842"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♥, pass or correct, ζητώντας το μαζέρ. Ο συμπαίκτης πασάρει με κούπες ή διορθώνει σε 2♠ με πίκες. Έχουμε υποστήριξη και στα δύο.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-7",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "97",
+        "H": "J864",
+        "D": "Q72",
+        "C": "8653"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο, με σαφή προτίμηση στις κούπες. Το 2♥ δείχνει τα δύο μαζέρ και έχουμε 4 κούπες έναντι δύο πικών. Με αυτό το αδύνατο χέρι μένουμε χαμηλά.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-8",
+      "role": "response",
+      "kind": "convention",
+      "hand": {
+        "S": "J864",
+        "H": "97",
+        "D": "Q72",
+        "C": "8653"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "explanation": "Αγοράζουμε 2♠, προτιμώντας τις 4 πίκες από τις δύο κούπες. Η αγορά 2♥ του συμπαίκτη έδειξε και τα δύο μαζέρ, όχι μόνο κούπες.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-9",
+      "role": "response",
+      "kind": "contrast",
+      "hand": {
+        "S": "J864",
+        "H": "Q72",
+        "D": "963",
+        "C": "874"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Το 3♣ είναι φυσική παρεμβολή στα σπαθιά, όχι η δίχρωμη αγορά 2♣ του DONT. Με λίγες αξίες και υποστήριξη στα σπαθιά μένουμε εκεί.",
+      "ntRange": "15–17"
+    },
+    {
+      "id": "dont-response-10",
+      "role": "response",
+      "kind": "contrast",
+      "hand": {
+        "S": "Q863",
+        "H": "975",
+        "D": "J84",
+        "C": "962"
+      },
+      "auction": [
+        {
+          "seat": "W",
+          "call": "1NT"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "explanation": "Πάσο. Το 3♦ είναι φυσική παρεμβολή στα καρά. Δεν το συγχέουμε με το δίχρωμο 2♦ του DONT· με αυτό το αδύνατο χέρι και υποστήριξη μένουμε εκεί.",
+      "ntRange": "15–17"
+    }
+  ]
+}

@@ -70,8 +70,8 @@ for (const language of languages) {
     const { html, headings } = renderArticle(source, article, language);
     const route = `${language.code}/${article.slug}/`;
     const title = article.title + ' | Leonardo Bridge';
-    const exercises = language.code === 'el' && article.slug === 'multi-landy'
-      ? '<aside class="play-online"><p><strong>Ασκήσεις Multi Landy</strong></p><p>Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>' : '';
+    const exercises = language.code === 'el'
+      ? '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>' : '';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: language.cards[index], route, slug: article.slug,
       body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
@@ -90,4 +90,4 @@ for (const language of languages) {
 await writeFile('site/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   [...sitemapUrls].sort().map(url => '  <url><loc>' + escapeHtml(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
 await buildExercisePreview();
-console.log(`${pageCount} lesson/catalog pages, ${languages.length} languages, ${articles.length} conventions, plus one Greek exercise preview.`);
+console.log(`${pageCount} lesson/catalog pages, ${languages.length} languages, ${articles.length} conventions, plus four Greek exercise pages.`);
