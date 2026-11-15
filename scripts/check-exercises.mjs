@@ -6,11 +6,36 @@ const questions = data.questions;
 assert.equal(questions.length, 20);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length);
 const points = { A: 4, K: 3, Q: 2, J: 1 };
+function checkEvaluation(q, suits, minimumLength) {
+  const hcp=handCards(q.hand).reduce((sum,c)=>sum+(points[c.rank]||0),0);
+  const len=s=>q.hand[s].length;
+  assert.ok(['invitation','game'].includes(q.objective),q.id);
+  if(q.answer==='2NT') {
+    assert.equal(q.objective,'invitation');
+    assert.equal(q.auction[1].call,'2D');
+    assert.ok(hcp>=12 && len('H')>=4 && len('S')>=4 && len('D')>=3,q.id+': game enquiry needs values and support');
+  } else {
+    const suit=q.answer.slice(1);
+    assert.ok(suits.includes(suit),q.id+': raise a suit actually shown');
+    assert.ok(len(suit)>=4,q.id+': sufficient support');
+    if(q.objective==='invitation') {
+      assert.equal(q.answer[0],'3');
+      assert.ok(hcp>=10 && hcp<=12,q.id+': constructive invitation');
+    } else {
+      assert.equal(q.answer[0],['H','S'].includes(suit)?'4':'5');
+      assert.ok(hcp>=13,q.id+': game values');
+      assert.ok(len(suit)+minimumLength>=9,q.id+': substantial known fit');
+      assert.ok((points[q.hand[suit][0]]||0)>=2,q.id+': useful trump honours');
+    }
+  }
+  if(q.ntRange==='15–17') assert.ok(hcp+15+6<=40,q.id+': leave room for the opposing opener and overcaller');
+}
 for (const role of ['overcall', 'response']) {
   const group = questions.filter(q => q.role === role);
   assert.equal(group.length, 10);
-  assert.equal(group.filter(q => q.kind === 'convention').length, 8);
-  assert.equal(group.filter(q => q.kind === 'contrast').length, 2);
+  assert.equal(group.filter(q => q.kind === 'convention').length, role==='overcall'?8:10);
+  assert.equal(group.filter(q => q.kind === 'contrast').length, role==='overcall'?2:0);
+  if(role==='response') assert.equal(group.filter(q=>q.objective).length,2);
   const mixed = shuffled(group, () => .31);
   assert.deepEqual(mixed.map(q => q.id).sort(), group.map(q => q.id).sort());
 }
@@ -42,6 +67,8 @@ for (const q of questions) {
   } else {
     assert.equal(q.auction[0].seat, 'W'); assert.equal(q.auction[1].seat, 'N'); assert.equal(q.auction[2].call, 'PASS');
     const partner = q.auction[1].call;
+    assert.ok(['X','2C','2D','2H','2S','2NT'].includes(partner),q.id+': actual Multi Landy call');
+    if(q.objective) { checkEvaluation(q,partner==='2C'?['H','S']:[partner.slice(1)],partner==='2C'?4:5); continue; }
     const expected = partner === '2C' ? length('S') === length('H') ? '2D' : length('S') > length('H') ? '2S' : '2H'
       : partner === '2D' ? '2H' : partner === '2H' ? '2NT' : partner === '2NT' ? '3D' : 'PASS';
     assert.equal(q.answer, expected, q.id + ': response inconsistent with lesson');
@@ -69,7 +96,8 @@ assert.ok(html.includes('aria-live="polite"'));
 assert.ok(html.includes('const m=location.pathname.match'));
 assert.ok((await readFile('site/el/multi-landy/index.html','utf8')).includes('href="practice/"'));
 for (const asset of ['convention-exercises.js','convention-exercises.css']) await access('site/assets/' + asset);
-console.log('Verified 20 exercise hands, 80/20 in each role, taught meanings, legal bids, keyboard navigation and standalone preview.');
+assert.deepEqual(JSON.parse(html.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
+console.log('Verified Multi Landy: 20 hands, 80/20 overcalls, convention responses, invitations, games, legal bids and keyboard navigation.');
 
 // Validate new convention sets against their lesson's suit meanings.
 for (const slug of ['michaels-cue-bid', 'unusual-2nt', 'dont']) {
@@ -78,8 +106,9 @@ for (const slug of ['michaels-cue-bid', 'unusual-2nt', 'dont']) {
   assert.equal(new Set(data.questions.map(q=>q.id)).size,20);
   for (const role of ['overcall','response']) {
     const group=data.questions.filter(q=>q.role===role);
-    assert.equal(group.length,10); assert.equal(group.filter(q=>q.kind==='convention').length,8);
-    assert.equal(group.filter(q=>q.kind==='contrast').length,2);
+    assert.equal(group.length,10); assert.equal(group.filter(q=>q.kind==='convention').length,role==='overcall'?8:10);
+    assert.equal(group.filter(q=>q.kind==='contrast').length,role==='overcall'?2:0);
+    if(role==='response') assert.equal(group.filter(q=>q.objective).length,2);
   }
   for (const q of data.questions) {
     const label=slug+':'+q.id;
@@ -101,10 +130,19 @@ for (const slug of ['michaels-cue-bid', 'unusual-2nt', 'dont']) {
       assert.deepEqual(q.auction.map(a=>a.seat),['W','N','E']);
       assert.equal(q.auction[2].call,'PASS');
       assert.ok(legalCalls([q.auction[0]],'N').includes(q.auction[1].call));
+      const partner=q.auction[1].call;
+      if(slug==='michaels-cue-bid') assert.equal(partner,'2'+opening.slice(1),label);
+      else if(slug==='unusual-2nt') assert.equal(partner,'2NT',label);
+      else assert.ok(['X','2C','2D','2H','2S'].includes(partner),label+': actual DONT call');
     }
     if (q.kind==='contrast') {assert.equal(q.answer,'PASS',label); continue;}
     const michaelsSuits=['1C','1D'].includes(opening)?['H','S']:opening==='1H'?['S']:['H'];
     const unusualSuits={ '1C':['D','H'],'1D':['C','H'],'1H':['C','D'],'1S':['C','D']}[opening];
+    if(q.role==='response' && q.objective) {
+      const suits=slug==='michaels-cue-bid'?michaelsSuits:slug==='unusual-2nt'?unusualSuits:['H','S'];
+      checkEvaluation(q,suits,slug==='dont'?4:5);
+      continue;
+    }
     if(q.role==='overcall') {
       if(slug==='michaels-cue-bid') {
         assert.equal(q.answer,'2'+opening.slice(1),label);
@@ -140,4 +178,4 @@ for (const slug of ['michaels-cue-bid', 'unusual-2nt', 'dont']) {
   assert.ok((await readFile(`site/el/${slug}/index.html`,'utf8')).includes('href="practice/"'));
   assert.deepEqual(JSON.parse(html.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
 }
-console.log('Verified all 80 exercises: hands, 80/20 per role, convention-specific meanings, legal auctions and generated pages.');
+console.log('Verified all 80 exercises: 80/20 overcalls, all responses after actual convention calls, fit and values for invitations/games, legal auctions and generated pages.');
