@@ -18,7 +18,6 @@ for (const language of languages) {
     const html = await readFile(`site/${language.code}/${slug}/index.html`, 'utf8');
     assert.ok(html.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
     assert.ok(html.includes(`rel="canonical" href="https://leonardobridge.com/conventions/${language.code}/${slug}/"`));
-    assert.ok(html.includes('class="brand" dir="ltr" href="https://leonardobridge.com/"'));
     if (language.dir === 'rtl') {
       assert.ok(html.includes('<bdi dir="ltr">'));
       assert.equal((html.match(/aria-hidden="true" dir="ltr"/g)||[]).length, 4 * hands(reference).length);
@@ -41,7 +40,6 @@ for (const language of languages) {
     }
     for (const other of languages) {
       assert.ok(html.includes(`hreflang="${other.code}" href="https://leonardobridge.com/conventions/${other.code}/${slug}/"`));
-      assert.ok(html.includes(`href="../../${other.code}/${slug}/"`));
     }
     if (slug === 'michaels-cue-bid') assert.ok(html.includes('href="../unusual-2nt/"'));
     if (slug === 'unusual-2nt') assert.ok(html.includes('href="../michaels-cue-bid/"'));

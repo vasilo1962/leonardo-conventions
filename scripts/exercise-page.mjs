@@ -1,5 +1,4 @@
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
-import { sharedHeader, headerAssets, accessibilityShell } from './shared-header.mjs';
 
 // Self-contained conventions preview; no dependency on game bundles or services.
 export async function buildExercisePreview() {
@@ -15,9 +14,8 @@ export async function buildExercisePreview() {
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://leonardobridge.com/conventions/${route}">
 <link rel="stylesheet" href="../../../assets/conventions.css"><link rel="stylesheet" href="../../../assets/convention-exercises.css">
-${headerAssets("../../../")}<script type="module" src="../../../assets/convention-exercises.js"></script></head>
+<script type="module" src="../../../assets/convention-exercises.js"></script></head>
 <body class="exercise-page"><a class="skip" href="#main">Στο περιεχόμενο</a>
-${sharedHeader({prefix:"../../../",language:"el",links:'<a href="../../../el/">Συμβάσεις</a><a href="../">Το μάθημα</a>'})}
 <main id="main" class="exercise-main">
 <div class="exercise-heading"><div><p class="eyebrow">ΔΟΚΙΜΗ ΑΣΚΗΣΕΩΝ</p><h1>${data.title}</h1></div><a class="lesson-return" href="../">Πίσω στο μάθημα</a></div>
 <p class="exercise-intro">Βλέπεις μόνο το χέρι σου. Διάλεξε την αγορά σου από το bidding box.</p>
@@ -35,7 +33,7 @@ ${sharedHeader({prefix:"../../../",language:"el",links:'<a href="../../../el/">�
 <p id="exercise-announcement" class="sr-only" aria-live="polite" aria-atomic="true"></p>
 <noscript><p>Για τις διαδραστικές ασκήσεις χρειάζεται JavaScript. <a href="../">Μπορείς να διαβάσεις το μάθημα ${data.title}.</a></p></noscript>
 <script type="application/json" id="exercise-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
-</main><footer>Leonardo Bridge · Ασκήσεις συμβάσεων</footer>${accessibilityShell("el")}</body></html>
+</main><footer>Leonardo Bridge · Ασκήσεις συμβάσεων</footer></body></html>
 `;
   await mkdir('site/' + route, { recursive: true });
   await writeFile('site/' + route + 'index.html', html);

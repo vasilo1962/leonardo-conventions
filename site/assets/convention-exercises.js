@@ -78,7 +78,7 @@ function initializeExercises() {
   const voiceEnabled = () => document.documentElement.dataset.voiceMode === 'true';
   const announce = text => {
     clearTimeout(announceTimer);
-    if (!voiceEnabled() || document.querySelector('.voice-intro')?.open) return;
+    if (!voiceEnabled()) return;
     $('#exercise-announcement').textContent = '';
     announceTimer = setTimeout(() => { $('#exercise-announcement').textContent = text; }, 40);
   };
