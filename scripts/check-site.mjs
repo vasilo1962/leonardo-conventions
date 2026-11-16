@@ -17,14 +17,14 @@ for (const language of languages) {
     if (language.code !== 'el') assert.ok(!/[\u0370-\u03ff]/.test(translated), `${language.code}/${slug}: untranslated Greek`);
     const html = await readFile(`site/${language.code}/${slug}/index.html`, 'utf8');
     assert.ok(html.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
-    assert.ok(html.includes(`rel="canonical" href="https://leonardobridge.com/conventions/${language.code}/${slug}/"`));
+    assert.ok(html.includes(`rel="canonical" href="https://leonardobridge.com/${language.code}/${slug}/"`));
     if (language.dir === 'rtl') {
       assert.ok(html.includes('<bdi dir="ltr">'));
       assert.equal((html.match(/aria-hidden="true" dir="ltr"/g)||[]).length, 4 * hands(reference).length);
     }
     assert.equal((html.match(/class="hand"/g)||[]).length, hands(reference).length);
     assert.equal((html.match(/<span class="sr-only"/g)||[]).length, 4 * hands(reference).length);
-    const localBase = new URL(`https://leonardobridge.com/conventions/${language.code}/${slug}/`);
+    const localBase = new URL(`https://leonardobridge.com/${language.code}/${slug}/`);
     for (const [,href] of html.matchAll(/href="([^"]+)"/g)) {
       if (href.startsWith('#')) {
         assert.ok(html.includes(`id="${href.slice(1)}"`), `${language.code}/${slug}: missing anchor ${href}`);
@@ -32,24 +32,29 @@ for (const language of languages) {
       }
       if (/^https?:/.test(href)) continue;
       const target = new URL(href, localBase);
-      assert.ok(target.pathname.startsWith('/conventions/'));
-      let file = resolve(siteRoot, target.pathname.slice('/conventions/'.length));
+      const path = target.pathname.startsWith('/conventions/assets/') ? target.pathname.slice('/conventions/'.length) : target.pathname.slice(1);
+      let file = resolve(siteRoot, path);
       if (target.pathname.endsWith('/')) file = resolve(file,'index.html');
       assert.ok(file.startsWith(siteRoot + '/'));
       await access(file);
     }
     for (const other of languages) {
-      assert.ok(html.includes(`hreflang="${other.code}" href="https://leonardobridge.com/conventions/${other.code}/${slug}/"`));
+      assert.ok(html.includes(`hreflang="${other.code}" href="https://leonardobridge.com/${other.code}/${slug}/"`));
     }
     if (slug === 'michaels-cue-bid') assert.ok(html.includes('href="../unusual-2nt/"'));
     if (slug === 'unusual-2nt') assert.ok(html.includes('href="../michaels-cue-bid/"'));
     checked++;
   }
-  const catalog = await readFile(`site/${language.code}/index.html`, 'utf8');
+  const catalog = await readFile(`site/${language.code}/conventions/index.html`, 'utf8');
   assert.ok(catalog.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
-  for (const slug of articles) assert.ok(catalog.includes(`href="../${language.code}/${slug}/"`));
+  for (const slug of articles) assert.ok(catalog.includes(`href="../../${language.code}/${slug}/"`));
 }
-assert.ok((await readFile('site/index.html','utf8')).includes('href="el/dont/"'));
+assert.ok((await readFile('site/index.html','utf8')).includes('location.replace'));
+for (const language of languages) {
+  const redirect = await readFile(`site/${language.code}/index.html`, 'utf8');
+  assert.ok(redirect.includes('location.replace'));
+  assert.ok(redirect.includes(`https://leonardobridge.com/${language.code}/conventions/`));
+}
 console.log(`Verified ${checked} articles, ${languages.length} languages: identical hands, localized accessibility, metadata, language links and internal navigation.`);
 
 // The sitemap must cover exactly the generated canonical pages, including every language.
@@ -57,10 +62,10 @@ const sitemap = await readFile('site/sitemap.xml', 'utf8');
 assert.ok(sitemap.startsWith('<?xml version="1.0" encoding="UTF-8"?>'));
 assert.ok(sitemap.includes('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'));
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => match[1]);
-const expectedUrls = ['https://leonardobridge.com/conventions/'];
+const expectedUrls = [];
 for (const language of languages) {
-  expectedUrls.push('https://leonardobridge.com/conventions/' + language.code + '/');
-  for (const slug of articles) expectedUrls.push('https://leonardobridge.com/conventions/' + language.code + '/' + slug + '/');
+  expectedUrls.push('https://leonardobridge.com/' + language.code + '/conventions/');
+  for (const slug of articles) expectedUrls.push('https://leonardobridge.com/' + language.code + '/' + slug + '/');
 }
 assert.deepEqual([...sitemapUrls].sort(), expectedUrls.sort(), 'Sitemap missing, duplicate or unexpected URL');
 assert.ok(!sitemap.includes('conventions-preview'));

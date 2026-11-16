@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
 import { accessibleTables } from './table-speech.mjs';
+import { pageBase, stylesheet, redirectPage } from './routes.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
@@ -14,20 +15,18 @@ const articles = [
 const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'attention'];
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const isolateRtl = html => html.split(/(<[^>]+>)/g).map((part, index) => index % 2 ? part : part.replace(/\b[1-7](?:NT|[♠♥♦♣])|\b\d+[––-]\d+|\b[A-Za-z][A-Za-z0-9]*(?:[ .-]+[A-Za-z][A-Za-z0-9]*)*/g, token => '<bdi dir="ltr">' + token + '</bdi>')).join('');
-const canonicalRoot = 'https://leonardobridge.com/conventions/';
+const canonicalRoot = 'https://leonardobridge.com/';
 const sitemapUrls = new Set();
 function page({ language, title, description, route, slug, body }) {
-  const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
   const canonical = canonicalRoot + route;
   sitemapUrls.add(canonical);
-  const alternates = languages.map(other => '<link rel="alternate" hreflang="' + other.code + '" href="' + canonicalRoot + other.code + '/' + (slug ? slug + '/' : '') + '">').join('');
+  const alternates = languages.map(other => '<link rel="alternate" hreflang="' + other.code + '" href="' + canonicalRoot + other.code + '/' + (slug ? slug + '/' : 'conventions/') + '">').join('');
   return '<!doctype html>\n<html lang="' + language.code + '"' + (language.dir === 'rtl' ? ' dir="rtl"' : '') + '><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">' +
-    '<base href="/conventions/' + route + '">' +
-    '<script>const m=location.pathname.match(/^\\/conventions-preview\\/[a-f0-9]{40}\\//);if(m){const b=document.querySelector("base");b.href=m[0]+b.getAttribute("href").slice("/conventions/".length);}</script>' +
+    pageBase(route) +
     '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '">' +
     '<link rel="canonical" href="' + canonical + '">' + alternates +
     '<meta property="og:type" content="' + (slug ? 'article' : 'website') + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + canonical + '">' +
-    '<link rel="stylesheet" href="' + prefix + 'assets/conventions.css"></head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
+    stylesheet('conventions.css') + '</head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
     body + '<footer>Leonardo Bridge · ' + escapeHtml(language.ui.conventions) + '</footer>' + '</body></html>\n';
 }
 function renderArticle(source, article, language) {
@@ -70,11 +69,11 @@ for (const language of languages) {
       ? '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>' : '';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: language.cards[index], route, slug: article.slug,
-      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
+      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
     }));
     pageCount++;
   }
-  for (const route of [language.code + '/', ...(language.code === 'el' ? [''] : [])]) {
+  for (const route of [language.code + '/conventions/']) {
     const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, route, title: language.ui.conventions + ' | Leonardo Bridge', description: language.ui.description,
@@ -82,7 +81,9 @@ for (const language of languages) {
     }));
     pageCount++;
   }
+  await writeFile('site/' + language.code + '/index.html', redirectPage(language.code, language.code + '/conventions/'));
 }
+await writeFile('site/index.html', redirectPage('el', 'el/conventions/'));
 await writeFile('site/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   [...sitemapUrls].sort().map(url => '  <url><loc>' + escapeHtml(url) + '</loc></url>').join('\n') + '\n</urlset>\n');
 await buildExercisePreview();

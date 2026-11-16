@@ -1,3 +1,4 @@
+import { pageBase, stylesheet, moduleScript } from './routes.mjs';
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 
 // Self-contained conventions preview; no dependency on game bundles or services.
@@ -5,16 +6,15 @@ export async function buildExercisePreview() {
   for (const file of (await readdir('content/exercises')).filter(name => name.endsWith('.el.json')).sort()) {
   const data = JSON.parse(await readFile('content/exercises/' + file, 'utf8'));
   const route = 'el/' + file.replace('.el.json', '') + '/practice/';
-  const baseScript = '<script>const m=location.pathname.match(/^\\/conventions-preview\\/[a-f0-9]{40}\\//);if(m){const b=document.querySelector("base");b.href=m[0]+b.getAttribute("href").slice("/conventions/".length);}</script>';
   const html = `<!doctype html>
 <html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<base href="/conventions/${route}">${baseScript}
+${pageBase(route)}
 <title>${data.title} · Ασκήσεις | Leonardo Bridge</title>
 <meta name="description" content="Δοκιμή ασκήσεων ${data.title}: παρεμβολές και απαντήσεις στον συμπαίκτη, με το χέρι σου και bidding box.">
 <meta name="robots" content="noindex">
-<link rel="canonical" href="https://leonardobridge.com/conventions/${route}">
-<link rel="stylesheet" href="../../../assets/conventions.css"><link rel="stylesheet" href="../../../assets/convention-exercises.css">
-<script type="module" src="../../../assets/convention-exercises.js"></script></head>
+<link rel="canonical" href="https://leonardobridge.com/${route}">
+${stylesheet('conventions.css')}${stylesheet('convention-exercises.css')}
+${moduleScript('convention-exercises.js')}</head>
 <body class="exercise-page"><a class="skip" href="#main">Στο περιεχόμενο</a>
 <main id="main" class="exercise-main">
 <div class="exercise-heading"><div><p class="eyebrow">ΔΟΚΙΜΗ ΑΣΚΗΣΕΩΝ</p><h1>${data.title}</h1></div><a class="lesson-return" href="../">Πίσω στο μάθημα</a></div>
