@@ -17,6 +17,7 @@
     },
     "ui": {
       "conventions": "Συμβάσεις",
+      "allConventions": "Όλες οι συμβάσεις",
       "skip": "Στο περιεχόμενο",
       "lesson": "Σε αυτό το μάθημα",
       "intro": "Εφαρμογή, παραδείγματα και απαντήσεις",
@@ -51,6 +52,7 @@
     },
     "ui": {
       "conventions": "Conventions",
+      "allConventions": "All conventions",
       "skip": "Skip to content",
       "lesson": "In this lesson",
       "intro": "Application, examples and responses",
@@ -85,6 +87,7 @@
     },
     "ui": {
       "conventions": "Conventions",
+      "allConventions": "Toutes les conventions",
       "skip": "Aller au contenu",
       "lesson": "Dans cette leçon",
       "intro": "Application, exemples et réponses",
@@ -119,6 +122,7 @@
     },
     "ui": {
       "conventions": "Konventionen",
+      "allConventions": "Alle Konventionen",
       "skip": "Zum Inhalt",
       "lesson": "In dieser Lektion",
       "intro": "Anwendung, Beispiele und Antworten",
@@ -153,6 +157,7 @@
     },
     "ui": {
       "conventions": "Convenzioni",
+      "allConventions": "Tutte le convenzioni",
       "skip": "Vai al contenuto",
       "lesson": "In questa lezione",
       "intro": "Applicazione, esempi e risposte",
@@ -187,6 +192,7 @@
     },
     "ui": {
       "conventions": "Convenciones",
+      "allConventions": "Todas las convenciones",
       "skip": "Ir al contenido",
       "lesson": "En esta lección",
       "intro": "Aplicación, ejemplos y respuestas",
@@ -221,6 +227,7 @@
     },
     "ui": {
       "conventions": "Convenções",
+      "allConventions": "Todas as convenções",
       "skip": "Ir para o conteúdo",
       "lesson": "Nesta lição",
       "intro": "Aplicação, exemplos e respostas",
@@ -255,6 +262,7 @@
     },
     "ui": {
       "conventions": "Conventies",
+      "allConventions": "Alle conventies",
       "skip": "Naar de inhoud",
       "lesson": "In deze les",
       "intro": "Toepassing, voorbeelden en antwoorden",
@@ -289,6 +297,7 @@
     },
     "ui": {
       "conventions": "Konvansiyonlar",
+      "allConventions": "Tüm konvansiyonlar",
       "skip": "İçeriğe geç",
       "lesson": "Bu derste",
       "intro": "Uygulama, örnekler ve cevaplar",
@@ -323,6 +332,7 @@
     },
     "ui": {
       "conventions": "Konventioner",
+      "allConventions": "Alla konventioner",
       "skip": "Till innehållet",
       "lesson": "I den här lektionen",
       "intro": "Användning, exempel och svar",
@@ -357,6 +367,7 @@
     },
     "ui": {
       "conventions": "Konventioner",
+      "allConventions": "Alle konventioner",
       "skip": "Til indholdet",
       "lesson": "I denne lektion",
       "intro": "Anvendelse, eksempler og svar",
@@ -391,6 +402,7 @@
     },
     "ui": {
       "conventions": "Konvensjoner",
+      "allConventions": "Alle konvensjoner",
       "skip": "Til innholdet",
       "lesson": "I denne leksjonen",
       "intro": "Bruk, eksempler og svar",
@@ -425,6 +437,7 @@
     },
     "ui": {
       "conventions": "Konventiot",
+      "allConventions": "Kaikki konventiot",
       "skip": "Siirry sisältöön",
       "lesson": "Tässä oppitunnissa",
       "intro": "Käyttö, esimerkit ja vastaukset",
@@ -459,6 +472,7 @@
     },
     "ui": {
       "conventions": "Konwencje",
+      "allConventions": "Wszystkie konwencje",
       "skip": "Przejdź do treści",
       "lesson": "W tej lekcji",
       "intro": "Zastosowanie, przykłady i odpowiedzi",
@@ -493,6 +507,7 @@
     },
     "ui": {
       "conventions": "Konvence",
+      "allConventions": "Všechny konvence",
       "skip": "Přejít na obsah",
       "lesson": "V této lekci",
       "intro": "Použití, příklady a odpovědi",
@@ -527,6 +542,7 @@
     },
     "ui": {
       "conventions": "Konvenciók",
+      "allConventions": "Összes konvenció",
       "skip": "Ugrás a tartalomra",
       "lesson": "Ebben a leckében",
       "intro": "Alkalmazás, példák és válaszok",
@@ -561,6 +577,7 @@
     },
     "ui": {
       "conventions": "Sagnvenjur",
+      "allConventions": "Allar sagnvenjur",
       "skip": "Fara í efnið",
       "lesson": "Í þessari kennslustund",
       "intro": "Notkun, dæmi og svör",
@@ -595,6 +612,7 @@
     },
     "ui": {
       "conventions": "约定叫",
+      "allConventions": "所有约定叫",
       "skip": "跳到正文",
       "lesson": "本课内容",
       "intro": "用法、实例与应叫",
@@ -629,6 +647,7 @@
     },
     "ui": {
       "conventions": "コンベンション",
+      "allConventions": "すべてのコンベンション",
       "skip": "本文へ",
       "lesson": "このレッスンの内容",
       "intro": "使い方、例とレスポンス",
@@ -663,6 +682,7 @@
     },
     "ui": {
       "conventions": "קונבנציות",
+      "allConventions": "כל הקונבנציות",
       "skip": "דילוג לתוכן",
       "lesson": "בשיעור הזה",
       "intro": "שימוש, דוגמאות ותשובות",
@@ -698,6 +718,7 @@
     },
     "ui": {
       "conventions": "कन्वेंशन",
+      "allConventions": "सभी कन्वेंशन",
       "skip": "मुख्य पाठ पर जाएँ",
       "lesson": "इस पाठ में",
       "intro": "उपयोग, उदाहरण और जवाब",
@@ -732,6 +753,7 @@
     },
     "ui": {
       "conventions": "Конвенции",
+      "allConventions": "Все конвенции",
       "skip": "К содержанию",
       "lesson": "В этом уроке",
       "intro": "Применение, примеры и ответы",
@@ -766,6 +788,7 @@
     },
     "ui": {
       "conventions": "Konvensi",
+      "allConventions": "Semua konvensi",
       "skip": "Langsung ke isi",
       "lesson": "Dalam pelajaran ini",
       "intro": "Penggunaan, contoh dan jawaban",
@@ -800,6 +823,7 @@
     },
     "ui": {
       "conventions": "الاصطلاحات",
+      "allConventions": "جميع الاصطلاحات",
       "skip": "انتقل إلى المحتوى",
       "lesson": "في هذا الدرس",
       "intro": "الاستخدام والأمثلة والإجابات",
@@ -835,6 +859,7 @@
     },
     "ui": {
       "conventions": "ข้อตกลงการประมูล",
+      "allConventions": "ข้อตกลงการประมูลทั้งหมด",
       "skip": "ไปยังเนื้อหา",
       "lesson": "ในบทเรียนนี้",
       "intro": "การใช้ ตัวอย่าง และคำตอบ",
@@ -869,6 +894,7 @@
     },
     "ui": {
       "conventions": "컨벤션",
+      "allConventions": "모든 컨벤션",
       "skip": "본문으로 이동",
       "lesson": "이 수업의 내용",
       "intro": "사용법, 예시와 응답",
