@@ -78,7 +78,7 @@ for (const language of languages) {
     const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, route, title: language.ui.conventions + ' | Leonardo Bridge', description: language.ui.description,
-      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.description) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="ltr">' + escapeHtml(article.title) + '</strong><span>' + escapeHtml(language.cards[index]) + '</span></a>').join('') + '</section>' + play + '</main>'
+      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="ltr">' + escapeHtml(article.title) + '</strong><span>' + escapeHtml(language.cards[index]) + '</span></a>').join('') + '</section>' + play + '</main>'
     }));
     pageCount++;
   }
