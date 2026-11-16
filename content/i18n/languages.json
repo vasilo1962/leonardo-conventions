@@ -17,11 +17,13 @@
     },
     "ui": {
       "conventions": "Συμβάσεις",
+      "allConventions": "Όλες οι συμβάσεις",
       "skip": "Στο περιεχόμενο",
       "lesson": "Σε αυτό το μάθημα",
       "intro": "Εφαρμογή, παραδείγματα και απαντήσεις",
       "learn": "Μαθαίνουμε μπριτζ",
       "description": "Εξηγήσεις, παραδείγματα χεριών και συνέχειες αγορών.",
+      "catalogIntro": "Το Leonardo Bridge συνδυάζει το online παιχνίδι με τη μελέτη του μπριτζ. Εκτός από τις δυνατότητες για δωρεάν και απεριόριστο παιχνίδι, δίνει έμφαση στη θεωρία και στην κατανόηση των αγορών. Εδώ θα βρίσκεις σταδιακά περισσότερες συμβάσεις, με απλές εξηγήσεις, παραδείγματα και ασκήσεις, για να καταλαβαίνεις όχι μόνο τι αγοράζουμε, αλλά και γιατί.",
       "play": "Παίξε τώρα",
       "table": "Πίνακας αγορών",
       "playText": "Στο Leonardo Bridge μπορείς να παίζεις online μπριτζ δωρεάν και απεριόριστα. Κάνε εξάσκηση με ρομπότ στον δικό σου ρυθμό, πάρε μέρος σε τουρνουά ή παίξε με φίλους."
@@ -51,11 +53,13 @@
     },
     "ui": {
       "conventions": "Conventions",
+      "allConventions": "All conventions",
       "skip": "Skip to content",
       "lesson": "In this lesson",
       "intro": "Application, examples and responses",
       "learn": "Learning bridge",
       "description": "Explanations, example hands and bidding continuations.",
+      "catalogIntro": "Leonardo Bridge combines online play with the study of bridge. Alongside free, unlimited play, it focuses on theory and understanding the bidding. Here you will gradually find more conventions, with clear explanations, examples and exercises to help you understand not only what we bid, but why.",
       "play": "Play now",
       "table": "Bidding table",
       "playText": "Play bridge online for free and without limits at Leonardo Bridge. Practise with robots at your own pace, enter tournaments or play with friends."
@@ -85,11 +89,13 @@
     },
     "ui": {
       "conventions": "Conventions",
+      "allConventions": "Toutes les conventions",
       "skip": "Aller au contenu",
       "lesson": "Dans cette leçon",
       "intro": "Application, exemples et réponses",
       "learn": "Apprendre le bridge",
       "description": "Explications, exemples de mains et développements des enchères.",
+      "catalogIntro": "Leonardo Bridge associe le jeu en ligne à l’étude du bridge. En plus de proposer un jeu gratuit et illimité, il accorde une place importante à la théorie et à la compréhension des enchères. Vous trouverez ici progressivement davantage de conventions, avec des explications simples, des exemples et des exercices pour comprendre non seulement ce que nous annonçons, mais aussi pourquoi.",
       "play": "Jouer maintenant",
       "table": "Tableau des enchères",
       "playText": "Sur Leonardo Bridge, jouez au bridge en ligne gratuitement et sans limite. Entraînez-vous avec des robots à votre rythme, participez à des tournois ou jouez avec des amis."
@@ -119,11 +125,13 @@
     },
     "ui": {
       "conventions": "Konventionen",
+      "allConventions": "Alle Konventionen",
       "skip": "Zum Inhalt",
       "lesson": "In dieser Lektion",
       "intro": "Anwendung, Beispiele und Antworten",
       "learn": "Bridge lernen",
       "description": "Erklärungen, Beispielhände und Weiterreizungen.",
+      "catalogIntro": "Leonardo Bridge verbindet das Onlinespiel mit dem Lernen von Bridge. Neben kostenlosem und unbegrenztem Spiel legt es Wert auf die Theorie und das Verständnis der Reizung. Hier findest du nach und nach weitere Konventionen mit einfachen Erklärungen, Beispielen und Übungen, damit du nicht nur verstehst, was wir reizen, sondern auch warum.",
       "play": "Jetzt spielen",
       "table": "Reiztabelle",
       "playText": "Auf Leonardo Bridge kannst du kostenlos und unbegrenzt online Bridge spielen. Übe mit Robotern in deinem Tempo, nimm an Turnieren teil oder spiele mit Freunden."
@@ -153,11 +161,13 @@
     },
     "ui": {
       "conventions": "Convenzioni",
+      "allConventions": "Tutte le convenzioni",
       "skip": "Vai al contenuto",
       "lesson": "In questa lezione",
       "intro": "Applicazione, esempi e risposte",
       "learn": "Imparare il bridge",
       "description": "Spiegazioni, mani di esempio e sviluppi della dichiarazione.",
+      "catalogIntro": "Leonardo Bridge unisce il gioco online allo studio del bridge. Oltre a offrire la possibilità di giocare gratuitamente e senza limiti, dà spazio alla teoria e alla comprensione della licita. Qui troverai via via nuove convenzioni, con spiegazioni semplici, esempi ed esercizi, per capire non solo che cosa dichiariamo, ma anche perché.",
       "play": "Gioca ora",
       "table": "Tabella delle dichiarazioni",
       "playText": "Su Leonardo Bridge puoi giocare a bridge online gratuitamente e senza limiti. Allenati con i robot al tuo ritmo, partecipa ai tornei o gioca con gli amici."
@@ -187,11 +197,13 @@
     },
     "ui": {
       "conventions": "Convenciones",
+      "allConventions": "Todas las convenciones",
       "skip": "Ir al contenido",
       "lesson": "En esta lección",
       "intro": "Aplicación, ejemplos y respuestas",
       "learn": "Aprender bridge",
       "description": "Explicaciones, manos de ejemplo y desarrollos de la subasta.",
+      "catalogIntro": "Leonardo Bridge combina el juego online con el estudio del bridge. Además de ofrecer juego gratuito e ilimitado, presta atención a la teoría y a la comprensión de la subasta. Aquí encontrarás cada vez más convenciones, con explicaciones sencillas, ejemplos y ejercicios para entender no solo qué declaramos, sino también por qué.",
       "play": "Jugar ahora",
       "table": "Tabla de subasta",
       "playText": "En Leonardo Bridge puedes jugar al bridge en línea gratis y sin límites. Practica con robots a tu ritmo, participa en torneos o juega con amigos."
@@ -221,11 +233,13 @@
     },
     "ui": {
       "conventions": "Convenções",
+      "allConventions": "Todas as convenções",
       "skip": "Ir para o conteúdo",
       "lesson": "Nesta lição",
       "intro": "Aplicação, exemplos e respostas",
       "learn": "Aprender bridge",
       "description": "Explicações, mãos de exemplo e desenvolvimentos do leilão.",
+      "catalogIntro": "O Leonardo Bridge combina o jogo online com o estudo do bridge. Além de permitir jogar gratuitamente e sem limites, dá destaque à teoria e à compreensão do leilão. Aqui encontrarás progressivamente mais convenções, com explicações simples, exemplos e exercícios, para compreenderes não só o que declaramos, mas também porquê.",
       "play": "Jogar agora",
       "table": "Tabela de vozes",
       "playText": "No Leonardo Bridge podes jogar bridge online gratuitamente e sem limites. Pratica com robôs ao teu ritmo, participa em torneios ou joga com amigos."
@@ -255,11 +269,13 @@
     },
     "ui": {
       "conventions": "Conventies",
+      "allConventions": "Alle conventies",
       "skip": "Naar de inhoud",
       "lesson": "In deze les",
       "intro": "Toepassing, voorbeelden en antwoorden",
       "learn": "Bridge leren",
       "description": "Uitleg, voorbeeldhanden en vervolgbiedingen.",
+      "catalogIntro": "Leonardo Bridge combineert online spelen met het bestuderen van bridge. Naast gratis en onbeperkt spelen is er aandacht voor de theorie en het begrijpen van de biedingen. Hier vind je geleidelijk meer conventies, met eenvoudige uitleg, voorbeelden en oefeningen, zodat je niet alleen begrijpt wat we bieden, maar ook waarom.",
       "play": "Nu spelen",
       "table": "Biedtabel",
       "playText": "Bij Leonardo Bridge kun je gratis en onbeperkt online bridgen. Oefen met robots in je eigen tempo, doe mee aan toernooien of speel met vrienden."
@@ -289,11 +305,13 @@
     },
     "ui": {
       "conventions": "Konvansiyonlar",
+      "allConventions": "Tüm konvansiyonlar",
       "skip": "İçeriğe geç",
       "lesson": "Bu derste",
       "intro": "Uygulama, örnekler ve cevaplar",
       "learn": "Briç öğreniyoruz",
       "description": "Açıklamalar, örnek eller ve deklarasyon devamları.",
+      "catalogIntro": "Leonardo Bridge, online oyunu briç öğrenimiyle birleştirir. Ücretsiz ve sınırsız oyun imkânının yanı sıra teoriye ve konuşmaların anlaşılmasına da önem verir. Burada zamanla daha fazla konvansiyonu basit açıklamalar, örnekler ve alıştırmalarla bulacak; yalnızca ne deklare ettiğimizi değil, nedenini de anlayacaksın.",
       "play": "Hemen oyna",
       "table": "Deklarasyon tablosu",
       "playText": "Leonardo Bridge’de ücretsiz ve sınırsız çevrimiçi briç oynayabilirsin. Robotlarla kendi hızında pratik yap, turnuvalara katıl veya arkadaşlarınla oyna."
@@ -323,11 +341,13 @@
     },
     "ui": {
       "conventions": "Konventioner",
+      "allConventions": "Alla konventioner",
       "skip": "Till innehållet",
       "lesson": "I den här lektionen",
       "intro": "Användning, exempel och svar",
       "learn": "Lär dig bridge",
       "description": "Förklaringar, exempel på händer och fortsatt budgivning.",
+      "catalogIntro": "Leonardo Bridge förenar onlinespel med att lära sig bridge. Förutom gratis och obegränsat spel lägger vi vikt vid teorin och förståelsen för budgivningen. Här hittar du efter hand fler konventioner med enkla förklaringar, exempel och övningar, så att du förstår inte bara vad vi bjuder, utan också varför.",
       "play": "Spela nu",
       "table": "Budtabell",
       "playText": "På Leonardo Bridge kan du spela bridge online gratis och utan begränsningar. Öva med robotar i din egen takt, delta i tävlingar eller spela med vänner."
@@ -357,11 +377,13 @@
     },
     "ui": {
       "conventions": "Konventioner",
+      "allConventions": "Alle konventioner",
       "skip": "Til indholdet",
       "lesson": "I denne lektion",
       "intro": "Anvendelse, eksempler og svar",
       "learn": "Lær bridge",
       "description": "Forklaringer, eksempelhænder og videre meldinger.",
+      "catalogIntro": "Leonardo Bridge kombinerer onlinespil med at lære bridge. Ud over gratis og ubegrænset spil lægger vi vægt på teorien og forståelsen af meldingerne. Her finder du efterhånden flere konventioner med enkle forklaringer, eksempler og øvelser, så du ikke kun forstår, hvad vi melder, men også hvorfor.",
       "play": "Spil nu",
       "table": "Meldetabel",
       "playText": "På Leonardo Bridge kan du spille bridge online gratis og uden begrænsninger. Øv dig med robotter i dit eget tempo, deltag i turneringer eller spil med venner."
@@ -391,11 +413,13 @@
     },
     "ui": {
       "conventions": "Konvensjoner",
+      "allConventions": "Alle konvensjoner",
       "skip": "Til innholdet",
       "lesson": "I denne leksjonen",
       "intro": "Bruk, eksempler og svar",
       "learn": "Lær bridge",
       "description": "Forklaringer, eksempelhender og videre meldinger.",
+      "catalogIntro": "Leonardo Bridge kombinerer nettspill med å lære bridge. I tillegg til gratis og ubegrenset spill legger vi vekt på teori og forståelse av meldingene. Her finner du etter hvert flere konvensjoner med enkle forklaringer, eksempler og øvelser, slik at du forstår ikke bare hva vi melder, men også hvorfor.",
       "play": "Spill nå",
       "table": "Meldetabell",
       "playText": "På Leonardo Bridge kan du spille bridge på nett gratis og uten begrensninger. Øv med roboter i ditt eget tempo, delta i turneringer eller spill med venner."
@@ -425,11 +449,13 @@
     },
     "ui": {
       "conventions": "Konventiot",
+      "allConventions": "Kaikki konventiot",
       "skip": "Siirry sisältöön",
       "lesson": "Tässä oppitunnissa",
       "intro": "Käyttö, esimerkit ja vastaukset",
       "learn": "Opi bridgeä",
       "description": "Selityksiä, esimerkkikäsiä ja tarjoussarjojen jatkoja.",
+      "catalogIntro": "Leonardo Bridge yhdistää verkkopelaamisen bridgen opiskeluun. Ilmaisen ja rajattoman pelaamisen lisäksi se painottaa teoriaa ja tarjousten ymmärtämistä. Tänne lisätään vähitellen uusia konventioita, joissa on selkeitä selityksiä, esimerkkejä ja harjoituksia. Ne auttavat ymmärtämään paitsi sen, mitä tarjoamme, myös miksi.",
       "play": "Pelaa nyt",
       "table": "Tarjoustaulukko",
       "playText": "Leonardo Bridgessä voit pelata bridgeä verkossa maksutta ja rajattomasti. Harjoittele robottien kanssa omaan tahtiisi, osallistu kilpailuihin tai pelaa ystävien kanssa."
@@ -459,11 +485,13 @@
     },
     "ui": {
       "conventions": "Konwencje",
+      "allConventions": "Wszystkie konwencje",
       "skip": "Przejdź do treści",
       "lesson": "W tej lekcji",
       "intro": "Zastosowanie, przykłady i odpowiedzi",
       "learn": "Uczymy się brydża",
       "description": "Objaśnienia, przykładowe ręce i dalszy przebieg licytacji.",
+      "catalogIntro": "Leonardo Bridge łączy grę online z nauką brydża. Oprócz bezpłatnej gry bez ograniczeń kładzie nacisk na teorię i zrozumienie licytacji. Stopniowo znajdziesz tu coraz więcej konwencji, z prostymi wyjaśnieniami, przykładami i ćwiczeniami, które pomogą zrozumieć nie tylko to, co licytujemy, ale także dlaczego.",
       "play": "Zagraj teraz",
       "table": "Tabela licytacji",
       "playText": "W Leonardo Bridge możesz grać w brydża online bezpłatnie i bez ograniczeń. Ćwicz z robotami we własnym tempie, bierz udział w turniejach lub graj ze znajomymi."
@@ -493,11 +521,13 @@
     },
     "ui": {
       "conventions": "Konvence",
+      "allConventions": "Všechny konvence",
       "skip": "Přejít na obsah",
       "lesson": "V této lekci",
       "intro": "Použití, příklady a odpovědi",
       "learn": "Učíme se bridž",
       "description": "Vysvětlení, příklady listů a pokračování dražby.",
+      "catalogIntro": "Leonardo Bridge spojuje online hraní se studiem bridže. Vedle bezplatné hry bez omezení klade důraz na teorii a pochopení dražby. Postupně zde najdeš další konvence s jednoduchým vysvětlením, příklady a cvičeními, abys rozuměl nejen tomu, co dražíme, ale také proč.",
       "play": "Hrát nyní",
       "table": "Tabulka dražby",
       "playText": "Na Leonardo Bridge můžeš hrát bridž online zdarma a bez omezení. Trénuj s roboty vlastním tempem, účastni se turnajů nebo hraj s přáteli."
@@ -527,11 +557,13 @@
     },
     "ui": {
       "conventions": "Konvenciók",
+      "allConventions": "Összes konvenció",
       "skip": "Ugrás a tartalomra",
       "lesson": "Ebben a leckében",
       "intro": "Alkalmazás, példák és válaszok",
       "learn": "Tanuljunk bridzselni",
       "description": "Magyarázatok, példalapok és licitfolytatások.",
+      "catalogIntro": "A Leonardo Bridge az online játékot a bridzs tanulásával ötvözi. Az ingyenes és korlátlan játék mellett az elméletre és a licitálás megértésére is hangsúlyt fektet. Itt fokozatosan egyre több konvenciót találsz egyszerű magyarázatokkal, példákkal és gyakorlatokkal, hogy ne csak azt értsd, mit licitálunk, hanem azt is, miért.",
       "play": "Játssz most",
       "table": "Licittáblázat",
       "playText": "A Leonardo Bridge-en ingyenesen és korlátlanul bridzselhetsz online. Gyakorolj robotokkal a saját tempódban, vegyél részt versenyeken, vagy játssz a barátaiddal."
@@ -561,11 +593,13 @@
     },
     "ui": {
       "conventions": "Sagnvenjur",
+      "allConventions": "Allar sagnvenjur",
       "skip": "Fara í efnið",
       "lesson": "Í þessari kennslustund",
       "intro": "Notkun, dæmi og svör",
       "learn": "Lærum bridge",
       "description": "Útskýringar, dæmi um spil og framhald sagna.",
+      "catalogIntro": "Leonardo Bridge sameinar spilamennsku á netinu og nám í brids. Auk þess að bjóða upp á ókeypis spilamennsku án takmarkana er lögð áhersla á fræðin og skilning á sögnum. Hér bætast smám saman við fleiri sagnvenjur með einföldum útskýringum, dæmum og æfingum, svo þú skiljir ekki aðeins hvað við segjum heldur líka hvers vegna.",
       "play": "Spila núna",
       "table": "Sagnatafla",
       "playText": "Á Leonardo Bridge geturðu spilað bridge á netinu ókeypis og án takmarkana. Æfðu þig með vélmennum á þínum hraða, taktu þátt í mótum eða spilaðu með vinum."
@@ -595,11 +629,13 @@
     },
     "ui": {
       "conventions": "约定叫",
+      "allConventions": "所有约定叫",
       "skip": "跳到正文",
       "lesson": "本课内容",
       "intro": "用法、实例与应叫",
       "learn": "学习桥牌",
       "description": "约定叫详解、例手与后续叫牌。",
+      "catalogIntro": "Leonardo Bridge 将在线对局与桥牌学习相结合。除了免费、不限次数的游戏，也重视理论和对叫牌的理解。这里会逐步增加更多约定叫，并配以简明的说明、实例和练习，帮助你不仅了解我们叫了什么，也理解为什么这样叫。",
       "play": "现在开打",
       "table": "叫牌表",
       "playText": "在Leonardo Bridge免费、无限量在线打桥牌。按自己的节奏与机器人练习，参加比赛，或与朋友一起打牌。"
@@ -629,11 +665,13 @@
     },
     "ui": {
       "conventions": "コンベンション",
+      "allConventions": "すべてのコンベンション",
       "skip": "本文へ",
       "lesson": "このレッスンの内容",
       "intro": "使い方、例とレスポンス",
       "learn": "ブリッジを学ぶ",
       "description": "わかりやすい説明、ハンドの例とビディングの続け方。",
+      "catalogIntro": "Leonardo Bridge は、オンラインでのプレーとブリッジの学習を結び付けます。無料で制限なく遊べるだけでなく、理論やビディングの理解も大切にしています。ここでは、わかりやすい説明、例、練習問題とともにコンベンションを少しずつ追加していきます。何をビッドするかだけでなく、なぜそうするのかも理解できるようにするためです。",
       "play": "今すぐプレー",
       "table": "ビディング表",
       "playText": "Leonardo Bridgeなら無料・無制限でオンラインブリッジを楽しめます。自分のペースでロボットと練習し、トーナメントに参加したり、友達とプレーしたりできます。"
@@ -663,11 +701,13 @@
     },
     "ui": {
       "conventions": "קונבנציות",
+      "allConventions": "כל הקונבנציות",
       "skip": "דילוג לתוכן",
       "lesson": "בשיעור הזה",
       "intro": "שימוש, דוגמאות ותשובות",
       "learn": "לומדים ברידג'",
       "description": "הסברים, ידיים לדוגמה והמשך ההכרזה.",
+      "catalogIntro": "Leonardo Bridge משלב משחק מקוון עם לימוד ברידג׳. לצד האפשרות לשחק בחינם וללא הגבלה, הוא שם דגש גם על התאוריה ועל הבנת ההכרזות. כאן יתווספו בהדרגה קונבנציות נוספות, עם הסברים פשוטים, דוגמאות ותרגילים, כדי להבין לא רק מה אנחנו מכריזים, אלא גם מדוע.",
       "play": "לשחק עכשיו",
       "table": "טבלת הכרזות",
       "playText": "ב־Leonardo Bridge אפשר לשחק ברידג' באינטרנט בחינם וללא הגבלה. מתאמנים עם רובוטים בקצב האישי, משתתפים בתחרויות או משחקים עם חברים."
@@ -698,11 +738,13 @@
     },
     "ui": {
       "conventions": "कन्वेंशन",
+      "allConventions": "सभी कन्वेंशन",
       "skip": "मुख्य पाठ पर जाएँ",
       "lesson": "इस पाठ में",
       "intro": "उपयोग, उदाहरण और जवाब",
       "learn": "ब्रिज सीखें",
       "description": "व्याख्या, हाथों के उदाहरण और बोली की आगे की चालें।",
+      "catalogIntro": "Leonardo Bridge ऑनलाइन खेल को ब्रिज के अध्ययन से जोड़ता है। मुफ़्त और असीमित खेल की सुविधा के साथ-साथ यह सिद्धांत और बिडिंग की समझ पर भी ज़ोर देता है। यहाँ धीरे-धीरे और कन्वेंशन जोड़े जाएँगे, जिनमें सरल व्याख्याएँ, उदाहरण और अभ्यास होंगे, ताकि आप न केवल यह समझें कि हम कौन-सी बिड करते हैं, बल्कि यह भी कि क्यों।",
       "play": "अभी खेलें",
       "table": "बोली की तालिका",
       "playText": "Leonardo Bridge पर ऑनलाइन ब्रिज मुफ्त और बिना सीमा खेलें। अपनी गति से रोबोट के साथ अभ्यास करें, टूर्नामेंट में भाग लें या दोस्तों के साथ खेलें।"
@@ -732,11 +774,13 @@
     },
     "ui": {
       "conventions": "Конвенции",
+      "allConventions": "Все конвенции",
       "skip": "К содержанию",
       "lesson": "В этом уроке",
       "intro": "Применение, примеры и ответы",
       "learn": "Учимся бриджу",
       "description": "Объяснения, примеры рук и продолжения торговли.",
+      "catalogIntro": "Leonardo Bridge сочетает игру онлайн с изучением бриджа. Помимо бесплатной игры без ограничений, здесь уделяется внимание теории и пониманию торговли. В этом разделе постепенно будет появляться больше конвенций с простыми объяснениями, примерами и упражнениями, чтобы вы понимали не только то, что мы заявляем, но и почему.",
       "play": "Играть сейчас",
       "table": "Таблица торговли",
       "playText": "В Leonardo Bridge можно бесплатно и без ограничений играть в бридж онлайн. Тренируйтесь с роботами в своём темпе, участвуйте в турнирах или играйте с друзьями."
@@ -766,11 +810,13 @@
     },
     "ui": {
       "conventions": "Konvensi",
+      "allConventions": "Semua konvensi",
       "skip": "Langsung ke isi",
       "lesson": "Dalam pelajaran ini",
       "intro": "Penggunaan, contoh dan jawaban",
       "learn": "Belajar bridge",
       "description": "Penjelasan, contoh tangan dan kelanjutan bidding.",
+      "catalogIntro": "Leonardo Bridge memadukan permainan online dengan pembelajaran bridge. Selain menyediakan permainan gratis tanpa batas, Leonardo Bridge juga menekankan teori dan pemahaman penawaran. Di sini akan tersedia semakin banyak konvensi secara bertahap, disertai penjelasan sederhana, contoh dan latihan, agar kamu memahami bukan hanya apa yang kita tawarkan, tetapi juga alasannya.",
       "play": "Main sekarang",
       "table": "Tabel bidding",
       "playText": "Di Leonardo Bridge, mainkan bridge online secara gratis dan tanpa batas. Berlatih dengan robot sesuai kecepatanmu, ikuti turnamen atau bermain bersama teman."
@@ -800,11 +846,13 @@
     },
     "ui": {
       "conventions": "الاصطلاحات",
+      "allConventions": "جميع الاصطلاحات",
       "skip": "انتقل إلى المحتوى",
       "lesson": "في هذا الدرس",
       "intro": "الاستخدام والأمثلة والإجابات",
       "learn": "نتعلم البريدج",
       "description": "شرح وأمثلة للأيدي ومتابعات المزايدة.",
+      "catalogIntro": "يجمع Leonardo Bridge بين اللعب عبر الإنترنت ودراسة البريدج. وإلى جانب إتاحة اللعب مجانًا وبلا حدود، يهتم أيضًا بالنظرية وفهم المزايدات. ستجد هنا تدريجيًا مزيدًا من الاصطلاحات، مع شروح بسيطة وأمثلة وتمارين، لتفهم ليس فقط ما نزايد به، بل لماذا أيضًا.",
       "play": "العب الآن",
       "table": "جدول المزايدة",
       "playText": "يمكنك لعب البريدج على الإنترنت مجانًا وبلا حدود في Leonardo Bridge. تدرب مع الروبوتات بالسرعة التي تناسبك، أو شارك في البطولات، أو العب مع الأصدقاء."
@@ -835,11 +883,13 @@
     },
     "ui": {
       "conventions": "ข้อตกลงการประมูล",
+      "allConventions": "ข้อตกลงการประมูลทั้งหมด",
       "skip": "ไปยังเนื้อหา",
       "lesson": "ในบทเรียนนี้",
       "intro": "การใช้ ตัวอย่าง และคำตอบ",
       "learn": "เรียนบริดจ์",
       "description": "คำอธิบาย ตัวอย่างไพ่ และการประมูลต่อเนื่อง",
+      "catalogIntro": "Leonardo Bridge ผสานการเล่นออนไลน์เข้ากับการเรียนรู้บริดจ์ นอกจากจะเล่นได้ฟรีและไม่จำกัดแล้ว ยังให้ความสำคัญกับทฤษฎีและความเข้าใจในการประมูลด้วย ที่นี่จะทยอยเพิ่มข้อตกลงการประมูล พร้อมคำอธิบายที่เข้าใจง่าย ตัวอย่าง และแบบฝึกหัด เพื่อให้คุณเข้าใจไม่เพียงว่าเราประมูลอะไร แต่รวมถึงเหตุผลที่ประมูลเช่นนั้นด้วย",
       "play": "เล่นเลย",
       "table": "ตารางประมูล",
       "playText": "เล่นบริดจ์ออนไลน์ฟรีและไม่จำกัดที่ Leonardo Bridge ฝึกกับหุ่นยนต์ตามจังหวะของคุณ เข้าร่วมการแข่งขัน หรือเล่นกับเพื่อน"
@@ -869,11 +919,13 @@
     },
     "ui": {
       "conventions": "컨벤션",
+      "allConventions": "모든 컨벤션",
       "skip": "본문으로 이동",
       "lesson": "이 수업의 내용",
       "intro": "사용법, 예시와 응답",
       "learn": "브리지 배우기",
       "description": "설명, 예시 핸드와 비딩 진행.",
+      "catalogIntro": "Leonardo Bridge는 온라인 플레이와 브리지 학습을 함께 제공합니다. 무료로 제한 없이 플레이할 수 있을 뿐 아니라 이론과 비딩의 이해도 중요하게 생각합니다. 이곳에는 쉬운 설명, 예시, 연습문제와 함께 더 많은 컨벤션이 차례로 추가됩니다. 무엇을 비드하는지뿐 아니라 왜 그렇게 하는지도 이해할 수 있도록 돕습니다.",
       "play": "지금 플레이",
       "table": "비딩 표",
       "playText": "Leonardo Bridge에서 온라인 브리지를 무료로 무제한 즐기세요. 자신의 속도에 맞춰 로봇과 연습하고, 토너먼트에 참가하거나 친구와 플레이하세요."
