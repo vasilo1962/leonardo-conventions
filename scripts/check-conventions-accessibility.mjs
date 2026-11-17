@@ -23,7 +23,7 @@ async function check(directory) {
   }
 }
 await check('site');
-assert.equal(pages, 161);
+assert.equal(pages, 163);
 for (const file of ['scripts/build.mjs', 'scripts/exercise-page.mjs']) assert.ok(!obsolete.test(await readFile(file, 'utf8')), file);
 const css = await readFile('site/assets/conventions.css', 'utf8');
 assert.ok(css.includes('.spoken-table-row:focus-visible'));
@@ -31,4 +31,4 @@ assert.ok(css.includes('[tabindex="-1"]:focus-visible'));
 const exercises = await readFile('site/assets/convention-exercises.js', 'utf8');
 assert.ok(exercises.includes("document.documentElement.dataset.voiceMode === 'true'"));
 assert.ok(exercises.includes('feedback.focus({ preventScroll: true })'));
-console.log('Verified 161 pages: no independent header, accessible content landmarks, focus styles and exercise announcements retained.');
+console.log('Verified 163 pages: no independent header, accessible content landmarks, focus styles and exercise announcements retained.');

@@ -49,6 +49,20 @@ export function biddingGridTarget(currentRank, key, lastContractRank, wholeGrid 
 export function callLabel(call) {
   return call === 'PASS' ? 'Πάσο' : call === 'X' ? 'Κοντρ' : call === 'XX' ? 'Σιρκόντρ' : call[0] + SYMBOLS[call.slice(1)];
 }
+// Keep all earlier calls, including South's opening, when an auction spans rounds.
+export function auctionRows(auction, nextSeat = 'S') {
+  const rows = [];
+  let row = Array(4).fill(null);
+  let previousColumn = -1;
+  for (const entry of [...auction, { seat: nextSeat, call: '?' }]) {
+    const column = SEATS.indexOf(entry.seat);
+    if (column <= previousColumn) { rows.push(row); row = Array(4).fill(null); }
+    row[column] = entry;
+    previousColumn = column;
+  }
+  rows.push(row);
+  return rows;
+}
 function callSpeech(call) {
   return call === 'PASS' ? 'Πάσο' : call === 'X' ? 'Κοντρ' : call === 'XX' ? 'Σιρκόντρ' : call[0] + ' ' + SUIT_NAMES[call.slice(1)];
 }
@@ -61,7 +75,7 @@ function node(tag, attrs = {}, text = '') {
 function initializeExercises() {
   const source = document.querySelector('#exercise-data');
   if (!source) return;
-  const { questions } = JSON.parse(source.textContent);
+  const { questions, ui = {} } = JSON.parse(source.textContent);
   const $ = selector => document.querySelector(selector);
   const sessions = {};
   let mode = 'overcall';
@@ -120,20 +134,27 @@ function initializeExercises() {
   function drawAuction(question) {
     const auction = node('table', { 'aria-label': 'Η αγορά μέχρι τώρα' });
     const head = node('thead'); const headings = node('tr');
-    const row = node('tr');
     for (const seat of SEATS) {
       const heading = node('th', { scope: 'col' }, POSITIONS[seat]);
       heading.append(node('span', {}, seat === 'S' ? 'Εσύ' : seat === 'N' ? 'Συμπαίκτης' : 'Αντίπαλος'));
       headings.append(heading);
-      const call = question.auction.find(entry => entry.seat === seat)?.call;
-      const td = node('td', { 'aria-label': `${POSITIONS[seat]}: ${seat === 'S' ? 'η σειρά σου' : call ? callSpeech(call) : 'δεν έχει αγοράσει'}` }, seat === 'S' ? '?' : call ? callLabel(call) : '—');
-      if (call === 'PASS') td.className = 'auction-pass';
-      else if (call && contractRank(call) >= 0) td.style.color = COLORS[call.slice(1)];
-      else if (call === 'X') td.style.color = '#c62828';
-      else if (seat === 'S') td.className = 'auction-current';
-      row.append(td);
     }
-    head.append(headings); auction.append(head); const body = node('tbody'); body.append(row); auction.append(body);
+    head.append(headings); auction.append(head); const body = node('tbody');
+    for (const entries of auctionRows(question.auction)) {
+      const row = node('tr');
+      for (const [column, entry] of entries.entries()) {
+        const call = entry?.call;
+        const seat = SEATS[column];
+        const td = node('td', { 'aria-label': `${POSITIONS[seat]}: ${call === '?' ? 'η σειρά σου' : call ? callSpeech(call) : 'χωρίς αγορά σε αυτόν τον γύρο'}` }, call === '?' ? '?' : call ? callLabel(call) : '—');
+        if (call === 'PASS') td.className = 'auction-pass';
+        else if (call && contractRank(call) >= 0) td.style.color = COLORS[call.slice(1)];
+        else if (call === 'X') td.style.color = '#c62828';
+        else if (call === '?') td.className = 'auction-current';
+        row.append(td);
+      }
+      body.append(row);
+    }
+    auction.append(body);
     $('#exercise-auction').replaceChildren(auction);
   }
   function select(call) {
@@ -216,11 +237,11 @@ function initializeExercises() {
     }
     const question = current();
     $('#exercise-question').dataset.questionId = question.id;
-    $('#exercise-question').textContent = mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;';
+    $('#exercise-question').textContent = ui[mode + 'Question'] || (mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;');
     $('#exercise-progress').textContent = `Άσκηση ${session.index + 1} από ${session.questions.length}`;
     $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
     const opening = callLabel(question.auction[0].call);
-    const situation = mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`;
+    const situation = question.situation || (mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`);
     $('#exercise-situation').textContent = situation;
     drawHand(question); drawAuction(question);
     const selected = session.answers.get(question.id);

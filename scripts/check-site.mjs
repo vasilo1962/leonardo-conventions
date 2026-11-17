@@ -2,13 +2,15 @@ import { readFile, access } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import assert from 'node:assert/strict';
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
-const articles = ['multi-landy','michaels-cue-bid','unusual-2nt','dont'];
+import { articles as lessons, availableIn } from './articles.mjs';
+const articles = lessons.map(article => article.slug);
+const ready = (slug, code) => availableIn(lessons.find(article => article.slug === slug), code);
 const siteRoot = resolve('site');
 const handPattern = /♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g;
 const hands = text => [...text.matchAll(handPattern)].map(match => match.slice(1));
 let checked = 0;
 for (const language of languages) {
-  for (const slug of articles) {
+  for (const slug of articles.filter(slug => ready(slug, language.code))) {
     const reference = await readFile(`content/el/${slug}.md`, 'utf8');
     const translated = await readFile(`content/${language.code}/${slug}.md`, 'utf8');
     assert.deepEqual(hands(translated), hands(reference), `${language.code}/${slug}: changed example hand`);
@@ -38,7 +40,7 @@ for (const language of languages) {
       assert.ok(file.startsWith(siteRoot + '/'));
       await access(file);
     }
-    for (const other of languages) {
+    for (const other of languages.filter(other => ready(slug, other.code))) {
       assert.ok(html.includes(`hreflang="${other.code}" href="https://leonardobridge.com/${other.code}/${slug}/"`));
     }
     if (slug === 'michaels-cue-bid') assert.ok(html.includes('href="../unusual-2nt/"'));
@@ -47,7 +49,7 @@ for (const language of languages) {
   }
   const catalog = await readFile(`site/${language.code}/conventions/index.html`, 'utf8');
   assert.ok(catalog.includes(`<html lang="${language.code}"${language.dir === 'rtl' ? ' dir="rtl"' : ''}>`));
-  for (const slug of articles) assert.ok(catalog.includes(`href="../../${language.code}/${slug}/"`));
+  for (const slug of articles.filter(slug => ready(slug, language.code))) assert.ok(catalog.includes(`href="../../${language.code}/${slug}/"`));
 }
 assert.ok((await readFile('site/index.html','utf8')).includes('location.replace'));
 for (const language of languages) {
@@ -65,7 +67,7 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match => m
 const expectedUrls = [];
 for (const language of languages) {
   expectedUrls.push('https://leonardobridge.com/' + language.code + '/conventions/');
-  for (const slug of articles) expectedUrls.push('https://leonardobridge.com/' + language.code + '/' + slug + '/');
+  for (const slug of articles.filter(slug => ready(slug, language.code))) expectedUrls.push('https://leonardobridge.com/' + language.code + '/' + slug + '/');
 }
 assert.deepEqual([...sitemapUrls].sort(), expectedUrls.sort(), 'Sitemap missing, duplicate or unexpected URL');
 assert.ok(!sitemap.includes('conventions-preview'));

@@ -6,9 +6,10 @@ assert.equal(tableTextSpeech('2♥ / 2♠','el'),'δύο κούπες / δύο �
 assert.equal(tableTextSpeech('1ΝΤ','el'),'ένα χωρίς ατού');
 assert.equal(tableTextSpeech('2NT','fr'),'2 sans atout');
 assert.equal(tableTextSpeech('1♠','en'),'one spade');
+import {articles, availableIn} from './articles.mjs';
 const languages=JSON.parse(await readFile('content/i18n/languages.json','utf8'));
 let rows=0;
-for(const lang of languages)for(const slug of ['multi-landy','michaels-cue-bid','unusual-2nt','dont']){
+for(const lang of languages)for(const {slug} of articles.filter(article=>availableIn(article,lang.code))){
  const html=await readFile(`site/${lang.code}/${slug}/index.html`,'utf8');
  const tables=[...html.matchAll(/<table>([\s\S]*?)<\/table>/g)];assert.ok(tables.length);
  for(const [,table]of tables){

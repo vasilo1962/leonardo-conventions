@@ -2,6 +2,7 @@ import { readFile, access, readdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { runInNewContext } from 'node:vm';
 import assert from 'node:assert/strict';
+import { articles, availableIn } from './articles.mjs';
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
 const preview = '/conventions-preview/' + 'a'.repeat(40) + '/';
 const root = resolve('site');
@@ -33,7 +34,7 @@ async function check(file, route, prefix) {
 for (const prefix of ['/', preview]) {
   for (const language of languages) {
     await check(`site/${language.code}/conventions/index.html`, `${language.code}/conventions/`, prefix);
-    for (const slug of ['multi-landy','dont','unusual-2nt','michaels-cue-bid']) {
+    for (const {slug} of articles.filter(article => availableIn(article, language.code))) {
       await check(`site/${language.code}/${slug}/index.html`, `${language.code}/${slug}/`, prefix);
       if (language.code === 'el') await check(`site/el/${slug}/practice/index.html`, `el/${slug}/practice/`, prefix);
     }

@@ -5,12 +5,13 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 export async function buildExercisePreview() {
   for (const file of (await readdir('content/exercises')).filter(name => name.endsWith('.el.json')).sort()) {
   const data = JSON.parse(await readFile('content/exercises/' + file, 'utf8'));
+  const labels = data.ui || {};
   const route = 'el/' + file.replace('.el.json', '') + '/practice/';
   const html = `<!doctype html>
 <html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 ${pageBase(route)}
 <title>${data.title} · Ασκήσεις | Leonardo Bridge</title>
-<meta name="description" content="Δοκιμή ασκήσεων ${data.title}: παρεμβολές και απαντήσεις στον συμπαίκτη, με το χέρι σου και bidding box.">
+<meta name="description" content="${labels.description || `Δοκιμή ασκήσεων ${data.title}: παρεμβολές και απαντήσεις στον συμπαίκτη, με το χέρι σου και bidding box.`}">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://leonardobridge.com/${route}">
 ${stylesheet('conventions.css')}${stylesheet('convention-exercises.css')}
@@ -19,7 +20,7 @@ ${moduleScript('convention-exercises.js')}</head>
 <main id="main" class="exercise-main">
 <div class="exercise-heading"><div><p class="eyebrow">ΔΟΚΙΜΗ ΑΣΚΗΣΕΩΝ</p><h1>${data.title}</h1></div><a class="lesson-return" href="../">Πίσω στο μάθημα</a></div>
 <p class="exercise-intro">Βλέπεις μόνο το χέρι σου. Διάλεξε την αγορά σου από το bidding box.</p>
-<div class="exercise-modes" role="group" aria-label="Είδος άσκησης"><button type="button" data-mode="overcall" aria-pressed="true">Κάνω παρεμβολή</button><button type="button" data-mode="response" aria-pressed="false">Απαντώ στον συμπαίκτη</button></div>
+<div class="exercise-modes" role="group" aria-label="Είδος άσκησης"><button type="button" data-mode="overcall" aria-pressed="true">${labels.overcall || 'Κάνω παρεμβολή'}</button><button type="button" data-mode="response" aria-pressed="false">${labels.response || 'Απαντώ στον συμπαίκτη'}</button></div>
 <div class="exercise-progress"><p id="exercise-progress">Άσκηση 1 από 10</p><p id="exercise-context">Χωρίς μανς</p></div>
 <section class="exercise-table" aria-label="Τραπέζι άσκησης ${data.title}">
 <h2 id="exercise-question" tabindex="-1">Τι αγοράζεις;</h2>
@@ -29,7 +30,7 @@ ${moduleScript('convention-exercises.js')}</head>
 <div class="exercise-south"><div class="exercise-cards" id="exercise-hand" role="list" aria-label="Το χέρι σου, 13 φύλλα"></div><div class="exercise-position"><span class="south-symbol" aria-hidden="true">S</span><span>Εσύ · Νότος</span><span class="turn-label">Η σειρά σου</span></div></div>
 </section>
 <section class="exercise-feedback" id="exercise-feedback" aria-label="Αποτέλεσμα" hidden><h2 id="feedback-title"></h2><p id="feedback-answer"></p><p id="feedback-explanation"></p><button type="button" id="next-exercise">Επόμενη άσκηση</button></section>
-<section class="exercise-summary" id="exercise-summary" tabindex="-1" hidden><h2>Ολοκλήρωσες την ομάδα</h2><p id="summary-score"></p><button type="button" id="continue-responses" hidden>Απαντώ στον συμπαίκτη</button><button type="button" id="restart-exercises">Ξανά με τα ίδια χέρια</button><a href="../">Επιστροφή στο μάθημα</a></section>
+<section class="exercise-summary" id="exercise-summary" tabindex="-1" hidden><h2>Ολοκλήρωσες την ομάδα</h2><p id="summary-score"></p><button type="button" id="continue-responses" hidden>${labels.response || 'Απαντώ στον συμπαίκτη'}</button><button type="button" id="restart-exercises">Ξανά με τα ίδια χέρια</button><a href="../">Επιστροφή στο μάθημα</a></section>
 <p id="exercise-announcement" class="sr-only" aria-live="polite" aria-atomic="true"></p>
 <noscript><p>Για τις διαδραστικές ασκήσεις χρειάζεται JavaScript. <a href="../">Μπορείς να διαβάσεις το μάθημα ${data.title}.</a></p></noscript>
 <script type="application/json" id="exercise-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
