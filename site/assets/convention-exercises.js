@@ -218,6 +218,9 @@ function initializeExercises() {
     const session = sessions[mode];
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     summary.hidden = !session.finished; table.hidden = session.finished; feedback.hidden = true;
+    for (const selector of ['.exercise-intro', '.exercise-modes', '.exercise-progress']) {
+      $(selector).hidden = session.finished;
+    }
     const continueResponses = session.finished && mode === 'overcall' && !sessions.response.finished;
     $('#continue-responses').hidden = !continueResponses;
     summary.classList.toggle('has-next-group', continueResponses);
