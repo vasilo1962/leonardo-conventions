@@ -42,6 +42,11 @@ function renderArticle(source, article, language) {
     return `<h2 id="${id}">${title}</h2>`;
   }).replace(/<table>/g, '<div class="table-wrap" role="region" aria-label="' + escapeHtml(language.ui.table) + '"><table>').replace(/<\/table>/g, '</table></div>').replace(/<th>/g, '<th scope="col">');
   if (headings.length !== sectionIds.length) throw new Error(`${language.code}/${article.slug}: wrong heading structure`);
+  // Trial for Inverted Minors only. Transparent wrappers preserve the mobile flow.
+  if (article.slug === 'inverted-minors') {
+    html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
+      '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
+  }
   if (language.dir === 'rtl') {
     html = isolateRtl(html);
     for (const heading of headings) heading.title = isolateRtl(heading.title);

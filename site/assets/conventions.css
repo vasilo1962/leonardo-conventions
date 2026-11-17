@@ -10,3 +10,12 @@
 .spoken-table-row:focus-visible{outline:3px solid #b78012;outline-offset:-3px}
 .layout>nav{max-height:calc(100dvh - var(--learning-header-height,0px) - 35px);overflow:auto}
 @media(max-width:900px){.layout>nav{max-height:none;overflow:visible}}
+
+/* Inverted Minors trial: keep the existing mobile boxes and spacing untouched. */
+.example-row,.example-explanation{display:contents}
+@media screen and (min-width:901px){
+  .example-row{display:flex;align-items:flex-start;gap:28px;margin:18px 0 22px}
+  .example-row>.hand{flex:none;margin:0}
+  .example-explanation{display:block;min-width:0;flex:1}
+  .example-explanation>p{margin:0}
+}
