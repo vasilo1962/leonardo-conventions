@@ -32,7 +32,8 @@
       "Παρεμβολές μετά από φυσικό άνοιγμα 1ΝΤ του αντιπάλου.",
       "Δίχρωμες παρεμβολές μετά από άνοιγμα ένα σε χρώμα.",
       "Τα δύο χαμηλότερα μη αγορασμένα χρώματα με μία αγορά.",
-      "Μονόχρωμες και δίχρωμες παρεμβολές μετά από δυνατό 1ΝΤ."
+      "Μονόχρωμες και δίχρωμες παρεμβολές μετά από δυνατό 1ΝΤ.",
+      "Ισχυρή απλή βοήθεια και αδύναμο φιτ με πήδημα μετά από άνοιγμα σε μινέρ."
     ]
   },
   {
@@ -68,7 +69,8 @@
       "Overcalls after a natural 1NT opening.",
       "Two-suited overcalls after a one-level suit opening.",
       "The two lowest-ranking unbid suits in one bid.",
-      "One-suited and two-suited overcalls against a strong 1NT."
+      "One-suited and two-suited overcalls against a strong 1NT.",
+      "Strong single raises and weak jump raises after a minor-suit opening."
     ]
   },
   {
@@ -104,7 +106,8 @@
       "Interventions après l’ouverture naturelle de 1SA.",
       "Interventions bicolores après une ouverture de un à la couleur.",
       "Les deux couleurs non annoncées les moins chères en une enchère.",
-      "Interventions unicolores et bicolores contre un 1SA fort."
+      "Interventions unicolores et bicolores contre un 1SA fort.",
+      "Soutiens simples forts et soutiens à saut faibles après une ouverture mineure."
     ]
   },
   {
@@ -140,7 +143,8 @@
       "Gegenreizungen nach einer natürlichen 1SA-Eröffnung.",
       "Zweifärber nach einer Farberöffnung auf Einerstufe.",
       "Die beiden niedrigsten ungereizten Farben mit einem Gebot.",
-      "Einfärber und Zweifärber gegen eine starke 1SA-Eröffnung."
+      "Einfärber und Zweifärber gegen eine starke 1SA-Eröffnung.",
+      "Starke einfache Hebungen und schwache Sprunghebungen nach einer Unterfarberöffnung."
     ]
   },
   {
@@ -176,7 +180,8 @@
       "Interventi dopo l’apertura naturale di 1SA.",
       "Interventi bicolori dopo un’apertura di uno a colore.",
       "I due colori non dichiarati di rango più basso con una dichiarazione.",
-      "Interventi monocolori e bicolori contro 1SA forte."
+      "Interventi monocolori e bicolori contro 1SA forte.",
+      "Appoggi semplici forti e appoggi a salto deboli dopo un’apertura in minore."
     ]
   },
   {
@@ -212,7 +217,8 @@
       "Intervenciones después de una apertura natural de 1ST.",
       "Intervenciones bicolores después de una apertura de uno a palo.",
       "Los dos palos no declarados de menor rango en una sola voz.",
-      "Intervenciones monocolores y bicolores contra un 1ST fuerte."
+      "Intervenciones monocolores y bicolores contra un 1ST fuerte.",
+      "Apoyos simples fuertes y apoyos en salto débiles tras una apertura de menor."
     ]
   },
   {
@@ -248,7 +254,8 @@
       "Intervenções após uma abertura natural em 1ST.",
       "Intervenções bicolores após uma abertura de um em naipe.",
       "Os dois naipes não anunciados de menor hierarquia numa só voz.",
-      "Intervenções unicolores e bicolores contra 1ST forte."
+      "Intervenções unicolores e bicolores contra 1ST forte.",
+      "Apoios simples fortes e apoios em salto fracos após uma abertura em menor."
     ]
   },
   {
@@ -284,7 +291,8 @@
       "Volgbiedingen na een natuurlijke 1SA-opening.",
       "Tweekleurenspellen na een kleuropening op éénniveau.",
       "De twee laagste ongeboden kleuren met één bod.",
-      "Eenkleurenspellen en tweekleurenspellen tegen een sterke 1SA."
+      "Eenkleurenspellen en tweekleurenspellen tegen een sterke 1SA.",
+      "Sterke enkele verhogingen en zwakke sprongverhogingen na een opening in een lage kleur."
     ]
   },
   {
@@ -320,7 +328,8 @@
       "Natürel 1NT açışına karşı araya girişler.",
       "Bir seviyesindeki renk açışlarına karşı iki renkli araya girişler.",
       "Konuşulmamış en ucuz iki rengi tek deklareyle göstermek.",
-      "Kuvvetli 1NT’ye karşı tek renkli ve iki renkli araya girişler."
+      "Kuvvetli 1NT’ye karşı tek renkli ve iki renkli araya girişler.",
+      "Minör açışından sonra güçlü basit destek ve zayıf sıçramalı destek."
     ]
   },
   {
@@ -356,7 +365,8 @@
       "Inkliv efter en naturlig 1NT-öppning.",
       "Tvåfärgshänder efter en färgöppning på enläget.",
       "De två lägsta objudna färgerna med ett enda bud.",
-      "Enfärgs- och tvåfärgshänder mot en stark 1NT."
+      "Enfärgs- och tvåfärgshänder mot en stark 1NT.",
+      "Starka enkelhöjningar och svaga hoppstöd efter en lågfärgsöppning."
     ]
   },
   {
@@ -392,7 +402,8 @@
       "Indmeldinger efter en naturlig åbning 1UT.",
       "Tofarvede indmeldinger efter en farveåbning på 1-trinnet.",
       "De to laveste umeldte farver med én melding.",
-      "Enfarvede og tofarvede indmeldinger mod en stærk 1UT."
+      "Enfarvede og tofarvede indmeldinger mod en stærk 1UT.",
+      "Stærk simpel støtte og svag springstøtte efter en minoråbning."
     ]
   },
   {
@@ -428,7 +439,8 @@
       "Innmeldinger etter en naturlig åpning 1NT.",
       "Tofargede innmeldinger etter en fargeåpning på ett-trinnet.",
       "De to laveste umeldte fargene med én melding.",
-      "Enfargede og tofargede innmeldinger mot en sterk 1NT."
+      "Enfargede og tofargede innmeldinger mot en sterk 1NT.",
+      "Sterke enkle høyninger og svake hoppstøtter etter en minoråpning."
     ]
   },
   {
@@ -464,7 +476,8 @@
       "Välitarjoukset luonnollisen 1NT-avauksen jälkeen.",
       "Kaksivärivälitarjoukset yhden tason väriavauksen jälkeen.",
       "Kaksi alinta tarjoamatonta väriä yhdellä tarjouksella.",
-      "Yksi- ja kaksivärivälitarjoukset vahvaa 1NT:tä vastaan."
+      "Yksi- ja kaksivärivälitarjoukset vahvaa 1NT:tä vastaan.",
+      "Vahva yksinkertainen korotus ja heikko hyppykorotus alaväriavauksen jälkeen."
     ]
   },
   {
@@ -500,7 +513,8 @@
       "Wejścia po naturalnym otwarciu 1BA.",
       "Wejścia dwukolorowe po otwarciu jeden w kolor.",
       "Dwa najniższe nielicytowane kolory w jednej odzywce.",
-      "Wejścia jednokolorowe i dwukolorowe przeciw silnemu 1BA."
+      "Wejścia jednokolorowe i dwukolorowe przeciw silnemu 1BA.",
+      "Silne pojedyncze podniesienia i słabe podniesienia z przeskokiem po otwarciu w kolor młodszy."
     ]
   },
   {
@@ -536,7 +550,8 @@
       "Zásahy po přirozeném zahájení 1BT.",
       "Dvoubarevné zásahy po zahájení jednou v barvě.",
       "Dvě nejnižší nedražené barvy jedinou hláškou.",
-      "Jednobarevné a dvoubarevné zásahy proti silnému 1BT."
+      "Jednobarevné a dvoubarevné zásahy proti silnému 1BT.",
+      "Silné jednoduché zvýšení a slabé zvýšení skokem po zahájení v levné barvě."
     ]
   },
   {
@@ -572,7 +587,8 @@
       "Közbeszólások természetes 1NT indulás után.",
       "Kétszínű közbeszólások egyes magasságú színindulás után.",
       "A két legalacsonyabb nem licitált szín egy licittel.",
-      "Egyszínű és kétszínű közbeszólások erős 1NT ellen."
+      "Egyszínű és kétszínű közbeszólások erős 1NT ellen.",
+      "Erős egyszerű emelés és gyenge ugróemelés minor indulás után."
     ]
   },
   {
@@ -608,7 +624,8 @@
       "Innákomur eftir eðlilega opnun á 1NT.",
       "Tvílitar innákomur eftir opnun á einum í lit.",
       "Tveir lægstu ósögðu litirnir með einni sögn.",
-      "Einlitar og tvílitar innákomur gegn sterku 1NT."
+      "Einlitar og tvílitar innákomur gegn sterku 1NT.",
+      "Sterk einföld hækkun og veik stökkhækkun eftir opnun í láglit."
     ]
   },
   {
@@ -644,7 +661,8 @@
       "对抗自然1NT开叫的争叫方法。",
       "对抗一阶花色开叫的双套争叫。",
       "一次表示两门最低的未叫花色。",
-      "对抗强1NT的单套与双套争叫。"
+      "对抗强1NT的单套与双套争叫。",
+      "低花开叫后的强单加叫与弱跳加叫。"
     ]
   },
   {
@@ -680,7 +698,8 @@
       "ナチュラルな1NTオープンへのオーバーコール。",
       "１の代のスートオープンへの２スーターのオーバーコール。",
       "未ビッドの低い２スートを一度に示す。",
-      "強い1NTへの１スーターと２スーターのオーバーコール。"
+      "強い1NTへの１スーターと２スーターのオーバーコール。",
+      "マイナーのオープン後に使う、強いシングルレイズと弱いジャンプレイズ。"
     ]
   },
   {
@@ -716,7 +735,8 @@
       "התערבות אחרי פתיחת 1NT טבעית.",
       "התערבות דו־סדרתית אחרי פתיחת אחת בסדרה.",
       "שתי הסדרות הנמוכות שטרם הוכרזו, בהכרזה אחת.",
-      "התערבות חד־סדרתית ודו־סדרתית מול 1NT חזק."
+      "התערבות חד־סדרתית ודו־סדרתית מול 1NT חזק.",
+      "העלאה פשוטה חזקה והעלאה בקפיצה חלשה לאחר פתיחה במיינור."
     ],
     "dir": "rtl"
   },
@@ -753,7 +773,8 @@
       "स्वाभाविक 1NT ओपनिंग के बाद हस्तक्षेप।",
       "एक स्तर की रंग ओपनिंग के बाद दो रंगों का हस्तक्षेप।",
       "न बोले गए दो सबसे नीचे रंग एक बोली में।",
-      "मजबूत 1NT के विरुद्ध एक या दो रंगों का हस्तक्षेप।"
+      "मजबूत 1NT के विरुद्ध एक या दो रंगों का हस्तक्षेप।",
+      "माइनर ओपनिंग के बाद मजबूत साधारण रेज़ और कमजोर जंप रेज़।"
     ]
   },
   {
@@ -789,7 +810,8 @@
       "Входы после натурального открытия 1NT.",
       "Двухмастные входы после открытия одной в масть.",
       "Две младшие незаявленные масти одной заявкой.",
-      "Одномастные и двухмастные входы против сильного 1NT."
+      "Одномастные и двухмастные входы против сильного 1NT.",
+      "Сильные простые повышения и слабые повышения прыжком после открытия в миноре."
     ]
   },
   {
@@ -825,7 +847,8 @@
       "Overcall setelah pembukaan 1NT natural.",
       "Overcall dua warna setelah pembukaan satu dalam warna.",
       "Dua warna terendah yang belum disebut dalam satu bid.",
-      "Overcall satu dan dua warna melawan 1NT kuat."
+      "Overcall satu dan dua warna melawan 1NT kuat.",
+      "Kenaikan sederhana kuat dan kenaikan lompatan lemah setelah pembukaan minor."
     ]
   },
   {
@@ -861,7 +884,8 @@
       "التدخل بعد افتتاح 1NT طبيعي.",
       "تدخل بلونين بعد افتتاح بلون على المستوى الأول.",
       "أدنى لونين لم يُذكرا، بإعلان واحد.",
-      "التدخل بلون واحد أو لونين أمام 1NT قوي."
+      "التدخل بلون واحد أو لونين أمام 1NT قوي.",
+      "زيادة بسيطة قوية وزيادة بالقفز ضعيفة بعد افتتاح بلون صغير."
     ],
     "dir": "rtl"
   },
@@ -898,7 +922,8 @@
       "การแทรกหลังเปิด 1NT แบบธรรมชาติ",
       "การแทรกสองสีหลังเปิดหนึ่งในสี",
       "สองสีต่ำสุดที่ยังไม่ถูกเรียกในคำประมูลเดียว",
-      "การแทรกสีเดียวและสองสีเหนือ 1NT แข็ง"
+      "การแทรกสีเดียวและสองสีเหนือ 1NT แข็ง",
+      "การสนับสนุนแบบไม่กระโดดที่แข็งแกร่งและแบบกระโดดที่อ่อนหลังเปิดไมเนอร์"
     ]
   },
   {
@@ -934,7 +959,8 @@
       "내추럴 1NT 오프닝 이후의 오버콜.",
       "한 레벨 수트 오프닝 이후의 두 수트 오버콜.",
       "아직 부르지 않은 가장 낮은 두 수트를 한 번에 표시.",
-      "강한 1NT에 대한 한 수트와 두 수트 오버콜."
+      "강한 1NT에 대한 한 수트와 두 수트 오버콜.",
+      "마이너 오픈 후 사용하는 강한 싱글 레이즈와 약한 점프 레이즈."
     ]
   }
 ]

@@ -76,7 +76,7 @@ for (const q of data.questions) {
 }
 const lesson = await readFile('site/el/inverted-minors/index.html','utf8');
 assert.equal((lesson.match(/class="hand"/g)||[]).length,7);
-assert.equal((lesson.match(/hreflang=/g)||[]).length,1);
+assert.equal((lesson.match(/hreflang=/g)||[]).length,26);
 assert.ok(!lesson.includes('undefined'));
 const exercise = await readFile('site/el/inverted-minors/practice/index.html','utf8');
 assert.ok(exercise.includes('Συνεχίζω ως ανοίξας'));
@@ -85,6 +85,6 @@ assert.deepEqual(JSON.parse(exercise.match(/id="exercise-data">([\s\S]*?)<\/scri
 const languages = JSON.parse(await readFile('content/i18n/languages.json','utf8'));
 for (const language of languages) {
   const catalog = await readFile(`site/${language.code}/conventions/index.html`,'utf8');
-  assert.equal(catalog.includes('/inverted-minors/'), language.code === 'el');
+  assert.equal(catalog.includes('/inverted-minors/'), true);
 }
-console.log('Verified Inverted Minors: 20 hands, HCP, support, major priority, stopper agreements, complete legal multi-round auctions and Greek-only links.');
+console.log('Verified Inverted Minors: 20 hands, HCP, support, major priority, stopper agreements, complete legal multi-round auctions and links in all 26 languages.');

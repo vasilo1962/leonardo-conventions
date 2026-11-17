@@ -225,3 +225,39 @@
 - Ταϊλανδικά: πλήρες ταϊλανδικό κείμενο, με διεθνή overcall, cue bid, Double, vulnerability και pass or correct και επεξήγηση. Ελέγχθηκε η [ομοσπονδία CBLT](https://www.cblt.or.th/) και [δημοσιευμένη κάρτα της](https://results.cblt.or.th/media/cc/4/150834_CC_Saowalak-Phattharin_SAT.pdf). Η κάρτα είναι στα αγγλικά και δεν αποδεικνύει καθιερωμένη ταϊλανδική απόδοση των ειδικών όρων. Παραμένει η σχετική εκκρεμότητα· δεν χρησιμοποιήθηκαν αυτόματα μεταφρασμένα εγκυκλοπαιδικά αντίγραφα.
 
 Οι εκκρεμείς τοπικές αποδόσεις παραμένουν διακριτές από την ολοκλήρωση των άρθρων. Δεν δηλώνεται ότι οι περιγραφικές εξηγήσεις αποτελούν καθιερωμένους ειδικούς όρους. Έγινε έλεγχος των 36 νέων άρθρων για ίδια χέρια και δομή, με έξι ενότητες, ίδιες υποενότητες, γραμμές πινάκων και λίστες όπως στο κοινό περιεχόμενο.
+
+## Inverted Minors — μεταφράσεις 17/11/2026
+
+Συντάχθηκαν οι 25 αποδόσεις του εγκεκριμένου ελληνικού άρθρου. Το διεθνές όνομα Inverted Minors διατηρείται. Η απλή βοήθεια είναι ισχυρή (10+), forcing ενός γύρου, και το φιτ με πήδημα 6–9, πασαριστό. Οι πηγές χρησιμοποιούνται για ορολογία, χωρίς μεταφορά διαφορετικών ορίων ή συνεχειών.
+
+| Γλώσσα | Απλή βοήθεια / φιτ με πήδημα | Κράτημα |
+| --- | --- | --- |
+| en | single raise / jump raise | stopper |
+| fr | soutien simple / soutien à saut | arrêt |
+| de | einfache Hebung / Sprunghebung | Stopper |
+| it | appoggio semplice / appoggio a salto | fermo |
+| es | apoyo simple / apoyo en salto | parada |
+| pt | apoio simples / apoio em salto | pega |
+| nl | enkele verhoging / sprongverhoging | stopper |
+| tr | basit destek / sıçramalı destek | keser |
+| sv | enkelhöjning / hoppstöd | håll |
+| da | simpel støtte / springstøtte | hold |
+| no | enkel høyning / hoppstøtte | hold |
+| fi | yksinkertainen korotus / hyppykorotus | pito |
+| pl | pojedyncze podniesienie / podniesienie z przeskokiem | zatrzymanie |
+| cs | jednoduché zvýšení / zvýšení skokem | zádrž |
+| hu | egyszerű emelés / ugróemelés | fogás |
+| is | einföld hækkun / stökkhækkun | fyrirstaða |
+| ru | простое повышение / повышение прыжком | задержка |
+| zh | 单加叫 / 跳加叫 | 止张 |
+| ja | シングルレイズ / ジャンプレイズ | ストッパー |
+| he | העלאה פשוטה / העלאה בקפיצה | עוצר |
+| id | kenaikan sederhana / kenaikan dengan lompatan | stopper |
+| hi | साधारण रेज़ / जंप रेज़ | स्टॉपर |
+| ar | زيادة بسيطة / زيادة بالقفز | مانع |
+| th | การสนับสนุนด้วยการขึ้นเพียงหนึ่งระดับ / การสนับสนุนแบบกระโดด | ตัวหยุด |
+| ko | 싱글 레이즈 / 점프 레이즈 | 스토퍼 |
+
+Ειδικές πηγές που ελέγχθηκαν: [Larry Cohen](https://www.larryco.com/bridge-articles/inverted-minors?p=true), [Philippe Chailley](https://www.bridge-chailley.fr/dictionnaires/index-m-z/s/), [DBV — Bridge Magazin 8/2018](https://www.bridge-verband.de/clients/bridge/content/e1425/e187/e5349/e5365/e5366/BM-2018-08.pdf), [FIGB 10/2001](https://www.federbridge.it/Riviste/2001/10.pdf), [Mario Martinelli](https://scuolabridge.it/wp-content/uploads/2021/04/Risposte-Apertura-2.pdf), [CSB — menores invertidos](https://csbnews.org/convenciones-menores-invertidos-por-bob-crosby/), [FPB — RTP](https://fpbridge.pt/_wp/wp-content/uploads/2015/07/RTP-2017.pdf), [NBB — De lage kleuren](https://22009.bridge.nl/app/uploads/2020/09/De-lage-kleuren-Teun-Huijer-2-okt-2018.pdf), [TBF](https://cdn.tbricfed.org.tr/wp-content/uploads/2023/08/bric_baslangic_seviyesi_ders_notlari.pdf), [Arne Frennelius](https://syskon.github.io/syskon/konventioner/offensiva/0042_rev-min-raises_01.htm), [PZBS](https://www.pzbs.pl/download/swiatbrydza/archiwum/2014.SB_04-06.pdf), [汕头市桥牌协会](https://www.shantoubridge.com/314.html), [BITAON 8/2018](https://www.main.bridge.co.il/uploads/files/BITAON/FullBitaon/full-8.18.pdf). Η ιαπωνική ονομασία εμφανίστηκε στα αποτελέσματα του ήδη καταγεγραμμένου λεξικού· η αποτυχημένη άμεση ανάκτηση δεν τεκμηριώνει πρόσθετες συνέχειες.
+
+Ο πίνακας καταγράφει τις αποδόσεις που χρησιμοποιήθηκαν, όχι ότι κάθε όρος επαληθεύτηκε χωριστά ως καθιερωμένος. Για τις υπόλοιπες γλώσσες διατηρούνται οι προηγούμενες γενικές πηγές του γλωσσαρίου. Δεν επιβεβαιώθηκαν ειδικές τοπικές ονομασίες της σύμβασης σε κάθε γλώσσα. Σε χίντι, αραβικά και ταϊλανδικά χρησιμοποιούνται περιγραφικές εξηγήσεις των εννοιών και διεθνή αναγνωριστικά, χωρίς ισχυρισμό καθιερωμένης ειδικής ορολογίας. Δεν έχει γίνει επιμέλεια από φυσικούς ομιλητές.
