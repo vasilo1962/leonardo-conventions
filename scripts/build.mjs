@@ -42,8 +42,8 @@ function renderArticle(source, article, language) {
     return `<h2 id="${id}">${title}</h2>`;
   }).replace(/<table>/g, '<div class="table-wrap" role="region" aria-label="' + escapeHtml(language.ui.table) + '"><table>').replace(/<\/table>/g, '</table></div>').replace(/<th>/g, '<th scope="col">');
   if (headings.length !== sectionIds.length) throw new Error(`${language.code}/${article.slug}: wrong heading structure`);
-  // Trial for Inverted Minors only. Transparent wrappers preserve the mobile flow.
-  if (article.slug === 'inverted-minors') {
+  // Paired examples in these lessons; transparent wrappers preserve the mobile flow.
+  if (['inverted-minors', 'bergen-raises'].includes(article.slug)) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
@@ -67,7 +67,7 @@ for (const language of languages) {
     const { html, headings } = renderArticle(source, article, language);
     const route = `${language.code}/${article.slug}/`;
     const title = article.title + ' | Leonardo Bridge';
-    const exercises = language.code === 'el'
+    const exercises = language.code === 'el' && article.exercises !== false
       ? '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>' + escapeHtml(article.exercisesText || 'Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.') + '</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>' : '';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: article.description || language.cards[index], route, slug: article.slug,

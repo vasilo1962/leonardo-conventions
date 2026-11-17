@@ -261,3 +261,23 @@
 Ειδικές πηγές που ελέγχθηκαν: [Larry Cohen](https://www.larryco.com/bridge-articles/inverted-minors?p=true), [Philippe Chailley](https://www.bridge-chailley.fr/dictionnaires/index-m-z/s/), [DBV — Bridge Magazin 8/2018](https://www.bridge-verband.de/clients/bridge/content/e1425/e187/e5349/e5365/e5366/BM-2018-08.pdf), [FIGB 10/2001](https://www.federbridge.it/Riviste/2001/10.pdf), [Mario Martinelli](https://scuolabridge.it/wp-content/uploads/2021/04/Risposte-Apertura-2.pdf), [CSB — menores invertidos](https://csbnews.org/convenciones-menores-invertidos-por-bob-crosby/), [FPB — RTP](https://fpbridge.pt/_wp/wp-content/uploads/2015/07/RTP-2017.pdf), [NBB — De lage kleuren](https://22009.bridge.nl/app/uploads/2020/09/De-lage-kleuren-Teun-Huijer-2-okt-2018.pdf), [TBF](https://cdn.tbricfed.org.tr/wp-content/uploads/2023/08/bric_baslangic_seviyesi_ders_notlari.pdf), [Arne Frennelius](https://syskon.github.io/syskon/konventioner/offensiva/0042_rev-min-raises_01.htm), [PZBS](https://www.pzbs.pl/download/swiatbrydza/archiwum/2014.SB_04-06.pdf), [汕头市桥牌协会](https://www.shantoubridge.com/314.html), [BITAON 8/2018](https://www.main.bridge.co.il/uploads/files/BITAON/FullBitaon/full-8.18.pdf). Η ιαπωνική ονομασία εμφανίστηκε στα αποτελέσματα του ήδη καταγεγραμμένου λεξικού· η αποτυχημένη άμεση ανάκτηση δεν τεκμηριώνει πρόσθετες συνέχειες.
 
 Ο πίνακας καταγράφει τις αποδόσεις που χρησιμοποιήθηκαν, όχι ότι κάθε όρος επαληθεύτηκε χωριστά ως καθιερωμένος. Για τις υπόλοιπες γλώσσες διατηρούνται οι προηγούμενες γενικές πηγές του γλωσσαρίου. Δεν επιβεβαιώθηκαν ειδικές τοπικές ονομασίες της σύμβασης σε κάθε γλώσσα. Σε χίντι, αραβικά και ταϊλανδικά χρησιμοποιούνται περιγραφικές εξηγήσεις των εννοιών και διεθνή αναγνωριστικά, χωρίς ισχυρισμό καθιερωμένης ειδικής ορολογίας. Δεν έχει γίνει επιμέλεια από φυσικούς ομιλητές.
+
+## Constructive — συμφωνία 17/11/2026
+
+Η Βασιλική όρισε να διατηρείται σκέτο **constructive** στα ελληνικά και σε όλες τις γλώσσες όπου δεν τεκμηριώθηκε τοπικός όρος. Συνοδεύεται από τα μήκη και τους πόντους, χωρίς επινοημένη κατά λέξη απόδοση. Στα Bergen χρησιμοποιούμε τη συμφωνημένη γραφή **3♥ /♠** στον πίνακα και εξηγούμε ότι αφορά το μαζέρ του ανοίγματος.
+
+| Γλώσσα | Τεκμηριωμένη χρήση | Πηγή |
+| --- | --- | --- |
+| en | constructive raise | [Andrew Gumperz / CSB](https://csbnews.org/en/single-raise-constructive/) |
+| fr | soutien constructif | [Sarzeau Bridge Club / FFB](https://bridgesarzeau.club.ffbridge.fr/saison-2025-2026/actualites-du-club/quand-la-reponse-de-2sa-est-elle-fittee-1227523) |
+| de | konstruktive Hebung | [Christoph Berg — 5er-Oberfarben](https://www.df7cb.de/bridge/svn/5er_of/5er_of_a6.pdf) |
+| it | appoggio costruttivo | [Pescara Bridge](https://www.pescarabridge.it/wp-content/uploads/2024/04/10b-Mani-di-fit-nel-nobile-Bergen.pdf) |
+| es | apoyo constructivo | [Steve Moese / CSB](https://csbnews.org/contando-por-steve-moese-parte-ii/) |
+| sv | konstruktiv höjning | [SBF — Forza](https://www.svenskbridge.se/sites/default/files/group_page/field_sb_upload/forzasystem_22_feb_2018.pdf) |
+| da | konstruktivt, για την υποστήριξη Bergen | [Kromann](https://bridge.kromann.info/Convention/1000423)· η πλήρης φράση konstruktiv støtte δεν επαληθεύτηκε χωριστά |
+| no | konstruktiv høyning | [NBF — 6/1998](https://www.bridgemagasiner.no/var/fckeditor/bridgemagasiner/file/Medlemsblad%20for%20NBF/1998/1998-Medlemsblad-nr-6.pdf) |
+| pl | podniesienie konstruktywne | [PZBS — 1–3/2014](https://www.pzbs.pl/download/swiatbrydza/archiwum/2014.SB_01-03.pdf) |
+
+Για el, pt, nl, tr, fi, cs, hu, is, ru, zh, ja, he, id, hi, ar, th, ko διατηρείται **constructive** σύμφωνα με τη συμφωνία. Η αναζήτηση δεν τεκμηρίωσε συγκεκριμένη απόδοση της φράσης στις γλώσσες αυτές· αυτό δεν σημαίνει ότι δεν υπάρχει. Το ελληνικό [Bridge Magazine — Bergen](https://bridgeaddiction.blogspot.com/search/label/4%CF%86%CF%85%CE%BB%CE%BB%CE%BF%20%CF%86%CE%B9%CF%84%20%CF%83%CF%84%CE%BF%20%CE%BC%CE%B1%CE%B6%CE%AD%CF%81) περιγράφει το 3♣ με φιτ και πόντους.
+
+Πηγές για τις εκδοχές Bergen: [Larry Cohen](https://www.larryco.com/bridge-articles/bergen-raises?p=true), [Pat Harrington / ACBL](https://cdn.acbl.org/assets/documents/teachers/Major-Suit-Raises-II-TM.pdf). Οι αποκλίσεις των πηγών στα όρια πόντων δεν μεταφέρονται στο μάθημα. Η ερώτηση 3♦ μετά από constructive 3♣ και η συγκεκριμένη διάκριση 7–8 / 9 αποτελούν τη συμφωνημένη απλή εκδοχή του άρθρου.

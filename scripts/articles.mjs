@@ -5,6 +5,8 @@ export const articles = [
   { slug: 'unusual-2nt', title: 'Unusual 2NT', hands: 5 },
   { slug: 'dont', title: 'DONT', hands: 7 },
   { slug: 'inverted-minors', title: 'Inverted Minors', hands: 7,
-    exercisesText: 'Δοκίμασε την αρχική απάντηση και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' }
+    exercisesText: 'Δοκίμασε την αρχική απάντηση και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
+  { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8, languages: ['el'], exercises: false,
+    description: 'Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
