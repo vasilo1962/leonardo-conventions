@@ -8,7 +8,7 @@ const hcp = hand => handCards(hand).reduce((sum, card) => sum + (points[card.ran
 assert.equal(data.questions.length, 20);
 assert.equal(new Set(data.questions.map(q => q.id)).size, 20);
 for (const role of ['overcall','response']) assert.equal(data.questions.filter(q => q.role === role).length, 10);
-assert.equal(data.questions.filter(q => q.kind === 'contrast').length, 2);
+assert.equal(data.questions.filter(q => q.kind === 'contrast').length, 3);
 for (const q of data.questions) {
   const cards = handCards(q.hand);
   assert.equal(cards.length, 13, q.id);
@@ -41,9 +41,17 @@ for (const q of data.questions) {
   if(q.role === 'overcall') {
     assert.deepEqual(q.auction.map(entry=>entry.seat),['N','E']);
     if(q.kind === 'contrast') {
-      assert.equal(q.hand[major].length,3);
-      assert.ok(strength>=6 && strength<=9);
-      assert.equal(q.answer,'2'+major);
+      if(q.answer === '2NT') {
+        assert.equal(strength,16);
+        assert.equal(q.hand[major].length,4);
+        assert.equal(Object.values(q.hand).map(cards=>cards.length).sort().join(''),'3334');
+        assert.ok(!/Jacoby|forcing|μανς|2NT|2ΝΤ/.test(q.situation));
+        assert.ok(q.explanation.includes('Jacoby'));
+      } else {
+        assert.equal(q.hand[major].length,3);
+        assert.ok(strength>=6 && strength<=9);
+        assert.equal(q.answer,'2'+major);
+      }
     } else {
       assert.ok(q.hand[major].length>=4);
       if(q.answer==='3C') assert.ok(strength>=7 && strength<=9);
@@ -71,7 +79,10 @@ assert.deepEqual(JSON.parse(exercise.match(/id="exercise-data">([\s\S]*?)<\/scri
 assert.ok(exercise.includes('Απαντώ στο άνοιγμα') && exercise.includes('Συνεχίζω ως ανοίξας'));
 assert.ok(!exercise.includes('Κάνω παρεμβολή'));
 assert.ok((await readFile('site/el/bergen-raises/index.html','utf8')).includes('href="practice/"'));
-for(const answer of ['3C','3D','3H','3S','2H','2S']) assert.ok(data.questions.some(q=>q.role==='overcall' && q.answer===answer));
+for(const answer of ['3C','3D','3H','3S','2H','2S','2NT']) assert.ok(data.questions.some(q=>q.role==='overcall' && q.answer===answer));
 for(const answer of ['3H','3S','4H','4S','3D']) assert.ok(data.questions.some(q=>q.role==='response' && q.answer===answer));
 assert.ok(data.questions.filter(q=>q.role==='response').every(q=>q.kind==='convention'));
-console.log('Verified Bergen Raises: 20 hands, 10 per role, 80/20 initial responses, HCP, fit, legal auctions, minimum/maximum game tries, accepted/declined invitations and embedded exercise data.');
+assert.equal(data.questions.filter(q=>q.answer==='2NT').length,1);
+assert.ok(data.ui.agreements.includes('Jacoby 2NT'));
+assert.ok(exercise.match(/<p class="exercise-intro">([^<]+)<\/p>/)[1].includes(data.ui.agreements));
+console.log('Verified Bergen Raises: 20 hands, 10 per role, 7 Bergen responses, 2 simple raises, 1 clear Jacoby game force with neutral question and common agreement, HCP, fit, legal auctions, minimum/maximum game tries, accepted/declined invitations and embedded exercise data.');

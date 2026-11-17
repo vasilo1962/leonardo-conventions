@@ -6,6 +6,7 @@ export async function buildExercisePreview() {
   for (const file of (await readdir('content/exercises')).filter(name => name.endsWith('.el.json')).sort()) {
   const data = JSON.parse(await readFile('content/exercises/' + file, 'utf8'));
   const labels = data.ui || {};
+  const agreement = labels.agreements ? ' ' + String(labels.agreements).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])) : '';
   const route = 'el/' + file.replace('.el.json', '') + '/practice/';
   const html = `<!doctype html>
 <html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -19,7 +20,7 @@ ${moduleScript('convention-exercises.js')}</head>
 <body class="exercise-page"><a class="skip" href="#main">Στο περιεχόμενο</a>
 <main id="main" class="exercise-main">
 <div class="exercise-heading"><div><p class="eyebrow">ΔΟΚΙΜΗ ΑΣΚΗΣΕΩΝ</p><h1>${data.title}</h1></div><a class="lesson-return" href="../">Πίσω στο μάθημα</a></div>
-<p class="exercise-intro">Βλέπεις μόνο το χέρι σου. Διάλεξε την αγορά σου από το bidding box.</p>
+<p class="exercise-intro">Βλέπεις μόνο το χέρι σου. Διάλεξε την αγορά σου από το bidding box.${agreement}</p>
 <div class="exercise-modes" role="group" aria-label="Είδος άσκησης"><button type="button" data-mode="overcall" aria-pressed="true">${labels.overcall || 'Κάνω παρεμβολή'}</button><button type="button" data-mode="response" aria-pressed="false">${labels.response || 'Απαντώ στον συμπαίκτη'}</button></div>
 <div class="exercise-progress"><p id="exercise-progress">Άσκηση 1 από 10</p><p id="exercise-context">Χωρίς μανς</p></div>
 <section class="exercise-table" aria-label="Τραπέζι άσκησης ${data.title}">
