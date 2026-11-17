@@ -6,8 +6,7 @@ export const articles = [
   { slug: 'dont', title: 'DONT', hands: 7 },
   { slug: 'inverted-minors', title: 'Inverted Minors', hands: 7,
     exercisesText: 'Δοκίμασε την αρχική απάντηση και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
-  { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8, languages: ['el'],
-    exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.',
-    description: 'Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ.' }
+  { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8,
+    exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
