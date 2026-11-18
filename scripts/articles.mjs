@@ -9,6 +9,9 @@ export const articles = [
   { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8,
     exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
   { slug: 'jacoby-2nt', title: 'Jacoby 2NT', hands: 9,
-    exercisesText: 'Δοκίμασε την αρχική απάντηση Jacoby 2NT και την επαναδήλωση του ανοίξαντος με το δικό σου χέρι και το bidding box.' }
+    exercisesText: 'Δοκίμασε την αρχική απάντηση Jacoby 2NT και την επαναδήλωση του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
+  { slug: 'drury', title: 'Drury — φιτ μετά από άνοιγμα 3ης ή 4ης θέσης', hands: 8,
+    languages: ['el'], exercises: false,
+    description: 'Reverse Drury και Two-way Drury: προτασιακό φιτ από πασαρισμένο παίκτη, επαναδηλώσεις και παραδείγματα.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);

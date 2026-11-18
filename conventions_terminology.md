@@ -301,3 +301,36 @@
 | Κινεζικά | 单张, 缺门, 逼叫到局 | [温州市桥牌协会 — 2NT雅各比约定叫](https://mybridge.club/?id=38)· οι διαφορετικές προϋποθέσεις, περιοχές και relay δεν υιοθετούνται. |
 
 Οι περιγραφικές αποδόσεις και οι διεθνείς όροι στις υπόλοιπες γλώσσες δεν παρουσιάζονται ως νέοι, ανεξάρτητα επαληθευμένοι τεχνικοί όροι. Παραμένουν οι ήδη καταγεγραμμένες εκκρεμότητες για χίντι/αραβικά/ταϊλανδικά. Δεν έχει γίνει επιμέλεια από φυσικούς ομιλητές.
+
+
+## Επαναδήλωση και «για πάσο» — 18/11/2026
+
+Συμφωνημένη ελληνική ορολογία: **επαναδήλωση** για το rebid· στο Drury γράφουμε «Η επαναδήλωση του μαζέρ στο επίπεδο 2 είναι **για πάσο**. Ο απαντών πασάρει». Δεν χρησιμοποιούμε «επιστροφή» ή «τελική» ως τεχνική απόδοση σε αυτή τη φράση. Το «για πάσο» δηλώνει to play/sign-off στην περιγραφόμενη ακολουθία και δεν ταυτίζεται γενικά με κάθε non-forcing αγορά. Η επαναδήλωση ως δεύτερη αγορά παίκτη δεν προϋποθέτει ότι αγοράζει ξανά το ίδιο χρώμα.
+
+Οι πηγές που ελέγχθηκαν αφορούν ορολογία, όχι αλλαγές στην εκδοχή Drury:
+
+| Γλώσσα | Χρήση που τεκμηριώθηκε | Πηγή |
+| --- | --- | --- |
+| en | rebid: δεύτερη αγορά παίκτη· ως ρήμα και επανάληψη χρώματος | [The Bridge World — dictionary](https://www.bridgeworld.com/pages/readingroom/bridgedictionary.html) |
+| fr | redemande de l’ouvreur· répétition για το ίδιο χρώμα | [Philippe Chailley](https://www.bridge-chailley.fr/) |
+| de | Wiedergebot | [DBV — Basiskurs Reizung](https://www.bridge-verband-neu.de/aktuelles/news/news-lernen-und-trainieren/kurs-59-basiskurs-reizung) |
+| it | ridichiarazione· ripetizione για το ίδιο χρώμα | [V Nobile FIGB](https://www.infobridge.it/Sistemi_VNobileFIGB.pdf) |
+| es | redeclaración del abridor | [AEB](https://www.aebridge.com/sites/default/files/2020-06/1967.030.Abr_.pdf) |
+| pt | segunda voz do abridor / rebide· repetição για το ίδιο χρώμα | [Funbridge pt-PT](https://funbridge.com/pt-PT/aprender-bridge/6) |
+| nl | herbieding | [NBB — BridgeBalie](https://16007.bridge.nl/app/uploads/2023/11/Groen-02-Herbieding-van-de-antwoordende-hand.pdf) |
+| sv | återbud | [SBF — XYZ](https://www.svenskbridge.se/sites/default/files/field_sb_upload/noter5.pdf) |
+| da | genmelding | [MereBridge — ordbog](https://merebridge.dk/ordbog) |
+| no | gjenmelding | [NBF — Valg av åpningsmelding](https://www.bridge.no/Bridgemateriell/Blogger/GeOs-blogg/Valg-av-aapningsmelding-1) |
+| fi | avaajan toinen tarjous / jatkotarjous | [Suomen Bridgeliitto — peruskurssi](https://www.tammerbridge.fi/tieto/sbl/sbl_peruskurssi.pdf) |
+| pl | rebid otwierającego | [PZBS — Świat Brydża](https://www.pzbs.pl/download/swiatbrydza/archiwum/2010.SB_9-10.pdf) |
+| cs | rebid | [ČBS — Acol](https://www.bridgecz.cz/obr/soubory/Acol_kn2.pdf) |
+| hu | viszontválasz | [MBSZ](https://www.bridzs.hu/hu/bridzselet/bajnoksagokrol/mpbajnoksag_20252026_3_jatekhet) |
+| is | endursögn opnara· endurmelda για επανάληψη χρώματος | [Bridgeskólinn — Stig 2](https://bridge.is/media/3uwjcpxb/stig2_net_pdf.pdf) |
+| tr | rebid | [Anadolu Üniversitesi — Briç](https://www.anadolu.edu.tr/akademik/fakulteler/ders/91935/bric/ders-ogrenme-ciktilari) |
+| zh | 再叫 | [汕头桥牌网](https://www.shantoubridge.com/314.html) |
+| ja | リビッド | [JCBL — WGI](https://www.jcbl.or.jp/Portals/0/pdf/fukyu/tools/WGIマニュアル_v3_4.pdf) |
+| ko | 리비드 | [HWP — 어쩌다 브리지](https://brunch.co.kr/brunchbook/bridge) |
+
+Για he εμφανίστηκε η χρήση הכרזה חוזרת σε εκπαιδευτικό άρθρο Bridge Tips· για ru εμφανίστηκε повторная заявка / ребид σε συζήτηση παικτών. Δεν καταγράφονται εδώ ως επαληθευμένοι μέσω πρωτογενούς γλωσσαρίου. Για id βρέθηκε rebid σε αναδημοσιευμένο εγχειρίδιο GABSI· εκκρεμεί έλεγχος πρωτότυπης έκδοσης. Για hi/ar/th δεν επιβεβαιώθηκε κατάλληλος ειδικός τοπικός όρος. Στις μη επαληθευμένες περιπτώσεις χρησιμοποιούμε σαφή περιγραφή της επόμενης αγοράς του ανοίξαντος, χωρίς κατά λέξη μεταφορά της ελληνικής «επιστροφής». Οι ακριβείς τοπικές αποδόσεις του to play/sign-off θα ελεγχθούν χωριστά κατά τη μετάφραση. Δεν έχει γίνει επιμέλεια φυσικών ομιλητών.
+
+Πηγές περιεχομένου Drury: [Larry Cohen — Drury](https://www.larryco.com/bridge-articles/drury), [ACBL — Major Suit Raises II](https://cdn.acbl.org/assets/documents/teachers/Major-Suit-Raises-II-TM.pdf). Η απλή συνέχεια minimum/maximum μετά το 2♦ και η επιλογή Bergen μαζί με Drury δηλώνονται ως συμφωνίες του μαθήματος/ζευγαριού, όχι καθολικοί κανόνες.

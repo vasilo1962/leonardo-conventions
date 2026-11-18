@@ -47,7 +47,7 @@ function renderArticle(source, article, language) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
-  if (article.slug === 'jacoby-2nt') {
+  if (['jacoby-2nt', 'drury'].includes(article.slug)) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*((?:<p>[\s\S]*?<\/p>\s*)+)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
