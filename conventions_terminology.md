@@ -8,7 +8,7 @@
 
 | Έννοια | Απόδοση |
 | --- | --- |
-| Overcall | Παρεμβολή |
+| Overcall | Παρεμβολή. Δεν χρησιμοποιούμε ποτέ «παρέμβαση» ή «παράμβαση» για αυτή την έννοια, ούτε τους κλιτούς τύπους τους. Ο κανόνας ισχύει σε άρθρα, παραδείγματα, ασκήσεις και επεξηγήσεις. |
 | Penalty double | Κοντρ τιμωρίας. Δεν χρησιμοποιούμε «τιμωρητικό κοντρ». |
 | Pass or correct | pass or correct. Στην πρώτη εμφάνιση εξηγούμε τη λειτουργία του με απλά λόγια, χωρίς να αντικαθιστούμε τον όρο με «πάσο ή διόρθωσε». |
 | Single / simple raise | Απλή βοήθεια. Εναλλακτικά, όταν προσδιορίζεται το επίπεδο: «φιτ στο επίπεδο 2». Δεν χρησιμοποιούμε «ανύψωση». |
@@ -35,11 +35,11 @@
 | Ολλανδικά | nl | Volgbod | [Nederlandse Bridge Bond — BridgeTV](https://www.bridge.nl/download.php?file=BridgeTV%2FBridgeTVdeBasisaflevering29+Bijbieden_na_volgbod_partner.pdf)· αναφέρει και tussenbod. |
 | Κινεζικά | zh | 争叫 | [Εκπαιδευτικό υλικό μπριτζ — 东二小学](https://d2xx.xhedu.sh.cn/cms/app/info/doc/index.php/24664)· απλοποιημένη γραφή. |
 | Ιταλικά | it | Intervento | [FIGB — Sistema di intervento, Enzo Riolo](https://www.riminibridge.it/archivio/corsi/didattica/interventi.pdf) |
-| Γερμανικά | de | Gegenreizung | [Deutscher Bridge-Verband — Farbgegenreizung](https://www.bridge-verband.de/clients/bridge/content/e180/e193/e10914/e23954/files23964/EinmaleinsderReizung-Lektion9-Farbgegenreizung.pdf)· για παρέμβαση σε χρώμα: Farbgegenreizung. |
+| Γερμανικά | de | Gegenreizung | [Deutscher Bridge-Verband — Farbgegenreizung](https://www.bridge-verband.de/clients/bridge/content/e180/e193/e10914/e23954/files23964/EinmaleinsderReizung-Lektion9-Farbgegenreizung.pdf)· για παρεμβολή σε χρώμα: Farbgegenreizung. |
 | Σουηδικά | sv | Inkliv | [Svenska Bridgeförbundet — Veckans problem 21](https://www.svenskbridge.se/utbildning/veckans-problem-21) |
 | Δανικά | da | Indmelding | [Store Heddinge Bridgeklub — Indmeldinger og svar herpå](https://www.bridge.dk/2476/pdf/FP_Indmeldinger.pdf) |
 | Νορβηγικά | no | Innmelding | [Ski Bridgeklubb — Innmeldinger](https://www.bridge.no/var/fckeditor/skibridgeklubb/file/Innmeldinger.pdf) |
-| Πολωνικά | pl | Wejście | [7BA — Przykładowe ustalenia WJ](https://7ba.pl/ustalenia/wspolny-jezyk/)· wejście kolorem για παρέμβαση σε χρώμα. |
+| Πολωνικά | pl | Wejście | [7BA — Przykładowe ustalenia WJ](https://7ba.pl/ustalenia/wspolny-jezyk/)· wejście kolorem για παρεμβολή σε χρώμα. |
 | Ιαπωνικά | ja | オーバーコール | [JCBL — εκπαιδευτικό παράδειγμα](https://www.jcbl.or.jp/home/child/hashinosuke/report25/tabid/714/Default.aspx) |
 | Εβραϊκά | he | אוברקול / התערבות | [Ισραηλινή Ομοσπονδία — περιοδικό, Ιανουάριος 2021, σελ. 9](https://www.main.bridge.co.il/uploads/files/BITAON/FullBitaon/full-1.21.pdf)· εμφανίζονται μαζί ως אוברקול (התערבות). |
 | Ισπανικά | es | Intervención | [Asociación Española de Bridge — κάρτα συμβάσεων](https://www.aebridge.com/sites/default/files/2022-09/Macarios.pdf) |
@@ -183,7 +183,7 @@
 13/11/2026: πλήρεις μεταφράσεις των τεσσάρων άρθρων, γραμμένες από τον βοηθό. Διατηρούνται οι ελληνικές συμφωνίες, όλα τα χέρια και οι συνέχειες. Οι πηγές τεκμηριώνουν τη χρήση των όρων· διαφορετικά συστήματα και όρια πόντων δεν υιοθετούνται.
 
 - Ισπανικά: intervención, monocolor / bicolor, mayores / menores, doblo penal, reapertura, manga, pasa o corrige. ST στις αγορές. Πηγές: [AEB — Rafa / Juanma](https://www.aebridge.com/sites/default/files/2024-06/Hoja%20de%20Convenciones%20Rafa-Juanma.pdf), [AEB — Moraleja](https://www.aebridge.com/sites/default/files/2024-09/MORALEJA.pdf). Δεν μεταφέρονται τα ειδικά όρια πόντων ή οι άλλες εκδοχές της κάρτας.
-- Πορτογαλικά Πορτογαλίας: intervenção, unicolor / bicolor, naipes ricos / pobres, dobre punitivo, reabertura, partida, passa ou corrige. ST στις αγορές. Πηγές: [FPB — απαντήσεις σε παρέμβαση](https://www.fpbridge.pt/_wp/wp-content/uploads/2015/09/Artigo_Resposta-a-Interven%C3%A7%C3%A3o-Simples-em-Naipe_2014.pdf), [FPB — Fernando Pombo / Pedro Salgueiro](https://fpbridge.pt/_wp/wp-content/uploads/2021/04/Fernando-Pombo-Pedro-Salgueiro.pdf), [Funbridge pt-PT — γλωσσάρι](https://www.funbridge.com/pt-PT/dicionario-de-bridge). Επιβεβαιώθηκε η εκκρεμής πορτογαλική χρήση του passa ou corrige.
+- Πορτογαλικά Πορτογαλίας: intervenção, unicolor / bicolor, naipes ricos / pobres, dobre punitivo, reabertura, partida, passa ou corrige. ST στις αγορές. Πηγές: [FPB — απαντήσεις σε παρεμβολή](https://www.fpbridge.pt/_wp/wp-content/uploads/2015/09/Artigo_Resposta-a-Interven%C3%A7%C3%A3o-Simples-em-Naipe_2014.pdf), [FPB — Fernando Pombo / Pedro Salgueiro](https://fpbridge.pt/_wp/wp-content/uploads/2021/04/Fernando-Pombo-Pedro-Salgueiro.pdf), [Funbridge pt-PT — γλωσσάρι](https://www.funbridge.com/pt-PT/dicionario-de-bridge). Επιβεβαιώθηκε η εκκρεμής πορτογαλική χρήση του passa ou corrige.
 - Ολλανδικά: volgbod, eenkleurenspel / tweekleurenspel, hoge / lage kleuren, strafdoublet, uitpas, manche-invite, pas of corrigeer. SA στις αγορές. Πηγές: [Nunspeetse B.C. — Michaels](https://10003.bridge.nl/michaels-cue-bid/), [NBB — BridgeTV, doubletten](https://www.bridge.nl/wp-content/uploads/2020/04/BridgeTV-spelregels-aflevering-1.pdf), [NBB — pas of corrigeer](https://help.bridge.nl/automatisering/Spelregels/HTML/Art.16_Bijlage.html). Το eenkleurenspel του DONT διακρίνεται από το strafdoublet του Multi Landy.
 - Τουρκικά: araya giriş, tek renkli / iki renkli el, majör / minör, ceza kontru, uyandırma, zon, pas veya düzelt. NT στις αγορές. Πηγές: [TBF — αρχικά μαθήματα](https://cdn.tbricfed.org.tr/wp-content/uploads/2023/08/bric_baslangic_seviyesi_ders_notlari.pdf), [TBF — Alain Lévy](https://cdn.tbricfed.org.tr/wp-content/uploads/2025/08/ALAIN-LEVY-.pdf), [Funbridge tr — uyandırma](https://funbridge.com/tr/bric-sozlugu/uyandirma).
 
