@@ -167,7 +167,7 @@ Wir bieten **4♠**. Die 9 Figurenpunkte sind das Maximum unserer konstruktiven 
 - **Bergen erfordert mindestens vier Trümpfe.** Mit drei gelten die anderen Systemabsprachen.
 - **3♣ und 3♦ zeigen keine Unterfarbenlänge.** Der Eröffner darf nicht passen.
 - **Direktes 3♥ /♠ ist eine Sperre**, keine Einladung.
-- **Mit vollspielforcierender Stärke begrenzen wir uns nicht durch 3♣ oder 3♦.** Wir nutzen die vereinbarte starke Hebung, etwa Jacoby 2SA, wenn vereinbart.
+- **Mit vollspielforcierender Stärke begrenzen wir uns nicht durch 3♣ oder 3♦.** Wir nutzen die vereinbarte starke Hebung, etwa [Jacoby 2SA](../jacoby-2nt/), wenn vereinbart.
 - **Die Punktgrenzen unterscheiden sich je nach Variante.** Hier zeigt konstruktives 3♣ 7–9 und einladendes 3♦ 10–12.
 - **Reverse Bergen vertauscht 3♣ und 3♦.** Die gespielte Variante muss feststehen.
 - **Nach Kontra oder einer Gegenreizung auf Einerstufe** gilt Bergen nur nach Absprache und bei verfügbaren Geboten.

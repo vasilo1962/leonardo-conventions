@@ -167,7 +167,7 @@ Marcamos **4♠**. Os 9 pontos de honras são o máximo da resposta constructive
 - **Bergen exige pelo menos quatro cartas de apoio.** Com três, aplicamos os restantes acordos do sistema.
 - **3♣ e 3♦ não mostram comprimento nos pobres.** O abridor não passa.
 - **3♥ /♠ direto é uma barragem**, não um convite.
-- **Com força de forcing de partida não limitamos a mão com 3♣ ou 3♦.** Usamos o apoio forte acordado, como Jacoby 2ST se o jogarmos.
+- **Com força de forcing de partida não limitamos a mão com 3♣ ou 3♦.** Usamos o apoio forte acordado, como [Jacoby 2ST](../jacoby-2nt/) se o jogarmos.
 - **Os limites variam conforme a versão.** Aqui 3♣ constructive mostra 7–9 e 3♦ de convite 10–12.
 - **Reverse Bergen troca os significados de 3♣ e 3♦.** É preciso saber qual a versão jogada.
 - **Após dobre ou intervenção ao nível 1**, mantemos Bergen apenas por acordo e se as vozes estiverem disponíveis.

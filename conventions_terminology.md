@@ -283,3 +283,21 @@
 Πηγές για τις εκδοχές Bergen: [Larry Cohen](https://www.larryco.com/bridge-articles/bergen-raises?p=true), [Pat Harrington / ACBL](https://cdn.acbl.org/assets/documents/teachers/Major-Suit-Raises-II-TM.pdf). Οι αποκλίσεις των πηγών στα όρια πόντων δεν μεταφέρονται στο μάθημα. Η ερώτηση 3♦ μετά από constructive 3♣ και η συγκεκριμένη διάκριση 7–8 / 9 αποτελούν τη συμφωνημένη απλή εκδοχή του άρθρου.
 
 17/11/2026 — Bergen Raises: οι 25 μεταφράσεις ακολουθούν τον παραπάνω πίνακα constructive και το υπάρχον γλωσσάρι. Διατηρούνται τα διεθνή Bergen Raises, Reverse Bergen, Jacoby και Drury· η γραφή χωρίς ατού προσαρμόζεται στη γλώσσα (SA/ST/UT/BA/BT/NT). Δεν υιοθετήθηκαν διαφορετικά όρια ή συνέχειες από πηγές. Δεν έχει γίνει επιμέλεια από φυσικούς ομιλητές ούτε παρουσιάζονται οι περιγραφικές αποδόσεις ως ξεχωριστά επαληθευμένοι όροι.
+
+
+### Jacoby 2NT — 18/11/2026
+
+Οι 25 μεταφράσεις διατηρούν το διεθνές όνομα Jacoby, με τοπική γραφή SA/ST/UT/BA/BT στις αγορές όπου χρησιμοποιείται ήδη. Ακολουθούν το κοινό γλωσσάρι και την ίδια ελληνική εκδοχή· διαφορετικά όρια ή συνέχειες των πηγών δεν μεταφέρονται.
+
+| Γλώσσα | Ορολογία που ελέγχθηκε | Πηγή |
+| --- | --- | --- |
+| Γερμανικά | Single, Chicane, 2SA Jacoby | [DBV — Wichtige Reizkonventionen, Lektion 2](https://www.bridge-verband.de/clients/bridge/content/e178/e9/e7166/e15145/files15214/WichtigeReizkonventionenLektion2-2SAJacobyKomplett.pdf)· η διαφορετική εκδοχή τέταρτου επιπέδου δεν υιοθετείται. |
+| Ιταλικά | singolo, vuoto, 2SA | [FIGB — Dichiarazione dopo 1cuori/1picche–2SA](https://bridgeditalia.it/2017/04/dichiarazione-dopo-1cuori1picche-2sa/)· διαφορετική συμφωνία από τη δική μας. |
+| Πολωνικά | singleton, renons | [PZBS — Świat Brydża 7–9/2019](https://www.pzbs.pl/download/swiatbrydza/archiwum/2019.SB_7-9.pdf). |
+| Ισλανδικά | einspil, eyða | [Bridgeskólinn — Stig 1](https://bridge.is/media/5zihmt3a/stig1_net_pdf.pdf). |
+| Ουγγρικά | szingli, sikén | [Magyar Bridzs Szövetség — CSB 2026, I/B](https://bridzs.hu/hu/bridzselet/bajnoksagokrol/csb_2026_ib_34_fordulo). |
+| Ιαπωνικά | シングルトン, ボイド, コントロール | [JCBL — γλωσσάρι διδασκαλίας](https://www.jcbl.or.jp/Portals/0/pdf/fukyu/tools/kyoshi_manu02.pdf), [JCBL — εκπαιδευτικό εγχειρίδιο](https://www.jcbl.or.jp/Portals/0/pdf/fukyu/tools/WGIマニュアル_v3_4本文.pdf). |
+| Εβραϊκά | סינגלטון, קונטרול, משחק מלא | [Ισραηλινή Ομοσπονδία — Αύγουστος 2019](https://main.bridge.co.il/uploads/files/BITAON/FullBitaon/full-8.19.pdf)· περιλαμβάνει ανάπτυξη μετά το Jacoby. |
+| Κινεζικά | 单张, 缺门, 逼叫到局 | [温州市桥牌协会 — 2NT雅各比约定叫](https://mybridge.club/?id=38)· οι διαφορετικές προϋποθέσεις, περιοχές και relay δεν υιοθετούνται. |
+
+Οι περιγραφικές αποδόσεις και οι διεθνείς όροι στις υπόλοιπες γλώσσες δεν παρουσιάζονται ως νέοι, ανεξάρτητα επαληθευμένοι τεχνικοί όροι. Παραμένουν οι ήδη καταγεγραμμένες εκκρεμότητες για χίντι/αραβικά/ταϊλανδικά. Δεν έχει γίνει επιμέλεια από φυσικούς ομιλητές.

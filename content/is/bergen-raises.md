@@ -167,7 +167,7 @@ Við segjum **4♠**. 9 hápunktar eru hámark constructive-svarsins. Við töku
 - **Bergen krefst minnst fjögurra trompa.** Með þrjú fylgjum við öðrum kerfissamningum.
 - **3♣ og 3♦ sýna ekki lengd í láglitum.** Opnari má ekki passa.
 - **Beint 3♥ /♠ er hindrun**, ekki áskorun.
-- **Með geimkröfustyrk takmörkum við ekki höndina með 3♣ eða 3♦.** Notum saminn sterkan stuðning, til dæmis Jacoby 2NT ef það er spilað.
+- **Með geimkröfustyrk takmörkum við ekki höndina með 3♣ eða 3♦.** Notum saminn sterkan stuðning, til dæmis [Jacoby 2NT](../jacoby-2nt/) ef það er spilað.
 - **Punktamörk eru mismunandi eftir útgáfum.** Hér sýnir constructive 3♣ 7–9 og áskorunar-3♦ 10–12.
 - **Reverse Bergen víxlar merkingu 3♣ og 3♦.** Vita þarf hvaða útgáfa er spiluð.
 - **Eftir dobl eða innákomu á fyrsta þrepi** er Bergen aðeins haldið eftir samkomulagi og ef sagnirnar eru tiltækar.

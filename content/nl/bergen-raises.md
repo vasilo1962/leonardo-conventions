@@ -167,7 +167,7 @@ We bieden **4♠**. Onze 9 honneurpunten vormen het maximum van het constructive
 - **Bergen vereist minstens vierkaart steun.** Met drie troeven volgen we de andere systeemafspraken.
 - **3♣ en 3♦ tonen geen lengte in de lage kleuren.** De openaar mag niet passen.
 - **Direct 3♥ /♠ is preëmptief**, niet inviterend.
-- **Met mancheforcing kracht begrenzen we de hand niet met 3♣ of 3♦.** Gebruik de afgesproken sterke verhoging, zoals Jacoby 2SA als dat is afgesproken.
+- **Met mancheforcing kracht begrenzen we de hand niet met 3♣ of 3♦.** Gebruik de afgesproken sterke verhoging, zoals [Jacoby 2SA](../jacoby-2nt/) als dat is afgesproken.
 - **Puntenlimieten verschillen per versie.** Hier is constructive 3♣ 7–9 en inviterend 3♦ 10–12.
 - **Reverse Bergen verwisselt 3♣ en 3♦.** Weet welke versie je speelt.
 - **Na doublet of een volgbod op éénniveau** geldt Bergen alleen volgens afspraak en als de biedingen beschikbaar blijven.

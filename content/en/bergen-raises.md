@@ -167,7 +167,7 @@ We bid **4♠**. Our 9 HCP are the maximum for our constructive response, so we 
 - **Bergen requires at least four-card support.** With three trumps, follow your other system agreements.
 - **3♣ and 3♦ do not show minor-suit length.** Opener must not pass.
 - **A direct 3♥ /♠ is preemptive**, not invitational.
-- **With game-forcing strength, do not limit the hand with 3♣ or 3♦.** Use your agreed strong raise, such as Jacoby 2NT if you play it.
+- **With game-forcing strength, do not limit the hand with 3♣ or 3♦.** Use your agreed strong raise, such as [Jacoby 2NT](../jacoby-2nt/) if you play it.
 - **Point ranges vary between versions.** Here constructive 3♣ shows 7–9 and invitational 3♦ shows 10–12.
 - **Reverse Bergen swaps the meanings of 3♣ and 3♦.** Know which version you play.
 - **After a double or a one-level overcall**, retain Bergen only by agreement and when the bids remain available.

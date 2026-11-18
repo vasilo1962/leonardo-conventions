@@ -167,7 +167,7 @@ A pár licitje **1♠–3♣–3♦**. Válaszolóként a kezünk:
 - **Bergen legalább négyes támogatást igényel.** Három aduval a rendszer egyéb megállapodásai érvényesek.
 - **A 3♣ és 3♦ nem mutat olcsószín-hosszúságot.** Az induló nem passzolhat.
 - **A közvetlen 3♥ /♠ kizárás**, nem invit.
-- **Gémforszírozó erővel nem korlátozzuk a kezet 3♣ vagy 3♦ válasszal.** A megbeszélt erős támogatást használjuk, például Jacoby 2NT-t, ha játsszuk.
+- **Gémforszírozó erővel nem korlátozzuk a kezet 3♣ vagy 3♦ válasszal.** A megbeszélt erős támogatást használjuk, például [Jacoby 2NT](../jacoby-2nt/)-t, ha játsszuk.
 - **A ponthatárok változatonként eltérnek.** Itt a constructive 3♣ 7–9, az invitáló 3♦ 10–12 pont.
 - **A Reverse Bergen felcseréli a 3♣ és 3♦ jelentését.** Tudnunk kell, melyik változatot játsszuk.
 - **Kontra vagy egyes magasságú közbeszólás után** csak megállapodás alapján és elérhető licitekkel marad Bergen.

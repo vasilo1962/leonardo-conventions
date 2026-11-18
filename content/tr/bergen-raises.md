@@ -167,7 +167,7 @@ Ortaklığımızın konuşması **1♠–3♣–3♦**. Cevapçı olarak elimiz:
 - **Bergen en az dört kart destek gerektirir.** Üç kozla sistemin diğer anlaşmaları kullanılır.
 - **3♣ ve 3♦ minör uzunluğu göstermez.** Açan pas geçmez.
 - **Doğrudan 3♥ /♠ barajdır**, zon daveti değildir.
-- **Zon forsingi gücüyle eli 3♣ veya 3♦ ile sınırlamayız.** Oynuyorsak Jacoby 2NT gibi anlaşılmış güçlü desteği kullanırız.
+- **Zon forsingi gücüyle eli 3♣ veya 3♦ ile sınırlamayız.** Oynuyorsak [Jacoby 2NT](../jacoby-2nt/) gibi anlaşılmış güçlü desteği kullanırız.
 - **Puan sınırları versiyona göre değişir.** Bu derste constructive 3♣ 7–9, davet 3♦ 10–12 gösterir.
 - **Reverse Bergen, 3♣ ve 3♦ anlamlarını ters çevirir.** Hangi versiyonun oynandığı bilinmelidir.
 - **Kontr veya bir seviyesinde araya giriş sonrası** Bergen ancak anlaşmayla ve konuşmalar yapılabiliyorsa sürer.

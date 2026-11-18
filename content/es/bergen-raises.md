@@ -167,7 +167,7 @@ Declaramos **4♠**. Los 9 puntos de honor son el máximo de nuestro apoyo const
 - **Bergen exige al menos cuatro cartas de apoyo.** Con tres, seguimos los demás acuerdos del sistema.
 - **3♣ y 3♦ no muestran longitud en menores.** El abridor no pasa.
 - **3♥ /♠ directo es un bloqueo**, no una invitación.
-- **Con fuerza de forcing a manga no limitamos la mano mediante 3♣ o 3♦.** Usamos el apoyo fuerte acordado, como Jacoby 2ST si lo jugamos.
+- **Con fuerza de forcing a manga no limitamos la mano mediante 3♣ o 3♦.** Usamos el apoyo fuerte acordado, como [Jacoby 2ST](../jacoby-2nt/) si lo jugamos.
 - **Los límites varían según la versión.** Aquí 3♣ constructivo muestra 7–9 y 3♦ invitante 10–12.
 - **Reverse Bergen intercambia los significados de 3♣ y 3♦.** Hay que saber qué versión se juega.
 - **Después de doblo o intervención a nivel 1**, mantenemos Bergen solo por acuerdo y si las voces siguen disponibles.

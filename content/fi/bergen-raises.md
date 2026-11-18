@@ -167,7 +167,7 @@ Tarjoamme **4♠**. 9 arvopistettä on constructive-vastauksemme maksimi. Hyväk
 - **Bergen vaatii vähintään neljän kortin tuen.** Kolmella valtilla käytetään järjestelmän muita sopimuksia.
 - **3♣ ja 3♦ eivät näytä alaväripituutta.** Avaaja ei saa passata.
 - **Suora 3♥ /♠ on esto**, ei täyspelivihje.
-- **Täyspelivaatimusvoimalla emme rajoita kättä tarjouksella 3♣ tai 3♦.** Käytämme sovittua vahvaa tukea, esimerkiksi Jacoby 2NT:tä, jos se kuuluu järjestelmään.
+- **Täyspelivaatimusvoimalla emme rajoita kättä tarjouksella 3♣ tai 3♦.** Käytämme sovittua vahvaa tukea, esimerkiksi [Jacoby 2NT](../jacoby-2nt/):tä, jos se kuuluu järjestelmään.
 - **Pisterajat vaihtelevat versioittain.** Tässä constructive 3♣ on 7–9 ja vihjaava 3♦ 10–12.
 - **Reverse Bergen vaihtaa tarjousten 3♣ ja 3♦ merkitykset.** Pelattava versio on sovittava.
 - **Kahdennuksen tai yhden tason välitarjouksen jälkeen** Bergen säilyy vain sopimuksesta ja tarjousten ollessa käytettävissä.

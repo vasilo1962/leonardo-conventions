@@ -34,7 +34,8 @@
       "Τα δύο χαμηλότερα μη αγορασμένα χρώματα με μία αγορά.",
       "Μονόχρωμες και δίχρωμες παρεμβολές μετά από δυνατό 1ΝΤ.",
       "Ισχυρή απλή βοήθεια και αδύναμο φιτ με πήδημα μετά από άνοιγμα σε μινέρ.",
-      "Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ."
+      "Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ.",
+      "Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ."
     ]
   },
   {
@@ -72,7 +73,8 @@
       "The two lowest-ranking unbid suits in one bid.",
       "One-suited and two-suited overcalls against a strong 1NT.",
       "Strong single raises and weak jump raises after a minor-suit opening.",
-      "Constructive, invitational and weak raises after a major-suit opening."
+      "Constructive, invitational and weak raises after a major-suit opening.",
+      "A game-forcing major-suit raise: describe the hand and explore slam."
     ]
   },
   {
@@ -110,7 +112,8 @@
       "Les deux couleurs non annoncées les moins chères en une enchère.",
       "Interventions unicolores et bicolores contre un 1SA fort.",
       "Soutiens simples forts et soutiens à saut faibles après une ouverture mineure.",
-      "Soutiens constructifs, propositionnels et faibles après une ouverture majeure."
+      "Soutiens constructifs, propositionnels et faibles après une ouverture majeure.",
+      "Un soutien majeur forcing de manche pour décrire la main et explorer le chelem."
     ]
   },
   {
@@ -148,7 +151,8 @@
       "Die beiden niedrigsten ungereizten Farben mit einem Gebot.",
       "Einfärber und Zweifärber gegen eine starke 1SA-Eröffnung.",
       "Starke einfache Hebungen und schwache Sprunghebungen nach einer Unterfarberöffnung.",
-      "Konstruktive, einladende und schwache Hebungen nach einer Oberfarbeneröffnung."
+      "Konstruktive, einladende und schwache Hebungen nach einer Oberfarbeneröffnung.",
+      "Vollspielforcierende Oberfarbunterstützung: Handbeschreibung und Schlemmuntersuchung."
     ]
   },
   {
@@ -186,7 +190,8 @@
       "I due colori non dichiarati di rango più basso con una dichiarazione.",
       "Interventi monocolori e bicolori contro 1SA forte.",
       "Appoggi semplici forti e appoggi a salto deboli dopo un’apertura in minore.",
-      "Appoggi costruttivi, invitanti e deboli dopo un’apertura in un nobile."
+      "Appoggi costruttivi, invitanti e deboli dopo un’apertura in un nobile.",
+      "Appoggio forte nel nobile, forcing manche, per descrivere la mano ed esplorare lo slam."
     ]
   },
   {
@@ -224,7 +229,8 @@
       "Los dos palos no declarados de menor rango en una sola voz.",
       "Intervenciones monocolores y bicolores contra un 1ST fuerte.",
       "Apoyos simples fuertes y apoyos en salto débiles tras una apertura de menor.",
-      "Apoyos constructivos, invitantes y débiles tras una apertura de mayor."
+      "Apoyos constructivos, invitantes y débiles tras una apertura de mayor.",
+      "Apoyo fuerte en mayor, forcing a manga, para describir la mano y explorar el slam."
     ]
   },
   {
@@ -262,7 +268,8 @@
       "Os dois naipes não anunciados de menor hierarquia numa só voz.",
       "Intervenções unicolores e bicolores contra 1ST forte.",
       "Apoios simples fortes e apoios em salto fracos após uma abertura em menor.",
-      "Apoios constructive, de convite e fracos após abertura num rico."
+      "Apoios constructive, de convite e fracos após abertura num rico.",
+      "Apoio forte no rico, forcing de partida, para descrever a mão e investigar o cheleme."
     ]
   },
   {
@@ -300,7 +307,8 @@
       "De twee laagste ongeboden kleuren met één bod.",
       "Eenkleurenspellen en tweekleurenspellen tegen een sterke 1SA.",
       "Sterke enkele verhogingen en zwakke sprongverhogingen na een opening in een lage kleur.",
-      "Constructive, inviterende en zwakke verhogingen na een opening in een hoge kleur."
+      "Constructive, inviterende en zwakke verhogingen na een opening in een hoge kleur.",
+      "Een sterke mancheforcing verhoging in een hoge kleur, met ruimte voor slemonderzoek."
     ]
   },
   {
@@ -338,7 +346,8 @@
       "Konuşulmamış en ucuz iki rengi tek deklareyle göstermek.",
       "Kuvvetli 1NT’ye karşı tek renkli ve iki renkli araya girişler.",
       "Minör açışından sonra güçlü basit destek ve zayıf sıçramalı destek.",
-      "Majör açışından sonra constructive, zon daveti ve zayıf destekler."
+      "Majör açışından sonra constructive, zon daveti ve zayıf destekler.",
+      "Majöre güçlü destek: zon forsingiyle eli tarif etme ve şlem araştırması."
     ]
   },
   {
@@ -376,7 +385,8 @@
       "De två lägsta objudna färgerna med ett enda bud.",
       "Enfärgs- och tvåfärgshänder mot en stark 1NT.",
       "Starka enkelhöjningar och svaga hoppstöd efter en lågfärgsöppning.",
-      "Konstruktiva, inviterande och svaga höjningar efter högfärgsöppning."
+      "Konstruktiva, inviterande och svaga höjningar efter högfärgsöppning.",
+      "Starkt högfärgsstöd med utgångskrav: beskriv handen och undersök slam."
     ]
   },
   {
@@ -414,7 +424,8 @@
       "De to laveste umeldte farver med én melding.",
       "Enfarvede og tofarvede indmeldinger mod en stærk 1UT.",
       "Stærk simpel støtte og svag springstøtte efter en minoråbning.",
-      "Konstruktivt støttebud, udgangsinvit og svag støtte efter majoråbning."
+      "Konstruktivt støttebud, udgangsinvit og svag støtte efter majoråbning.",
+      "Stærk støtte i major med udgangskrav, håndbeskrivelse og slemundersøgelse."
     ]
   },
   {
@@ -452,7 +463,8 @@
       "De to laveste umeldte fargene med én melding.",
       "Enfargede og tofargede innmeldinger mot en sterk 1NT.",
       "Sterke enkle høyninger og svake hoppstøtter etter en minoråpning.",
-      "Konstruktive, inviterende og svake høyninger etter majoråpning."
+      "Konstruktive, inviterende og svake høyninger etter majoråpning.",
+      "Sterk majorstøtte med utgangskrav, håndbeskrivelse og sleminteresse."
     ]
   },
   {
@@ -490,7 +502,8 @@
       "Kaksi alinta tarjoamatonta väriä yhdellä tarjouksella.",
       "Yksi- ja kaksivärivälitarjoukset vahvaa 1NT:tä vastaan.",
       "Vahva yksinkertainen korotus ja heikko hyppykorotus alaväriavauksen jälkeen.",
-      "Constructive-tuki, täyspelivihje ja heikko korotus yläväriavauksen jälkeen."
+      "Constructive-tuki, täyspelivihje ja heikko korotus yläväriavauksen jälkeen.",
+      "Vahva ylävärituki ja täyspelivaatimus: käden kuvaaminen ja slammin tutkiminen."
     ]
   },
   {
@@ -528,7 +541,8 @@
       "Dwa najniższe nielicytowane kolory w jednej odzywce.",
       "Wejścia jednokolorowe i dwukolorowe przeciw silnemu 1BA.",
       "Silne pojedyncze podniesienia i słabe podniesienia z przeskokiem po otwarciu w kolor młodszy.",
-      "Podniesienia konstruktywne, inwitujące i słabe po otwarciu w kolor starszy."
+      "Podniesienia konstruktywne, inwitujące i słabe po otwarciu w kolor starszy.",
+      "Silne poparcie starszego koloru, forsujące do końcówki, z miejscem na szlemika."
     ]
   },
   {
@@ -566,7 +580,8 @@
       "Dvě nejnižší nedražené barvy jedinou hláškou.",
       "Jednobarevné a dvoubarevné zásahy proti silnému 1BT.",
       "Silné jednoduché zvýšení a slabé zvýšení skokem po zahájení v levné barvě.",
-      "Podpora constructive, výzva a slabé zvýšení po zahájení v drahé barvě."
+      "Podpora constructive, výzva a slabé zvýšení po zahájení v drahé barvě.",
+      "Silná podpora drahé barvy, manšforsující, s prostorem pro zkoumání slemu."
     ]
   },
   {
@@ -604,7 +619,8 @@
       "A két legalacsonyabb nem licitált szín egy licittel.",
       "Egyszínű és kétszínű közbeszólások erős 1NT ellen.",
       "Erős egyszerű emelés és gyenge ugróemelés minor indulás után.",
-      "Constructive, géminvitáló és gyenge emelések nemesszín-indulás után."
+      "Constructive, géminvitáló és gyenge emelések nemesszín-indulás után.",
+      "Erős major támogatás, gémforsz, kézleírás és szlemvizsgálat."
     ]
   },
   {
@@ -642,7 +658,8 @@
       "Tveir lægstu ósögðu litirnir með einni sögn.",
       "Einlitar og tvílitar innákomur gegn sterku 1NT.",
       "Sterk einföld hækkun og veik stökkhækkun eftir opnun í láglit.",
-      "Constructive stuðningur, geimáskorun og veik hækkun eftir hálitaopnun."
+      "Constructive stuðningur, geimáskorun og veik hækkun eftir hálitaopnun.",
+      "Sterkur stuðningur við hálit sem krefst geims og opnar fyrir slemmuleit."
     ]
   },
   {
@@ -680,7 +697,8 @@
       "一次表示两门最低的未叫花色。",
       "对抗强1NT的单套与双套争叫。",
       "低花开叫后的强单加叫与弱跳加叫。",
-      "高花开叫后的constructive支持、邀局加叫和弱加叫。"
+      "高花开叫后的constructive支持、邀局加叫和弱加叫。",
+      "逼叫到局的高花加叫：描述牌型并探索满贯。"
     ]
   },
   {
@@ -718,7 +736,8 @@
       "未ビッドの低い２スートを一度に示す。",
       "強い1NTへの１スーターと２スーターのオーバーコール。",
       "マイナーのオープン後に使う、強いシングルレイズと弱いジャンプレイズ。",
-      "メジャーオープン後のconstructive、インビテーション、弱いレイズ。"
+      "メジャーオープン後のconstructive、インビテーション、弱いレイズ。",
+      "ゲームフォーシングのメジャー・レイズで、手を説明してスラムを探ります。"
     ]
   },
   {
@@ -756,7 +775,8 @@
       "שתי הסדרות הנמוכות שטרם הוכרזו, בהכרזה אחת.",
       "התערבות חד־סדרתית ודו־סדרתית מול 1NT חזק.",
       "העלאה פשוטה חזקה והעלאה בקפיצה חלשה לאחר פתיחה במיינור.",
-      "תמיכות constructive, הזמנות והעלאות חלשות אחרי פתיחה במייג׳ור."
+      "תמיכות constructive, הזמנות והעלאות חלשות אחרי פתיחה במייג׳ור.",
+      "תמיכה במייג׳ור המחייבת למשחק מלא, עם תיאור היד ובדיקת סלם."
     ],
     "dir": "rtl"
   },
@@ -795,7 +815,8 @@
       "न बोले गए दो सबसे नीचे रंग एक बोली में।",
       "मजबूत 1NT के विरुद्ध एक या दो रंगों का हस्तक्षेप।",
       "माइनर ओपनिंग के बाद मजबूत साधारण रेज़ और कमजोर जंप रेज़।",
-      "मेजर ओपनिंग के बाद constructive समर्थन, गेम का निमंत्रण और कमजोर रेज़।"
+      "मेजर ओपनिंग के बाद constructive समर्थन, गेम का निमंत्रण और कमजोर रेज़।",
+      "मेजर में गेम तक बाध्य करने वाला समर्थन: हाथ का वर्णन और स्लैम की खोज।"
     ]
   },
   {
@@ -833,7 +854,8 @@
       "Две младшие незаявленные масти одной заявкой.",
       "Одномастные и двухмастные входы против сильного 1NT.",
       "Сильные простые повышения и слабые повышения прыжком после открытия в миноре.",
-      "Поддержки constructive, инвитирующие и слабые после мажорного открытия."
+      "Поддержки constructive, инвитирующие и слабые после мажорного открытия.",
+      "Форсирующая до гейма поддержка мажора: описание руки и поиск шлема."
     ]
   },
   {
@@ -871,7 +893,8 @@
       "Dua warna terendah yang belum disebut dalam satu bid.",
       "Overcall satu dan dua warna melawan 1NT kuat.",
       "Kenaikan sederhana kuat dan kenaikan lompatan lemah setelah pembukaan minor.",
-      "Dukungan constructive, undangan game dan raise lemah setelah pembukaan major."
+      "Dukungan constructive, undangan game dan raise lemah setelah pembukaan major.",
+      "Dukungan major forcing sampai game untuk menggambarkan pegangan dan menjajaki slam."
     ]
   },
   {
@@ -909,7 +932,8 @@
       "أدنى لونين لم يُذكرا، بإعلان واحد.",
       "التدخل بلون واحد أو لونين أمام 1NT قوي.",
       "زيادة بسيطة قوية وزيادة بالقفز ضعيفة بعد افتتاح بلون صغير.",
-      "دعم constructive ودعوات إلى game ورفع ضعيف بعد افتتاح الميجور."
+      "دعم constructive ودعوات إلى game ورفع ضعيف بعد افتتاح الميجور.",
+      "دعم للون كبير يفرض الوصول إلى الجيم، مع وصف اليد واستكشاف السلام."
     ],
     "dir": "rtl"
   },
@@ -948,7 +972,8 @@
       "สองสีต่ำสุดที่ยังไม่ถูกเรียกในคำประมูลเดียว",
       "การแทรกสีเดียวและสองสีเหนือ 1NT แข็ง",
       "การสนับสนุนแบบไม่กระโดดที่แข็งแกร่งและแบบกระโดดที่อ่อนหลังเปิดไมเนอร์",
-      "การสนับสนุนแบบ constructive การเชิญเกม และการขึ้นด้วยมืออ่อนหลังเปิดเมเจอร์"
+      "การสนับสนุนแบบ constructive การเชิญเกม และการขึ้นด้วยมืออ่อนหลังเปิดเมเจอร์",
+      "การสนับสนุนเมเจอร์แบบบังคับถึงเกม เพื่ออธิบายมือและสำรวจสแลม"
     ]
   },
   {
@@ -986,7 +1011,8 @@
       "아직 부르지 않은 가장 낮은 두 수트를 한 번에 표시.",
       "강한 1NT에 대한 한 수트와 두 수트 오버콜.",
       "마이너 오픈 후 사용하는 강한 싱글 레이즈와 약한 점프 레이즈.",
-      "메이저 오프닝 뒤 constructive 지지, 게임 초청과 약한 레이즈."
+      "메이저 오프닝 뒤 constructive 지지, 게임 초청과 약한 레이즈.",
+      "게임 포싱 메이저 레이즈로 패를 설명하고 슬램을 탐색합니다."
     ]
   }
 ]

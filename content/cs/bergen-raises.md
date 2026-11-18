@@ -167,7 +167,7 @@ Dražíme **4♠**. Našich 9 figurových bodů je maximum odpovědi constructiv
 - **Bergen vyžaduje alespoň čtyřlistou podporu.** Se třemi trumfy platí ostatní systémové dohody.
 - **3♣ a 3♦ neukazují délku v levných barvách.** Zahajitel nepasuje.
 - **Přímé 3♥ /♠ je blok**, nikoli výzva.
-- **S manšforsující silou neomezujeme list pomocí 3♣ nebo 3♦.** Použijeme dohodnutou silnou podporu, například Jacoby 2BT, pokud ji hrajeme.
+- **S manšforsující silou neomezujeme list pomocí 3♣ nebo 3♦.** Použijeme dohodnutou silnou podporu, například [Jacoby 2BT](../jacoby-2nt/), pokud ji hrajeme.
 - **Bodové meze se liší podle varianty.** Zde constructive 3♣ ukazuje 7–9 a výzva 3♦ 10–12.
 - **Reverse Bergen prohazuje význam 3♣ a 3♦.** Je třeba znát hranou variantu.
 - **Po kontra nebo zásahu na prvním stupni** Bergen zachováváme jen po dohodě a při dostupnosti hlášek.

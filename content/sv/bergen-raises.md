@@ -167,7 +167,7 @@ Vi bjuder **4♠**. Våra 9 honnörspoäng är maximum för det konstruktiva sva
 - **Bergen kräver minst fyrkortsstöd.** Med tre trumf gäller systemets övriga överenskommelser.
 - **3♣ och 3♦ visar inte lågfärgslängd.** Öppnaren får inte passa.
 - **Direkt 3♥ /♠ är en spärr**, inte en invit.
-- **Med utgångskrävande styrka begränsar vi inte handen med 3♣ eller 3♦.** Använd den överenskomna starka höjningen, exempelvis Jacoby 2NT om ni spelar det.
+- **Med utgångskrävande styrka begränsar vi inte handen med 3♣ eller 3♦.** Använd den överenskomna starka höjningen, exempelvis [Jacoby 2NT](../jacoby-2nt/) om ni spelar det.
 - **Poänggränserna varierar mellan versioner.** Här visar konstruktivt 3♣ 7–9 och inviterande 3♦ 10–12.
 - **Reverse Bergen byter betydelserna på 3♣ och 3♦.** Var överens om versionen.
 - **Efter dubbling eller inkliv på enläget** behålls Bergen bara enligt överenskommelse och när buden finns kvar.

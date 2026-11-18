@@ -167,7 +167,7 @@ Kita bid **4♠**. 9 poin honor adalah maksimum respons constructive kita. Kita 
 - **Bergen memerlukan sedikitnya empat kartu dukungan.** Dengan tiga trump, gunakan kesepakatan sistem lainnya.
 - **3♣ dan 3♦ tidak menunjukkan panjang minor.** Opener tidak boleh pass.
 - **3♥ /♠ langsung bersifat preemptive**, bukan undangan.
-- **Dengan kekuatan game forcing, jangan membatasi tangan melalui 3♣ atau 3♦.** Gunakan strong raise yang disepakati, misalnya Jacoby 2NT jika dimainkan.
+- **Dengan kekuatan game forcing, jangan membatasi tangan melalui 3♣ atau 3♦.** Gunakan strong raise yang disepakati, misalnya [Jacoby 2NT](../jacoby-2nt/) jika dimainkan.
 - **Rentang poin berbeda menurut versi.** Di sini constructive 3♣ menunjukkan 7–9, dan undangan 3♦ 10–12.
 - **Reverse Bergen menukar arti 3♣ dan 3♦.** Pastikan versi yang dimainkan.
 - **Setelah double atau overcall tingkat satu**, Bergen hanya dipertahankan berdasarkan kesepakatan dan jika bid masih tersedia.

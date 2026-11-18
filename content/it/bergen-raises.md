@@ -167,7 +167,7 @@ Dichiariamo **4♠**. I 9 punti onori sono il massimo dell'appoggio costruttivo.
 - **Bergen richiede almeno quattro carte d'appoggio.** Con tre si seguono gli altri accordi del sistema.
 - **3♣ e 3♦ non mostrano lunghezza nei minori.** L'apertore non passa.
 - **3♥ /♠ diretto è un barrage**, non un invito.
-- **Con forza da forcing manche non limitiamo la mano con 3♣ o 3♦.** Usiamo l'appoggio forte concordato, come Jacoby 2SA se previsto.
+- **Con forza da forcing manche non limitiamo la mano con 3♣ o 3♦.** Usiamo l'appoggio forte concordato, come [Jacoby 2SA](../jacoby-2nt/) se previsto.
 - **I limiti variano secondo la versione.** Qui 3♣ costruttivo mostra 7–9 e 3♦ invitante 10–12.
 - **Reverse Bergen inverte i significati di 3♣ e 3♦.** È necessario sapere quale versione si gioca.
 - **Dopo contro o intervento a livello 1**, Bergen resta solo per accordo e se le licite sono disponibili.

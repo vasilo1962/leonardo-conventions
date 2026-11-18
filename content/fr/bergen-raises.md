@@ -167,7 +167,7 @@ Nous déclarons **4♠**. Nos 9 H constituent le maximum du soutien constructif 
 - **Bergen exige au moins quatre atouts.** Avec trois, utiliser les autres accords du système.
 - **3♣ et 3♦ ne montrent pas de longueur mineure.** L'ouvreur ne passe pas.
 - **3♥ /♠ direct est un barrage**, pas une proposition.
-- **Avec une main forcing de manche, ne pas se limiter à 3♣ ou 3♦.** Utiliser le soutien fort convenu, par exemple Jacoby 2SA si vous le jouez.
+- **Avec une main forcing de manche, ne pas se limiter à 3♣ ou 3♦.** Utiliser le soutien fort convenu, par exemple [Jacoby 2SA](../jacoby-2nt/) si vous le jouez.
 - **Les fourchettes varient selon les versions.** Ici, 3♣ constructif montre 7–9 et 3♦ propositionnel 10–12.
 - **Reverse Bergen inverse les significations de 3♣ et 3♦.** Il faut connaître la version jouée.
 - **Après un contre ou une intervention au palier de 1**, conserver Bergen uniquement sur accord et si les enchères restent disponibles.

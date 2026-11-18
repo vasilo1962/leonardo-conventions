@@ -167,7 +167,7 @@ Licytujemy **4♠**. Nasze 9 punktów honorowych to maksimum konstruktywnej odpo
 - **Bergen wymaga co najmniej czterokartowego fitu.** Z trzema atutami korzystamy z innych ustaleń systemu.
 - **3♣ i 3♦ nie pokazują długości młodszych kolorów.** Otwierający nie pasuje.
 - **Bezpośrednie 3♥ /♠ jest blokujące**, nie inwitujące.
-- **Z siłą forsującą do końcówki nie ograniczamy ręki przez 3♣ lub 3♦.** Stosujemy uzgodnione silne poparcie, np. Jacoby 2BA, jeśli je gramy.
+- **Z siłą forsującą do końcówki nie ograniczamy ręki przez 3♣ lub 3♦.** Stosujemy uzgodnione silne poparcie, np. [Jacoby 2BA](../jacoby-2nt/), jeśli je gramy.
 - **Przedziały różnią się zależnie od wersji.** Tutaj konstruktywne 3♣ oznacza 7–9, a inwitujące 3♦ 10–12.
 - **Reverse Bergen zamienia znaczenia 3♣ i 3♦.** Trzeba ustalić używaną wersję.
 - **Po kontrze lub wejściu na wysokości jednego** Bergen obowiązuje tylko po uzgodnieniu i gdy odzywki są dostępne.

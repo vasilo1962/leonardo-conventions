@@ -167,7 +167,7 @@ Vi melder **4♠**. De 9 honnørpoint er maksimum for vores konstruktive svar. V
 - **Bergen kræver mindst fire trumfer.** Med tre følger vi systemets andre aftaler.
 - **3♣ og 3♦ viser ikke minorlængde.** Åbner må ikke passe.
 - **Direkte 3♥ /♠ er spærrende**, ikke inviterende.
-- **Med udgangskrav begrænser vi ikke hånden med 3♣ eller 3♦.** Brug den aftalte stærke støtte, eksempelvis Jacoby 2UT, hvis det spilles.
+- **Med udgangskrav begrænser vi ikke hånden med 3♣ eller 3♦.** Brug den aftalte stærke støtte, eksempelvis [Jacoby 2UT](../jacoby-2nt/), hvis det spilles.
 - **Pointgrænserne varierer mellem versioner.** Her viser konstruktivt 3♣ 7–9 og inviterende 3♦ 10–12.
 - **Reverse Bergen bytter betydningerne af 3♣ og 3♦.** Versionen skal være aftalt.
 - **Efter dobling eller indmelding på ettrinnet** bevares Bergen kun efter aftale og med tilgængelige meldinger.
