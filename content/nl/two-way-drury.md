@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury is een variant van [Reverse Drury](../drury/). In beide versies toont een eerder gepaste hand inviterende kracht en een fit. Two-way onderscheidt precies driekaartsteun met 2♣ van minstens vierkaartsteun met 2♦.
+
 ## Wanneer toepassen?
 
 Wij hebben al gepast en partner opent **1♥ of 1♠ in de derde of vierde hand**. Hier belooft dat minstens vijf kaarten en de tegenstanders bieden niet tussen.

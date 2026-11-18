@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury is a variation of [Reverse Drury](../drury/). In both versions, a passed hand shows invitational strength with support. Two-way distinguishes exactly three-card support with 2♣ from four-card or longer support with 2♦.
+
 ## When does it apply?
 
 Use **Two-way Drury** after you have passed and partner opens **1♥ or 1♠ in third or fourth seat**. In this lesson the opening promises at least five cards and opponents do not overcall.

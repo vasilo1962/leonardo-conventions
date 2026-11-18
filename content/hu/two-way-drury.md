@@ -1,5 +1,7 @@
 # Two-way Drury
 
+A Two-way Drury a [Reverse Drury](../drury/) egyik változata. Mindkettőben egy korábban passzolt kéz mutat inviterőt és fitet. A Two-way pontosan háromlapos támogatást mutat 2♣-fel, legalább négylaposat 2♦-val.
+
 ## Mikor használjuk?
 
 Korábban passzoltunk, partnerünk pedig **harmadik vagy negyedik helyen 1♥-rel vagy 1♠-del indul**. Itt az indulás legalább öt lapot ígér, az ellenfelek nem szólnak közbe.

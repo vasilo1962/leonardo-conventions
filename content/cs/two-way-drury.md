@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury je variantou [Reverse Drury](../drury/). V obou verzích ukazuje již pasovaná ruka invitující sílu a fit. Two-way rozlišuje přesně tříkartovou podporu pomocí 2♣ a alespoň čtyřkartovou pomocí 2♦.
+
 ## Kdy se používá?
 
 Již jsme pasovali a partner zahájí **1♥ nebo 1♠ na třetím či čtvrtém místě**. Zde zahájení slibuje alespoň pět karet a soupeři nezasahují.

@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury adalah variasi dari [Reverse Drury](../drury/). Dalam kedua versi, tangan yang sebelumnya sudah pass menunjukkan kekuatan invitasi dan fit. Two-way membedakan tepat tiga kartu dukungan melalui 2♣ dari empat atau lebih melalui 2♦.
+
 ## Kapan digunakan?
 
 Kita sudah pass dan partner membuka **1♥ atau 1♠ di posisi ketiga atau keempat**. Dalam pelajaran ini pembukaan menjanjikan minimal lima kartu dan lawan tidak melakukan overcall.

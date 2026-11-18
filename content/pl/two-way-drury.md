@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury jest odmianą [Reverse Drury](../drury/). W obu wersjach ręka po wcześniejszym pasie pokazuje siłę inwitu i fit. Two-way rozróżnia dokładnie trzykartowe poparcie przez 2♣ oraz co najmniej czterokartowe przez 2♦.
+
 ## Kiedy stosujemy?
 
 Wcześniej spasowaliśmy, a partner otwiera **1♥ lub 1♠ na trzeciej albo czwartej ręce**. Tutaj otwarcie obiecuje co najmniej pięć kart, a przeciwnicy nie wchodzą.

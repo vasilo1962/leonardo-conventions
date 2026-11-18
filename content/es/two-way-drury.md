@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury es una variante de [Reverse Drury](../drury/). En ambas versiones, una mano que ya ha pasado muestra fuerza invitante y fit. Two-way distingue exactamente tres cartas de apoyo con 2♣ de cuatro o más con 2♦.
+
 ## ¿Cuándo se utiliza?
 
 Hemos pasado previamente y el compañero abre **1♥ o 1♠ en tercera o cuarta posición**. Aquí promete al menos cinco cartas y los adversarios no intervienen.

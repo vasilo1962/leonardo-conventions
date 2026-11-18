@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury er en variant af [Reverse Drury](../drury/). I begge versioner viser en hånd, der allerede har passet, invitstyrke og fit. Two-way skelner præcis trekortsstøtte med 2♣ fra mindst firekortsstøtte med 2♦.
+
 ## Hvornår bruges det?
 
 Vi har allerede passet, og makker åbner **1♥ eller 1♠ i tredje eller fjerde hånd**. Her lover åbningen mindst fem kort, og modstanderne melder ikke ind.

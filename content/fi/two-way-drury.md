@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury on [Reverse Drury](../drury/) -menetelmän muunnelma. Molemmissa jo passannut käsi näyttää inviittivoiman ja tuen. Two-way erottaa täsmälleen kolmen kortin tuen 2♣:llä ja vähintään neljän kortin tuen 2♦:lla.
+
 ## Milloin sitä käytetään?
 
 Olemme jo passanneet, ja partneri avaa **1♥ tai 1♠ kolmannesta tai neljännestä kädestä**. Tässä avaus lupaa vähintään viisi korttia eivätkä vastustajat tee välitarjousta.

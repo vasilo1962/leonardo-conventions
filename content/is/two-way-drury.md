@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury er afbrigði af [Reverse Drury](../drury/). Í báðum útgáfum sýnir hönd sem hefur þegar passað áskorunarstyrk og stuðning. Two-way greinir nákvæmlega þrjú stuðningsspil með 2♣ frá fjórum eða fleiri með 2♦.
+
 ## Hvenær er það notað?
 
 Við höfum þegar passað og makker opnar **1♥ eða 1♠ í þriðju eða fjórðu hendi**. Hér lofar opnunin að minnsta kosti fimm spilum og mótherjar koma ekki inn á.

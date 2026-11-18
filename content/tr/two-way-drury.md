@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury, [Reverse Drury](../drury/) yönteminin bir çeşididir. Her iki sürümde de daha önce pas geçmiş bir el, fit ve davet gücü gösterir. Two-way tam üç kart desteği 2♣ ile, en az dört kart desteği 2♦ ile ayırır.
+
 ## Ne zaman kullanılır?
 
 Önceden pas geçmişizdir; ortak **üçüncü veya dördüncü pozisyonda 1♥ ya da 1♠** açar. Bu derste açış en az beş kart vaat eder ve rakipler araya girmez.

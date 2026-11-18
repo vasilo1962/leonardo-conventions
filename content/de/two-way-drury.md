@@ -1,5 +1,7 @@
 # Two-way Drury
 
+Two-way Drury ist eine Variante von [Reverse Drury](../drury/). In beiden Varianten zeigt eine bereits gepasste Hand einladende Stärke und einen Fit. Two-way unterscheidet genau Dreieranschluss mit 2♣ von mindestens Viereranschluss mit 2♦.
+
 ## Wann wird es angewendet?
 
 Wir haben bereits gepasst, und Partner eröffnet **1♥ oder 1♠ in dritter oder vierter Hand**. Hier verspricht die Eröffnung mindestens fünf Karten; die Gegner reizen nicht dazwischen.
