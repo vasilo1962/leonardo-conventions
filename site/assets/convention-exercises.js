@@ -180,6 +180,12 @@ function initializeExercises() {
     $('#feedback-title').textContent = correct ? 'Σωστά!' : 'Η σωστή αγορά είναι ' + callLabel(question.answer);
     $('#feedback-answer').textContent = 'Η επιλογή σου: ' + callLabel(call) + '.';
     $('#feedback-explanation').textContent = question.explanation;
+    if (question.lessonLink) {
+      const link = document.createElement('a');
+      link.href = question.lessonLink.href;
+      link.textContent = question.lessonLink.label;
+      $('#feedback-explanation').append(document.createTextNode(' '), link);
+    }
     $('#next-exercise').textContent = sessions[mode].index === sessions[mode].questions.length - 1 ? 'Δες το αποτέλεσμα' : 'Επόμενη άσκηση';
   }
   function drawBidding(question, selected = null) {

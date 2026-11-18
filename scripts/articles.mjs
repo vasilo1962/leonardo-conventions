@@ -7,6 +7,8 @@ export const articles = [
   { slug: 'inverted-minors', title: 'Inverted Minors', hands: 7,
     exercisesText: 'Δοκίμασε την αρχική απάντηση και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
   { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8,
-    exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' }
+    exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
+  { slug: 'jacoby-2nt', title: 'Jacoby 2NT', hands: 9, languages: ['el'], exercises: false,
+    description: 'Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);

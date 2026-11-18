@@ -47,6 +47,10 @@ function renderArticle(source, article, language) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
+  if (article.slug === 'jacoby-2nt') {
+    html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*((?:<p>[\s\S]*?<\/p>\s*)+)/g,
+      '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
+  }
   if (language.dir === 'rtl') {
     html = isolateRtl(html);
     for (const heading of headings) heading.title = isolateRtl(heading.title);
