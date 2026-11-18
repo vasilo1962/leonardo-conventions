@@ -17,3 +17,8 @@
 .exercise-main{--exercise-copy-size:18px}
 .exercise-intro,.exercise-situation,.exercise-feedback p{font-size:var(--exercise-copy-size);line-height:1.75}
 @media(max-width:767px){.exercise-main{--exercise-copy-size:16px}}
+
+/* Keep progress visible while the auction and answer feedback are in view. */
+.exercise-progress{position:sticky;top:calc(var(--learning-header-height,0px) + 6px);z-index:6;background:#fff;padding:6px 0;align-items:center;flex-wrap:wrap;gap:4px 16px}
+.exercise-counts{display:flex;flex-wrap:wrap;gap:4px 16px;color:#0a3c6a;font-weight:600}
+.exercise-progress p{margin:0}

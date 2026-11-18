@@ -1,5 +1,6 @@
 // Faithful web adaptation of the existing table card and bidding-box presentation.
 // The exercise data and feedback are local to this static conventions preview.
+import { exerciseProgress, createAnswerSounds } from './convention-feedback.js';
 const DENOMINATIONS = ['C', 'D', 'H', 'S', 'NT'];
 const SYMBOLS = { S: '♠', H: '♥', D: '♦', C: '♣', NT: 'NT' };
 const COLORS = { S: '#111111', H: '#c62828', D: '#ff8139', C: '#4f5b62', NT: '#0a3c6a' };
@@ -90,6 +91,7 @@ function initializeExercises() {
   let biddingHidden = false;
   let announceTimer;
   const voiceEnabled = () => document.documentElement.dataset.voiceMode === 'true';
+  const answerSounds = createAnswerSounds();
   const announce = text => {
     clearTimeout(announceTimer);
     if (!voiceEnabled()) return;
@@ -163,6 +165,8 @@ function initializeExercises() {
     clearTimeout(announceTimer);
     $('#exercise-announcement').textContent = '';
     session.answers.set(question.id, call);
+    updateCounters();
+    answerSounds.play(call === question.answer);
     showFeedback(question, call);
     drawBidding(question, call);
     $('.turn-label').textContent = 'Απάντησες';
@@ -172,6 +176,12 @@ function initializeExercises() {
       feedback.focus({ preventScroll: true });
     } else $('#next-exercise').focus({ preventScroll: true });
     feedback.scrollIntoView({ block: 'nearest', behavior: 'instant' });
+  }
+  function updateCounters() {
+    const session = sessions[mode];
+    const progress = exerciseProgress(session);
+    $('#exercise-progress').textContent = `Άσκηση: ${progress.current}/${progress.total}`;
+    $('#exercise-score').textContent = `Σωστές: ${progress.correct}/${progress.answered}`;
   }
   function showFeedback(question, call) {
     feedback.hidden = false;
@@ -219,6 +229,7 @@ function initializeExercises() {
     bidding.replaceChildren(grid, actions);
   }
   function render(focus = false) {
+    answerSounds.stop();
     clearTimeout(announceTimer);
     $('#exercise-announcement').textContent = '';
     const session = sessions[mode];
@@ -236,7 +247,7 @@ function initializeExercises() {
     });
     if (session.finished) {
       const correct = session.questions.filter(q => session.answers.get(q.id) === q.answer).length;
-      $('#summary-score').textContent = `Σωστές απαντήσεις: ${correct} από ${session.questions.length}.`;
+      $('#summary-score').textContent = `Σωστές: ${correct}/${session.questions.length}`;
       $('#exercise-progress').textContent = 'Η ομάδα ολοκληρώθηκε';
       $('#exercise-context').textContent = '';
       (continueResponses ? $('#continue-responses') : summary).focus({ preventScroll: true });
@@ -247,7 +258,7 @@ function initializeExercises() {
     const question = current();
     $('#exercise-question').dataset.questionId = question.id;
     $('#exercise-question').textContent = ui[mode + 'Question'] || (mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;');
-    $('#exercise-progress').textContent = `Άσκηση ${session.index + 1} από ${session.questions.length}`;
+    updateCounters();
     $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
     const opening = callLabel(question.auction[0].call);
     const situation = question.situation || (mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`);
