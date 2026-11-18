@@ -8,7 +8,8 @@ export const articles = [
     exercisesText: 'Δοκίμασε την αρχική απάντηση και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
   { slug: 'bergen-raises', title: 'Bergen Raises', hands: 8,
     exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
-  { slug: 'jacoby-2nt', title: 'Jacoby 2NT', hands: 9, languages: ['el'], exercises: false,
+  { slug: 'jacoby-2nt', title: 'Jacoby 2NT', hands: 9, languages: ['el'],
+    exercisesText: 'Δοκίμασε την αρχική απάντηση Jacoby 2NT και την επαναδήλωση του ανοίξαντος με το δικό σου χέρι και το bidding box.',
     description: 'Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
