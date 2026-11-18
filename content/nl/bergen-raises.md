@@ -171,4 +171,4 @@ We bieden **4♠**. Onze 9 honneurpunten vormen het maximum van het constructive
 - **Puntenlimieten verschillen per versie.** Hier is constructive 3♣ 7–9 en inviterend 3♦ 10–12.
 - **Reverse Bergen verwisselt 3♣ en 3♦.** Weet welke versie je speelt.
 - **Na doublet of een volgbod op éénniveau** geldt Bergen alleen volgens afspraak en als de biedingen beschikbaar blijven.
-- **Bij openingen in de derde of vierde hand** is een aparte afspraak nodig, vooral als het paar [Drury](../drury/) gebruikt.
+- **Bij openingen in de derde of vierde hand** is een aparte afspraak nodig, vooral als het paar [Reverse Drury](../drury/) gebruikt.

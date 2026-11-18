@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Kdy se používá?
 
-Již jsme pasovali a partner zahájí **1♥ nebo 1♠ na třetím či čtvrtém místě**. Zde zahájení slibuje alespoň pět karet a soupeři nezasahují. S invitující silou a alespoň tříkartovou podporou odpovíme **umělými 2♣**, které neukazují trefy. Nejprve probíráme **Reverse Drury**, potom **Two-way Drury**, rozlišující délku podpory.
+Již jsme pasovali a partner zahájí **1♥ nebo 1♠ na třetím či čtvrtém místě**. Zde zahájení slibuje alespoň pět karet a soupeři nezasahují. S invitující silou a alespoň tříkartovou podporou odpovíme **umělými 2♣**, které neukazují trefy.
 
 ## K čemu slouží?
 
@@ -106,51 +106,11 @@ Zahájili jsme **1♠ na třetím místě**, odpověď **2♣ Drury**:
 
 Některé dvojice hrají [Bergen Raises](../bergen-raises/) také po zahájení na třetím či čtvrtém místě. Pokud Bergen ukazuje invity se čtyřmi a více trumfy, lze **2♣ Reverse Drury vyhradit přesně tříkartové podpoře**, bez Two-way. Jde o samostatnou dohodu: zde jednoduché Drury ukazuje **alespoň tři karty**.
 
-### Two-way Drury
-
-Jednoduché Drury nerozlišuje osm společných trumfů od delšího fitu, což může ovlivnit rozhodnutí o manši. Two-way rozlišuje:
-
-| Odpověď | Význam |
-| --- | --- |
-| 2♣ | Invit, přesně tříkartová podpora |
-| 2♦ | Invit, alespoň čtyřkartová podpora |
-
-Obě jsou **umělé a forsují jedno kolo**, neslibují délku v levné barvě. Předchozí pas a partnerovo 1♥/1♠ na třetím či čtvrtém místě zůstávají nutné.
-
-### Rebid v Two-way
-
-- **Dva v drahé jsou ke hře**; odpovídající pasuje.
-- **Čtyři v drahé** přijímají invit.
-
-Po **2♣** zůstává dotaz **2♦**. Po odpovědi **2♦** je alespoň čtyřkartová podpora známa a tento dotaz není k dispozici. Další invity vyžadují zvláštní dohodu. Ztrácíme přirozenou odpověď **2♦** vedle přirozených **2♣**.
-
-### Two-way — přesně tři trumfy
-
-Pasovali jsme; zahájení **1♠ na třetím či čtvrtém místě**, soupeři pasují:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 bodů, přesně tři trumfy; invit s přesnou délkou podpory.
-
-### Two-way — čtyři trumfy
-
-Stejná situace, zahájení **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 bodů, čtyři trumfy a dubl trefový. Proti slíbenému pětilistu zahajitel ihned ví o nejméně devíti trumfech. Jednoduché Drury odpovídá **2♣ s oběma rukama**; Two-way je rozliší pomocí **2♣ a 2♦**.
-
 ## Na co pozor
 
 - Předchozí pas je nutný proti 1♥/1♠ na třetím či čtvrtém místě.
 - Alespoň tříkartová podpora; dobrá ruka bez fitu nestačí.
 - Zde **nehrajeme Drury po soupeřově kontra nebo zásahu**; platí ostatní dohody.
 - Dva v drahé jsou **ke hře**; invit jsme ukázali, proto pasujeme.
-- Dohodnout verzi: jednoduchá alespoň tři; Two-way přesně tři či alespoň čtyři.
+- V Reverse Drury ukazují 2♣ alespoň tříkartovou podporu. [Two-way Drury](../two-way-drury/) rozlišuje přesně tři karty pomocí 2♣ a alespoň čtyři pomocí 2♦, vždy s invitující silou.
 - Bergen v těchto pozicích vyžaduje zvláštní dohodu, zejména s Drury.

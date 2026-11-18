@@ -171,4 +171,4 @@ Dichiariamo **4♠**. I 9 punti onori sono il massimo dell'appoggio costruttivo.
 - **I limiti variano secondo la versione.** Qui 3♣ costruttivo mostra 7–9 e 3♦ invitante 10–12.
 - **Reverse Bergen inverte i significati di 3♣ e 3♦.** È necessario sapere quale versione si gioca.
 - **Dopo contro o intervento a livello 1**, Bergen resta solo per accordo e se le licite sono disponibili.
-- **Per aperture in terza o quarta posizione**, serve un accordo separato, soprattutto se la coppia usa [Drury](../drury/).
+- **Per aperture in terza o quarta posizione**, serve un accordo separato, soprattutto se la coppia usa [Reverse Drury](../drury/).

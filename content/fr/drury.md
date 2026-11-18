@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Quand l'utiliser ?
 
-Après notre passe initial, le partenaire ouvre **1♥ ou 1♠ en troisième ou quatrième position**. Dans ce cours, il promet cinq cartes au moins et les adversaires n'interviennent pas. Avec un soutien d'au moins trois cartes et une main propositionnelle, nous répondons **2♣ artificiel**, sans promettre des trèfles. Nous présentons d'abord **Reverse Drury**, puis **Two-way Drury**, qui précise la longueur du soutien.
+Après notre passe initial, le partenaire ouvre **1♥ ou 1♠ en troisième ou quatrième position**. Dans ce cours, il promet cinq cartes au moins et les adversaires n'interviennent pas. Avec un soutien d'au moins trois cartes et une main propositionnelle, nous répondons **2♣ artificiel**, sans promettre des trèfles.
 
 ## À quoi sert-il ?
 
@@ -106,51 +106,11 @@ Nous avons ouvert **1♠ en troisième**, réponse **2♣ Drury** :
 
 Certaines paires jouent aussi [Bergen Raises](../bergen-raises/) en troisième et quatrième position. Bergen montrant déjà les mains propositionnelles avec au moins quatre atouts, elles peuvent réserver **2♣ Reverse Drury à exactement trois atouts**, sans Two-way. Cet accord est distinct : ici, le Drury simple promet **au moins trois atouts**.
 
-### Two-way Drury
-
-Le Drury simple ne distingue pas un fit de huit cartes d'un fit plus long, information utile pour la manche. Le Two-way distingue :
-
-| Réponse | Sens |
-| --- | --- |
-| 2♣ | Main propositionnelle, exactement trois atouts |
-| 2♦ | Main propositionnelle, au moins quatre atouts |
-
-Les deux sont **artificiels et forcing un tour**, sans longueur promise dans la mineure. Le passe préalable et l'ouverture 1♥/1♠ en troisième ou quatrième restent nécessaires.
-
-### Redemandes en Two-way
-
-- **2 dans la majeure est pour jouer** : le répondant passe.
-- **4 dans la majeure** accepte la proposition.
-
-Après **2♣**, la question **2♦** reste disponible. Après la réponse **2♦**, le soutien d'au moins quatre cartes est connu et cette question n'est plus possible ; toute autre tentative exige un accord distinct. Nous renonçons aux réponses naturelles **2♣ et 2♦**.
-
-### Exemple Two-way — trois atouts exactement
-
-Après notre passe, ouverture **1♠ en troisième ou quatrième**, les adversaires passent :
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury** : 11 H, exactement trois atouts, proposition de manche.
-
-### Exemple Two-way — quatre atouts
-
-Même contexte, ouverture **1♠** :
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury** : 11 H, quatre atouts et doubleton trèfle. L'ouvreur connaît immédiatement un fit d'au moins neuf cartes puisqu'il a promis cinq piques. En Drury simple, les deux mains répondraient **2♣** ; en Two-way, **2♣ et 2♦** les distinguent.
-
 ## Points d'attention
 
 - Passe préalable indispensable face à 1♥/1♠ en troisième ou quatrième position.
 - Au moins trois cartes de soutien ; une bonne main sans fit ne suffit pas.
 - Dans ce cours, **pas de Drury après un contre ou une intervention adverse** : appliquer les autres accords.
 - La répétition de la majeure au palier de 2 est **pour jouer** ; passer après avoir montré sa proposition.
-- Choisir ensemble : Drury simple, trois cartes ou plus ; Two-way, trois exactement ou quatre et plus.
+- En Reverse Drury, 2♣ montre au moins trois atouts. Le [Two-way Drury](../two-way-drury/) distingue exactement trois atouts par 2♣ et au moins quatre par 2♦, toujours avec une main propositionnelle.
 - L'emploi de Bergen dans ces positions demande un accord distinct, surtout avec Drury.

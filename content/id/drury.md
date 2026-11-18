@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Kapan digunakan?
 
-Kita sudah pass dan partner membuka **1♥ atau 1♠ di posisi ketiga atau keempat**. Dalam pelajaran ini pembukaan menjanjikan minimal lima kartu dan lawan tidak melakukan overcall. Dengan kekuatan invitasi dan dukungan minimal tiga kartu, jawab **2♣ artifisial**, bukan menunjukkan club. Pertama **Reverse Drury**, kemudian **Two-way Drury** yang membedakan panjang dukungan.
+Kita sudah pass dan partner membuka **1♥ atau 1♠ di posisi ketiga atau keempat**. Dalam pelajaran ini pembukaan menjanjikan minimal lima kartu dan lawan tidak melakukan overcall. Dengan kekuatan invitasi dan dukungan minimal tiga kartu, jawab **2♣ artifisial**, bukan menunjukkan club.
 
 ## Apa tujuannya?
 
@@ -106,51 +106,11 @@ Kita membuka **1♠ di posisi ketiga**, jawaban **2♣ Drury**:
 
 Beberapa pasangan menggunakan [Bergen Raises](../bergen-raises/) juga pada pembukaan posisi ketiga dan keempat. Jika Bergen sudah menunjukkan invitasi dengan minimal empat truf, **2♣ Reverse Drury dapat dikhususkan untuk tepat tiga kartu dukungan**, tanpa Two-way. Itu kesepakatan terpisah: di sini Drury sederhana menunjukkan **minimal tiga kartu**.
 
-### Two-way Drury
-
-Drury sederhana tidak membedakan fit delapan kartu dengan yang lebih panjang, padahal dapat memengaruhi keputusan game. Two-way membedakan:
-
-| Jawaban | Arti |
-| --- | --- |
-| 2♣ | Invitasi, tepat tiga kartu dukungan |
-| 2♦ | Invitasi, minimal empat kartu dukungan |
-
-Keduanya **artifisial dan forcing satu putaran**, tidak menjanjikan panjang pada minor yang disebut. Pass sebelumnya dan pembukaan partner 1♥/1♠ posisi ketiga atau keempat tetap wajib.
-
-### Kelanjutan pembuka dalam Two-way
-
-- **Dua pada major untuk dimainkan**; penjawab pass.
-- **Empat pada major** menerima invitasi.
-
-Setelah **2♣**, pertanyaan **2♦** tetap tersedia. Setelah jawaban **2♦**, dukungan minimal empat kartu sudah diketahui dan pertanyaan itu tidak tersedia. Invitasi lain perlu kesepakatan terpisah. Kita kehilangan jawaban natural **2♦**, selain **2♣**.
-
-### Two-way — tepat tiga truf
-
-Kita telah pass; pembukaan **1♠ posisi ketiga atau keempat**, lawan pass:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 HCP, tepat tiga truf; invitasi dengan panjang dukungan yang pasti.
-
-### Two-way — empat truf
-
-Situasi sama, pembukaan **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 HCP, empat truf dan doubleton club. Menghadapi lima kartu yang dijanjikan pembukaan, pembuka langsung mengetahui minimal sembilan truf. Drury sederhana menjawab **2♣ dengan kedua tangan**; Two-way memisahkannya melalui **2♣ dan 2♦**.
-
 ## Hal yang perlu diingat
 
 - Pass sebelumnya wajib menghadapi 1♥/1♠ partner di posisi ketiga atau keempat.
 - Minimal tiga kartu dukungan; tangan bagus tanpa fit tidak cukup.
 - Di sini **Drury tidak berlaku setelah double atau overcall lawan**; gunakan kesepakatan lainnya.
 - Dua pada major **untuk dimainkan**; invitasi sudah ditunjukkan, jadi pass.
-- Sepakati versinya: sederhana minimal tiga; Two-way tepat tiga atau minimal empat.
+- Dalam Reverse Drury, 2♣ menunjukkan minimal tiga kartu dukungan. [Two-way Drury](../two-way-drury/) membedakan tepat tiga melalui 2♣ dan minimal empat melalui 2♦, selalu dengan kekuatan invitasi.
 - Bergen di posisi ini perlu kesepakatan terpisah, terutama bersama Drury.

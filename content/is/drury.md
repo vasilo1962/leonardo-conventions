@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Hvenær er það notað?
 
-Við höfum þegar passað og makker opnar **1♥ eða 1♠ í þriðju eða fjórðu hendi**. Hér lofar opnunin að minnsta kosti fimm spilum og mótherjar koma ekki inn á. Með áskorunarstyrk og að minnsta kosti þrílitum stuðningi svörum við **gervisögninni 2♣**, án þess að sýna lauf. Fyrst er **Reverse Drury** lýst, síðan **Two-way Drury**, sem greinir lengd stuðningsins.
+Við höfum þegar passað og makker opnar **1♥ eða 1♠ í þriðju eða fjórðu hendi**. Hér lofar opnunin að minnsta kosti fimm spilum og mótherjar koma ekki inn á. Með áskorunarstyrk og að minnsta kosti þrílitum stuðningi svörum við **gervisögninni 2♣**, án þess að sýna lauf.
 
 ## Hver er tilgangurinn?
 
@@ -106,51 +106,11 @@ Við opnuðum **1♠ í þriðju hendi**, svar **2♣ Drury**:
 
 Sum pör spila [Bergen Raises](../bergen-raises/) líka eftir opnanir í þriðju og fjórðu hendi. Sýni Bergen þegar áskoranir með fjórum trompum eða fleiri má **2♣ Reverse Drury takmarkast við nákvæmlega þrjú stuðningsspil**, án Two-way. Þetta er sérstakt samkomulag: hér sýnir einfalt Drury **að minnsta kosti þrjú**.
 
-### Two-way Drury
-
-Einfalt Drury greinir ekki átta sameiginleg tromp frá lengri stuðningi, sem getur haft áhrif á geimákvörðun. Two-way greinir:
-
-| Svar | Merking |
-| --- | --- |
-| 2♣ | Áskorun, nákvæmlega þrjú stuðningsspil |
-| 2♦ | Áskorun, að minnsta kosti fjögur stuðningsspil |
-
-Báðar eru **gervisagnir og krafa í einn hring**, án lengdar í sögðum láglit. Fyrra pass og 1♥/1♠ makkers í þriðju eða fjórðu hendi eru áfram skilyrði.
-
-### Endursögn í Two-way
-
-- **Tveir í hálit eru til að spila**; svarhönd passar.
-- **Fjórir í hálit** taka áskoruninni.
-
-Eftir **2♣** er spurningin **2♦** áfram tiltæk. Eftir **2♦ svar** er fjögurra spila stuðningur eða lengri þekktur og spurningin ekki lengur möguleg. Önnur áskorunarframhald krefjast sérstaks samkomulags. Við missum eðlilega **2♦ svarið**, auk **2♣**.
-
-### Two-way — nákvæmlega þrjú tromp
-
-Við höfum passað; opnun **1♠ í þriðju eða fjórðu hendi**, mótherjar passa:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 háspilapunktar, nákvæmlega þrjú tromp; áskorun með nákvæmri stuðningslengd.
-
-### Two-way — fjögur tromp
-
-Sama staða, opnun **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 háspilapunktar, fjögur tromp og tvíspil í laufi. Á móti lofaðri fimmlitri opnun veit opnari strax af að minnsta kosti níu trompum. Einfalt Drury svarar **2♣ með báðum höndum**; Two-way greinir þær með **2♣ og 2♦**.
-
 ## Atriði til að muna
 
 - Fyrra pass er nauðsynlegt á móti 1♥/1♠ í þriðju eða fjórðu hendi.
 - Að minnsta kosti þrjú stuðningsspil; góð hönd án stuðnings dugar ekki.
 - Hér **ekkert Drury eftir dobl eða innákomu mótherja**; önnur samkomulög gilda.
 - Tveir í hálit eru **til að spila**; áskorunin hefur verið sýnd, svo við pössum.
-- Ákveðið útgáfu: einföld að minnsta kosti þrjú, Two-way nákvæmlega þrjú eða fjögur og fleiri.
+- Í Reverse Drury sýnir 2♣ að minnsta kosti þrjú stuðningsspil. [Two-way Drury](../two-way-drury/) greinir nákvæmlega þrjú með 2♣ frá fjórum eða fleiri með 2♦, alltaf með áskorunarstyrk.
 - Bergen í þessum stöðum krefst sérstaks samkomulags, einkum með Drury.

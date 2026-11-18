@@ -171,4 +171,4 @@ A pár licitje **1♠–3♣–3♦**. Válaszolóként a kezünk:
 - **A ponthatárok változatonként eltérnek.** Itt a constructive 3♣ 7–9, az invitáló 3♦ 10–12 pont.
 - **A Reverse Bergen felcseréli a 3♣ és 3♦ jelentését.** Tudnunk kell, melyik változatot játsszuk.
 - **Kontra vagy egyes magasságú közbeszólás után** csak megállapodás alapján és elérhető licitekkel marad Bergen.
-- **Harmadik vagy negyedik helyi indulásoknál** külön megállapodás kell, különösen [Drury](../drury/) használata esetén.
+- **Harmadik vagy negyedik helyi indulásoknál** külön megállapodás kell, különösen [Reverse Drury](../drury/) használata esetén.

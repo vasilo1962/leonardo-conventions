@@ -171,4 +171,4 @@ Licytujemy **4♠**. Nasze 9 punktów honorowych to maksimum konstruktywnej odpo
 - **Przedziały różnią się zależnie od wersji.** Tutaj konstruktywne 3♣ oznacza 7–9, a inwitujące 3♦ 10–12.
 - **Reverse Bergen zamienia znaczenia 3♣ i 3♦.** Trzeba ustalić używaną wersję.
 - **Po kontrze lub wejściu na wysokości jednego** Bergen obowiązuje tylko po uzgodnieniu i gdy odzywki są dostępne.
-- **Po otwarciach na trzeciej lub czwartej ręce** potrzebne jest osobne ustalenie, szczególnie gdy para gra [Drury](../drury/).
+- **Po otwarciach na trzeciej lub czwartej ręce** potrzebne jest osobne ustalenie, szczególnie gdy para gra [Reverse Drury](../drury/).

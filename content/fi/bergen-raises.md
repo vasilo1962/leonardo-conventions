@@ -171,4 +171,4 @@ Tarjoamme **4♠**. 9 arvopistettä on constructive-vastauksemme maksimi. Hyväk
 - **Pisterajat vaihtelevat versioittain.** Tässä constructive 3♣ on 7–9 ja vihjaava 3♦ 10–12.
 - **Reverse Bergen vaihtaa tarjousten 3♣ ja 3♦ merkitykset.** Pelattava versio on sovittava.
 - **Kahdennuksen tai yhden tason välitarjouksen jälkeen** Bergen säilyy vain sopimuksesta ja tarjousten ollessa käytettävissä.
-- **Kolmannen tai neljännen käden avauksissa** tarvitaan erillinen sopimus, varsinkin jos pari pelaa [Drury](../drury/)a.
+- **Kolmannen tai neljännen käden avauksissa** tarvitaan erillinen sopimus, varsinkin jos pari pelaa [Reverse Drury](../drury/)a.

@@ -2,8 +2,8 @@
   "title": "Two-way Drury",
   "language": "el",
   "variant": "two-way",
-  "route": "el/drury/two-way/practice/",
-  "lessonHref": "../../",
+  "route": "el/two-way-drury/practice/",
+  "lessonHref": "../",
   "ui": {
     "overcall": "Απαντώ στο άνοιγμα",
     "response": "Συνεχίζω ως ανοίξας",

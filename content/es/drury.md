@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## ¿Cuándo se utiliza?
 
-Hemos pasado previamente y el compañero abre **1♥ o 1♠ en tercera o cuarta posición**. Aquí promete al menos cinco cartas y los adversarios no intervienen. Con valores de invitación y apoyo de tres o más cartas respondemos **2♣ artificial**, sin mostrar tréboles. Primero presentamos **Reverse Drury** y después **Two-way Drury**, que distingue la longitud del apoyo.
+Hemos pasado previamente y el compañero abre **1♥ o 1♠ en tercera o cuarta posición**. Aquí promete al menos cinco cartas y los adversarios no intervienen. Con valores de invitación y apoyo de tres o más cartas respondemos **2♣ artificial**, sin mostrar tréboles.
 
 ## ¿Para qué sirve?
 
@@ -106,51 +106,11 @@ Abrimos **1♠ en tercera**, respuesta **2♣ Drury**:
 
 Algunas parejas juegan [Bergen Raises](../bergen-raises/) también en tercera y cuarta. Si Bergen ya muestra las invitaciones con cuatro o más triunfos, pueden reservar **2♣ Reverse Drury para exactamente tres triunfos**, sin Two-way. Es un acuerdo distinto: aquí el Drury simple promete **al menos tres**.
 
-### Two-way Drury
-
-El Drury simple no distingue fit de ocho cartas y fit más largos, información útil para decidir manga. Two-way separa:
-
-| Respuesta | Significado |
-| --- | --- |
-| 2♣ | Invitante, exactamente tres triunfos |
-| 2♦ | Invitante, al menos cuatro triunfos |
-
-Ambas son **artificiales y forcing una vuelta**, sin prometer longitud en el menor nombrado. Siguen siendo necesarios el pase previo y 1♥/1♠ del compañero en tercera o cuarta.
-
-### Redeclaraciones en Two-way
-
-- **Dos del mayor es para jugar**; el respondedor pasa.
-- **Cuatro del mayor** acepta la invitación.
-
-Tras **2♣** sigue disponible la pregunta **2♦**. Tras la respuesta **2♦** conocemos cuatro o más triunfos y ya no cabe esa pregunta. Otras tentativas requieren acuerdo separado. Perdemos la respuesta natural **2♦**, además de **2♣**.
-
-### Two-way — exactamente tres triunfos
-
-Hemos pasado; apertura **1♠ en tercera o cuarta**, adversarios pasan:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 puntos de honor, exactamente tres triunfos; invitación con longitud precisa.
-
-### Two-way — cuatro triunfos
-
-Mismo contexto, apertura **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 puntos de honor, cuatro triunfos y doubleton de trébol. Frente al mayor quinto prometido, el abridor conoce al menos nueve triunfos. En Drury simple ambas manos responderían **2♣**; Two-way distingue con **2♣ y 2♦**.
-
 ## Atención
 
 - Pase previo imprescindible frente a 1♥/1♠ en tercera o cuarta.
 - Al menos tres cartas de apoyo; buena mano sin fit no basta.
 - Aquí **Drury no se juega tras doblo o intervención adversaria**: aplicar los otros acuerdos.
 - Dos del mayor es **para jugar**; ya mostramos la invitación y pasamos.
-- Acordar la versión: simple tres o más; Two-way tres exactos o cuatro y más.
+- En Reverse Drury, 2♣ muestra al menos tres cartas de apoyo. [Two-way Drury](../two-way-drury/) distingue exactamente tres con 2♣ de cuatro o más con 2♦, siempre con fuerza invitante.
 - Bergen en estas posiciones requiere acuerdo separado, sobre todo junto a Drury.

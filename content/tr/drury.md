@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Ne zaman kullanılır?
 
-Önceden pas geçmişizdir; ortak **üçüncü veya dördüncü pozisyonda 1♥ ya da 1♠** açar. Bu derste açış en az beş kart vaat eder ve rakipler araya girmez. Davet gücü ve en az üç kart destekle **yapay 2♣** deriz; bu, trefl göstermez. Önce **Reverse Drury**, sonra destek uzunluklarını ayıran **Two-way Drury** anlatılır.
+Önceden pas geçmişizdir; ortak **üçüncü veya dördüncü pozisyonda 1♥ ya da 1♠** açar. Bu derste açış en az beş kart vaat eder ve rakipler araya girmez. Davet gücü ve en az üç kart destekle **yapay 2♣** deriz; bu, trefl göstermez.
 
 ## Amacı nedir?
 
@@ -106,51 +106,11 @@ Rakipler bütün konuşma boyunca pas geçer.
 
 Bazı çiftler üçüncü ve dördüncü pozisyonda da [Bergen Raises](../bergen-raises/) oynar. Bergen en az dört kozlu davetleri zaten gösteriyorsa **2♣ Reverse Drury tam üç kart desteğe ayrılabilir**; Two-way gerekmez. Bu ayrı anlaşmadır: dersin basit Drury'si **en az üç kart** gösterir.
 
-### Two-way Drury
-
-Basit Drury sekiz kart fit ile daha uzun fiti ayırmaz; bu bilgi zon kararını etkileyebilir. Two-way ayırır:
-
-| Yanıt | Anlamı |
-| --- | --- |
-| 2♣ | Davet gücü, tam üç kart destek |
-| 2♦ | Davet gücü, en az dört kart destek |
-
-İkisi de **yapay ve bir tur forsingdir**; söylenen minörde uzunluk vaat etmez. Önceki pas ve ortağın üçüncü/dördüncü pozisyonda 1♥/1♠ açışı yine gereklidir.
-
-### Two-way'de açanın devamı
-
-- **Majörde iki oynamak içindir**; yanıtçı pas geçer.
-- **Majörde dört** daveti kabul eder.
-
-**2♣** sonrasında **2♦ sorusu** kullanılabilir. **2♦ yanıtından** sonra en az dört kart destek bilinir; aynı soru artık mümkün değildir. Başka davet devamları ayrı anlaşma ister. Doğal **2♣** yanında doğal **2♦ yanıtını** da kaybederiz.
-
-### Two-way — tam üç kart destek
-
-Pas geçtik; ortak **üçüncü veya dördüncü pozisyonda 1♠** açar, rakipler pas geçer:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 onör puanı ve tam üç koz; davet gücüyle kesin destek uzunluğunu gösterir.
-
-### Two-way — dört kart destek
-
-Aynı koşullar, açış **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 onör puanı, dört koz ve iki trefl. Açışın vaat ettiği beş kartla açan hemen en az dokuz kart fit olduğunu bilir. Basit Drury her iki elle **2♣** derdi; Two-way **2♣ ve 2♦** ile ayırır.
-
 ## Dikkat edilecekler
 
 - Önceki pas şarttır; ortak üçüncü veya dördüncü pozisyonda 1♥/1♠ açar.
 - En az üç kart destek gerekir; fitsiz iyi el yetmez.
 - Burada **rakibin kontru veya araya girişi sonrası Drury yoktur**; diğer anlaşmalar uygulanır.
 - Majörde iki **oynamak içindir**; daveti gösterdikten sonra pas geçilir.
-- Sürümü kararlaştırın: basit en az üç; Two-way tam üç veya en az dört.
+- Reverse Drury içinde 2♣ en az üç kart destek gösterir. [Two-way Drury](../two-way-drury/) tam üç kartı 2♣, dört veya daha fazlasını 2♦ ile ayırır; ikisi de davet gücündedir.
 - Bu pozisyonlarda Bergen, özellikle Drury ile birlikte, ayrı anlaşma gerektirir.

@@ -171,4 +171,4 @@ Vi bjuder **4♠**. Våra 9 honnörspoäng är maximum för det konstruktiva sva
 - **Poänggränserna varierar mellan versioner.** Här visar konstruktivt 3♣ 7–9 och inviterande 3♦ 10–12.
 - **Reverse Bergen byter betydelserna på 3♣ och 3♦.** Var överens om versionen.
 - **Efter dubbling eller inkliv på enläget** behålls Bergen bara enligt överenskommelse och när buden finns kvar.
-- **Vid öppningar i tredje eller fjärde hand** krävs en särskild överenskommelse, särskilt om paret använder [Drury](../drury/).
+- **Vid öppningar i tredje eller fjärde hand** krävs en särskild överenskommelse, särskilt om paret använder [Reverse Drury](../drury/).

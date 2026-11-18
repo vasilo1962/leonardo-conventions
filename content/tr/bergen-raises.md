@@ -171,4 +171,4 @@ Ortaklığımızın konuşması **1♠–3♣–3♦**. Cevapçı olarak elimiz:
 - **Puan sınırları versiyona göre değişir.** Bu derste constructive 3♣ 7–9, davet 3♦ 10–12 gösterir.
 - **Reverse Bergen, 3♣ ve 3♦ anlamlarını ters çevirir.** Hangi versiyonun oynandığı bilinmelidir.
 - **Kontr veya bir seviyesinde araya giriş sonrası** Bergen ancak anlaşmayla ve konuşmalar yapılabiliyorsa sürer.
-- **Üçüncü veya dördüncü pozisyon açışlarında** özellikle [Drury](../drury/) kullanan ortaklıklar için ayrı anlaşma gerekir.
+- **Üçüncü veya dördüncü pozisyon açışlarında** özellikle [Reverse Drury](../drury/) kullanan ortaklıklar için ayrı anlaşma gerekir.

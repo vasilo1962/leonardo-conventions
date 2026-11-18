@@ -171,4 +171,4 @@ Marcamos **4♠**. Os 9 pontos de honras são o máximo da resposta constructive
 - **Os limites variam conforme a versão.** Aqui 3♣ constructive mostra 7–9 e 3♦ de convite 10–12.
 - **Reverse Bergen troca os significados de 3♣ e 3♦.** É preciso saber qual a versão jogada.
 - **Após dobre ou intervenção ao nível 1**, mantemos Bergen apenas por acordo e se as vozes estiverem disponíveis.
-- **Para aberturas em terceira ou quarta posição**, Bergen precisa de um acordo separado, sobretudo se a parceria utilizar [Drury](../drury/).
+- **Para aberturas em terceira ou quarta posição**, Bergen precisa de um acordo separado, sobretudo se a parceria utilizar [Reverse Drury](../drury/).

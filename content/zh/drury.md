@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## 何时使用？
 
-我们已经不叫，随后同伴在<strong>第三或第四家开叫1♥或1♠</strong>。本课约定开叫至少五张高花，对方不争叫。持邀局实力、对同伴高花至少三张支持时，应叫<strong>人为的2♣</strong>，不表示草花。先介绍不区分支持长度的<strong>Reverse Drury</strong>，再介绍区分三张和更长支持的<strong>Two-way Drury</strong>。
+我们已经不叫，随后同伴在<strong>第三或第四家开叫1♥或1♠</strong>。本课约定开叫至少五张高花，对方不争叫。持邀局实力、对同伴高花至少三张支持时，应叫<strong>人为的2♣</strong>，不表示草花。
 
 ## 有什么作用？
 
@@ -106,51 +106,11 @@
 
 有些搭档在第三或第四家开叫后也采用[Bergen Raises](../bergen-raises/)。如果Bergen已经表示至少四张支持的邀局牌，就可以把<strong>2♣ Reverse Drury保留为恰好三张支持</strong>，不需要Two-way。这是独立的搭档约定；本课普通Drury仍表示<strong>至少三张支持</strong>。
 
-### Two-way Drury
-
-普通Drury不区分双方共有八张将牌还是更多，这可能影响成局判断。Two-way区分：
-
-| 应叫 | 含义 |
-| --- | --- |
-| 2♣ | 邀局实力，恰好三张支持 |
-| 2♦ | 邀局实力，至少四张支持 |
-
-两种叫牌都<strong>是人为叫、逼叫一轮</strong>，不表示所叫低花的长度。仍须我们此前不叫，同伴第三或第四家开叫1♥或1♠。
-
-### Two-way中开叫人的再叫
-
-- <strong>二阶原高花表示要打</strong>，答叫人不叫。
-- <strong>四阶原高花</strong>接受邀局。
-
-应叫<strong>2♣</strong>后，开叫人的<strong>2♦询问</strong>仍可使用。应叫<strong>2♦</strong>后，开叫人已知至少四张支持，不能再用该询问；其他邀局后续需要另行约定。代价是除了失去自然的<strong>2♣应叫</strong>，还失去自然的<strong>2♦应叫</strong>。
-
-### Two-way示例 — 恰好三张支持
-
-我们此前不叫，同伴<strong>第三或第四家开叫1♠</strong>，对方不叫：
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-叫<strong>2♣ Drury</strong>。11大牌点、恰好三张将牌，表示邀局并明确支持长度。
-
-### Two-way示例 — 四张支持
-
-同样的叫牌背景，开叫<strong>1♠</strong>：
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-叫<strong>2♦ Drury</strong>。同样11大牌点，但有四张支持和草花双张。开叫保证五张高花，所以开叫人立即知道至少九张配合。普通Drury两手牌都应叫<strong>2♣</strong>；Two-way用<strong>2♣和2♦</strong>区分。
-
 ## 注意事项
 
 - 必须此前已经不叫，面对同伴第三或第四家1♥/1♠开叫。
 - 至少三张支持；牌好但无配合仍不能用。
 - 本课<strong>在对方加倍或争叫后不使用Drury</strong>，按其他搭档约定处理。
 - 二阶原高花表示<strong>要打此定约</strong>；已经说明邀局实力，应不叫。
-- 确认版本：普通2♣三张以上；Two-way 2♣恰好三张，2♦至少四张。
+- Reverse Drury用2♣表示至少三张支持。[Two-way Drury](../two-way-drury/)用2♣表示恰好三张、2♦表示至少四张，两者都是邀局实力。
 - Bergen用于这些位置需另行约定，与Drury合用时尤其如此。

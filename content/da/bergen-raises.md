@@ -171,4 +171,4 @@ Vi melder **4♠**. De 9 honnørpoint er maksimum for vores konstruktive svar. V
 - **Pointgrænserne varierer mellem versioner.** Her viser konstruktivt 3♣ 7–9 og inviterende 3♦ 10–12.
 - **Reverse Bergen bytter betydningerne af 3♣ og 3♦.** Versionen skal være aftalt.
 - **Efter dobling eller indmelding på ettrinnet** bevares Bergen kun efter aftale og med tilgængelige meldinger.
-- **Ved åbninger i tredje eller fjerde hånd** kræves en særskilt aftale, især hvis parret spiller [Drury](../drury/).
+- **Ved åbninger i tredje eller fjerde hånd** kræves en særskilt aftale, især hvis parret spiller [Reverse Drury](../drury/).

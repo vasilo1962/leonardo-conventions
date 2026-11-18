@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Hvornår bruges det?
 
-Vi har allerede passet, og makker åbner **1♥ eller 1♠ i tredje eller fjerde hånd**. Her lover åbningen mindst fem kort, og modstanderne melder ikke ind. Med invitstyrke og mindst trekortsstøtte svarer vi **2♣ kunstigt**, uden at vise klør. Først beskrives **Reverse Drury**, derefter **Two-way Drury**, som skelner støttelængden.
+Vi har allerede passet, og makker åbner **1♥ eller 1♠ i tredje eller fjerde hånd**. Her lover åbningen mindst fem kort, og modstanderne melder ikke ind. Med invitstyrke og mindst trekortsstøtte svarer vi **2♣ kunstigt**, uden at vise klør.
 
 ## Hvad er formålet?
 
@@ -106,51 +106,11 @@ Vi åbnede **1♠ i tredje hånd**, svar **2♣ Drury**:
 
 Nogle par spiller [Bergen Raises](../bergen-raises/) også i tredje og fjerde hånd. Hvis Bergen allerede viser invitationer med mindst fire trumfer, kan **2♣ Reverse Drury reserveres til præcis trekortsstøtte**, uden Two-way. Det er en særskilt aftale: her lover simpel Drury **mindst tre kort**.
 
-### Two-way Drury
-
-Simpel Drury skelner ikke et ottekortsfit fra længere fit, hvilket kan påvirke udgangsvalget. Two-way skelner:
-
-| Svar | Betydning |
-| --- | --- |
-| 2♣ | Invitation, præcis trekortsstøtte |
-| 2♦ | Invitation, mindst firekortsstøtte |
-
-Begge er **kunstige og krav én runde**, uden længde løftet i minorfarven. Tidligere pas og makkers 1♥/1♠ i tredje eller fjerde hånd er stadig nødvendige.
-
-### Genmeldinger i Two-way
-
-- **To i major er for at spille**; svarer passer.
-- **Fire i major** accepterer invitationen.
-
-Efter **2♣** kan åbner fortsat spørge med **2♦**. Efter svaret **2♦** er mindst firekortsstøtte kendt, og spørgsmålet er ikke muligt. Andre invitationer kræver særskilte aftaler. Vi mister det naturlige svar **2♦** ud over **2♣**.
-
-### Two-way — præcis trekortsstøtte
-
-Vi har passet; åbning **1♠ i tredje eller fjerde hånd**, modstanderne passer:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 honnørpoint, præcis tre trumfer, invitation med angivet støttelængde.
-
-### Two-way — firekortsstøtte
-
-Samme situation, åbning **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 honnørpoint, fire trumfer og doubleton klør. Over for den lovede femkortfarve ved åbner straks, at der er mindst ni trumfer. Simpel Drury svarer **2♣ med begge hænder**; Two-way skelner med **2♣ og 2♦**.
-
 ## Vigtige punkter
 
 - Tidligere pas er nødvendig over for 1♥/1♠ i tredje eller fjerde hånd.
 - Mindst trekortsstøtte; en god hånd uden fit er ikke nok.
 - Her **ingen Drury efter modstandernes dobling eller indmelding**; brug øvrige aftaler.
 - To i major er **for at spille**; invitationen er vist, så pas.
-- Aftal varianten: simpel mindst tre; Two-way præcis tre eller mindst fire.
+- I Reverse Drury viser 2♣ mindst trekortsstøtte. [Two-way Drury](../two-way-drury/) skelner præcis tre kort med 2♣ fra fire eller flere med 2♦, altid med invitstyrke.
 - Bergen i disse positioner kræver særskilt aftale, især sammen med Drury.

@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Quando se aplica?
 
-Já passámos e o parceiro abre **1♥ ou 1♠ em terceira ou quarta posição**. Neste curso promete pelo menos cinco cartas e os adversários não intervêm. Com força de convite e apoio de três ou mais cartas respondemos **2♣ artificial**, sem mostrar paus. Primeiro apresentamos **Reverse Drury**, depois **Two-way Drury**, que distingue o comprimento do apoio.
+Já passámos e o parceiro abre **1♥ ou 1♠ em terceira ou quarta posição**. Neste curso promete pelo menos cinco cartas e os adversários não intervêm. Com força de convite e apoio de três ou mais cartas respondemos **2♣ artificial**, sem mostrar paus.
 
 ## Para que serve?
 
@@ -106,51 +106,11 @@ Abrimos **1♠ em terceira**, resposta **2♣ Drury**:
 
 Alguns pares jogam [Bergen Raises](../bergen-raises/) também em terceira e quarta posição. Se Bergen já mostra os convites com quatro ou mais trunfos, podem reservar **2♣ Reverse Drury para exatamente três trunfos**, sem Two-way. É um acordo separado: aqui Drury simples promete **pelo menos três**.
 
-### Two-way Drury
-
-O Drury simples não distingue fit de oito cartas de um fit mais longo, informação útil para decidir partida. Two-way separa:
-
-| Resposta | Significado |
-| --- | --- |
-| 2♣ | Convite, exatamente três trunfos |
-| 2♦ | Convite, pelo menos quatro trunfos |
-
-Ambas são **artificiais e forcing por uma volta**, sem comprimento prometido no pobre anunciado. Mantêm-se o passe prévio e a abertura 1♥/1♠ do parceiro em terceira ou quarta.
-
-### Segunda voz em Two-way
-
-- **Dois no rico é para jogar**; o respondente passa.
-- **Quatro no rico** aceita o convite.
-
-Após **2♣**, a pergunta **2♦** continua disponível. Após a resposta **2♦**, sabemos que há quatro ou mais trunfos e essa pergunta já não cabe. Outras tentativas exigem acordo separado. Perdemos a resposta natural **2♦**, além de **2♣**.
-
-### Two-way — exatamente três trunfos
-
-Já passámos; abertura **1♠ em terceira ou quarta**, adversários passam:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 pontos de honra, exatamente três trunfos, convite com comprimento preciso.
-
-### Two-way — quatro trunfos
-
-Mesmo contexto, abertura **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 pontos de honra, quatro trunfos e doubleton a paus. Perante o rico quinto prometido, o abridor conhece imediatamente pelo menos nove trunfos. Em Drury simples ambas as mãos responderiam **2♣**; Two-way distingue com **2♣ e 2♦**.
-
 ## Pontos de atenção
 
 - Passe prévio indispensável perante 1♥/1♠ em terceira ou quarta.
 - Pelo menos três cartas de apoio; boa mão sem fit não basta.
 - Aqui **não jogamos Drury após dobre ou intervenção adversária**: aplicam-se os restantes acordos.
 - Dois no rico é **para jogar**; já mostrámos o convite e passamos.
-- Acordar a versão: simples, três ou mais; Two-way, três exatos ou quatro e mais.
+- Em Reverse Drury, 2♣ mostra pelo menos três cartas de apoio. O [Two-way Drury](../two-way-drury/) distingue exatamente três com 2♣ de quatro ou mais com 2♦, sempre com força de convite.
 - Bergen nestas posições requer acordo separado, sobretudo com Drury.

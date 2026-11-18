@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Wann wird es angewendet?
 
-Wir haben bereits gepasst, und Partner eröffnet **1♥ oder 1♠ in dritter oder vierter Hand**. Hier verspricht die Eröffnung mindestens fünf Karten; die Gegner reizen nicht dazwischen. Mit einladender Stärke und mindestens Dreieranschluss antworten wir **2♣ künstlich**, ohne Treff zu versprechen. Zunächst folgt **Reverse Drury**, danach **Two-way Drury** mit genauerer Anschlusslänge.
+Wir haben bereits gepasst, und Partner eröffnet **1♥ oder 1♠ in dritter oder vierter Hand**. Hier verspricht die Eröffnung mindestens fünf Karten; die Gegner reizen nicht dazwischen. Mit einladender Stärke und mindestens Dreieranschluss antworten wir **2♣ künstlich**, ohne Treff zu versprechen.
 
 ## Wozu dient es?
 
@@ -106,51 +106,11 @@ Wir eröffneten **1♠ in dritter Hand**, Antwort **2♣ Drury**:
 
 Manche Paare spielen [Bergen Raises](../bergen-raises/) auch in dritter und vierter Hand. Zeigt Bergen bereits die einladenden Hände mit mindestens vier Trümpfen, kann **2♣ Reverse Drury genau Dreieranschluss** zeigen; Two-way ist dann nicht nötig. Das ist eine eigene Absprache. Hier zeigt einfaches Drury **mindestens Dreieranschluss**.
 
-### Two-way Drury
-
-Einfaches Drury unterscheidet nicht zwischen acht gemeinsamen Trümpfen und einem längeren Fit, was die Vollspielentscheidung beeinflussen kann. Two-way trennt:
-
-| Antwort | Bedeutung |
-| --- | --- |
-| 2♣ | Einladung, genau drei Trümpfe |
-| 2♦ | Einladung, mindestens vier Trümpfe |
-
-Beide sind **künstlich und eine Runde forcierend**, ohne Länge in der genannten Unterfarbe. Vorheriges Pass und Partners 1♥/1♠ in dritter oder vierter Hand bleiben Voraussetzung.
-
-### Wiedergebote bei Two-way
-
-- **Zwei in der Oberfarbe ist zum Spielen**; Antwortender passt.
-- **Vier in der Oberfarbe** nimmt die Einladung an.
-
-Nach **2♣** bleibt die Frage **2♦** möglich. Nach Antwort **2♦** ist mindestens Viereranschluss bekannt; diese Frage entfällt. Andere Versuche benötigen eigene Absprachen. Dafür verlieren wir neben der natürlichen **2♣-Antwort** auch die natürliche **2♦-Antwort**.
-
-### Two-way — genau Dreieranschluss
-
-Wir haben gepasst; Partner eröffnet **1♠ in dritter oder vierter Hand**, Gegner passen:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 Figurenpunkte und genau drei Trümpfe; einladende Stärke mit genauer Anschlusslänge.
-
-### Two-way — Viereranschluss
-
-Gleiche Situation, Eröffnung **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 Figurenpunkte, vier Trümpfe und Treffdoubleton. Gegenüber der versprochenen Fünferfarbe kennt Eröffner sofort mindestens neun Trümpfe. Einfaches Drury würde mit beiden Händen **2♣** antworten; Two-way trennt sie durch **2♣ und 2♦**.
-
 ## Wichtige Punkte
 
 - Vorheriges Pass ist zwingend; Partner eröffnet 1♥/1♠ in dritter oder vierter Hand.
 - Mindestens Dreieranschluss ist nötig; gute Werte ohne Fit reichen nicht.
 - Hier **kein Drury nach gegnerischem Kontra oder einer Gegenreizung**; andere Paarabsprachen gelten.
 - Zwei in der Oberfarbe ist **zum Spielen**; nach gezeigter Einladung passen.
-- Variante vereinbaren: einfach mindestens drei, Two-way genau drei beziehungsweise mindestens vier Trümpfe.
+- Bei Reverse Drury zeigt 2♣ mindestens Dreieranschluss. [Two-way Drury](../two-way-drury/) trennt genau drei Karten mit 2♣ von mindestens vier mit 2♦, jeweils mit einladender Stärke.
 - Bergen bei diesen Eröffnungen erfordert eine eigene Absprache, besonders zusammen mit Drury.

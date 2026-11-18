@@ -171,4 +171,4 @@ Nous déclarons **4♠**. Nos 9 H constituent le maximum du soutien constructif 
 - **Les fourchettes varient selon les versions.** Ici, 3♣ constructif montre 7–9 et 3♦ propositionnel 10–12.
 - **Reverse Bergen inverse les significations de 3♣ et 3♦.** Il faut connaître la version jouée.
 - **Après un contre ou une intervention au palier de 1**, conserver Bergen uniquement sur accord et si les enchères restent disponibles.
-- **Sur les ouvertures en troisième ou quatrième position**, Bergen nécessite un accord distinct, surtout si la paire utilise [Drury](../drury/).
+- **Sur les ouvertures en troisième ou quatrième position**, Bergen nécessite un accord distinct, surtout si la paire utilise [Reverse Drury](../drury/).

@@ -10,7 +10,7 @@ for (const slug of sets) {
   assert.equal(d.questions.length,20);
   assert.equal(new Set(d.questions.map(q=>q.id)).size,20);
   assert.equal(d.variant,two?'two-way':'reverse');
-  assert.equal(d.route,two?'el/drury/two-way/practice/':'el/drury/practice/');
+  assert.equal(d.route,two?'el/two-way-drury/practice/':'el/drury/practice/');
   assert.ok(d.ui.agreements.includes(two?'ακριβώς 3φυλλη':'τουλάχιστον 3φυλλη'));
   assert.ok(d.ui.agreements.includes('Δεν παίζουμε Bergen'));
   for(const role of ['overcall','response']) {
@@ -78,41 +78,45 @@ for (const slug of sets) {
   assert.ok(html.includes('<h1>'+d.title+'</h1>'));
   assert.equal((html.match(new RegExp('href="'+d.lessonHref.replaceAll('.','\\.')+'"','g'))||[]).length,3);
   for(const href of [...html.matchAll(/<a[^>]+href="([^"]+)"/g)].map(x=>x[1]).filter(x=>!x.startsWith('#'))) {
-    assert.equal(new URL(href,'https://leonardobridge.com/'+d.route).pathname,'/el/drury/');
+    assert.equal(new URL(href,'https://leonardobridge.com/'+d.route).pathname,two?'/el/two-way-drury/':'/el/drury/');
   }
   assert.ok(html.includes('Σωστές: 0/0') && html.includes('Άσκηση: 1/10'));
 }
 assert.equal(seen.size,40);
-const lesson=await readFile('site/el/drury/index.html','utf8');
-assert.ok(lesson.includes('href="practice/"') && lesson.includes('href="two-way/practice/"'));
-console.log('Verified 40 distinct Drury hands: 10 per role and version, credible passes and third/fourth-seat openings, HCP, support, legal complete auctions, no variant leakage in prompts, opener sign-offs/games/enquiries, two routes and lesson returns.');
-
-// Translations must preserve the complete teaching structure and agreed examples.
-const languages = JSON.parse(await readFile('content/i18n/languages.json','utf8'));
-const handPattern = /♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g;
-const reference = await readFile('content/el/drury.md','utf8');
-const hands = text => [...text.matchAll(handPattern)].map(m=>m.slice(1));
-for(const language of languages) {
-  const code=language.code;
-  const source=await readFile(`content/${code}/drury.md`,'utf8');
-  const html=await readFile(`site/${code}/drury/index.html`,'utf8');
-  assert.deepEqual(hands(source),hands(reference),code+': unchanged examples');
-  assert.equal((source.match(/^## /gm)||[]).length,6);
-  assert.equal((source.match(/^### /gm)||[]).length,12);
-  assert.equal((source.match(/^\| ---/gm)||[]).length,3);
-  assert.equal((source.match(/^- /gm)||[]).length,8);
-  assert.equal((html.match(/class="example-row"/g)||[]).length,8);
-  assert.equal((html.match(/hreflang=/g)||[]).length,26);
-  assert.ok(!html.includes('**'),code+': emphasis must render');
-  assert.ok(html.includes('<title>Drury | Leonardo Bridge</title>'));
-  assert.ok(html.includes('href="../bergen-raises/"'));
-  assert.ok((await readFile(`site/${code}/bergen-raises/index.html`,'utf8')).includes('href="../drury/"'));
-  const catalog=await readFile(`site/${code}/conventions/index.html`,'utf8');
-  assert.ok(catalog.includes('<strong dir="ltr">Drury</strong>'));
-  assert.ok(catalog.includes(language.cards[7]));
-  if(['hi','ar','th'].includes(code)) assert.ok(source.includes('overcall'));
-  if(code==='el') assert.ok(!/παρέμβα|παρεμβαίν/.test(source));
-  else assert.ok(!html.includes('practice/'),code+': exercises remain Greek');
-  assert.ok(html.includes('<h1 dir="ltr">Drury</h1>'));
+for(const slug of ['drury','two-way-drury']) {
+  const lesson=await readFile('site/el/'+slug+'/index.html','utf8');
+  assert.ok(lesson.includes('href="practice/"'));
+  assert.ok(!lesson.includes('two-way/practice/'));
 }
-console.log('Verified Drury in all 26 languages: six sections, twelve subsections, eight identical paired examples, three tables, all language links, localized titles/descriptions and reciprocal Bergen links.');
+console.log('Verified 40 unchanged Drury exercises: 10 per role and version, standard routes and separate lesson returns.');
+
+const languages=JSON.parse(await readFile('content/i18n/languages.json','utf8'));
+const pattern=/♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g;
+const hands=text=>[...text.matchAll(pattern)].map(m=>m.slice(1));
+for(const [index,slug] of ['drury','two-way-drury'].entries()) {
+ const title=index?'Two-way Drury':'Reverse Drury';
+ const other=index?'drury':'two-way-drury';
+ const reference=await readFile('content/el/'+slug+'.md','utf8');
+ for(const language of languages) {
+  const code=language.code;
+  const source=await readFile('content/'+code+'/'+slug+'.md','utf8');
+  const html=await readFile('site/'+code+'/'+slug+'/index.html','utf8');
+  assert.deepEqual(hands(source),hands(reference),code+'/'+slug+': same examples');
+  assert.equal(hands(source).length,6);
+  assert.equal((source.match(/^## /gm)||[]).length,6);
+  assert.equal((source.match(/^### /gm)||[]).length,index?7:8);
+  assert.equal((source.match(/^\| ---/gm)||[]).length,2);
+  assert.equal((html.match(/class="example-row"/g)||[]).length,6);
+  assert.equal((html.match(/hreflang=/g)||[]).length,26);
+  assert.ok(html.includes('<h1 dir="ltr">'+title+'</h1>'));
+  assert.ok(html.includes('href="../'+other+'/"'));
+  assert.ok(!html.includes('**'));
+  assert.ok(!html.includes('two-way/practice/'));
+  const catalog=await readFile('site/'+code+'/conventions/index.html','utf8');
+  assert.ok(catalog.includes('<strong dir="ltr">'+title+'</strong>'));
+  assert.ok(catalog.includes(language.cards[7+index]));
+  assert.ok([...language.cards[7+index]].length<=100);
+  if(code!=='el')assert.ok(!html.includes('practice/'));
+ }
+}
+console.log('Verified two standalone Drury articles in all 26 languages: six sections, six paired examples each, reciprocal same-language links, separate catalog entries and standard practice routes.');

@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Mikor használjuk?
 
-Korábban passzoltunk, partnerünk pedig **harmadik vagy negyedik helyen 1♥-rel vagy 1♠-del indul**. Itt az indulás legalább öt lapot ígér, az ellenfelek nem szólnak közbe. Gémre invitáló erővel és legalább háromlapos támogatással **mesterséges 2♣** a válasz, ami nem ígér treffet. Előbb **Reverse Drury**, majd a támogatás hosszát megkülönböztető **Two-way Drury** következik.
+Korábban passzoltunk, partnerünk pedig **harmadik vagy negyedik helyen 1♥-rel vagy 1♠-del indul**. Itt az indulás legalább öt lapot ígér, az ellenfelek nem szólnak közbe. Gémre invitáló erővel és legalább háromlapos támogatással **mesterséges 2♣** a válasz, ami nem ígér treffet.
 
 ## Mi a célja?
 
@@ -106,51 +106,11 @@ Az ellenfelek végig passzolnak.
 
 Egyes párok harmadik és negyedik helyen is [Bergen Raises](../bergen-raises/) módszert használnak. Ha Bergen már mutatja a legalább négyadus inviteket, a **2♣ Reverse Drury pontosan háromlapos támogatásra tartható fenn**, Two-way nélkül. Ez külön megállapodás: itt az egyszerű Drury **legalább három lapot** mutat.
 
-### Two-way Drury
-
-Az egyszerű Drury nem különbözteti meg a nyolclapos fitet a hosszabbtól, pedig ez befolyásolhatja a gémdöntést. Two-way esetén:
-
-| Válasz | Jelentés |
-| --- | --- |
-| 2♣ | Invit, pontosan háromlapos támogatás |
-| 2♦ | Invit, legalább négylapos támogatás |
-
-Mindkettő **mesterséges és egy fordulóra kényszerítő**, nem ígér hosszúságot a bemondott minorban. Továbbra is szükséges a korábbi passz és partnerünk harmadik vagy negyedik helyi 1♥/1♠ indulása.
-
-### Az induló folytatása Two-way esetén
-
-- **Kettő a nemesben játékra szól**; a válaszoló passzol.
-- **Négy a nemesben** elfogadja az invitet.
-
-**2♣** után továbbra is rendelkezésre áll a **2♦ kérdés**. **2♦ válasz** után a legalább négylapos támogatás ismert, és ez a kérdés már nem lehetséges. Más invitfolytatásokhoz külön megállapodás kell. A természetes **2♣** mellett a természetes **2♦ választ** is elveszítjük.
-
-### Two-way — pontosan három adu
-
-Passzoltunk; partnerünk **harmadik vagy negyedik helyen 1♠-del** indul, az ellenfelek passzolnak:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 figurapont, pontosan három adu; invit pontos támogatáshosszal.
-
-### Two-way — négy adu
-
-Ugyanez a helyzet, indulás **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 figurapont, négy adu és treff dubló. Az ígért ötös színnel az induló azonnal legalább kilenc aduról tud. Egyszerű Drury esetén **mindkét kézzel 2♣** lenne a válasz; Two-way **2♣ és 2♦** révén különböztet.
-
 ## Mire figyeljünk?
 
 - A korábbi passz szükséges a harmadik vagy negyedik helyi 1♥/1♠-hez.
 - Legalább háromlapos támogatás kell; fit nélküli jó kéz nem elég.
 - Itt **ellenfél kontrája vagy közbeszólása után nincs Drury**; a többi megállapodás érvényes.
 - Kettő a nemesben **játékra szól**; az invitet már megmutattuk, passzolunk.
-- Egyeztessük a változatot: egyszerű legalább három, Two-way pontosan három vagy legalább négy.
+- A Reverse Drury 2♣ válasza legalább háromlapos támogatást mutat. A [Two-way Drury](../two-way-drury/) pontosan három lapot mutat 2♣-fel, legalább négyet 2♦-val, mindig inviterővel.
 - Bergen ezekben a helyzetekben külön megállapodást igényel, főleg Drury mellett.

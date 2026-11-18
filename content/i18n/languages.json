@@ -36,7 +36,8 @@
       "Ισχυρή απλή βοήθεια και αδύναμο φιτ με πήδημα μετά από άνοιγμα σε μινέρ.",
       "Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ.",
       "Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ.",
-      "Προτασιακό φιτ από πασαρισμένο παίκτη: Reverse Drury, Two-way και επαναδηλώσεις."
+      "Προτασιακό φιτ 3φυλλο+ με 2♣ από πασαρισμένο παίκτη μετά από άνοιγμα 3ης ή 4ης θέσης.",
+      "Προτασιακό φιτ: 2♣ με ακριβώς 3φυλλο, 2♦ με 4φυλλο+, μετά από άνοιγμα 3ης ή 4ης θέσης."
     ]
   },
   {
@@ -76,7 +77,8 @@
       "Strong single raises and weak jump raises after a minor-suit opening.",
       "Constructive, invitational and weak raises after a major-suit opening.",
       "A game-forcing major-suit raise: describe the hand and explore slam.",
-      "Invitational support by a passed hand: Reverse Drury, Two-way and opener’s rebids."
+      "Invitational 2♣ support by a passed hand after a third- or fourth-seat opening.",
+      "Invitational support by a passed hand: 2♣ with exactly three cards, 2♦ with four or more."
     ]
   },
   {
@@ -116,7 +118,8 @@
       "Soutiens simples forts et soutiens à saut faibles après une ouverture mineure.",
       "Soutiens constructifs, propositionnels et faibles après une ouverture majeure.",
       "Un soutien majeur forcing de manche pour décrire la main et explorer le chelem.",
-      "Soutien propositionnel après passe : Reverse Drury, Two-way et redemandes de l’ouvreur."
+      "Soutien propositionnel après passe : 2♣ avec au moins trois atouts.",
+      "Soutien propositionnel après passe : 2♣ avec trois atouts exactement, 2♦ avec quatre ou plus."
     ]
   },
   {
@@ -156,7 +159,8 @@
       "Starke einfache Hebungen und schwache Sprunghebungen nach einer Unterfarberöffnung.",
       "Konstruktive, einladende und schwache Hebungen nach einer Oberfarbeneröffnung.",
       "Vollspielforcierende Oberfarbunterstützung: Handbeschreibung und Schlemmuntersuchung.",
-      "Einladende Unterstützung nach Pass: Reverse Drury, Two-way und Wiedergebote."
+      "Einladende Unterstützung nach Pass: 2♣ mit mindestens Dreieranschluss.",
+      "Einladende Unterstützung nach Pass: 2♣ mit genau drei, 2♦ mit mindestens vier Trümpfen."
     ]
   },
   {
@@ -196,7 +200,8 @@
       "Appoggi semplici forti e appoggi a salto deboli dopo un’apertura in minore.",
       "Appoggi costruttivi, invitanti e deboli dopo un’apertura in un nobile.",
       "Appoggio forte nel nobile, forcing manche, per descrivere la mano ed esplorare lo slam.",
-      "Reverse Drury e Two-way Drury: appoggio invitante a mano passata, ridichiarazioni ed esempi."
+      "Appoggio invitante a mano passata: 2♣ con almeno tre atout.",
+      "Appoggio invitante a mano passata: 2♣ con tre atout esatti, 2♦ con almeno quattro."
     ]
   },
   {
@@ -236,7 +241,8 @@
       "Apoyos simples fuertes y apoyos en salto débiles tras una apertura de menor.",
       "Apoyos constructivos, invitantes y débiles tras una apertura de mayor.",
       "Apoyo fuerte en mayor, forcing a manga, para describir la mano y explorar el slam.",
-      "Reverse Drury y Two-way Drury: apoyo invitante de una mano pasada, redeclaraciones y ejemplos."
+      "Apoyo invitante tras pase: 2♣ con al menos tres triunfos.",
+      "Apoyo invitante tras pase: 2♣ con tres triunfos exactos, 2♦ con cuatro o más."
     ]
   },
   {
@@ -276,7 +282,8 @@
       "Apoios simples fortes e apoios em salto fracos após uma abertura em menor.",
       "Apoios constructive, de convite e fracos após abertura num rico.",
       "Apoio forte no rico, forcing de partida, para descrever a mão e investigar o cheleme.",
-      "Reverse Drury e Two-way Drury: apoio de convite após passe, segunda voz do abridor e exemplos."
+      "Apoio de convite após passe: 2♣ com pelo menos três trunfos.",
+      "Apoio de convite após passe: 2♣ com três trunfos exatos, 2♦ com quatro ou mais."
     ]
   },
   {
@@ -316,7 +323,8 @@
       "Sterke enkele verhogingen en zwakke sprongverhogingen na een opening in een lage kleur.",
       "Constructive, inviterende en zwakke verhogingen na een opening in een hoge kleur.",
       "Een sterke mancheforcing verhoging in een hoge kleur, met ruimte voor slemonderzoek.",
-      "Reverse Drury en Two-way Drury: inviterende steun na een eerdere pas, herbiedingen en voorbeelden."
+      "Inviterende steun na een eerdere pas: 2♣ met minstens driekaartsteun.",
+      "Inviterende steun na pas: 2♣ met precies drie kaarten, 2♦ met vier of meer."
     ]
   },
   {
@@ -356,7 +364,8 @@
       "Minör açışından sonra güçlü basit destek ve zayıf sıçramalı destek.",
       "Majör açışından sonra constructive, zon daveti ve zayıf destekler.",
       "Majöre güçlü destek: zon forsingiyle eli tarif etme ve şlem araştırması.",
-      "Reverse Drury ve Two-way Drury: pas geçmiş elden davet desteği, açanın rebidleri ve örnekler."
+      "Pas geçmiş elden davet desteği: 2♣ ile en az üç kart destek.",
+      "Pas geçmiş elden davet desteği: 2♣ tam üç, 2♦ en az dört kart destek."
     ]
   },
   {
@@ -396,7 +405,8 @@
       "Starka enkelhöjningar och svaga hoppstöd efter en lågfärgsöppning.",
       "Konstruktiva, inviterande och svaga höjningar efter högfärgsöppning.",
       "Starkt högfärgsstöd med utgångskrav: beskriv handen och undersök slam.",
-      "Reverse Drury och Two-way Drury: inviterande stöd efter pass, öppnarens återbud och exempel."
+      "Inviterande stöd efter pass: 2♣ med minst trekortsstöd.",
+      "Inviterande stöd efter pass: 2♣ med exakt tre kort, 2♦ med fyra eller fler."
     ]
   },
   {
@@ -436,7 +446,8 @@
       "Stærk simpel støtte og svag springstøtte efter en minoråbning.",
       "Konstruktivt støttebud, udgangsinvit og svag støtte efter majoråbning.",
       "Stærk støtte i major med udgangskrav, håndbeskrivelse og slemundersøgelse.",
-      "Reverse Drury og Two-way Drury: inviterende støtte efter pas, åbners genmelding og eksempler."
+      "Inviterende støtte efter pas: 2♣ med mindst trekortsstøtte.",
+      "Inviterende støtte efter pas: 2♣ med præcis tre kort, 2♦ med fire eller flere."
     ]
   },
   {
@@ -476,7 +487,8 @@
       "Sterke enkle høyninger og svake hoppstøtter etter en minoråpning.",
       "Konstruktive, inviterende og svake høyninger etter majoråpning.",
       "Sterk majorstøtte med utgangskrav, håndbeskrivelse og sleminteresse.",
-      "Reverse Drury og Two-way Drury: inviterende støtte etter pass, åpners gjenmelding og eksempler."
+      "Inviterende støtte etter pass: 2♣ med minst trekortsstøtte.",
+      "Inviterende støtte etter pass: 2♣ med nøyaktig tre kort, 2♦ med fire eller flere."
     ]
   },
   {
@@ -516,7 +528,8 @@
       "Vahva yksinkertainen korotus ja heikko hyppykorotus alaväriavauksen jälkeen.",
       "Constructive-tuki, täyspelivihje ja heikko korotus yläväriavauksen jälkeen.",
       "Vahva ylävärituki ja täyspelivaatimus: käden kuvaaminen ja slammin tutkiminen.",
-      "Reverse Drury ja Two-way Drury: inviittituki passanneelta kädeltä, avaajan jatkot ja esimerkit."
+      "Inviittituki passanneelta kädeltä: 2♣ vähintään kolmen kortin tuella.",
+      "Inviittituki passanneelta kädeltä: 2♣ tasan kolmella, 2♦ vähintään neljällä kortilla."
     ]
   },
   {
@@ -556,7 +569,8 @@
       "Silne pojedyncze podniesienia i słabe podniesienia z przeskokiem po otwarciu w kolor młodszy.",
       "Podniesienia konstruktywne, inwitujące i słabe po otwarciu w kolor starszy.",
       "Silne poparcie starszego koloru, forsujące do końcówki, z miejscem na szlemika.",
-      "Reverse Drury i Two-way Drury: inwitujące poparcie po pasie, rebidy otwierającego i przykłady."
+      "Inwitujące poparcie po pasie: 2♣ z co najmniej trzema atutami.",
+      "Inwitujące poparcie po pasie: 2♣ z dokładnie trzema, 2♦ z co najmniej czterema atutami."
     ]
   },
   {
@@ -596,7 +610,8 @@
       "Silné jednoduché zvýšení a slabé zvýšení skokem po zahájení v levné barvě.",
       "Podpora constructive, výzva a slabé zvýšení po zahájení v drahé barvě.",
       "Silná podpora drahé barvy, manšforsující, s prostorem pro zkoumání slemu.",
-      "Reverse Drury a Two-way Drury: invitující podpora po předchozím pasu, rebidy a příklady."
+      "Invitující podpora po pasu: 2♣ s alespoň třemi trumfy.",
+      "Invitující podpora po pasu: 2♣ s přesně třemi, 2♦ s alespoň čtyřmi trumfy."
     ]
   },
   {
@@ -636,7 +651,8 @@
       "Erős egyszerű emelés és gyenge ugróemelés minor indulás után.",
       "Constructive, géminvitáló és gyenge emelések nemesszín-indulás után.",
       "Erős major támogatás, gémforsz, kézleírás és szlemvizsgálat.",
-      "Invitáló támogatás passz után: Reverse Drury, Two-way és az induló folytatásai."
+      "Invitáló támogatás passz után: 2♣ legalább három aduval.",
+      "Invitáló támogatás passz után: 2♣ pontosan három, 2♦ legalább négy aduval."
     ]
   },
   {
@@ -676,7 +692,8 @@
       "Sterk einföld hækkun og veik stökkhækkun eftir opnun í láglit.",
       "Constructive stuðningur, geimáskorun og veik hækkun eftir hálitaopnun.",
       "Sterkur stuðningur við hálit sem krefst geims og opnar fyrir slemmuleit.",
-      "Reverse Drury og Two-way Drury: áskorunarstuðningur eftir pass, endursagnir og dæmi."
+      "Áskorunarstuðningur eftir pass: 2♣ með að minnsta kosti þremur trompum.",
+      "Áskorun eftir pass: 2♣ með nákvæmlega þrjú tromp, 2♦ með fjögur eða fleiri."
     ]
   },
   {
@@ -716,7 +733,8 @@
       "低花开叫后的强单加叫与弱跳加叫。",
       "高花开叫后的constructive支持、邀局加叫和弱加叫。",
       "逼叫到局的高花加叫：描述牌型并探索满贯。",
-      "Reverse Drury与Two-way Drury：不叫过的牌手表示邀局支持，开叫人的再叫及示例。"
+      "不叫过的牌手用2♣表示至少三张支持的邀局牌。",
+      "不叫过的牌手表示邀局支持：2♣恰好三张，2♦至少四张。"
     ]
   },
   {
@@ -756,7 +774,8 @@
       "マイナーのオープン後に使う、強いシングルレイズと弱いジャンプレイズ。",
       "メジャーオープン後のconstructive、インビテーション、弱いレイズ。",
       "ゲームフォーシングのメジャー・レイズで、手を説明してスラムを探ります。",
-      "Reverse DruryとTwo-way Drury。パスした手のインビテーション、オープナーのリビッドと例。"
+      "パスした手のインビテーション。2♣で３枚以上のサポートを示します。",
+      "パスした手のインビテーション。2♣はちょうど３枚、2♦は４枚以上のサポート。"
     ]
   },
   {
@@ -796,7 +815,8 @@
       "העלאה פשוטה חזקה והעלאה בקפיצה חלשה לאחר פתיחה במיינור.",
       "תמיכות constructive, הזמנות והעלאות חלשות אחרי פתיחה במייג׳ור.",
       "תמיכה במייג׳ור המחייבת למשחק מלא, עם תיאור היד ובדיקת סלם.",
-      "Reverse Drury ו־Two-way Drury: תמיכה מזמינה לאחר Pass, הכרזות חוזרות ודוגמאות."
+      "תמיכה מזמינה לאחר Pass: התשובה 2♣ מראה לפחות שלושה שליטים.",
+      "תמיכה מזמינה לאחר Pass: התשובה 2♣ עם שלושה שליטים בדיוק, 2♦ עם ארבעה לפחות."
     ],
     "dir": "rtl"
   },
@@ -837,7 +857,8 @@
       "माइनर ओपनिंग के बाद मजबूत साधारण रेज़ और कमजोर जंप रेज़।",
       "मेजर ओपनिंग के बाद constructive समर्थन, गेम का निमंत्रण और कमजोर रेज़।",
       "मेजर में गेम तक बाध्य करने वाला समर्थन: हाथ का वर्णन और स्लैम की खोज।",
-      "Reverse Drury और Two-way Drury: Pass किए हाथ का आमंत्रण समर्थन, ओपनर की अगली बोली और उदाहरण।"
+      "Pass किए हाथ का आमंत्रण: 2♣ से कम से कम तीन कार्ड समर्थन।",
+      "Pass किए हाथ का आमंत्रण: 2♣ ठीक तीन, 2♦ कम से कम चार कार्ड समर्थन।"
     ]
   },
   {
@@ -877,7 +898,8 @@
       "Сильные простые повышения и слабые повышения прыжком после открытия в миноре.",
       "Поддержки constructive, инвитирующие и слабые после мажорного открытия.",
       "Форсирующая до гейма поддержка мажора: описание руки и поиск шлема.",
-      "Reverse Drury и Two-way Drury: инвитная поддержка после паса, повторные заявки и примеры."
+      "Инвитная поддержка после паса: 2♣ с тремя и более козырями.",
+      "Инвитная поддержка после паса: 2♣ с ровно тремя, 2♦ с минимум четырьмя козырями."
     ]
   },
   {
@@ -917,7 +939,8 @@
       "Kenaikan sederhana kuat dan kenaikan lompatan lemah setelah pembukaan minor.",
       "Dukungan constructive, undangan game dan raise lemah setelah pembukaan major.",
       "Dukungan major forcing sampai game untuk menggambarkan pegangan dan menjajaki slam.",
-      "Reverse Drury dan Two-way Drury: dukungan invitasi setelah pass, tawaran ulang pembuka dan contoh."
+      "Dukungan invitasi setelah pass: 2♣ dengan minimal tiga kartu dukungan.",
+      "Dukungan invitasi setelah pass: 2♣ tepat tiga kartu, 2♦ minimal empat kartu."
     ]
   },
   {
@@ -957,7 +980,8 @@
       "زيادة بسيطة قوية وزيادة بالقفز ضعيفة بعد افتتاح بلون صغير.",
       "دعم constructive ودعوات إلى game ورفع ضعيف بعد افتتاح الميجور.",
       "دعم للون كبير يفرض الوصول إلى الجيم، مع وصف اليد واستكشاف السلام.",
-      "Reverse Drury وTwo-way Drury: دعم بقوة الدعوة بعد Pass، ومتابعة المفتتح وأمثلة."
+      "دعم بقوة الدعوة بعد Pass: إجابة 2♣ بثلاث أوراق دعم على الأقل.",
+      "دعم بقوة الدعوة بعد Pass: إجابة 2♣ بثلاث أوراق بالضبط، و2♦ بأربع أوراق فأكثر."
     ],
     "dir": "rtl"
   },
@@ -998,7 +1022,8 @@
       "การสนับสนุนแบบไม่กระโดดที่แข็งแกร่งและแบบกระโดดที่อ่อนหลังเปิดไมเนอร์",
       "การสนับสนุนแบบ constructive การเชิญเกม และการขึ้นด้วยมืออ่อนหลังเปิดเมเจอร์",
       "การสนับสนุนเมเจอร์แบบบังคับถึงเกม เพื่ออธิบายมือและสำรวจสแลม",
-      "Reverse Drury และ Two-way Drury: สนับสนุนเชิญเกมหลัง Pass คำเรียกต่อของผู้เปิดและตัวอย่าง"
+      "มือที่ Pass แล้วเชิญเกมด้วย 2♣ เมื่อสนับสนุนอย่างน้อยสามใบ",
+      "มือที่ Pass แล้วเชิญเกม: 2♣ สนับสนุนสามใบพอดี และ 2♦ สี่ใบขึ้นไป"
     ]
   },
   {
@@ -1038,7 +1063,8 @@
       "마이너 오픈 후 사용하는 강한 싱글 레이즈와 약한 점프 레이즈.",
       "메이저 오프닝 뒤 constructive 지지, 게임 초청과 약한 레이즈.",
       "게임 포싱 메이저 레이즈로 패를 설명하고 슬램을 탐색합니다.",
-      "Reverse Drury와 Two-way Drury: 패스한 손의 인비테이션 서포트, 오프너의 리비드와 예제."
+      "패스한 손의 인비테이션: 2♣로 3장 이상 서포트를 보여 줍니다.",
+      "패스한 손의 인비테이션: 2♣는 정확히 3장, 2♦는 4장 이상 서포트입니다."
     ]
   }
 ]

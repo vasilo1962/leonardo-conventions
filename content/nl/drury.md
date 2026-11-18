@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## Wanneer toepassen?
 
-Wij hebben al gepast en partner opent **1♥ of 1♠ in de derde of vierde hand**. Hier belooft dat minstens vijf kaarten en de tegenstanders bieden niet tussen. Met inviterende kracht en minstens driekaartsteun antwoorden wij **2♣ kunstmatig**, zonder klaveren te tonen. Eerst behandelen we **Reverse Drury**, daarna **Two-way Drury**, dat de steunlengte onderscheidt.
+Wij hebben al gepast en partner opent **1♥ of 1♠ in de derde of vierde hand**. Hier belooft dat minstens vijf kaarten en de tegenstanders bieden niet tussen. Met inviterende kracht en minstens driekaartsteun antwoorden wij **2♣ kunstmatig**, zonder klaveren te tonen.
 
 ## Waarvoor dient het?
 
@@ -106,51 +106,11 @@ Wij openden **1♠ in derde hand**, antwoord **2♣ Drury**:
 
 Sommige paren spelen [Bergen Raises](../bergen-raises/) ook in derde en vierde hand. Als Bergen de inviterende handen met minstens vier troeven toont, kan **2♣ Reverse Drury precies driekaartsteun** beloven, zonder Two-way. Dit is een aparte afspraak: hier toont eenvoudig Drury **minstens driekaartsteun**.
 
-### Two-way Drury
-
-Eenvoudig Drury onderscheidt geen achtkaartfit van een langere fit, terwijl dat de manchebeslissing kan beïnvloeden. Two-way onderscheidt:
-
-| Antwoord | Betekenis |
-| --- | --- |
-| 2♣ | Inviterend, precies driekaartsteun |
-| 2♦ | Inviterend, minstens vierkaartsteun |
-
-Beide zijn **kunstmatig en één ronde forcing**, zonder lengte in de genoemde lage kleur. Vooraf passen en partners opening 1♥/1♠ in derde of vierde hand blijven vereist.
-
-### Herbiedingen bij Two-way
-
-- **Twee in de hoge kleur is om te spelen**; antwoorder past.
-- **Vier in de hoge kleur** accepteert de invitatie.
-
-Na **2♣** blijft de vraag **2♦** beschikbaar. Na antwoord **2♦** is minstens vierkaartsteun bekend en vervalt die vraag. Andere inviterende vervolgen vereisen aparte afspraken. We verliezen naast het natuurlijke antwoord **2♣** ook het natuurlijke **2♦**.
-
-### Two-way — precies driekaartsteun
-
-Wij hebben gepast; opening **1♠ in derde of vierde hand**, tegenstanders passen:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-**2♣ Drury**: 11 honneurpunten en precies drie troeven; inviterend met nauwkeurige steunlengte.
-
-### Two-way — vierkaartsteun
-
-Dezelfde situatie, opening **1♠**:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-**2♦ Drury**: 11 honneurpunten, vier troeven en doubleton klaveren. Tegenover de beloofde vijfkaart kent openaar onmiddellijk minstens negen troeven. Eenvoudig Drury gebruikt **2♣ met beide handen**; Two-way onderscheidt ze met **2♣ en 2♦**.
-
 ## Aandachtspunten
 
 - Vooraf passen is verplicht tegenover 1♥/1♠ in derde of vierde hand.
 - Minstens driekaartsteun; een goede hand zonder fit is onvoldoende.
 - Hier **geen Drury na een vijandelijk doublet of volgbod**: gebruik de overige afspraken.
 - Twee in de hoge kleur is **om te spelen**; de invitatie is al getoond, dus pas.
-- Spreek de versie af: eenvoudig drie-plus; Two-way precies drie of vier-plus.
+- Bij Reverse Drury toont 2♣ minstens driekaartsteun. [Two-way Drury](../two-way-drury/) onderscheidt precies drie kaarten met 2♣ van vier of meer met 2♦, steeds met inviterende kracht.
 - Bergen in deze posities vereist een aparte afspraak, vooral naast Drury.

@@ -1,8 +1,8 @@
-# Drury
+# Reverse Drury
 
 ## When does it apply?
 
-Use **Drury** after you have passed and partner opens **1♥ or 1♠ in third or fourth seat**. In this lesson the opening promises at least five cards and opponents do not overcall. With invitational values and three-card or longer support, respond **2♣**, an artificial bid unrelated to clubs. We first explain **Reverse Drury**, then **Two-way Drury**, which distinguishes three-card support from longer support.
+Use **Reverse Drury** after you have passed and partner opens **1♥ or 1♠ in third or fourth seat**. In this lesson the opening promises at least five cards and opponents do not overcall. With invitational values and three-card or longer support, respond **2♣**, an artificial bid unrelated to clubs.
 
 ## What is it for?
 
@@ -110,51 +110,11 @@ Some partnerships also play [Bergen Raises](../bergen-raises/) over third- and f
 
 That is a separate partnership agreement. In this lesson's simple version, **2♣ promises at least three-card support**.
 
-### Two-way Drury
-
-Simple Drury does not tell opener whether the partnership has an eight-card or longer fit, which may affect the game decision. **Two-way Drury** distinguishes the cases:
-
-| Response | Meaning |
-| --- | --- |
-| 2♣ | Invitational, exactly three-card support |
-| 2♦ | Invitational, at least four-card support |
-
-Both are **artificial and forcing one round**, not natural minor-suit bids. You must still have passed before partner's third- or fourth-seat 1♥/1♠ opening.
-
-### Opener's rebid in Two-way
-
-- **Two of the opening major is to play**; responder passes.
-- **Four of the major** accepts the invitation and bids game.
-
-After **2♣**, opener's **2♦** enquiry remains available. After a **2♦ response**, opener already knows of four-card or longer support, and that enquiry is unavailable. Other invitational continuations require a separate agreement. The cost of Two-way is losing the natural **2♦ response** as well as the natural **2♣ response**.
-
-### Two-way example — exactly three-card support
-
-You have passed; partner opens **1♠ in third or fourth seat** and opponents pass:
-
-♠ KQ7  
-♥ A84  
-♦ Q962  
-♣ 853
-
-Bid **2♣ Drury**. With 11 HCP and exactly three trumps, show invitational strength and the precise support length.
-
-### Two-way example — four-card support
-
-You have passed; partner opens **1♠ in third or fourth seat** and opponents pass:
-
-♠ KQ74  
-♥ A83  
-♦ Q962  
-♣ 85
-
-Bid **2♦ Drury**. Again 11 HCP, but with four-card support and a club doubleton. Opposite the promised five-card opening, opener immediately knows of at least a nine-card fit. Simple Drury would use **2♣ with both hands**; Two-way separates them with **2♣ and 2♦**.
-
 ## Points to remember
 
 - **A previous pass is essential:** Drury is a passed-hand response to partner's third- or fourth-seat 1♥/1♠ opening.
 - **A fit is essential:** a good hand without at least three-card support is insufficient.
 - **In this lesson Drury is off after an opposing double or overcall.** Use your other partnership agreements.
 - **Two of the major is to play.** You have already shown invitational strength; pass.
-- **Agree on the version:** simple 2♣ shows three-plus; Two-way 2♣ exactly three and 2♦ four-plus.
+- In Reverse Drury, 2♣ shows at least three-card support. [Two-way Drury](../two-way-drury/) separates exactly three cards with 2♣ from four or more with 2♦, always with invitational strength.
 - **Agree on Bergen too:** its use after third- and fourth-seat openings needs a separate agreement, particularly alongside Drury.

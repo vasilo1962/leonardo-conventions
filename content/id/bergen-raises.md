@@ -171,4 +171,4 @@ Kita bid **4♠**. 9 poin honor adalah maksimum respons constructive kita. Kita 
 - **Rentang poin berbeda menurut versi.** Di sini constructive 3♣ menunjukkan 7–9, dan undangan 3♦ 10–12.
 - **Reverse Bergen menukar arti 3♣ dan 3♦.** Pastikan versi yang dimainkan.
 - **Setelah double atau overcall tingkat satu**, Bergen hanya dipertahankan berdasarkan kesepakatan dan jika bid masih tersedia.
-- **Untuk pembukaan posisi ketiga atau keempat**, penggunaan Bergen memerlukan kesepakatan terpisah, terutama jika pasangan memakai [Drury](../drury/).
+- **Untuk pembukaan posisi ketiga atau keempat**, penggunaan Bergen memerlukan kesepakatan terpisah, terutama jika pasangan memakai [Reverse Drury](../drury/).

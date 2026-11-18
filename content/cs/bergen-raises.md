@@ -171,4 +171,4 @@ Dražíme **4♠**. Našich 9 figurových bodů je maximum odpovědi constructiv
 - **Bodové meze se liší podle varianty.** Zde constructive 3♣ ukazuje 7–9 a výzva 3♦ 10–12.
 - **Reverse Bergen prohazuje význam 3♣ a 3♦.** Je třeba znát hranou variantu.
 - **Po kontra nebo zásahu na prvním stupni** Bergen zachováváme jen po dohodě a při dostupnosti hlášek.
-- **Při zahájeních na třetím či čtvrtém místě** je třeba samostatná dohoda, zvláště používá-li dvojice [Drury](../drury/).
+- **Při zahájeních na třetím či čtvrtém místě** je třeba samostatná dohoda, zvláště používá-li dvojice [Reverse Drury](../drury/).
