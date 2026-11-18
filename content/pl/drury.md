@@ -1,4 +1,4 @@
-# Drury — poparcie po otwarciu na trzeciej lub czwartej ręce
+# Drury
 
 ## Kiedy stosujemy?
 

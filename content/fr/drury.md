@@ -1,4 +1,4 @@
-# Drury — soutien après une ouverture en troisième ou quatrième position
+# Drury
 
 ## Quand l'utiliser ?
 

@@ -1,4 +1,4 @@
-# Drury — támogatás harmadik vagy negyedik helyi indulás után
+# Drury
 
 ## Mikor használjuk?
 

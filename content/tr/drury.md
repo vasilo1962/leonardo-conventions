@@ -1,4 +1,4 @@
-# Drury — üçüncü veya dördüncü pozisyon açışından sonra destek
+# Drury
 
 ## Ne zaman kullanılır?
 

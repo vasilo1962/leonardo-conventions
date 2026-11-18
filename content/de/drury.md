@@ -1,4 +1,4 @@
-# Drury — Unterstützung nach einer Eröffnung in dritter oder vierter Hand
+# Drury
 
 ## Wann wird es angewendet?
 

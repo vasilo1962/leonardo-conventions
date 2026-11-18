@@ -1,4 +1,4 @@
-# Drury — dukungan setelah pembukaan posisi ketiga atau keempat
+# Drury
 
 ## Kapan digunakan?
 

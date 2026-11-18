@@ -1,4 +1,4 @@
-# Drury — support after a third- or fourth-seat opening
+# Drury
 
 ## When does it apply?
 

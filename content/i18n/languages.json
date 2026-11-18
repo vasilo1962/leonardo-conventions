@@ -36,9 +36,8 @@
       "Ισχυρή απλή βοήθεια και αδύναμο φιτ με πήδημα μετά από άνοιγμα σε μινέρ.",
       "Constructive, προτασιακό και αδύναμο φιτ μετά από άνοιγμα σε μαζέρ.",
       "Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ.",
-      "Reverse Drury και Two-way Drury: προτασιακό φιτ από πασαρισμένο παίκτη, επαναδηλώσεις και παραδείγματα."
-    ],
-    "druryTitle": "Drury — φιτ μετά από άνοιγμα 3ης ή 4ης θέσης"
+      "Προτασιακό φιτ από πασαρισμένο παίκτη: Reverse Drury, Two-way και επαναδηλώσεις."
+    ]
   },
   {
     "code": "en",
@@ -77,9 +76,8 @@
       "Strong single raises and weak jump raises after a minor-suit opening.",
       "Constructive, invitational and weak raises after a major-suit opening.",
       "A game-forcing major-suit raise: describe the hand and explore slam.",
-      "Reverse Drury and Two-way Drury: invitational support by a passed hand, opener’s rebids and examples."
-    ],
-    "druryTitle": "Drury — support after a third- or fourth-seat opening"
+      "Invitational support by a passed hand: Reverse Drury, Two-way and opener’s rebids."
+    ]
   },
   {
     "code": "fr",
@@ -118,9 +116,8 @@
       "Soutiens simples forts et soutiens à saut faibles après une ouverture mineure.",
       "Soutiens constructifs, propositionnels et faibles après une ouverture majeure.",
       "Un soutien majeur forcing de manche pour décrire la main et explorer le chelem.",
-      "Reverse Drury et Two-way Drury : soutien propositionnel après passe, redemandes de l’ouvreur et exemples."
-    ],
-    "druryTitle": "Drury — soutien après une ouverture en troisième ou quatrième position"
+      "Soutien propositionnel après passe : Reverse Drury, Two-way et redemandes de l’ouvreur."
+    ]
   },
   {
     "code": "de",
@@ -159,9 +156,8 @@
       "Starke einfache Hebungen und schwache Sprunghebungen nach einer Unterfarberöffnung.",
       "Konstruktive, einladende und schwache Hebungen nach einer Oberfarbeneröffnung.",
       "Vollspielforcierende Oberfarbunterstützung: Handbeschreibung und Schlemmuntersuchung.",
-      "Reverse Drury und Two-way Drury: einladende Unterstützung nach vorherigem Pass, Wiedergebote und Beispiele."
-    ],
-    "druryTitle": "Drury — Unterstützung nach einer Eröffnung in dritter oder vierter Hand"
+      "Einladende Unterstützung nach Pass: Reverse Drury, Two-way und Wiedergebote."
+    ]
   },
   {
     "code": "it",
@@ -201,8 +197,7 @@
       "Appoggi costruttivi, invitanti e deboli dopo un’apertura in un nobile.",
       "Appoggio forte nel nobile, forcing manche, per descrivere la mano ed esplorare lo slam.",
       "Reverse Drury e Two-way Drury: appoggio invitante a mano passata, ridichiarazioni ed esempi."
-    ],
-    "druryTitle": "Drury — appoggio dopo apertura in terza o quarta posizione"
+    ]
   },
   {
     "code": "es",
@@ -242,8 +237,7 @@
       "Apoyos constructivos, invitantes y débiles tras una apertura de mayor.",
       "Apoyo fuerte en mayor, forcing a manga, para describir la mano y explorar el slam.",
       "Reverse Drury y Two-way Drury: apoyo invitante de una mano pasada, redeclaraciones y ejemplos."
-    ],
-    "druryTitle": "Drury — apoyo tras apertura en tercera o cuarta posición"
+    ]
   },
   {
     "code": "pt",
@@ -283,8 +277,7 @@
       "Apoios constructive, de convite e fracos após abertura num rico.",
       "Apoio forte no rico, forcing de partida, para descrever a mão e investigar o cheleme.",
       "Reverse Drury e Two-way Drury: apoio de convite após passe, segunda voz do abridor e exemplos."
-    ],
-    "druryTitle": "Drury — apoio após abertura em terceira ou quarta posição"
+    ]
   },
   {
     "code": "nl",
@@ -324,8 +317,7 @@
       "Constructive, inviterende en zwakke verhogingen na een opening in een hoge kleur.",
       "Een sterke mancheforcing verhoging in een hoge kleur, met ruimte voor slemonderzoek.",
       "Reverse Drury en Two-way Drury: inviterende steun na een eerdere pas, herbiedingen en voorbeelden."
-    ],
-    "druryTitle": "Drury — steun na een opening in de derde of vierde hand"
+    ]
   },
   {
     "code": "tr",
@@ -365,8 +357,7 @@
       "Majör açışından sonra constructive, zon daveti ve zayıf destekler.",
       "Majöre güçlü destek: zon forsingiyle eli tarif etme ve şlem araştırması.",
       "Reverse Drury ve Two-way Drury: pas geçmiş elden davet desteği, açanın rebidleri ve örnekler."
-    ],
-    "druryTitle": "Drury — üçüncü veya dördüncü pozisyon açışından sonra destek"
+    ]
   },
   {
     "code": "sv",
@@ -406,8 +397,7 @@
       "Konstruktiva, inviterande och svaga höjningar efter högfärgsöppning.",
       "Starkt högfärgsstöd med utgångskrav: beskriv handen och undersök slam.",
       "Reverse Drury och Two-way Drury: inviterande stöd efter pass, öppnarens återbud och exempel."
-    ],
-    "druryTitle": "Drury — stöd efter öppning i tredje eller fjärde hand"
+    ]
   },
   {
     "code": "da",
@@ -447,8 +437,7 @@
       "Konstruktivt støttebud, udgangsinvit og svag støtte efter majoråbning.",
       "Stærk støtte i major med udgangskrav, håndbeskrivelse og slemundersøgelse.",
       "Reverse Drury og Two-way Drury: inviterende støtte efter pas, åbners genmelding og eksempler."
-    ],
-    "druryTitle": "Drury — støtte efter åbning i tredje eller fjerde hånd"
+    ]
   },
   {
     "code": "no",
@@ -488,8 +477,7 @@
       "Konstruktive, inviterende og svake høyninger etter majoråpning.",
       "Sterk majorstøtte med utgangskrav, håndbeskrivelse og sleminteresse.",
       "Reverse Drury og Two-way Drury: inviterende støtte etter pass, åpners gjenmelding og eksempler."
-    ],
-    "druryTitle": "Drury — støtte etter åpning i tredje eller fjerde hånd"
+    ]
   },
   {
     "code": "fi",
@@ -529,8 +517,7 @@
       "Constructive-tuki, täyspelivihje ja heikko korotus yläväriavauksen jälkeen.",
       "Vahva ylävärituki ja täyspelivaatimus: käden kuvaaminen ja slammin tutkiminen.",
       "Reverse Drury ja Two-way Drury: inviittituki passanneelta kädeltä, avaajan jatkot ja esimerkit."
-    ],
-    "druryTitle": "Drury — tuki kolmannen tai neljännen käden avauksen jälkeen"
+    ]
   },
   {
     "code": "pl",
@@ -570,8 +557,7 @@
       "Podniesienia konstruktywne, inwitujące i słabe po otwarciu w kolor starszy.",
       "Silne poparcie starszego koloru, forsujące do końcówki, z miejscem na szlemika.",
       "Reverse Drury i Two-way Drury: inwitujące poparcie po pasie, rebidy otwierającego i przykłady."
-    ],
-    "druryTitle": "Drury — poparcie po otwarciu na trzeciej lub czwartej ręce"
+    ]
   },
   {
     "code": "cs",
@@ -611,8 +597,7 @@
       "Podpora constructive, výzva a slabé zvýšení po zahájení v drahé barvě.",
       "Silná podpora drahé barvy, manšforsující, s prostorem pro zkoumání slemu.",
       "Reverse Drury a Two-way Drury: invitující podpora po předchozím pasu, rebidy a příklady."
-    ],
-    "druryTitle": "Drury — podpora po zahájení na třetím či čtvrtém místě"
+    ]
   },
   {
     "code": "hu",
@@ -651,9 +636,8 @@
       "Erős egyszerű emelés és gyenge ugróemelés minor indulás után.",
       "Constructive, géminvitáló és gyenge emelések nemesszín-indulás után.",
       "Erős major támogatás, gémforsz, kézleírás és szlemvizsgálat.",
-      "Reverse Drury és Two-way Drury: invitáló támogatás korábbi passz után, az induló folytatásai és példák."
-    ],
-    "druryTitle": "Drury — támogatás harmadik vagy negyedik helyi indulás után"
+      "Invitáló támogatás passz után: Reverse Drury, Two-way és az induló folytatásai."
+    ]
   },
   {
     "code": "is",
@@ -693,8 +677,7 @@
       "Constructive stuðningur, geimáskorun og veik hækkun eftir hálitaopnun.",
       "Sterkur stuðningur við hálit sem krefst geims og opnar fyrir slemmuleit.",
       "Reverse Drury og Two-way Drury: áskorunarstuðningur eftir pass, endursagnir og dæmi."
-    ],
-    "druryTitle": "Drury — stuðningur eftir opnun í þriðju eða fjórðu hendi"
+    ]
   },
   {
     "code": "zh",
@@ -734,8 +717,7 @@
       "高花开叫后的constructive支持、邀局加叫和弱加叫。",
       "逼叫到局的高花加叫：描述牌型并探索满贯。",
       "Reverse Drury与Two-way Drury：不叫过的牌手表示邀局支持，开叫人的再叫及示例。"
-    ],
-    "druryTitle": "Drury — 第三或第四家开叫后的加叫"
+    ]
   },
   {
     "code": "ja",
@@ -775,8 +757,7 @@
       "メジャーオープン後のconstructive、インビテーション、弱いレイズ。",
       "ゲームフォーシングのメジャー・レイズで、手を説明してスラムを探ります。",
       "Reverse DruryとTwo-way Drury。パスした手のインビテーション、オープナーのリビッドと例。"
-    ],
-    "druryTitle": "Drury — ３番手・４番手のオープンに対するサポート"
+    ]
   },
   {
     "code": "he",
@@ -817,8 +798,7 @@
       "תמיכה במייג׳ור המחייבת למשחק מלא, עם תיאור היד ובדיקת סלם.",
       "Reverse Drury ו־Two-way Drury: תמיכה מזמינה לאחר Pass, הכרזות חוזרות ודוגמאות."
     ],
-    "dir": "rtl",
-    "druryTitle": "Drury — תמיכה לאחר פתיחה ביד שלישית או רביעית"
+    "dir": "rtl"
   },
   {
     "code": "hi",
@@ -858,8 +838,7 @@
       "मेजर ओपनिंग के बाद constructive समर्थन, गेम का निमंत्रण और कमजोर रेज़।",
       "मेजर में गेम तक बाध्य करने वाला समर्थन: हाथ का वर्णन और स्लैम की खोज।",
       "Reverse Drury और Two-way Drury: Pass किए हाथ का आमंत्रण समर्थन, ओपनर की अगली बोली और उदाहरण।"
-    ],
-    "druryTitle": "Drury — तीसरे या चौथे स्थान की ओपनिंग के बाद समर्थन"
+    ]
   },
   {
     "code": "ru",
@@ -899,8 +878,7 @@
       "Поддержки constructive, инвитирующие и слабые после мажорного открытия.",
       "Форсирующая до гейма поддержка мажора: описание руки и поиск шлема.",
       "Reverse Drury и Two-way Drury: инвитная поддержка после паса, повторные заявки и примеры."
-    ],
-    "druryTitle": "Drury — поддержка после открытия на третьей или четвёртой руке"
+    ]
   },
   {
     "code": "id",
@@ -940,8 +918,7 @@
       "Dukungan constructive, undangan game dan raise lemah setelah pembukaan major.",
       "Dukungan major forcing sampai game untuk menggambarkan pegangan dan menjajaki slam.",
       "Reverse Drury dan Two-way Drury: dukungan invitasi setelah pass, tawaran ulang pembuka dan contoh."
-    ],
-    "druryTitle": "Drury — dukungan setelah pembukaan posisi ketiga atau keempat"
+    ]
   },
   {
     "code": "ar",
@@ -982,8 +959,7 @@
       "دعم للون كبير يفرض الوصول إلى الجيم، مع وصف اليد واستكشاف السلام.",
       "Reverse Drury وTwo-way Drury: دعم بقوة الدعوة بعد Pass، ومتابعة المفتتح وأمثلة."
     ],
-    "dir": "rtl",
-    "druryTitle": "Drury — الدعم بعد افتتاح المقعد الثالث أو الرابع"
+    "dir": "rtl"
   },
   {
     "code": "th",
@@ -1023,8 +999,7 @@
       "การสนับสนุนแบบ constructive การเชิญเกม และการขึ้นด้วยมืออ่อนหลังเปิดเมเจอร์",
       "การสนับสนุนเมเจอร์แบบบังคับถึงเกม เพื่ออธิบายมือและสำรวจสแลม",
       "Reverse Drury และ Two-way Drury: สนับสนุนเชิญเกมหลัง Pass คำเรียกต่อของผู้เปิดและตัวอย่าง"
-    ],
-    "druryTitle": "Drury — การสนับสนุนหลังเปิดในตำแหน่งสามหรือสี่"
+    ]
   },
   {
     "code": "ko",
@@ -1064,7 +1039,6 @@
       "메이저 오프닝 뒤 constructive 지지, 게임 초청과 약한 레이즈.",
       "게임 포싱 메이저 레이즈로 패를 설명하고 슬램을 탐색합니다.",
       "Reverse Drury와 Two-way Drury: 패스한 손의 인비테이션 서포트, 오프너의 리비드와 예제."
-    ],
-    "druryTitle": "Drury — 세 번째 또는 네 번째 자리 오프닝에 대한 서포트"
+    ]
   }
 ]

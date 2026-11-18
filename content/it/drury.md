@@ -1,4 +1,4 @@
-# Drury — appoggio dopo apertura in terza o quarta posizione
+# Drury
 
 ## Quando si usa?
 

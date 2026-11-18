@@ -1,4 +1,4 @@
-# Drury — stuðningur eftir opnun í þriðju eða fjórðu hendi
+# Drury
 
 ## Hvenær er það notað?
 

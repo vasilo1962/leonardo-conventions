@@ -1,4 +1,4 @@
-# Drury — tuki kolmannen tai neljännen käden avauksen jälkeen
+# Drury
 
 ## Milloin sitä käytetään?
 

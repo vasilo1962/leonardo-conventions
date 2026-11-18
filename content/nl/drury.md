@@ -1,4 +1,4 @@
-# Drury — steun na een opening in de derde of vierde hand
+# Drury
 
 ## Wanneer toepassen?
 

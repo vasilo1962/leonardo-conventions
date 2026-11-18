@@ -10,7 +10,7 @@ export const articles = [
     exercisesText: 'Δοκίμασε την αρχική απάντηση Bergen και τη συνέχεια του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
   { slug: 'jacoby-2nt', title: 'Jacoby 2NT', hands: 9,
     exercisesText: 'Δοκίμασε την αρχική απάντηση Jacoby 2NT και την επαναδήλωση του ανοίξαντος με το δικό σου χέρι και το bidding box.' },
-  { slug: 'drury', title: 'Drury — φιτ μετά από άνοιγμα 3ης ή 4ης θέσης', hands: 8,
+  { slug: 'drury', title: 'Drury', hands: 8,
     exerciseSets: [
       { href: 'practice/', title: 'Απλό Reverse Drury', text: '10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος. Τα 2♣ δείχνουν προτασιακό χέρι με τουλάχιστον 3φυλλη υποστήριξη.' },
       { href: 'two-way/practice/', title: 'Two-way Drury', text: '10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος. Τα 2♣ δείχνουν ακριβώς 3φυλλη και τα 2♦ τουλάχιστον 4φυλλη υποστήριξη, με προτασιακό χέρι.' }

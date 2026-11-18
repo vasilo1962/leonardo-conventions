@@ -104,15 +104,15 @@ for(const language of languages) {
   assert.equal((html.match(/class="example-row"/g)||[]).length,8);
   assert.equal((html.match(/hreflang=/g)||[]).length,26);
   assert.ok(!html.includes('**'),code+': emphasis must render');
-  assert.ok(html.includes('<title>'+language.druryTitle+' | Leonardo Bridge</title>'));
+  assert.ok(html.includes('<title>Drury | Leonardo Bridge</title>'));
   assert.ok(html.includes('href="../bergen-raises/"'));
   assert.ok((await readFile(`site/${code}/bergen-raises/index.html`,'utf8')).includes('href="../drury/"'));
   const catalog=await readFile(`site/${code}/conventions/index.html`,'utf8');
-  assert.ok(catalog.includes(language.druryTitle));
+  assert.ok(catalog.includes('<strong dir="ltr">Drury</strong>'));
   assert.ok(catalog.includes(language.cards[7]));
   if(['hi','ar','th'].includes(code)) assert.ok(source.includes('overcall'));
   if(code==='el') assert.ok(!/παρέμβα|παρεμβαίν/.test(source));
   else assert.ok(!html.includes('practice/'),code+': exercises remain Greek');
-  if(language.dir==='rtl') assert.ok(html.includes('<h1 dir="rtl">'));
+  assert.ok(html.includes('<h1 dir="ltr">Drury</h1>'));
 }
 console.log('Verified Drury in all 26 languages: six sections, twelve subsections, eight identical paired examples, three tables, all language links, localized titles/descriptions and reciprocal Bergen links.');

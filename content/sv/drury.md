@@ -1,4 +1,4 @@
-# Drury — stöd efter öppning i tredje eller fjärde hand
+# Drury
 
 ## När används det?
 

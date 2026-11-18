@@ -1,4 +1,4 @@
-# Drury — podpora po zahájení na třetím či čtvrtém místě
+# Drury
 
 ## Kdy se používá?
 
