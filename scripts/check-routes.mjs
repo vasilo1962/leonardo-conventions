@@ -34,9 +34,14 @@ async function check(file, route, prefix) {
 for (const prefix of ['/', preview]) {
   for (const language of languages) {
     await check(`site/${language.code}/conventions/index.html`, `${language.code}/conventions/`, prefix);
-    for (const {slug, exercises} of articles.filter(article => availableIn(article, language.code))) {
+    for (const {slug, exercises, exerciseSets} of articles.filter(article => availableIn(article, language.code))) {
       await check(`site/${language.code}/${slug}/index.html`, `${language.code}/${slug}/`, prefix);
-      if (language.code === 'el' && exercises !== false) await check(`site/el/${slug}/practice/index.html`, `el/${slug}/practice/`, prefix);
+      if (language.code === 'el' && exercises !== false) {
+        for (const set of exerciseSets || [{href:'practice/'}]) {
+          const route = `el/${slug}/${set.href}`;
+          await check(`site/${route}index.html`, route, prefix);
+        }
+      }
     }
     const redirect = await readFile(`site/${language.code}/index.html`, 'utf8');
     let destination;

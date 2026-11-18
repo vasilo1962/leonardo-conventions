@@ -58,9 +58,10 @@ assert.equal(scheduled.length,4,'Do not replay a delayed sound after muting');
 
 for (const file of (await readdir('content/exercises')).filter(name=>name.endsWith('.el.json'))) {
   const slug=file.replace('.el.json','');
-  const html=await readFile(`site/el/${slug}/practice/index.html`,'utf8');
+  const data=JSON.parse(await readFile(`content/exercises/${file}`,'utf8'));
+  const html=await readFile(`site/${data.route || `el/${slug}/practice/`}index.html`,'utf8');
   assert.ok(html.includes('id="exercise-score">Σωστές: 0/0'));
   assert.ok(html.includes('id="exercise-progress">Άσκηση: 1/10'));
   assert.ok(html.includes('class="exercise-counts" role="status"'));
 }
-console.log('Verified all 7 exercise sets: separate progress/answered scores, independent groups, shared sound preference mute by default, distinct feedback tones, live muting, background silence and cancelled delayed audio.');
+console.log('Verified all exercise sets: separate progress/answered scores, independent groups, shared sound preference mute by default, distinct feedback tones, live muting, background silence and cancelled delayed audio.');

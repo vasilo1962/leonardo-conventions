@@ -23,7 +23,7 @@ async function check(directory) {
   }
 }
 await check('site');
-assert.equal(pages, 243);
+assert.equal(pages, 245);
 for (const file of ['scripts/build.mjs', 'scripts/exercise-page.mjs']) assert.ok(!obsolete.test(await readFile(file, 'utf8')), file);
 const css = await readFile('site/assets/conventions.css', 'utf8');
 assert.ok(css.includes('.spoken-table-row:focus-visible'));
