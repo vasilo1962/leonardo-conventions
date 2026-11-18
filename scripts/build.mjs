@@ -10,6 +10,8 @@ const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8
 const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'attention'];
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const isolateRtl = html => html.split(/(<[^>]+>)/g).map((part, index) => index % 2 ? part : part.replace(/\b[1-7](?:NT|[♠♥♦♣])|\b\d+[––-]\d+|\b[A-Za-z][A-Za-z0-9]*(?:[ .-]+[A-Za-z][A-Za-z0-9]*)*/g, token => '<bdi dir="ltr">' + token + '</bdi>')).join('');
+const titleFor = (article, language) => article.slug === 'drury' ? language.druryTitle : article.title;
+const titleDir = (article, language) => article.slug === 'drury' && language.dir === 'rtl' ? 'rtl' : 'ltr';
 const canonicalRoot = 'https://leonardobridge.com/';
 const sitemapUrls = new Set();
 function page({ language, title, description, route, slug, body }) {
@@ -70,13 +72,13 @@ for (const language of languages) {
     const source = await readFile(`content/${language.code}/${article.slug}.md`, 'utf8');
     const { html, headings } = renderArticle(source, article, language);
     const route = `${language.code}/${article.slug}/`;
-    const title = article.title + ' | Leonardo Bridge';
+    const title = titleFor(article, language) + ' | Leonardo Bridge';
     const exercises = language.code !== 'el' || article.exercises === false ? '' : article.exerciseSets
       ? article.exerciseSets.map(set => '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(set.title) + '</strong></p><p>' + escapeHtml(set.text) + '</p><a class="play-button" href="' + escapeHtml(set.href) + '">Ασκήσεις ' + escapeHtml(set.title) + '</a></aside>').join('')
       : '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>' + escapeHtml(article.exercisesText || 'Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.') + '</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: article.description || language.cards[index], route, slug: article.slug,
-      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
+      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="' + titleDir(article, language) + '">' + escapeHtml(titleFor(article, language)) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
     }));
     pageCount++;
   }
@@ -84,7 +86,7 @@ for (const language of languages) {
     const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, route, title: language.ui.conventions + ' | Leonardo Bridge', description: language.ui.description,
-      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => availableIn(article, language.code) ? '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="ltr">' + escapeHtml(article.title) + '</strong><span>' + escapeHtml(article.description || language.cards[index]) + '</span></a>' : '').join('') + '</section>' + play + '</main>'
+      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => availableIn(article, language.code) ? '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="' + titleDir(article, language) + '">' + escapeHtml(titleFor(article, language)) + '</strong><span>' + escapeHtml(article.description || language.cards[index]) + '</span></a>' : '').join('') + '</section>' + play + '</main>'
     }));
     pageCount++;
   }

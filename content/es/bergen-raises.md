@@ -171,4 +171,4 @@ Declaramos **4♠**. Los 9 puntos de honor son el máximo de nuestro apoyo const
 - **Los límites varían según la versión.** Aquí 3♣ constructivo muestra 7–9 y 3♦ invitante 10–12.
 - **Reverse Bergen intercambia los significados de 3♣ y 3♦.** Hay que saber qué versión se juega.
 - **Después de doblo o intervención a nivel 1**, mantenemos Bergen solo por acuerdo y si las voces siguen disponibles.
-- **En aperturas de tercera o cuarta posición**, Bergen requiere un acuerdo independiente, especialmente cuando la pareja usa Drury.
+- **En aperturas de tercera o cuarta posición**, Bergen requiere un acuerdo independiente, especialmente cuando la pareja usa [Drury](../drury/).

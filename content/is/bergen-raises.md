@@ -171,4 +171,4 @@ Við segjum **4♠**. 9 hápunktar eru hámark constructive-svarsins. Við töku
 - **Punktamörk eru mismunandi eftir útgáfum.** Hér sýnir constructive 3♣ 7–9 og áskorunar-3♦ 10–12.
 - **Reverse Bergen víxlar merkingu 3♣ og 3♦.** Vita þarf hvaða útgáfa er spiluð.
 - **Eftir dobl eða innákomu á fyrsta þrepi** er Bergen aðeins haldið eftir samkomulagi og ef sagnirnar eru tiltækar.
-- **Við opnanir í þriðju eða fjórðu hendi** þarf sérstakt samkomulag, einkum ef parið notar Drury.
+- **Við opnanir í þriðju eða fjórðu hendi** þarf sérstakt samkomulag, einkum ef parið notar [Drury](../drury/).

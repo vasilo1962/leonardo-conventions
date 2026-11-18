@@ -86,3 +86,32 @@ assert.equal(seen.size,40);
 const lesson=await readFile('site/el/drury/index.html','utf8');
 assert.ok(lesson.includes('href="practice/"') && lesson.includes('href="two-way/practice/"'));
 console.log('Verified 40 distinct Drury hands: 10 per role and version, credible passes and third/fourth-seat openings, HCP, support, legal complete auctions, no variant leakage in prompts, opener sign-offs/games/enquiries, two routes and lesson returns.');
+
+// Translations must preserve the complete teaching structure and agreed examples.
+const languages = JSON.parse(await readFile('content/i18n/languages.json','utf8'));
+const handPattern = /♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g;
+const reference = await readFile('content/el/drury.md','utf8');
+const hands = text => [...text.matchAll(handPattern)].map(m=>m.slice(1));
+for(const language of languages) {
+  const code=language.code;
+  const source=await readFile(`content/${code}/drury.md`,'utf8');
+  const html=await readFile(`site/${code}/drury/index.html`,'utf8');
+  assert.deepEqual(hands(source),hands(reference),code+': unchanged examples');
+  assert.equal((source.match(/^## /gm)||[]).length,6);
+  assert.equal((source.match(/^### /gm)||[]).length,12);
+  assert.equal((source.match(/^\| ---/gm)||[]).length,3);
+  assert.equal((source.match(/^- /gm)||[]).length,8);
+  assert.equal((html.match(/class="example-row"/g)||[]).length,8);
+  assert.equal((html.match(/hreflang=/g)||[]).length,26);
+  assert.ok(html.includes('<title>'+language.druryTitle+' | Leonardo Bridge</title>'));
+  assert.ok(html.includes('href="../bergen-raises/"'));
+  assert.ok((await readFile(`site/${code}/bergen-raises/index.html`,'utf8')).includes('href="../drury/"'));
+  const catalog=await readFile(`site/${code}/conventions/index.html`,'utf8');
+  assert.ok(catalog.includes(language.druryTitle));
+  assert.ok(catalog.includes(language.cards[7]));
+  if(['hi','ar','th'].includes(code)) assert.ok(source.includes('overcall'));
+  if(code==='el') assert.ok(!/παρέμβα|παρεμβαίν/.test(source));
+  else assert.ok(!html.includes('practice/'),code+': exercises remain Greek');
+  if(language.dir==='rtl') assert.ok(html.includes('<h1 dir="rtl">'));
+}
+console.log('Verified Drury in all 26 languages: six sections, twelve subsections, eight identical paired examples, three tables, all language links, localized titles/descriptions and reciprocal Bergen links.');

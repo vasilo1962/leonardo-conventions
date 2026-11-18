@@ -171,4 +171,4 @@ Wir bieten **4♠**. Die 9 Figurenpunkte sind das Maximum unserer konstruktiven 
 - **Die Punktgrenzen unterscheiden sich je nach Variante.** Hier zeigt konstruktives 3♣ 7–9 und einladendes 3♦ 10–12.
 - **Reverse Bergen vertauscht 3♣ und 3♦.** Die gespielte Variante muss feststehen.
 - **Nach Kontra oder einer Gegenreizung auf Einerstufe** gilt Bergen nur nach Absprache und bei verfügbaren Geboten.
-- **Bei Eröffnungen in dritter oder vierter Hand** ist eine gesonderte Absprache nötig, besonders wenn das Paar Drury spielt.
+- **Bei Eröffnungen in dritter oder vierter Hand** ist eine gesonderte Absprache nötig, besonders wenn das Paar [Drury](../drury/) spielt.

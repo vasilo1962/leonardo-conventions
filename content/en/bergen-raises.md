@@ -171,4 +171,4 @@ We bid **4♠**. Our 9 HCP are the maximum for our constructive response, so we 
 - **Point ranges vary between versions.** Here constructive 3♣ shows 7–9 and invitational 3♦ shows 10–12.
 - **Reverse Bergen swaps the meanings of 3♣ and 3♦.** Know which version you play.
 - **After a double or a one-level overcall**, retain Bergen only by agreement and when the bids remain available.
-- **For third- or fourth-seat openings**, using Bergen requires a separate agreement, particularly when the partnership uses Drury.
+- **For third- or fourth-seat openings**, using Bergen requires a separate agreement, particularly when the partnership uses [Drury](../drury/).
