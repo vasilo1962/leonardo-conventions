@@ -103,6 +103,7 @@ for(const language of languages) {
   assert.equal((source.match(/^- /gm)||[]).length,8);
   assert.equal((html.match(/class="example-row"/g)||[]).length,8);
   assert.equal((html.match(/hreflang=/g)||[]).length,26);
+  assert.ok(!html.includes('**'),code+': emphasis must render');
   assert.ok(html.includes('<title>'+language.druryTitle+' | Leonardo Bridge</title>'));
   assert.ok(html.includes('href="../bergen-raises/"'));
   assert.ok((await readFile(`site/${code}/bergen-raises/index.html`,'utf8')).includes('href="../drury/"'));
