@@ -23,6 +23,8 @@ const environment = {
   MutationObserver:class {constructor(fn){observer=fn;} observe(){}},
   AudioContext:class {
     constructor(){contexts++;this.state='running';this.currentTime=1;}
+    createBuffer(channels,length,rate){const data=new Float32Array(length);assert.equal(channels,1);assert.equal(rate,48000);return {getChannelData:()=>data};}
+    createBufferSource(){return {connect(){},disconnect(){},start(){scheduled.push('ding');},stop(){}};}
     createOscillator(){return {frequency:{setValueAtTime:(frequency)=>scheduled.push(frequency)},connect(){},disconnect(){},start(){},stop(){}};}
     createGain(){return {gain:{setValueAtTime(){},linearRampToValueAtTime(){},exponentialRampToValueAtTime(){}},connect(){},disconnect(){}};}
   }
@@ -35,9 +37,9 @@ sounds.play(false);
 assert.equal(contexts,0,'Disabled sounds must not create an audio context');
 environment.document.documentElement.dataset.soundsEnabled='true';
 sounds.play(true);
-assert.deepEqual(scheduled,[880]);
+assert.deepEqual(scheduled,['ding']);
 sounds.play(false);
-assert.deepEqual(scheduled,[880,220,165]);
+assert.deepEqual(scheduled,['ding',220,165]);
 environment.document.documentElement.dataset.soundsEnabled='false'; observer(); sounds.play(true);
 assert.equal(scheduled.length,3);
 environment.document.documentElement.dataset.soundsEnabled='true';
