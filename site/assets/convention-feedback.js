@@ -32,7 +32,7 @@ export function createAnswerSounds(environment = window) {
       const request = generation;
       const start = () => {
         if (request !== generation || !enabled() || audio.state !== 'running') return;
-        const frequencies = correct ? [660, 880] : [220, 165];
+        const frequencies = correct ? [880] : [220, 165];
         for (const [index, frequency] of frequencies.entries()) {
           const oscillator = audio.createOscillator();
           const gain = audio.createGain();
@@ -40,14 +40,21 @@ export function createAnswerSounds(environment = window) {
           oscillator.type = 'sine';
           oscillator.frequency.setValueAtTime(frequency, time);
           gain.gain.setValueAtTime(0, time);
-          gain.gain.linearRampToValueAtTime(.055, time + .008);
-          gain.gain.linearRampToValueAtTime(0, time + .10);
+          if (correct) {
+            // One soft bell-like tone, with a gentle attack and a fading tail.
+            gain.gain.linearRampToValueAtTime(.025, time + .012);
+            gain.gain.exponentialRampToValueAtTime(.0001, time + .22);
+            gain.gain.linearRampToValueAtTime(0, time + .24);
+          } else {
+            gain.gain.linearRampToValueAtTime(.055, time + .008);
+            gain.gain.linearRampToValueAtTime(0, time + .10);
+          }
           oscillator.connect(gain);
           gain.connect(audio.destination);
           oscillator.onended = () => { playing.delete(oscillator); oscillator.disconnect(); gain.disconnect(); };
           playing.add(oscillator);
           oscillator.start(time);
-          oscillator.stop(time + .105);
+          oscillator.stop(time + (correct ? .245 : .105));
         }
       };
       if (audio.state === 'running') start();

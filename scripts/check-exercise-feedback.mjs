@@ -24,7 +24,7 @@ const environment = {
   AudioContext:class {
     constructor(){contexts++;this.state='running';this.currentTime=1;}
     createOscillator(){return {frequency:{setValueAtTime:(frequency)=>scheduled.push(frequency)},connect(){},disconnect(){},start(){},stop(){}};}
-    createGain(){return {gain:{setValueAtTime(){},linearRampToValueAtTime(){}},connect(){},disconnect(){}};}
+    createGain(){return {gain:{setValueAtTime(){},linearRampToValueAtTime(){},exponentialRampToValueAtTime(){}},connect(){},disconnect(){}};}
   }
 };
 const sounds = createAnswerSounds(environment);
@@ -35,14 +35,14 @@ sounds.play(false);
 assert.equal(contexts,0,'Disabled sounds must not create an audio context');
 environment.document.documentElement.dataset.soundsEnabled='true';
 sounds.play(true);
-assert.deepEqual(scheduled,[660,880]);
+assert.deepEqual(scheduled,[880]);
 sounds.play(false);
-assert.deepEqual(scheduled,[660,880,220,165]);
+assert.deepEqual(scheduled,[880,220,165]);
 environment.document.documentElement.dataset.soundsEnabled='false'; observer(); sounds.play(true);
-assert.equal(scheduled.length,4);
+assert.equal(scheduled.length,3);
 environment.document.documentElement.dataset.soundsEnabled='true';
 environment.document.visibilityState='hidden'; listeners.visibilitychange(); sounds.play(true);
-assert.equal(scheduled.length,4,'No background sound');
+assert.equal(scheduled.length,3,'No background sound');
 // A suspended audio context may resolve only after the preference was switched off.
 let resume;
 environment.document.visibilityState='visible';
@@ -54,7 +54,7 @@ const delayed = createAnswerSounds(environment);
 delayed.play(true);
 environment.document.documentElement.dataset.soundsEnabled='false';
 resume(); await Promise.resolve(); await Promise.resolve();
-assert.equal(scheduled.length,4,'Do not replay a delayed sound after muting');
+assert.equal(scheduled.length,3,'Do not replay a delayed sound after muting');
 
 for (const file of (await readdir('content/exercises')).filter(name=>name.endsWith('.el.json'))) {
   const slug=file.replace('.el.json','');
