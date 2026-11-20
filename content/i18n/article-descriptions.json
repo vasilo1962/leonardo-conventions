@@ -110,5 +110,33 @@
     "ar": "Unusual 2NT: تعلّم كيف تُظهر اللونين الصغيرين بمزايدة واحدة بعد افتتاح الخصوم. شرح نظري مفصّل وأمثلة وتمارين تفاعلية.",
     "th": "Unusual 2NT: เรียนรู้วิธีแสดงไพ่ทั้งสองสีไมเนอร์ด้วยการประมูลครั้งเดียวหลังคู่แข่งเปิดประมูล พร้อมทฤษฎีอย่างละเอียด ตัวอย่าง และแบบฝึกหัดแบบโต้ตอบ",
     "ko": "Unusual 2NT: 상대의 오프닝 뒤 한 번의 비드로 두 마이너 수트를 보여 주는 방법을 배워 보세요. 자세한 이론, 예제와 대화형 연습 문제를 제공합니다."
+  },
+  "dont": {
+    "el": "Μάθε πώς να διεκδικείς την αγορά μετά το 1ΝΤ των αντιπάλων, ακόμη και με λίγους πόντους, με τη σύμβαση DONT. Αναλυτική θεωρία, παραδείγματα και διαδραστικές ασκήσεις.",
+    "en": "Learn how to compete over the opponents’ 1NT, even with few points, using DONT. Detailed theory, examples and interactive exercises.",
+    "fr": "Apprenez à intervenir sur le 1SA adverse, même avec peu de points, grâce à la convention DONT. Théorie détaillée, exemples et exercices interactifs.",
+    "de": "Lerne, mit DONT nach gegnerischem 1SA auch mit wenigen Punkten in die Reizung einzusteigen. Ausführliche Theorie, Beispiele und interaktive Übungen.",
+    "it": "Impara a competere sull’1SA avversario, anche con pochi punti, con la convenzione DONT. Teoria dettagliata, esempi ed esercizi interattivi.",
+    "es": "Aprende a competir sobre el 1ST de los adversarios, incluso con pocos puntos, con la convención DONT. Teoría detallada, ejemplos y ejercicios interactivos.",
+    "pt": "Aprende a disputar o leilão após o 1ST dos adversários, mesmo com poucos pontos, com a convenção DONT. Teoria detalhada, exemplos e exercícios interativos.",
+    "nl": "Leer met DONT na 1SA van de tegenstanders mee te bieden, ook met weinig punten. Uitgebreide theorie, voorbeelden en interactieve oefeningen.",
+    "tr": "DONT konvansiyonuyla rakiplerin 1NT açışından sonra az puanla bile rekabete katılmayı öğren. Ayrıntılı teori, örnekler ve etkileşimli alıştırmalar.",
+    "sv": "Lär dig att delta i budgivningen efter motståndarnas 1NT, även med få poäng, med DONT. Utförlig teori, exempel och interaktiva övningar.",
+    "da": "Lær at blande dig i meldingerne efter modstandernes 1UT, selv med få point, med DONT. Grundig teori, eksempler og interaktive øvelser.",
+    "no": "Lær å delta i meldingene etter motstandernes 1NT, selv med få poeng, med DONT. Grundig teori, eksempler og interaktive øvelser.",
+    "fi": "Opi kilpailemaan tarjouksissa vastustajien 1NT-avauksen jälkeen vähilläkin pisteillä DONT-konvention avulla. Kattavaa teoriaa, esimerkkejä ja interaktiivisia harjoituksia.",
+    "pl": "Naucz się walczyć w licytacji po 1BA przeciwników, nawet z niewielką liczbą punktów, dzięki konwencji DONT. Szczegółowa teoria, przykłady i interaktywne ćwiczenia.",
+    "cs": "Nauč se soutěžit v dražbě po 1BT soupeřů i s malým počtem bodů pomocí konvence DONT. Podrobná teorie, příklady a interaktivní cvičení.",
+    "hu": "Tanuld meg, hogyan szállhatsz be a licitbe az ellenfelek 1 szan indulása után kevés ponttal is a DONT konvencióval. Részletes elmélet, példák és interaktív gyakorlatok.",
+    "is": "Lærðu að taka þátt í sögnum eftir 1 grand andstæðinganna, jafnvel með fáa punkta, með DONT. Ítarleg fræði, dæmi og gagnvirkar æfingar.",
+    "zh": "学习如何用DONT约定叫在对手开叫1NT后参与竞争，即使点力不多也能有所作为。 详细理论、示例和互动练习。",
+    "ja": "DONTを使い、点数が少なくても相手の1NTオープン後に競り合う方法を学びましょう。 詳しい理論、実例、インタラクティブな練習問題を紹介します。",
+    "he": "למדו כיצד להתחרות בהכרזה אחרי פתיחת 1NT של היריבים, גם עם מעט נקודות, באמצעות קונבנציית DONT. תאוריה מפורטת, דוגמאות ותרגילים אינטראקטיביים.",
+    "hi": "DONT कन्वेंशन से विरोधियों की 1NT ओपनिंग के बाद कम अंकों के साथ भी बोली में प्रतिस्पर्धा करना सीखें। विस्तृत सिद्धांत, उदाहरण और इंटरैक्टिव अभ्यास।",
+    "ru": "Узнайте, как бороться в торговле после 1БК противников даже с небольшим числом очков с помощью конвенции DONT. Подробная теория, примеры и интерактивные упражнения.",
+    "id": "Pelajari cara bersaing dalam penawaran setelah pembukaan 1NT lawan, bahkan dengan sedikit poin, menggunakan konvensi DONT. Teori terperinci, contoh, dan latihan interaktif.",
+    "ar": "تعلّم كيف تنافس في المزايدة بعد افتتاح الخصوم 1NT، حتى بنقاط قليلة، باستخدام اتفاقية DONT. شرح نظري مفصّل وأمثلة وتمارين تفاعلية.",
+    "th": "เรียนรู้วิธีเข้าร่วมแข่งขันในการประมูลหลังคู่แข่งเปิด 1NT แม้มีแต้มน้อย ด้วยข้อตกลง DONT พร้อมทฤษฎีอย่างละเอียด ตัวอย่าง และแบบฝึกหัดแบบโต้ตอบ",
+    "ko": "DONT 컨벤션으로 점수가 적어도 상대의 1NT 오프닝 뒤 비딩에 경쟁적으로 참여하는 방법을 배워 보세요. 자세한 이론, 예제와 대화형 연습 문제를 제공합니다."
   }
 }
