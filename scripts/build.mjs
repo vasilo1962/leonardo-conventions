@@ -7,6 +7,7 @@ import { articles, availableIn } from './articles.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
+const articleDescriptions = JSON.parse(await readFile('content/i18n/article-descriptions.json', 'utf8'));
 const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'attention'];
 // Count Unicode code points, including spaces and punctuation; descriptions are edited, never cut.
 for (const language of languages) {
@@ -86,7 +87,7 @@ for (const language of languages) {
       ? article.exerciseSets.map(set => '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(set.title) + '</strong></p><p>' + escapeHtml(set.text) + '</p><a class="play-button" href="' + escapeHtml(set.href) + '">Ασκήσεις ' + escapeHtml(set.title) + '</a></aside>').join('')
       : '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>' + escapeHtml(article.exercisesText || 'Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.') + '</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>';
     await mkdir('site/' + route, { recursive: true });
-    await writeFile('site/' + route + 'index.html', page({ language, title, description: article.description || language.cards[index], route, slug: article.slug,
+    await writeFile('site/' + route + 'index.html', page({ language, title, description: articleDescriptions[article.slug]?.[language.code] || article.description || language.cards[index], route, slug: article.slug,
       body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
     }));
     pageCount++;
