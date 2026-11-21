@@ -134,7 +134,7 @@ Segjum **4♠**. Við höfum geimstyrk en mörg háspil eru í hjarta á móti s
 
 ## Atriði til að muna
 
-Jacoby 2NT og [Bergen Raises](../bergen-raises/) styðja hvort annað. Með fjögur tromp eða fleiri notar okkar útgáfa Bergen fyrir veikar, uppbyggilegar og áskorunarhendur, en Jacoby fyrir geimstyrk eða meira.
+Jacoby 2NT og [Bergen Raises](../bergen-raises/) styðja hvort annað. Með fjögur tromp eða fleiri notar okkar útgáfa Bergen fyrir veikar, uppbyggilegar (constructive) og áskorunarhendur, en Jacoby fyrir geimstyrk eða meira.
 
 Ekki rugla **Jacoby 2NT saman við Jacoby-yfirfærslur**: hér svarar 2NT opnuninni 1♥ eða 1♠ og sýnir sterkan stuðning.
 

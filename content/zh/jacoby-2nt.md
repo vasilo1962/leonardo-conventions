@@ -134,7 +134,7 @@
 
 ## 注意事项
 
-Jacoby 2NT与[Bergen Raises](../bergen-raises/)相互补充。本版本中，持至少四张将牌时，Bergen处理弱牌、建设性加叫和邀叫，Jacoby则处理成局实力或更强的牌。
+Jacoby 2NT与[Bergen Raises](../bergen-raises/)相互补充。本版本中，持至少四张将牌时，Bergen处理弱牌、建设性加叫 (constructive)和邀叫，Jacoby则处理成局实力或更强的牌。
 
 不要把**Jacoby 2NT与Jacoby转移叫**混淆：此处2NT是对1♥或1♠的应叫，表示强支持。
 

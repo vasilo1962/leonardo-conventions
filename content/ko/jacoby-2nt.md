@@ -134,7 +134,7 @@
 
 ## 주의할 점
 
-Jacoby 2NT와 [Bergen Raises](../bergen-raises/)는 서로 보완합니다. 이 방식에서는 트럼프가 4장 이상일 때 약한 패, 건설적인 레이즈, 초대하는 패는 Bergen으로 다루고 게임 이상의 힘은 Jacoby로 다룹니다.
+Jacoby 2NT와 [Bergen Raises](../bergen-raises/)는 서로 보완합니다. 이 방식에서는 트럼프가 4장 이상일 때 약한 패, 건설적인 레이즈 (constructive), 초대하는 패는 Bergen으로 다루고 게임 이상의 힘은 Jacoby로 다룹니다.
 
 **Jacoby 2NT와 Jacoby 트랜스퍼**를 혼동하지 마세요. 여기서 2NT는 1♥ 또는 1♠에 대한 응답으로 강한 핏을 보여 줍니다.
 
