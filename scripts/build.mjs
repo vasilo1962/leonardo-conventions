@@ -39,12 +39,13 @@ function page({ language, title, description, route, slug, body }) {
 }
 function renderArticle(source, article, language) {
   let handCount = 0;
-  const content = source.replace(/^# [^\n]+\n/, '').replace(/♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g, (_, ...args) => {
-    const cards = args.slice(0, 4);
+  const content = source.replace(/^# [^\n]+\n/, '').replace(/♠ ([AKQJT2-9]+|—)  \n♥ ([AKQJT2-9]+|—)  \n♦ ([AKQJT2-9]+|—)  \n♣ ([AKQJT2-9]+|—)/g, (_, ...args) => {
+    const cards = args.slice(0, 4).map(suit => suit === '—' ? '' : suit);
+    if (cards.some(suit => !suit) && !language.voidDescription) throw new Error('Missing translated void description');
     if (cards.join('').length !== 13) throw new Error(`${language.code}/${article.slug}: hand must have 13 cards`);
     for (const suit of cards) if (new Set(suit).size !== suit.length) throw new Error('Duplicate card in hand');
     handCount++;
-    return '<div class="hand">' + cards.map((s, i) => `<div class="hand-row"><span aria-hidden="true" dir="ltr"><span class="${i === 1 || i === 2 ? 'red' : ''}">${'♠♥♦♣'[i]}</span> ${s}</span><span class="sr-only">${escapeHtml(language.suits[i])}: ${[...s].map(r => escapeHtml(language.ranks[r] || r)).join(', ')}.</span></div>`).join('') + '</div>\n';
+    return '<div class="hand">' + cards.map((s, i) => `<div class="hand-row"><span aria-hidden="true" dir="ltr"><span class="${i === 1 || i === 2 ? 'red' : ''}">${'♠♥♦♣'[i]}</span> ${s || '—'}</span><span class="sr-only">${escapeHtml(language.suits[i])}: ${s ? [...s].map(r => escapeHtml(language.ranks[r] || r)).join(', ') : escapeHtml(language.voidDescription)}.</span></div>`).join('') + '</div>\n';
   });
   if (handCount !== article.hands) throw new Error(`${language.code}/${article.slug}: wrong number of hands`);
   const headings = [];
@@ -59,7 +60,7 @@ function renderArticle(source, article, language) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
-  if (['jacoby-2nt', 'drury', 'two-way-drury'].includes(article.slug)) {
+  if (['jacoby-2nt', 'drury', 'two-way-drury', 'splinter-responder'].includes(article.slug)) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*((?:<p>[\s\S]*?<\/p>\s*)+)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }

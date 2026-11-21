@@ -13,6 +13,8 @@ export const articles = [
   { slug: 'drury', title: 'Reverse Drury', hands: 6,
     exercisesText: '20 ασκήσεις Reverse Drury: 10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος.' },
   { slug: 'two-way-drury', title: 'Two-way Drury', hands: 6,
-    exercisesText: '20 ασκήσεις Two-way Drury: 10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος.' }
+    exercisesText: '20 ασκήσεις Two-way Drury: 10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος.' },
+  { slug: 'splinter-responder', title: 'Splinter από τον απαντώντα', hands: 7, languages: ['el'],
+    exercisesText: '20 ασκήσεις: 10 απαντήσεις στο άνοιγμα και 10 συνέχειες του ανοίξαντος μετά από Splinter.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
