@@ -8,7 +8,7 @@ Partner eröffnet **1♥ oder 1♠** mit mindestens fünf Karten; der nächste G
 
 ## Was bringt sie?
 
-Beim Bridge zählt neben der Punktzahl auch die Lage der Figuren. Der künstliche Doppelsprung legt die Eröffnungsoberfarbe als Trumpf fest und **forciert zum Vollspiel**, verpflichtet aber nicht zum Schlemm.
+Beim Bridge zählt neben der Punktzahl auch die Lage der Figuren. Der künstliche Doppelsprung zeigt Unterstützung für die Eröffnungsoberfarbe und **forciert zum Vollspiel**, verpflichtet aber nicht zum Schlemm.
 
 Partner bewertet neu. Kleine Karten gegenüber unserem Single oder unserer Chicane sind günstig, weil seine Werte anderswo liegen. König, Dame und Bube in dieser Farbe können weniger wert sein als ihre Punktzahl. Ein Ass bleibt gegenüber einem Single nützlich; gegenüber einer Chicane hängt sein Wert vom gesamten Blatt ab.
 
@@ -55,7 +55,7 @@ Nach **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Wir bieten **3♠**: 13 Figurenpunkte und vier Coeur. Das Pikgebot zeigt Single oder Chicane statt Länge und legt Coeur als Trumpf fest.
+Wir bieten **3♠**: 13 Figurenpunkte und vier Coeur. Das Pikgebot zeigt Single oder Chicane statt Länge und zeigt Unterstützung in Coeur.
 
 ### 3. Coeurfit und Treffchicane
 

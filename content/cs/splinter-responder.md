@@ -8,7 +8,7 @@ Partner zahájí **1♥ nebo 1♠** alespoň s pěti kartami a další soupeř p
 
 ## K čemu slouží?
 
-V bridži záleží kromě součtu bodů také na umístění figur. Konvenční dvojitý skok stanoví zahajovací drahou barvu jako trumfy a **forsíruje do manše**, ale nezavazuje ke slemu.
+V bridži záleží kromě součtu bodů také na umístění figur. Konvenční dvojitý skok ukazuje fit v zahajovací drahé barvě a **forsíruje do manše**, ale nezavazuje ke slemu.
 
 Partner přehodnotí list. Malé karty proti našemu singlu či šikeně jsou příznivé: jeho body leží jinde. Král, dáma a kluk v této barvě mohou mít menší hodnotu než při prostém počítání. Eso zůstává užitečné proti singlu; proti šikeně závisí jeho hodnota na celém listu.
 
@@ -55,7 +55,7 @@ Po **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Dražíme **3♠**: 13 figurových bodů a čtyři srdce. Piková hláška ukazuje singl nebo šikenu, nikoli délku, a stanoví srdce jako trumfy.
+Dražíme **3♠**: 13 figurových bodů a čtyři srdce. Piková hláška ukazuje singl nebo šikenu, nikoli délku, a ukazuje srdcový fit.
 
 ### 3. Srdcový fit a trefová šikena
 

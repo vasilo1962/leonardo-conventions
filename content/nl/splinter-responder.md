@@ -8,7 +8,7 @@ Partner opent **1♥ of 1♠** met minstens vijf kaarten; de volgende tegenstand
 
 ## Wat bereiken we ermee?
 
-Bij bridge telt behalve het puntentotaal ook de plaats van de honneurs. De conventionele dubbele sprong legt de openingskleur als troef vast en is **mancheforcing**, zonder slem te verplichten.
+Bij bridge telt behalve het puntentotaal ook de plaats van de honneurs. De conventionele dubbele sprong toont steun voor de openingskleur en is **mancheforcing**, zonder slem te verplichten.
 
 Partner herwaardeert de hand. Kleintjes tegenover onze singleton of renonce zijn gunstig: partners punten zitten elders. Heer, vrouw en boer in die kleur kunnen minder waard zijn dan hun puntentelling. Een aas blijft nuttig tegenover een singleton; tegenover een renonce hangt de waarde van de hele hand af.
 
@@ -55,7 +55,7 @@ Na **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Bied **3♠**: 13 honneurpunten en vier harten. Het bod toont een singleton of renonce in schoppen, geen lengte, en maakt harten troef.
+Bied **3♠**: 13 honneurpunten en vier harten. Het bod toont een singleton of renonce in schoppen, geen lengte, en toont hartensteun.
 
 ### 3. Hartensteun en een renonce klaveren
 

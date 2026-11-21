@@ -8,7 +8,7 @@ Ortak en az beş kart vadeden **1♥ veya 1♠** açar ve sonraki rakip pas geç
 
 ## Ne işe yarar?
 
-Briçte puan toplamı kadar onörlerin yeri de önemlidir. Konvansiyonel çift sıçrama, açış majörünü koz olarak belirler ve **zon forsingidir**; şlem oynamayı zorunlu kılmaz.
+Briçte puan toplamı kadar onörlerin yeri de önemlidir. Konvansiyonel çift sıçrama, açış majörüne destek gösterir ve **zon forsingidir**; şlem oynamayı zorunlu kılmaz.
 
 Ortak elini yeniden değerlendirir. Tek veya şikanımızın karşısındaki küçük kartlar olumludur: puanları diğer renklerdedir. Aynı renkteki rua, dam ve vale nominal puanlarından az katkı yapabilir. As, tekin karşısında yararlıdır; şikanın karşısındaki değeri elin bütününe bağlıdır.
 
@@ -55,7 +55,7 @@ Ortak açar, sağdaki rakip pas geçer.
 ♦ A963  
 ♣ KJ85
 
-**3♠** deriz: 13 onör puanı ve dört kör. Pik konuşması uzunluk değil tek veya şikan gösterir; kör koz olarak belirlenir.
+**3♠** deriz: 13 onör puanı ve dört kör. Pik konuşması uzunluk değil tek veya şikan gösterir; kör desteği gösterilir.
 
 ### 3. Kör desteği ve trefl şikanı
 

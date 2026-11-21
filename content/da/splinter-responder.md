@@ -8,7 +8,7 @@ Makker åbner **1♥ eller 1♠** med mindst fem kort; næste modstander passer.
 
 ## Hvad opnår vi?
 
-I bridge tæller honnørernes placering såvel som pointtotalen. Det konventionelle dobbeltspring fastlægger åbningsmajoren som trumf og er **udgangskrav**, uden at forpligte til slem.
+I bridge tæller honnørernes placering såvel som pointtotalen. Det konventionelle dobbeltspring viser støtte til åbningsmajoren og er **udgangskrav**, uden at forpligte til slem.
 
 Makker revurderer hånden. Småkort over for vores singleton eller renonce er gunstige, fordi makkers point ligger andre steder. Konge, dame og bonde i farven kan være mindre værd end pointtallet. Et es er stadig nyttigt over for en singleton; over for en renonce afhænger værdien af hele hånden.
 
@@ -55,7 +55,7 @@ Efter **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Meld **3♠**: 13 honnørpoint og fire hjerter. Sparmeldingen viser singleton eller renonce, ikke længde, og fastlægger hjerter som trumf.
+Meld **3♠**: 13 honnørpoint og fire hjerter. Sparmeldingen viser singleton eller renonce, ikke længde, og viser hjerterstøtte.
 
 ### 3. Hjerterstøtte og klørrenonce
 

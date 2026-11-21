@@ -8,7 +8,7 @@ Partner membuka **1♥ atau 1♠**, menjanjikan minimal lima kartu, lalu lawan b
 
 ## Apa tujuannya?
 
-Dalam bridge, letak kartu honor sama pentingnya dengan jumlah poin. Lompatan ganda konvensional menyepakati mayor pembukaan sebagai trump dan **forcing sampai game**, tanpa mewajibkan slam.
+Dalam bridge, letak kartu honor sama pentingnya dengan jumlah poin. Lompatan ganda konvensional menunjukkan dukungan pada mayor pembukaan dan **forcing sampai game**, tanpa mewajibkan slam.
 
 Partner menilai ulang tangannya. Kartu kecil berhadapan dengan singleton atau void kita menguntungkan: poin partner berada di warna lain. King, queen dan jack pada warna itu mungkin bernilai kurang dari hitungan nominalnya. As tetap berguna berhadapan dengan singleton; terhadap void, nilainya bergantung pada keseluruhan tangan.
 
@@ -55,7 +55,7 @@ Setelah **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Bid **3♠**: 13 HCP dan empat hati. Bid sekop menunjukkan singleton atau void, bukan panjang, dan menyepakati hati sebagai trump.
+Bid **3♠**: 13 HCP dan empat hati. Bid sekop menunjukkan singleton atau void, bukan panjang, dan menunjukkan dukungan hati.
 
 ### 3. Dukungan hati dan void keriting
 

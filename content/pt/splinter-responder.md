@@ -8,7 +8,7 @@ O parceiro abre **1♥ ou 1♠**, prometendo pelo menos cinco cartas, e o advers
 
 ## Para que serve?
 
-No bridge, a localização das honras conta tanto como a soma dos pontos. O duplo salto convencional fixa o rico de abertura como trunfo e é **forcing de partida**, sem obrigar a jogar cheleme.
+No bridge, a localização das honras conta tanto como a soma dos pontos. O duplo salto convencional mostra apoio ao rico de abertura e é **forcing de partida**, sem obrigar a jogar cheleme.
 
 O parceiro reavalia a mão. Cartas pequenas diante do nosso singleton ou chicana são favoráveis: os seus pontos estão nos outros naipes. Rei, dama e valete nesse naipe podem valer menos do que a contagem sugere. O ás continua útil diante de um singleton; diante de uma chicana, o seu valor depende da mão completa.
 
@@ -55,7 +55,7 @@ Após **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Marcamos **3♠**: 13 pontos de honras e quatro copas. A voz mostra singleton ou chicana, não comprimento de espadas, e fixa copas como trunfo.
+Marcamos **3♠**: 13 pontos de honras e quatro copas. A voz mostra singleton ou chicana, não comprimento de espadas, e mostra apoio a copas.
 
 ### 3. Apoio a copas e chicana de paus
 
