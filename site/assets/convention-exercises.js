@@ -88,7 +88,6 @@ function initializeExercises() {
   const bidding = $('#exercise-bidding');
   const feedback = $('#exercise-feedback');
   const summary = $('#exercise-summary');
-  let biddingHidden = false;
   let announceTimer;
   const voiceEnabled = () => document.documentElement.dataset.voiceMode === 'true';
   const answerSounds = createAnswerSounds();
@@ -118,8 +117,6 @@ function initializeExercises() {
     set('--grid-border', window.innerHeight * .002); set('--separator', window.innerHeight * .001);
     bidding.style.width = boxWidth + 'px';
     $('.exercise-bidding-area').style.minHeight = boxHeight + 'px';
-    $('#toggle-bidding').hidden = !mobile;
-    if (!mobile) { bidding.hidden = false; biddingHidden = false; $('#toggle-bidding').setAttribute('aria-expanded', 'true'); }
   }
   function drawHand(question) {
     const list = $('#exercise-hand');
@@ -268,8 +265,6 @@ function initializeExercises() {
     drawBidding(question, selected ?? null);
     if (selected !== undefined) showFeedback(question, selected);
     $('.turn-label').textContent = selected === undefined ? 'Η σειρά σου' : 'Απάντησες';
-    bidding.hidden = false; biddingHidden = false;
-    $('#toggle-bidding').setAttribute('aria-expanded', 'true'); $('#toggle-bidding').textContent = 'ΑΠΟΚΡΥΨΗ';
     geometry();
     const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. Η σειρά σου.`;
     const heading = $('#exercise-question');
@@ -288,11 +283,6 @@ function initializeExercises() {
   });
   $('#continue-responses').addEventListener('click', () => { mode = 'response'; render(true); $('#exercise-question').scrollIntoView({ block: 'start', behavior: 'instant' }); });
   $('#restart-exercises').addEventListener('click', () => { sessions[mode] = start(mode); render(true); });
-  $('#toggle-bidding').addEventListener('click', () => {
-    biddingHidden = !biddingHidden; bidding.hidden = biddingHidden;
-    $('#toggle-bidding').setAttribute('aria-expanded', String(!biddingHidden));
-    $('#toggle-bidding').textContent = biddingHidden ? 'BIDDING BOX' : 'ΑΠΟΚΡΥΨΗ';
-  });
   // As on the mobile table: inspect under the finger, submit on release.
   let touchCall = null;
   let touchPointer = null;

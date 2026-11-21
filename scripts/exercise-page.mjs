@@ -28,7 +28,7 @@ ${moduleScript('convention-exercises.js')}</head>
 <h2 id="exercise-question" tabindex="-1">Τι αγοράζεις;</h2>
 <p class="exercise-situation" id="exercise-situation"></p>
 <div class="exercise-auction" id="exercise-auction"></div>
-<div class="exercise-bidding-area"><button type="button" id="toggle-bidding" aria-expanded="true" aria-controls="exercise-bidding" hidden>ΑΠΟΚΡΥΨΗ</button><div id="exercise-bidding" class="exercise-bidding" aria-label="Bidding box"></div></div>
+<div class="exercise-bidding-area"><div id="exercise-bidding" class="exercise-bidding" aria-label="Bidding box"></div></div>
 <div class="exercise-south"><div class="exercise-cards" id="exercise-hand" role="list" aria-label="Το χέρι σου, 13 φύλλα"></div><div class="exercise-position"><span class="south-symbol" aria-hidden="true">S</span><span>Εσύ · Νότος</span><span class="turn-label">Η σειρά σου</span></div></div>
 </section>
 <section class="exercise-feedback" id="exercise-feedback" aria-label="Αποτέλεσμα" hidden><h2 id="feedback-title"></h2><p id="feedback-answer"></p><p id="feedback-explanation"></p><button type="button" id="next-exercise">Επόμενη άσκηση</button></section>
