@@ -15,6 +15,8 @@ export const articles = [
   { slug: 'two-way-drury', title: 'Two-way Drury', hands: 6,
     exercisesText: '20 ασκήσεις Two-way Drury: 10 απαντήσεις στο άνοιγμα και 10 επαναδηλώσεις ανοίξαντος.' },
   { slug: 'splinter-responder', title: 'Splinter από τον απαντώντα', hands: 7, titles: {"en": "Splinter by responder", "fr": "Splinter du répondant", "de": "Splinter des Antwortenden", "it": "Splinter del rispondente", "es": "Splinter del respondedor", "pt": "Splinter do respondente", "nl": "Splinter van de antwoordende hand", "tr": "Cevapçının Splinter’ı", "sv": "Splinter av svarshanden", "da": "Splinter fra svarer", "no": "Splinter fra svarhånden", "fi": "Vastaajan Splinter", "pl": "Splinter odpowiadającego", "cs": "Splinter odpovídajícího", "hu": "A válaszoló Splintere", "is": "Splinter svarhandar", "zh": "应叫人的Splinter", "ja": "レスポンダーのSplinter", "he": "Splinter של המשיב", "hi": "उत्तरदाता का Splinter", "ru": "Сплинтер отвечающего", "id": "Splinter oleh penjawab", "ar": "Splinter للمجيب", "th": "Splinter โดยผู้ตอบ", "ko": "응답자의 Splinter"},
-    exercisesText: '20 ασκήσεις: 10 απαντήσεις στο άνοιγμα και 10 συνέχειες του ανοίξαντος μετά από Splinter.' }
+    exercisesText: '20 ασκήσεις: 10 απαντήσεις στο άνοιγμα και 10 συνέχειες του ανοίξαντος μετά από Splinter.' },
+  { slug: 'splinter-opener', title: 'Splinter από τον ανοίξαντα', hands: 7, languages: ['el'],
+    exercisesText: '20 ασκήσεις: 10 επαναδηλώσεις ανοίξαντος και 10 συνέχειες μετά το Splinter του συμπαίκτη.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
