@@ -134,7 +134,7 @@
 
 ## 注意点
 
-Jacoby 2NTと[Bergen Raises](../bergen-raises/)は補い合います。この方式では4枚以上の切り札を持つ弱い手、コンストラクティブな手、インビテーションの手をBergenで扱い、ゲーム以上の強さをJacobyで扱います。
+Jacoby 2NTと[Bergen Raises](../bergen-raises/)は補い合います。この方式では4枚以上の切り札を持つ弱い手、コンストラクティブな手 (constructive)、インビテーションの手をBergenで扱い、ゲーム以上の強さをJacobyで扱います。
 
 **Jacoby 2NTとJacobyトランスファー**を混同しないでください。ここでの2NTは1♥または1♠へのレスポンスで、強いフィットを示します。
 

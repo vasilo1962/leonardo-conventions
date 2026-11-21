@@ -134,7 +134,7 @@ Bid **4♠**. Kita memiliki nilai game, tetapi banyak kekuatan berada di heart b
 
 ## Hal yang perlu diingat
 
-Jacoby 2NT dan [Bergen Raises](../bergen-raises/) saling melengkapi. Dengan minimal empat trump, versi kita memakai Bergen untuk pegangan lemah, konstruktif dan invitasi; Jacoby untuk kekuatan game atau lebih.
+Jacoby 2NT dan [Bergen Raises](../bergen-raises/) saling melengkapi. Dengan minimal empat trump, versi kita memakai Bergen untuk pegangan lemah, konstruktif (constructive) dan invitasi; Jacoby untuk kekuatan game atau lebih.
 
 Jangan tertukar antara **Jacoby 2NT dan Jacoby transfers**: di sini 2NT menjawab 1♥ atau 1♠ dan menunjukkan fit kuat.
 

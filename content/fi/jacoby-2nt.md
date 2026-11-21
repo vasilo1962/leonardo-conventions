@@ -53,7 +53,7 @@ Vastustajat passaavat kaikissa jatkoissa. Esittelemässämme klassisessa versios
 | Neljä avausyläväriä | Minimiavaus, ei singeltonia eikä renonssia. |
 | Uusi väri neljän tasolla | Hyvä vähintään viiden kortin sivuväri lisätikkien lähteeksi. |
 
-Pisterajat ovat suuntaa antavia; jakauma ja kuvakorttien laatu vaikuttavat. Muitakin versioita on. Lyhyyttä vastapäätä pienet kortit voidaan varastaa, kun taas kuningas tai rouva voi olla vähemmän hyödyllinen. **Suora hyppy täyspeliin näyttää heikoimman käden**; vahvat kädet säästävät tarjousilmaa slammia varten.
+Pisterajat ovat suuntaa antavia; jakauma ja kuvakorttien laatu vaikuttavat. Muitakin versioita on. Lyhyyttä vastapäätä pienet kortit voidaan varastaa, kun taas kuningas tai rouva voi olla vähemmän hyödyllinen. **Suora hyppy täyspeliin näyttää heikoimman käden**; vahvat kädet säästävät tarjoustilaa slammia varten.
 
 Seuraavissa viidessä esimerkissä avaamme **1♠**, ja partneri vastaa **2NT Jacoby**.
 
