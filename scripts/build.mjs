@@ -39,12 +39,13 @@ function page({ language, title, description, route, slug, body }) {
 }
 function renderArticle(source, article, language) {
   let handCount = 0;
-  const content = source.replace(/^# [^\n]+\n/, '').replace(/♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g, (_, ...args) => {
-    const cards = args.slice(0, 4);
+  const content = source.replace(/^# [^\n]+\n/, '').replace(/♠ ([AKQJT2-9]+|—)  \n♥ ([AKQJT2-9]+|—)  \n♦ ([AKQJT2-9]+|—)  \n♣ ([AKQJT2-9]+|—)/g, (_, ...args) => {
+    const cards = args.slice(0, 4).map(suit => suit === '—' ? '' : suit);
+    if (cards.some(suit => !suit) && !language.voidDescription) throw new Error('Missing translated void description');
     if (cards.join('').length !== 13) throw new Error(`${language.code}/${article.slug}: hand must have 13 cards`);
     for (const suit of cards) if (new Set(suit).size !== suit.length) throw new Error('Duplicate card in hand');
     handCount++;
-    return '<div class="hand">' + cards.map((s, i) => `<div class="hand-row"><span aria-hidden="true" dir="ltr"><span class="${i === 1 || i === 2 ? 'red' : ''}">${'♠♥♦♣'[i]}</span> ${s}</span><span class="sr-only">${escapeHtml(language.suits[i])}: ${[...s].map(r => escapeHtml(language.ranks[r] || r)).join(', ')}.</span></div>`).join('') + '</div>\n';
+    return '<div class="hand">' + cards.map((s, i) => `<div class="hand-row"><span aria-hidden="true" dir="ltr"><span class="${i === 1 || i === 2 ? 'red' : ''}">${'♠♥♦♣'[i]}</span> ${s || '—'}</span><span class="sr-only">${escapeHtml(language.suits[i])}: ${s ? [...s].map(r => escapeHtml(language.ranks[r] || r)).join(', ') : escapeHtml(language.voidDescription)}.</span></div>`).join('') + '</div>\n';
   });
   if (handCount !== article.hands) throw new Error(`${language.code}/${article.slug}: wrong number of hands`);
   const headings = [];
@@ -59,7 +60,7 @@ function renderArticle(source, article, language) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*(<p>[\s\S]*?<\/p>)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
-  if (['jacoby-2nt', 'drury', 'two-way-drury'].includes(article.slug)) {
+  if (['jacoby-2nt', 'drury', 'two-way-drury', 'splinter-responder'].includes(article.slug)) {
     html = html.replace(/(<div class="hand">(?:<div class="hand-row">[\s\S]*?<\/div>){4}<\/div>)\s*((?:<p>[\s\S]*?<\/p>\s*)+)/g,
       '<div class="example-row">$1<div class="example-explanation">$2</div></div>');
   }
@@ -82,13 +83,14 @@ for (const language of languages) {
     const source = await readFile(`content/${language.code}/${article.slug}.md`, 'utf8');
     const { html, headings } = renderArticle(source, article, language);
     const route = `${language.code}/${article.slug}/`;
-    const title = article.title + ' | Leonardo Bridge';
+    const articleTitle = article.titles?.[language.code] || article.title;
+    const title = articleTitle + ' | Leonardo Bridge';
     const exercises = language.code !== 'el' || article.exercises === false ? '' : article.exerciseSets
       ? article.exerciseSets.map(set => '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(set.title) + '</strong></p><p>' + escapeHtml(set.text) + '</p><a class="play-button" href="' + escapeHtml(set.href) + '">Ασκήσεις ' + escapeHtml(set.title) + '</a></aside>').join('')
       : '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>' + escapeHtml(article.exercisesText || 'Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.') + '</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>';
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, title, description: articleDescriptions[article.slug]?.[language.code] || article.description || language.cards[index], route, slug: article.slug,
-      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="ltr">' + escapeHtml(article.title) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
+      body: '<div class="layout"><nav aria-label="' + escapeHtml(language.ui.lesson) + '"><p class="nav-title">' + escapeHtml(language.ui.lesson) + '</p><ol>' + headings.map(({id,title}) => '<li><a href="#' + id + '">' + title + '</a></li>').join('') + '</ol></nav><main id="main"><article><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><p class="catalog-return"><a href="../conventions/"><span aria-hidden="true">' + (language.dir === 'rtl' ? '→' : '←') + '</span> ' + escapeHtml(language.ui.allConventions) + '</a></p><h1 dir="' + (article.titles && language.dir === 'rtl' ? 'rtl' : 'ltr') + '">' + escapeHtml(articleTitle) + '</h1><p class="intro-label">' + escapeHtml(language.ui.intro) + '</p>' + html + '</article>' + exercises + play + '</main></div>'
     }));
     pageCount++;
   }
@@ -96,7 +98,7 @@ for (const language of languages) {
     const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, route, title: language.ui.conventions + ' | Leonardo Bridge', description: language.ui.description,
-      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => availableIn(article, language.code) ? '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="ltr">' + escapeHtml(article.title) + '</strong><span>' + escapeHtml(article.description || language.cards[index]) + '</span></a>' : '').join('') + '</section>' + play + '</main>'
+      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => availableIn(article, language.code) ? '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="' + (article.titles && language.dir === 'rtl' ? 'rtl' : 'ltr') + '">' + escapeHtml(article.titles?.[language.code] || article.title) + '</strong><span>' + escapeHtml(article.description || language.cards[index]) + '</span></a>' : '').join('') + '</section>' + play + '</main>'
     }));
     pageCount++;
   }

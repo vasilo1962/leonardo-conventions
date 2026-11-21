@@ -6,7 +6,7 @@ import { articles as lessons, availableIn } from './articles.mjs';
 const articles = lessons.map(article => article.slug);
 const ready = (slug, code) => availableIn(lessons.find(article => article.slug === slug), code);
 const siteRoot = resolve('site');
-const handPattern = /♠ ([AKQJT2-9]+)  \n♥ ([AKQJT2-9]+)  \n♦ ([AKQJT2-9]+)  \n♣ ([AKQJT2-9]+)/g;
+const handPattern = /♠ ([AKQJT2-9]+|—)  \n♥ ([AKQJT2-9]+|—)  \n♦ ([AKQJT2-9]+|—)  \n♣ ([AKQJT2-9]+|—)/g;
 const hands = text => [...text.matchAll(handPattern)].map(match => match.slice(1));
 let checked = 0;
 for (const language of languages) {

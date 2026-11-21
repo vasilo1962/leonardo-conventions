@@ -356,3 +356,26 @@
 Νεότερη συμφωνία για τις εννέα ήδη μεταφρασμένες αποδόσεις του constructive στην παράγραφο Bergen του Jacoby (is, ru, id, he, hi, ja, ko, zh, th): διατηρούμε την τοπική διατύπωση και προσθέτουμε αμέσως μετά **(constructive)**, όπως ζήτησε η Βασιλική. Αυτό υπερισχύει της προηγούμενης οδηγίας για αντικατάσταση των συγκεκριμένων αποδόσεων με σκέτο constructive· δεν δηλώνει νέα ανεξάρτητη επαλήθευση των τοπικών όρων. Οι ήδη λατινικές γραφές constructive και οι τεκμηριωμένες αποδόσεις των άλλων γλωσσών διατηρούνται.
 
 Φινλανδικό Jacoby: για τον χώρο αγορών χρησιμοποιούμε **tarjoustilaa**, αντί του αδόκιμου tarjousilmaa. Πηγή χρήσης: [Jukka Korpela — Luonnollinen tarjousjärjestelmä bridgessä](https://jkorpela.fi/bridge/luonn.html). Στον έλεγχο επιβεβαιώθηκαν ως υπαρκτές χρήσεις και δεν αλλάζουν το ισλανδικό hálitasamlega ([Bridgeblaðið](https://bridge.is/media/35430/nr74bridgebladid20051942851641.pdf)) και το ολλανδικό ruitens ([NBB — Viertallen](https://13.bridge.nl/app/uploads/2020/09/Viertallen-uitleg.pdf)). Η απουσία μιας λέξης από λεξικό συχνοτήτων δεν αποτελεί απόδειξη ότι δεν υπάρχει.
+
+
+## Splinter από τον απαντώντα — 21/11/2026
+
+Συμφωνημένοι τίτλοι δύο αυτοτελών μαθημάτων: **Splinter από τον απαντώντα** και **Splinter από τον ανοίξαντα**. Στο πρώτο δείχνουμε «σόλο ή σικάν», «τουλάχιστον 4φυλλο φιτ» και «δύναμη για μανς». Οι άμεσες απαντήσεις είναι 1♥–3♠/4♣/4♦ και 1♠–4♣/4♦/4♥. Το δεύτερο μάθημα θα εξηγεί χωριστά και την εφαρμογή 1♣–1♥–4♦. Δεν εξισώνουμε τη δύναμη απαντώντος και ανοίξαντος.
+
+Η πρώτη εκδοχή αποφεύγει σόλο άσο/ρήγα και αυθαίρετο καθολικό όριο πόντων ονέρ. Σχετικά περιορισμένο χέρι με αρκετή δύναμη για μανς, χωρίς αυτόματη δέσμευση για σλεμ. Πολύ ισχυρότερο χέρι μπορεί να αρχίζει με Jacoby 2NT. Στις συνέχειες: κοντρόλ πρώτου/δεύτερου γύρου (άσος/σικάν, ρήγας/σόλο), με οικονομική σειρά κάτω από τη μανς, σύμφωνα με την εκδοχή του μαθήματος. Η επαναδήλωση της μανς από τον ανοίξαντα είναι για πάσο.
+
+Πηγές περιεχομένου που ελέγχθηκαν: [Larry Cohen — Splinter Bids](https://www.larryco.com/bridge-articles/splinter-bids), [ACBL — Splinter raises](https://web2.acbl.org/documentLibrary/play/Commonly_Used_Conventions/splinters.pdf) (διαθέσιμη ευρετηριασμένη απόδοση, άμεση ανάκτηση PDF με 403), [Kitty Cooper — Splinter Bids](https://bridgeteaching.com/splinter-bids/), [ACBL Unit 390 — Losing Trick Count, ενότητα Splinters](https://www.acblunit390.org/Simon/ltc.htm), [Lori Spaeth / ACBL Unit 503 — Splinter Bids](https://paloaltobridge.org/dotcom-files/education/lectureseries/Winter%202010/splinterbidsHO.pdf). Οι διαφορετικές αριθμητικές περιοχές των πηγών δεν μεταφέρονται ως κοινός κανόνας. Τα χέρια, οι εξηγήσεις και οι ασκήσεις συντάχθηκαν για το μάθημα. Μεταφράσεις και επαλήθευση ειδικών τοπικών αποδόσεων Splinter εκκρεμούν.
+
+## Splinter από τον απαντώντα — 21/11/2026
+
+Διατηρείται το διεθνές όνομα Splinter (στα ρωσικά και ως сплинтер). Η περιγραφή «διπλό πήδημα σε νέο χρώμα» αφορά τις έξι άμεσες αγορές του συγκεκριμένου μαθήματος και δεν γενικεύεται σε κάθε εφαρμογή Splinter. Τίτλοι και περιγραφές αποδίδονται στη γλώσσα κάθε άρθρου. Οι όροι singleton/void και οι τοπικές αποδόσεις ακολουθούν το υπάρχον γλωσσάρι και το Jacoby. Στα χίντι, αραβικά και ταϊλανδικά διατηρούνται οι διεθνείς όροι singleton, void και overcall, χωρίς ισχυρισμό επιβεβαιωμένου ειδικού τοπικού λεξιλογίου.
+
+Πρόσθετες πηγές ορολογίας:
+
+- [DBV — Splinter](https://www.bridge-verband.de/clients/bridge/content/e180/e193/e10914/e12416/files12426/DBV2020SchlemmreizungLektion9Splinter.pdf): Doppelsprung, Single, Chicane, Kontrollgebot.
+- [Philippe Chailley — Splinter](https://www.bridge-chailley.fr/wp-content/uploads/2018/04/E2064-Splinter.pdf): double saut, singleton, chicane, Splinter du répondant / de l’ouvreur.
+- [FIGB — Bridge d’Italia 07–08/1999](https://www.federbridge.it/Riviste/1999/07-08.pdf): doppio salto, splinter del rispondente, controllo di primo o secondo giro.
+- [NBB, εκπαιδευτικό υλικό συλλόγου — Verantwoord naar slem](https://6019.bridge.nl/app/uploads/2023/09/Lesje-Verantwoord-naar-slem.pdf): dubbele sprong, singleton, renonce.
+- [AEB — κάρτα συμβάσεων](https://www.aebridge.com/sites/default/files/2024-06/HC-Angel%20J.-Francisco%20J..pdf): fallo / semifallo.
+
+Οι πηγές χρησιμοποιούνται για ορολογία, όχι για υιοθέτηση διαφορετικών ορίων δύναμης ή αγορών. Δεν μεταφέρονται άλλες εκδοχές από τις κάρτες ή τα συστήματα των πηγών. Οι περιγραφικές αποδόσεις στις υπόλοιπες γλώσσες δεν παρουσιάζονται ως νέοι ανεξάρτητα επαληθευμένοι όροι. Δεν έχει γίνει επιμέλεια φυσικών ομιλητών.
