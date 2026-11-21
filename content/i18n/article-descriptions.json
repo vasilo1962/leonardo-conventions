@@ -252,6 +252,31 @@
     "ko": "Two-way Drury: 세 번째나 네 번째 자리의 메이저 오프닝 뒤 인비테이션 핸드로 3장 서포트와 4장 서포트를 구별하도록 돕는 컨벤션입니다. 자세한 이론, 예제와 대화형 연습 문제를 제공합니다."
   },
   "splinter-responder": {
-    "el": "Μάθε πώς να δείχνεις φιτ και σόλο ή σικάν με τη σύμβαση Splinter μετά από άνοιγμα του συμπαίκτη. Αναλυτική θεωρία, παραδείγματα και διαδραστικές ασκήσεις."
+    "el": "Μάθε πώς να δείχνεις φιτ και σόλο ή σικάν με τη σύμβαση Splinter μετά από άνοιγμα του συμπαίκτη. Αναλυτική θεωρία, παραδείγματα και διαδραστικές ασκήσεις.",
+    "en": "Learn to show support and a singleton or void with responder's Splinter convention. Theory, examples and interactive exercises.",
+    "fr": "Apprends à montrer un fit et un singleton ou une chicane avec le Splinter du répondant. Théorie, exemples et exercices interactifs.",
+    "de": "Zeige Fit und Single oder Chicane mit der Splinter-Konvention des Antwortenden. Theorie, Beispiele und interaktive Übungen.",
+    "it": "Impara a mostrare fit e singolo o vuoto con la convenzione Splinter del rispondente. Teoria, esempi ed esercizi interattivi.",
+    "es": "Aprende a mostrar apoyo y semifallo o fallo con la convención Splinter del respondedor. Teoría, ejemplos y ejercicios interactivos.",
+    "pt": "Aprende a mostrar apoio e singleton ou chicana com a convenção Splinter do respondente. Teoria, exemplos e exercícios interativos.",
+    "nl": "Leer steun en een singleton of renonce tonen met de Splinter van de antwoordende hand. Theorie, voorbeelden en interactieve oefeningen.",
+    "tr": "Cevapçının Splinter konvansiyonuyla destek ve tek veya şikan göstermeyi öğren. Teori, örnekler ve etkileşimli alıştırmalar.",
+    "sv": "Lär dig visa trumfstöd och singel eller renons med svarshandens Splinter. Teori, exempel och interaktiva övningar.",
+    "da": "Lær at vise støtte og singleton eller renonce med svarers Splinter. Teori, eksempler og interaktive øvelser.",
+    "no": "Lær å vise støtte og singelton eller renons med svarhåndens Splinter. Teori, eksempler og interaktive øvelser.",
+    "fi": "Opi näyttämään tuki ja singelton tai renonssi vastaajan Splinterillä. Teoriaa, esimerkkejä ja vuorovaikutteisia harjoituksia.",
+    "pl": "Poznaj Splinter odpowiadającego: pokaż fit oraz singleton lub renons. Teoria, przykłady i ćwiczenia interaktywne.",
+    "cs": "Nauč se ukázat fit a singl nebo šikenu pomocí Splinteru odpovídajícího. Teorie, příklady a interaktivní cvičení.",
+    "hu": "Tanuld meg a fit és a szingli vagy sikén bemutatását a válaszoló Splinterével. Elmélet, példák és interaktív feladatok.",
+    "is": "Lærðu að sýna stuðning og einspil eða eyðu með Splinter svarhandar. Kenning, dæmi og gagnvirkar æfingar.",
+    "zh": "学习用应叫人的Splinter约定叫显示配合及单张或缺门。包含理论、实例和互动练习。",
+    "ja": "レスポンダーのSplinterでサポートとシングルトンまたはボイドを示す方法を学ぼう。理論、実例、インタラクティブな練習。",
+    "he": "למדו להראות תמיכה וסינגלטון או חוסר באמצעות Splinter של המשיב. תאוריה, דוגמאות ותרגילים אינטראקטיביים.",
+    "hi": "उत्तरदाता के Splinter से समर्थन और singleton या void दिखाना सीखें। सिद्धांत, उदाहरण और इंटरैक्टिव अभ्यास।",
+    "ru": "Научись показывать фит и синглет или ренонс сплинтером отвечающего. Теория, примеры и интерактивные упражнения.",
+    "id": "Pelajari dukungan dan singleton atau void melalui konvensi Splinter oleh penjawab. Teori, contoh dan latihan interaktif.",
+    "ar": "تعلّم إظهار الدعم وsingleton أو void باستخدام Splinter للمجيب. شرح نظري وأمثلة وتمارين تفاعلية.",
+    "th": "เรียนรู้การแสดงไพ่สนับสนุนและ singleton หรือ void ด้วย Splinter ของผู้ตอบ พร้อมทฤษฎี ตัวอย่าง และแบบฝึกหัดโต้ตอบ",
+    "ko": "응답자의 Splinter로 서포트와 싱글턴 또는 보이드를 보여 주는 법을 배워 보세요. 이론, 예제, 대화형 연습을 제공합니다."
   }
 }
