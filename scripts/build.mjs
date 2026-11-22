@@ -1,3 +1,4 @@
+import {accessibleProseParagraphs} from './prose-speech.mjs';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
@@ -69,6 +70,7 @@ function renderArticle(source, article, language) {
     for (const heading of headings) heading.title = isolateRtl(heading.title);
   }
   html = accessibleTables(html, language.code);
+  html = accessibleProseParagraphs(html, language.code);
   return { html, headings };
 }
 async function playOnline(language) {

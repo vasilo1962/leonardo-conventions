@@ -19,3 +19,6 @@
   .example-explanation{display:block;min-width:0;flex:1}
   .example-explanation>p{margin:0}
 }
+
+/* Anchor the complete paragraph’s clipped speech copy without changing its layout. */
+.spoken-paragraph{position:relative}
