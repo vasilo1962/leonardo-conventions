@@ -1,6 +1,8 @@
 # Vastaajan Splinter
 
-**Splinter on kaksoishyppy uudessa värissä.** Se lupaa vähintään neljän kortin tuen, singeltonin tai renonssin tarjotussa värissä ja täyspelivoiman. Tässä käsitellään vastaajaa. **Avaajan Splinter** partnerin vastauksen jälkeen esitellään omassa oppitunnissaan.
+**Splinter on kaksoishyppy uudessa värissä.** Se lupaa vähintään neljän kortin tuen, singeltonin tai renonssin tarjotussa värissä ja täyspelivoiman. Tässä käsitellään vastaajaa.
+
+[Avaajan Splinter](../splinter-opener/)
 
 ## Milloin sitä käytetään?
 
@@ -8,7 +10,7 @@ Partneri avaa **1♥ tai 1♠** vähintään viidellä kortilla, ja seuraava vas
 
 ## Mitä sillä saavutetaan?
 
-Bridgessä kuvakorttien sijainti on tärkeä pistemäärän lisäksi. Keinotekoinen kaksoishyppy sopii avausylävärin valtiksi ja on **täyspelivaatimus**, muttei pakota slammiin.
+Bridgessä kuvakorttien sijainti on tärkeä pistemäärän lisäksi. Keinotekoinen kaksoishyppy näyttää tuen avausyläväriin ja on **täyspelivaatimus**, muttei pakota slammiin.
 
 Partneri arvioi kätensä uudelleen. Hakut singeltoniamme tai renonssiamme vasten ovat eduksi: partnerin pisteet ovat muualla. Kuningas, rouva ja sotilas samassa värissä voivat olla nimellistä pistemääräänsä vähemmän arvokkaita. Ässä on edelleen hyödyllinen singeltonia vasten; renonssia vasten arvo riippuu koko kädestä.
 
@@ -55,7 +57,7 @@ Avauksen **1♥** jälkeen:
 ♦ A963  
 ♣ KJ85
 
-Tarjoamme **3♠**: 13 kuvakorttipistettä ja neljä herttaa. Patatarjous näyttää singeltonin tai renonssin, ei pituutta, ja sopii hertan valtiksi.
+Tarjoamme **3♠**: 13 kuvakorttipistettä ja neljä herttaa. Patatarjous näyttää singeltonin tai renonssin, ei pituutta, ja näyttää herttatuen.
 
 ### 3. Herttatuki ja ristirenonssi
 

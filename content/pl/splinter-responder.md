@@ -1,6 +1,8 @@
 # Splinter odpowiadającego
 
-**Splinter to podwójny skok w nowy kolor.** Pokazuje co najmniej czterokartowy fit, singletona lub renons w zgłoszonym kolorze i siłę do końcówki. Tutaj stosuje go odpowiadający. **Splinter otwierającego**, po odpowiedzi partnera, omówimy w osobnej lekcji.
+**Splinter to podwójny skok w nowy kolor.** Pokazuje co najmniej czterokartowy fit, singletona lub renons w zgłoszonym kolorze i siłę do końcówki. Tutaj stosuje go odpowiadający.
+
+[Splinter otwierającego](../splinter-opener/)
 
 ## Kiedy stosujemy?
 
@@ -8,7 +10,7 @@ Partner otwiera **1♥ lub 1♠** z co najmniej pięciu kart, a następny przeci
 
 ## Co zyskujemy?
 
-W brydżu oprócz sumy punktów liczy się położenie honorów. Konwencyjny podwójny skok uzgadnia kolor otwarcia jako atut i **forsuje do końcówki**, ale nie zobowiązuje do szlemika.
+W brydżu oprócz sumy punktów liczy się położenie honorów. Konwencyjny podwójny skok pokazuje fit w kolorze otwarcia i **forsuje do końcówki**, ale nie zobowiązuje do szlemika.
 
 Partner ponownie ocenia rękę. Blotki naprzeciw naszego singletona lub renonsu są korzystne: jego punkty leżą gdzie indziej. Król, dama i walet w tym kolorze mogą być mniej warte niż ich nominalne punkty. As pozostaje użyteczny naprzeciw singletona; przy renonsie jego wartość zależy od całej ręki.
 
@@ -55,7 +57,7 @@ Po **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Licytujemy **3♠**: 13 PC i cztery kiery. Odzywka pikowa pokazuje singletona lub renons, nie długość, i uzgadnia kiery.
+Licytujemy **3♠**: 13 PC i cztery kiery. Odzywka pikowa pokazuje singletona lub renons, nie długość, i pokazuje fit kierowy.
 
 ### 3. Fit kierowy i renons trefl
 

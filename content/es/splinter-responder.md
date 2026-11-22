@@ -1,6 +1,8 @@
 # Splinter del respondedor
 
-**Un Splinter es un cambio de palo con doble salto.** Muestra al menos cuatro cartas de apoyo, semifallo o fallo en el palo nombrado y fuerza de manga. Aquí lo utiliza el respondedor. El **Splinter del abridor**, después de la respuesta del compañero, se tratará en otra lección.
+**Un Splinter es un cambio de palo con doble salto.** Muestra al menos cuatro cartas de apoyo, semifallo o fallo en el palo nombrado y fuerza de manga. Aquí lo utiliza el respondedor.
+
+[Splinter del abridor](../splinter-opener/)
 
 ## ¿Cuándo se aplica?
 
@@ -8,7 +10,7 @@ El compañero abre **1♥ o 1♠**, con al menos cinco cartas, y el siguiente ad
 
 ## ¿Para qué sirve?
 
-En bridge importa la ubicación de los honores, además de la suma de puntos. El doble salto convencional fija como triunfo el mayor de apertura y es **forcing a manga**, sin obligar a jugar slam.
+En bridge importa la ubicación de los honores, además de la suma de puntos. El doble salto convencional muestra apoyo al mayor de apertura y es **forcing a manga**, sin obligar a jugar slam.
 
 El compañero revalora su mano. Cartas pequeñas frente a nuestro semifallo o fallo son favorables, pues sus puntos están en otros palos. Rey, dama y jota en ese palo pueden valer menos de lo que indica su puntuación. El as sigue siendo útil frente a un semifallo; frente a un fallo su valor depende de toda la mano.
 
@@ -55,7 +57,7 @@ Tras **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Decimos **3♠**: 13 puntos de honores y cuatro corazones. La voz de picas muestra semifallo o fallo, no longitud, y acuerda corazones como triunfo.
+Decimos **3♠**: 13 puntos de honores y cuatro corazones. La voz de picas muestra semifallo o fallo, no longitud, y muestra apoyo a corazones.
 
 ### 3. Apoyo a corazones y fallo de tréboles
 

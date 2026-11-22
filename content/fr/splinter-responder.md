@@ -1,6 +1,8 @@
 # Splinter du répondant
 
-**Le Splinter est une enchère à double saut dans une nouvelle couleur.** Il montre au moins quatre atouts, un singleton ou une chicane dans la couleur nommée et la force de manche. Nous étudions ici le répondant. Le **Splinter de l’ouvreur**, après la réponse du partenaire, fera l’objet d’une leçon distincte.
+**Le Splinter est une enchère à double saut dans une nouvelle couleur.** Il montre au moins quatre atouts, un singleton ou une chicane dans la couleur nommée et la force de manche. Nous étudions ici le répondant.
+
+[Splinter de l’ouvreur](../splinter-opener/)
 
 ## Quand l’utiliser ?
 
@@ -8,7 +10,7 @@ Le partenaire ouvre de **1♥ ou 1♠**, avec au moins cinq cartes, et l’adver
 
 ## Quel est son intérêt ?
 
-Au bridge, la place des honneurs compte autant que le total des points. Le double saut conventionnel fixe la majeure d’ouverture comme atout et est **forcing de manche**, sans imposer le chelem.
+Au bridge, la place des honneurs compte autant que le total des points. Le double saut conventionnel montre un fit dans la majeure d’ouverture et est **forcing de manche**, sans imposer le chelem.
 
 Le partenaire réévalue sa main. Des petites cartes face à notre singleton ou chicane sont favorables : ses points se trouvent ailleurs. Roi, dame et valet dans cette couleur peuvent perdre de leur valeur. L’as reste utile face à un singleton ; face à une chicane, sa valeur dépend de l’ensemble de la main.
 
@@ -55,7 +57,7 @@ Après **1♥** :
 ♦ A963  
 ♣ KJ85
 
-Disons **3♠** : 13 H et quatre cœurs. L’enchère montre un singleton ou une chicane, et non une longueur à pique, en fixant l’atout cœur.
+Disons **3♠** : 13 H et quatre cœurs. L’enchère montre un singleton ou une chicane, et non une longueur à pique, avec un fit à cœur.
 
 ### 3. Fit à cœur et chicane trèfle
 

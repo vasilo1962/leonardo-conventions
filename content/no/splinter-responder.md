@@ -1,6 +1,8 @@
 # Splinter fra svarhånden
 
-**Splinter er et dobbelthopp i en ny farge.** Det viser minst firekortsstøtte, singelton eller renons i den meldte fargen og utgangsstyrke. Her behandler vi svarhånden. **Åpnerens Splinter**, etter makkers svar, får en egen leksjon.
+**Splinter er et dobbelthopp i en ny farge.** Det viser minst firekortsstøtte, singelton eller renons i den meldte fargen og utgangsstyrke. Her behandler vi svarhånden.
+
+[Splinter fra åpner](../splinter-opener/)
 
 ## Når brukes det?
 
@@ -8,7 +10,7 @@ Makker åpner **1♥ eller 1♠** med minst fem kort; neste motstander passer. V
 
 ## Hva oppnår vi?
 
-I bridge teller honnørenes plassering i tillegg til poengsummen. Det konvensjonelle dobbelthoppet fastsetter åpningsmajoren som trumf og er **utgangskrav**, uten å forplikte til slem.
+I bridge teller honnørenes plassering i tillegg til poengsummen. Det konvensjonelle dobbelthoppet viser støtte til åpningsmajoren og er **utgangskrav**, uten å forplikte til slem.
 
 Makker revurderer hånden. Småkort mot vår singelton eller renons er gunstige, siden makkers poeng ligger andre steder. Konge, dame og knekt i fargen kan være mindre verdt enn poengtallet. Et ess er fortsatt nyttig mot en singelton; mot en renons avhenger verdien av hele hånden.
 
@@ -55,7 +57,7 @@ Etter **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Meld **3♠**: 13 honnørpoeng og fire hjerter. Sparmeldingen viser singelton eller renons, ikke lengde, og fastsetter hjerter som trumf.
+Meld **3♠**: 13 honnørpoeng og fire hjerter. Sparmeldingen viser singelton eller renons, ikke lengde, og viser hjerterstøtte.
 
 ### 3. Hjerterstøtte og kløverrenons
 

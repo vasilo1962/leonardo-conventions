@@ -38,7 +38,8 @@
       "Ισχυρό φιτ στο μαζέρ, forcing μανς, με περιγραφή του χεριού και διερεύνηση σλεμ.",
       "Προτασιακό φιτ 3φυλλο+ με 2♣ από πασαρισμένο παίκτη μετά από άνοιγμα 3ης ή 4ης θέσης.",
       "Προτασιακό φιτ: 2♣ με ακριβώς 3φυλλο, 2♦ με 4φυλλο+, μετά από άνοιγμα 3ης ή 4ης θέσης.",
-      "Φιτ και σόλο ή σικάν μετά από άνοιγμα σε μαζέρ, με δύναμη για μανς."
+      "Φιτ και σόλο ή σικάν μετά από άνοιγμα σε μαζέρ, με δύναμη για μανς.",
+      "Φιτ και σόλο ή σικάν από τον ανοίξαντα, μετά την απάντηση σε μαζέρ."
     ],
     "voidDescription": "σικάν, κανένα φύλλο"
   },
@@ -81,7 +82,8 @@
       "A game-forcing major-suit raise: describe the hand and explore slam.",
       "Invitational 2♣ support by a passed hand after a third- or fourth-seat opening.",
       "Invitational support by a passed hand: 2♣ with exactly three cards, 2♦ with four or more.",
-      "Support and a singleton or void after a major-suit opening, with game values."
+      "Support and a singleton or void after a major-suit opening, with game values.",
+      "Opener shows support, a singleton or void and game-going strength after partner's response."
     ],
     "voidDescription": "void, no cards"
   },
@@ -124,7 +126,8 @@
       "Un soutien majeur forcing de manche pour décrire la main et explorer le chelem.",
       "Soutien propositionnel après passe : 2♣ avec au moins trois atouts.",
       "Soutien propositionnel après passe : 2♣ avec trois atouts exactement, 2♦ avec quatre ou plus.",
-      "Fit et singleton ou chicane après une ouverture majeure, avec la force de manche."
+      "Fit et singleton ou chicane après une ouverture majeure, avec la force de manche.",
+      "L’ouvreur montre un fit, un singleton ou une chicane et la force de manche après la réponse."
     ],
     "voidDescription": "chicane, aucune carte"
   },
@@ -167,7 +170,8 @@
       "Vollspielforcierende Oberfarbunterstützung: Handbeschreibung und Schlemmuntersuchung.",
       "Einladende Unterstützung nach Pass: 2♣ mit mindestens Dreieranschluss.",
       "Einladende Unterstützung nach Pass: 2♣ mit genau drei, 2♦ mit mindestens vier Trümpfen.",
-      "Fit und Single oder Chicane nach Oberfarberöffnung mit Vollspielstärke."
+      "Fit und Single oder Chicane nach Oberfarberöffnung mit Vollspielstärke.",
+      "Der Eröffner zeigt nach Partners Antwort Fit, Single oder Chicane und Vollspielstärke."
     ],
     "voidDescription": "Chicane, keine Karte"
   },
@@ -210,7 +214,8 @@
       "Appoggio forte nel nobile, forcing manche, per descrivere la mano ed esplorare lo slam.",
       "Appoggio invitante a mano passata: 2♣ con almeno tre atout.",
       "Appoggio invitante a mano passata: 2♣ con tre atout esatti, 2♦ con almeno quattro.",
-      "Fit e singolo o vuoto dopo un’apertura nobile, con forza da manche."
+      "Fit e singolo o vuoto dopo un’apertura nobile, con forza da manche.",
+      "L’apertore mostra fit, singolo o vuoto e forza di manche dopo la risposta del compagno."
     ],
     "voidDescription": "vuoto, nessuna carta"
   },
@@ -253,7 +258,8 @@
       "Apoyo fuerte en mayor, forcing a manga, para describir la mano y explorar el slam.",
       "Apoyo invitante tras pase: 2♣ con al menos tres triunfos.",
       "Apoyo invitante tras pase: 2♣ con tres triunfos exactos, 2♦ con cuatro o más.",
-      "Apoyo y semifallo o fallo tras una apertura mayor, con fuerza de manga."
+      "Apoyo y semifallo o fallo tras una apertura mayor, con fuerza de manga.",
+      "El abridor muestra apoyo, semifallo o fallo y fuerza de manga tras la respuesta del compañero."
     ],
     "voidDescription": "fallo, ninguna carta"
   },
@@ -296,7 +302,8 @@
       "Apoio forte no rico, forcing de partida, para descrever a mão e investigar o cheleme.",
       "Apoio de convite após passe: 2♣ com pelo menos três trunfos.",
       "Apoio de convite após passe: 2♣ com três trunfos exatos, 2♦ com quatro ou mais.",
-      "Apoio e singleton ou chicana após abertura em rico, com força para partida."
+      "Apoio e singleton ou chicana após abertura em rico, com força para partida.",
+      "O abridor mostra apoio, singleton ou chicana e força de partida após a resposta do parceiro."
     ],
     "voidDescription": "chicana, nenhuma carta"
   },
@@ -339,7 +346,8 @@
       "Een sterke mancheforcing verhoging in een hoge kleur, met ruimte voor slemonderzoek.",
       "Inviterende steun na een eerdere pas: 2♣ met minstens driekaartsteun.",
       "Inviterende steun na pas: 2♣ met precies drie kaarten, 2♦ met vier of meer.",
-      "Steun en een singleton of renonce na een hoge opening, met manchekracht."
+      "Steun en een singleton of renonce na een hoge opening, met manchekracht.",
+      "De openaar toont steun, een singleton of renonce en manchekracht na partners antwoord."
     ],
     "voidDescription": "renonce, geen kaarten"
   },
@@ -382,7 +390,8 @@
       "Majöre güçlü destek: zon forsingiyle eli tarif etme ve şlem araştırması.",
       "Pas geçmiş elden davet desteği: 2♣ ile en az üç kart destek.",
       "Pas geçmiş elden davet desteği: 2♣ tam üç, 2♦ en az dört kart destek.",
-      "Majör açışına destek, tek veya şikan ve zon gücü gösterme."
+      "Majör açışına destek, tek veya şikan ve zon gücü gösterme.",
+      "Açıcı, ortağın cevabından sonra destek, tek veya şikan ve zon gücü gösterir."
     ],
     "voidDescription": "şikan, hiç kart yok"
   },
@@ -425,7 +434,8 @@
       "Starkt högfärgsstöd med utgångskrav: beskriv handen och undersök slam.",
       "Inviterande stöd efter pass: 2♣ med minst trekortsstöd.",
       "Inviterande stöd efter pass: 2♣ med exakt tre kort, 2♦ med fyra eller fler.",
-      "Trumfstöd och singel eller renons efter högfärgsöppning, med utgångsstyrka."
+      "Trumfstöd och singel eller renons efter högfärgsöppning, med utgångsstyrka.",
+      "Öppnaren visar stöd, singel eller renons och utgångsstyrka efter partnerns svar."
     ],
     "voidDescription": "renons, inga kort"
   },
@@ -468,7 +478,8 @@
       "Stærk støtte i major med udgangskrav, håndbeskrivelse og slemundersøgelse.",
       "Inviterende støtte efter pas: 2♣ med mindst trekortsstøtte.",
       "Inviterende støtte efter pas: 2♣ med præcis tre kort, 2♦ med fire eller flere.",
-      "Trumfstøtte og singleton eller renonce efter majoråbning med udgangsstyrke."
+      "Trumfstøtte og singleton eller renonce efter majoråbning med udgangsstyrke.",
+      "Åbner viser støtte, singleton eller renonce og udgangsstyrke efter makkers svar."
     ],
     "voidDescription": "renonce, ingen kort"
   },
@@ -511,7 +522,8 @@
       "Sterk majorstøtte med utgangskrav, håndbeskrivelse og sleminteresse.",
       "Inviterende støtte etter pass: 2♣ med minst trekortsstøtte.",
       "Inviterende støtte etter pass: 2♣ med nøyaktig tre kort, 2♦ med fire eller flere.",
-      "Trumfstøtte og singelton eller renons etter majoråpning, med utgangsstyrke."
+      "Trumfstøtte og singelton eller renons etter majoråpning, med utgangsstyrke.",
+      "Åpner viser støtte, singelton eller renons og utgangsstyrke etter makkers svar."
     ],
     "voidDescription": "renons, ingen kort"
   },
@@ -554,7 +566,8 @@
       "Vahva ylävärituki ja täyspelivaatimus: käden kuvaaminen ja slammin tutkiminen.",
       "Inviittituki passanneelta kädeltä: 2♣ vähintään kolmen kortin tuella.",
       "Inviittituki passanneelta kädeltä: 2♣ tasan kolmella, 2♦ vähintään neljällä kortilla.",
-      "Valttituki ja singelton tai renonssi yläväriavauksen jälkeen, täyspelivoimalla."
+      "Valttituki ja singelton tai renonssi yläväriavauksen jälkeen, täyspelivoimalla.",
+      "Avaaja näyttää tuen, singeltonin tai renonssin ja täyspelivoiman partnerin vastauksen jälkeen."
     ],
     "voidDescription": "renonssi, ei kortteja"
   },
@@ -597,7 +610,8 @@
       "Silne poparcie starszego koloru, forsujące do końcówki, z miejscem na szlemika.",
       "Inwitujące poparcie po pasie: 2♣ z co najmniej trzema atutami.",
       "Inwitujące poparcie po pasie: 2♣ z dokładnie trzema, 2♦ z co najmniej czterema atutami.",
-      "Fit oraz singleton lub renons po otwarciu starszym, z siłą do końcówki."
+      "Fit oraz singleton lub renons po otwarciu starszym, z siłą do końcówki.",
+      "Otwierający pokazuje fit, singleton lub renons i siłę na końcówkę po odpowiedzi partnera."
     ],
     "voidDescription": "renons, brak kart"
   },
@@ -640,7 +654,8 @@
       "Silná podpora drahé barvy, manšforsující, s prostorem pro zkoumání slemu.",
       "Invitující podpora po pasu: 2♣ s alespoň třemi trumfy.",
       "Invitující podpora po pasu: 2♣ s přesně třemi, 2♦ s alespoň čtyřmi trumfy.",
-      "Fit a singl nebo šikena po zahájení v drahé barvě se silou do manše."
+      "Fit a singl nebo šikena po zahájení v drahé barvě se silou do manše.",
+      "Zahajitel po odpovědi partnera ukazuje fit, singl nebo šikenu a sílu na celou hru."
     ],
     "voidDescription": "šikena, žádná karta"
   },
@@ -683,7 +698,8 @@
       "Erős major támogatás, gémforsz, kézleírás és szlemvizsgálat.",
       "Invitáló támogatás passz után: 2♣ legalább három aduval.",
       "Invitáló támogatás passz után: 2♣ pontosan három, 2♦ legalább négy aduval.",
-      "Fit és szingli vagy sikén nemes színű indulás után, gémerővel."
+      "Fit és szingli vagy sikén nemes színű indulás után, gémerővel.",
+      "Az induló a partner válasza után fitet, szinglit vagy siként és gémerőt mutat."
     ],
     "voidDescription": "sikén, nincs lap"
   },
@@ -726,7 +742,8 @@
       "Sterkur stuðningur við hálit sem krefst geims og opnar fyrir slemmuleit.",
       "Áskorunarstuðningur eftir pass: 2♣ með að minnsta kosti þremur trompum.",
       "Áskorun eftir pass: 2♣ með nákvæmlega þrjú tromp, 2♦ með fjögur eða fleiri.",
-      "Stuðningur og einspil eða eyða eftir hálitaopnun, með styrk í geim."
+      "Stuðningur og einspil eða eyða eftir hálitaopnun, með styrk í geim.",
+      "Opnari sýnir stuðning, einspil eða eyðu og geimstyrk eftir svar makkers."
     ],
     "voidDescription": "eyða, engin spil"
   },
@@ -769,7 +786,8 @@
       "逼叫到局的高花加叫：描述牌型并探索满贯。",
       "不叫过的牌手用2♣表示至少三张支持的邀局牌。",
       "不叫过的牌手表示邀局支持：2♣恰好三张，2♦至少四张。",
-      "高花开叫后，以成局实力显示配合及单张或缺门。"
+      "高花开叫后，以成局实力显示配合及单张或缺门。",
+      "开叫人在同伴应叫后显示配合、单张或缺门，以及成局实力。"
     ],
     "voidDescription": "缺门，没有牌"
   },
@@ -812,7 +830,8 @@
       "ゲームフォーシングのメジャー・レイズで、手を説明してスラムを探ります。",
       "パスした手のインビテーション。2♣で３枚以上のサポートを示します。",
       "パスした手のインビテーション。2♣はちょうど３枚、2♦は４枚以上のサポート。",
-      "メジャーのオープンに対し、ゲームの強さでサポートとシングルトンまたはボイドを示す。"
+      "メジャーのオープンに対し、ゲームの強さでサポートとシングルトンまたはボイドを示す。",
+      "パートナーの応答後、サポートとシングルトンまたはボイド、ゲームの強さを示す。"
     ],
     "voidDescription": "ボイド、カードなし"
   },
@@ -855,7 +874,8 @@
       "תמיכה במייג׳ור המחייבת למשחק מלא, עם תיאור היד ובדיקת סלם.",
       "תמיכה מזמינה לאחר Pass: התשובה 2♣ מראה לפחות שלושה שליטים.",
       "תמיכה מזמינה לאחר Pass: התשובה 2♣ עם שלושה שליטים בדיוק, 2♦ עם ארבעה לפחות.",
-      "תמיכה וסינגלטון או חוסר אחרי פתיחה במייג׳ור, עם כוח למשחק מלא."
+      "תמיכה וסינגלטון או חוסר אחרי פתיחה במייג׳ור, עם כוח למשחק מלא.",
+      "הפותח מראה תמיכה, סינגלטון או חוסר וכוח למשחק מלא אחרי תשובת השותף."
     ],
     "dir": "rtl",
     "voidDescription": "חוסר, אין קלפים"
@@ -899,7 +919,8 @@
       "मेजर में गेम तक बाध्य करने वाला समर्थन: हाथ का वर्णन और स्लैम की खोज।",
       "Pass किए हाथ का आमंत्रण: 2♣ से कम से कम तीन कार्ड समर्थन।",
       "Pass किए हाथ का आमंत्रण: 2♣ ठीक तीन, 2♦ कम से कम चार कार्ड समर्थन।",
-      "मेजर ओपनिंग के बाद गेम की ताकत के साथ समर्थन और singleton या void दिखाना।"
+      "मेजर ओपनिंग के बाद गेम की ताकत के साथ समर्थन और singleton या void दिखाना।",
+      "ओपनर साथी के उत्तर के बाद समर्थन, singleton या void और गेम की ताकत दिखाता है।"
     ],
     "voidDescription": "void, कोई पत्ता नहीं"
   },
@@ -942,7 +963,8 @@
       "Форсирующая до гейма поддержка мажора: описание руки и поиск шлема.",
       "Инвитная поддержка после паса: 2♣ с тремя и более козырями.",
       "Инвитная поддержка после паса: 2♣ с ровно тремя, 2♦ с минимум четырьмя козырями.",
-      "Фит и синглет или ренонс после открытия в мажоре, с силой для гейма."
+      "Фит и синглет или ренонс после открытия в мажоре, с силой для гейма.",
+      "Открывающий показывает фит, синглет или ренонс и силу для гейма после ответа партнёра."
     ],
     "voidDescription": "ренонс, нет карт"
   },
@@ -985,7 +1007,8 @@
       "Dukungan major forcing sampai game untuk menggambarkan pegangan dan menjajaki slam.",
       "Dukungan invitasi setelah pass: 2♣ dengan minimal tiga kartu dukungan.",
       "Dukungan invitasi setelah pass: 2♣ tepat tiga kartu, 2♦ minimal empat kartu.",
-      "Dukungan dan singleton atau void setelah pembukaan mayor, dengan kekuatan game."
+      "Dukungan dan singleton atau void setelah pembukaan mayor, dengan kekuatan game.",
+      "Pembuka menunjukkan dukungan, singleton atau void dan kekuatan game setelah jawaban partner."
     ],
     "voidDescription": "void, tidak ada kartu"
   },
@@ -1028,7 +1051,8 @@
       "دعم للون كبير يفرض الوصول إلى الجيم، مع وصف اليد واستكشاف السلام.",
       "دعم بقوة الدعوة بعد Pass: إجابة 2♣ بثلاث أوراق دعم على الأقل.",
       "دعم بقوة الدعوة بعد Pass: إجابة 2♣ بثلاث أوراق بالضبط، و2♦ بأربع أوراق فأكثر.",
-      "دعم وsingleton أو void بعد افتتاح بلون كبير، مع قوة تكفي لـgame."
+      "دعم وsingleton أو void بعد افتتاح بلون كبير، مع قوة تكفي لـgame.",
+      "يُظهر المفتتح الدعم وsingleton أو void وقوة game بعد إجابة الشريك."
     ],
     "dir": "rtl",
     "voidDescription": "void، لا أوراق"
@@ -1072,7 +1096,8 @@
       "การสนับสนุนเมเจอร์แบบบังคับถึงเกม เพื่ออธิบายมือและสำรวจสแลม",
       "มือที่ Pass แล้วเชิญเกมด้วย 2♣ เมื่อสนับสนุนอย่างน้อยสามใบ",
       "มือที่ Pass แล้วเชิญเกม: 2♣ สนับสนุนสามใบพอดี และ 2♦ สี่ใบขึ้นไป",
-      "แสดงไพ่สนับสนุนและ singleton หรือ void หลังเปิดเมเจอร์ ด้วยกำลังพอเล่นเกม"
+      "แสดงไพ่สนับสนุนและ singleton หรือ void หลังเปิดเมเจอร์ ด้วยกำลังพอเล่นเกม",
+      "ผู้เปิดแสดงไพ่สนับสนุน singleton หรือ void และกำลังเล่นเกมหลังคู่ขาตอบ"
     ],
     "voidDescription": "void ไม่มีไพ่"
   },
@@ -1115,7 +1140,8 @@
       "게임 포싱 메이저 레이즈로 패를 설명하고 슬램을 탐색합니다.",
       "패스한 손의 인비테이션: 2♣로 3장 이상 서포트를 보여 줍니다.",
       "패스한 손의 인비테이션: 2♣는 정확히 3장, 2♦는 4장 이상 서포트입니다.",
-      "메이저 오프닝 뒤 게임의 힘으로 서포트와 싱글턴 또는 보이드를 보여 줍니다."
+      "메이저 오프닝 뒤 게임의 힘으로 서포트와 싱글턴 또는 보이드를 보여 줍니다.",
+      "오프너가 파트너의 응답 뒤 서포트, 싱글턴 또는 보이드와 게임 전력을 보여 줍니다."
     ],
     "voidDescription": "보이드, 카드 없음"
   }

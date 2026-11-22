@@ -1,0 +1,827 @@
+{
+  "title": "Splinter από τον ανοίξαντα",
+  "language": "el",
+  "route": "el/splinter-opener/practice/",
+  "lessonHref": "../",
+  "ui": {
+    "overcall": "Συνεχίζω ως ανοίξας",
+    "response": "Απαντώ στο Splinter",
+    "overcallQuestion": "Πώς συνεχίζεις ως ανοίξας;",
+    "responseQuestion": "Τι απαντάς στο Splinter του συμπαίκτη;",
+    "description": "20 ασκήσεις Splinter από τον ανοίξαντα: 10 επαναδηλώσεις και 10 συνέχειες του απαντώντος."
+  },
+  "questions": [
+    {
+      "id": "splinter-opener-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "D",
+      "hand": {
+        "S": "KJ3",
+        "H": "AK74",
+        "D": "6",
+        "C": "AQJ85"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♣ και ο συμπαίκτης απαντά 1♥. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♦ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σόλο στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-2",
+      "role": "overcall",
+      "kind": "contrast",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "D",
+      "hand": {
+        "S": "K83",
+        "H": "AQ74",
+        "D": "6",
+        "C": "KQJ85"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♣ και ο συμπαίκτης απαντά 1♥. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 3♥, φιτ με πήδημα και πρόταση για μανς. Έχουμε 15 πόντους ονέρ, 4φυλλο φιτ και σόλο. Το χέρι αξίζει περισσότερα από απλή βοήθεια, αλλά δεν αρκεί για να επιβάλουμε μανς απέναντι σε ελάχιστη απάντηση. Δεν κάνουμε Splinter· ο συμπαίκτης μπορεί να πασάρει την πρότασή μας με ελάχιστο χέρι ή να αγοράσει τη μανς με περισσότερη δύναμη.",
+      "objective": "invite"
+    },
+    {
+      "id": "splinter-opener-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "D",
+      "major": "H",
+      "shortSuit": "C",
+      "hand": {
+        "S": "KJ3",
+        "H": "AK74",
+        "D": "AQJ85",
+        "C": "6"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♦ και ο συμπαίκτης απαντά 1♥. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♣ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σόλο στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "D",
+      "major": "H",
+      "shortSuit": "S",
+      "hand": {
+        "S": "",
+        "H": "AQ74",
+        "D": "AKJ85",
+        "C": "KJ83"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♦ και ο συμπαίκτης απαντά 1♥. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 3♠ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σικάν στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "C",
+      "major": "S",
+      "shortSuit": "D",
+      "hand": {
+        "S": "AK74",
+        "H": "KJ3",
+        "D": "6",
+        "C": "AQJ85"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♣ και ο συμπαίκτης απαντά 1♠. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♦ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σόλο στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "C",
+      "major": "S",
+      "shortSuit": "H",
+      "hand": {
+        "S": "AQ74",
+        "H": "6",
+        "D": "KJ3",
+        "C": "AKJ85"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♣ και ο συμπαίκτης απαντά 1♠. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σόλο στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-7",
+      "role": "overcall",
+      "kind": "contrast",
+      "opening": "D",
+      "major": "S",
+      "shortSuit": "H",
+      "hand": {
+        "S": "AQ74",
+        "H": "6",
+        "D": "KQJ85",
+        "C": "K83"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♦ και ο συμπαίκτης απαντά 1♠. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 3♠, φιτ με πήδημα και πρόταση για μανς. Έχουμε 15 πόντους ονέρ, 4φυλλο φιτ και σόλο. Το χέρι αξίζει περισσότερα από απλή βοήθεια, αλλά δεν αρκεί για να επιβάλουμε μανς απέναντι σε ελάχιστη απάντηση. Δεν κάνουμε Splinter· ο συμπαίκτης μπορεί να πασάρει την πρότασή μας με ελάχιστο χέρι ή να αγοράσει τη μανς με περισσότερη δύναμη.",
+      "objective": "invite"
+    },
+    {
+      "id": "splinter-opener-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "opening": "D",
+      "major": "S",
+      "shortSuit": "H",
+      "hand": {
+        "S": "AQ74",
+        "H": "",
+        "D": "AKJ85",
+        "C": "KJ83"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♦ και ο συμπαίκτης απαντά 1♠. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥ Splinter. Έχουμε 18 πόντους ονέρ, 4φυλλο φιτ στο μαζέρ του συμπαίκτη και σικάν στο χρώμα που αγοράζουμε. Η δύναμη και η κατανομή μας επιτρέπουν να δεσμευτούμε για μανς ακόμη και απέναντι σε ελάχιστη απάντηση. Ο συμπαίκτης θα επανεκτιμήσει τα ονέρ του."
+    },
+    {
+      "id": "splinter-opener-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "D",
+      "hand": {
+        "S": "K83",
+        "H": "KJ74",
+        "D": "6",
+        "C": "AJ852"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♣ και ο συμπαίκτης απαντά 1♥. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 2♥, απλή βοήθεια. Έχουμε 12 πόντους ονέρ, 4φυλλο φιτ και σόλο, αλλά όχι αρκετή δύναμη για να επιβάλουμε μανς απέναντι σε ελάχιστη απάντηση. Το Splinter θα περιέγραφε πολύ ισχυρότερο χέρι."
+    },
+    {
+      "id": "splinter-opener-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "opening": "D",
+      "major": "S",
+      "shortSuit": "H",
+      "hand": {
+        "S": "KJ74",
+        "H": "6",
+        "D": "AJ852",
+        "C": "K83"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "1S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "situation": "Ανοίγεις 1♦ και ο συμπαίκτης απαντά 1♠. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 2♠, απλή βοήθεια. Έχουμε 12 πόντους ονέρ, 4φυλλο φιτ και σόλο, αλλά όχι αρκετή δύναμη για να επιβάλουμε μανς απέναντι σε ελάχιστη απάντηση. Το Splinter θα περιέγραφε πολύ ισχυρότερο χέρι."
+    },
+    {
+      "id": "splinter-opener-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "stop",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "D",
+      "hand": {
+        "S": "Q83",
+        "H": "KJ74",
+        "D": "KQ4",
+        "C": "T62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♣, απαντάς 1♥ και εκείνος αγοράζει 4♦ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥, για πάσο. Έχουμε 11 πόντους ονέρ, αλλά οι 5 βρίσκονται στο χρώμα του Splinter, απέναντι από σόλο ή σικάν. Τα υπόλοιπα φύλλα μας δεν δικαιολογούν εξερεύνηση σλεμ. Ο ανοίξας έχει ήδη περιγράψει το χέρι του και πασάρει."
+    },
+    {
+      "id": "splinter-opener-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "stop",
+      "opening": "D",
+      "major": "H",
+      "shortSuit": "C",
+      "hand": {
+        "S": "983",
+        "H": "QJ74",
+        "D": "K62",
+        "C": "KQ4"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♦, απαντάς 1♥ και εκείνος αγοράζει 4♣ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥, για πάσο. Έχουμε 11 πόντους ονέρ, αλλά οι 5 βρίσκονται στο χρώμα του Splinter, απέναντι από σόλο ή σικάν. Τα υπόλοιπα φύλλα μας δεν δικαιολογούν εξερεύνηση σλεμ. Ο ανοίξας έχει ήδη περιγράψει το χέρι του και πασάρει."
+    },
+    {
+      "id": "splinter-opener-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "stop",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "S",
+      "hand": {
+        "S": "KQJ3",
+        "H": "Q874",
+        "D": "K62",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♣, απαντάς 1♥ και εκείνος αγοράζει 3♠ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥, για πάσο. Έχουμε 11 πόντους ονέρ, αλλά οι 6 βρίσκονται στο χρώμα του Splinter, απέναντι από σόλο ή σικάν. Τα υπόλοιπα φύλλα μας δεν δικαιολογούν εξερεύνηση σλεμ. Ο ανοίξας έχει ήδη περιγράψει το χέρι του και πασάρει."
+    },
+    {
+      "id": "splinter-opener-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "stop",
+      "opening": "C",
+      "major": "S",
+      "shortSuit": "H",
+      "hand": {
+        "S": "KJ74",
+        "H": "KQ4",
+        "D": "Q83",
+        "C": "T62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♣, απαντάς 1♠ και εκείνος αγοράζει 4♥ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♠, για πάσο. Έχουμε 11 πόντους ονέρ, αλλά οι 5 βρίσκονται στο χρώμα του Splinter, απέναντι από σόλο ή σικάν. Τα υπόλοιπα φύλλα μας δεν δικαιολογούν εξερεύνηση σλεμ. Ο ανοίξας έχει ήδη περιγράψει το χέρι του και πασάρει."
+    },
+    {
+      "id": "splinter-opener-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "stop",
+      "opening": "D",
+      "major": "S",
+      "shortSuit": "C",
+      "hand": {
+        "S": "QJ74",
+        "H": "K62",
+        "D": "J83",
+        "C": "KQ4"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♦, απαντάς 1♠ και εκείνος αγοράζει 4♣ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♠, για πάσο. Έχουμε 12 πόντους ονέρ, αλλά οι 5 βρίσκονται στο χρώμα του Splinter, απέναντι από σόλο ή σικάν. Τα υπόλοιπα φύλλα μας δεν δικαιολογούν εξερεύνηση σλεμ. Ο ανοίξας έχει ήδη περιγράψει το χέρι του και πασάρει."
+    },
+    {
+      "id": "splinter-opener-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "control",
+      "opening": "C",
+      "major": "H",
+      "shortSuit": "S",
+      "hand": {
+        "S": "864",
+        "H": "KQ74",
+        "D": "AQ3",
+        "C": "A85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♣, απαντάς 1♥ και εκείνος αγοράζει 3♠ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♣, δείχνοντας κοντρόλ και ενδιαφέρον για σλεμ. Έχουμε 15 πόντους ονέρ, όλους έξω από το χρώμα του Splinter, και καλά ατού. Δείχνουμε πρώτα το οικονομικότερο διαθέσιμο κοντρόλ κάτω από τη μανς, με τον άσο. Δεν αγοράζουμε αυτόματα 4NT."
+    },
+    {
+      "id": "splinter-opener-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "control",
+      "opening": "D",
+      "major": "H",
+      "shortSuit": "S",
+      "hand": {
+        "S": "964",
+        "H": "AQ74",
+        "D": "A83",
+        "C": "KQ5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♦, απαντάς 1♥ και εκείνος αγοράζει 3♠ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♣, δείχνοντας κοντρόλ και ενδιαφέρον για σλεμ. Έχουμε 15 πόντους ονέρ, όλους έξω από το χρώμα του Splinter, και καλά ατού. Δείχνουμε πρώτα το οικονομικότερο διαθέσιμο κοντρόλ κάτω από τη μανς, με τον ρήγα. Δεν αγοράζουμε αυτόματα 4NT."
+    },
+    {
+      "id": "splinter-opener-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "control",
+      "opening": "D",
+      "major": "H",
+      "shortSuit": "C",
+      "hand": {
+        "S": "AK3",
+        "H": "KQ74",
+        "D": "A85",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♦, απαντάς 1♥ και εκείνος αγοράζει 4♣ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♦, δείχνοντας κοντρόλ και ενδιαφέρον για σλεμ. Έχουμε 16 πόντους ονέρ, όλους έξω από το χρώμα του Splinter, και καλά ατού. Δείχνουμε πρώτα το οικονομικότερο διαθέσιμο κοντρόλ κάτω από τη μανς, με τον άσο. Δεν αγοράζουμε αυτόματα 4NT."
+    },
+    {
+      "id": "splinter-opener-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "control",
+      "opening": "D",
+      "major": "S",
+      "shortSuit": "C",
+      "hand": {
+        "S": "AQ74",
+        "H": "AK3",
+        "D": "K85",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♦, απαντάς 1♠ και εκείνος αγοράζει 4♣ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♦, δείχνοντας κοντρόλ και ενδιαφέρον για σλεμ. Έχουμε 16 πόντους ονέρ, όλους έξω από το χρώμα του Splinter, και καλά ατού. Δείχνουμε πρώτα το οικονομικότερο διαθέσιμο κοντρόλ κάτω από τη μανς, με τον ρήγα. Δεν αγοράζουμε αυτόματα 4NT."
+    },
+    {
+      "id": "splinter-opener-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "control",
+      "opening": "C",
+      "major": "S",
+      "shortSuit": "D",
+      "hand": {
+        "S": "KQ74",
+        "H": "AQ3",
+        "D": "862",
+        "C": "A85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "1S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "4D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "situation": "Ο συμπαίκτης ανοίγει 1♣, απαντάς 1♠ και εκείνος αγοράζει 4♦ Splinter. Οι αντίπαλοι πασάρουν. Πώς συνεχίζεις;",
+      "explanation": "Αγοράζουμε 4♥, δείχνοντας κοντρόλ και ενδιαφέρον για σλεμ. Έχουμε 15 πόντους ονέρ, όλους έξω από το χρώμα του Splinter, και καλά ατού. Δείχνουμε πρώτα το οικονομικότερο διαθέσιμο κοντρόλ κάτω από τη μανς, με τον άσο. Δεν αγοράζουμε αυτόματα 4NT."
+    }
+  ]
+}

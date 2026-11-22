@@ -1,6 +1,8 @@
 # Splinter svarhandar
 
-**Splinter er tvöfalt stökk í nýjum lit.** Það sýnir að minnsta kosti fjögurra spila stuðning, einspil eða eyðu í sögðum lit og styrk í geim. Hér er fjallað um svarhönd. **Splinter opnara**, eftir svar makkers, verður tekið fyrir í sérstakri kennslustund.
+**Splinter er tvöfalt stökk í nýjum lit.** Það sýnir að minnsta kosti fjögurra spila stuðning, einspil eða eyðu í sögðum lit og styrk í geim. Hér er fjallað um svarhönd.
+
+[Splinter opnara](../splinter-opener/)
 
 ## Hvenær á það við?
 
@@ -8,7 +10,7 @@ Makker opnar **1♥ eða 1♠** með að minnsta kosti fimm spilum og næsti mó
 
 ## Hver er tilgangurinn?
 
-Í brids skiptir staðsetning mannspila máli, ekki aðeins punktasumman. Tvöfalda stökkið er kerfissögn sem samþykkir opnunarlitinn sem tromp og **krefst geims**, en skuldbindur ekki til slemmu.
+Í brids skiptir staðsetning mannspila máli, ekki aðeins punktasumman. Tvöfalda stökkið er kerfissögn sem sýnir stuðning við opnunarlitinn og **krefst geims**, en skuldbindur ekki til slemmu.
 
 Makker endurmetur höndina. Smáspil á móti einspili eða eyðu eru hagstæð: punktarnir liggja í öðrum litum. Kóngur, drottning og gosi í sama lit geta verið minna virði en punktatalan gefur til kynna. Ás nýtist enn á móti einspili; á móti eyðu fer gildi hans eftir allri hendinni.
 
@@ -55,7 +57,7 @@ Eftir **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Segjum **3♠**: 13 háspilapunktar og fjögur hjörtu. Spaðasögnin sýnir einspil eða eyðu, ekki lengd, og samþykkir hjarta sem tromp.
+Segjum **3♠**: 13 háspilapunktar og fjögur hjörtu. Spaðasögnin sýnir einspil eða eyðu, ekki lengd, og sýnir stuðning við hjarta.
 
 ### 3. Hjartastuðningur og laufeyða
 

@@ -70,7 +70,7 @@ const html=await readFile('site/el/splinter-responder/index.html','utf8');
 assert.equal((html.match(/class="hand"/g)||[]).length,7);
 assert.ok(html.includes('σικάν, κανένα φύλλο'));
 assert.ok(html.includes('href="practice/"'));
-assert.ok(!html.includes('href="../splinter-opener/"'));
+assert.ok(html.includes('href="../splinter-opener/"'));
 const exercises=await readFile('site/el/splinter-responder/practice/index.html','utf8');
 assert.deepEqual(JSON.parse(exercises.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
 const description=JSON.parse(await readFile('content/i18n/article-descriptions.json','utf8'))['splinter-responder'].el;

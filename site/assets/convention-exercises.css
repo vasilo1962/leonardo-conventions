@@ -22,3 +22,9 @@
 .exercise-progress{position:sticky;top:calc(var(--learning-header-height,0px) + 6px);z-index:6;background:#fff;padding:6px 0;align-items:center;flex-wrap:wrap;gap:4px 16px}
 .exercise-counts{display:flex;flex-wrap:wrap;gap:4px 16px;color:#0a3c6a;font-weight:600}
 .exercise-progress p{margin:0}
+
+/* Review previous questions without changing the saved answer or score. */
+.exercise-progress-navigation{display:flex;align-items:center;gap:8px;flex:1;min-width:0}
+.exercise-previous{display:inline-flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px;padding:0;border:1px solid #b8c9d4;border-radius:6px;background:#f3f8fc;color:#0a3c6a;font-size:22px;line-height:1}
+.exercise-previous:disabled{opacity:.4;cursor:default}
+.exercise-previous:enabled:hover{background:#e7eef3}

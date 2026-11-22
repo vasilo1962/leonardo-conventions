@@ -1,6 +1,8 @@
 # Splinter by responder
 
-**A Splinter is a double jump in a new suit.** It shows at least four-card support for partner, a singleton or void in the suit bid, and game-going strength. This lesson concerns responder. **Splinters by opener**, after partner's response, will be covered in a separate lesson.
+**A Splinter is a double jump in a new suit.** It shows at least four-card support for partner, a singleton or void in the suit bid, and game-going strength. This lesson concerns responder.
+
+[Splinter by opener](../splinter-opener/)
 
 ## When does it apply?
 
@@ -8,7 +10,7 @@ Partner opens **1♥ or 1♠**, promising at least five cards, and the next oppo
 
 ## What does it achieve?
 
-In bridge, the location of our honors matters as well as the total points. The conventional double jump agrees opener's major as trumps and is **game forcing**, without committing the partnership to slam.
+In bridge, the location of our honors matters as well as the total points. The conventional double jump shows support for opener's major and is **game forcing**, without committing the partnership to slam.
 
 Partner revalues the hand. Low cards opposite our singleton or void are favorable: partner's strength lies elsewhere. Kings, queens and jacks in that suit may be worth less than their point count suggests. An ace remains useful opposite a singleton; opposite a void its value depends on the whole hand.
 
@@ -55,7 +57,7 @@ After **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Bid **3♠**: 13 HCP and four hearts. The spade bid shows a singleton or void, rather than length, and agrees hearts as trumps.
+Bid **3♠**: 13 HCP and four hearts. The spade bid shows a singleton or void, rather than length, and shows heart support.
 
 ### 3. Heart support and a club void
 

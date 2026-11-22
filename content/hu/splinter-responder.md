@@ -1,6 +1,8 @@
 # A válaszoló Splintere
 
-**A Splinter dupla ugrás új színben.** Legalább négylapos támogatást, a bemondott színben szinglit vagy siként és gémerőt mutat. Itt a válaszoló alkalmazza. Az **induló Splinterét**, a partner válasza után, külön leckében tárgyaljuk.
+**A Splinter dupla ugrás új színben.** Legalább négylapos támogatást, a bemondott színben szinglit vagy siként és gémerőt mutat. Itt a válaszoló alkalmazza.
+
+[Az induló Splintere](../splinter-opener/)
 
 ## Mikor alkalmazzuk?
 
@@ -8,7 +10,7 @@ A partner legalább öt lapot ígérő **1♥ vagy 1♠** indulása után a köv
 
 ## Mire szolgál?
 
-A bridzsben a pontösszeg mellett a figurák elhelyezkedése is számít. A mesterséges dupla ugrás az induló nemes színét adunak rögzíti és **gémforsz**, de nem kötelez szlemre.
+A bridzsben a pontösszeg mellett a figurák elhelyezkedése is számít. A mesterséges dupla ugrás támogatást mutat az induló nemes színében és **gémforsz**, de nem kötelez szlemre.
 
 A partner újraértékeli a kezét. A szinglinkkel vagy sikénünkkel szembeni kis lapok kedvezőek: a pontjai máshol vannak. A király, dáma és bubi ebben a színben kevesebbet érhet névleges pontértékénél. Az ász szinglivel szemben hasznos marad; sikénnel szemben az egész kéztől függ az értéke.
 
@@ -55,7 +57,7 @@ A partner indul, a jobb oldali ellenfél passzol.
 ♦ A963  
 ♣ KJ85
 
-**3♠**-et mondunk: 13 figurapont és négy kőr. A pikklicit szinglit vagy siként, nem hosszúságot mutat, és a kőrt adunak rögzíti.
+**3♠**-et mondunk: 13 figurapont és négy kőr. A pikklicit szinglit vagy siként, nem hosszúságot mutat, és támogatást mutat kőrben.
 
 ### 3. Kőrfit és treff sikén
 

@@ -1,6 +1,8 @@
 # Splinter av svarshanden
 
-**Splinter är ett dubbelt hopp i en ny färg.** Det visar minst fyrkortsstöd till partnern, singel eller renons i den bjudna färgen och utgångsstyrka. Här behandlas svarshanden. **Öppnarens Splinter**, efter partnerns svar, får en egen lektion.
+**Splinter är ett dubbelt hopp i en ny färg.** Det visar minst fyrkortsstöd till partnern, singel eller renons i den bjudna färgen och utgångsstyrka. Här behandlas svarshanden.
+
+[Splinter av öppningshanden](../splinter-opener/)
 
 ## När används det?
 
@@ -8,7 +10,7 @@ Partnern öppnar **1♥ eller 1♠** med minst fem kort och nästa motståndare 
 
 ## Vad uppnår vi?
 
-I bridge räknas honnörernas placering lika väl som poängsumman. Det konventionella dubbelhoppet fastställer öppningsfärgen som trumf och är **utgångskrav**, utan att kräva slam.
+I bridge räknas honnörernas placering lika väl som poängsumman. Det konventionella dubbelhoppet visar stöd i öppningsfärgen och är **utgångskrav**, utan att kräva slam.
 
 Partnern omvärderar handen. Hackor mittemot vår singel eller renons är gynnsamma: poängen finns i övriga färger. Kung, dam och knekt i samma färg kan vara mindre värda än poängräkningen antyder. Ett ess är fortfarande användbart mittemot en singel; mot en renons beror värdet på hela handen.
 
@@ -55,7 +57,7 @@ Efter **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Bjud **3♠**: 13 honnörspoäng och fyra hjärter. Spaderbudet visar singel eller renons, inte längd, och fastställer hjärter som trumf.
+Bjud **3♠**: 13 honnörspoäng och fyra hjärter. Spaderbudet visar singel eller renons, inte längd, och visar hjärterstöd.
 
 ### 3. Hjärterstöd och klöverrenons
 

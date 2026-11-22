@@ -1,6 +1,8 @@
 # Splinter del rispondente
 
-**La Splinter è una dichiarazione a doppio salto in un nuovo colore.** Mostra almeno quattro atout, singolo o vuoto nel colore dichiarato e forza da manche. Qui riguarda il rispondente. La **Splinter dell’apertore**, dopo la risposta del compagno, sarà trattata in una lezione separata.
+**La Splinter è una dichiarazione a doppio salto in un nuovo colore.** Mostra almeno quattro atout, singolo o vuoto nel colore dichiarato e forza da manche. Qui riguarda il rispondente.
+
+[Splinter dell’apertore](../splinter-opener/)
 
 ## Quando si applica?
 
@@ -8,7 +10,7 @@ Il compagno apre **1♥ o 1♠**, almeno quinto, e l’avversario successivo pas
 
 ## A cosa serve?
 
-Nel bridge conta dove si trovano gli onori, oltre al totale dei punti. Il doppio salto convenzionale fissa come atout il nobile d’apertura ed è **forzante a manche**, senza obbligare allo slam.
+Nel bridge conta dove si trovano gli onori, oltre al totale dei punti. Il doppio salto convenzionale mostra appoggio nel nobile d’apertura ed è **forzante a manche**, senza obbligare allo slam.
 
 Il compagno rivaluta la mano. Cartine di fronte al nostro singolo o vuoto sono favorevoli: i suoi punti sono altrove. Re, donna e fante in quel colore possono valere meno del punteggio nominale. L’asso resta utile di fronte a un singolo; di fronte al vuoto il suo valore dipende dall’intera mano.
 
@@ -55,7 +57,7 @@ Dopo **1♥**:
 ♦ A963  
 ♣ KJ85
 
-Dichiariamo **3♠**: 13 punti onori e quattro cuori. La dichiarazione a picche mostra singolo o vuoto, non lunghezza, e fissa cuori come atout.
+Dichiariamo **3♠**: 13 punti onori e quattro cuori. La dichiarazione a picche mostra singolo o vuoto, non lunghezza, e mostra appoggio a cuori.
 
 ### 3. Fit a cuori e vuoto a fiori
 
