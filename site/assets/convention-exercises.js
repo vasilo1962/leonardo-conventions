@@ -1,3 +1,5 @@
+import {spokenBidText, setSpokenBidText} from './bid-speech.js';
+import bidCopy from './bid-speech.el.js';
 // Faithful web adaptation of the existing table card and bidding-box presentation.
 // The exercise data and feedback are local to this static conventions preview.
 import { exerciseProgress, createAnswerSounds } from './convention-feedback.js';
@@ -65,7 +67,7 @@ export function auctionRows(auction, nextSeat = 'S') {
   return rows;
 }
 function callSpeech(call) {
-  return call === 'PASS' ? 'Πάσο' : call === 'X' ? 'Κοντρ' : call === 'XX' ? 'Σιρκόντρ' : call[0] + ' ' + SUIT_NAMES[call.slice(1)];
+  return call === 'PASS' ? 'Πάσο' : call === 'X' ? 'Κοντρ' : call === 'XX' ? 'Σιρκόντρ' : bidCopy.bids[call[0]][SYMBOLS[call.slice(1)]];
 }
 function node(tag, attrs = {}, text = '') {
   const element = document.createElement(tag);
@@ -95,7 +97,7 @@ function initializeExercises() {
     clearTimeout(announceTimer);
     if (!voiceEnabled()) return;
     $('#exercise-announcement').textContent = '';
-    announceTimer = setTimeout(() => { $('#exercise-announcement').textContent = text; }, 40);
+    announceTimer = setTimeout(() => { $('#exercise-announcement').textContent = spokenBidText(text, bidCopy); }, 40);
   };
   function geometry() {
     const frameStyle = getComputedStyle(table);
@@ -169,7 +171,6 @@ function initializeExercises() {
     $('.turn-label').textContent = 'Απάντησες';
     if (voiceEnabled()) {
       feedback.tabIndex = -1;
-      feedback.setAttribute('aria-label', `${callSpeech(call)}. ${call === question.answer ? 'Σωστά.' : 'Η σωστή αγορά είναι ' + callSpeech(question.answer) + '.'} ${question.explanation}`);
       feedback.focus({ preventScroll: true });
     } else $('#next-exercise').focus({ preventScroll: true });
     feedback.scrollIntoView({ block: 'nearest', behavior: 'instant' });
@@ -183,14 +184,15 @@ function initializeExercises() {
   function showFeedback(question, call) {
     feedback.hidden = false;
     const correct = call === question.answer;
+    feedback.setAttribute('aria-label', voiceEnabled() ? `${callSpeech(call)}. ${correct ? 'Σωστά.' : 'Η σωστή αγορά είναι ' + callSpeech(question.answer) + '.'} ${spokenBidText(question.explanation, bidCopy)}` : 'Αποτέλεσμα');
     feedback.classList.toggle('correct', correct);
-    $('#feedback-title').textContent = correct ? 'Σωστά!' : 'Η σωστή αγορά είναι ' + callLabel(question.answer);
-    $('#feedback-answer').textContent = 'Η επιλογή σου: ' + callLabel(call) + '.';
-    $('#feedback-explanation').textContent = question.explanation;
+    setSpokenBidText($('#feedback-title'), correct ? 'Σωστά!' : 'Η σωστή αγορά είναι ' + callLabel(question.answer), bidCopy);
+    setSpokenBidText($('#feedback-answer'), 'Η επιλογή σου: ' + callLabel(call) + '.', bidCopy);
+    setSpokenBidText($('#feedback-explanation'), question.explanation, bidCopy);
     if (question.lessonLink) {
       const link = document.createElement('a');
       link.href = question.lessonLink.href;
-      link.textContent = question.lessonLink.label;
+      setSpokenBidText(link, question.lessonLink.label, bidCopy);
       $('#feedback-explanation').append(document.createTextNode(' '), link);
     }
     $('#next-exercise').textContent = sessions[mode].index === sessions[mode].questions.length - 1 ? 'Δες το αποτέλεσμα' : 'Επόμενη άσκηση';
@@ -255,19 +257,20 @@ function initializeExercises() {
     }
     const question = current();
     $('#exercise-question').dataset.questionId = question.id;
-    $('#exercise-question').textContent = ui[mode + 'Question'] || (mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;');
+    setSpokenBidText($('#exercise-question'), ui[mode + 'Question'] || (mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;'), bidCopy);
     updateCounters();
-    $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
+    const context = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
+    setSpokenBidText($('#exercise-context'), context, bidCopy);
     const opening = callLabel(question.auction[0].call);
     const situation = question.situation || (mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`);
-    $('#exercise-situation').textContent = situation;
+    setSpokenBidText($('#exercise-situation'), situation, bidCopy);
     drawHand(question); drawAuction(question);
     const selected = session.answers.get(question.id);
     drawBidding(question, selected ?? null);
     if (selected !== undefined) showFeedback(question, selected);
     $('.turn-label').textContent = selected === undefined ? 'Η σειρά σου' : 'Απάντησες';
     geometry();
-    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. ${selected === undefined ? 'Η σειρά σου.' : 'Έχεις ήδη απαντήσει.'}`;
+    const speech = `${$('#exercise-progress').textContent}. ${context}. ${spokenBidText(situation, bidCopy)} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. ${selected === undefined ? 'Η σειρά σου.' : 'Έχεις ήδη απαντήσει.'}`;
     const heading = $('#exercise-question');
     heading.removeAttribute('aria-label');
     if (focus) {

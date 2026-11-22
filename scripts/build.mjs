@@ -1,13 +1,15 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
-import { accessibleTables } from './table-speech.mjs';
+import { accessibleTables, accessibleProse } from './table-speech.mjs';
 import { pageBase, stylesheet, redirectPage } from './routes.mjs';
 import { articles, availableIn } from './articles.mjs';
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
 const articleDescriptions = JSON.parse(await readFile('content/i18n/article-descriptions.json', 'utf8'));
+const bidCopies = JSON.parse(await readFile('content/shared/bid-speech.json', 'utf8'));
+await writeFile('site/assets/bid-speech.el.js', 'export default ' + JSON.stringify(bidCopies.el) + ';\n');
 const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'attention'];
 // Count Unicode code points, including spaces and punctuation; descriptions are edited, never cut.
 for (const language of languages) {
@@ -25,6 +27,7 @@ const isolateRtl = html => html.split(/(<[^>]+>)/g).map((part, index) => index %
 const canonicalRoot = 'https://leonardobridge.com/';
 const sitemapUrls = new Set();
 function page({ language, title, description, route, slug, body }) {
+  body = accessibleProse(body, language.code);
   const canonical = canonicalRoot + route;
   sitemapUrls.add(canonical);
   const article = articles.find(item => item.slug === slug);

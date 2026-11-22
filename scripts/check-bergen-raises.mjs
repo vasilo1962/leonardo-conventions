@@ -84,5 +84,5 @@ for(const answer of ['3H','3S','4H','4S','3D']) assert.ok(data.questions.some(q=
 assert.ok(data.questions.filter(q=>q.role==='response').every(q=>q.kind==='convention'));
 assert.equal(data.questions.filter(q=>q.answer==='2NT').length,1);
 assert.ok(data.ui.agreements.includes('Jacoby 2NT'));
-assert.ok(exercise.match(/<p class="exercise-intro">([^<]+)<\/p>/)[1].includes(data.ui.agreements));
+assert.ok(exercise.match(/<p class="exercise-intro">([\s\S]*?)<\/p>/)[1].replace(/<span class="sr-only">[\s\S]*?<\/span>/g,'').replace(/<[^>]+>/g,'').includes(data.ui.agreements));
 console.log('Verified Bergen Raises: 20 hands, 10 per role, 7 Bergen responses, 2 simple raises, 1 clear Jacoby game force with neutral question and common agreement, HCP, fit, legal auctions, minimum/maximum game tries, accepted/declined invitations and embedded exercise data.');

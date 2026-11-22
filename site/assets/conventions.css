@@ -19,3 +19,9 @@
   .example-explanation{display:block;min-width:0;flex:1}
   .example-explanation>p{margin:0}
 }
+
+/* Keep clipped spoken bid names anchored to their unchanged inline symbols. */
+.spoken-bid{position:relative}
+
+.card-link .spoken-bid,.card-link .spoken-bid>[aria-hidden="true"]{display:inline;color:inherit;font:inherit;line-height:inherit;margin:0}
+.card-link .spoken-bid>.sr-only{margin:-1px}

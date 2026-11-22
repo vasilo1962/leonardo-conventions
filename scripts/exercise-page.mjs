@@ -1,3 +1,4 @@
+import { accessibleProse } from './table-speech.mjs';
 import { pageBase, stylesheet, moduleScript } from './routes.mjs';
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 
@@ -39,6 +40,6 @@ ${moduleScript('convention-exercises.js')}</head>
 </main><footer>Leonardo Bridge · Ασκήσεις συμβάσεων</footer></body></html>
 `;
   await mkdir('site/' + route, { recursive: true });
-  await writeFile('site/' + route + 'index.html', html);
+  await writeFile('site/' + route + 'index.html', accessibleProse(html, 'el'));
   }
 }

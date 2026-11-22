@@ -112,7 +112,7 @@ for(const [index,slug] of ['drury','two-way-drury'].entries()) {
   assert.ok(html.includes('href="../'+other+'/"'));
   assert.ok(!html.includes('**'));
   assert.ok(!html.includes('two-way/practice/'));
-  const catalog=await readFile('site/'+code+'/conventions/index.html','utf8');
+  const catalog=(await readFile('site/'+code+'/conventions/index.html','utf8')).replace(/<span class="spoken-bid"><span aria-hidden="true">([\s\S]*?)<\/span><span class="sr-only">[\s\S]*?<\/span><\/span>/g,'$1');
   assert.ok(catalog.includes('<strong dir="ltr">'+title+'</strong>'));
   assert.ok(catalog.includes(language.cards[7+index]));
   assert.ok([...language.cards[7+index]].length<=100);

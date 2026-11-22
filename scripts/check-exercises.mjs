@@ -172,7 +172,8 @@ for (const slug of ['michaels-cue-bid', 'unusual-2nt', 'dont']) {
     }
   }
   const html=await readFile(`site/el/${slug}/practice/index.html`,'utf8');
-  assert.ok(html.includes('<h1>'+data.title+'</h1>'));
+  const visibleTitle = html.match(/<h1>([\s\S]*?)<\/h1>/)[1].replace(/<span class="spoken-bid"><span aria-hidden="true">([\s\S]*?)<\/span><span class="sr-only">[\s\S]*?<\/span><\/span>/g,'$1');
+  assert.equal(visibleTitle,data.title);
   assert.ok(html.includes('<meta name="robots" content="noindex">'));
   assert.ok(html.includes('aria-live="polite"'));
   assert.ok((await readFile(`site/el/${slug}/index.html`,'utf8')).includes('href="practice/"'));

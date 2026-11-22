@@ -28,3 +28,6 @@
 .exercise-previous{display:inline-flex;align-items:center;justify-content:center;flex:none;width:36px;height:36px;padding:0;border:1px solid #b8c9d4;border-radius:6px;background:#f3f8fc;color:#0a3c6a;font-size:22px;line-height:1}
 .exercise-previous:disabled{opacity:.4;cursor:default}
 .exercise-previous:enabled:hover{background:#e7eef3}
+
+/* Keep clipped spoken bid names anchored to their unchanged inline symbols. */
+.spoken-bid{position:relative}
