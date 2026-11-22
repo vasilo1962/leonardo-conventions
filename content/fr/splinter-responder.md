@@ -1,6 +1,8 @@
 # Splinter du répondant
 
-**Le Splinter est une enchère à double saut dans une nouvelle couleur.** Il montre au moins quatre atouts, un singleton ou une chicane dans la couleur nommée et la force de manche. Nous étudions ici le répondant. Le **Splinter de l’ouvreur**, après la réponse du partenaire, fera l’objet d’une leçon distincte.
+**Le Splinter est une enchère à double saut dans une nouvelle couleur.** Il montre au moins quatre atouts, un singleton ou une chicane dans la couleur nommée et la force de manche. Nous étudions ici le répondant.
+
+[Splinter de l’ouvreur](../splinter-opener/)
 
 ## Quand l’utiliser ?
 

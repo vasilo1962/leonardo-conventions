@@ -1,6 +1,8 @@
 # Splinter odpowiadającego
 
-**Splinter to podwójny skok w nowy kolor.** Pokazuje co najmniej czterokartowy fit, singletona lub renons w zgłoszonym kolorze i siłę do końcówki. Tutaj stosuje go odpowiadający. **Splinter otwierającego**, po odpowiedzi partnera, omówimy w osobnej lekcji.
+**Splinter to podwójny skok w nowy kolor.** Pokazuje co najmniej czterokartowy fit, singletona lub renons w zgłoszonym kolorze i siłę do końcówki. Tutaj stosuje go odpowiadający.
+
+[Splinter otwierającego](../splinter-opener/)
 
 ## Kiedy stosujemy?
 

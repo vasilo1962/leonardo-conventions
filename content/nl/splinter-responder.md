@@ -1,6 +1,8 @@
 # Splinter van de antwoordende hand
 
-**Een Splinter is een dubbele sprong in een nieuwe kleur.** Het bod toont minstens vier troeven mee, een singleton of renonce in de geboden kleur en manchekracht. Hier behandelen we de antwoordende hand. De **Splinter van de openaar**, na partners antwoord, krijgt een eigen les.
+**Een Splinter is een dubbele sprong in een nieuwe kleur.** Het bod toont minstens vier troeven mee, een singleton of renonce in de geboden kleur en manchekracht. Hier behandelen we de antwoordende hand.
+
+[Splinter van de openaar](../splinter-opener/)
 
 ## Wanneer geldt dit?
 

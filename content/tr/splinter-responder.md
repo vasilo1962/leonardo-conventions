@@ -1,6 +1,8 @@
 # Cevapçının Splinter’ı
 
-**Splinter, yeni bir renkte çift sıçramalı konuşmadır.** Ortağın rengine en az dört kart destek, söylenen renkte tek veya şikan ve zon gücü gösterir. Bu ders cevapçıyı ele alır. Ortağın cevabından sonraki **açıcının Splinter’ı** ayrı bir derste anlatılacaktır.
+**Splinter, yeni bir renkte çift sıçramalı konuşmadır.** Ortağın rengine en az dört kart destek, söylenen renkte tek veya şikan ve zon gücü gösterir. Bu ders cevapçıyı ele alır.
+
+[Açıcının Splinter’ı](../splinter-opener/)
 
 ## Ne zaman uygulanır?
 

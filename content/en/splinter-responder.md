@@ -1,6 +1,8 @@
 # Splinter by responder
 
-**A Splinter is a double jump in a new suit.** It shows at least four-card support for partner, a singleton or void in the suit bid, and game-going strength. This lesson concerns responder. **Splinters by opener**, after partner's response, will be covered in a separate lesson.
+**A Splinter is a double jump in a new suit.** It shows at least four-card support for partner, a singleton or void in the suit bid, and game-going strength. This lesson concerns responder.
+
+[Splinter by opener](../splinter-opener/)
 
 ## When does it apply?
 

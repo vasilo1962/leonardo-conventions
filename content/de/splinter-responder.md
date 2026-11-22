@@ -1,6 +1,8 @@
 # Splinter des Antwortenden
 
-**Ein Splinter ist ein Doppelsprung in eine neue Farbe.** Er zeigt mindestens vier Trümpfe zu Partners Farbe, Single oder Chicane in der gereizten Farbe und Vollspielstärke. Hier behandeln wir den Antwortenden. **Splinter des Eröffners** nach Partners Antwort folgen in einer eigenen Lektion.
+**Ein Splinter ist ein Doppelsprung in eine neue Farbe.** Er zeigt mindestens vier Trümpfe zu Partners Farbe, Single oder Chicane in der gereizten Farbe und Vollspielstärke. Hier behandeln wir den Antwortenden.
+
+[Splinter des Eröffners](../splinter-opener/)
 
 ## Wann gilt die Konvention?
 

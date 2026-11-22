@@ -1,6 +1,8 @@
 # Splinter av svarshanden
 
-**Splinter är ett dubbelt hopp i en ny färg.** Det visar minst fyrkortsstöd till partnern, singel eller renons i den bjudna färgen och utgångsstyrka. Här behandlas svarshanden. **Öppnarens Splinter**, efter partnerns svar, får en egen lektion.
+**Splinter är ett dubbelt hopp i en ny färg.** Det visar minst fyrkortsstöd till partnern, singel eller renons i den bjudna färgen och utgångsstyrka. Här behandlas svarshanden.
+
+[Splinter av öppningshanden](../splinter-opener/)
 
 ## När används det?
 

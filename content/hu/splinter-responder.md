@@ -1,6 +1,8 @@
 # A válaszoló Splintere
 
-**A Splinter dupla ugrás új színben.** Legalább négylapos támogatást, a bemondott színben szinglit vagy siként és gémerőt mutat. Itt a válaszoló alkalmazza. Az **induló Splinterét**, a partner válasza után, külön leckében tárgyaljuk.
+**A Splinter dupla ugrás új színben.** Legalább négylapos támogatást, a bemondott színben szinglit vagy siként és gémerőt mutat. Itt a válaszoló alkalmazza.
+
+[Az induló Splintere](../splinter-opener/)
 
 ## Mikor alkalmazzuk?
 

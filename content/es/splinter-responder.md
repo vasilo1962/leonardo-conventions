@@ -1,6 +1,8 @@
 # Splinter del respondedor
 
-**Un Splinter es un cambio de palo con doble salto.** Muestra al menos cuatro cartas de apoyo, semifallo o fallo en el palo nombrado y fuerza de manga. Aquí lo utiliza el respondedor. El **Splinter del abridor**, después de la respuesta del compañero, se tratará en otra lección.
+**Un Splinter es un cambio de palo con doble salto.** Muestra al menos cuatro cartas de apoyo, semifallo o fallo en el palo nombrado y fuerza de manga. Aquí lo utiliza el respondedor.
+
+[Splinter del abridor](../splinter-opener/)
 
 ## ¿Cuándo se aplica?
 

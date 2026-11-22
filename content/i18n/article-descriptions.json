@@ -280,6 +280,31 @@
     "ko": "응답자의 Splinter로 서포트와 싱글턴 또는 보이드를 보여 주는 법을 배워 보세요. 이론, 예제, 대화형 연습을 제공합니다."
   },
   "splinter-opener": {
-    "el": "Μάθε πώς να δείχνεις φιτ και σόλο ή σικάν με τη σύμβαση Splinter από τον ανοίξαντα. Αναλυτική θεωρία, παραδείγματα και διαδραστικές ασκήσεις."
+    "el": "Splinter από τον ανοίξαντα: Πώς να δείχνεις φιτ και σόλο ή σικάν μετά την απάντηση του συμπαίκτη σου. Αναλυτική θεωρία, παραδείγματα και διαδραστικές ασκήσεις.",
+    "en": "Opener's Splinter: How to show support and a singleton or void after partner's response. Detailed theory, examples and interactive exercises.",
+    "pt": "Splinter do abridor: como mostrar apoio e singleton ou chicana após a resposta do parceiro. Teoria detalhada, exemplos e exercícios interativos.",
+    "es": "Splinter del abridor: cómo mostrar apoyo y semifallo o fallo tras la respuesta del compañero. Teoría detallada, ejemplos y ejercicios interactivos.",
+    "it": "Splinter dell’apertore: come mostrare fit e singolo o vuoto dopo la risposta del compagno. Teoria dettagliata, esempi ed esercizi interattivi.",
+    "de": "Splinter des Eröffners: Fit und Single oder Chicane nach Partners Antwort zeigen. Ausführliche Theorie, Beispiele und interaktive Übungen.",
+    "fr": "Splinter de l’ouvreur : montrer un fit et un singleton ou une chicane après la réponse du partenaire. Théorie détaillée, exemples et exercices interactifs.",
+    "tr": "Açıcının Splinter’ı: ortağın cevabından sonra destek ve tek veya şikan gösterme. Ayrıntılı teori, örnekler ve etkileşimli alıştırmalar.",
+    "fi": "Avaajan Splinter: näytä tuki ja singelton tai renonssi partnerin vastauksen jälkeen. Yksityiskohtainen teoria, esimerkit ja vuorovaikutteiset harjoitukset.",
+    "no": "Åpners Splinter: vis støtte og singelton eller renons etter makkers svar. Utførlig teori, eksempler og interaktive øvelser.",
+    "da": "Åbners Splinter: vis støtte og singleton eller renonce efter makkers svar. Udførlig teori, eksempler og interaktive øvelser.",
+    "sv": "Öppningshandens Splinter: visa stöd och singel eller renons efter partnerns svar. Utförlig teori, exempel och interaktiva övningar.",
+    "nl": "Splinter van de openaar: steun en een singleton of renonce tonen na partners antwoord. Uitgebreide theorie, voorbeelden en interactieve oefeningen.",
+    "ru": "Сплинтер открывающего: как показать фит и синглет или ренонс после ответа партнёра. Подробная теория, примеры и интерактивные упражнения.",
+    "is": "Splinter opnara: sýndu stuðning og einspil eða eyðu eftir svar makkers. Ítarleg fræði, dæmi og gagnvirkar æfingar.",
+    "hu": "Az induló Splintere: fit és szingli vagy sikén bemutatása a partner válasza után. Részletes elmélet, példák és interaktív feladatok.",
+    "cs": "Splinter zahajitele: jak ukázat fit a singl nebo šikenu po odpovědi partnera. Podrobná teorie, příklady a interaktivní cvičení.",
+    "pl": "Splinter otwierającego: jak pokazać fit oraz singleton lub renons po odpowiedzi partnera. Szczegółowa teoria, przykłady i ćwiczenia interaktywne.",
+    "id": "Splinter pembuka: cara menunjukkan dukungan dan singleton atau void setelah jawaban partner. Teori terperinci, contoh dan latihan interaktif.",
+    "ko": "오프너의 Splinter: 파트너의 응답 뒤 서포트와 싱글턴 또는 보이드를 보여 주는 법. 자세한 이론, 예제, 대화형 연습 문제.",
+    "ja": "オープナーのSplinter：パートナーの応答後にサポートとシングルトンまたはボイドを示す方法。詳しい理論、実例、インタラクティブな練習。",
+    "zh": "开叫人的Splinter：在同伴应叫后显示配合及单张或缺门。详细理论、实例与互动练习。",
+    "th": "Splinter ของผู้เปิด: แสดงไพ่สนับสนุนและ singleton หรือ void หลังคู่ขาตอบ พร้อมทฤษฎีละเอียด ตัวอย่าง และแบบฝึกหัดโต้ตอบ",
+    "ar": "Splinter للمفتتح: كيف تُظهر الدعم وsingleton أو void بعد إجابة الشريك. شرح نظري مفصل وأمثلة وتمارين تفاعلية.",
+    "hi": "ओपनर का Splinter: साथी के उत्तर के बाद समर्थन और singleton या void दिखाना। विस्तृत सिद्धांत, उदाहरण और इंटरैक्टिव अभ्यास।",
+    "he": "Splinter של הפותח: איך להראות תמיכה וסינגלטון או חוסר אחרי תשובת השותף. תאוריה מפורטת, דוגמאות ותרגילים אינטראקטיביים."
   }
 }

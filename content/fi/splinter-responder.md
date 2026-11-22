@@ -1,6 +1,8 @@
 # Vastaajan Splinter
 
-**Splinter on kaksoishyppy uudessa värissä.** Se lupaa vähintään neljän kortin tuen, singeltonin tai renonssin tarjotussa värissä ja täyspelivoiman. Tässä käsitellään vastaajaa. **Avaajan Splinter** partnerin vastauksen jälkeen esitellään omassa oppitunnissaan.
+**Splinter on kaksoishyppy uudessa värissä.** Se lupaa vähintään neljän kortin tuen, singeltonin tai renonssin tarjotussa värissä ja täyspelivoiman. Tässä käsitellään vastaajaa.
+
+[Avaajan Splinter](../splinter-opener/)
 
 ## Milloin sitä käytetään?
 

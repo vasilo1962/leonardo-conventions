@@ -1,6 +1,8 @@
 # Splinter svarhandar
 
-**Splinter er tvöfalt stökk í nýjum lit.** Það sýnir að minnsta kosti fjögurra spila stuðning, einspil eða eyðu í sögðum lit og styrk í geim. Hér er fjallað um svarhönd. **Splinter opnara**, eftir svar makkers, verður tekið fyrir í sérstakri kennslustund.
+**Splinter er tvöfalt stökk í nýjum lit.** Það sýnir að minnsta kosti fjögurra spila stuðning, einspil eða eyðu í sögðum lit og styrk í geim. Hér er fjallað um svarhönd.
+
+[Splinter opnara](../splinter-opener/)
 
 ## Hvenær á það við?
 

@@ -1,6 +1,8 @@
 # Splinter fra svarhånden
 
-**Splinter er et dobbelthopp i en ny farge.** Det viser minst firekortsstøtte, singelton eller renons i den meldte fargen og utgangsstyrke. Her behandler vi svarhånden. **Åpnerens Splinter**, etter makkers svar, får en egen leksjon.
+**Splinter er et dobbelthopp i en ny farge.** Det viser minst firekortsstøtte, singelton eller renons i den meldte fargen og utgangsstyrke. Her behandler vi svarhånden.
+
+[Splinter fra åpner](../splinter-opener/)
 
 ## Når brukes det?
 

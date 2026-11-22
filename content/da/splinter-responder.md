@@ -1,6 +1,8 @@
 # Splinter fra svarer
 
-**Splinter er et dobbeltspring i en ny farve.** Det viser mindst fire trumfer i støtte, singleton eller renonce i den meldte farve og udgangsstyrke. Her behandler vi svarer. **Åbners Splinter**, efter makkers svar, får en selvstændig lektion.
+**Splinter er et dobbeltspring i en ny farve.** Det viser mindst fire trumfer i støtte, singleton eller renonce i den meldte farve og udgangsstyrke. Her behandler vi svarer.
+
+[Splinter fra åbner](../splinter-opener/)
 
 ## Hvornår bruges det?
 

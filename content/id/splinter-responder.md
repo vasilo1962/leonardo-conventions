@@ -1,6 +1,8 @@
 # Splinter oleh penjawab
 
-**Splinter adalah bid warna baru dengan lompatan ganda.** Bid ini menunjukkan dukungan minimal empat kartu, singleton atau void pada warna yang disebut, serta kekuatan untuk game. Pelajaran ini membahas penjawab. **Splinter oleh pembuka**, setelah jawaban partner, akan dibahas dalam pelajaran tersendiri.
+**Splinter adalah bid warna baru dengan lompatan ganda.** Bid ini menunjukkan dukungan minimal empat kartu, singleton atau void pada warna yang disebut, serta kekuatan untuk game. Pelajaran ini membahas penjawab.
+
+[Splinter oleh pembuka](../splinter-opener/)
 
 ## Kapan digunakan?
 

@@ -1,6 +1,8 @@
 # Splinter del rispondente
 
-**La Splinter è una dichiarazione a doppio salto in un nuovo colore.** Mostra almeno quattro atout, singolo o vuoto nel colore dichiarato e forza da manche. Qui riguarda il rispondente. La **Splinter dell’apertore**, dopo la risposta del compagno, sarà trattata in una lezione separata.
+**La Splinter è una dichiarazione a doppio salto in un nuovo colore.** Mostra almeno quattro atout, singolo o vuoto nel colore dichiarato e forza da manche. Qui riguarda il rispondente.
+
+[Splinter dell’apertore](../splinter-opener/)
 
 ## Quando si applica?
 

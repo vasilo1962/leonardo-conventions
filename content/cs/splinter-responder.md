@@ -1,6 +1,8 @@
 # Splinter odpovídajícího
 
-**Splinter je dvojitý skok v nové barvě.** Ukazuje alespoň čtyřkartový fit, singl nebo šikenu v dražené barvě a sílu do manše. Zde jej používá odpovídající. **Splinter zahajitele** po partnerově odpovědi probereme v samostatné lekci.
+**Splinter je dvojitý skok v nové barvě.** Ukazuje alespoň čtyřkartový fit, singl nebo šikenu v dražené barvě a sílu do manše. Zde jej používá odpovídající.
+
+[Splinter zahajitele](../splinter-opener/)
 
 ## Kdy se používá?
 
