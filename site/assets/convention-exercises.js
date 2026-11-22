@@ -230,6 +230,7 @@ function initializeExercises() {
     clearTimeout(announceTimer);
     $('#exercise-announcement').textContent = '';
     const session = sessions[mode];
+    $('#previous-exercise').disabled = session.index === 0 || session.finished;
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     summary.hidden = !session.finished; table.hidden = session.finished; feedback.hidden = true;
     for (const selector of ['.exercise-intro', '.exercise-modes', '.exercise-progress']) {
@@ -275,6 +276,13 @@ function initializeExercises() {
     } else announce(speech);
   }
   document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => { mode = button.dataset.mode; render(true); }));
+  $('#previous-exercise').addEventListener('click', () => {
+    const session = sessions[mode];
+    if (session.index === 0 || session.finished) return;
+    session.index--;
+    render(true);
+    $('#exercise-question').scrollIntoView({ block: 'start', behavior: 'instant' });
+  });
   $('#next-exercise').addEventListener('click', () => {
     const session = sessions[mode];
     if (session.index + 1 < session.questions.length) session.index++; else session.finished = true;
