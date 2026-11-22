@@ -267,7 +267,7 @@ function initializeExercises() {
     if (selected !== undefined) showFeedback(question, selected);
     $('.turn-label').textContent = selected === undefined ? 'Η σειρά σου' : 'Απάντησες';
     geometry();
-    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. Η σειρά σου.`;
+    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. ${selected === undefined ? 'Η σειρά σου.' : 'Έχεις ήδη απαντήσει.'}`;
     const heading = $('#exercise-question');
     heading.removeAttribute('aria-label');
     if (focus) {
