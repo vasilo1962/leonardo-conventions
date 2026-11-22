@@ -9,7 +9,7 @@ const splinter=(m,s)=>m==='H'&&s==='S'?'3S':'4'+s;
 const rule='Για να κάνουμε Splinter, χρειαζόμαστε δύναμη για μανς ακόμη και απέναντι στο ελάχιστο που υποσχέθηκε ο συμπαίκτης';
 assert.equal(data.questions.length,20);
 assert.equal(new Set(data.questions.map(q=>JSON.stringify(q.hand))).size,20);
-assert.equal(data.questions.filter(q=>q.kind==='contrast').length,2);
+assert.equal(data.questions.filter(q=>q.kind==='contrast').length,4);
 for(const role of ['overcall','response'])assert.equal(data.questions.filter(q=>q.role===role).length,10);
 for(const q of data.questions){
  const cards=handCards(q.hand);assert.equal(cards.length,13,q.id);assert.equal(new Set(cards.map(c=>c.suit+c.rank)).size,13,q.id);
@@ -22,7 +22,10 @@ for(const q of data.questions){
  if(q.role==='overcall'){
   assert.deepEqual(q.auction.map(e=>e.seat),['S','W','N','E']);assert.equal(q.auction[0].call,'1'+q.opening);assert.equal(q.auction[2].call,'1'+q.major);
   assert.ok(q.hand[q.opening].length>=5);assert.ok(!/Splinter|σόλο|σικάν|φυλλ|πόντ/.test(q.situation),q.id+': neutral question');
-  if(q.kind==='contrast'){assert.equal(hcp(q.hand),12);assert.equal(q.answer,'2'+q.major);}
+  if(q.kind==='contrast'){
+   if(q.objective==='invite'){assert.equal(hcp(q.hand),15);assert.equal(q.answer,'3'+q.major);assert.equal(q.hand[q.shortSuit].length,1);assert.ok(q.explanation.includes('πρόταση για μανς'));}
+   else{assert.equal(hcp(q.hand),12);assert.equal(q.answer,'2'+q.major);}
+  }
   else{
    assert.equal(hcp(q.hand),18);assert.equal(q.answer,splinter(q.major,q.shortSuit));assert.ok(q.hand[q.shortSuit].length<=1);assert.ok(!/^[AK]$/.test(q.hand[q.shortSuit]));
    const cheapest=legalCalls(history).find(c=>c.endsWith(q.shortSuit));assert.equal(contractRank(q.answer)-contractRank(cheapest),10,q.id+': double jump');
@@ -37,7 +40,9 @@ for(const q of data.questions){
  }
 }
 assert.equal(data.questions.filter(q=>q.objective==='stop').length,5);assert.equal(data.questions.filter(q=>q.objective==='control').length,5);
-assert.equal(new Set(data.questions.filter(q=>q.role==='overcall'&&q.kind==='convention').map(q=>q.opening+q.major+q.shortSuit)).size,8);
+assert.equal(new Set(data.questions.filter(q=>q.role==='overcall'&&q.kind==='convention').map(q=>q.opening+q.major+q.shortSuit)).size,6);
+assert.equal(data.questions.filter(q=>q.objective==='invite').length,2);
+assert.deepEqual(data.questions.filter(q=>q.objective==='invite').map(q=>q.answer).sort(),['3H','3S']);
 const lesson=await readFile('content/el/splinter-opener.md','utf8');assert.ok(lesson.includes(rule));assert.ok((await readFile('content/el/splinter-responder.md','utf8')).includes(rule));
 const hands=[...lesson.matchAll(/♠ ([AKQJT2-9]+|—)  \n♥ ([AKQJT2-9]+|—)  \n♦ ([AKQJT2-9]+|—)  \n♣ ([AKQJT2-9]+|—)/g)].map(m=>Object.fromEntries(m.slice(1).map((s,i)=>['SHDC'[i],s==='—'?'':s])));
 assert.equal(hands.length,7);assert.deepEqual(hands.map(hcp),[18,18,18,12,11,15,16]);for(const h of hands)assert.equal(handCards(h).length,13);
@@ -46,4 +51,4 @@ const html=await readFile('site/el/splinter-opener/index.html','utf8');assert.eq
 assert.ok(html.includes('href="../splinter-responder/"'));assert.ok(html.includes('href="practice/"'));assert.ok(html.includes('σικάν, κανένα φύλλο'));
 const practice=await readFile('site/el/splinter-opener/practice/index.html','utf8');assert.deepEqual(JSON.parse(practice.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);assert.ok(!practice.includes('toggle-bidding'));
 const desc=JSON.parse(await readFile('content/i18n/article-descriptions.json','utf8'))['splinter-opener'].el;assert.ok(html.includes('name="description" content="'+desc+'"'));assert.ok(html.includes('property="og:description" content="'+desc+'"'));
-console.log('Verified opener Splinter: 7 hands/HCP, all 8 direct auctions, 20 unique exercises, two minimum contrasts, 5 sign-offs/5 cheapest controls, 4-card major responses, common strength rule, reciprocal links and metadata.');
+console.log('Verified opener Splinter: 7 hands/HCP, 6 direct Splinter auctions, 20 unique exercises, two minimum contrasts and two invitational jump raises, 5 sign-offs/5 cheapest controls, 4-card major responses, common strength rule, reciprocal links and metadata.');
