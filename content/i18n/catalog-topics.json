@@ -1,0 +1,444 @@
+{
+  "el": {
+    "all": "Όλες",
+    "topic": "Θέμα",
+    "tags": "Ετικέτες",
+    "results": "Εμφανίζονται {count} συμβάσεις.",
+    "labels": {
+      "two-suited": "Διχρωμίες",
+      "defense-1nt": "Άμυνα στο 1ΝΤ",
+      "overcalls": "Παρεμβολές",
+      "opening-responses": "Απαντήσεις σε άνοιγμα",
+      "major-fit": "Φιτ σε μαζέρ",
+      "minor-fit": "Φιτ σε μινέρ",
+      "slam": "Διερεύνηση σλεμ",
+      "late-opening-responses": "Απαντήσεις σε άνοιγμα 3ης και 4ης θέσης",
+      "opener-rebids": "Επαναδηλώσεις ανοίξαντος"
+    }
+  },
+  "en": {
+    "all": "All",
+    "topic": "Topic",
+    "tags": "Tags",
+    "results": "Showing {count} conventions.",
+    "labels": {
+      "two-suited": "Two-suited hands",
+      "defense-1nt": "Defense to 1NT",
+      "overcalls": "Overcalls",
+      "opening-responses": "Responses to an opening",
+      "major-fit": "Major-suit support",
+      "minor-fit": "Minor-suit support",
+      "slam": "Slam exploration",
+      "late-opening-responses": "Responses to third- and fourth-seat openings",
+      "opener-rebids": "Opener’s rebids"
+    }
+  },
+  "fr": {
+    "all": "Toutes",
+    "topic": "Thème",
+    "tags": "Étiquettes",
+    "results": "{count} conventions affichées.",
+    "labels": {
+      "two-suited": "Mains bicolores",
+      "defense-1nt": "Défense contre 1SA",
+      "overcalls": "Interventions",
+      "opening-responses": "Réponses à une ouverture",
+      "major-fit": "Fit en majeure",
+      "minor-fit": "Fit en mineure",
+      "slam": "Recherche de chelem",
+      "late-opening-responses": "Réponses aux ouvertures en troisième et quatrième position",
+      "opener-rebids": "Redemandes de l’ouvreur"
+    }
+  },
+  "de": {
+    "all": "Alle",
+    "topic": "Thema",
+    "tags": "Schlagwörter",
+    "results": "{count} Konventionen werden angezeigt.",
+    "labels": {
+      "two-suited": "Zweifärber",
+      "defense-1nt": "Gegenreizung gegen 1SA",
+      "overcalls": "Gegenreizungen",
+      "opening-responses": "Antworten auf eine Eröffnung",
+      "major-fit": "Oberfarbenfit",
+      "minor-fit": "Unterfarbenfit",
+      "slam": "Schlemmuntersuchung",
+      "late-opening-responses": "Antworten auf Eröffnungen in dritter und vierter Position",
+      "opener-rebids": "Wiedergebote des Eröffners"
+    }
+  },
+  "it": {
+    "all": "Tutte",
+    "topic": "Argomento",
+    "tags": "Etichette",
+    "results": "{count} convenzioni visualizzate.",
+    "labels": {
+      "two-suited": "Mani bicolori",
+      "defense-1nt": "Difesa contro 1SA",
+      "overcalls": "Interventi",
+      "opening-responses": "Risposte all’apertura",
+      "major-fit": "Fit nel nobile",
+      "minor-fit": "Fit nel minore",
+      "slam": "Ricerca di slam",
+      "late-opening-responses": "Risposte alle aperture in terza e quarta posizione",
+      "opener-rebids": "Ridichiarazioni dell’apertore"
+    }
+  },
+  "es": {
+    "all": "Todas",
+    "topic": "Tema",
+    "tags": "Etiquetas",
+    "results": "Se muestran {count} convenciones.",
+    "labels": {
+      "two-suited": "Manos bicolores",
+      "defense-1nt": "Defensa contra 1ST",
+      "overcalls": "Intervenciones",
+      "opening-responses": "Respuestas a una apertura",
+      "major-fit": "Apoyo en mayor",
+      "minor-fit": "Apoyo en menor",
+      "slam": "Exploración de slam",
+      "late-opening-responses": "Respuestas a aperturas en tercera y cuarta posición",
+      "opener-rebids": "Redeclaraciones del abridor"
+    }
+  },
+  "pt": {
+    "all": "Todas",
+    "topic": "Tema",
+    "tags": "Etiquetas",
+    "results": "{count} convenções apresentadas.",
+    "labels": {
+      "two-suited": "Mãos bicolores",
+      "defense-1nt": "Defesa contra 1ST",
+      "overcalls": "Intervenções",
+      "opening-responses": "Respostas à abertura",
+      "major-fit": "Fit em rico",
+      "minor-fit": "Fit em pobre",
+      "slam": "Investigação de cheleme",
+      "late-opening-responses": "Respostas a aberturas em terceira e quarta posição",
+      "opener-rebids": "Segundas vozes do abridor"
+    }
+  },
+  "nl": {
+    "all": "Alle",
+    "topic": "Onderwerp",
+    "tags": "Labels",
+    "results": "{count} conventies weergegeven.",
+    "labels": {
+      "two-suited": "Tweekleurenspellen",
+      "defense-1nt": "Verdediging tegen 1SA",
+      "overcalls": "Volgbiedingen",
+      "opening-responses": "Antwoorden op een opening",
+      "major-fit": "Fit in een hoge kleur",
+      "minor-fit": "Fit in een lage kleur",
+      "slam": "Slemonderzoek",
+      "late-opening-responses": "Antwoorden op openingen in de derde en vierde hand",
+      "opener-rebids": "Herbiedingen van de openaar"
+    }
+  },
+  "sv": {
+    "all": "Alla",
+    "topic": "Ämne",
+    "tags": "Etiketter",
+    "results": "Visar {count} konventioner.",
+    "labels": {
+      "two-suited": "Tvåfärgshänder",
+      "defense-1nt": "Försvar mot 1NT",
+      "overcalls": "Inkliv",
+      "opening-responses": "Svar på en öppning",
+      "major-fit": "Stöd i högfärg",
+      "minor-fit": "Stöd i lågfärg",
+      "slam": "Slamundersökning",
+      "late-opening-responses": "Svar på öppningar i tredje och fjärde hand",
+      "opener-rebids": "Öppningshandens återbud"
+    }
+  },
+  "da": {
+    "all": "Alle",
+    "topic": "Emne",
+    "tags": "Etiketter",
+    "results": "Viser {count} konventioner.",
+    "labels": {
+      "two-suited": "Tofarvede hænder",
+      "defense-1nt": "Forsvar mod 1UT",
+      "overcalls": "Indmeldinger",
+      "opening-responses": "Svar på en åbning",
+      "major-fit": "Majorstøtte",
+      "minor-fit": "Minorstøtte",
+      "slam": "Slemundersøgelse",
+      "late-opening-responses": "Svar på åbninger i tredje og fjerde hånd",
+      "opener-rebids": "Åbners genmeldinger"
+    }
+  },
+  "no": {
+    "all": "Alle",
+    "topic": "Tema",
+    "tags": "Etiketter",
+    "results": "Viser {count} konvensjoner.",
+    "labels": {
+      "two-suited": "Tofargehender",
+      "defense-1nt": "Forsvar mot 1NT",
+      "overcalls": "Innmeldinger",
+      "opening-responses": "Svar på en åpning",
+      "major-fit": "Majorstøtte",
+      "minor-fit": "Minorstøtte",
+      "slam": "Slemundersøkelse",
+      "late-opening-responses": "Svar på åpninger i tredje og fjerde hånd",
+      "opener-rebids": "Åpnerens gjenmeldinger"
+    }
+  },
+  "fi": {
+    "all": "Kaikki",
+    "topic": "Aihe",
+    "tags": "Tunnisteet",
+    "results": "Näytetään {count} konventiota.",
+    "labels": {
+      "two-suited": "Kaksivärikädet",
+      "defense-1nt": "Puolustus 1NT-avausta vastaan",
+      "overcalls": "Välitarjoukset",
+      "opening-responses": "Vastaukset avaukseen",
+      "major-fit": "Ylävärituki",
+      "minor-fit": "Alavärituki",
+      "slam": "Slammin tutkiminen",
+      "late-opening-responses": "Vastaukset kolmannen ja neljännen käden avauksiin",
+      "opener-rebids": "Avaajan jatkotarjoukset"
+    }
+  },
+  "pl": {
+    "all": "Wszystkie",
+    "topic": "Temat",
+    "tags": "Etykiety",
+    "results": "Wyświetlono {count} konwencji.",
+    "labels": {
+      "two-suited": "Ręce dwukolorowe",
+      "defense-1nt": "Obrona po 1BA",
+      "overcalls": "Wejścia",
+      "opening-responses": "Odpowiedzi na otwarcie",
+      "major-fit": "Fit w kolorze starszym",
+      "minor-fit": "Fit w kolorze młodszym",
+      "slam": "Poszukiwanie szlemika lub szlema",
+      "late-opening-responses": "Odpowiedzi na otwarcia z trzeciej i czwartej ręki",
+      "opener-rebids": "Rebidy otwierającego"
+    }
+  },
+  "cs": {
+    "all": "Všechny",
+    "topic": "Téma",
+    "tags": "Štítky",
+    "results": "Zobrazeno {count} konvencí.",
+    "labels": {
+      "two-suited": "Dvoubarevné listy",
+      "defense-1nt": "Obrana proti 1BT",
+      "overcalls": "Zásahy",
+      "opening-responses": "Odpovědi na zahájení",
+      "major-fit": "Fit v drahé barvě",
+      "minor-fit": "Fit v levné barvě",
+      "slam": "Zkoumání slemu",
+      "late-opening-responses": "Odpovědi na zahájení na třetím a čtvrtém místě",
+      "opener-rebids": "Rebidy zahajitele"
+    }
+  },
+  "hu": {
+    "all": "Összes",
+    "topic": "Téma",
+    "tags": "Címkék",
+    "results": "{count} konvenció látható.",
+    "labels": {
+      "two-suited": "Kétszínű lapok",
+      "defense-1nt": "Védekezés 1NT ellen",
+      "overcalls": "Közbeszólások",
+      "opening-responses": "Válaszok indulásra",
+      "major-fit": "Nemes szín támogatása",
+      "minor-fit": "Minor szín támogatása",
+      "slam": "Slemvizsgálat",
+      "late-opening-responses": "Válaszok harmadik és negyedik helyen történt indulásra",
+      "opener-rebids": "Az induló viszontválaszai"
+    }
+  },
+  "is": {
+    "all": "Allar",
+    "topic": "Efni",
+    "tags": "Merki",
+    "results": "{count} sagnvenjur birtar.",
+    "labels": {
+      "two-suited": "Tvílitahendur",
+      "defense-1nt": "Vörn gegn 1NT",
+      "overcalls": "Innákoma",
+      "opening-responses": "Svör við opnun",
+      "major-fit": "Stuðningur í hálit",
+      "minor-fit": "Stuðningur í láglit",
+      "slam": "Slemmuleit",
+      "late-opening-responses": "Svör við opnun í þriðju og fjórðu hendi",
+      "opener-rebids": "Endursagnir opnara"
+    }
+  },
+  "ru": {
+    "all": "Все",
+    "topic": "Тема",
+    "tags": "Метки",
+    "results": "Показано конвенций: {count}.",
+    "labels": {
+      "two-suited": "Двухмастные руки",
+      "defense-1nt": "Защита против 1NT",
+      "overcalls": "Входы",
+      "opening-responses": "Ответы на открытие",
+      "major-fit": "Фит в мажоре",
+      "minor-fit": "Фит в миноре",
+      "slam": "Исследование шлема",
+      "late-opening-responses": "Ответы на открытия с третьей и четвёртой руки",
+      "opener-rebids": "Повторные заявки открывающего"
+    }
+  },
+  "id": {
+    "all": "Semua",
+    "topic": "Topik",
+    "tags": "Label",
+    "results": "Menampilkan {count} konvensi.",
+    "labels": {
+      "two-suited": "Pegangan dua warna",
+      "defense-1nt": "Pertahanan terhadap 1NT",
+      "overcalls": "Overcall",
+      "opening-responses": "Jawaban atas pembukaan",
+      "major-fit": "Dukungan major",
+      "minor-fit": "Dukungan minor",
+      "slam": "Penjajakan slam",
+      "late-opening-responses": "Jawaban atas pembukaan di posisi ketiga dan keempat",
+      "opener-rebids": "Rebid pembuka"
+    }
+  },
+  "zh": {
+    "all": "全部",
+    "topic": "主题",
+    "tags": "标签",
+    "results": "显示 {count} 个约定叫。",
+    "labels": {
+      "two-suited": "双套牌",
+      "defense-1nt": "对抗1NT",
+      "overcalls": "争叫",
+      "opening-responses": "开叫后的应叫",
+      "major-fit": "高花支持",
+      "minor-fit": "低花支持",
+      "slam": "探索满贯",
+      "late-opening-responses": "第三、第四家开叫后的应叫",
+      "opener-rebids": "开叫人的再叫"
+    }
+  },
+  "ja": {
+    "all": "すべて",
+    "topic": "テーマ",
+    "tags": "タグ",
+    "results": "{count}件のコンベンションを表示。",
+    "labels": {
+      "two-suited": "ツースーター",
+      "defense-1nt": "1NTに対するディフェンス",
+      "overcalls": "オーバーコール",
+      "opening-responses": "オープンへのレスポンス",
+      "major-fit": "メジャーのサポート",
+      "minor-fit": "マイナーのサポート",
+      "slam": "スラムの検討",
+      "late-opening-responses": "3番手・4番手のオープンへのレスポンス",
+      "opener-rebids": "オープナーのリビッド"
+    }
+  },
+  "ko": {
+    "all": "전체",
+    "topic": "주제",
+    "tags": "태그",
+    "results": "컨벤션 {count}개 표시.",
+    "labels": {
+      "two-suited": "투 슈트 핸드",
+      "defense-1nt": "1NT에 대한 방어",
+      "overcalls": "오버콜",
+      "opening-responses": "오프닝에 대한 응답",
+      "major-fit": "메이저 서포트",
+      "minor-fit": "마이너 서포트",
+      "slam": "슬램 탐색",
+      "late-opening-responses": "세 번째·네 번째 자리 오프닝에 대한 응답",
+      "opener-rebids": "오프너의 리비드"
+    }
+  },
+  "he": {
+    "all": "הכול",
+    "topic": "נושא",
+    "tags": "תגיות",
+    "results": "מוצגות {count} קונבנציות.",
+    "labels": {
+      "two-suited": "ידיים דו־סדרתיות",
+      "defense-1nt": "הגנה נגד 1NT",
+      "overcalls": "אוברקול",
+      "opening-responses": "תשובות לפתיחה",
+      "major-fit": "תמיכה במייג׳ור",
+      "minor-fit": "תמיכה במיינור",
+      "slam": "בדיקת סלם",
+      "late-opening-responses": "תשובות לפתיחות ביד שלישית ורביעית",
+      "opener-rebids": "הכרזות חוזרות של הפותח"
+    }
+  },
+  "hi": {
+    "all": "सभी",
+    "topic": "विषय",
+    "tags": "टैग",
+    "results": "{count} कन्वेंशन दिखाए गए हैं।",
+    "labels": {
+      "two-suited": "दो सूट वाले हाथ",
+      "defense-1nt": "1NT के विरुद्ध बचाव",
+      "overcalls": "overcall",
+      "opening-responses": "ओपनिंग के उत्तर",
+      "major-fit": "मेजर में सपोर्ट",
+      "minor-fit": "माइनर में सपोर्ट",
+      "slam": "स्लैम की खोज",
+      "late-opening-responses": "तीसरे और चौथे स्थान की ओपनिंग के उत्तर",
+      "opener-rebids": "ओपनर की अगली बोली"
+    }
+  },
+  "ar": {
+    "all": "الكل",
+    "topic": "الموضوع",
+    "tags": "الوسوم",
+    "results": "عدد الاتفاقات المعروضة: {count}.",
+    "labels": {
+      "two-suited": "أيدٍ بلونين",
+      "defense-1nt": "الدفاع ضد 1NT",
+      "overcalls": "overcall",
+      "opening-responses": "الردود على الافتتاح",
+      "major-fit": "دعم اللون الكبير",
+      "minor-fit": "دعم اللون الصغير",
+      "slam": "استكشاف السلم",
+      "late-opening-responses": "الردود على الافتتاح في المقعدين الثالث والرابع",
+      "opener-rebids": "إعادة إعلان المفتتح"
+    }
+  },
+  "th": {
+    "all": "ทั้งหมด",
+    "topic": "หัวข้อ",
+    "tags": "แท็ก",
+    "results": "แสดง {count} คอนเวนชัน",
+    "labels": {
+      "two-suited": "ไพ่สองชุด",
+      "defense-1nt": "การป้องกัน 1NT",
+      "overcalls": "overcall",
+      "opening-responses": "การตอบการเปิด",
+      "major-fit": "การสนับสนุนเมเจอร์",
+      "minor-fit": "การสนับสนุนไมเนอร์",
+      "slam": "การสำรวจสแลม",
+      "late-opening-responses": "การตอบการเปิดในตำแหน่งที่สามและสี่",
+      "opener-rebids": "การบิดครั้งถัดไปของผู้เปิด"
+    }
+  },
+  "tr": {
+    "all": "Tümü",
+    "topic": "Konu",
+    "tags": "Etiketler",
+    "results": "{count} konvansiyon gösteriliyor.",
+    "labels": {
+      "two-suited": "İki renkli eller",
+      "defense-1nt": "1NT’ye karşı savunma",
+      "overcalls": "Araya girişler",
+      "opening-responses": "Açışa cevaplar",
+      "major-fit": "Majör desteği",
+      "minor-fit": "Minör desteği",
+      "slam": "Şlem araştırması",
+      "late-opening-responses": "Üçüncü ve dördüncü pozisyon açışlarına cevaplar",
+      "opener-rebids": "Açıcının rebidleri"
+    }
+  }
+}

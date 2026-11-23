@@ -3,29 +3,20 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import { buildExercisePreview } from './exercise-page.mjs';
 import { accessibleTables } from './table-speech.mjs';
-import { pageBase, stylesheet, redirectPage } from './routes.mjs';
+import { pageBase, stylesheet, moduleScript, redirectPage } from './routes.mjs';
 import { articles, availableIn } from './articles.mjs';
+import { renderCatalog } from './catalog.mjs';
+const catalogUi = JSON.parse(await readFile('content/i18n/catalog-topics.json', 'utf8'));
 const require = createRequire(import.meta.url);
 const { marked } = await import(require.resolve('marked'));
 const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
 const articleDescriptions = JSON.parse(await readFile('content/i18n/article-descriptions.json', 'utf8'));
 const sectionIds = ['when', 'purpose', 'overcalls', 'examples', 'responses', 'attention'];
-// Count Unicode code points, including spaces and punctuation; descriptions are edited, never cut.
-for (const language of languages) {
-  for (const [index, article] of articles.entries()) {
-    if (!availableIn(article, language.code)) continue;
-    const description = article.description || language.cards[index];
-    if (typeof description !== 'string' || [...description].length > 100) {
-      throw new Error(`${language.code}/${article.slug}: catalog description must be at most 100 characters`);
-    }
-  }
-}
-
 const escapeHtml = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const isolateRtl = html => html.split(/(<[^>]+>)/g).map((part, index) => index % 2 ? part : part.replace(/\b[1-7](?:NT|[♠♥♦♣])|\b\d+[––-]\d+|\b[A-Za-z][A-Za-z0-9]*(?:[ .-]+[A-Za-z][A-Za-z0-9]*)*/g, token => '<bdi dir="ltr">' + token + '</bdi>')).join('');
 const canonicalRoot = 'https://leonardobridge.com/';
 const sitemapUrls = new Set();
-function page({ language, title, description, route, slug, body }) {
+function page({ language, title, description, route, slug, body, extraHead = '' }) {
   const canonical = canonicalRoot + route;
   sitemapUrls.add(canonical);
   const article = articles.find(item => item.slug === slug);
@@ -35,7 +26,7 @@ function page({ language, title, description, route, slug, body }) {
     '<title>' + escapeHtml(title) + '</title><meta name="description" content="' + escapeHtml(description) + '">' +
     '<link rel="canonical" href="' + canonical + '">' + alternates +
     '<meta property="og:type" content="' + (slug ? 'article' : 'website') + '"><meta property="og:title" content="' + escapeHtml(title) + '"><meta property="og:description" content="' + escapeHtml(description) + '"><meta property="og:url" content="' + canonical + '">' +
-    stylesheet('conventions.css') + '</head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
+    stylesheet('conventions.css') + extraHead + '</head><body><a class="skip" href="#main">' + escapeHtml(language.ui.skip) + '</a>' +
     body + '<footer>Leonardo Bridge · ' + escapeHtml(language.ui.conventions) + '</footer>' + '</body></html>\n';
 }
 function renderArticle(source, article, language) {
@@ -100,7 +91,8 @@ for (const language of languages) {
     const prefix = '../'.repeat(route.split('/').filter(Boolean).length);
     await mkdir('site/' + route, { recursive: true });
     await writeFile('site/' + route + 'index.html', page({ language, route, title: language.ui.conventions + ' | Leonardo Bridge', description: language.ui.description,
-      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p><section class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + articles.map((article, index) => availableIn(article, language.code) ? '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="' + (article.titles && language.dir === 'rtl' ? 'rtl' : 'ltr') + '">' + escapeHtml(article.titles?.[language.code] || article.title) + '</strong><span>' + escapeHtml(article.description || language.cards[index]) + '</span></a>' : '').join('') + '</section>' + play + '</main>'
+      extraHead: stylesheet('catalog.css') + moduleScript('catalog.js'),
+      body: '<main id="main" class="listing catalog"><p class="eyebrow">' + escapeHtml(language.ui.learn) + '</p><h1>' + escapeHtml(language.ui.conventions) + '</h1><p>' + escapeHtml(language.ui.catalogIntro) + '</p>' + renderCatalog(articles, language, catalogUi[language.code], prefix) + play + '</main>'
     }));
     pageCount++;
   }
