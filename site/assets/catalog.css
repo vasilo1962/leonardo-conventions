@@ -16,5 +16,5 @@
 .catalog .card-link strong{font-size:21px}
 .catalog-tags{flex:0 1 54%;text-align:end}
 .catalog-filters[hidden],.convention-entry[hidden]{display:none}
-@media(max-width:600px){.convention-entry{align-items:flex-start;flex-direction:column;gap:5px;padding:10px 0}.catalog .card-link{flex:auto}.catalog-tags{flex:auto;text-align:start;font-size:12px}.catalog-filter-buttons{font-size:13px}}
+@media(max-width:600px){.convention-entry{align-items:flex-start;flex-direction:column;gap:5px;padding:10px 0}.catalog .card-link,.catalog .card-link:first-child{flex:none}.catalog-tags{flex:auto;text-align:start;font-size:12px}.catalog-filter-buttons{font-size:13px}}
 @media print{.catalog-filters{display:none}.catalog-tag{color:var(--muted)}.convention-entry[hidden]{display:flex}}
