@@ -20,6 +20,6 @@ export const articles = [
     exercisesText: '20 ασκήσεις: 10 επαναδηλώσεις ανοίξαντος και 10 συνέχειες μετά το Splinter του συμπαίκτη.' },
   { slug: 'jacoby-transfers', title: 'Transfer Jacoby μετά από 1ΝΤ', hands: 8, languages: ['el'],
     description: 'Δείξε το μαζέρ σου με Transfer Jacoby μετά από 1ΝΤ και διάλεξε τη συνέχεια της αγοράς.',
-    exercisesText: '20 ασκήσεις: 10 απαντήσεις στο 1ΝΤ και 10 συνέχειες του απαντώντος μετά την κανονική αποδοχή.' }
+    exercisesText: '20 ασκήσεις: 10 απαντήσεις στο 1ΝΤ και 10 συνέχειες του απαντώντος μετά την αποδοχή του Transfer.' }
 ];
 export const availableIn = (article, code) => !article.languages || article.languages.includes(code);
