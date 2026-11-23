@@ -1,0 +1,771 @@
+{
+  "title": "Jacoby Transfer po 1BT",
+  "language": "cs",
+  "ui": {
+    "overcall": "Odpovídám na 1BT",
+    "response": "Pokračuji po Transfer",
+    "overcallQuestion": "Co dražíš?",
+    "responseQuestion": "Co dražíš?",
+    "description": "Jacoby Transfer po 1BT · Cvičení",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Cvičení",
+      "back": "Zpět na lekci",
+      "eyebrow": "CVIČENÍ",
+      "intro": "Vidíš jen svůj list. Vyber hlášku z bidding boxu.",
+      "type": "Typ cvičení",
+      "previous": "Předchozí cvičení",
+      "exercise": "Cvičení",
+      "correctCount": "Správně",
+      "vulnerability": "Nikdo ve druhé hře",
+      "table": "Cvičný stůl",
+      "question": "Co dražíš?",
+      "hand": "Tvůj list, 13 karet",
+      "you": "Ty",
+      "south": "Jih",
+      "turn": "Jsi na řadě",
+      "result": "Výsledek",
+      "next": "Další cvičení",
+      "completed": "Skupina dokončena",
+      "restart": "Stejné listy znovu",
+      "return": "Zpět na lekci",
+      "noscript": "Interaktivní cvičení vyžadují JavaScript.",
+      "footer": "Cvičení konvencí",
+      "pass": "Pas",
+      "double": "Kontra",
+      "redouble": "Rekontra",
+      "auction": "Dosavadní dražba",
+      "partner": "Partner",
+      "opponent": "Soupeř",
+      "noBid": "žádná hláška v tomto kole",
+      "answered": "Odpovězeno",
+      "correct": "Správně!",
+      "rightBid": "Správná hláška je",
+      "choice": "Tvá volba",
+      "seeResult": "Zobrazit výsledek",
+      "bidLevels": "Hlášky od 1 do 7",
+      "actions": "Pas, kontra a rekontra",
+      "groupDone": "Skupina dokončena",
+      "points": "bodů",
+      "alreadyAnswered": "Už jsi odpověděl.",
+      "overcall": "Odpovídám na 1BT",
+      "response": "Pokračuji po Transfer"
+    },
+    "suitNames": {
+      "S": "piky",
+      "H": "srdce",
+      "D": "kára",
+      "C": "trefy",
+      "NT": "bez trumfů"
+    },
+    "rankNames": {
+      "A": "eso",
+      "K": "král",
+      "Q": "dáma",
+      "J": "kluk",
+      "T": "deset"
+    },
+    "positions": {
+      "W": "Západ",
+      "N": "Sever",
+      "E": "Východ",
+      "S": "Jih"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfer-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ a 2♥ jsou umělé: 2♦ žádají srdce, 2♥ piky. Neslibují délku v jmenované barvě. Transfer nemá bodové minimum: lze jej použít se slabou, invitující i silnou rukou, dokonce s nulou bodů. Sílu upřesní další hláška."
+    },
+    {
+      "id": "jacoby-transfer-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Šest kár a síla na celou hru, bez drahého čtyřlistu: 3BT. 2♦ by žádaly srdce, neukazovaly kára.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfer-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner zahájí 1BT a východ pasuje. Co odpovíš?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Drahý čtyřlist, žádný drahý pětilist: 2♣ Stayman hledá drahý fit 4–4.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfer-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Co dražíš?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Síla nestačí na invit: zastav v drahé barvě."
+    },
+    {
+      "id": "jacoby-transfer-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Co dražíš?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Síla nestačí na invit: zastav v drahé barvě."
+    },
+    {
+      "id": "jacoby-transfer-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Co dražíš?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Drahý pětilist a invitující síla: zahajitel vybírá stupeň a druh závazku."
+    },
+    {
+      "id": "jacoby-transfer-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Co dražíš?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Drahý pětilist a invitující síla: zahajitel vybírá stupeň a druh závazku."
+    },
+    {
+      "id": "jacoby-transfer-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Co dražíš?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Nejméně šest karet a invitující síla: fit známý; zahajitel smí pasovat nebo dražit celou hru."
+    },
+    {
+      "id": "jacoby-transfer-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Co dražíš?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Nejméně šest karet a invitující síla: fit známý; zahajitel smí pasovat nebo dražit celou hru."
+    },
+    {
+      "id": "jacoby-transfer-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Co dražíš?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Drahý pětilist a síla na celou hru: zahajitel vybírá 3BT nebo čtyři v drahé barvě."
+    },
+    {
+      "id": "jacoby-transfer-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Co dražíš?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Drahý pětilist a síla na celou hru: zahajitel vybírá 3BT nebo čtyři v drahé barvě."
+    },
+    {
+      "id": "jacoby-transfer-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Co dražíš?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Nejméně šest karet a síla na celou hru: jistý fit, draž celou hru v drahé barvě."
+    },
+    {
+      "id": "jacoby-transfer-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Co dražíš?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Nejméně šest karet a síla na celou hru: jistý fit, draž celou hru v drahé barvě."
+    }
+  ],
+  "route": "cs/jacoby-transfer-practice/",
+  "lessonHref": "../jacoby-transfer/"
+}

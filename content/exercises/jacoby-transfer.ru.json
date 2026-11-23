@@ -1,0 +1,771 @@
+{
+  "title": "Jacoby Transfer после 1БК",
+  "language": "ru",
+  "ui": {
+    "overcall": "Отвечаю на 1БК",
+    "response": "Продолжаю после Transfer",
+    "overcallQuestion": "Что заявляете?",
+    "responseQuestion": "Что заявляете?",
+    "description": "Jacoby Transfer после 1БК · Упражнения",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Упражнения",
+      "back": "К уроку",
+      "eyebrow": "УПРАЖНЕНИЯ",
+      "intro": "Вы видите только свою руку. Выберите заявку в боксе.",
+      "type": "Тип упражнения",
+      "previous": "Предыдущее упражнение",
+      "exercise": "Упражнение",
+      "correctCount": "Верно",
+      "vulnerability": "Никто не в зоне",
+      "table": "Учебный стол",
+      "question": "Что заявляете?",
+      "hand": "Ваша рука, 13 карт",
+      "you": "Вы",
+      "south": "Юг",
+      "turn": "Ваш ход",
+      "result": "Результат",
+      "next": "Следующее упражнение",
+      "completed": "Группа завершена",
+      "restart": "Повторить те же руки",
+      "return": "К уроку",
+      "noscript": "Для интерактивных упражнений нужен JavaScript.",
+      "footer": "Упражнения по конвенциям",
+      "pass": "Пас",
+      "double": "Контра",
+      "redouble": "Реконтра",
+      "auction": "Торговля до сих пор",
+      "partner": "Партнёр",
+      "opponent": "Противник",
+      "noBid": "нет заявки в этом круге",
+      "answered": "Ответ дан",
+      "correct": "Верно!",
+      "rightBid": "Правильная заявка",
+      "choice": "Ваш выбор",
+      "seeResult": "Посмотреть результат",
+      "bidLevels": "Заявки от 1 до 7",
+      "actions": "Пас, контра и реконтра",
+      "groupDone": "Группа завершена",
+      "points": "очков",
+      "alreadyAnswered": "Вы уже ответили.",
+      "overcall": "Отвечаю на 1БК",
+      "response": "Продолжаю после Transfer"
+    },
+    "suitNames": {
+      "S": "пики",
+      "H": "червы",
+      "D": "бубны",
+      "C": "трефы",
+      "NT": "без козыря"
+    },
+    "rankNames": {
+      "A": "туз",
+      "K": "король",
+      "Q": "дама",
+      "J": "валет",
+      "T": "десятка"
+    },
+    "positions": {
+      "W": "Запад",
+      "N": "Север",
+      "E": "Восток",
+      "S": "Юг"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfer-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ и 2♥ искусственные: 2♦ просит черву, 2♥ — пику. Длина в названной масти не обещается. Transfer не требует минимума очков: подходит слабой, инвитирующей или сильной руке, даже с нулём очков. Следующая заявка уточнит силу."
+    },
+    {
+      "id": "jacoby-transfer-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Шесть бубен и сила гейма, без четвёрки в мажоре: 3БК. 2♦ просило бы черву, а не показывало бубну.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfer-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Партнёр открывает 1БК, Восток пасует. Что отвечаете?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Четвёрка в мажоре без пятёрки: 2♣ Stayman ищет мажорный фит 4–4.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfer-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Что заявляете?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Силы на инвит нет: остановитесь в мажоре."
+    },
+    {
+      "id": "jacoby-transfer-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Что заявляете?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Силы на инвит нет: остановитесь в мажоре."
+    },
+    {
+      "id": "jacoby-transfer-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Что заявляете?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Пятёрка в мажоре и сила инвита: открывший выбирает уровень и тип контракта."
+    },
+    {
+      "id": "jacoby-transfer-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Что заявляете?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Пятёрка в мажоре и сила инвита: открывший выбирает уровень и тип контракта."
+    },
+    {
+      "id": "jacoby-transfer-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Что заявляете?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Не менее шести карт и сила инвита: фит известен; можно пасовать или назначить гейм."
+    },
+    {
+      "id": "jacoby-transfer-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Что заявляете?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Не менее шести карт и сила инвита: фит известен; можно пасовать или назначить гейм."
+    },
+    {
+      "id": "jacoby-transfer-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Что заявляете?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Пятёрка в мажоре и сила гейма: открывший выбирает 3БК или четыре в мажоре."
+    },
+    {
+      "id": "jacoby-transfer-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Что заявляете?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Пятёрка в мажоре и сила гейма: открывший выбирает 3БК или четыре в мажоре."
+    },
+    {
+      "id": "jacoby-transfer-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Что заявляете?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Не менее шести карт и сила гейма: фит гарантирован, назначайте гейм в мажоре."
+    },
+    {
+      "id": "jacoby-transfer-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Что заявляете?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Не менее шести карт и сила гейма: фит гарантирован, назначайте гейм в мажоре."
+    }
+  ],
+  "route": "ru/jacoby-transfer-practice/",
+  "lessonHref": "../jacoby-transfer/"
+}

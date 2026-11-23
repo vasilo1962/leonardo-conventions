@@ -2,13 +2,13 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {articles,availableIn} from './articles.mjs';
 const languages=JSON.parse(await readFile('content/i18n/languages.json','utf8'));
-const reference=JSON.parse(await readFile('content/exercises/jacoby-transfers.el.json','utf8'));
-const lesson=articles.find(a=>a.slug==='jacoby-transfers');
+const reference=JSON.parse(await readFile('content/exercises/jacoby-transfer.el.json','utf8'));
+const lesson=articles.find(a=>a.slug==='jacoby-transfer');
 let count=0;
 for(const language of languages){
  const code=language.code;
  assert.ok(availableIn(lesson,code));
- const data=JSON.parse(await readFile(`content/exercises/jacoby-transfers.${code}.json`,'utf8'));
+ const data=JSON.parse(await readFile(`content/exercises/jacoby-transfer.${code}.json`,'utf8'));
  assert.equal(data.language,code);
  assert.equal(data.questions.length,20);
  for(const [i,q] of data.questions.entries()){
@@ -25,11 +25,11 @@ for(const language of languages){
   }
   count++;
  }
- const html=await readFile(`site/${data.route || code+'/jacoby-transfers/practice/'}index.html`,'utf8');
+ const html=await readFile(`site/${data.route || code+'/jacoby-transfer/practice/'}index.html`,'utf8');
  assert.ok(html.includes(`<html lang="${code}"${language.dir==='rtl'?' dir="rtl"':''}>`));
  assert.deepEqual(JSON.parse(html.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
  assert.ok(html.includes('id="previous-exercise"')&&html.includes('id="exercise-score"'));
  if(code!=='el')assert.ok(!/[\u0370-\u03ff]/.test(html),`${code}: Greek UI remains`);
- assert.ok((await readFile(`site/${code}/jacoby-transfers/index.html`,'utf8')).includes('href="'+(lesson.exerciseUi?.[code]?.href || 'practice/')+'"'));
+ assert.ok((await readFile(`site/${code}/jacoby-transfer/index.html`,'utf8')).includes('href="'+(lesson.exerciseUi?.[code]?.href || 'practice/')+'"'));
 }
 console.log(`Verified ${languages.length} localized Jacoby Transfer lessons and ${count} exercises: identical hands, auctions, answers and objectives; localized UI, card speech and feedback; same-language exercise links.`);

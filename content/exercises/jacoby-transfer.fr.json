@@ -1,0 +1,771 @@
+{
+  "title": "Jacoby Transfer après 1SA",
+  "language": "fr",
+  "ui": {
+    "overcall": "Répondre à 1SA",
+    "response": "Continuer après le Transfer",
+    "overcallQuestion": "Que dites-vous ?",
+    "responseQuestion": "Que dites-vous ?",
+    "description": "Jacoby Transfer après 1SA · Exercices",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Exercices",
+      "back": "Retour à la leçon",
+      "eyebrow": "EXERCICES",
+      "intro": "Vous ne voyez que votre main. Choisissez votre enchère dans la boîte d’enchères.",
+      "type": "Type d’exercice",
+      "previous": "Exercice précédent",
+      "exercise": "Exercice",
+      "correctCount": "Bonnes réponses",
+      "vulnerability": "Personne vulnérable",
+      "table": "Table d’exercice",
+      "question": "Que dites-vous ?",
+      "hand": "Votre main, 13 cartes",
+      "you": "Vous",
+      "south": "Sud",
+      "turn": "À vous",
+      "result": "Résultat",
+      "next": "Exercice suivant",
+      "completed": "Groupe terminé",
+      "restart": "Rejouer les mêmes mains",
+      "return": "Retour à la leçon",
+      "noscript": "JavaScript est nécessaire aux exercices interactifs.",
+      "footer": "Exercices de conventions",
+      "pass": "Passe",
+      "double": "Contre",
+      "redouble": "Surcontre",
+      "auction": "Enchères précédentes",
+      "partner": "Partenaire",
+      "opponent": "Adversaire",
+      "noBid": "aucune enchère à ce tour",
+      "answered": "Réponse donnée",
+      "correct": "Correct !",
+      "rightBid": "La bonne enchère est",
+      "choice": "Votre choix",
+      "seeResult": "Voir le résultat",
+      "bidLevels": "Enchères de 1 à 7",
+      "actions": "Passe, contre et surcontre",
+      "groupDone": "Groupe terminé",
+      "points": "points",
+      "alreadyAnswered": "Vous avez déjà répondu.",
+      "overcall": "Répondre à 1SA",
+      "response": "Continuer après le Transfer"
+    },
+    "suitNames": {
+      "S": "piques",
+      "H": "cœurs",
+      "D": "carreaux",
+      "C": "trèfles",
+      "NT": "sans atout"
+    },
+    "rankNames": {
+      "A": "as",
+      "K": "roi",
+      "Q": "dame",
+      "J": "valet",
+      "T": "dix"
+    },
+    "positions": {
+      "W": "Ouest",
+      "N": "Nord",
+      "E": "Est",
+      "S": "Sud"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfer-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+    },
+    {
+      "id": "jacoby-transfer-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Six carreaux et la manche, sans majeure quatrième : dites 3SA. 2♦ demanderait les cœurs, pas les carreaux.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfer-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Majeure quatrième, pas de majeure cinquième : 2♣ Stayman recherche un fit majeur 4–4.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfer-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Que dites-vous ?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Force insuffisante pour proposer : arrêtez-vous dans la majeure."
+    },
+    {
+      "id": "jacoby-transfer-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Que dites-vous ?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Force insuffisante pour proposer : arrêtez-vous dans la majeure."
+    },
+    {
+      "id": "jacoby-transfer-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Que dites-vous ?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Majeure cinquième et force de proposition : l’ouvreur choisit palier et dénomination."
+    },
+    {
+      "id": "jacoby-transfer-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Que dites-vous ?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Majeure cinquième et force de proposition : l’ouvreur choisit palier et dénomination."
+    },
+    {
+      "id": "jacoby-transfer-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Que dites-vous ?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Au moins six cartes et force de proposition : le fit est connu ; l’ouvreur peut passer ou demander la manche."
+    },
+    {
+      "id": "jacoby-transfer-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Que dites-vous ?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Au moins six cartes et force de proposition : le fit est connu ; l’ouvreur peut passer ou demander la manche."
+    },
+    {
+      "id": "jacoby-transfer-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Que dites-vous ?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Majeure cinquième et force de manche : l’ouvreur choisit 3SA ou quatre dans la majeure."
+    },
+    {
+      "id": "jacoby-transfer-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Que dites-vous ?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Majeure cinquième et force de manche : l’ouvreur choisit 3SA ou quatre dans la majeure."
+    },
+    {
+      "id": "jacoby-transfer-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Que dites-vous ?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Au moins six cartes et force de manche : le fit est certain, demandez la manche en majeure."
+    },
+    {
+      "id": "jacoby-transfer-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Que dites-vous ?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Au moins six cartes et force de manche : le fit est certain, demandez la manche en majeure."
+    }
+  ],
+  "route": "fr/jacoby-transfer-practice/",
+  "lessonHref": "../jacoby-transfer/"
+}

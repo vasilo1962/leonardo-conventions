@@ -1,0 +1,771 @@
+{
+  "title": "Jacoby Transfer efter 1UT",
+  "language": "da",
+  "ui": {
+    "overcall": "Svar på 1UT",
+    "response": "Fortsæt efter Transfer",
+    "overcallQuestion": "Hvad melder du?",
+    "responseQuestion": "Hvad melder du?",
+    "description": "Jacoby Transfer efter 1UT · Øvelser",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Øvelser",
+      "back": "Tilbage til lektionen",
+      "eyebrow": "ØVELSER",
+      "intro": "Du ser kun din hånd. Vælg din melding i meldekassen.",
+      "type": "Øvelsestype",
+      "previous": "Forrige øvelse",
+      "exercise": "Øvelse",
+      "correctCount": "Rigtige",
+      "vulnerability": "Ingen i zonen",
+      "table": "Øvelsesbord",
+      "question": "Hvad melder du?",
+      "hand": "Din hånd, 13 kort",
+      "you": "Du",
+      "south": "Syd",
+      "turn": "Din tur",
+      "result": "Resultat",
+      "next": "Næste øvelse",
+      "completed": "Gruppen er færdig",
+      "restart": "Samme hænder igen",
+      "return": "Tilbage til lektionen",
+      "noscript": "Interaktive øvelser kræver JavaScript.",
+      "footer": "Konventionsøvelser",
+      "pass": "Pas",
+      "double": "Dobler",
+      "redouble": "Redobler",
+      "auction": "Meldinger hidtil",
+      "partner": "Makker",
+      "opponent": "Modstander",
+      "noBid": "ingen melding i denne runde",
+      "answered": "Du har svaret",
+      "correct": "Rigtigt!",
+      "rightBid": "Den rigtige melding er",
+      "choice": "Dit valg",
+      "seeResult": "Se resultatet",
+      "bidLevels": "Meldinger fra 1 til 7",
+      "actions": "Pas, dobler og redobler",
+      "groupDone": "Gruppen er færdig",
+      "points": "point",
+      "alreadyAnswered": "Du har allerede svaret.",
+      "overcall": "Svar på 1UT",
+      "response": "Fortsæt efter Transfer"
+    },
+    "suitNames": {
+      "S": "spar",
+      "H": "hjerter",
+      "D": "ruder",
+      "C": "klør",
+      "NT": "sans"
+    },
+    "rankNames": {
+      "A": "es",
+      "K": "konge",
+      "Q": "dame",
+      "J": "knægt",
+      "T": "ti"
+    },
+    "positions": {
+      "W": "Vest",
+      "N": "Nord",
+      "E": "Øst",
+      "S": "Syd"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfer-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ og 2♥ er kunstige: 2♦ beder om hjerter, 2♥ om spar. De lover ikke længde i den meldte farve. Transfer kræver intet pointminimum: svage, inviterende og stærke hænder begynder ens, selv med nul honnørpoint. Næste melding viser styrken."
+    },
+    {
+      "id": "jacoby-transfer-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Seks ruder og udgangsstyrke, ingen fire kort i major: 3UT. 2♦ ville bede om hjerter, ikke vise ruder.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfer-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker åbner 1UT, og Øst passer. Hvad svarer du?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Fire kort i major, ingen femfarve: 2♣ Stayman søger et majorfit på 4–4.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfer-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvad melder du?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. For svag til invit: stop i majorfarven."
+    },
+    {
+      "id": "jacoby-transfer-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvad melder du?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. For svag til invit: stop i majorfarven."
+    },
+    {
+      "id": "jacoby-transfer-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvad melder du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Fem kort i major og invitstyrke: åbner vælger niveau og spilart."
+    },
+    {
+      "id": "jacoby-transfer-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvad melder du?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Fem kort i major og invitstyrke: åbner vælger niveau og spilart."
+    },
+    {
+      "id": "jacoby-transfer-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvad melder du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Mindst seks kort og invitstyrke: kendt fit; åbner må passe eller melde udgang."
+    },
+    {
+      "id": "jacoby-transfer-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvad melder du?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Mindst seks kort og invitstyrke: kendt fit; åbner må passe eller melde udgang."
+    },
+    {
+      "id": "jacoby-transfer-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvad melder du?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Fem kort i major og udgangsstyrke: åbner vælger 3UT eller fire i major."
+    },
+    {
+      "id": "jacoby-transfer-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvad melder du?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Fem kort i major og udgangsstyrke: åbner vælger 3UT eller fire i major."
+    },
+    {
+      "id": "jacoby-transfer-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvad melder du?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Mindst seks kort og udgangsstyrke: sikkert fit, meld udgang i major."
+    },
+    {
+      "id": "jacoby-transfer-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvad melder du?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Mindst seks kort og udgangsstyrke: sikkert fit, meld udgang i major."
+    }
+  ],
+  "route": "da/jacoby-transfer-practice/",
+  "lessonHref": "../jacoby-transfer/"
+}
