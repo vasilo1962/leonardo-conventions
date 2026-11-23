@@ -97,7 +97,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-2",
@@ -123,7 +123,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-3",
@@ -149,7 +149,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-4",
@@ -175,7 +175,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-5",
@@ -201,7 +201,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-6",
@@ -227,7 +227,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-7",
@@ -253,7 +253,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-8",
@@ -279,7 +279,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partnered 1NT-t nyit, Kelet passzol. Mit válaszolsz?",
-      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer **nem igényel minimális pontszámot**: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. A 2♦ és 2♥ mesterséges: 2♦ kőrt, 2♥ pikket kér. A bemondott színben nem ígérnek hosszúságot. A Transfer nem igényel minimális pontszámot: gyenge, invitáló és erős kézzel is használható, akár nulla figuraponttal. Erőnket a következő licit tisztázza."
     },
     {
       "id": "jacoby-transfers-start-9",

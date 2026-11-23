@@ -97,7 +97,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-2",
@@ -123,7 +123,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-3",
@@ -149,7 +149,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-4",
@@ -175,7 +175,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-5",
@@ -201,7 +201,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-6",
@@ -227,7 +227,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-7",
@@ -253,7 +253,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-8",
@@ -279,7 +279,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
-      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer ei vaadi vähimmäispisteitä: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
     },
     {
       "id": "jacoby-transfers-start-9",

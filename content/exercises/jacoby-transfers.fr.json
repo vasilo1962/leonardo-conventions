@@ -97,7 +97,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-2",
@@ -123,7 +123,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-3",
@@ -149,7 +149,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-4",
@@ -175,7 +175,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-5",
@@ -201,7 +201,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-6",
@@ -227,7 +227,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-7",
@@ -253,7 +253,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-8",
@@ -279,7 +279,7 @@
       "vulnerability": "None",
       "ntRange": "15–17",
       "situation": "Le partenaire ouvre de 1SA et Est passe. Que répondez-vous ?",
-      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer **n’exige aucun minimum de points** : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ et 2♥ sont conventionnels : 2♦ demande les cœurs, 2♥ les piques. Aucune longueur n’est promise dans la couleur nommée. Le Transfer n’exige aucun minimum de points : main faible, propositionnelle ou forte, même zéro point H. La force sera précisée au tour suivant."
     },
     {
       "id": "jacoby-transfers-start-9",

@@ -16,6 +16,7 @@ for(const language of languages){
   const {situation:originalSituation,explanation:originalExplanation,...expected}=reference.questions[i];
   assert.deepEqual(actual,expected,`${code}/${q.id}: changed exercise`);
   assert.ok(situation&&explanation);
+  assert.ok(!explanation.includes("**"), `${code}: Markdown in plain-text feedback`);
   if(code!=='el'){
    assert.ok(!/[\u0370-\u03ff]/.test(situation+explanation));
    assert.equal(Object.keys(data.ui.locale).length,41);
