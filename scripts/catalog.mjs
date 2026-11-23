@@ -35,12 +35,12 @@ export function renderCatalog(articles, language, ui, prefix) {
   for (const topic of topics) if (!ui.labels?.[topic]) throw new Error(`${language.code}: missing topic ${topic}`);
   topics.sort((a, b) => new Intl.Collator(language.code).compare(ui.labels[a], ui.labels[b]));
   const button = (topic, label, className, disabled = false) => '<button type="button" class="' + className + '" data-topic="' + topic + '" aria-controls="convention-list" aria-pressed="' + (topic === 'all') + '"' + (disabled ? ' disabled' : '') + '>' + escapeHtml(label) + '</button>';
-  return '<fieldset class="catalog-filters" hidden><legend>' + escapeHtml(ui.topic) + '</legend><div class="catalog-filter-buttons">' +
-    button('all', ui.all, 'catalog-filter') + topics.map(topic => button(topic, ui.labels[topic], 'catalog-filter')).join('') + '</div></fieldset>' +
-    '<p class="sr-only" id="catalog-status" role="status" aria-live="polite" aria-atomic="true" data-results="' + escapeHtml(ui.results) + '"></p>' +
-    '<section id="convention-list" class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + sorted.map(article =>
+  return '<section id="convention-list" class="convention-list" aria-label="' + escapeHtml(language.ui.conventions) + '">' + sorted.map(article =>
       '<div class="convention-entry" data-convention="' + article.slug + '" data-topics="' + articleTopics[article.slug].join(' ') + '">' +
       '<a class="card-link" href="' + prefix + language.code + '/' + article.slug + '/"><strong dir="' + (article.titles && language.dir === 'rtl' ? 'rtl' : 'ltr') + '">' + escapeHtml(catalogTitle(article, language)) + '</strong></a>' +
-      '<div class="catalog-tags" role="group" aria-label="' + escapeHtml(ui.tags) + '">' + articleTopics[article.slug].map(topic => button(topic, ui.labels[topic], 'catalog-tag', true)).join('') + '</div></div>'
-    ).join('') + '</section>';
+      '<div class="catalog-tags" role="group" aria-label="' + escapeHtml(ui.tags) + '">' + articleTopics[article.slug].map(topic => button(topic, ui.labels[topic], 'catalog-tag', true)).join('<span class="tag-separator" aria-hidden="true">, </span>') + '</div></div>'
+    ).join('') + '</section>' +
+    '<fieldset class="catalog-filters" hidden><legend>' + escapeHtml(ui.topic) + '</legend><div class="catalog-filter-buttons">' +
+    [button('all', ui.all, 'catalog-filter'), ...topics.map(topic => button(topic, ui.labels[topic], 'catalog-filter'))].join('<span class="tag-separator" aria-hidden="true">, </span>') + '</div></fieldset>' +
+    '<p class="sr-only" id="catalog-status" role="status" aria-live="polite" aria-atomic="true" data-results="' + escapeHtml(ui.results) + '"></p>';
 }

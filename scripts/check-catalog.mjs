@@ -20,6 +20,8 @@ for (const language of languages) {
     for (const topic of row[2].split(' ')) assert.ok(ui[language.code].labels[topic]);
   }
   assert.ok(html.includes('class="catalog-filters" hidden'));
+  assert.ok(html.indexOf('</section>') < html.indexOf('<fieldset'), 'Filters follow the whole list');
+  assert.ok(rows.every(row => row[3].includes('class="tag-separator" aria-hidden="true">, </span>')), 'Row tags have comma separators');
   assert.ok(html.includes('role="status" aria-live="polite" aria-atomic="true"'));
   const filters = html.slice(html.indexOf('<fieldset'), html.indexOf('</fieldset>'));
   const controls = [...filters.matchAll(/data-topic="([^"]+)"/g)].map(m => m[1]);
