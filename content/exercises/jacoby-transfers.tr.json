@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. En az altı kart ve zon kuvveti: fit kesin, majörde zon söyle."
     }
   ],
-  "route": "tr/jacoby-transfers/practice/"
+  "route": "tr/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "tr/jacoby-transfers/practice/"
+  ]
 }

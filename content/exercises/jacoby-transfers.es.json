@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Al menos seis cartas y fuerza de manga: apoyo seguro, declara manga en el mayor."
     }
   ],
-  "route": "es/jacoby-transfers/practice/"
+  "route": "es/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "es/jacoby-transfers/practice/"
+  ]
 }

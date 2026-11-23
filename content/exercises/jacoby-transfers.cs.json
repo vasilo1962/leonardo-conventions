@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Nejméně šest karet a síla na celou hru: jistý fit, draž celou hru v drahé barvě."
     }
   ],
-  "route": "cs/jacoby-transfers/practice/"
+  "route": "cs/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "cs/jacoby-transfers/practice/"
+  ]
 }

@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 6장 이상과 게임 힘입니다. 핏이 확실하므로 메이저 게임을 비드합니다."
     }
   ],
-  "route": "ko/jacoby-transfers/practice/"
+  "route": "ko/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "ko/jacoby-transfers/practice/"
+  ]
 }

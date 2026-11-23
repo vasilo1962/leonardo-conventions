@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Minstens zes kaarten en manchekracht: zekere fit, dus manche in de hoge kleur."
     }
   ],
-  "route": "nl/jacoby-transfers/practice/"
+  "route": "nl/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "nl/jacoby-transfers/practice/"
+  ]
 }

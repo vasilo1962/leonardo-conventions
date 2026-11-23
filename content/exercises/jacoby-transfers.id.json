@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Sedikitnya enam kartu dan kekuatan game: fit pasti, tawarkan game di major."
     }
   ],
-  "route": "id/jacoby-transfers/practice/"
+  "route": "id/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "id/jacoby-transfers/practice/"
+  ]
 }

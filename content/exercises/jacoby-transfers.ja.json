@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 6枚以上とゲームの強さ。フィットが確実なのでメジャーのゲームをビッドします。"
     }
   ],
-  "route": "ja/jacoby-transfers/practice/"
+  "route": "ja/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "ja/jacoby-transfers/practice/"
+  ]
 }

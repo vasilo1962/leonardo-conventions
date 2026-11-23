@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. อย่างน้อยหกใบและกำลังเกม ฟิตแน่นอน บิดเกมในเมเจอร์"
     }
   ],
-  "route": "th/jacoby-transfers/practice/"
+  "route": "th/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "th/jacoby-transfers/practice/"
+  ]
 }

@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. कम से कम छह पत्ते और गेम की ताकत: फिट निश्चित है, मेजर में गेम बोलें।"
     }
   ],
-  "route": "hi/jacoby-transfers/practice/"
+  "route": "hi/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "hi/jacoby-transfers/practice/"
+  ]
 }

@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Minst seks kort og utgangsstyrke: sikker tilpasning, meld utgang i major."
     }
   ],
-  "route": "no/jacoby-transfers/practice/"
+  "route": "no/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "no/jacoby-transfers/practice/"
+  ]
 }

@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Не менее шести карт и сила гейма: фит гарантирован, назначайте гейм в мажоре."
     }
   ],
-  "route": "ru/jacoby-transfers/practice/"
+  "route": "ru/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "ru/jacoby-transfers/practice/"
+  ]
 }

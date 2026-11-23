@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. לפחות שישה קלפים וכוח למשחק מלא: התאמה בטוחה, מכריזים משחק מלא במייג׳ור."
     }
   ],
-  "route": "he/jacoby-transfers/practice/"
+  "route": "he/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "he/jacoby-transfers/practice/"
+  ]
 }

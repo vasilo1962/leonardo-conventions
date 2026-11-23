@@ -25,11 +25,11 @@ for(const language of languages){
   }
   count++;
  }
- const html=await readFile(`site/${code}/jacoby-transfers/practice/index.html`,'utf8');
+ const html=await readFile(`site/${data.route || code+'/jacoby-transfers/practice/'}index.html`,'utf8');
  assert.ok(html.includes(`<html lang="${code}"${language.dir==='rtl'?' dir="rtl"':''}>`));
  assert.deepEqual(JSON.parse(html.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
  assert.ok(html.includes('id="previous-exercise"')&&html.includes('id="exercise-score"'));
  if(code!=='el')assert.ok(!/[\u0370-\u03ff]/.test(html),`${code}: Greek UI remains`);
- assert.ok((await readFile(`site/${code}/jacoby-transfers/index.html`,'utf8')).includes('href="practice/"'));
+ assert.ok((await readFile(`site/${code}/jacoby-transfers/index.html`,'utf8')).includes('href="'+(lesson.exerciseUi?.[code]?.href || 'practice/')+'"'));
 }
 console.log(`Verified ${languages.length} localized Jacoby Transfer lessons and ${count} exercises: identical hands, auctions, answers and objectives; localized UI, card speech and feedback; same-language exercise links.`);

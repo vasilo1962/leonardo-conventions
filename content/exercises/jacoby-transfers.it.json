@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Almeno sei carte e forza di manche: fit certo, quindi manche nel nobile."
     }
   ],
-  "route": "it/jacoby-transfers/practice/"
+  "route": "it/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "it/jacoby-transfers/practice/"
+  ]
 }

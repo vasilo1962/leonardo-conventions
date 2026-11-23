@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Co najmniej sześć kart i siła końcówki: fit pewny, licytuj końcówkę w starszy kolor."
     }
   ],
-  "route": "pl/jacoby-transfers/practice/"
+  "route": "pl/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "pl/jacoby-transfers/practice/"
+  ]
 }

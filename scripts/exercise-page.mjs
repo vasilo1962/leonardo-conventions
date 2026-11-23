@@ -1,4 +1,4 @@
-import { pageBase, stylesheet, moduleScript } from './routes.mjs';
+import { pageBase, stylesheet, moduleScript, redirectPage } from './routes.mjs';
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 
 // Self-contained conventions preview; no dependency on game bundles or services.
@@ -54,5 +54,9 @@ ${moduleScript('convention-exercises.js')}</head>
   }
   await mkdir('site/' + route, { recursive: true });
   await writeFile('site/' + route + 'index.html', html);
+  for (const legacy of data.legacyRoutes || []) {
+    await mkdir('site/' + legacy, {recursive:true});
+    await writeFile('site/' + legacy + 'index.html', redirectPage(data.language, route));
+  }
   }
 }

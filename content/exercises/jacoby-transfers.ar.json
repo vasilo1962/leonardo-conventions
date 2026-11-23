@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. ستة أوراق على الأقل وقوة الشوط: التوافق مؤكد، أعلن الشوط في اللون الكبير."
     }
   ],
-  "route": "ar/jacoby-transfers/practice/"
+  "route": "ar/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "ar/jacoby-transfers/practice/"
+  ]
 }

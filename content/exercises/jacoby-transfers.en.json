@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. At least six cards and game values: a fit is certain, so bid game in the major."
     }
   ],
-  "route": "en/jacoby-transfers/practice/"
+  "route": "en/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "en/jacoby-transfers/practice/"
+  ]
 }

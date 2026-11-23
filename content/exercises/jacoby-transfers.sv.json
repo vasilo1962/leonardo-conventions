@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Minst sex kort och utgångsstyrka: säkert stöd, bjud utgång i högfärgen."
     }
   ],
-  "route": "sv/jacoby-transfers/practice/"
+  "route": "sv/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "sv/jacoby-transfers/practice/"
+  ]
 }

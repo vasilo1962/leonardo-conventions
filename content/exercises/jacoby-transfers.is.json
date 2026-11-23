@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Að minnsta kosti sex spil og geimstyrkur: örugg samlega, segðu geim í hálit."
     }
   ],
-  "route": "is/jacoby-transfers/practice/"
+  "route": "is/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "is/jacoby-transfers/practice/"
+  ]
 }

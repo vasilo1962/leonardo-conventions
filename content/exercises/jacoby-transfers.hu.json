@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Legalább hat lap és gémerő: biztos fit, mondj gémet a nemesben."
     }
   ],
-  "route": "hu/jacoby-transfers/practice/"
+  "route": "hu/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "hu/jacoby-transfers/practice/"
+  ]
 }

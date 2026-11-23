@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Pelo menos seis cartas e força de partida: apoio certo, marca partida no rico."
     }
   ],
-  "route": "pt/jacoby-transfers/practice/"
+  "route": "pt/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "pt/jacoby-transfers/practice/"
+  ]
 }

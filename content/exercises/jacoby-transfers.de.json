@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Mindestens sechs Karten und Partiestärke: sicherer Fit, also Partie in der Oberfarbe."
     }
   ],
-  "route": "de/jacoby-transfers/practice/"
+  "route": "de/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "de/jacoby-transfers/practice/"
+  ]
 }

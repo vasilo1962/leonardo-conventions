@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Vähintään kuusi korttia ja täyspelivoima: yhteinen väri on varma, tarjoa yläväritäyspeli."
     }
   ],
-  "route": "fi/jacoby-transfers/practice/"
+  "route": "fi/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "fi/jacoby-transfers/practice/"
+  ]
 }

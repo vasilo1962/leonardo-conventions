@@ -766,5 +766,9 @@
       "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Au moins six cartes et force de manche : le fit est certain, demandez la manche en majeure."
     }
   ],
-  "route": "fr/jacoby-transfers/practice/"
+  "route": "fr/jacoby-transfers-practice/",
+  "lessonHref": "../jacoby-transfers/",
+  "legacyRoutes": [
+    "fr/jacoby-transfers/practice/"
+  ]
 }
