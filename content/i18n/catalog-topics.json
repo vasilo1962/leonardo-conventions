@@ -31,7 +31,8 @@
       "minor-fit": "Minor-suit support",
       "slam": "Slam exploration",
       "late-opening-responses": "Responses to third- and fourth-seat openings",
-      "opener-rebids": "Opener’s rebids"
+      "opener-rebids": "Opener’s rebids",
+      "responses-1nt": "Response to 1NT"
     }
   },
   "fr": {
@@ -48,7 +49,8 @@
       "minor-fit": "Fit en mineure",
       "slam": "Recherche de chelem",
       "late-opening-responses": "Réponses aux ouvertures en troisième et quatrième position",
-      "opener-rebids": "Redemandes de l’ouvreur"
+      "opener-rebids": "Redemandes de l’ouvreur",
+      "responses-1nt": "Réponse à 1SA"
     }
   },
   "de": {
@@ -65,7 +67,8 @@
       "minor-fit": "Unterfarbenfit",
       "slam": "Schlemmuntersuchung",
       "late-opening-responses": "Antworten auf Eröffnungen in dritter und vierter Position",
-      "opener-rebids": "Wiedergebote des Eröffners"
+      "opener-rebids": "Wiedergebote des Eröffners",
+      "responses-1nt": "Antwort auf 1SA"
     }
   },
   "it": {
@@ -82,7 +85,8 @@
       "minor-fit": "Fit nel minore",
       "slam": "Ricerca di slam",
       "late-opening-responses": "Risposte alle aperture in terza e quarta posizione",
-      "opener-rebids": "Ridichiarazioni dell’apertore"
+      "opener-rebids": "Ridichiarazioni dell’apertore",
+      "responses-1nt": "Risposta a 1SA"
     }
   },
   "es": {
@@ -99,7 +103,8 @@
       "minor-fit": "Apoyo en menor",
       "slam": "Exploración de slam",
       "late-opening-responses": "Respuestas a aperturas en tercera y cuarta posición",
-      "opener-rebids": "Redeclaraciones del abridor"
+      "opener-rebids": "Redeclaraciones del abridor",
+      "responses-1nt": "Respuesta a 1ST"
     }
   },
   "pt": {
@@ -116,7 +121,8 @@
       "minor-fit": "Fit em pobre",
       "slam": "Investigação de cheleme",
       "late-opening-responses": "Respostas a aberturas em terceira e quarta posição",
-      "opener-rebids": "Segundas vozes do abridor"
+      "opener-rebids": "Segundas vozes do abridor",
+      "responses-1nt": "Resposta a 1ST"
     }
   },
   "nl": {
@@ -133,7 +139,8 @@
       "minor-fit": "Fit in een lage kleur",
       "slam": "Slemonderzoek",
       "late-opening-responses": "Antwoorden op openingen in de derde en vierde hand",
-      "opener-rebids": "Herbiedingen van de openaar"
+      "opener-rebids": "Herbiedingen van de openaar",
+      "responses-1nt": "Antwoord op 1SA"
     }
   },
   "sv": {
@@ -150,7 +157,8 @@
       "minor-fit": "Stöd i lågfärg",
       "slam": "Slamundersökning",
       "late-opening-responses": "Svar på öppningar i tredje och fjärde hand",
-      "opener-rebids": "Öppningshandens återbud"
+      "opener-rebids": "Öppningshandens återbud",
+      "responses-1nt": "Svar på 1NT"
     }
   },
   "da": {
@@ -167,7 +175,8 @@
       "minor-fit": "Minorstøtte",
       "slam": "Slemundersøgelse",
       "late-opening-responses": "Svar på åbninger i tredje og fjerde hånd",
-      "opener-rebids": "Åbners genmeldinger"
+      "opener-rebids": "Åbners genmeldinger",
+      "responses-1nt": "Svar på 1UT"
     }
   },
   "no": {
@@ -184,7 +193,8 @@
       "minor-fit": "Minorstøtte",
       "slam": "Slemundersøkelse",
       "late-opening-responses": "Svar på åpninger i tredje og fjerde hånd",
-      "opener-rebids": "Åpnerens gjenmeldinger"
+      "opener-rebids": "Åpnerens gjenmeldinger",
+      "responses-1nt": "Svar på 1NT"
     }
   },
   "fi": {
@@ -201,7 +211,8 @@
       "minor-fit": "Alavärituki",
       "slam": "Slammin tutkiminen",
       "late-opening-responses": "Vastaukset kolmannen ja neljännen käden avauksiin",
-      "opener-rebids": "Avaajan jatkotarjoukset"
+      "opener-rebids": "Avaajan jatkotarjoukset",
+      "responses-1nt": "Vastaus 1NT:iin"
     }
   },
   "pl": {
@@ -218,7 +229,8 @@
       "minor-fit": "Fit w kolorze młodszym",
       "slam": "Poszukiwanie szlemika lub szlema",
       "late-opening-responses": "Odpowiedzi na otwarcia z trzeciej i czwartej ręki",
-      "opener-rebids": "Rebidy otwierającego"
+      "opener-rebids": "Rebidy otwierającego",
+      "responses-1nt": "Odpowiedź na 1BA"
     }
   },
   "cs": {
@@ -235,7 +247,8 @@
       "minor-fit": "Fit v levné barvě",
       "slam": "Zkoumání slemu",
       "late-opening-responses": "Odpovědi na zahájení na třetím a čtvrtém místě",
-      "opener-rebids": "Rebidy zahajitele"
+      "opener-rebids": "Rebidy zahajitele",
+      "responses-1nt": "Odpověď na 1BT"
     }
   },
   "hu": {
@@ -252,7 +265,8 @@
       "minor-fit": "Minor szín támogatása",
       "slam": "Slemvizsgálat",
       "late-opening-responses": "Válaszok harmadik és negyedik helyen történt indulásra",
-      "opener-rebids": "Az induló viszontválaszai"
+      "opener-rebids": "Az induló viszontválaszai",
+      "responses-1nt": "Válasz 1NT-re"
     }
   },
   "is": {
@@ -269,7 +283,8 @@
       "minor-fit": "Stuðningur í láglit",
       "slam": "Slemmuleit",
       "late-opening-responses": "Svör við opnun í þriðju og fjórðu hendi",
-      "opener-rebids": "Endursagnir opnara"
+      "opener-rebids": "Endursagnir opnara",
+      "responses-1nt": "Svar við 1G"
     }
   },
   "ru": {
@@ -286,7 +301,8 @@
       "minor-fit": "Фит в миноре",
       "slam": "Исследование шлема",
       "late-opening-responses": "Ответы на открытия с третьей и четвёртой руки",
-      "opener-rebids": "Повторные заявки открывающего"
+      "opener-rebids": "Повторные заявки открывающего",
+      "responses-1nt": "Ответ на 1БК"
     }
   },
   "id": {
@@ -303,7 +319,8 @@
       "minor-fit": "Dukungan minor",
       "slam": "Penjajakan slam",
       "late-opening-responses": "Jawaban atas pembukaan di posisi ketiga dan keempat",
-      "opener-rebids": "Rebid pembuka"
+      "opener-rebids": "Rebid pembuka",
+      "responses-1nt": "Jawaban atas 1NT"
     }
   },
   "zh": {
@@ -320,7 +337,8 @@
       "minor-fit": "低花支持",
       "slam": "探索满贯",
       "late-opening-responses": "第三、第四家开叫后的应叫",
-      "opener-rebids": "开叫人的再叫"
+      "opener-rebids": "开叫人的再叫",
+      "responses-1nt": "对1NT的应叫"
     }
   },
   "ja": {
@@ -337,7 +355,8 @@
       "minor-fit": "マイナーのサポート",
       "slam": "スラムの検討",
       "late-opening-responses": "3番手・4番手のオープンへのレスポンス",
-      "opener-rebids": "オープナーのリビッド"
+      "opener-rebids": "オープナーのリビッド",
+      "responses-1nt": "1NTへの応答"
     }
   },
   "ko": {
@@ -354,7 +373,8 @@
       "minor-fit": "마이너 서포트",
       "slam": "슬램 탐색",
       "late-opening-responses": "세 번째·네 번째 자리 오프닝에 대한 응답",
-      "opener-rebids": "오프너의 리비드"
+      "opener-rebids": "오프너의 리비드",
+      "responses-1nt": "1NT에 대한 응답"
     }
   },
   "he": {
@@ -371,7 +391,8 @@
       "minor-fit": "תמיכה במיינור",
       "slam": "בדיקת סלם",
       "late-opening-responses": "תשובות לפתיחות ביד שלישית ורביעית",
-      "opener-rebids": "הכרזות חוזרות של הפותח"
+      "opener-rebids": "הכרזות חוזרות של הפותח",
+      "responses-1nt": "תשובה ל־1NT"
     }
   },
   "hi": {
@@ -388,7 +409,8 @@
       "minor-fit": "माइनर में सपोर्ट",
       "slam": "स्लैम की खोज",
       "late-opening-responses": "तीसरे और चौथे स्थान की ओपनिंग के उत्तर",
-      "opener-rebids": "ओपनर की अगली बोली"
+      "opener-rebids": "ओपनर की अगली बोली",
+      "responses-1nt": "1NT का जवाब"
     }
   },
   "ar": {
@@ -405,7 +427,8 @@
       "minor-fit": "دعم اللون الصغير",
       "slam": "استكشاف السلم",
       "late-opening-responses": "الردود على الافتتاح في المقعدين الثالث والرابع",
-      "opener-rebids": "إعادة إعلان المفتتح"
+      "opener-rebids": "إعادة إعلان المفتتح",
+      "responses-1nt": "الرد على 1NT"
     }
   },
   "th": {
@@ -422,7 +445,8 @@
       "minor-fit": "การสนับสนุนไมเนอร์",
       "slam": "การสำรวจสแลม",
       "late-opening-responses": "การตอบการเปิดในตำแหน่งที่สามและสี่",
-      "opener-rebids": "การบิดครั้งถัดไปของผู้เปิด"
+      "opener-rebids": "การบิดครั้งถัดไปของผู้เปิด",
+      "responses-1nt": "ตอบ 1NT"
     }
   },
   "tr": {
@@ -439,7 +463,8 @@
       "minor-fit": "Minör desteği",
       "slam": "Şlem araştırması",
       "late-opening-responses": "Üçüncü ve dördüncü pozisyon açışlarına cevaplar",
-      "opener-rebids": "Açıcının rebidleri"
+      "opener-rebids": "Açıcının rebidleri",
+      "responses-1nt": "1NT’ye cevap"
     }
   }
 }

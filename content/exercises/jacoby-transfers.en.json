@@ -1,0 +1,770 @@
+{
+  "title": "Jacoby Transfer after 1NT",
+  "language": "en",
+  "ui": {
+    "overcall": "Respond to 1NT",
+    "response": "Continue after Transfer",
+    "overcallQuestion": "What do you bid?",
+    "responseQuestion": "What do you bid?",
+    "description": "Jacoby Transfer after 1NT · Exercises",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Exercises",
+      "back": "Back to lesson",
+      "eyebrow": "EXERCISES",
+      "intro": "You see only your hand. Choose your bid from the bidding box.",
+      "type": "Exercise type",
+      "previous": "Previous exercise",
+      "exercise": "Exercise",
+      "correctCount": "Correct",
+      "vulnerability": "Neither side vulnerable",
+      "table": "Exercise table",
+      "question": "What do you bid?",
+      "hand": "Your hand, 13 cards",
+      "you": "You",
+      "south": "South",
+      "turn": "Your turn",
+      "result": "Result",
+      "next": "Next exercise",
+      "completed": "You completed the group",
+      "restart": "Try the same hands again",
+      "return": "Return to lesson",
+      "noscript": "JavaScript is required for interactive exercises.",
+      "footer": "Convention exercises",
+      "pass": "Pass",
+      "double": "Double",
+      "redouble": "Redouble",
+      "auction": "Auction so far",
+      "partner": "Partner",
+      "opponent": "Opponent",
+      "noBid": "no bid in this round",
+      "answered": "Answered",
+      "correct": "Correct!",
+      "rightBid": "The correct bid is",
+      "choice": "Your choice",
+      "seeResult": "See the result",
+      "bidLevels": "Bids from 1 to 7",
+      "actions": "Pass, double and redouble",
+      "groupDone": "Group completed",
+      "points": "points",
+      "alreadyAnswered": "You have already answered.",
+      "overcall": "Respond to 1NT",
+      "response": "Continue after Transfer"
+    },
+    "suitNames": {
+      "S": "spades",
+      "H": "hearts",
+      "D": "diamonds",
+      "C": "clubs",
+      "NT": "no trumps"
+    },
+    "rankNames": {
+      "A": "ace",
+      "K": "king",
+      "Q": "queen",
+      "J": "jack",
+      "T": "ten"
+    },
+    "positions": {
+      "W": "West",
+      "N": "North",
+      "E": "East",
+      "S": "South"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfers-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ and 2♥ are conventional: 2♦ asks for hearts and 2♥ asks for spades. They do not promise length in the suit named. A Transfer **has no minimum point requirement**: it can start a weak, invitational or strong sequence, even with zero HCP. Our next bid clarifies our strength."
+    },
+    {
+      "id": "jacoby-transfers-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Six diamonds and game values, without a four-card major: bid 3NT. 2♦ would request hearts, not show diamonds.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfers-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner opens 1NT and East passes. What do you respond?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Four-card major, no five-card major: use 2♣ Stayman to look for a 4–4 major fit.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfers-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. What do you bid?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Below invitational strength: stop in the major."
+    },
+    {
+      "id": "jacoby-transfers-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. What do you bid?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Below invitational strength: stop in the major."
+    },
+    {
+      "id": "jacoby-transfers-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. What do you bid?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Five-card major and invitational strength: opener chooses level and strain."
+    },
+    {
+      "id": "jacoby-transfers-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. What do you bid?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Five-card major and invitational strength: opener chooses level and strain."
+    },
+    {
+      "id": "jacoby-transfers-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. What do you bid?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. At least six cards and invitational strength: fit is known; opener may pass or bid game."
+    },
+    {
+      "id": "jacoby-transfers-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. What do you bid?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. At least six cards and invitational strength: fit is known; opener may pass or bid game."
+    },
+    {
+      "id": "jacoby-transfers-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. What do you bid?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Five-card major and game values: opener chooses 3NT or four of the major."
+    },
+    {
+      "id": "jacoby-transfers-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. What do you bid?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Five-card major and game values: opener chooses 3NT or four of the major."
+    },
+    {
+      "id": "jacoby-transfers-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. What do you bid?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. At least six cards and game values: a fit is certain, so bid game in the major."
+    },
+    {
+      "id": "jacoby-transfers-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. What do you bid?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. At least six cards and game values: a fit is certain, so bid game in the major."
+    }
+  ],
+  "route": "en/jacoby-transfers/practice/"
+}

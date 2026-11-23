@@ -77,6 +77,12 @@ function initializeExercises() {
   const source = document.querySelector('#exercise-data');
   if (!source) return;
   const { questions, ui = {} } = JSON.parse(source.textContent);
+  const t = (key, fallback) => ui.locale?.[key] ? ui.locale[key] + (fallback.endsWith(' ') ? ': ' : '') : fallback;
+  const suitNames = ui.suitNames || SUIT_NAMES;
+  const rankNames = ui.rankNames || RANK_NAMES;
+  const positions = ui.positions || POSITIONS;
+  const callLabel = call => call === 'PASS' ? t('pass', 'Πάσο') : call === 'X' ? t('double', 'Κοντρ') : call === 'XX' ? t('redouble', 'Σιρκόντρ') : call[0] + SYMBOLS[call.slice(1)];
+  const callSpeech = call => contractRank(call) < 0 ? callLabel(call) : call[0] + ' ' + suitNames[call.slice(1)];
   const $ = selector => document.querySelector(selector);
   const sessions = {};
   let mode = 'overcall';
@@ -122,7 +128,7 @@ function initializeExercises() {
     const list = $('#exercise-hand');
     list.replaceChildren();
     for (const card of handCards(question.hand)) {
-      const name = `${SUIT_NAMES[card.suit]}, ${RANK_NAMES[card.rank] || card.rank}`;
+      const name = `${suitNames[card.suit]}, ${rankNames[card.rank] || card.rank}`;
       const item = node('div', { class: 'exercise-card', role: 'listitem', tabindex: '0', 'aria-label': name });
       item.style.color = COLORS[card.suit];
       item.append(node('span', { class: 'rank' + (card.rank === 'T' ? ' ten' : ''), 'aria-hidden': 'true' }, card.rank === 'T' ? '10' : card.rank));
@@ -131,11 +137,11 @@ function initializeExercises() {
     }
   }
   function drawAuction(question) {
-    const auction = node('table', { 'aria-label': 'Η αγορά μέχρι τώρα' });
+    const auction = node('table', { 'aria-label': t('auction', 'Η αγορά μέχρι τώρα') });
     const head = node('thead'); const headings = node('tr');
     for (const seat of SEATS) {
-      const heading = node('th', { scope: 'col' }, POSITIONS[seat]);
-      heading.append(node('span', {}, seat === 'S' ? 'Εσύ' : seat === 'N' ? 'Συμπαίκτης' : 'Αντίπαλος'));
+      const heading = node('th', { scope: 'col' }, positions[seat]);
+      heading.append(node('span', {}, seat === 'S' ? t('you', 'Εσύ') : seat === 'N' ? t('partner', 'Συμπαίκτης') : t('opponent', 'Αντίπαλος')));
       headings.append(heading);
     }
     head.append(headings); auction.append(head); const body = node('tbody');
@@ -144,7 +150,7 @@ function initializeExercises() {
       for (const [column, entry] of entries.entries()) {
         const call = entry?.call;
         const seat = SEATS[column];
-        const td = node('td', { 'aria-label': `${POSITIONS[seat]}: ${call === '?' ? 'η σειρά σου' : call ? callSpeech(call) : 'χωρίς αγορά σε αυτόν τον γύρο'}` }, call === '?' ? '?' : call ? callLabel(call) : '—');
+        const td = node('td', { 'aria-label': `${positions[seat]}: ${call === '?' ? t('turn', 'η σειρά σου') : call ? callSpeech(call) : t('noBid', 'χωρίς αγορά σε αυτόν τον γύρο')}` }, call === '?' ? '?' : call ? callLabel(call) : '—');
         if (call === 'PASS') td.className = 'auction-pass';
         else if (call && contractRank(call) >= 0) td.style.color = COLORS[call.slice(1)];
         else if (call === 'X') td.style.color = '#c62828';
@@ -166,10 +172,10 @@ function initializeExercises() {
     answerSounds.play(call === question.answer);
     showFeedback(question, call);
     drawBidding(question, call);
-    $('.turn-label').textContent = 'Απάντησες';
+    $('.turn-label').textContent = t('answered', 'Απάντησες');
     if (voiceEnabled()) {
       feedback.tabIndex = -1;
-      feedback.setAttribute('aria-label', `${callSpeech(call)}. ${call === question.answer ? 'Σωστά.' : 'Η σωστή αγορά είναι ' + callSpeech(question.answer) + '.'} ${question.explanation}`);
+      feedback.setAttribute('aria-label', `${callSpeech(call)}. ${call === question.answer ? t('correct', 'Σωστά.') : t('rightBid', 'Η σωστή αγορά είναι ') + callSpeech(question.answer) + '.'} ${question.explanation}`);
       feedback.focus({ preventScroll: true });
     } else $('#next-exercise').focus({ preventScroll: true });
     feedback.scrollIntoView({ block: 'nearest', behavior: 'instant' });
@@ -177,15 +183,15 @@ function initializeExercises() {
   function updateCounters() {
     const session = sessions[mode];
     const progress = exerciseProgress(session);
-    $('#exercise-progress').textContent = `Άσκηση: ${progress.current}/${progress.total}`;
-    $('#exercise-score').textContent = `Σωστές: ${progress.correct}/${progress.answered}`;
+    $('#exercise-progress').textContent = `${t('exercise', 'Άσκηση')}: ${progress.current}/${progress.total}`;
+    $('#exercise-score').textContent = `${t('correctCount', 'Σωστές')}: ${progress.correct}/${progress.answered}`;
   }
   function showFeedback(question, call) {
     feedback.hidden = false;
     const correct = call === question.answer;
     feedback.classList.toggle('correct', correct);
-    $('#feedback-title').textContent = correct ? 'Σωστά!' : 'Η σωστή αγορά είναι ' + callLabel(question.answer);
-    $('#feedback-answer').textContent = 'Η επιλογή σου: ' + callLabel(call) + '.';
+    $('#feedback-title').textContent = correct ? t('correct', 'Σωστά!') : t('rightBid', 'Η σωστή αγορά είναι ') + callLabel(question.answer);
+    $('#feedback-answer').textContent = t('choice', 'Η επιλογή σου: ') + callLabel(call) + '.';
     $('#feedback-explanation').textContent = question.explanation;
     if (question.lessonLink) {
       const link = document.createElement('a');
@@ -193,11 +199,11 @@ function initializeExercises() {
       link.textContent = question.lessonLink.label;
       $('#feedback-explanation').append(document.createTextNode(' '), link);
     }
-    $('#next-exercise').textContent = sessions[mode].index === sessions[mode].questions.length - 1 ? 'Δες το αποτέλεσμα' : 'Επόμενη άσκηση';
+    $('#next-exercise').textContent = sessions[mode].index === sessions[mode].questions.length - 1 ? t('seeResult', 'Δες το αποτέλεσμα') : t('next', 'Επόμενη άσκηση');
   }
   function drawBidding(question, selected = null) {
     const allowed = legalCalls(question.auction);
-    const grid = node('div', { class: 'exercise-bid-grid', role: 'group', 'aria-label': 'Αγορές από 1 έως 7' });
+    const grid = node('div', { class: 'exercise-bid-grid', role: 'group', 'aria-label': t('bidLevels', 'Αγορές από 1 έως 7') });
     const createButton = call => {
       const button = node('button', { type: 'button', 'data-call': call, 'aria-label': callSpeech(call) });
       button.disabled = selected !== null || !allowed.includes(call);
@@ -221,7 +227,7 @@ function initializeExercises() {
       return button;
     };
     for (let level = 1; level <= 7; level++) for (const suit of DENOMINATIONS) grid.append(createButton(level + suit));
-    const actions = node('div', { class: 'exercise-actions', role: 'group', 'aria-label': 'Πάσο, κοντρ και σιρκόντρ' });
+    const actions = node('div', { class: 'exercise-actions', role: 'group', 'aria-label': t('actions', 'Πάσο, κοντρ και σιρκόντρ') });
     for (const call of ['XX', 'PASS', 'X']) actions.append(createButton(call));
     bidding.replaceChildren(grid, actions);
   }
@@ -245,8 +251,8 @@ function initializeExercises() {
     });
     if (session.finished) {
       const correct = session.questions.filter(q => session.answers.get(q.id) === q.answer).length;
-      $('#summary-score').textContent = `Σωστές: ${correct}/${session.questions.length}`;
-      $('#exercise-progress').textContent = 'Η ομάδα ολοκληρώθηκε';
+      $('#summary-score').textContent = `${t('correctCount', 'Σωστές')}: ${correct}/${session.questions.length}`;
+      $('#exercise-progress').textContent = t('groupDone', 'Η ομάδα ολοκληρώθηκε');
       $('#exercise-context').textContent = '';
       (continueResponses ? $('#continue-responses') : summary).focus({ preventScroll: true });
       const target = continueResponses ? $('#continue-responses') : summary;
@@ -257,7 +263,7 @@ function initializeExercises() {
     $('#exercise-question').dataset.questionId = question.id;
     $('#exercise-question').textContent = ui[mode + 'Question'] || (mode === 'overcall' ? 'Τι αγοράζεις;' : 'Τι απαντάς στον συμπαίκτη;');
     updateCounters();
-    $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} πόντοι · Χωρίς μανς` : 'Χωρίς μανς';
+    $('#exercise-context').textContent = question.ntRange ? `1NT: ${question.ntRange} ${t('points', 'πόντοι')} · ${t('vulnerability', 'Χωρίς μανς')}` : t('vulnerability', 'Χωρίς μανς');
     const opening = callLabel(question.auction[0].call);
     const situation = question.situation || (mode === 'overcall' ? `Η Ανατολή ανοίγει ${opening}. Είναι η σειρά σου.` : `Η Δύση ανοίγει ${opening}. Ο συμπαίκτης παρεμβάλλεται και η Ανατολή πασάρει.`);
     $('#exercise-situation').textContent = situation;
@@ -265,9 +271,9 @@ function initializeExercises() {
     const selected = session.answers.get(question.id);
     drawBidding(question, selected ?? null);
     if (selected !== undefined) showFeedback(question, selected);
-    $('.turn-label').textContent = selected === undefined ? 'Η σειρά σου' : 'Απάντησες';
+    $('.turn-label').textContent = selected === undefined ? t('turn', 'Η σειρά σου') : t('answered', 'Απάντησες');
     geometry();
-    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => POSITIONS[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. ${selected === undefined ? 'Η σειρά σου.' : 'Έχεις ήδη απαντήσει.'}`;
+    const speech = `${$('#exercise-progress').textContent}. ${$('#exercise-context').textContent}. ${situation} ${question.auction.map(entry => positions[entry.seat] + ': ' + callSpeech(entry.call)).join('. ')}. ${selected === undefined ? t('turn', 'Η σειρά σου.') : t('alreadyAnswered', 'Έχεις ήδη απαντήσει.')}`;
     const heading = $('#exercise-question');
     heading.removeAttribute('aria-label');
     if (focus) {

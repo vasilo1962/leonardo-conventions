@@ -1,0 +1,770 @@
+{
+  "title": "Jacoby Transfer setelah 1NT",
+  "language": "id",
+  "ui": {
+    "overcall": "Menjawab 1NT",
+    "response": "Melanjutkan setelah Transfer",
+    "overcallQuestion": "Apa tawaranmu?",
+    "responseQuestion": "Apa tawaranmu?",
+    "description": "Jacoby Transfer setelah 1NT · Latihan",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Latihan",
+      "back": "Kembali ke pelajaran",
+      "eyebrow": "LATIHAN",
+      "intro": "Kamu hanya melihat tanganmu. Pilih tawaran dari bidding box.",
+      "type": "Jenis latihan",
+      "previous": "Latihan sebelumnya",
+      "exercise": "Latihan",
+      "correctCount": "Benar",
+      "vulnerability": "Tidak ada yang vulnerable",
+      "table": "Meja latihan",
+      "question": "Apa tawaranmu?",
+      "hand": "Tanganmu, 13 kartu",
+      "you": "Kamu",
+      "south": "Selatan",
+      "turn": "Giliranmu",
+      "result": "Hasil",
+      "next": "Latihan berikutnya",
+      "completed": "Grup selesai",
+      "restart": "Ulangi tangan yang sama",
+      "return": "Kembali ke pelajaran",
+      "noscript": "Latihan interaktif memerlukan JavaScript.",
+      "footer": "Latihan konvensi",
+      "pass": "Pass",
+      "double": "Double",
+      "redouble": "Redouble",
+      "auction": "Bidding sejauh ini",
+      "partner": "Partner",
+      "opponent": "Lawan",
+      "noBid": "tidak ada tawaran pada putaran ini",
+      "answered": "Sudah menjawab",
+      "correct": "Benar!",
+      "rightBid": "Tawaran yang benar adalah",
+      "choice": "Pilihanmu",
+      "seeResult": "Lihat hasil",
+      "bidLevels": "Tawaran dari 1 sampai 7",
+      "actions": "Pass, double dan redouble",
+      "groupDone": "Grup selesai",
+      "points": "poin",
+      "alreadyAnswered": "Kamu sudah menjawab.",
+      "overcall": "Menjawab 1NT",
+      "response": "Melanjutkan setelah Transfer"
+    },
+    "suitNames": {
+      "S": "spade",
+      "H": "heart",
+      "D": "diamond",
+      "C": "club",
+      "NT": "tanpa truf"
+    },
+    "rankNames": {
+      "A": "as",
+      "K": "king",
+      "Q": "queen",
+      "J": "jack",
+      "T": "sepuluh"
+    },
+    "positions": {
+      "W": "Barat",
+      "N": "Utara",
+      "E": "Timur",
+      "S": "Selatan"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfers-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ dan 2♥ bersifat konvensional: 2♦ meminta heart, 2♥ meminta spade. Keduanya tidak menjanjikan panjang dalam warna yang disebut. Transfer **tidak memiliki batas minimum poin**: dapat dipakai dengan tangan lemah, invitasi, atau kuat, bahkan nol HCP. Tawaran berikutnya memperjelas kekuatan."
+    },
+    {
+      "id": "jacoby-transfers-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Enam diamond dan kekuatan game, tanpa major empat kartu: 3NT. 2♦ akan meminta heart, bukan menunjukkan diamond.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfers-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partner membuka 1NT dan Timur pass. Apa jawabanmu?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Major empat kartu, tanpa major lima kartu: 2♣ Stayman mencari fit major 4–4.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfers-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Apa tawaranmu?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Belum cukup untuk invitasi: berhenti di major."
+    },
+    {
+      "id": "jacoby-transfers-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Apa tawaranmu?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Belum cukup untuk invitasi: berhenti di major."
+    },
+    {
+      "id": "jacoby-transfers-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Apa tawaranmu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Major lima kartu dan kekuatan invitasi: pembuka memilih tingkat dan jenis kontrak."
+    },
+    {
+      "id": "jacoby-transfers-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Apa tawaranmu?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Major lima kartu dan kekuatan invitasi: pembuka memilih tingkat dan jenis kontrak."
+    },
+    {
+      "id": "jacoby-transfers-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Apa tawaranmu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Sedikitnya enam kartu dan kekuatan invitasi: fit diketahui; pembuka boleh pass atau game."
+    },
+    {
+      "id": "jacoby-transfers-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Apa tawaranmu?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Sedikitnya enam kartu dan kekuatan invitasi: fit diketahui; pembuka boleh pass atau game."
+    },
+    {
+      "id": "jacoby-transfers-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Apa tawaranmu?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Major lima kartu dan kekuatan game: pembuka memilih 3NT atau empat major."
+    },
+    {
+      "id": "jacoby-transfers-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Apa tawaranmu?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Major lima kartu dan kekuatan game: pembuka memilih 3NT atau empat major."
+    },
+    {
+      "id": "jacoby-transfers-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Apa tawaranmu?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Sedikitnya enam kartu dan kekuatan game: fit pasti, tawarkan game di major."
+    },
+    {
+      "id": "jacoby-transfers-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Apa tawaranmu?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Sedikitnya enam kartu dan kekuatan game: fit pasti, tawarkan game di major."
+    }
+  ],
+  "route": "id/jacoby-transfers/practice/"
+}

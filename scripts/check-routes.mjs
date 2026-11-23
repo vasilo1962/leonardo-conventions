@@ -34,11 +34,11 @@ async function check(file, route, prefix) {
 for (const prefix of ['/', preview]) {
   for (const language of languages) {
     await check(`site/${language.code}/conventions/index.html`, `${language.code}/conventions/`, prefix);
-    for (const {slug, exercises, exerciseSets} of articles.filter(article => availableIn(article, language.code))) {
+    for (const {slug, exercises, exerciseSets, exerciseLanguages} of articles.filter(article => availableIn(article, language.code))) {
       await check(`site/${language.code}/${slug}/index.html`, `${language.code}/${slug}/`, prefix);
-      if (language.code === 'el' && exercises !== false) {
+      if ((language.code === 'el' || exerciseLanguages?.includes(language.code)) && exercises !== false) {
         for (const set of exerciseSets || [{href:'practice/'}]) {
-          const route = `el/${slug}/${set.href}`;
+          const route = `${language.code}/${slug}/${set.href}`;
           await check(`site/${route}index.html`, route, prefix);
         }
       }

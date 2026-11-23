@@ -1,0 +1,770 @@
+{
+  "title": "Jacoby Transfer 1NT-avauksen jälkeen",
+  "language": "fi",
+  "ui": {
+    "overcall": "Vastaan 1NT:iin",
+    "response": "Jatkan Transferin jälkeen",
+    "overcallQuestion": "Mitä tarjoat?",
+    "responseQuestion": "Mitä tarjoat?",
+    "description": "Jacoby Transfer 1NT-avauksen jälkeen · Harjoitukset",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Harjoitukset",
+      "back": "Takaisin oppituntiin",
+      "eyebrow": "HARJOITUKSET",
+      "intro": "Näet vain oman kätesi. Valitse tarjous tarjouslaatikosta.",
+      "type": "Harjoituksen tyyppi",
+      "previous": "Edellinen harjoitus",
+      "exercise": "Harjoitus",
+      "correctCount": "Oikein",
+      "vulnerability": "Ei vaarassa",
+      "table": "Harjoituspöytä",
+      "question": "Mitä tarjoat?",
+      "hand": "Kätesi, 13 korttia",
+      "you": "Sinä",
+      "south": "Etelä",
+      "turn": "Sinun vuorosi",
+      "result": "Tulos",
+      "next": "Seuraava harjoitus",
+      "completed": "Ryhmä valmis",
+      "restart": "Samat kädet uudelleen",
+      "return": "Takaisin oppituntiin",
+      "noscript": "Vuorovaikutteiset harjoitukset vaativat JavaScriptin.",
+      "footer": "Konventioharjoitukset",
+      "pass": "Passi",
+      "double": "Kahdennus",
+      "redouble": "Vastakahdennus",
+      "auction": "Tarjoussarja tähän asti",
+      "partner": "Partneri",
+      "opponent": "Vastustaja",
+      "noBid": "ei tarjousta tällä kierroksella",
+      "answered": "Vastattu",
+      "correct": "Oikein!",
+      "rightBid": "Oikea tarjous on",
+      "choice": "Valintasi",
+      "seeResult": "Katso tulos",
+      "bidLevels": "Tarjoukset 1–7",
+      "actions": "Passi, kahdennus ja vastakahdennus",
+      "groupDone": "Ryhmä valmis",
+      "points": "pistettä",
+      "alreadyAnswered": "Olet jo vastannut.",
+      "overcall": "Vastaan 1NT:iin",
+      "response": "Jatkan Transferin jälkeen"
+    },
+    "suitNames": {
+      "S": "pata",
+      "H": "hertta",
+      "D": "ruutu",
+      "C": "risti",
+      "NT": "sangi"
+    },
+    "rankNames": {
+      "A": "ässä",
+      "K": "kuningas",
+      "Q": "rouva",
+      "J": "sotamies",
+      "T": "kymmenen"
+    },
+    "positions": {
+      "W": "Länsi",
+      "N": "Pohjoinen",
+      "E": "Itä",
+      "S": "Etelä"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfers-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ ja 2♥ ovat keinotekoisia: 2♦ pyytää herttaa, 2♥ pataa. Ne eivät lupaa pituutta nimetyssä värissä. Transfer **ei vaadi vähimmäispisteitä**: käsi voi olla heikko, inviittivoimainen tai vahva, jopa nolla arvopistettä. Seuraava tarjous täsmentää voiman."
+    },
+    {
+      "id": "jacoby-transfers-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Kuusi ruutua ja täyspelivoima, ei neljän kortin yläväriä: 3NT. 2♦ pyytäisi herttaa eikä näyttäisi ruutua.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfers-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partneri avaa 1NT ja itä passaa. Mitä vastaat?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Neljän kortin yläväri, ei viiden kortin yläväriä: 2♣ Stayman etsii 4–4-ylävärisopivuutta.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfers-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Mitä tarjoat?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Ei inviittivoimaa: pysähdy yläväriin."
+    },
+    {
+      "id": "jacoby-transfers-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Mitä tarjoat?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Ei inviittivoimaa: pysähdy yläväriin."
+    },
+    {
+      "id": "jacoby-transfers-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Mitä tarjoat?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Viiden kortin yläväri ja inviittivoima: avaaja valitsee tason ja pelilajin."
+    },
+    {
+      "id": "jacoby-transfers-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Mitä tarjoat?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Viiden kortin yläväri ja inviittivoima: avaaja valitsee tason ja pelilajin."
+    },
+    {
+      "id": "jacoby-transfers-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Mitä tarjoat?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Vähintään kuusi korttia ja inviittivoima: yhteinen väri on varma; avaaja saa passata tai tarjota täyspelin."
+    },
+    {
+      "id": "jacoby-transfers-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Mitä tarjoat?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Vähintään kuusi korttia ja inviittivoima: yhteinen väri on varma; avaaja saa passata tai tarjota täyspelin."
+    },
+    {
+      "id": "jacoby-transfers-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Mitä tarjoat?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Viiden kortin yläväri ja täyspelivoima: avaaja valitsee 3NT:n tai neljä yläväriä."
+    },
+    {
+      "id": "jacoby-transfers-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Mitä tarjoat?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Viiden kortin yläväri ja täyspelivoima: avaaja valitsee 3NT:n tai neljä yläväriä."
+    },
+    {
+      "id": "jacoby-transfers-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Mitä tarjoat?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Vähintään kuusi korttia ja täyspelivoima: yhteinen väri on varma, tarjoa yläväritäyspeli."
+    },
+    {
+      "id": "jacoby-transfers-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Mitä tarjoat?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Vähintään kuusi korttia ja täyspelivoima: yhteinen väri on varma, tarjoa yläväritäyspeli."
+    }
+  ],
+  "route": "fi/jacoby-transfers/practice/"
+}

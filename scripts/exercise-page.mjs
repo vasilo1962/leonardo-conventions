@@ -3,13 +3,13 @@ import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 
 // Self-contained conventions preview; no dependency on game bundles or services.
 export async function buildExercisePreview() {
-  for (const file of (await readdir('content/exercises')).filter(name => name.endsWith('.el.json')).sort()) {
+  for (const file of (await readdir('content/exercises')).filter(name => name.endsWith('.json')).sort()) {
   const data = JSON.parse(await readFile('content/exercises/' + file, 'utf8'));
   const labels = data.ui || {};
   const agreement = labels.agreements ? ' ' + String(labels.agreements).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])) : '';
   const route = data.route || 'el/' + file.replace('.el.json', '') + '/practice/';
   const lessonHref = data.lessonHref || '../';
-  const html = `<!doctype html>
+  let html = `<!doctype html>
 <html lang="el"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 ${pageBase(route)}
 <title>${data.title} · Ασκήσεις | Leonardo Bridge</title>
@@ -38,6 +38,20 @@ ${moduleScript('convention-exercises.js')}</head>
 <script type="application/json" id="exercise-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
 </main><footer>Leonardo Bridge · Ασκήσεις συμβάσεων</footer></body></html>
 `;
+  if (data.language && data.language !== 'el') {
+    const locale = labels.locale;
+    const languages = JSON.parse(await readFile('content/i18n/languages.json', 'utf8'));
+    const language = languages.find(item => item.code === data.language);
+    const translations = {"Ασκήσεις συμβάσεων": "footer", "ΔΟΚΙΜΗ ΑΣΚΗΣΕΩΝ": "eyebrow", "Πίσω στο μάθημα": "back", "Βλέπεις μόνο το χέρι σου. Διάλεξε την αγορά σου από το bidding box.": "intro", "Είδος άσκησης": "type", "Προηγούμενη άσκηση": "previous", "Άσκηση:": "exercise", "Σωστές:": "correctCount", "Χωρίς μανς": "vulnerability", "Τραπέζι άσκησης": "table", "Τι αγοράζεις;": "question", "Το χέρι σου, 13 φύλλα": "hand", "Εσύ · Νότος": "youSouth", "Η σειρά σου": "turn", "Αποτέλεσμα": "result", "Επόμενη άσκηση": "next", "Ολοκλήρωσες την ομάδα": "completed", "Ξανά με τα ίδια χέρια": "restart", "Επιστροφή στο μάθημα": "return", "Για τις διαδραστικές ασκήσεις χρειάζεται JavaScript.": "noscript", "Μπορείς να διαβάσεις το μάθημα": "back", "Ασκήσεις": "exercises", "Στο περιεχόμενο": "skip"};
+    const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+    const values = {...locale, skip: language.ui.skip, youSouth: locale.you + ' · ' + locale.south};
+    html = html.replace('<html lang="el">', '<html lang="' + data.language + '"' + (language.dir === 'rtl' ? ' dir="rtl"' : '') + '>');
+    const [before, after] = html.split('<script type="application/json" id="exercise-data">');
+    let translated = before;
+    for (const [source, key] of Object.entries(translations).sort((a,b) => b[0].length-a[0].length)) translated = translated.replaceAll(source, escape(values[key]) + (['exercise','correctCount'].includes(key) ? ':' : ''));
+    if (language.dir === 'rtl') translated = translated.replace('</head>', '<style>.exercise-auction,.exercise-bidding,.exercise-cards{direction:ltr}</style></head>');
+    html = translated + '<script type="application/json" id="exercise-data">' + after.replace('Ασκήσεις συμβάσεων', escape(locale.footer));
+  }
   await mkdir('site/' + route, { recursive: true });
   await writeFile('site/' + route + 'index.html', html);
   }

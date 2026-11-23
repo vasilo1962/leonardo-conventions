@@ -1,0 +1,770 @@
+{
+  "title": "Jacoby Transfer eftir 1G",
+  "language": "is",
+  "ui": {
+    "overcall": "Ég svara 1G",
+    "response": "Framhald eftir Transfer",
+    "overcallQuestion": "Hvað segirðu?",
+    "responseQuestion": "Hvað segirðu?",
+    "description": "Jacoby Transfer eftir 1G · Æfingar",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Æfingar",
+      "back": "Til baka í kennsluna",
+      "eyebrow": "ÆFINGAR",
+      "intro": "Þú sérð aðeins eigin hönd. Veldu sögn úr sagnboxinu.",
+      "type": "Tegund æfingar",
+      "previous": "Fyrri æfing",
+      "exercise": "Æfing",
+      "correctCount": "Rétt",
+      "vulnerability": "Enginn á hættu",
+      "table": "Æfingaborð",
+      "question": "Hvað segirðu?",
+      "hand": "Hönd þín, 13 spil",
+      "you": "Þú",
+      "south": "Suður",
+      "turn": "Þú átt sögn",
+      "result": "Niðurstaða",
+      "next": "Næsta æfing",
+      "completed": "Hópnum lokið",
+      "restart": "Sömu hendur aftur",
+      "return": "Til baka í kennsluna",
+      "noscript": "Gagnvirkar æfingar þurfa JavaScript.",
+      "footer": "Kerfisæfingar",
+      "pass": "Pass",
+      "double": "Dobl",
+      "redouble": "Redobl",
+      "auction": "Sagnir hingað til",
+      "partner": "Makker",
+      "opponent": "Mótherji",
+      "noBid": "engin sögn í þessari umferð",
+      "answered": "Þú svaraðir",
+      "correct": "Rétt!",
+      "rightBid": "Rétt sögn er",
+      "choice": "Þitt val",
+      "seeResult": "Sjá niðurstöðu",
+      "bidLevels": "Sagnir frá 1 til 7",
+      "actions": "Pass, dobl og redobl",
+      "groupDone": "Hópnum lokið",
+      "points": "punktar",
+      "alreadyAnswered": "Þú hefur þegar svarað.",
+      "overcall": "Ég svara 1G",
+      "response": "Framhald eftir Transfer"
+    },
+    "suitNames": {
+      "S": "spaðar",
+      "H": "hjörtu",
+      "D": "tíglar",
+      "C": "lauf",
+      "NT": "grand"
+    },
+    "rankNames": {
+      "A": "ás",
+      "K": "kóngur",
+      "Q": "drottning",
+      "J": "gosi",
+      "T": "tíu"
+    },
+    "positions": {
+      "W": "Vestur",
+      "N": "Norður",
+      "E": "Austur",
+      "S": "Suður"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfers-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ og 2♥ eru kerfissagnir: 2♦ biður um hjörtu, 2♥ um spaða. Þær lofa ekki lengd í nefnda litnum. Transfer **hefur ekkert lágmark punkta**: það má nota með veikri, áskorandi eða sterkri hendi, jafnvel núll háspilapunktum. Næsta sögn skýrir styrkinn."
+    },
+    {
+      "id": "jacoby-transfers-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Sex tíglar og geimstyrkur, enginn fjórlita hálitur: 3G. 2♦ myndi biðja um hjörtu, ekki sýna tígla.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfers-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Makker opnar á 1G og Austur passar. Hverju svararðu?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Fjórlita hálitur, enginn fimmlita: 2♣ Stayman leitar að 4–4 samlegu í hálit.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfers-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvað segirðu?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Ekki áskorunarstyrkur: stoppaðu í hálitnum."
+    },
+    {
+      "id": "jacoby-transfers-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvað segirðu?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Ekki áskorunarstyrkur: stoppaðu í hálitnum."
+    },
+    {
+      "id": "jacoby-transfers-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvað segirðu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Fimmlita hálitur og áskorunarstyrkur: opnari velur þrep og spilategund."
+    },
+    {
+      "id": "jacoby-transfers-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvað segirðu?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Fimmlita hálitur og áskorunarstyrkur: opnari velur þrep og spilategund."
+    },
+    {
+      "id": "jacoby-transfers-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvað segirðu?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Að minnsta kosti sex spil og áskorunarstyrkur: samlega þekkt; opnari má passa eða segja geim."
+    },
+    {
+      "id": "jacoby-transfers-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvað segirðu?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Að minnsta kosti sex spil og áskorunarstyrkur: samlega þekkt; opnari má passa eða segja geim."
+    },
+    {
+      "id": "jacoby-transfers-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvað segirðu?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Fimmlita hálitur og geimstyrkur: opnari velur 3G eða fjóra í hálit."
+    },
+    {
+      "id": "jacoby-transfers-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvað segirðu?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Fimmlita hálitur og geimstyrkur: opnari velur 3G eða fjóra í hálit."
+    },
+    {
+      "id": "jacoby-transfers-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Hvað segirðu?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Að minnsta kosti sex spil og geimstyrkur: örugg samlega, segðu geim í hálit."
+    },
+    {
+      "id": "jacoby-transfers-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Hvað segirðu?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Að minnsta kosti sex spil og geimstyrkur: örugg samlega, segðu geim í hálit."
+    }
+  ],
+  "route": "is/jacoby-transfers/practice/"
+}

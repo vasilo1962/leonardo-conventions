@@ -1,0 +1,770 @@
+{
+  "title": "Jacoby Transfer efter 1NT",
+  "language": "sv",
+  "ui": {
+    "overcall": "Svara på 1NT",
+    "response": "Fortsätt efter Transfer",
+    "overcallQuestion": "Vad bjuder du?",
+    "responseQuestion": "Vad bjuder du?",
+    "description": "Jacoby Transfer efter 1NT · Övningar",
+    "agreements": "1NT: 15–17 HCP.",
+    "locale": {
+      "exercises": "Övningar",
+      "back": "Tillbaka till lektionen",
+      "eyebrow": "ÖVNINGAR",
+      "intro": "Du ser bara din hand. Välj ditt bud i budlådan.",
+      "type": "Övningstyp",
+      "previous": "Föregående övning",
+      "exercise": "Övning",
+      "correctCount": "Rätt",
+      "vulnerability": "Ingen i zonen",
+      "table": "Övningsbord",
+      "question": "Vad bjuder du?",
+      "hand": "Din hand, 13 kort",
+      "you": "Du",
+      "south": "Syd",
+      "turn": "Din tur",
+      "result": "Resultat",
+      "next": "Nästa övning",
+      "completed": "Gruppen är klar",
+      "restart": "Samma händer igen",
+      "return": "Tillbaka till lektionen",
+      "noscript": "JavaScript krävs för interaktiva övningar.",
+      "footer": "Konventionsövningar",
+      "pass": "Pass",
+      "double": "Dubbelt",
+      "redouble": "Redubbelt",
+      "auction": "Budgivningen hittills",
+      "partner": "Partner",
+      "opponent": "Motståndare",
+      "noBid": "inget bud i denna rond",
+      "answered": "Du har svarat",
+      "correct": "Rätt!",
+      "rightBid": "Rätt bud är",
+      "choice": "Ditt val",
+      "seeResult": "Se resultatet",
+      "bidLevels": "Bud från 1 till 7",
+      "actions": "Pass, dubbelt och redubbelt",
+      "groupDone": "Gruppen är klar",
+      "points": "poäng",
+      "alreadyAnswered": "Du har redan svarat.",
+      "overcall": "Svara på 1NT",
+      "response": "Fortsätt efter Transfer"
+    },
+    "suitNames": {
+      "S": "spader",
+      "H": "hjärter",
+      "D": "ruter",
+      "C": "klöver",
+      "NT": "sang"
+    },
+    "rankNames": {
+      "A": "ess",
+      "K": "kung",
+      "Q": "dam",
+      "J": "knekt",
+      "T": "tio"
+    },
+    "positions": {
+      "W": "Väst",
+      "N": "Nord",
+      "E": "Öst",
+      "S": "Syd"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-transfers-start-1",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "T85",
+        "H": "987643",
+        "D": "92",
+        "C": "74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 0. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-2",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "QJ9864",
+        "H": "72",
+        "D": "83",
+        "C": "965"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 3. ♠: 6. ♥: 2. ♦: 2. ♣: 3. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-3",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "Q73",
+        "H": "KJ864",
+        "D": "92",
+        "C": "865"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 6. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-4",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "KT853",
+        "H": "J72",
+        "D": "Q84",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 6. ♠: 5. ♥: 3. ♦: 3. ♣: 2. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-5",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "K84",
+        "H": "AJ973",
+        "D": "86",
+        "C": "952"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-6",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AJ864",
+        "H": "Q83",
+        "D": "75",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 8. ♠: 5. ♥: 3. ♦: 2. ♣: 3. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-7",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "A72",
+        "H": "KQJ864",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 10. ♠: 3. ♥: 6. ♦: 2. ♣: 2. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-8",
+      "role": "overcall",
+      "kind": "convention",
+      "hand": {
+        "S": "AKJ974",
+        "H": "83",
+        "D": "Q62",
+        "C": "75"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 10. ♠: 6. ♥: 2. ♦: 3. ♣: 2. 2♦ och 2♥ är konventionella: 2♦ ber om hjärter och 2♥ om spader. Ingen längd utlovas i den bjudna färgen. Transfer **kräver ingen minimistyrka**: svaga, inviterande och starka händer börjar likadant, även med noll honnörspoäng. Nästa bud klargör styrkan."
+    },
+    {
+      "id": "jacoby-transfers-start-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "K72",
+        "H": "Q8",
+        "D": "AKJ964",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 2. ♦: 6. ♣: 2. Sex ruter och utgångsstyrka, ingen fyrkorts högfärg: 3NT. 2♦ skulle begära hjärter, inte visa ruter.",
+      "objective": "no-transfer-diamonds"
+    },
+    {
+      "id": "jacoby-transfers-start-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "hand": {
+        "S": "KQ84",
+        "H": "A73",
+        "D": "Q85",
+        "C": "J62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Partnern öppnar 1NT och Öst passar. Vad svarar du?",
+      "explanation": "HCP: 12. ♠: 4. ♥: 3. ♦: 3. ♣: 3. Fyrkorts högfärg, ingen femkorts: 2♣ Stayman söker en 4–4-anpassning i högfärg.",
+      "objective": "stayman"
+    },
+    {
+      "id": "jacoby-transfers-continue-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "973",
+        "H": "K8642",
+        "D": "85",
+        "C": "J74"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Vad bjuder du?",
+      "explanation": "HCP: 4. ♠: 3. ♥: 5. ♦: 2. ♣: 3. För svagt för invit: stanna i högfärgen."
+    },
+    {
+      "id": "jacoby-transfers-continue-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore",
+      "hand": {
+        "S": "KT8642",
+        "H": "J73",
+        "D": "85",
+        "C": "94"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Vad bjuder du?",
+      "explanation": "HCP: 4. ♠: 6. ♥: 3. ♦: 2. ♣: 2. För svagt för invit: stanna i högfärgen."
+    },
+    {
+      "id": "jacoby-transfers-continue-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "K93",
+        "H": "QJ874",
+        "D": "86",
+        "C": "Q52"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Vad bjuder du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 5. ♦: 2. ♣: 3. Femkorts högfärg och invitstyrka: öppnaren väljer nivå och spelart."
+    },
+    {
+      "id": "jacoby-transfers-continue-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-5",
+      "hand": {
+        "S": "KJ863",
+        "H": "Q72",
+        "D": "J85",
+        "C": "QT"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Vad bjuder du?",
+      "explanation": "HCP: 9. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Femkorts högfärg och invitstyrka: öppnaren väljer nivå och spelart."
+    },
+    {
+      "id": "jacoby-transfers-continue-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "Q83",
+        "H": "KQJ974",
+        "D": "62",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Vad bjuder du?",
+      "explanation": "HCP: 8. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Minst sex kort och invitstyrka: känt stöd; öppnaren får passa eller bjuda utgång."
+    },
+    {
+      "id": "jacoby-transfers-continue-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "invitation-6",
+      "hand": {
+        "S": "AJ9864",
+        "H": "K72",
+        "D": "85",
+        "C": "93"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Vad bjuder du?",
+      "explanation": "HCP: 8. ♠: 6. ♥: 3. ♦: 2. ♣: 2. Minst sex kort och invitstyrka: känt stöd; öppnaren får passa eller bjuda utgång."
+    },
+    {
+      "id": "jacoby-transfers-continue-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "K84",
+        "H": "AQ963",
+        "D": "Q72",
+        "C": "J5"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Vad bjuder du?",
+      "explanation": "HCP: 12. ♠: 3. ♥: 5. ♦: 3. ♣: 2. Femkorts högfärg och utgångsstyrka: öppnaren väljer 3NT eller fyra i högfärgen."
+    },
+    {
+      "id": "jacoby-transfers-continue-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-5",
+      "hand": {
+        "S": "KQJ85",
+        "H": "A73",
+        "D": "K94",
+        "C": "62"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Vad bjuder du?",
+      "explanation": "HCP: 13. ♠: 5. ♥: 3. ♦: 3. ♣: 2. Femkorts högfärg och utgångsstyrka: öppnaren väljer 3NT eller fyra i högfärgen."
+    },
+    {
+      "id": "jacoby-transfers-continue-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "Q83",
+        "H": "AKJ964",
+        "D": "K7",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♦ – 2♥. Vad bjuder du?",
+      "explanation": "HCP: 13. ♠: 3. ♥: 6. ♦: 2. ♣: 2. Minst sex kort och utgångsstyrka: säkert stöd, bjud utgång i högfärgen."
+    },
+    {
+      "id": "jacoby-transfers-continue-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-6",
+      "hand": {
+        "S": "AKQ864",
+        "H": "83",
+        "D": "Q72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "1NT – 2♥ – 2♠. Vad bjuder du?",
+      "explanation": "HCP: 11. ♠: 6. ♥: 2. ♦: 3. ♣: 2. Minst sex kort och utgångsstyrka: säkert stöd, bjud utgång i högfärgen."
+    }
+  ],
+  "route": "sv/jacoby-transfers/practice/"
+}

@@ -78,7 +78,8 @@ for (const language of languages) {
     const route = `${language.code}/${article.slug}/`;
     const articleTitle = article.titles?.[language.code] || article.title;
     const title = articleTitle + ' | Leonardo Bridge';
-    const exercises = language.code !== 'el' || article.exercises === false ? '' : article.exerciseSets
+    const localExercises = article.exerciseUi?.[language.code];
+    const exercises = localExercises ? '<aside class="play-online"><p><strong>' + escapeHtml(localExercises.title) + '</strong></p><p>' + escapeHtml(localExercises.text) + '</p><a class="play-button" href="practice/">' + escapeHtml(localExercises.button) + '</a></aside>' : language.code !== 'el' || article.exercises === false ? '' : article.exerciseSets
       ? article.exerciseSets.map(set => '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(set.title) + '</strong></p><p>' + escapeHtml(set.text) + '</p><a class="play-button" href="' + escapeHtml(set.href) + '">Ασκήσεις ' + escapeHtml(set.title) + '</a></aside>').join('')
       : '<aside class="play-online"><p><strong>Ασκήσεις ' + escapeHtml(article.title) + '</strong></p><p>' + escapeHtml(article.exercisesText || 'Δοκίμασε παρεμβολές και απαντήσεις με το δικό σου χέρι και το bidding box.') + '</p><a class="play-button" href="practice/">Δοκίμασε τις ασκήσεις</a></aside>';
     await mkdir('site/' + route, { recursive: true });
