@@ -1,5 +1,6 @@
 // A lesson is linked only in languages whose translation is ready.
 export const articles = [
+  { slug: 'jacoby-superaccept', title: 'Υπεραποδοχή στο Jacoby Transfer', hands: 9, languages: ['el'], exercises: false, description: 'Υπεραποδοχή στο Jacoby Transfer: φιτ, περιγραφή του δίφυλλου, νέο Transfer και διερεύνηση σλεμ.' },
   { slug: 'multi-landy', title: 'Multi Landy', hands: 8 },
   { slug: 'michaels-cue-bid', title: 'Michaels Cue Bid', hands: 5 },
   { slug: 'unusual-2nt', title: 'Unusual 2NT', hands: 5 },
