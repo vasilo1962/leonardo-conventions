@@ -130,6 +130,6 @@ Majörde 3 daveti üzerine el değerlendirmesine göre pas geçer veya 4 der. He
 ## Dikkat edilecekler
 
 - **Transfer puan vaat etmez.** Açıcı, ortak düşükte durmak isteyebileceği için kabul eder.
-- **Transfer kabulü fit veya minimum göstermez.** Açıcı istenen majörü söyler [Jacoby Transfer süper kabulü](../jacoby-superaccept/).
+- **Transfer kabulü fit veya minimum göstermez.** Açıcı istenen majörü söyler [Jacoby Transfer süper kabulü](../jacoby-transfer-superaccept/).
 - **2NT ve majörde 3 davettir.** Açıcı pas geçebilir veya uygun kontratı seçebilir.
 - **Transfer sonrası 3NT zon seçimi sunar.** Beşli majörle tek başımıza sanzatuda ısrar etmeyiz.

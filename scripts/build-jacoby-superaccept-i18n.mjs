@@ -4,7 +4,7 @@ import {articles} from './articles.mjs';
 const read=p=>fs.readFileSync(p,'utf8'),write=(p,s)=>fs.writeFileSync(p,s);
 const packs=JSON.parse(read('content/i18n/jacoby-superaccept.json'));
 const greek=JSON.parse(read('content/exercises/jacoby-superaccept.el.json'));
-const hands=read('content/el/jacoby-superaccept.md').match(/^♠ .+\n♥ .+\n♦ .+\n♣ .+$/gm);assert.equal(hands.length,9);
+const hands=read('content/el/jacoby-transfer-superaccept.md').match(/^♠ .+\n♥ .+\n♦ .+\n♣ .+$/gm);assert.equal(hands.length,9);
 const base=articles.find(a=>a.slug==='jacoby-transfer');
 const nt={fr:'SA',de:'SA',it:'SA',es:'ST',pt:'ST',nl:'SA',da:'UT',pl:'BA',cs:'BT',is:'G',ru:'БК'};
 const descriptions=JSON.parse(read('content/i18n/article-descriptions.json'));
@@ -24,8 +24,8 @@ for(const [code,t] of Object.entries(packs)){
  md+=`## ${ui[2]}\n\n`;
  for(let i=0;i<4;i++)md+=`${p[12+i*2]}\n\n${hands[5+i]}\n\n${p[13+i*2]}\n\n`;
  md+=`## ${heads[5]}\n\n${p[20]}\n\n### ${ui[8]}\n\n${p[21].replace('**Byron Lund**','**[Byron Lund](https://www.abf.com.au/wp-content/uploads/2026/03/How-to-Play-Expert-Bridge.pdf#page=87)**')}\n\n${p[22].replace('**Robert S. Todd**','**[Robert S. Todd](https://www.advinbridge.com/this-week-in-bridge/518)**').replace('**Larry Cohen**','**[Larry Cohen](https://larryco.com/bridge-articles/control-bidding?p=true)**')}\n`;
- write(`content/${code}/jacoby-superaccept.md`,md);
- const data=structuredClone(greek);data.title=ui[0];data.language=code;data.route=`${code}/jacoby-superaccept-practice/`;data.lessonHref='../jacoby-superaccept/';data.ui=structuredClone(old.ui);
+ write(`content/${code}/jacoby-transfer-superaccept.md`,md);
+ const data=structuredClone(greek);data.title=ui[0];data.language=code;data.route=`${code}/jacoby-transfer-superaccept-practice/`;data.lessonHref='../jacoby-transfer-superaccept/';data.ui=structuredClone(old.ui);
  Object.assign(data.ui,{overcall:ui[1],response:ui[2],overcallQuestion:ui[3],responseQuestion:ui[4],description:ui[5],agreements:ui[6]});
  Object.assign(data.ui.locale,{overcall:ui[1],response:ui[2]});
  for(const q of data.questions){
@@ -36,15 +36,15 @@ for(const [code,t] of Object.entries(packs)){
   q.situation=ui[q.role==='overcall'?3:4];q.explanation=loc(t.e[index].replace(/\{(\w+)\}/g,(_,k)=>vals[k]));
  }
  write(`content/exercises/jacoby-superaccept.${code}.json`,JSON.stringify(data,null,2)+'\n');
- titles[code]=ui[0];exerciseUi[code]={title:`${old.ui.locale.exercises} · ${ui[0]}`,text:ui[5],button:base.exerciseUi[code].button,href:'../jacoby-superaccept-practice/'};
+ titles[code]=ui[0];exerciseUi[code]={title:`${old.ui.locale.exercises} · ${ui[0]}`,text:ui[5],button:base.exerciseUi[code].button,href:'../jacoby-transfer-superaccept-practice/'};
  // Retain the basic acceptance rule; replace the parenthetic future-lesson reference with the available lesson.
  const tail=source.lastIndexOf('\n## '),before=source.slice(0,tail),lines=source.slice(tail).split('\n');
  const bullets=lines.map((l,i)=>l.startsWith('- ')?i:-1).filter(i=>i>=0);
  assert.equal(bullets.length,4,code);const k=bullets[1],line=lines[k];let at=line.search(/[（(]/);if(at<0)at=line.indexOf(' [');assert.ok(at>0,code+': lesson reference');
- if(!line.includes('../jacoby-superaccept/'))lines[k]=line.slice(0,at).trimEnd()+` [${ui[0]}](../jacoby-superaccept/).`;
+ if(!line.includes('../jacoby-transfer-superaccept/'))lines[k]=line.slice(0,at).trimEnd()+` [${ui[0]}](../jacoby-transfer-superaccept/).`;
  write(`content/${code}/jacoby-transfer.md`,before+lines.join('\n'));
- descriptions['jacoby-superaccept'][code]=ui[5];
+ descriptions['jacoby-transfer-superaccept'][code]=ui[5];
 }
 write('content/i18n/article-descriptions.json',JSON.stringify(descriptions,null,2)+'\n');
-const a=articles.find(a=>a.slug==='jacoby-superaccept');delete a.languages;Object.assign(a,{titles,exerciseLanguages:['el',...Object.keys(packs)],exerciseUi});
-let config=read('scripts/articles.mjs');config=config.replace(/^  \{ slug: 'jacoby-superaccept'.*$/m,'  '+JSON.stringify(a)+',');write('scripts/articles.mjs',config);
+const a=articles.find(a=>a.slug==='jacoby-transfer-superaccept');delete a.languages;Object.assign(a,{titles,exerciseLanguages:['el',...Object.keys(packs)],exerciseUi});
+let config=read('scripts/articles.mjs');config=config.replace(/^  \{ slug: 'jacoby-transfer-superaccept'.*$/m,'  '+JSON.stringify(a)+',');write('scripts/articles.mjs',config);

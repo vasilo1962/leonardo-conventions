@@ -130,6 +130,6 @@ Sobre 3 no rico de convite, passa ou marca 4 conforme a avaliação. Nem toda a 
 ## Pontos a recordar
 
 - **O Transfer não promete pontos.** O abridor aceita porque o parceiro pode querer parar baixo.
-- **A aceitação não mostra apoio nem mínimo.** O abridor marca o rico pedido [Superaceitação do Jacoby Transfer](../jacoby-superaccept/).
+- **A aceitação não mostra apoio nem mínimo.** O abridor marca o rico pedido [Superaceitação do Jacoby Transfer](../jacoby-transfer-superaccept/).
 - **2ST e 3 no rico são convites.** O abridor pode passar ou escolher o contrato adequado.
 - **3ST após Transfer oferece escolha de partida.** Com rico quinto não impomos sozinhos sem trunfo.

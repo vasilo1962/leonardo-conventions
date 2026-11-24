@@ -130,6 +130,6 @@ Po invitu 3 v drahé barvě pasuje nebo draží 4 podle hodnocení listu. Ne ka�
 ## Na co pamatovat
 
 - **Transfer neslibuje body.** Zahajitel přijímá, protože partner může chtít zastavit nízko.
-- **Přijetí neukazuje fit ani minimum.** Zahajitel draží požadovanou drahou barvu [Superakceptace Jacoby Transfer](../jacoby-superaccept/).
+- **Přijetí neukazuje fit ani minimum.** Zahajitel draží požadovanou drahou barvu [Superakceptace Jacoby Transfer](../jacoby-transfer-superaccept/).
 - **2BT a 3 v drahé barvě jsou invity.** Zahajitel smí pasovat nebo vybrat vhodný závazek.
 - **3BT po Transfer nabízí volbu celé hry.** S drahým pětilistem sami nevynucujeme beztrumfy.

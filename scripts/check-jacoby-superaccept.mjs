@@ -70,9 +70,9 @@ for(const q of data.questions){
 }
 assert.equal(data.questions.filter(q=>q.role==='overcall'&&q.kind==='contrast').length,2);
 for(const [prefix,count] of [['partscore',3],['game',3],['slam-control',2],['slam-keycards',2]])assert.equal(data.questions.filter(q=>q.objective.startsWith(prefix)).length,count);
-const html=await readFile('site/el/jacoby-superaccept/practice/index.html','utf8');
+const html=await readFile('site/el/jacoby-transfer-superaccept/practice/index.html','utf8');
 assert.deepEqual(JSON.parse(html.match(/id="exercise-data">([\s\S]*?)<\/script>/)[1]),data);
 assert.ok(html.includes('id="previous-exercise"'));
 assert.ok(html.includes('href="../"'));
-assert.ok((await readFile('site/el/jacoby-superaccept/index.html','utf8')).includes('href="practice/"'));
+assert.ok((await readFile('site/el/jacoby-transfer-superaccept/index.html','utf8')).includes('href="practice/"'));
 console.log('Verified 20 unique hands, HCP, 8 superaccepts/2 contrasts, both roles and full legal auctions, 3 signoffs/3 games/2 controls/2 keycard asks, embedded data and reciprocal links.');
