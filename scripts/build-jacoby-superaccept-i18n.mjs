@@ -43,7 +43,7 @@ for(const [code,t] of Object.entries(packs)){
  assert.equal(bullets.length,4,code);const k=bullets[1],line=lines[k];let at=line.search(/[（(]/);if(at<0)at=line.indexOf(' [');assert.ok(at>0,code+': lesson reference');
  if(!line.includes('../jacoby-transfer-superaccept/'))lines[k]=line.slice(0,at).trimEnd()+` [${ui[0]}](../jacoby-transfer-superaccept/).`;
  write(`content/${code}/jacoby-transfer.md`,before+lines.join('\n'));
- descriptions['jacoby-transfer-superaccept'][code]=ui[5];
+ descriptions['jacoby-transfer-superaccept'][code]=t.meta||ui[5];
 }
 write('content/i18n/article-descriptions.json',JSON.stringify(descriptions,null,2)+'\n');
 const a=articles.find(a=>a.slug==='jacoby-transfer-superaccept');delete a.languages;Object.assign(a,{titles,exerciseLanguages:['el',...Object.keys(packs)],exerciseUi});

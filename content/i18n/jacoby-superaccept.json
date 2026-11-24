@@ -57,7 +57,8 @@
       "4333, no doubleton",
       "Weak / game / slam",
       "Sources"
-    ]
+    ],
+    "meta": "Jacoby Transfer superaccepts: Find the game you would otherwise never reach. Detailed theory, examples and continuations for game or slam."
   },
   "fr": {
     "ui": [
@@ -117,7 +118,8 @@
       "4333 sans doubleton",
       "Partielle / manche / chelem",
       "Sources"
-    ]
+    ],
+    "meta": "Jacoby Transfer – super-acceptation : Trouvez la manche que vous n’auriez jamais annoncée. Théorie détaillée, exemples et suites vers la manche ou le chelem."
   },
   "de": {
     "ui": [
@@ -177,7 +179,8 @@
       "4333 ohne Doubleton",
       "Teilkontrakt / Vollspiel / Schlemm",
       "Quellen"
-    ]
+    ],
+    "meta": "Jacoby Transfer – Superakzept: Finde das Vollspiel, das du sonst nie erreicht hättest. Ausführliche Theorie, Beispiele und Fortsetzungen zu Vollspiel oder Schlemm."
   },
   "it": {
     "ui": [
@@ -237,7 +240,8 @@
       "4333 senza doubleton",
       "Parziale / manche / slam",
       "Fonti"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaccettazione: Trova la manche che altrimenti non avresti mai chiamato. Teoria dettagliata, esempi e sviluppi verso manche o slam."
   },
   "es": {
     "ui": [
@@ -297,7 +301,8 @@
       "4333 sin doubleton",
       "Parcial / manga / slam",
       "Fuentes"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaceptación: Encuentra la manga que de otro modo nunca habrías declarado. Teoría detallada, ejemplos y continuaciones hacia manga o slam."
   },
   "pt": {
     "ui": [
@@ -357,7 +362,8 @@
       "4333 sem doubleton",
       "Parcial / partida / cheleme",
       "Fontes"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaceitação: Encontre a partida que de outro modo nunca anunciaria. Teoria detalhada, exemplos e continuações para partida ou cheleme."
   },
   "nl": {
     "ui": [
@@ -417,7 +423,8 @@
       "4333 zonder doubleton",
       "Deelscore / manche / slem",
       "Bronnen"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaccept: Vind de manche die je anders nooit zou bieden. Uitgebreide theorie, voorbeelden en vervolgbiedingen naar manche of slem."
   },
   "tr": {
     "ui": [
@@ -477,7 +484,8 @@
       "4333, ikili yok",
       "Kısmi skor / zon / şlem",
       "Kaynaklar"
-    ]
+    ],
+    "meta": "Jacoby Transfer – süper kabul: Başka türlü bulamayacağınız zonu bulun. Ayrıntılı teori, örnekler ve zon ya da şlem için devam konuşmaları."
   },
   "sv": {
     "ui": [
@@ -537,7 +545,8 @@
       "4333 utan dubbelton",
       "Delkontrakt / utgång / slam",
       "Källor"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaccept: Hitta utgången du annars aldrig skulle bjuda. Utförlig teori, exempel och fortsättningar mot utgång eller slam."
   },
   "da": {
     "ui": [
@@ -597,7 +606,8 @@
       "4333 uden doubleton",
       "Delkontrakt / udgang / slem",
       "Kilder"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaccept: Find den udgang, du ellers aldrig ville melde. Udførlig teori, eksempler og fortsættelser mod udgang eller slem."
   },
   "no": {
     "ui": [
@@ -657,7 +667,8 @@
       "4333 uten dobbelton",
       "Delkontrakt / utgang / slem",
       "Kilder"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaksept: Finn utgangen du ellers aldri ville meldt. Grundig teori, eksempler og fortsettelser mot utgang eller slem."
   },
   "fi": {
     "ui": [
@@ -717,7 +728,8 @@
       "4333 ilman dubbeltonia",
       "Osasitoumus / täyspeli / slammi",
       "Lähteet"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superhyväksyntä: Löydä täyspeli, jota et muuten tarjoaisi. Yksityiskohtainen teoria, esimerkit ja jatkot täyspeliin tai slammiin."
   },
   "pl": {
     "ui": [
@@ -777,7 +789,8 @@
       "4333 bez dubla",
       "Częściówka / końcówka / szlemik",
       "Źródła"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superakcept: Znajdź końcówkę, której inaczej nigdy byś nie zalicytował. Szczegółowa teoria, przykłady i dalsza licytacja do końcówki lub szlemika."
   },
   "cs": {
     "ui": [
@@ -837,7 +850,8 @@
       "4333 bez dublu",
       "Částečný závazek / hra / slem",
       "Zdroje"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superakcept: Najděte celou hru, kterou byste jinak nikdy nevydražili. Podrobná teorie, příklady a pokračování ke hře nebo slemu."
   },
   "hu": {
     "ui": [
@@ -897,7 +911,8 @@
       "4333 dubló nélkül",
       "Részjáték / gém / szlem",
       "Források"
-    ]
+    ],
+    "meta": "Jacoby Transfer – szuperelfogadás: Találd meg a gémet, amelyet másként sosem mondanál be. Részletes elmélet, példák és folytatások gémhez vagy szlemhez."
   },
   "is": {
     "ui": [
@@ -957,7 +972,8 @@
       "4333 án tvíspils",
       "Bútur / geim / slemma",
       "Heimildir"
-    ]
+    ],
+    "meta": "Jacoby Transfer – súpertekt: Finndu geimið sem þú hefðir annars aldrei sagt. Ítarleg fræði, dæmi og framhald til geims eða slemmu."
   },
   "ru": {
     "ui": [
@@ -1017,7 +1033,8 @@
       "4333 без дублета",
       "Частичный контракт / гейм / шлем",
       "Источники"
-    ]
+    ],
+    "meta": "Jacoby Transfer – суперакцепт: Найдите гейм, который иначе никогда бы не заказали. Подробная теория, примеры и продолжения торговли до гейма или шлема."
   },
   "id": {
     "ui": [
@@ -1077,7 +1094,8 @@
       "4333 tanpa doubleton",
       "Partscore / game / slam",
       "Sumber"
-    ]
+    ],
+    "meta": "Jacoby Transfer – superaccept: Temukan game yang mungkin tak akan Anda capai. Teori terperinci, contoh, dan kelanjutan menuju game atau slam."
   },
   "zh": {
     "ui": [
@@ -1137,7 +1155,8 @@
       "4333，无双张",
       "部分定约／局／满贯",
       "来源"
-    ]
+    ],
+    "meta": "Jacoby Transfer超级接受：找到原本绝不会叫到的成局。详细理论、示例，以及通往成局或满贯的后续叫牌。"
   },
   "ja": {
     "ui": [
@@ -1197,7 +1216,8 @@
       "4333、ダブルトンなし",
       "部分定約／ゲーム／スラム",
       "出典"
-    ]
+    ],
+    "meta": "Jacoby Transferのスーパーアクセプト：普通なら見逃すゲームを見つけよう。詳しい理論、例題、ゲームやスラムへの続け方を解説。"
   },
   "he": {
     "ui": [
@@ -1257,7 +1277,8 @@
       "4333 ללא דאבלטון",
       "חלקי / משחק מלא / סלם",
       "מקורות"
-    ]
+    ],
+    "meta": "Jacoby Transfer – סופר־קבלה: מצאו את המשחק המלא שאחרת לא הייתם מכריזים. תאוריה מפורטת, דוגמאות והמשכי הכרזה למשחק מלא או לסלם."
   },
   "hi": {
     "ui": [
@@ -1317,7 +1338,8 @@
       "4333, डबलटन नहीं",
       "पार्टस्कोर / गेम / स्लैम",
       "स्रोत"
-    ]
+    ],
+    "meta": "Jacoby Transfer – सुपरएक्सेप्ट: वह गेम खोजें जिसे आप अन्यथा कभी न बोलते। विस्तृत सिद्धांत, उदाहरण और गेम या स्लैम के लिए आगे की बिडिंग।"
   },
   "ar": {
     "ui": [
@@ -1377,7 +1399,8 @@
       "4333 دون دبلتون",
       "جزئي / لعبة / سلام",
       "المصادر"
-    ]
+    ],
+    "meta": "Jacoby Transfer – Superaccept: اكتشف عقد الجيم الذي لم تكن لتصل إليه. شرح نظري مفصل وأمثلة ومتابعات المزايدة نحو الجيم أو السلام."
   },
   "th": {
     "ui": [
@@ -1437,7 +1460,8 @@
       "4333 ไม่มีดับเบิลตัน",
       "พาร์ตสกอร์ / เกม / สแลม",
       "แหล่งข้อมูล"
-    ]
+    ],
+    "meta": "Jacoby Transfer – Superaccept: ค้นพบสัญญาเกมที่คุณอาจไม่เคยบิดถึง พร้อมทฤษฎีโดยละเอียด ตัวอย่าง และการบิดต่อเพื่อไปเกมหรือสแลม"
   },
   "ko": {
     "ui": [
@@ -1497,6 +1521,7 @@
       "4333, 더블턴 없음",
       "부분 계약 / 게임 / 슬램",
       "출처"
-    ]
+    ],
+    "meta": "Jacoby Transfer – 슈퍼 수락: 평소라면 놓쳤을 게임을 찾아보세요. 자세한 이론, 예시, 게임이나 슬램을 향한 후속 비딩을 설명합니다."
   }
 }
