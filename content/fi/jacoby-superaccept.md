@@ -28,7 +28,7 @@ Tarjoa dubbeltonväri mahdollisimman halvalla. Jos se on **Transfer-tarjouksen v
 
 Uusi väri ja 2NT ovat **keinotekoisia ja kierrosvaatimuksia**. Kolmeen yläväriin 4333-jaolla **saa passata**.
 
-## Esimerkkejä ensimmäisestä Transferista
+## Päätän avaajana
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Uusi väri ja 2NT ovat **keinotekoisia ja kierrosvaatimuksia**. Kolmeen ylävär
 
 **1NT – 2♦ – 2♥**: 16 pistettä, neljä herttaa ja dubbelton eivät riitä superhyväksyntään. Tavallinen hyväksyntä ei kiellä neljän kortin tukea.
 
-## Miten jatkamme hyväksymisen jälkeen?
+## Jatkan vastaajana
 
 **Heikko käsi**: uusi Transfer kolmen tasolla, 3♦ herttaan tai 3♥ pataan, sitten passi. Jos avaaja on jo tarjonnut kolme yläväriä 4333:lla, passaa suoraan.
 

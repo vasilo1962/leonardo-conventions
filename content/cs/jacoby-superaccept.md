@@ -28,7 +28,7 @@ Barvu dublu dražíme nejlevněji. Je-li dubl v **barvě nabídky Transfer**—k
 
 Nová barva a 2BT jsou **umělé a forsí jedno kolo**. Tři v drahé barvě s 4333 **lze pasovat**.
 
-## Příklady prvního Transfer
+## Rozhoduji jako zahajitel
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Nová barva a 2BT jsou **umělé a forsí jedno kolo**. Tři v drahé barvě s 4
 
 **1BT – 2♦ – 2♥**: 16 bodů, čtyři srdce a dubl nestačí. Prosté přijetí nepopírá čtyřkartovou podporu.
 
-## Jak pokračovat po přijetí?
+## Pokračuji jako odpovídající
 
 **Slabá ruka**: opakovaný Transfer na třetím stupni, 3♦ do srdcí nebo 3♥ do piků, pak pas. Pokud zahajitel již nabídl tři v drahé barvě s 4333, pas přímo.
 

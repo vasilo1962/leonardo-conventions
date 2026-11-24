@@ -28,7 +28,7 @@ Bied de doubletonkleur zo goedkoop mogelijk. Ligt de doubleton in de **geboden T
 
 Een nieuwe kleur en 2SA zijn **kunstmatig en één ronde forcing**. Drie in de hoge kleur met 4333 **mag worden gepast**.
 
-## Voorbeelden van het eerste Transfer
+## Beslissen als openaar
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Een nieuwe kleur en 2SA zijn **kunstmatig en één ronde forcing**. Drie in de h
 
 **1SA – 2♦ – 2♥**: met 16 punten, vier harten en een doubleton geen superaccept. Gewoon aannemen ontkent geen vierkaartsteun.
 
-## Hoe verder na het aannemen?
+## Verder als antwoorder
 
 **Zwak**: herhaal de Transfer op drieniveau, 3♦ voor harten of 3♥ voor schoppen, en pas daarna. Heeft openaar met 4333 al drie in de hoge kleur geboden, pas direct.
 

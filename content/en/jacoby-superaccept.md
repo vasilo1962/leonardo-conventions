@@ -28,7 +28,7 @@ Bid the doubleton suit as cheaply as possible. If the doubleton is in the suit o
 
 Superaccepts in a new suit or 2NT are **artificial and forcing for one round**. Three of the major showing 4333 **may be passed**.
 
-## Examples of the initial Transfer
+## Decide as opener
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ After **1NT – 2♥**, bid **3♠**: 17 HCP, four spades and 4333, without a do
 
 After **1NT – 2♦**, bid **2♥**: with 16 HCP, four hearts and a doubleton, we still lack the agreed 17 HCP. Simple acceptance does not deny four-card support.
 
-## How do we continue after acceptance?
+## Continue as responder
 
 **With a weak hand**, retransfer at the three level—3♦ for hearts, 3♥ for spades—and pass opener’s acceptance. If opener has already bid three of the major with 4333, pass directly.
 

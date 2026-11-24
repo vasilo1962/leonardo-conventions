@@ -28,7 +28,7 @@ Dichiarare economicamente il doubleton. Se è nel **seme della dichiarazione Tra
 
 Nuovo seme e 2SA sono **artificiali e forcing un giro**. Tre nella maggiore con 4333 **si può passare**.
 
-## Esempi del primo Transfer
+## Decido come apertore
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Nuovo seme e 2SA sono **artificiali e forcing un giro**. Tre nella maggiore con 
 
 **1SA – 2♦ – 2♥**: con 16 punti onori, quattro cuori e un doubleton non si superaccetta. L’accettazione semplice non nega appoggio quarto.
 
-## Come proseguire dopo l’accettazione?
+## Proseguo come rispondente
 
 **Mano debole**: nuovo Transfer a livello 3, 3♦ per cuori o 3♥ per picche, poi passo. Dopo tre nella maggiore con 4333, passo diretto.
 

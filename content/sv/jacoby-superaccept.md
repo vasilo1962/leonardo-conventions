@@ -28,7 +28,7 @@ Bjud dubbeltonsfärgen billigast. Är den i **själva Transferbudets färg**—r
 
 Ny färg och 2NT är **artificiella och krav för en rond**. Tre i högfärgen med 4333 **kan passas**.
 
-## Exempel på första Transfer
+## Besluta som öppnare
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Ny färg och 2NT är **artificiella och krav för en rond**. Tre i högfärgen m
 
 **1NT – 2♦ – 2♥**: 16 poäng, fyra hjärter och dubbelton räcker inte för vår superaccept. Enkel accept förnekar inte fyrkortsstöd.
 
-## Hur fortsätter vi efter accepterandet?
+## Fortsätt som svarshand
 
 **Svag hand**: ny Transfer på treläget, 3♦ för hjärter eller 3♥ för spader, därefter pass. Har öppnaren redan bjudit tre i högfärgen med 4333: passa direkt.
 

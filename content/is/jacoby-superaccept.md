@@ -28,7 +28,7 @@ Segjum tvíspilslitinn eins lágt og hægt er. Sé hann í **lit Transfer-sagnar
 
 Nýr litur og 2G eru **gervisagnir og krafa í einn hring**. Þrjá í hálit með 4333 **má passa**.
 
-## Dæmi um fyrsta Transfer
+## Ákveð sem opnari
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Nýr litur og 2G eru **gervisagnir og krafa í einn hring**. Þrjá í hálit me
 
 **1G – 2♦ – 2♥**: 16 punktar, fjögur hjörtu og tvíspil nægja ekki. Venjulegt samþykki neitar ekki fjórlitastuðningi.
 
-## Hvernig höldum við áfram eftir viðtöku?
+## Held áfram sem svarhönd
 
 **Veik hönd**: nýtt Transfer á þriðja þrepi, 3♦ í hjarta eða 3♥ í spaða, svo pass. Hafi opnari þegar sagt þrjá í hálit með 4333 er passað beint.
 

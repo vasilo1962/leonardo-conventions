@@ -28,7 +28,7 @@ A 2NT szabadon hagyja a 3♦ vagy 3♥ új Transfert. 1NT–2♦ után az indul�
 
 Új szín és 2NT **mesterséges, egy körre kényszerítő**. A 4333-at mutató három nemes **passzolható**.
 
-## Példák az első Transferre
+## Döntök indulóként
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ A 2NT szabadon hagyja a 3♦ vagy 3♥ új Transfert. 1NT–2♦ után az indul�
 
 **1NT – 2♦ – 2♥**: 16 pont, négy kőr és dubló nem elegendő. A sima elfogadás nem tagad négyes támogatást.
 
-## Hogyan folytassuk a teljesítés után?
+## Folytatom válaszolóként
 
 **Gyenge kézzel** új Transfer hármas szinten: 3♦ kőrre, 3♥ pikkre, majd passz. Ha az induló már három nemest mondott 4333-mal, közvetlen passz.
 

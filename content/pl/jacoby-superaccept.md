@@ -28,7 +28,7 @@ Licytuj kolor dubla najtaniej. Jeśli dubel jest w **kolorze odzywki Transfer**�
 
 Nowy kolor i 2BA są **sztuczne, forsujące na jedno okrążenie**. Trzy w starszy kolor z 4333 **można spasować**.
 
-## Przykłady pierwszego Transfer
+## Decyduję jako otwierający
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Nowy kolor i 2BA są **sztuczne, forsujące na jedno okrążenie**. Trzy w stars
 
 **1BA – 2♦ – 2♥**: 16 PC, cztery kiery i dubel nie wystarczają do superakceptu. Zwykłe przyjęcie nie wyklucza czterokartowego fitu.
 
-## Jak kontynuować po przyjęciu?
+## Kontynuuję jako odpowiadający
 
 **Słaba ręka**: ponowny Transfer na wysokości trzech, 3♦ na kiery lub 3♥ na piki, potem pas. Jeśli otwierający już zalicytował trzy w starszy kolor z 4333, pasuj od razu.
 

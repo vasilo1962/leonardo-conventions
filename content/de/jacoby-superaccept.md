@@ -28,7 +28,7 @@ Die Doubletonfarbe möglichst billig bieten. Liegt das Doubleton in der **gebote
 
 Neue Farbe oder 2SA sind **künstlich und eine Runde forcing**. Drei in der Oberfarbe mit 4333 **darf gepasst werden**.
 
-## Beispiele für den ersten Transfer
+## Als Eröffner entscheiden
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Nach **1SA – 2♥**: **3♠** mit 17 Figurenpunkten, vier Pik und 4333. Ohne D
 
 Nach **1SA – 2♦**: **2♥**. Mit 16 Figurenpunkten reichen Viererfit und Doubleton für unsere Vereinbarung nicht. Einfaches Erfüllen verneint keinen Viererfit.
 
-## Wie geht es nach der Annahme weiter?
+## Als Antwortender fortsetzen
 
 **Mit schwachem Blatt** auf Dreierstufe retransfertieren: 3♦ nach Coeur, 3♥ nach Pik, dann passen. Hat der Eröffner mit 4333 bereits drei in der Oberfarbe geboten, direkt passen.
 

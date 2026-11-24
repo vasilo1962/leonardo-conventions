@@ -19,9 +19,9 @@ for(const [code,t] of Object.entries(packs)){
  let md=`# ${ui[0]}\n\n${intro}\n\n## ${heads[0]}\n\n${p[1]}\n\n## ${heads[1]}\n\n${p[2]}\n\n${p[3]}\n\n## ${ui[7]}\n\n${p[4]}\n\n`;
  md+=`| ${w[0]} | ${w[1]} 1${nt[code]||'NT'} – 2♦ | ${w[1]} 1${nt[code]||'NT'} – 2♥ |\n| --- | --- | --- |\n`;
  for(const [s,h,sp] of [['C','3♣','3♣'],['D',loc('2NT'),'3♦'],['H','—',loc('2NT')],['S','2♠','—']])md+=`| ${w[2]}: ${old.ui.suitNames[s]} | ${h} | ${sp} |\n`;
- md+=`| ${w[3]} | 3♥ | 3♠ |\n\n${p[5]}\n\n${p[6]}\n\n## ${heads[3]}\n\n`;
+ md+=`| ${w[3]} | 3♥ | 3♠ |\n\n${p[5]}\n\n${p[6]}\n\n## ${ui[1]}\n\n`;
  for(let i=0;i<5;i++)md+=`### ${i+1}. ${['3♣',loc('2NT'),loc('2NT'),'3♠','2♥'][i]}\n\n${hands[i]}\n\n${p[7+i]}\n\n`;
- md+=`## ${heads[4]}\n\n`;
+ md+=`## ${ui[2]}\n\n`;
  for(let i=0;i<4;i++)md+=`${p[12+i*2]}\n\n${hands[5+i]}\n\n${p[13+i*2]}\n\n`;
  md+=`## ${heads[5]}\n\n${p[20]}\n\n### ${ui[8]}\n\n${p[21].replace('**Byron Lund**','**[Byron Lund](https://www.abf.com.au/wp-content/uploads/2026/03/How-to-Play-Expert-Bridge.pdf#page=87)**')}\n\n${p[22].replace('**Robert S. Todd**','**[Robert S. Todd](https://www.advinbridge.com/this-week-in-bridge/518)**').replace('**Larry Cohen**','**[Larry Cohen](https://larryco.com/bridge-articles/control-bidding?p=true)**')}\n`;
  write(`content/${code}/jacoby-superaccept.md`,md);
@@ -41,7 +41,7 @@ for(const [code,t] of Object.entries(packs)){
  const tail=source.lastIndexOf('\n## '),before=source.slice(0,tail),lines=source.slice(tail).split('\n');
  const bullets=lines.map((l,i)=>l.startsWith('- ')?i:-1).filter(i=>i>=0);
  assert.equal(bullets.length,4,code);const k=bullets[1],line=lines[k];let at=line.search(/[（(]/);if(at<0)at=line.indexOf(' [');assert.ok(at>0,code+': lesson reference');
- lines[k]=line.slice(0,at).trimEnd()+` [${ui[0]}](../jacoby-superaccept/).`;
+ if(!line.includes('../jacoby-superaccept/'))lines[k]=line.slice(0,at).trimEnd()+` [${ui[0]}](../jacoby-superaccept/).`;
  write(`content/${code}/jacoby-transfer.md`,before+lines.join('\n'));
  descriptions['jacoby-superaccept'][code]=ui[5];
 }

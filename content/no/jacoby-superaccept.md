@@ -28,7 +28,7 @@ Meld dobbeltonfargen billigst. Er den i **selve Transfermeldingens farge**—rut
 
 Ny farge og 2NT er **kunstige og rundekrav**. Tre i major med 4333 **kan passes**.
 
-## Eksempler på første Transfer
+## Avgjør som åpner
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Ny farge og 2NT er **kunstige og rundekrav**. Tre i major med 4333 **kan passes*
 
 **1NT – 2♦ – 2♥**: 16 poeng, fire hjerter og dobbelton er ikke nok. Enkel aksept benekter ikke firekortsstøtte.
 
-## Hvordan fortsetter vi etter aksepten?
+## Fortsett som svarhånd
 
 **Svak hånd**: ny Transfer på tretrinnet, 3♦ til hjerter eller 3♥ til spar, så pass. Har åpner allerede meldt tre i major med 4333, pass direkte.
 

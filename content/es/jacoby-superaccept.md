@@ -28,7 +28,7 @@ Nombrar económicamente el palo del doubleton. Si está en el **palo de la voz T
 
 Palo nuevo y 2ST son **artificiales y forcing una vuelta**. Tres del mayor con 4333 **se puede pasar**.
 
-## Ejemplos del Transfer inicial
+## Decido como abridor
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Palo nuevo y 2ST son **artificiales y forcing una vuelta**. Tres del mayor con 4
 
 **1ST – 2♦ – 2♥**: con 16 PH, cuatro corazones y doubleton no superaceptamos. Aceptar al nivel 2 no niega apoyo de cuatro cartas.
 
-## ¿Cómo continuar tras la aceptación?
+## Continúo como respondedor
 
 **Mano débil**: repetir el Transfer al nivel 3, 3♦ para corazones o 3♥ para picas, y pasar la aceptación. Si el abridor ya dijo tres del mayor con 4333, pasar directamente.
 

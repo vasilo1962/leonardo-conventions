@@ -28,7 +28,7 @@ Dokuz kart fit ek löveler sağlayabilir. İkili renk, kısa kozlu elde çakma i
 
 Yeni renk ve 2NT **yapay ve bir tur forsingdir**. 4333 gösteren üç majöre **pas geçilebilir**.
 
-## İlk Transfer örnekleri
+## Açıcı olarak karar veriyorum
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Yeni renk ve 2NT **yapay ve bir tur forsingdir**. 4333 gösteren üç majöre **
 
 **1NT – 2♦ – 2♥**: 16 puan, dört kör ve ikili süper kabul için yetmez. Basit kabul dört kart desteği reddetmez.
 
-## Kabulden sonra nasıl devam edilir?
+## Cevapçı olarak devam ediyorum
 
 **Zayıf elle** üç seviyesinde yeniden Transfer: kör için 3♦, pik için 3♥, sonra pas. Açıcı 4333 ile zaten üç majör demişse doğrudan pas.
 

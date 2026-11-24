@@ -28,7 +28,7 @@ Tawar suit doubleton semurah mungkin. Bila doubleton ada pada **suit bid Transfe
 
 Suit baru dan 2NT **artifisial dan forcing satu putaran**. Tiga major dengan 4333 **boleh dipas**.
 
-## Contoh Transfer pertama
+## Memutuskan sebagai pembuka
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Suit baru dan 2NT **artifisial dan forcing satu putaran**. Tiga major dengan 433
 
 **1NT – 2♦ – 2♥**: 16 HCP, empat heart dan doubleton belum cukup. Penerimaan biasa tidak menyangkal dukungan empat kartu.
 
-## Bagaimana melanjutkan setelah diterima?
+## Melanjutkan sebagai penjawab
 
 **Tangan lemah**: Transfer ulang pada tingkat tiga, 3♦ untuk heart atau 3♥ untuk spade, lalu pas. Jika pembuka sudah menawar tiga major dengan 4333, langsung pas.
 

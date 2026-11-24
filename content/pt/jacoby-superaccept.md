@@ -28,7 +28,7 @@ Marcar economicamente o naipe do doubleton. Se for o **naipe da voz Transfer**�
 
 Novo naipe e 2ST são **artificiais e forcing uma volta**. Três no rico com 4333 **pode ser passado**.
 
-## Exemplos do Transfer inicial
+## Decido como abridor
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Novo naipe e 2ST são **artificiais e forcing uma volta**. Três no rico com 433
 
 **1ST – 2♦ – 2♥**: com 16 pontos, quatro copas e doubleton, não superaceitar. A aceitação simples não nega apoio de quatro cartas.
 
-## Como continuar após a aceitação?
+## Continuo como respondente
 
 **Mão fraca**: novo Transfer ao nível 3, 3♦ para copas ou 3♥ para espadas, e passar a aceitação. Se o abridor já marcou três no rico com 4333, passar diretamente.
 

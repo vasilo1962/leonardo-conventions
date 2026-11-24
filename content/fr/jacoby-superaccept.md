@@ -28,7 +28,7 @@ Annoncer économiquement la couleur du doubleton. S’il est dans la couleur de 
 
 Une nouvelle couleur ou 2SA sont **artificiels et forcing un tour**. Les 3 dans la majeure avec 4333 **peuvent se passer**.
 
-## Exemples du premier Transfer
+## Décider comme ouvreur
 
 ### 1. 3♣
 
@@ -75,7 +75,7 @@ Après **1SA – 2♥**, annoncer **3♠** : 17 points H, quatre piques, 4333 sa
 
 Après **1SA – 2♦**, annoncer **2♥** : avec 16 points H, quatre cœurs et un doubleton, il manque le dix-septième point convenu. L’acceptation simple ne dénie pas quatre atouts.
 
-## Comment poursuivre après l’acceptation ?
+## Continuer comme répondant
 
 **Faible**, refaire un Transfer au palier de 3 : 3♦ pour les cœurs, 3♥ pour les piques, puis passer. Si l’ouvreur a déjà nommé la majeure au palier de 3 avec 4333, passer directement.
 
