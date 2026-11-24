@@ -1,4 +1,4 @@
-# Superaccept หลัง Jacoby Transfer
+# Jacoby Transfer – Superaccept
 
 Superaccept หลัง [Jacoby Transfer](../jacoby-transfer/) แสดง **17 HCP และการสนับสนุนสี่ใบ** ผู้ตอบทราบว่ามีทรัมป์รวมอย่างน้อยเก้าใบ และประเมินพาร์ตสกอร์ เกม หรือสแลมใหม่
 

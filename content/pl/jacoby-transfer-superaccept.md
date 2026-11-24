@@ -1,4 +1,4 @@
-# Superakcept Jacoby Transfer
+# Jacoby Transfer – superakcept
 
 Superakcept [Jacoby Transfer](../jacoby-transfer/) pokazuje **17 PC i czterokartowy fit**. Odpowiadający zna co najmniej dziewięć atutów i ponownie ocenia częściówkę, końcówkę lub szlemika.
 

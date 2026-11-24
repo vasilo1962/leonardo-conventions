@@ -1,4 +1,4 @@
-# Superakzept beim Jacoby Transfer
+# Jacoby Transfer – Superakzept
 
 Nach einem [Jacoby Transfer](../jacoby-transfer/) zeigt der Eröffner mit einem Superakzept **17 Figurenpunkte und Viererunterstützung**. Der Antwortende kennt mindestens neun Trümpfe und bewertet Teilkontrakt, Vollspiel oder Schlemm neu.
 

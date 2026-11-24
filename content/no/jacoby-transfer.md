@@ -130,6 +130,6 @@ Etter inviterende 3 i major passer åpneren eller melder 4 etter håndvurderinge
 ## Viktige punkter
 
 - **Transfer lover ingen poeng.** Åpneren aksepterer fordi makker kanskje vil stoppe lavt.
-- **Aksept viser verken tilpasning eller minimum.** Åpneren melder ønsket major [Superaksept av Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Aksept viser verken tilpasning eller minimum.** Åpneren melder ønsket major [Jacoby Transfer – superaksept](../jacoby-transfer-superaccept/).
 - **2NT og 3 i major er inviter.** Åpneren kan passe eller velge riktig kontrakt.
 - **3NT etter Transfer gir utgangsvalg.** Med femkorts major bestemmer vi ikke alene at vi skal spille grand.

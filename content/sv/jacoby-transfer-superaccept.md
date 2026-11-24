@@ -1,4 +1,4 @@
-# Superaccept av Jacoby Transfer
+# Jacoby Transfer – superaccept
 
 Superaccept efter [Jacoby Transfer](../jacoby-transfer/) visar **17 honnörspoäng och fyrkortsstöd**. Svarshanden känner till minst nio trumf och omvärderar delkontrakt, utgång eller slam.
 

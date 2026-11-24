@@ -1,4 +1,4 @@
-# Superaccept بعد Jacoby Transfer
+# Jacoby Transfer – Superaccept
 
 يُظهر superaccept بعد [Jacoby Transfer](../jacoby-transfer/) **17 نقطة شرف ودعمًا من أربع أوراق**. يعرف المجيب وجود تسع أوراق رابحة على الأقل ويعيد تقييم العقد الجزئي أو اللعبة أو السلام.
 

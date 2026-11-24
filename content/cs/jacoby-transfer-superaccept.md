@@ -1,4 +1,4 @@
-# Superakceptace Jacoby Transfer
+# Jacoby Transfer – superakceptace
 
 Superakceptace po [Jacoby Transfer](../jacoby-transfer/) ukazuje **17 figurových bodů a čtyřkartovou podporu**. Odpovídající zná alespoň devět trumfů a přehodnotí částečný závazek, hru nebo slem.
 

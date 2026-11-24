@@ -1,4 +1,4 @@
-# Superaccepting Jacoby Transfer
+# Jacoby Transfer – Superaccepts
 
 After [Jacoby Transfer](../jacoby-transfer/), opener can show **17 HCP and four-card support** by superaccepting. Responder then knows of at least a nine-card fit and can reassess whether to stop, bid game or explore slam.
 

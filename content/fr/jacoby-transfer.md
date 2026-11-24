@@ -130,6 +130,6 @@ Sur 3 dans la majeure propositionnel, il passe ou demande 4 selon son évaluatio
 ## Points d’attention
 
 - **Le Transfer ne promet aucun point.** L’ouvreur l’accepte car le partenaire peut vouloir s’arrêter bas.
-- **L’acceptation du Transfer ne montre ni fit ni minimum.** L’ouvreur nomme la majeure demandée [Super-acceptation du Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **L’acceptation du Transfer ne montre ni fit ni minimum.** L’ouvreur nomme la majeure demandée [Jacoby Transfer – super-acceptation](../jacoby-transfer-superaccept/).
 - **2SA et 3 dans la majeure sont des propositions.** L’ouvreur peut passer ou choisir le contrat adapté.
 - **3SA après Transfer laisse le choix de la manche.** Avec cinq cartes en majeure, nous n’imposons pas seuls les sans-atout.

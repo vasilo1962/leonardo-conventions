@@ -130,6 +130,6 @@ A nemes színű 3 invit után kézértékelés szerint passzol vagy 4-et mond. N
 ## Fontos tudnivalók
 
 - **A Transfer nem ígér pontot.** Az induló teljesíti, mert a partner alacsonyan akarhat megállni.
-- **A teljesítés nem mutat fitet vagy minimumot.** Az induló bemondja a kért nemest [Jacoby Transfer szuperelfogadás](../jacoby-transfer-superaccept/).
+- **A teljesítés nem mutat fitet vagy minimumot.** Az induló bemondja a kért nemest [Jacoby Transfer – szuperelfogadás](../jacoby-transfer-superaccept/).
 - **A 2NT és a nemes színű 3 invit.** Az induló passzolhat vagy megfelelő felvételt választhat.
 - **A Transfer utáni 3NT gémválasztást kínál.** Ötös nemessel nem ragaszkodunk egyoldalúan a szanhoz.

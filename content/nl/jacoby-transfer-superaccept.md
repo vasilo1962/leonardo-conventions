@@ -1,4 +1,4 @@
-# Superaccept na Jacoby Transfer
+# Jacoby Transfer – superaccept
 
 Een superaccept na [Jacoby Transfer](../jacoby-transfer/) toont **17 honneurpunten en vierkaartsteun**. Antwoorder kent minstens negen troeven en beoordeelt deelscore, manche of slem opnieuw.
 

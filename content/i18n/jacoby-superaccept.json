@@ -1,7 +1,7 @@
 {
   "en": {
     "ui": [
-      "Superaccepting Jacoby Transfer",
+      "Jacoby Transfer – Superaccepts",
       "Decide as opener",
       "Continue as responder",
       "How do you continue as opener?",
@@ -62,7 +62,7 @@
   },
   "fr": {
     "ui": [
-      "Super-acceptation du Jacoby Transfer",
+      "Jacoby Transfer – super-acceptation",
       "Décider comme ouvreur",
       "Continuer comme répondant",
       "Comment poursuivez-vous comme ouvreur ?",
@@ -123,7 +123,7 @@
   },
   "de": {
     "ui": [
-      "Superakzept beim Jacoby Transfer",
+      "Jacoby Transfer – Superakzept",
       "Als Eröffner entscheiden",
       "Als Antwortender fortsetzen",
       "Wie bieten Sie als Eröffner weiter?",
@@ -184,7 +184,7 @@
   },
   "it": {
     "ui": [
-      "Superaccettazione nel Jacoby Transfer",
+      "Jacoby Transfer – superaccettazione",
       "Decido come apertore",
       "Proseguo come rispondente",
       "Come prosegui come apertore?",
@@ -245,7 +245,7 @@
   },
   "es": {
     "ui": [
-      "Superaceptación del Jacoby Transfer",
+      "Jacoby Transfer – superaceptación",
       "Decido como abridor",
       "Continúo como respondedor",
       "¿Cómo continúas como abridor?",
@@ -306,7 +306,7 @@
   },
   "pt": {
     "ui": [
-      "Superaceitação do Jacoby Transfer",
+      "Jacoby Transfer – superaceitação",
       "Decido como abridor",
       "Continuo como respondente",
       "Como continua como abridor?",
@@ -367,7 +367,7 @@
   },
   "nl": {
     "ui": [
-      "Superaccept na Jacoby Transfer",
+      "Jacoby Transfer – superaccept",
       "Beslissen als openaar",
       "Verder als antwoorder",
       "Hoe bied je verder als openaar?",
@@ -428,7 +428,7 @@
   },
   "tr": {
     "ui": [
-      "Jacoby Transfer süper kabulü",
+      "Jacoby Transfer – süper kabul",
       "Açıcı olarak karar veriyorum",
       "Cevapçı olarak devam ediyorum",
       "Açıcı olarak nasıl devam edersin?",
@@ -489,7 +489,7 @@
   },
   "sv": {
     "ui": [
-      "Superaccept av Jacoby Transfer",
+      "Jacoby Transfer – superaccept",
       "Besluta som öppnare",
       "Fortsätt som svarshand",
       "Hur fortsätter du som öppnare?",
@@ -550,7 +550,7 @@
   },
   "da": {
     "ui": [
-      "Superaccept af Jacoby Transfer",
+      "Jacoby Transfer – superaccept",
       "Beslut som åbner",
       "Fortsæt som svarer",
       "Hvordan fortsætter du som åbner?",
@@ -611,7 +611,7 @@
   },
   "no": {
     "ui": [
-      "Superaksept av Jacoby Transfer",
+      "Jacoby Transfer – superaksept",
       "Avgjør som åpner",
       "Fortsett som svarhånd",
       "Hvordan fortsetter du som åpner?",
@@ -672,7 +672,7 @@
   },
   "fi": {
     "ui": [
-      "Jacoby Transferin superhyväksyntä",
+      "Jacoby Transfer – superhyväksyntä",
       "Päätän avaajana",
       "Jatkan vastaajana",
       "Miten jatkat avaajana?",
@@ -733,7 +733,7 @@
   },
   "pl": {
     "ui": [
-      "Superakcept Jacoby Transfer",
+      "Jacoby Transfer – superakcept",
       "Decyduję jako otwierający",
       "Kontynuuję jako odpowiadający",
       "Jak licytujesz jako otwierający?",
@@ -794,7 +794,7 @@
   },
   "cs": {
     "ui": [
-      "Superakceptace Jacoby Transfer",
+      "Jacoby Transfer – superakceptace",
       "Rozhoduji jako zahajitel",
       "Pokračuji jako odpovídající",
       "Jak pokračujete jako zahajitel?",
@@ -855,7 +855,7 @@
   },
   "hu": {
     "ui": [
-      "Jacoby Transfer szuperelfogadás",
+      "Jacoby Transfer – szuperelfogadás",
       "Döntök indulóként",
       "Folytatom válaszolóként",
       "Hogyan folytatod indulóként?",
@@ -916,7 +916,7 @@
   },
   "is": {
     "ui": [
-      "Superaccept eftir Jacoby Transfer",
+      "Jacoby Transfer – superaccept",
       "Ákveð sem opnari",
       "Held áfram sem svarhönd",
       "Hvernig heldurðu áfram sem opnari?",
@@ -977,7 +977,7 @@
   },
   "ru": {
     "ui": [
-      "Суперакцепт Jacoby Transfer",
+      "Jacoby Transfer – суперакцепт",
       "Решение открывающего",
       "Продолжение отвечающего",
       "Как продолжить открывающему?",
@@ -1038,7 +1038,7 @@
   },
   "id": {
     "ui": [
-      "Superaccept pada Jacoby Transfer",
+      "Jacoby Transfer – superaccept",
       "Memutuskan sebagai pembuka",
       "Melanjutkan sebagai penjawab",
       "Bagaimana Anda melanjutkan sebagai pembuka?",
@@ -1099,7 +1099,7 @@
   },
   "zh": {
     "ui": [
-      "Jacoby Transfer的超级接受",
+      "Jacoby Transfer – 超级接受",
       "作为开叫人决定",
       "作为应叫人继续",
       "作为开叫人如何续叫？",
@@ -1160,7 +1160,7 @@
   },
   "ja": {
     "ui": [
-      "Jacoby Transferのスーパーアクセプト",
+      "Jacoby Transfer – スーパーアクセプト",
       "オープナーとして判断",
       "レスポンダーとして続行",
       "オープナーとしてどう続けますか？",
@@ -1221,7 +1221,7 @@
   },
   "he": {
     "ui": [
-      "סופר אקספט ב־Jacoby Transfer",
+      "Jacoby Transfer – סופר אקספט",
       "מחליטים כפותח",
       "ממשיכים כמשיב",
       "כיצד תמשיך כפותח?",
@@ -1282,7 +1282,7 @@
   },
   "hi": {
     "ui": [
-      "Jacoby Transfer का superaccept",
+      "Jacoby Transfer – superaccept",
       "ओपनर के रूप में निर्णय",
       "रेस्पॉन्डर के रूप में आगे",
       "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
@@ -1343,7 +1343,7 @@
   },
   "ar": {
     "ui": [
-      "Superaccept بعد Jacoby Transfer",
+      "Jacoby Transfer – Superaccept",
       "أقرر بصفتي المفتتح",
       "أتابع بصفتي المجيب",
       "كيف تتابع بصفتك المفتتح؟",
@@ -1404,7 +1404,7 @@
   },
   "th": {
     "ui": [
-      "Superaccept หลัง Jacoby Transfer",
+      "Jacoby Transfer – Superaccept",
       "ตัดสินใจในฐานะผู้เปิด",
       "ต่อประมูลในฐานะผู้ตอบ",
       "ผู้เปิดควรประมูลต่ออย่างไร?",
@@ -1465,7 +1465,7 @@
   },
   "ko": {
     "ui": [
-      "Jacoby Transfer 슈퍼 억셉트",
+      "Jacoby Transfer – 슈퍼 억셉트",
       "오프너로 결정하기",
       "응답자로 계속하기",
       "오프너로 어떻게 계속하나요?",

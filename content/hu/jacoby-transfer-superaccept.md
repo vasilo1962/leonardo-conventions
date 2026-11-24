@@ -1,4 +1,4 @@
-# Jacoby Transfer szuperelfogadás
+# Jacoby Transfer – szuperelfogadás
 
 A [Jacoby Transfer](../jacoby-transfer/) szuperelfogadása **17 figurapontot és négyes támogatást** mutat. A válaszoló legalább kilenc adut ismer, és újraértékeli a részjátékot, gémet vagy szlemet.
 

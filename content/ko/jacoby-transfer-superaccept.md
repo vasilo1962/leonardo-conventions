@@ -1,4 +1,4 @@
-# Jacoby Transfer 슈퍼 억셉트
+# Jacoby Transfer – 슈퍼 억셉트
 
 [Jacoby Transfer](../jacoby-transfer/) 후 슈퍼 억셉트는 **17 HCP와 4장 서포트**를 보여줍니다. 응답자는 최소 9장의 트럼프 핏을 알고 부분 계약, 게임, 슬램을 다시 평가합니다.
 

@@ -130,6 +130,6 @@ Nach einladenden 3 in der Oberfarbe passt er oder bietet 4 gemäß Handbewertung
 ## Wichtige Hinweise
 
 - **Ein Transfer verspricht keine Punkte.** Der Eröffner nimmt an, weil Partner niedrig stoppen wollen könnte.
-- **Die Annahme zeigt weder Fit noch Minimum.** Der Eröffner bietet die verlangte Oberfarbe [Superakzept beim Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Die Annahme zeigt weder Fit noch Minimum.** Der Eröffner bietet die verlangte Oberfarbe [Jacoby Transfer – Superakzept](../jacoby-transfer-superaccept/).
 - **2SA und 3 in der Oberfarbe sind Einladungen.** Der Eröffner darf passen oder den passenden Kontrakt wählen.
 - **3SA nach Transfer bietet eine Partiewahl.** Mit einer Fünfer-Oberfarbe bestehen wir nicht allein auf Sans Atout.

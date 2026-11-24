@@ -1,4 +1,4 @@
-# Superaccept eftir Jacoby Transfer
+# Jacoby Transfer – superaccept
 
 Superaccept eftir [Jacoby Transfer](../jacoby-transfer/) sýnir **17 háspilapunkta og fjórlitastuðning**. Svarhönd veit um að minnsta kosti níu tromp og endurmetur bút, geim eða slemmu.
 

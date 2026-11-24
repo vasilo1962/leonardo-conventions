@@ -1,4 +1,4 @@
-# Jacoby Transfer的超级接受
+# Jacoby Transfer – 超级接受
 
 [Jacoby Transfer](../jacoby-transfer/)后的超级接受显示**17大牌点及四张支持**。应叫人知道至少有九张将牌，重新判断应停在部分定约、进局还是探索满贯。
 

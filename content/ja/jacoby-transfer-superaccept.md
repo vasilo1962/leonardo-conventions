@@ -1,4 +1,4 @@
-# Jacoby Transferのスーパーアクセプト
+# Jacoby Transfer – スーパーアクセプト
 
 [Jacoby Transfer](../jacoby-transfer/)後のスーパーアクセプトは**17 HCPと4枚サポート**を示します。レスポンダーは計9枚以上のトランプを知り、パートスコア、ゲーム、スラムを再評価できます。
 

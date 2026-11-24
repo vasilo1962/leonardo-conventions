@@ -130,6 +130,6 @@ Sobre 3 del mayor invitante, pasa o dice 4 según su valoración. No toda mano d
 ## Puntos de atención
 
 - **El Transfer no promete puntos.** El abridor acepta porque el compañero puede querer parar bajo.
-- **Aceptar el Transfer no muestra apoyo ni mínimo.** El abridor nombra el mayor solicitado [Superaceptación del Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Aceptar el Transfer no muestra apoyo ni mínimo.** El abridor nombra el mayor solicitado [Jacoby Transfer – superaceptación](../jacoby-transfer-superaccept/).
 - **2ST y 3 del mayor son invitaciones.** El abridor puede pasar o elegir el contrato adecuado.
 - **3ST tras Transfer ofrece una elección de mangas.** Con mayor quinto no imponemos unilateralmente sin triunfo.

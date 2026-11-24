@@ -130,6 +130,6 @@ Ylävärin kolmen tason inviittiin avaaja passaa tai tarjoaa 4 käden arvion muk
 ## Muistettavaa
 
 - **Transfer ei lupaa pisteitä.** Avaaja hyväksyy, koska partneri saattaa haluta pysähtyä matalalle.
-- **Hyväksyminen ei näytä tukea eikä minimivoimaa.** Avaaja tarjoaa pyydetyn ylävärin [Jacoby Transferin superhyväksyntä](../jacoby-transfer-superaccept/).
+- **Hyväksyminen ei näytä tukea eikä minimivoimaa.** Avaaja tarjoaa pyydetyn ylävärin [Jacoby Transfer – superhyväksyntä](../jacoby-transfer-superaccept/).
 - **2NT ja 3 yläväriä ovat inviittejä.** Avaaja saa passata tai valita sopivan sitoumuksen.
 - **3NT Transferin jälkeen antaa täyspelivalinnan.** Viiden kortin ylävärillä emme yksin määrää sangia.

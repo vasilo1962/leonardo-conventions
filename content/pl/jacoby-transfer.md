@@ -130,6 +130,6 @@ Po inwicie 3 w starszy kolor pasuje lub licytuje 4 według oceny ręki. Nie każ
 ## Warto zapamiętać
 
 - **Transfer nie obiecuje punktów.** Otwierający przyjmuje, bo partner może chcieć zatrzymać się nisko.
-- **Przyjęcie nie pokazuje fitu ani minimum.** Otwierający zgłasza wskazany starszy kolor [Superakcept Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Przyjęcie nie pokazuje fitu ani minimum.** Otwierający zgłasza wskazany starszy kolor [Jacoby Transfer – superakcept](../jacoby-transfer-superaccept/).
 - **2BA i 3 w starszy kolor to inwity.** Otwierający może spasować lub wybrać odpowiedni kontrakt.
 - **3BA po Transfer daje wybór końcówki.** Ze starszą piątką nie narzucamy samodzielnie bez atu.

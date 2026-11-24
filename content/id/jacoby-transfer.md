@@ -130,6 +130,6 @@ Atas invitasi 3 major, pembuka pass atau menawar 4 menurut penilaian tangan. Tid
 ## Hal yang perlu diingat
 
 - **Transfer tidak menjanjikan poin.** Pembuka menerima karena partner mungkin ingin berhenti rendah.
-- **Penerimaan tidak menunjukkan fit atau minimum.** Pembuka menawar major yang diminta [Superaccept pada Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Penerimaan tidak menunjukkan fit atau minimum.** Pembuka menawar major yang diminta [Jacoby Transfer – superaccept](../jacoby-transfer-superaccept/).
 - **2NT dan 3 major adalah invitasi.** Pembuka boleh pass atau memilih kontrak yang sesuai.
 - **3NT setelah Transfer menawarkan pilihan game.** Dengan major lima kartu, kita tidak memaksakan tanpa truf sendiri.

@@ -1,4 +1,4 @@
-# Superaceitação do Jacoby Transfer
+# Jacoby Transfer – superaceitação
 
 A superaceitação do [Jacoby Transfer](../jacoby-transfer/) mostra **17 pontos de honra e apoio de quatro cartas**. O respondente conhece pelo menos nove trunfos e reavalia parcial, partida ou cheleme.
 

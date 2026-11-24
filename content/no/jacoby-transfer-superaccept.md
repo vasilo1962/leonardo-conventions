@@ -1,4 +1,4 @@
-# Superaksept av Jacoby Transfer
+# Jacoby Transfer – superaksept
 
 Superaksept etter [Jacoby Transfer](../jacoby-transfer/) viser **17 honnørpoeng og firekortsstøtte**. Svarhånden kjenner minst ni trumf og vurderer delkontrakt, utgang eller slem på nytt.
 

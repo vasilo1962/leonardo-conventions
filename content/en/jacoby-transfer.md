@@ -130,6 +130,6 @@ Over an invitation of 3 of the major, pass or bid 4 according to hand evaluation
 ## Points to remember
 
 - **A Transfer promises no points.** Opener accepts because partner may want to stop low.
-- **Accepting the Transfer shows neither a fit nor a minimum.** Opener bids the requested major [Superaccepting Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **Accepting the Transfer shows neither a fit nor a minimum.** Opener bids the requested major [Jacoby Transfer – Superaccepts](../jacoby-transfer-superaccept/).
 - **2NT and 3 of the major are invitations.** Opener may pass or choose the appropriate contract.
 - **3NT after a Transfer offers a choice of games.** With a five-card major we do not unilaterally insist on no trumps.

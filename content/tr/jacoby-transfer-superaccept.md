@@ -1,4 +1,4 @@
-# Jacoby Transfer süper kabulü
+# Jacoby Transfer – süper kabul
 
 [Jacoby Transfer](../jacoby-transfer/) sonrası süper kabul **17 onör puanı ve dört kart destek** gösterir. Cevapçı en az dokuz koz bulunduğunu bilir; kısmi skor, zon veya şlemi yeniden değerlendirir.
 

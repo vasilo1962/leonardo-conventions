@@ -130,6 +130,6 @@ Transfer **没有最低点力要求**：弱牌、邀局牌、强牌都可使用�
 ## 注意事项
 
 - **Transfer不承诺点力。** 开叫人接受，因为同伴可能想停在低阶。
-- **接受Transfer既不表示配合，也不表示低限。** 开叫人叫出所要求的高花 [Jacoby Transfer的超级接受](../jacoby-transfer-superaccept/).
+- **接受Transfer既不表示配合，也不表示低限。** 开叫人叫出所要求的高花 [Jacoby Transfer – 超级接受](../jacoby-transfer-superaccept/).
 - **2NT和3高花都是邀局。** 开叫人可以派司或选择合适定约。
 - **Transfer后的3NT提供成局定约选择。** 五张高花时，不应单方面坚持无将。

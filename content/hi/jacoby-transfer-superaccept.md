@@ -1,4 +1,4 @@
-# Jacoby Transfer का superaccept
+# Jacoby Transfer – superaccept
 
 [Jacoby Transfer](../jacoby-transfer/) के बाद superaccept **17 HCP और चार पत्तों का समर्थन** दिखाता है। रेस्पॉन्डर कम से कम नौ ट्रम्प का फिट जानकर पार्टस्कोर, गेम या स्लैम का फिर मूल्यांकन करता है।
 

@@ -1,4 +1,4 @@
-# Superaceptación del Jacoby Transfer
+# Jacoby Transfer – superaceptación
 
 La superaceptación del [Jacoby Transfer](../jacoby-transfer/) muestra **17 PH y apoyo de cuatro cartas**. El respondedor conoce al menos nueve triunfos y reevalúa si parar, jugar manga o investigar slam.
 

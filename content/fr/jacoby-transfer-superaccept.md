@@ -1,4 +1,4 @@
-# Super-acceptation du Jacoby Transfer
+# Jacoby Transfer – super-acceptation
 
 Après un [Jacoby Transfer](../jacoby-transfer/), la super-acceptation montre **17 points H et quatre cartes de soutien**. Le répondant connaît au moins neuf atouts et réévalue ses chances de partielle, manche ou chelem.
 

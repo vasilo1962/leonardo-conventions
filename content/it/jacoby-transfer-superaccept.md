@@ -1,4 +1,4 @@
-# Superaccettazione nel Jacoby Transfer
+# Jacoby Transfer – superaccettazione
 
 La superaccettazione del [Jacoby Transfer](../jacoby-transfer/) mostra **17 punti onori e appoggio quarto**. Il rispondente conosce almeno nove atout e rivaluta parziale, manche o slam.
 

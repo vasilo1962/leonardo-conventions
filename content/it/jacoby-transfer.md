@@ -130,6 +130,6 @@ Su 3 nel nobile invitante passa o chiama 4 secondo la valutazione. Non tutte le 
 ## Punti da ricordare
 
 - **Il Transfer non promette punti.** L’apertore accetta perché il compagno potrebbe voler fermarsi basso.
-- **L’accettazione non mostra né fit né minimo.** L’apertore dichiara il nobile richiesto [Superaccettazione nel Jacoby Transfer](../jacoby-transfer-superaccept/).
+- **L’accettazione non mostra né fit né minimo.** L’apertore dichiara il nobile richiesto [Jacoby Transfer – superaccettazione](../jacoby-transfer-superaccept/).
 - **2SA e 3 nel nobile sono inviti.** L’apertore può passare o scegliere il contratto adatto.
 - **3SA dopo Transfer offre una scelta di manche.** Con un nobile quinto non imponiamo da soli i senza atout.

@@ -1,4 +1,4 @@
-# Superaccept pada Jacoby Transfer
+# Jacoby Transfer – superaccept
 
 Superaccept setelah [Jacoby Transfer](../jacoby-transfer/) menunjukkan **17 HCP dan dukungan empat kartu**. Penjawab mengetahui setidaknya sembilan truf bersama dan menilai ulang partscore, game atau slam.
 

@@ -1,4 +1,4 @@
-# Jacoby Transferin superhyväksyntä
+# Jacoby Transfer – superhyväksyntä
 
 [Jacoby Transfer](../jacoby-transfer/)in superhyväksyntä näyttää **17 arvopistettä ja neljän kortin tuen**. Vastaaja tietää vähintään yhdeksän valtin yhteyden ja arvioi osasitoumuksen, täyspelin tai slammin uudelleen.
 
