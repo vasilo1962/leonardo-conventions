@@ -1,4 +1,4 @@
-# Jacoby Transfer po 1BA
+# Jacoby Transfer
 
 Partner otwiera 1BA, a my mamy co najmniej pięć kart w starszym kolorze. **Jacoby Transfer** pokazuje ten kolor i prosi otwierającego o jego zalicytowanie.
 

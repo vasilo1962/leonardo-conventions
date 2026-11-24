@@ -1,4 +1,4 @@
-# Jacoby Transfer dopo 1SA
+# Jacoby Transfer
 
 Il compagno apre 1SA e abbiamo almeno cinque carte in un nobile. Con il **Jacoby Transfer** mostriamo il nostro nobile e chiediamo all’apertore di dichiararlo.
 

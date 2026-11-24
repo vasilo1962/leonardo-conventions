@@ -1,4 +1,4 @@
-# Jacoby Transfer efter 1NT
+# Jacoby Transfer
 
 Partnern öppnar med 1NT och vi har minst fem kort i en högfärg. Med **Jacoby Transfer** visar vi högfärgen och ber öppnaren bjuda den.
 

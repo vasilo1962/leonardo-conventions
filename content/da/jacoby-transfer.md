@@ -1,4 +1,4 @@
-# Jacoby Transfer efter 1UT
+# Jacoby Transfer
 
 Makker åbner 1UT, og vi har mindst fem kort i en majorfarve. Med **Jacoby Transfer** viser vi majorfarven og beder åbner om at melde den.
 

@@ -1,4 +1,4 @@
-# 1NT 이후 Jacoby Transfer
+# Jacoby Transfer
 
 파트너가 1NT로 오픈했고 우리에게 5장 이상의 메이저가 있습니다. **Jacoby Transfer**로 메이저를 보여 주고 오프너에게 그 수트를 비드하도록 요청합니다.
 

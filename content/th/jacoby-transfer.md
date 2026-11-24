@@ -1,4 +1,4 @@
-# Jacoby Transfer หลัง 1NT
+# Jacoby Transfer
 
 คู่เปิด 1NT และเรามีเมเจอร์อย่างน้อยห้าใบ ใช้ **Jacoby Transfer** แสดงเมเจอร์ของเราและขอให้ผู้เปิดบิดสีนั้น
 

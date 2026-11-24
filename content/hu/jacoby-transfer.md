@@ -1,4 +1,4 @@
-# Jacoby Transfer 1NT után
+# Jacoby Transfer
 
 Partnerünk 1NT-t nyit, és legalább öt lapunk van egy nemes színben. A **Jacoby Transfer** megmutatja ezt a színt, és megkéri az indulót, hogy mondja be.
 

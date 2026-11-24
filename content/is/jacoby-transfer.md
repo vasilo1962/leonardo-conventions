@@ -1,4 +1,4 @@
-# Jacoby Transfer eftir 1G
+# Jacoby Transfer
 
 Makker opnar á 1G og við eigum að minnsta kosti fimm spil í hálit. Með **Jacoby Transfer** sýnum við hálitinn og biðjum opnara að segja hann.
 

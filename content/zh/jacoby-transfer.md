@@ -1,4 +1,4 @@
-# 1NT后的Jacoby Transfer
+# Jacoby Transfer
 
 同伴开叫1NT，我们有至少五张高花。用 **Jacoby Transfer** 显示高花，并请开叫人叫出该花色。
 

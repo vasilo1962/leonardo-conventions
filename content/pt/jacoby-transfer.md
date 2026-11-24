@@ -1,4 +1,4 @@
-# Jacoby Transfer após 1ST
+# Jacoby Transfer
 
 O parceiro abre 1ST e temos pelo menos cinco cartas num rico. Com o **Jacoby Transfer** mostramos o rico e pedimos ao abridor que o marque.
 

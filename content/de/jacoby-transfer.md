@@ -1,4 +1,4 @@
-# Jacoby Transfer nach 1SA
+# Jacoby Transfer
 
 Partner eröffnet 1SA und wir haben mindestens eine Fünfer-Oberfarbe. Mit **Jacoby Transfer** zeigen wir diese Farbe und bitten den Eröffner, sie zu bieten.
 

@@ -1,4 +1,4 @@
-# Jacoby Transfer after 1NT
+# Jacoby Transfer
 
 Partner opens 1NT and we hold at least a five-card major. With **Jacoby Transfer** we show our major and ask opener to bid it.
 

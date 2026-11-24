@@ -1,4 +1,4 @@
-# Jacoby Transfer après 1SA
+# Jacoby Transfer
 
 Le partenaire ouvre de 1SA et nous avons une majeure au moins cinquième. Le **Jacoby Transfer** montre notre majeure et demande à l’ouvreur de la nommer.
 

@@ -1,4 +1,4 @@
-# Jacoby Transfer na 1SA
+# Jacoby Transfer
 
 Partner opent 1SA en wij hebben minstens een vijfkaart hoog. Met **Jacoby Transfer** tonen we onze hoge kleur en vragen we de openaar die te bieden.
 

@@ -1,4 +1,4 @@
-# Jacoby Transfer 1NT-avauksen jälkeen
+# Jacoby Transfer
 
 Partneri avaa 1NT ja meillä on vähintään viiden kortin yläväri. **Jacoby Transfer** näyttää ylävärimme ja pyytää avaajaa tarjoamaan sen.
 

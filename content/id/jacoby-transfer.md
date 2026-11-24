@@ -1,4 +1,4 @@
-# Jacoby Transfer setelah 1NT
+# Jacoby Transfer
 
 Partner membuka 1NT dan kita memiliki sedikitnya lima kartu dalam satu major. Dengan **Jacoby Transfer**, kita menunjukkan major dan meminta pembuka menawarnya.
 

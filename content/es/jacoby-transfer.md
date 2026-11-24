@@ -1,4 +1,4 @@
-# Jacoby Transfer después de 1ST
+# Jacoby Transfer
 
 El compañero abre 1ST y tenemos al menos cinco cartas en un mayor. Con el **Jacoby Transfer** mostramos nuestro mayor y pedimos al abridor que lo nombre.
 

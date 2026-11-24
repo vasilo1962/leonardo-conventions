@@ -1,4 +1,4 @@
-# Jacoby Transfer etter 1NT
+# Jacoby Transfer
 
 Makker åpner 1NT, og vi har minst fem kort i en majorfarge. Med **Jacoby Transfer** viser vi majorfargen og ber åpneren melde den.
 

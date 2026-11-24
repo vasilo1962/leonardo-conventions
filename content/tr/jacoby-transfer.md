@@ -1,4 +1,4 @@
-# 1NT sonrası Jacoby Transfer
+# Jacoby Transfer
 
 Ortak 1NT açar ve elimizde en az beş kartlı bir majör vardır. **Jacoby Transfer** ile majörümüzü gösterip açıcıdan onu söylemesini isteriz.
 

@@ -1,4 +1,4 @@
-# 1NT後のJacoby Transfer
+# Jacoby Transfer
 
 パートナーが1NTでオープンし、こちらに5枚以上のメジャーがあります。**Jacoby Transfer**でそのメジャーを示し、オープナーにビッドしてもらいます。
 

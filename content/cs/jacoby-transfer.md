@@ -1,4 +1,4 @@
-# Jacoby Transfer po 1BT
+# Jacoby Transfer
 
 Partner zahájí 1BT a máme alespoň pětilistou drahou barvu. Pomocí **Jacoby Transfer** ji ukážeme a požádáme zahajitele, aby ji vydražil.
 
