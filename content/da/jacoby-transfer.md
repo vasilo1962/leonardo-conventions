@@ -130,6 +130,6 @@ Efter inviterende 3 i major passer åbner eller melder 4 efter håndvurderingen.
 ## Vigtige punkter
 
 - **Transfer lover ingen point.** Åbner accepterer, fordi makker måske vil stoppe lavt.
-- **Accepten viser hverken fit eller minimum.** Åbner melder ønsket major (medmindre parret spiller superaccept, behandlet i en anden lektion).
+- **Accepten viser hverken fit eller minimum.** Åbner melder ønsket major [Superaccept af Jacoby Transfer](../jacoby-superaccept/).
 - **2UT og 3 i major er invitationer.** Åbner kan passe eller vælge den passende kontrakt.
 - **3UT efter Transfer giver udgangsvalg.** Med femfarve i major insisterer vi ikke alene på sans.

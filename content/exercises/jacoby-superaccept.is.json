@@ -1,0 +1,905 @@
+{
+  "title": "Superaccept eftir Jacoby Transfer",
+  "language": "is",
+  "ui": {
+    "overcall": "Ákveð sem opnari",
+    "response": "Held áfram sem svarhönd",
+    "overcallQuestion": "Hvernig heldurðu áfram sem opnari?",
+    "responseQuestion": "Hvernig heldurðu áfram sem svarhönd?",
+    "description": "Superaccept eftir Jacoby Transfer: skýringar, dæmi og 20 æfingar.",
+    "agreements": "1G 15–17, án innákomu mótherja. Samkomulag kennslunnar; eftir Superaccept spyr 4G um lykilspil.",
+    "locale": {
+      "exercises": "Æfingar",
+      "back": "Til baka í kennsluna",
+      "eyebrow": "ÆFINGAR",
+      "intro": "Þú sérð aðeins eigin hönd. Veldu sögn úr sagnboxinu.",
+      "type": "Tegund æfingar",
+      "previous": "Fyrri æfing",
+      "exercise": "Æfing",
+      "correctCount": "Rétt",
+      "vulnerability": "Enginn á hættu",
+      "table": "Æfingaborð",
+      "question": "Hvað segirðu?",
+      "hand": "Hönd þín, 13 spil",
+      "you": "Þú",
+      "south": "Suður",
+      "turn": "Þú átt sögn",
+      "result": "Niðurstaða",
+      "next": "Næsta æfing",
+      "completed": "Hópnum lokið",
+      "restart": "Sömu hendur aftur",
+      "return": "Til baka í kennsluna",
+      "noscript": "Gagnvirkar æfingar þurfa JavaScript.",
+      "footer": "Kerfisæfingar",
+      "pass": "Pass",
+      "double": "Dobl",
+      "redouble": "Redobl",
+      "auction": "Sagnir hingað til",
+      "partner": "Makker",
+      "opponent": "Mótherji",
+      "noBid": "engin sögn í þessari umferð",
+      "answered": "Þú svaraðir",
+      "correct": "Rétt!",
+      "rightBid": "Rétt sögn er",
+      "choice": "Þitt val",
+      "seeResult": "Sjá niðurstöðu",
+      "bidLevels": "Sagnir frá 1 til 7",
+      "actions": "Pass, dobl og redobl",
+      "groupDone": "Hópnum lokið",
+      "points": "punktar",
+      "alreadyAnswered": "Þú hefur þegar svarað.",
+      "overcall": "Ákveð sem opnari",
+      "response": "Held áfram sem svarhönd"
+    },
+    "suitNames": {
+      "S": "spaðar",
+      "H": "hjörtu",
+      "D": "tíglar",
+      "C": "lauf",
+      "NT": "grand"
+    },
+    "rankNames": {
+      "A": "ás",
+      "K": "kóngur",
+      "Q": "drottning",
+      "J": "gosi",
+      "T": "tíu"
+    },
+    "positions": {
+      "W": "Vestur",
+      "N": "Norður",
+      "E": "Austur",
+      "S": "Suður"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í hjörtu, tvíspil í spaðar. 2♠ sýnir tvíspil, ekki langan hliðarlit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í hjörtu, tvíspil í lit Transfer-sagnarinnar: tíglar. 2G varðveitir nýtt Transfer á þriðja þrepi."
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í hjörtu, tvíspil í lauf. 3♣ sýnir tvíspil, ekki langan hliðarlit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í hjörtu, 4333. Segðu 3♥; makker má passa."
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í spaðar, tvíspil í lauf. 3♣ sýnir tvíspil, ekki langan hliðarlit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í spaðar, tvíspil í tíglar. 3♦ sýnir tvíspil, ekki langan hliðarlit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í spaðar, tvíspil í lit Transfer-sagnarinnar: hjörtu. 2G varðveitir nýtt Transfer á þriðja þrepi."
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar, fjögur spil í spaðar, 4333. Segðu 3♠; makker má passa."
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "16 háspilapunktar og fjögur hjörtu: 2♥. Superaccept krefst 17 punkta."
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem opnari?",
+      "explanation": "17 háspilapunktar en aðeins þrír spaðar: 2♠. Superaccept krefst fjögurra trompa."
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "3 háspilapunktar nægja ekki í geim. Á móti 17 og fjórum trompum er 3♦ nýtt Transfer; svo pass við þrjá í hálit."
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "3 háspilapunktar nægja ekki í geim. Á móti 17 og fjórum trompum er 3♥ nýtt Transfer; svo pass við þrjá í hálit."
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "3 háspilapunktar. Opnari hefur þegar sagt þrjá í hálit: 17 punktar, fjögur tromp, 4333. Pass."
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "10 háspilapunktar á móti 17 og níu tromp: 4♦, Transfer á fjórða þrepi; síðan pass við geim. Enginn slemmuáhugi."
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "10 háspilapunktar á móti 17 og níu tromp: 4♥, Transfer á fjórða þrepi; síðan pass við geim. Enginn slemmuáhugi."
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "12 háspilapunktar. Á móti 17, fjórum spöðum og 4333: 4♠, án nýs Transfer."
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "17 háspilapunktar og slemmuáhugi: 3♠ sýnir kóng, fyrirstöðu annarrar umferðar. 3♦ er nýtt Transfer. Engin tígulfyrirstaða; ekki spyrja strax um lykilspil."
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "17 háspilapunktar og slemmuáhugi: 4♣ er lægsta fyrirstaða yfir 3♠ með kóngnum. 3♥ er nýtt Transfer. Hjartafyrirstöðu þarf að kanna."
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "17 háspilapunktar, góð tromp og allar hliðarfyrirstöður. Opnari hefur þegar sagt hálitinn. 4G spyr um lykilspil."
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hvernig heldurðu áfram sem svarhönd?",
+      "explanation": "17 háspilapunktar, góð tromp og allar hliðarfyrirstöður. Opnari hefur þegar sagt hálitinn. 4G spyr um lykilspil."
+    }
+  ],
+  "route": "is/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

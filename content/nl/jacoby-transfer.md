@@ -130,6 +130,6 @@ Na inviterend 3 in de hoge kleur past de openaar of biedt 4 volgens de handwaard
 ## Aandachtspunten
 
 - **Een Transfer belooft geen punten.** De openaar neemt aan omdat partner laag wil kunnen stoppen.
-- **Aannemen toont geen fit of minimum.** De openaar biedt de gevraagde hoge kleur (behalve bij een afgesproken superaccept, behandeld in een aparte les).
+- **Aannemen toont geen fit of minimum.** De openaar biedt de gevraagde hoge kleur [Superaccept na Jacoby Transfer](../jacoby-superaccept/).
 - **2SA en 3 in de hoge kleur zijn uitnodigingen.** De openaar mag passen of het juiste contract kiezen.
 - **3SA na Transfer biedt manchekeuze.** Met een vijfkaart hoog bepalen we niet alleen dat het sans atout moet zijn.

@@ -1,0 +1,905 @@
+{
+  "title": "Superaccept หลัง Jacoby Transfer",
+  "language": "th",
+  "ui": {
+    "overcall": "ตัดสินใจในฐานะผู้เปิด",
+    "response": "ต่อประมูลในฐานะผู้ตอบ",
+    "overcallQuestion": "ผู้เปิดควรประมูลต่ออย่างไร?",
+    "responseQuestion": "ผู้ตอบควรประมูลต่ออย่างไร?",
+    "description": "Superaccept หลัง Jacoby Transfer: ทฤษฎี ตัวอย่าง และแบบฝึกหัด 20 ข้อ",
+    "agreements": "เปิด 1NT 15–17 HCP ไม่มี overcall ของฝ่ายตรงข้าม ใช้ข้อตกลงในบทเรียน หลัง superaccept 4NT ถามคีย์การ์ด",
+    "locale": {
+      "exercises": "แบบฝึกหัด",
+      "back": "กลับบทเรียน",
+      "eyebrow": "แบบฝึกหัด",
+      "intro": "เห็นเฉพาะมือของคุณ เลือกบิดจากกล่องบิด",
+      "type": "ประเภทแบบฝึกหัด",
+      "previous": "ข้อก่อนหน้า",
+      "exercise": "ข้อ",
+      "correctCount": "ถูก",
+      "vulnerability": "ทั้งสองฝ่ายไม่อยู่ในโซน",
+      "table": "โต๊ะฝึก",
+      "question": "คุณบิดอะไร?",
+      "hand": "มือของคุณ 13 ใบ",
+      "you": "คุณ",
+      "south": "ทิศใต้",
+      "turn": "ตาคุณ",
+      "result": "ผลลัพธ์",
+      "next": "ข้อถัดไป",
+      "completed": "จบกลุ่มแล้ว",
+      "restart": "ทำมือเดิมอีกครั้ง",
+      "return": "กลับบทเรียน",
+      "noscript": "แบบฝึกหัดโต้ตอบต้องใช้ JavaScript",
+      "footer": "แบบฝึกคอนเวนชัน",
+      "pass": "พาส",
+      "double": "ดับเบิล",
+      "redouble": "รีดับเบิล",
+      "auction": "บิดที่ผ่านมา",
+      "partner": "คู่",
+      "opponent": "ฝ่ายตรงข้าม",
+      "noBid": "ไม่มีบิดในรอบนี้",
+      "answered": "ตอบแล้ว",
+      "correct": "ถูกต้อง!",
+      "rightBid": "บิดที่ถูกต้องคือ",
+      "choice": "ตัวเลือกของคุณ",
+      "seeResult": "ดูผลลัพธ์",
+      "bidLevels": "บิดระดับ 1 ถึง 7",
+      "actions": "พาส ดับเบิล และรีดับเบิล",
+      "groupDone": "จบกลุ่มแล้ว",
+      "points": "แต้ม",
+      "alreadyAnswered": "คุณตอบแล้ว",
+      "overcall": "ตัดสินใจในฐานะผู้เปิด",
+      "response": "ต่อประมูลในฐานะผู้ตอบ"
+    },
+    "suitNames": {
+      "S": "โพดำ",
+      "H": "โพแดง",
+      "D": "ข้าวหลามตัด",
+      "C": "ดอกจิก",
+      "NT": "โนทรัมป์"
+    },
+    "rankNames": {
+      "A": "เอซ",
+      "K": "คิง",
+      "Q": "ควีน",
+      "J": "แจ็ก",
+      "T": "สิบ"
+    },
+    "positions": {
+      "W": "ตะวันตก",
+      "N": "เหนือ",
+      "E": "ตะวันออก",
+      "S": "ใต้"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพแดง สี่ใบ และ โพดำ สองใบ ประมูล 2♠ เพื่อแสดงดับเบิลตัน ไม่ใช่สีข้างยาว"
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพแดง สี่ใบ ดับเบิลตันอยู่ในสีที่ประมูล Transfer คือ ข้าวหลามตัด ใช้ 2NT เพื่อเก็บ Transfer ซ้ำระดับสาม"
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพแดง สี่ใบ และ ดอกจิก สองใบ ประมูล 3♣ เพื่อแสดงดับเบิลตัน ไม่ใช่สีข้างยาว"
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพแดง สี่ใบ รูปทรง 4333 ประมูล 3♥ คู่ขาผ่านได้"
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพดำ สี่ใบ และ ดอกจิก สองใบ ประมูล 3♣ เพื่อแสดงดับเบิลตัน ไม่ใช่สีข้างยาว"
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพดำ สี่ใบ และ ข้าวหลามตัด สองใบ ประมูล 3♦ เพื่อแสดงดับเบิลตัน ไม่ใช่สีข้างยาว"
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพดำ สี่ใบ ดับเบิลตันอยู่ในสีที่ประมูล Transfer คือ โพแดง ใช้ 2NT เพื่อเก็บ Transfer ซ้ำระดับสาม"
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ไพ่ โพดำ สี่ใบ รูปทรง 4333 ประมูล 3♠ คู่ขาผ่านได้"
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "16 HCP และฮาร์ตสี่ใบ ประมูล 2♥ เพราะ superaccept ต้องมี 17 HCP"
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้เปิดควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP แต่สเปดมีเพียงสามใบ ประมูล 2♠ เพราะ superaccept ต้องสนับสนุนสี่ใบ"
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "3 HCP ยังไม่พอเกม เมื่อคู่ขามี 17 HCP และสนับสนุนสี่ใบ ใช้ 3♦ ทำ Transfer ซ้ำ แล้วผ่านเมเจอร์ระดับสาม"
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "3 HCP ยังไม่พอเกม เมื่อคู่ขามี 17 HCP และสนับสนุนสี่ใบ ใช้ 3♥ ทำ Transfer ซ้ำ แล้วผ่านเมเจอร์ระดับสาม"
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "3 HCP ผู้เปิดประมูลเมเจอร์ระดับสามแล้ว แสดง 17 HCP สนับสนุนสี่ใบและ 4333 ให้ผ่าน"
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "10 HCP ตรงข้าม 17 HCP มีทรัมป์เก้าใบ ใช้ 4♦ ทำ Transfer ซ้ำระดับสี่ แล้วผ่านเกม ไม่มีความสนใจสแลม"
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "10 HCP ตรงข้าม 17 HCP มีทรัมป์เก้าใบ ใช้ 4♥ ทำ Transfer ซ้ำระดับสี่ แล้วผ่านเกม ไม่มีความสนใจสแลม"
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "12 HCP ตรงข้าม 17 HCP สเปดสี่ใบและ 4333 ให้ประมูล 4♠ ไม่ต้องทำ Transfer ซ้ำ"
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP และสนใจสแลม 3♠ แสดงคิงเป็นคอนโทรลรอบสอง 3♦ ยังเป็น Transfer ไม่มีคอนโทรลไดมอนด์ จึงยังไม่ถามคีย์การ์ด"
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP และสนใจสแลม 4♣ เป็นคอนโทรลที่ประหยัดที่สุดเหนือ 3♠ โดยคิง 3♥ ยังเป็น Transfer ต้องตรวจสอบคอนโทรลฮาร์ต"
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ทรัมป์ดีและคอนโทรลสีข้างครบ ผู้เปิดประมูลเมเจอร์แล้ว ใช้ 4NT ถามคีย์การ์ด"
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ผู้ตอบควรประมูลต่ออย่างไร?",
+      "explanation": "17 HCP ทรัมป์ดีและคอนโทรลสีข้างครบ ผู้เปิดประมูลเมเจอร์แล้ว ใช้ 4NT ถามคีย์การ์ด"
+    }
+  ],
+  "route": "th/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

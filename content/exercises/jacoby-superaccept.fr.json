@@ -1,0 +1,905 @@
+{
+  "title": "Super-acceptation du Jacoby Transfer",
+  "language": "fr",
+  "ui": {
+    "overcall": "Décider comme ouvreur",
+    "response": "Continuer comme répondant",
+    "overcallQuestion": "Comment poursuivez-vous comme ouvreur ?",
+    "responseQuestion": "Comment poursuivez-vous comme répondant ?",
+    "description": "Super-acceptation du Jacoby Transfer : théorie, exemples et 20 exercices.",
+    "agreements": "1SA 15–17, sans intervention adverse. Version du cours ; après une super-acceptation, 4SA demande les cartes clés.",
+    "locale": {
+      "exercises": "Exercices",
+      "back": "Retour à la leçon",
+      "eyebrow": "EXERCICES",
+      "intro": "Vous ne voyez que votre main. Choisissez votre enchère dans la boîte d’enchères.",
+      "type": "Type d’exercice",
+      "previous": "Exercice précédent",
+      "exercise": "Exercice",
+      "correctCount": "Bonnes réponses",
+      "vulnerability": "Personne vulnérable",
+      "table": "Table d’exercice",
+      "question": "Que dites-vous ?",
+      "hand": "Votre main, 13 cartes",
+      "you": "Vous",
+      "south": "Sud",
+      "turn": "À vous",
+      "result": "Résultat",
+      "next": "Exercice suivant",
+      "completed": "Groupe terminé",
+      "restart": "Rejouer les mêmes mains",
+      "return": "Retour à la leçon",
+      "noscript": "JavaScript est nécessaire aux exercices interactifs.",
+      "footer": "Exercices de conventions",
+      "pass": "Passe",
+      "double": "Contre",
+      "redouble": "Surcontre",
+      "auction": "Enchères précédentes",
+      "partner": "Partenaire",
+      "opponent": "Adversaire",
+      "noBid": "aucune enchère à ce tour",
+      "answered": "Réponse donnée",
+      "correct": "Correct !",
+      "rightBid": "La bonne enchère est",
+      "choice": "Votre choix",
+      "seeResult": "Voir le résultat",
+      "bidLevels": "Enchères de 1 à 7",
+      "actions": "Passe, contre et surcontre",
+      "groupDone": "Groupe terminé",
+      "points": "points",
+      "alreadyAnswered": "Vous avez déjà répondu.",
+      "overcall": "Décider comme ouvreur",
+      "response": "Continuer comme répondant"
+    },
+    "suitNames": {
+      "S": "piques",
+      "H": "cœurs",
+      "D": "carreaux",
+      "C": "trèfles",
+      "NT": "sans atout"
+    },
+    "rankNames": {
+      "A": "as",
+      "K": "roi",
+      "Q": "dame",
+      "J": "valet",
+      "T": "dix"
+    },
+    "positions": {
+      "W": "Ouest",
+      "N": "Nord",
+      "E": "Est",
+      "S": "Sud"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à cœurs, doubleton à piques. Annoncer 2♠ montre le doubleton, pas une longue."
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à cœurs, doubleton à carreaux, couleur de l’enchère Transfer. Annoncer 2SA préserve le nouveau Transfer au palier de 3."
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à cœurs, doubleton à trèfles. Annoncer 3♣ montre le doubleton, pas une longue."
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à cœurs et 4333. Annoncer 3♥ ; le répondant peut passer."
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à piques, doubleton à trèfles. Annoncer 3♣ montre le doubleton, pas une longue."
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à piques, doubleton à carreaux. Annoncer 3♦ montre le doubleton, pas une longue."
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à piques, doubleton à cœurs, couleur de l’enchère Transfer. Annoncer 2SA préserve le nouveau Transfer au palier de 3."
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, quatre cartes à piques et 4333. Annoncer 3♠ ; le répondant peut passer."
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "16 points H, quatre cœurs : 2♥. Notre super-acceptation exige 17 points H."
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme ouvreur ?",
+      "explanation": "17 points H, mais seulement trois piques : 2♠. Il faut quatre atouts pour super-accepter."
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "3 points H, insuffisants pour la manche. Face aux 17 points H et quatre atouts, annoncer 3♦ comme nouveau Transfer, puis passer au palier de 3."
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "3 points H, insuffisants pour la manche. Face aux 17 points H et quatre atouts, annoncer 3♥ comme nouveau Transfer, puis passer au palier de 3."
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "3 points H. L’ouvreur a déjà nommé la majeure au palier de 3 avec 17 points H, quatre atouts et 4333. Passer."
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "10 points H face à 17, avec neuf atouts : annoncer 4♦, nouveau Transfer au palier de 4, puis passer la manche. Pas d’intérêt de chelem."
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "10 points H face à 17, avec neuf atouts : annoncer 4♥, nouveau Transfer au palier de 4, puis passer la manche. Pas d’intérêt de chelem."
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "12 points H. L’ouvreur montre 17 points H, quatre piques et 4333 : annoncer 4♠ sans nouveau Transfer."
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "17 points H, intérêt de chelem : 3♠ montre le roi, contrôle du second tour. 3♦ reste un nouveau Transfer. Les carreaux ne sont pas contrôlés : attendre avant Blackwood."
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "17 points H, intérêt de chelem : 4♣, contrôle économique au-dessus de 3♠, grâce au roi. 3♥ reste un nouveau Transfer. Il manque un renseignement sur les cœurs."
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "17 points H, bons atouts et contrôles latéraux assurés. L’ouvreur a déjà nommé notre majeure. Annoncer 4SA, demande de cartes clés."
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Comment poursuivez-vous comme répondant ?",
+      "explanation": "17 points H, bons atouts et contrôles latéraux assurés. L’ouvreur a déjà nommé notre majeure. Annoncer 4SA, demande de cartes clés."
+    }
+  ],
+  "route": "fr/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

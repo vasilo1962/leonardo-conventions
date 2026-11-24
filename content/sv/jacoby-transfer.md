@@ -130,6 +130,6 @@ Efter inviterande 3 i högfärgen passar öppnaren eller bjuder 4 efter handvär
 ## Att tänka på
 
 - **Transfer lovar inga poäng.** Öppnaren accepterar eftersom partnern kanske vill stanna lågt.
-- **Accepterandet visar varken stöd eller minimum.** Öppnaren bjuder begärd högfärg (om inte paret spelar superaccept, som behandlas i en annan lektion).
+- **Accepterandet visar varken stöd eller minimum.** Öppnaren bjuder begärd högfärg [Superaccept av Jacoby Transfer](../jacoby-superaccept/).
 - **2NT och 3 i högfärgen är inviter.** Öppnaren får passa eller välja lämpligt kontrakt.
 - **3NT efter Transfer ger ett utgångsval.** Med femkorts högfärg bestämmer vi inte ensamma att spela sang.

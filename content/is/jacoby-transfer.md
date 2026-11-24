@@ -130,6 +130,6 @@ Eftir áskorun í 3 í hálit passar opnari eða segir 4 eftir handmati. Ekki te
 ## Atriði til að muna
 
 - **Transfer lofar engum punktum.** Opnari tekur við því makker gæti viljað stoppa lágt.
-- **Viðtakan sýnir hvorki samlegu né lágmark.** Opnari segir umbeðinn hálit (nema parið spili yfirviðtöku, sem verður kennd sérstaklega).
+- **Viðtakan sýnir hvorki samlegu né lágmark.** Opnari segir umbeðinn hálit [Superaccept eftir Jacoby Transfer](../jacoby-superaccept/).
 - **2G og 3 í hálit eru áskoranir.** Opnari má passa eða velja viðeigandi samning.
 - **3G eftir Transfer gefur val á geim.** Með fimmlita hálit ákveðum við ekki einhliða að spila grand.

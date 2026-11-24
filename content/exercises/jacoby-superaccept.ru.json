@@ -1,0 +1,905 @@
+{
+  "title": "Суперакцепт Jacoby Transfer",
+  "language": "ru",
+  "ui": {
+    "overcall": "Решение открывающего",
+    "response": "Продолжение отвечающего",
+    "overcallQuestion": "Как продолжить открывающему?",
+    "responseQuestion": "Как продолжить отвечающему?",
+    "description": "Суперакцепт Jacoby Transfer: теория, примеры и 20 упражнений.",
+    "agreements": "1БК 15–17, без оверкола противников. Версия урока; после суперакцепта 4БК спрашивает ключевые карты.",
+    "locale": {
+      "exercises": "Упражнения",
+      "back": "К уроку",
+      "eyebrow": "УПРАЖНЕНИЯ",
+      "intro": "Вы видите только свою руку. Выберите заявку в боксе.",
+      "type": "Тип упражнения",
+      "previous": "Предыдущее упражнение",
+      "exercise": "Упражнение",
+      "correctCount": "Верно",
+      "vulnerability": "Никто не в зоне",
+      "table": "Учебный стол",
+      "question": "Что заявляете?",
+      "hand": "Ваша рука, 13 карт",
+      "you": "Вы",
+      "south": "Юг",
+      "turn": "Ваш ход",
+      "result": "Результат",
+      "next": "Следующее упражнение",
+      "completed": "Группа завершена",
+      "restart": "Повторить те же руки",
+      "return": "К уроку",
+      "noscript": "Для интерактивных упражнений нужен JavaScript.",
+      "footer": "Упражнения по конвенциям",
+      "pass": "Пас",
+      "double": "Контра",
+      "redouble": "Реконтра",
+      "auction": "Торговля до сих пор",
+      "partner": "Партнёр",
+      "opponent": "Противник",
+      "noBid": "нет заявки в этом круге",
+      "answered": "Ответ дан",
+      "correct": "Верно!",
+      "rightBid": "Правильная заявка",
+      "choice": "Ваш выбор",
+      "seeResult": "Посмотреть результат",
+      "bidLevels": "Заявки от 1 до 7",
+      "actions": "Пас, контра и реконтра",
+      "groupDone": "Группа завершена",
+      "points": "очков",
+      "alreadyAnswered": "Вы уже ответили.",
+      "overcall": "Решение открывающего",
+      "response": "Продолжение отвечающего"
+    },
+    "suitNames": {
+      "S": "пики",
+      "H": "червы",
+      "D": "бубны",
+      "C": "трефы",
+      "NT": "без козыря"
+    },
+    "rankNames": {
+      "A": "туз",
+      "K": "король",
+      "Q": "дама",
+      "J": "валет",
+      "T": "десятка"
+    },
+    "positions": {
+      "W": "Запад",
+      "N": "Север",
+      "E": "Восток",
+      "S": "Юг"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти червы, дублет в масти пики. 2♠ показывает дублет, не длинную боковую масть."
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти червы, дублет в масти заявки Transfer: бубны. 2БК сохраняет повторный Transfer на третьем уровне."
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти червы, дублет в масти трефы. 3♣ показывает дублет, не длинную боковую масть."
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти червы, 4333. Заявляем 3♥; партнёр может пасовать."
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти пики, дублет в масти трефы. 3♣ показывает дублет, не длинную боковую масть."
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти пики, дублет в масти бубны. 3♦ показывает дублет, не длинную боковую масть."
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти пики, дублет в масти заявки Transfer: червы. 2БК сохраняет повторный Transfer на третьем уровне."
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, четыре карты в масти пики, 4333. Заявляем 3♠; партнёр может пасовать."
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "16 очков за онёры и четыре червы: 2♥. Для суперакцепта нужно 17 очков."
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить открывающему?",
+      "explanation": "17 очков за онёры, но только три пики: 2♠. Для суперакцепта нужны четыре козыря."
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "3 очков за онёры не хватает для гейма. Напротив 17 и четырёх козырей 3♦ повторяет Transfer; затем пас на три в мажоре."
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "3 очков за онёры не хватает для гейма. Напротив 17 и четырёх козырей 3♥ повторяет Transfer; затем пас на три в мажоре."
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "3 очков за онёры. Открывающий уже назвал три в мажоре: 17 очков, четыре козыря, 4333. Пас."
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "10 очков за онёры напротив 17 и девять козырей: 4♦, Transfer на четвёртом уровне, затем пас на гейм. Без интереса к шлему."
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "10 очков за онёры напротив 17 и девять козырей: 4♥, Transfer на четвёртом уровне, затем пас на гейм. Без интереса к шлему."
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "12 очков за онёры. Напротив 17, четырёх пик и 4333: 4♠ без повторного Transfer."
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "17 очков за онёры и интерес к шлему: 3♠ показывает короля, контроль второго круга. 3♦ остаётся Transfer. Нет бубнового контроля; пока не спрашиваем ключевые карты."
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "17 очков за онёры и интерес к шлему: 4♣ — самый дешёвый контроль выше 3♠, королём. 3♥ остаётся Transfer. Нужно выяснить контроль червей."
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "17 очков за онёры, хорошие козыри и все боковые контроли. Открывающий уже назвал мажор. 4БК спрашивает ключевые карты."
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Как продолжить отвечающему?",
+      "explanation": "17 очков за онёры, хорошие козыри и все боковые контроли. Открывающий уже назвал мажор. 4БК спрашивает ключевые карты."
+    }
+  ],
+  "route": "ru/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

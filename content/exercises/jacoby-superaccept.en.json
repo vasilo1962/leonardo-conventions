@@ -1,0 +1,905 @@
+{
+  "title": "Superaccepting Jacoby Transfer",
+  "language": "en",
+  "ui": {
+    "overcall": "Decide as opener",
+    "response": "Continue as responder",
+    "overcallQuestion": "How do you continue as opener?",
+    "responseQuestion": "How do you continue as responder?",
+    "description": "Jacoby Transfer superaccepts: theory, examples and 20 exercises for opener and responder.",
+    "agreements": "1NT 15–17, no opposing intervention. We play the lesson’s version; after a superaccept, 4NT asks for keycards.",
+    "locale": {
+      "exercises": "Exercises",
+      "back": "Back to lesson",
+      "eyebrow": "EXERCISES",
+      "intro": "You see only your hand. Choose your bid from the bidding box.",
+      "type": "Exercise type",
+      "previous": "Previous exercise",
+      "exercise": "Exercise",
+      "correctCount": "Correct",
+      "vulnerability": "Neither side vulnerable",
+      "table": "Exercise table",
+      "question": "What do you bid?",
+      "hand": "Your hand, 13 cards",
+      "you": "You",
+      "south": "South",
+      "turn": "Your turn",
+      "result": "Result",
+      "next": "Next exercise",
+      "completed": "You completed the group",
+      "restart": "Try the same hands again",
+      "return": "Return to lesson",
+      "noscript": "JavaScript is required for interactive exercises.",
+      "footer": "Convention exercises",
+      "pass": "Pass",
+      "double": "Double",
+      "redouble": "Redouble",
+      "auction": "Auction so far",
+      "partner": "Partner",
+      "opponent": "Opponent",
+      "noBid": "no bid in this round",
+      "answered": "Answered",
+      "correct": "Correct!",
+      "rightBid": "The correct bid is",
+      "choice": "Your choice",
+      "seeResult": "See the result",
+      "bidLevels": "Bids from 1 to 7",
+      "actions": "Pass, double and redouble",
+      "groupDone": "Group completed",
+      "points": "points",
+      "alreadyAnswered": "You have already answered.",
+      "overcall": "Decide as opener",
+      "response": "Continue as responder"
+    },
+    "suitNames": {
+      "S": "spades",
+      "H": "hearts",
+      "D": "diamonds",
+      "C": "clubs",
+      "NT": "no trumps"
+    },
+    "rankNames": {
+      "A": "ace",
+      "K": "king",
+      "Q": "queen",
+      "J": "jack",
+      "T": "ten"
+    },
+    "positions": {
+      "W": "West",
+      "N": "North",
+      "E": "East",
+      "S": "South"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four hearts and a doubleton in spades. Bid 2♠: this shows the doubleton, not a long side suit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four hearts and doubleton diamonds, in the suit of the Transfer bid. Bid 2NT, leaving room for a three-level retransfer."
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four hearts and a doubleton in clubs. Bid 3♣: this shows the doubleton, not a long side suit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four hearts and 4333. Bid 3♥, showing a superaccept without a doubleton. Responder may pass."
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four spades and a doubleton in clubs. Bid 3♣: this shows the doubleton, not a long side suit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four spades and a doubleton in diamonds. Bid 3♦: this shows the doubleton, not a long side suit."
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four spades and doubleton hearts, in the suit of the Transfer bid. Bid 2NT, leaving room for a three-level retransfer."
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP, four spades and 4333. Bid 3♠, showing a superaccept without a doubleton. Responder may pass."
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "16 HCP and four hearts. Bid 2♥: this version requires 17 HCP to superaccept."
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as opener?",
+      "explanation": "17 HCP but only three spades. Bid 2♠: a superaccept requires four-card support."
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "3 HCP is too weak for game. Opener has shown 17 HCP and four-card support. Bid 3♦ as a retransfer, then pass three of the major."
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "3 HCP is too weak for game. Opener has shown 17 HCP and four-card support. Bid 3♥ as a retransfer, then pass three of the major."
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "3 HCP. Opener has already bid three of the major, showing 17 HCP, four-card support and 4333. Pass."
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "10 HCP opposite 17 and a nine-card fit is enough for game. Bid 4♦ as a four-level retransfer, then pass game. No slam interest."
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "10 HCP opposite 17 and a nine-card fit is enough for game. Bid 4♥ as a four-level retransfer, then pass game. No slam interest."
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "12 HCP. Opener has shown 17 HCP, four spades and 4333. Bid 4♠; no retransfer is needed."
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "17 HCP and slam interest. Bid 3♠, showing the king as second-round control. 3♦ is reserved as a retransfer; diamonds remain uncontrolled, so do not ask for keycards yet."
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "17 HCP and slam interest. Bid 4♣, the cheapest available control above three spades. The king is second-round control; 3♥ is a retransfer. We still need a heart control."
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "17 HCP, strong trumps and all side suits controlled. Opener has already bid our major. Bid 4NT to ask for keycards."
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "How do you continue as responder?",
+      "explanation": "17 HCP, strong trumps and all side suits controlled. Opener has already bid our major. Bid 4NT to ask for keycards."
+    }
+  ],
+  "route": "en/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

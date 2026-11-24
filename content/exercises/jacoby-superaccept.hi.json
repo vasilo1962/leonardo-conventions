@@ -1,0 +1,905 @@
+{
+  "title": "Jacoby Transfer का superaccept",
+  "language": "hi",
+  "ui": {
+    "overcall": "ओपनर के रूप में निर्णय",
+    "response": "रेस्पॉन्डर के रूप में आगे",
+    "overcallQuestion": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+    "responseQuestion": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+    "description": "Jacoby Transfer superaccept: सिद्धांत, उदाहरण और 20 अभ्यास।",
+    "agreements": "1NT 15–17, विरोधियों का overcall नहीं। इस पाठ के समझौते; superaccept के बाद 4NT की-कार्ड पूछता है।",
+    "locale": {
+      "exercises": "अभ्यास",
+      "back": "पाठ पर लौटें",
+      "eyebrow": "अभ्यास",
+      "intro": "आप केवल अपना हाथ देखते हैं। बिडिंग बॉक्स से बोली चुनें।",
+      "type": "अभ्यास का प्रकार",
+      "previous": "पिछला अभ्यास",
+      "exercise": "अभ्यास",
+      "correctCount": "सही",
+      "vulnerability": "कोई पक्ष वल्नरेबल नहीं",
+      "table": "अभ्यास की मेज",
+      "question": "क्या बोलेंगे?",
+      "hand": "आपका हाथ, 13 पत्ते",
+      "you": "आप",
+      "south": "दक्षिण",
+      "turn": "आपकी बारी",
+      "result": "परिणाम",
+      "next": "अगला अभ्यास",
+      "completed": "समूह पूरा हुआ",
+      "restart": "वही हाथ फिर से",
+      "return": "पाठ पर लौटें",
+      "noscript": "इंटरैक्टिव अभ्यास के लिए JavaScript चाहिए।",
+      "footer": "कन्वेंशन अभ्यास",
+      "pass": "पास",
+      "double": "डबल",
+      "redouble": "रीडबल",
+      "auction": "अब तक की बोलियाँ",
+      "partner": "साथी",
+      "opponent": "विरोधी",
+      "noBid": "इस दौर में कोई बोली नहीं",
+      "answered": "जवाब दिया",
+      "correct": "सही!",
+      "rightBid": "सही बोली है",
+      "choice": "आपका चुनाव",
+      "seeResult": "परिणाम देखें",
+      "bidLevels": "1 से 7 तक की बोलियाँ",
+      "actions": "पास, डबल और रीडबल",
+      "groupDone": "समूह पूरा हुआ",
+      "points": "पॉइंट",
+      "alreadyAnswered": "आप पहले ही जवाब दे चुके हैं।",
+      "overcall": "ओपनर के रूप में निर्णय",
+      "response": "रेस्पॉन्डर के रूप में आगे"
+    },
+    "suitNames": {
+      "S": "हुकुम",
+      "H": "पान",
+      "D": "ईंट",
+      "C": "चिड़ी",
+      "NT": "नो ट्रम्प"
+    },
+    "rankNames": {
+      "A": "इक्का",
+      "K": "बादशाह",
+      "Q": "रानी",
+      "J": "गुलाम",
+      "T": "दस"
+    },
+    "positions": {
+      "W": "पश्चिम",
+      "N": "उत्तर",
+      "E": "पूर्व",
+      "S": "दक्षिण"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, पान में चार पत्ते, हुकुम डबलटन। 2♠ डबलटन दिखाता है, लंबा साइड सूट नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, पान में चार पत्ते, Transfer की बोली वाले ईंट सूट में डबलटन। 2NT तीन के स्तर का नया Transfer बचाता है।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, पान में चार पत्ते, चिड़ी डबलटन। 3♣ डबलटन दिखाता है, लंबा साइड सूट नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, पान में चार पत्ते, 4333। 3♥ बोलें; साथी पास कर सकता है।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, हुकुम में चार पत्ते, चिड़ी डबलटन। 3♣ डबलटन दिखाता है, लंबा साइड सूट नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, हुकुम में चार पत्ते, ईंट डबलटन। 3♦ डबलटन दिखाता है, लंबा साइड सूट नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, हुकुम में चार पत्ते, Transfer की बोली वाले पान सूट में डबलटन। 2NT तीन के स्तर का नया Transfer बचाता है।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, हुकुम में चार पत्ते, 4333। 3♠ बोलें; साथी पास कर सकता है।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "16 HCP और चार हार्ट: 2♥। Superaccept के लिए 17 HCP चाहिए।"
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ओपनर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP लेकिन केवल तीन स्पेड: 2♠। Superaccept के लिए चार ट्रम्प चाहिए।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "3 HCP गेम के लिए कम हैं। 17 HCP और चार ट्रम्प के सामने 3♦ से नया Transfer, फिर तीन मेजर पर पास।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "3 HCP गेम के लिए कम हैं। 17 HCP और चार ट्रम्प के सामने 3♥ से नया Transfer, फिर तीन मेजर पर पास।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "3 HCP। ओपनर पहले ही तीन मेजर में 17 HCP, चार ट्रम्प और 4333 दिखा चुका है। पास।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "10 HCP के सामने 17 HCP और नौ ट्रम्प: 4♦, चार के स्तर पर नया Transfer, फिर गेम पर पास। स्लैम रुचि नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "10 HCP के सामने 17 HCP और नौ ट्रम्प: 4♥, चार के स्तर पर नया Transfer, फिर गेम पर पास। स्लैम रुचि नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "12 HCP। 17 HCP, चार स्पेड और 4333 के सामने 4♠; दोबारा Transfer की जरूरत नहीं।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP और स्लैम रुचि: 3♠ किंग से दूसरे राउंड का कंट्रोल दिखाता है। 3♦ नया Transfer है। डायमंड कंट्रोल नहीं, इसलिए अभी की-कार्ड न पूछें।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP और स्लैम रुचि: 4♣, 3♠ के ऊपर सबसे सस्ता कंट्रोल, किंग से। 3♥ नया Transfer है। हार्ट कंट्रोल जाँचना बाकी है।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, अच्छे ट्रम्प और सभी साइड कंट्रोल। ओपनर मेजर बोल चुका है। 4NT की-कार्ड पूछता है।"
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "रेस्पॉन्डर के रूप में कैसे आगे बढ़ेंगे?",
+      "explanation": "17 HCP, अच्छे ट्रम्प और सभी साइड कंट्रोल। ओपनर मेजर बोल चुका है। 4NT की-कार्ड पूछता है।"
+    }
+  ],
+  "route": "hi/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

@@ -1,0 +1,905 @@
+{
+  "title": "Superakzept beim Jacoby Transfer",
+  "language": "de",
+  "ui": {
+    "overcall": "Als Eröffner entscheiden",
+    "response": "Als Antwortender fortsetzen",
+    "overcallQuestion": "Wie bieten Sie als Eröffner weiter?",
+    "responseQuestion": "Wie bieten Sie als Antwortender weiter?",
+    "description": "Jacoby Transfer mit Superakzept: Theorie, Beispiele und 20 Übungen.",
+    "agreements": "1SA 15–17, ohne gegnerische Gegenreizung. Es gilt die Unterrichtsvariante; nach Superakzept fragt 4SA nach Schlüsselkarten.",
+    "locale": {
+      "exercises": "Übungen",
+      "back": "Zurück zur Lektion",
+      "eyebrow": "ÜBUNGEN",
+      "intro": "Du siehst nur deine Hand. Wähle dein Gebot aus der Bidding Box.",
+      "type": "Übungsart",
+      "previous": "Vorherige Übung",
+      "exercise": "Übung",
+      "correctCount": "Richtig",
+      "vulnerability": "Niemand in Gefahr",
+      "table": "Übungstisch",
+      "question": "Was bietest du?",
+      "hand": "Deine Hand, 13 Karten",
+      "you": "Du",
+      "south": "Süd",
+      "turn": "Du bist dran",
+      "result": "Ergebnis",
+      "next": "Nächste Übung",
+      "completed": "Gruppe abgeschlossen",
+      "restart": "Dieselben Hände erneut",
+      "return": "Zurück zur Lektion",
+      "noscript": "Interaktive Übungen benötigen JavaScript.",
+      "footer": "Konventionsübungen",
+      "pass": "Pass",
+      "double": "Kontra",
+      "redouble": "Rekontra",
+      "auction": "Bisherige Reizung",
+      "partner": "Partner",
+      "opponent": "Gegner",
+      "noBid": "kein Gebot in dieser Runde",
+      "answered": "Geantwortet",
+      "correct": "Richtig!",
+      "rightBid": "Das richtige Gebot ist",
+      "choice": "Deine Wahl",
+      "seeResult": "Ergebnis ansehen",
+      "bidLevels": "Gebote von 1 bis 7",
+      "actions": "Pass, Kontra und Rekontra",
+      "groupDone": "Gruppe abgeschlossen",
+      "points": "Punkte",
+      "alreadyAnswered": "Du hast bereits geantwortet.",
+      "overcall": "Als Eröffner entscheiden",
+      "response": "Als Antwortender fortsetzen"
+    },
+    "suitNames": {
+      "S": "Pik",
+      "H": "Coeur",
+      "D": "Karo",
+      "C": "Treff",
+      "NT": "Sans Atout"
+    },
+    "rankNames": {
+      "A": "Ass",
+      "K": "König",
+      "Q": "Dame",
+      "J": "Bube",
+      "T": "Zehn"
+    },
+    "positions": {
+      "W": "West",
+      "N": "Nord",
+      "E": "Ost",
+      "S": "Süd"
+    }
+  },
+  "questions": [
+    {
+      "id": "jacoby-superaccept-opener-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-S",
+      "major": "H",
+      "hand": {
+        "S": "A3",
+        "H": "KQ84",
+        "D": "AQT4",
+        "C": "Q62"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Coeur, Doubleton in Pik. 2♠ zeigt das Doubleton, keine lange Nebenfarbe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "H",
+      "hand": {
+        "S": "K973",
+        "H": "AJ83",
+        "D": "AK",
+        "C": "Q93"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Coeur, Doubleton in Karo, der gebotenen Transferfarbe. 2SA erhält den Retransfer auf Dreierstufe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "H",
+      "hand": {
+        "S": "KJT",
+        "H": "KQ86",
+        "D": "AKJ9",
+        "C": "96"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Coeur, Doubleton in Treff. 3♣ zeigt das Doubleton, keine lange Nebenfarbe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "H",
+      "hand": {
+        "S": "K54",
+        "H": "AKJ6",
+        "D": "AQ8",
+        "C": "942"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Coeur und 4333. 3♥ bietet einen passbaren Superakzept ohne Doubleton."
+    },
+    {
+      "id": "jacoby-superaccept-opener-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-C",
+      "major": "S",
+      "hand": {
+        "S": "AKT8",
+        "H": "AQJ6",
+        "D": "T83",
+        "C": "K3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Pik, Doubleton in Treff. 3♣ zeigt das Doubleton, keine lange Nebenfarbe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-D",
+      "major": "S",
+      "hand": {
+        "S": "Q984",
+        "H": "A97",
+        "D": "A4",
+        "C": "AQJ2"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Pik, Doubleton in Karo. 3♦ zeigt das Doubleton, keine lange Nebenfarbe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "doubleton-H",
+      "major": "S",
+      "hand": {
+        "S": "K642",
+        "H": "KT",
+        "D": "AK63",
+        "C": "A43"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Pik, Doubleton in Coeur, der gebotenen Transferfarbe. 2SA erhält den Retransfer auf Dreierstufe."
+    },
+    {
+      "id": "jacoby-superaccept-opener-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "flat",
+      "major": "S",
+      "hand": {
+        "S": "Q972",
+        "H": "A84",
+        "D": "KQ6",
+        "C": "AQ3"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, vier Karten in Pik und 4333. 3♠ bietet einen passbaren Superakzept ohne Doubleton."
+    },
+    {
+      "id": "jacoby-superaccept-opener-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "nonmaximum",
+      "major": "H",
+      "hand": {
+        "S": "A74",
+        "H": "AT64",
+        "D": "AT32",
+        "C": "A9"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "16 Figurenpunkte und vier Coeur: 2♥. Unsere Superakzept-Vereinbarung verlangt 17 Figurenpunkte."
+    },
+    {
+      "id": "jacoby-superaccept-opener-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "three-trumps",
+      "major": "S",
+      "hand": {
+        "S": "T94",
+        "H": "AKT5",
+        "D": "AK97",
+        "C": "KT"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Eröffner weiter?",
+      "explanation": "17 Figurenpunkte, aber nur drei Pik: 2♠. Zum Superakzept braucht man vier Trümpfe."
+    },
+    {
+      "id": "jacoby-superaccept-responder-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "H",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "T74",
+        "H": "J9863",
+        "D": "85",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "3 Figurenpunkte reichen nicht zum Vollspiel. Gegenüber 17 und vier Trümpfen 3♦ als Retransfer bieten, dann auf Dreierstufe passen."
+    },
+    {
+      "id": "jacoby-superaccept-responder-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-retransfer",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "Q9864",
+        "H": "J72",
+        "D": "85",
+        "C": "963"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "3 Figurenpunkte reichen nicht zum Vollspiel. Gegenüber 17 und vier Trümpfen 3♥ als Retransfer bieten, dann auf Dreierstufe passen."
+    },
+    {
+      "id": "jacoby-superaccept-responder-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "partscore-flat",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "963",
+        "H": "QT875",
+        "D": "J84",
+        "C": "72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "3 Figurenpunkte. Der Eröffner hat mit 17, Viererfit und 4333 bereits drei in der Oberfarbe geboten. Passen."
+    },
+    {
+      "id": "jacoby-superaccept-responder-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "H",
+      "superaccept": "2S",
+      "hand": {
+        "S": "K83",
+        "H": "AQ975",
+        "D": "J64",
+        "C": "82"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "10 Figurenpunkte gegenüber 17 bei neun Trümpfen: 4♦ als Retransfer auf Viererstufe, danach das Vollspiel passen. Kein Schlemminteresse."
+    },
+    {
+      "id": "jacoby-superaccept-responder-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-retransfer",
+      "major": "S",
+      "superaccept": "2NT",
+      "hand": {
+        "S": "KQ974",
+        "H": "83",
+        "D": "A62",
+        "C": "J85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "10 Figurenpunkte gegenüber 17 bei neun Trümpfen: 4♥ als Retransfer auf Viererstufe, danach das Vollspiel passen. Kein Schlemminteresse."
+    },
+    {
+      "id": "jacoby-superaccept-responder-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "game-flat",
+      "major": "S",
+      "superaccept": "3S",
+      "hand": {
+        "S": "AQJ86",
+        "H": "K72",
+        "D": "85",
+        "C": "Q63"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "12 Figurenpunkte. Gegenüber 17, vier Pik und 4333 direkt 4♠ bieten; kein Retransfer nötig."
+    },
+    {
+      "id": "jacoby-superaccept-responder-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "H",
+      "superaccept": "3C",
+      "hand": {
+        "S": "K84",
+        "H": "AKJ73",
+        "D": "85",
+        "C": "AQ2"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "17 Figurenpunkte und Schlemminteresse: 3♠ zeigt den König als Zweitrundenkontrolle. 3♦ bleibt Retransfer. Karo ist unkontrolliert; noch nicht nach Schlüsselkarten fragen."
+    },
+    {
+      "id": "jacoby-superaccept-responder-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-control",
+      "major": "S",
+      "superaccept": "3D",
+      "hand": {
+        "S": "AQJ86",
+        "H": "75",
+        "D": "AK4",
+        "C": "K72"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "17 Figurenpunkte und Schlemminteresse: 4♣ zeigt die billigste Kontrolle oberhalb von 3♠, hier den König. 3♥ bleibt Retransfer. Die Coeurkontrolle muss noch geklärt werden."
+    },
+    {
+      "id": "jacoby-superaccept-responder-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "H",
+      "superaccept": "3H",
+      "hand": {
+        "S": "A83",
+        "H": "KQJ74",
+        "D": "A62",
+        "C": "K8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2D"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "17 Figurenpunkte, gute Trümpfe und alle Seitenkontrollen. Der Eröffner hat unsere Oberfarbe schon geboten. 4SA fragt nach Schlüsselkarten."
+    },
+    {
+      "id": "jacoby-superaccept-responder-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "slam-keycards",
+      "major": "S",
+      "superaccept": "3C",
+      "hand": {
+        "S": "KQJ96",
+        "H": "A83",
+        "D": "K72",
+        "C": "A8"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "3H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Wie bieten Sie als Antwortender weiter?",
+      "explanation": "17 Figurenpunkte, gute Trümpfe und alle Seitenkontrollen. Der Eröffner hat unsere Oberfarbe schon geboten. 4SA fragt nach Schlüsselkarten."
+    }
+  ],
+  "route": "de/jacoby-superaccept-practice/",
+  "lessonHref": "../jacoby-superaccept/"
+}

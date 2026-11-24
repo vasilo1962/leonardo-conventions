@@ -12,7 +12,7 @@ assert.equal(new Set(data.questions.map(q=>q.id)).size,20);
 assert.equal(new Set(data.questions.map(q=>key(q.hand))).size,20);
 for(const role of ['overcall','response'])assert.equal(data.questions.filter(q=>q.role===role).length,10);
 const previous=new Set();
-for(const file of await readdir('content/exercises'))if(file.endsWith('.json')&&file!=='jacoby-superaccept.el.json'){
+for(const file of await readdir('content/exercises'))if(file.endsWith('.json')&&!file.startsWith('jacoby-superaccept.')){
  const old=JSON.parse(await readFile('content/exercises/'+file,'utf8'));
  for(const q of old.questions)previous.add(key(q.hand));
 }
