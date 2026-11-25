@@ -86,7 +86,7 @@ function initializeExercises() {
   const $ = selector => document.querySelector(selector);
   const sessions = {};
   let mode = 'overcall';
-  const start = role => ({ questions: shuffled(questions.filter(q => q.role === role)), index: 0, answers: new Map(), finished: false });
+  const start = role => ({ questions: shuffled(questions.filter(q => q.role === role)), index: 0, furthestIndex: 0, answers: new Map(), finished: false });
   sessions.overcall = start('overcall');
   sessions.response = start('response');
   const current = () => sessions[mode].questions[sessions[mode].index];
@@ -236,7 +236,9 @@ function initializeExercises() {
     clearTimeout(announceTimer);
     $('#exercise-announcement').textContent = '';
     const session = sessions[mode];
+    session.furthestIndex = Math.max(session.furthestIndex, session.index);
     $('#previous-exercise').disabled = session.index === 0 || session.finished;
+    $('#forward-exercise').disabled = session.index >= session.furthestIndex || session.finished;
     document.querySelectorAll('[data-mode]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.mode === mode)));
     summary.hidden = !session.finished; table.hidden = session.finished; feedback.hidden = true;
     for (const selector of ['.exercise-intro', '.exercise-modes', '.exercise-progress']) {
@@ -286,6 +288,13 @@ function initializeExercises() {
     const session = sessions[mode];
     if (session.index === 0 || session.finished) return;
     session.index--;
+    render(true);
+    $('#exercise-question').scrollIntoView({ block: 'start', behavior: 'instant' });
+  });
+  $('#forward-exercise').addEventListener('click', () => {
+    const session = sessions[mode];
+    if (session.index >= session.furthestIndex || session.finished) return;
+    session.index++;
     render(true);
     $('#exercise-question').scrollIntoView({ block: 'start', behavior: 'instant' });
   });
