@@ -27,8 +27,8 @@
 .catalog .card-link strong{font-size:calc(0.026 * 100vh);font-weight:650;line-height:1.40}
 .catalog .catalog-tags{font-size:calc(0.017 * 100vh);font-weight:400;line-height:1.50}
 .catalog .convention-entry{column-gap:calc(0.015 * 100vw)}
-.catalog .card-link,.catalog .card-link:first-child{padding-block:0}
 @media(max-width:600px){
+  .catalog .card-link,.catalog .card-link:first-child{padding-block:0}
   .catalog{font-size:calc(0.022 * 2 * 100vw)}
   .catalog>.eyebrow{font-size:calc(0.018 * 2 * 100vw)}
   .catalog>h1{font-size:calc(0.065 * 2 * 100vw)}
