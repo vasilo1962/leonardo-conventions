@@ -21,11 +21,20 @@ for (const language of languages) {
   }
   assert.ok(html.includes('class="catalog-filters" hidden'));
   assert.ok(html.indexOf('</section>') < html.indexOf('<fieldset'), 'Filters follow the whole list');
-  assert.ok(rows.every(row => row[3].includes('class="tag-separator" aria-hidden="true">, </span>')), 'Row tags have comma separators');
+  for (const row of rows) {
+    const rowButtons = [...row[3].matchAll(/<button[^>]*>([\s\S]*?)<\/button>/g)];
+    assert.equal(rowButtons.length, row[2].split(' ').length);
+    rowButtons.forEach((button, index) => {
+      assert.equal(button[1].includes('<span class="tag-separator" aria-hidden="true">\u2060,</span>'), index < rowButtons.length - 1, 'Comma belongs to preceding tag, with nonbreaking glue');
+    });
+  }
+  assert.ok(!html.includes('</button><span class="tag-separator"'), 'No detached comma between buttons');
   assert.ok(html.includes('role="status" aria-live="polite" aria-atomic="true"'));
   const filters = html.slice(html.indexOf('<fieldset'), html.indexOf('</fieldset>'));
   const controls = [...filters.matchAll(/data-topic="([^"]+)"/g)].map(m => m[1]);
   assert.equal(new Set(controls).size, controls.length);
+  const filterButtons = [...filters.matchAll(/<button[^>]*>([\s\S]*?)<\/button>/g)];
+  filterButtons.forEach((button, index) => assert.equal(button[1].includes('<span class="tag-separator" aria-hidden="true">\u2060,</span>'), index < filterButtons.length - 1));
   const expected = topic => rows.filter(row => topic === 'all' || row[2].split(' ').includes(topic)).map(row => row[1]);
   assert.deepEqual(expected('two-suited').sort(), ['dont','michaels-cue-bid','multi-landy','unusual-2nt']);
   assert.deepEqual(expected('late-opening-responses').sort(), ['drury','two-way-drury']);
