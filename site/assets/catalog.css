@@ -18,3 +18,21 @@
 .catalog-filters[hidden],.convention-entry[hidden]{display:none}
 @media(max-width:600px){.convention-entry{align-items:flex-start;flex-direction:column;gap:5px;padding:10px 0}.catalog .card-link,.catalog .card-link:first-child{flex:none}.catalog-tags{flex:auto;text-align:start;font-size:12px}.catalog-filter-buttons{font-size:13px}}
 @media print{.catalog-filters{display:none}.catalog-tag{color:var(--muted)}.convention-entry[hidden]{display:flex}}
+
+/* Agreed catalog typography: k × viewport height on laptop,
+   k × 2 × viewport width on mobile. Scope excludes lessons and exercises. */
+.catalog{font-size:calc(0.022 * 100vh);font-weight:400}
+.catalog>.eyebrow{font-size:calc(0.018 * 100vh);font-weight:700}
+.catalog>h1{font-size:calc(0.065 * 100vh);font-weight:500}
+.catalog .card-link strong{font-size:calc(0.026 * 100vh);font-weight:650;line-height:1.40}
+.catalog .catalog-tags{font-size:calc(0.017 * 100vh);font-weight:400;line-height:1.50}
+.catalog .convention-entry{column-gap:calc(0.015 * 100vw)}
+.catalog .card-link,.catalog .card-link:first-child{padding-block:0}
+@media(max-width:600px){
+  .catalog{font-size:calc(0.022 * 2 * 100vw)}
+  .catalog>.eyebrow{font-size:calc(0.018 * 2 * 100vw)}
+  .catalog>h1{font-size:calc(0.065 * 2 * 100vw)}
+  .catalog .card-link strong{font-size:calc(0.026 * 2 * 100vw)}
+  .catalog .catalog-tags{font-size:calc(0.017 * 2 * 100vw)}
+  .catalog .convention-entry{gap:calc(0.026 * 2 * 100vw * 0.35)}
+}
