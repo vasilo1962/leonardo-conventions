@@ -9,7 +9,7 @@ assert.equal(new Set(questions.map(q=>JSON.stringify(q.hand))).size,20);
 for(const role of ['overcall','response'])assert.equal(questions.filter(q=>q.role===role).length,10);
 assert.equal(questions.filter(q=>q.role==='overcall'&&q.kind==='convention').length,8);
 assert.equal(questions.filter(q=>q.kind==='contrast').length,2);
-const expectedHcp=[9,8,10,10,9,10,8,10,6,12,15,17,16,9,12,9,12,15,15,17];
+const expectedHcp=[9,8,10,10,9,10,8,10,4,12,15,17,16,9,12,9,12,15,15,17];
 for(const [index,q] of questions.entries()){
  const cards=handCards(q.hand),hcp=cards.reduce((n,c)=>n+(points[c.rank]||0),0),len=s=>q.hand[s].length;
  assert.equal(cards.length,13,q.id);assert.equal(new Set(cards.map(c=>c.suit+c.rank)).size,13,q.id);
@@ -30,8 +30,8 @@ for(const [index,q] of questions.entries()){
    assert.ok(len('S')===4||len('H')===4,q.id);assert.ok(Math.max(len('S'),len('H'))===4,q.id);
    assert.ok(hcp>=8&&hcp<=12,q.id);assert.equal(q.answer,'2C');
    assert.equal(q.objective,hcp<=9?'invitation':'game');
-  }else if(q.objective==='transfer'){
-   assert.equal(q.answer,'2D');assert.equal(len('H'),6);assert.ok(len('S')<4&&hcp<=6);
+  }else if(q.objective==='weak-balanced'){
+   assert.equal(q.answer,'PASS');assert.ok(hcp<6);assert.equal(len('S'),4);assert.deepEqual(Object.values(q.hand).map(h=>h.length).sort(),[3,3,3,4]);
   }else{
    assert.equal(q.answer,'3NT');assert.ok(len('S')<4&&len('H')<4&&hcp>=11);
   }
