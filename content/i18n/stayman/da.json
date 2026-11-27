@@ -1,0 +1,52 @@
+{
+  "h": [
+    "Hvornår bruges det?",
+    "Hvad er formålet?",
+    "Eksempler på første svar",
+    "Åbners svar",
+    "Svarhåndens fortsættelse",
+    "Vigtige punkter"
+  ],
+  "meta": "Stayman efter en 1UT-åbning: krav, åbners svar og fortsættelser med eller uden majorfit. Teori, eksempler og interaktive øvelser.",
+  "shape": [
+    "Vi har fire kort i begge majorfarver.",
+    "Vi har fire hjerter.",
+    "Vi har fire spar."
+  ],
+  "p": [
+    "1UT viser styrke og en jævn hånd, men ikke en mulig firefarve i major. Stayman søger majorfit før valget af sans.",
+    "Efter 1UT med 15–17 honnørpoint, uden modpartens indmelding, har vi mindst en firefarve i major og 8 honnørpoint. Kunstige 2♣ spørger efter major, lover ikke klør og kræver svar.",
+    "Bemærk: bruges direkte 2UT som Transfer til minor, går invitationen i sans gennem Stayman. Med denne aftale lover 2♣ ikke nødvendigvis fire kort i major. Transfer til minorfarverne bliver næste lektion.",
+    "Vi behandler grundformen. Svage anvendelser kræver passende fordeling og aftalte fortsættelser og er ikke med her.",
+    "Et 4–4-fit i major kan være bedre end sans: trumfer giver trumfninger og udnytter fordelingen. Stayman giver plads til valg af niveau og farve.",
+    "Over for 15–17 er 8–9 honnørpoint normalt inviterende og mindst 10 sædvanligvis nok til udgang. Fordeling og kortkvalitet tæller også.",
+    "Vi har {hcp} honnørpoint. {shape} Vi melder 2♣ Stayman for at søge fit før en udgangsinvitation, uden endnu at kræve udgang.",
+    "Vi har {hcp} honnørpoint. {shape} Vi melder 2♣ Stayman før udgangsvalget: major med fit, ellers normalt 3UT.",
+    "Med begge majorfarver fjerde svarer åbner først 2♥. Svarene viser farver, ikke minimum eller maksimum.",
+    "Efter vores 1UT-åbning med {hcp} honnørpoint svarer vi 2♦: ingen firefarve i major. Ruderne her er tilfældige; 2♦ lover ikke ruder.",
+    "Med {hcp} honnørpoint og begge majorfarver fjerde svarer vi 2♥. Spar kan findes senere; maksimum giver ikke grund til spring.",
+    "Med {hcp} honnørpoint, fire spar og kun tre hjerter svarer vi 2♠ og benægter fire hjerter.",
+    "Med fit og 8–9 honnørpoint inviterer 3♥ eller 3♠ og må passes. Med mindst 10 uden sleminteresse melder vi 4♥ eller 4♠ for at spille.",
+    "Åbner afslår normalt med minimum og accepterer med maksimum. Med mellemstyrke vurderes fordeling og nyttige honnører.",
+    "Efter 1UT – 2♣ – 2♥ inviterer vi med {hcp} honnørpoint og fire hjerter gennem 3♥. Åbner bestemmer.",
+    "Med {hcp} honnørpoint og firekortsstøtte i {major} melder vi {answer} for at spille. Der er udgang også over for minimum, uden sleminteresse.",
+    "Uden majorfit inviterer 8–9 honnørpoint med 2UT; med mindst 10 uden sleminteresse er grundvalget 3UT.",
+    "Det forudsætter en hånd egnet til sans. 5–4 i major og særlige fortsættelser kræver yderligere aftaler.",
+    "Efter 1UT – 2♣ – 2♦ har vi {hcp} honnørpoint. Åbner benægtede firefarve i major, så der er intet sparfit. 2UT inviterer: pas med minimum eller 3UT med passende maksimum.",
+    "Efter 1UT – 2♣ – 2♥ har vi {hcp} honnørpoint, fire spar og to hjerter. Vi melder 3UT. Stayman uden hjerterstøtte viser her spar: med fire spar retter åbner til 4♠, ellers pas.",
+    "I grundformen, der lover firefarve i major, melder åbner efter 1UT – 2♣ – 2♥ – 2UT med fire spar pasbare 3♠ med minimum eller 4♠ for at acceptere. Uden fire spar: pas eller 3UT. Slutningen gælder ikke automatisk med minor-Transfer-aftalen ovenfor.",
+    "2♣ kræver én runde, ikke udgang. 2♦ viser ikke ruder; 2♥ benægter ikke fire spar. Point alene er ikke nok til grundformen. Med kun én mindst femkorts major og færre end fire i den anden bruges normalt Jacoby Transfer. Første svar angiver ikke præcis styrke inden for 15–17."
+  ],
+  "e": [
+    "Med 4 honnørpoint, fire spar og 4–3–3–3 passer vi 1UT. Hverken invitationsstyrke eller fordeling taler for et andet kontraktforsøg. Fire kort i major alene er ikke nok.",
+    "Med 12 honnørpoint og en jævn hånd uden firefarve i major melder vi direkte 3UT; ingen major skal undersøges.",
+    "Vi har 15 honnørpoint. Efter vores Stayman-svar 2♥ viser makkers 3UT udgangsstyrke og fire spar uden hjerterfit. Med fire spar melder vi 4♠, også med minimum.",
+    "Med 15 honnørpoint og 4–3–3–3 passer vi efter vores Stayman-svar 2♠ makkers invitation 3♠ med fit: minimum uden ekstra fordelingsværdi.",
+    "Med 17 honnørpoint accepterer vi efter vores Stayman-svar 2♥ makkers invitation 3♥ med fit ved at melde 4♥."
+  ],
+  "answers": [
+    "Ingen firefarve i major; lover ikke ruder.",
+    "Fire hjerter; kan også have fire spar.",
+    "Fire spar, ikke fire hjerter."
+  ]
+}

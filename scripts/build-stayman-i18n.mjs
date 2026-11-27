@@ -1,0 +1,54 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {articles} from './articles.mjs';
+const read=p=>fs.readFileSync(p,'utf8'),write=(p,s)=>fs.writeFileSync(p,s);
+const languages=JSON.parse(read('content/i18n/languages.json'));
+const greek=JSON.parse(read('content/exercises/stayman.el.json'));
+const hands=read('content/el/stayman.md').match(/^♠ .+\n♥ .+\n♦ .+\n♣ .+$/gm);assert.equal(hands.length,9);
+const nt={fr:'SA',de:'SA',it:'SA',es:'ST',pt:'ST',nl:'SA',da:'UT',pl:'BA',cs:'BT',is:'G',ru:'БК'};
+const descriptions=JSON.parse(read('content/i18n/article-descriptions.json'));
+descriptions.stayman.el='Stayman μετά από άνοιγμα 1ΝΤ: προϋποθέσεις, απαντήσεις του ανοίξαντος και συνέχειες με ή χωρίς φιτ στα μαζέρ. Θεωρία, παραδείγματα και διαδραστικές ασκήσεις.';
+const responseLabels={"en": "Answers and continuations", "fr": "Réponses et suites", "de": "Antworten und Fortsetzungen", "it": "Risposte e sviluppi", "es": "Respuestas y continuaciones", "pt": "Respostas e continuações", "nl": "Antwoorden en vervolgen", "tr": "Yanıtlar ve devamlar", "sv": "Svar och fortsättningar", "da": "Svar og fortsættelser", "no": "Svar og fortsettelser", "fi": "Vastaukset ja jatkot", "pl": "Odpowiedzi i kontynuacje", "cs": "Odpovědi a pokračování", "hu": "Válaszok és folytatások", "is": "Svör og framhald", "zh": "回答与后续叫牌", "ja": "応答と継続", "he": "תשובות והמשכים", "hi": "उत्तर और आगे की बोली", "ru": "Ответы и продолжения", "id": "Jawaban dan kelanjutan", "ar": "الردود والمتابعات", "th": "คำตอบและการบิดต่อ", "ko": "응답과 후속 비드"};
+const exerciseUi={};const completed=[];
+for(const {code} of languages.filter(l=>l.code!=='el')){
+ const path=`content/i18n/stayman/${code}.json`;if(!fs.existsSync(path))continue;
+ const t=JSON.parse(read(path)),old=JSON.parse(read(`content/exercises/jacoby-transfer.${code}.json`));
+ const loc=s=>s.replace(/([1-7])NT/g,`$1${nt[code]||'NT'}`);
+ const format=(text,values={})=>loc(text.replace(/\{(\w+)\}/g,(_,k)=>{assert.ok(k in values,`${code}: missing ${k}`);return values[k];}));
+ const ex=(index,hcp,shape,major='H',answer='4♥')=>format(t.p[index],{hcp,shape:t.shape[shape],major:old.ui.suitNames[major],answer});
+ let md='# Stayman\n\n'+t.p[0]+'\n\n## '+t.h[0]+'\n\n'+t.p.slice(1,4).join('\n\n')+'\n\n## '+t.h[1]+'\n\n'+t.p.slice(4,6).join('\n\n');
+ md+='\n\n## '+t.h[2]+'\n\n'+hands[0]+'\n\n'+ex(6,9,0)+'\n\n'+hands[1]+'\n\n'+ex(7,11,0);
+ md+='\n\n## '+t.h[3]+'\n\n| Stayman | '+t.h[3]+' |\n| --- | --- |\n';
+ for(let i=0;i<3;i++)md+=`| **${['2♦','2♥','2♠'][i]}** | ${t.answers[i]} |\n`;
+ md+='\n'+t.p[8];
+ for(let i=0;i<3;i++)md+='\n\n'+hands[i+2]+'\n\n'+ex(i+9,15,0);
+ md+='\n\n## '+t.h[4]+'\n\n'+t.p[12]+'\n\n'+t.p[13]+'\n\n'+hands[5]+'\n\n'+ex(14,9,1)+'\n\n'+hands[6]+'\n\n'+ex(15,12,1)+'\n\n'+t.p[16]+'\n\n'+t.p[17]+'\n\n'+hands[7]+'\n\n'+ex(18,9,2)+'\n\n'+hands[8]+'\n\n'+ex(19,12,2)+'\n\n'+t.p[20]+'\n\n## '+t.h[5]+'\n\n'+t.p[21]+'\n';
+ md=loc(md).replaceAll('Jacoby Transfer','[Jacoby Transfer](../jacoby-transfer/)');
+ assert.equal((md.match(/^## /gm)||[]).length,6);assert.ok(!/\{\w+\}/.test(md));
+ write(`content/${code}/stayman.md`,md);
+ const data=structuredClone(greek);data.language=code;data.route=`${code}/stayman-practice/`;data.lessonHref='../stayman/';data.ui=structuredClone(old.ui);
+ Object.assign(data.ui,{overcall:old.ui.overcall,response:responseLabels[code],overcallQuestion:old.ui.locale.question,responseQuestion:old.ui.locale.question,description:t.meta,agreements:loc(t.p[1]+' '+t.p[8])});
+ Object.assign(data.ui.locale,{overcall:data.ui.overcall,response:data.ui.response});
+ for(const [i,q]of data.questions.entries()){
+  const hcp=Object.values(q.hand).join('').split('').reduce((n,r)=>n+({A:4,K:3,Q:2,J:1}[r]||0),0);
+  const shape=q.hand.H.length===4?(q.hand.S.length===4?0:1):2;
+  let text;
+  if(i<8)text=ex(hcp<=9?6:7,hcp,shape);
+  else if(i<10)text=loc(t.e[i-8]);
+  else if(i<13)text=ex(i-1,hcp,shape);
+  else if(i===13)text=ex(14,hcp,1);
+  else if(i===14)text=ex(15,hcp,2,'S','4♠');
+  else if(i===15)text=ex(18,hcp,2);
+  else if(i===16)text=ex(19,hcp,2);
+  else text=loc(t.e[i-15]);
+  q.situation=old.ui.locale.question;q.explanation=text;
+ }
+ write(`content/exercises/stayman.${code}.json`,JSON.stringify(data,null,2)+'\n');
+ descriptions.stayman[code]=t.meta;
+ exerciseUi[code]={title:old.ui.locale.exercises+' · Stayman',text:t.meta,button:old.ui.locale.exercises,href:'../stayman-practice/'};
+ completed.push(code);
+}
+const a=articles.find(a=>a.slug==='stayman');a.languages=['el',...completed];Object.assign(a,{exerciseLanguages:['el',...completed],exerciseUi});
+let source=read('scripts/articles.mjs');source=source.replace(/^  \{.*slug: 'stayman'.*$/m,'  '+JSON.stringify(a)+',').replace(/^  \{"slug":"stayman".*$/m,'  '+JSON.stringify(a)+',');write('scripts/articles.mjs',source);
+write('content/i18n/article-descriptions.json',JSON.stringify(descriptions,null,2)+'\n');
+console.log('Stayman localized: '+completed.join(', '));

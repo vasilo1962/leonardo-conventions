@@ -1,0 +1,52 @@
+{
+  "h": [
+    "When is it used?",
+    "What does it achieve?",
+    "Examples of the initial response",
+    "How does opener respond?",
+    "How does responder continue?",
+    "Points to remember"
+  ],
+  "meta": "Stayman after a 1NT opening: requirements, opener's responses and continuations with or without a major-suit fit. Theory, examples and interactive exercises.",
+  "shape": [
+    "We have four cards in each major.",
+    "We have four hearts.",
+    "We have four spades."
+  ],
+  "p": [
+    "A 1NT opening describes strength and a balanced hand, but leaves a possible four-card major unknown. Stayman looks for a major-suit fit before we choose notrump.",
+    "Here, partner opens 1NT with 15–17 high-card points, without opposing intervention. We hold at least one four-card major and at least 8 high-card points. Our artificial 2♣ asks about a four-card major; it says nothing about clubs and forces opener to reply.",
+    "Note: if a partnership uses a direct 2NT response as a Transfer to a minor, an invitation in notrump goes through Stayman. Under that agreement, 2♣ need not promise a four-card major. Transfers to the minors will be our next lesson.",
+    "This lesson uses basic Stayman. Special weak-hand applications require suitable distribution and agreed continuations; they are outside its scope.",
+    "A 4–4 major-suit fit may play better than notrump: trumps allow ruffs and help us use both hands' distribution. Stayman leaves room to decide the denomination and level.",
+    "Normally, 8–9 high-card points invite game and 10 or more suggest game opposite 15–17. Distribution and card quality also count; these are guidelines.",
+    "We have {hcp} high-card points. {shape} Bid 2♣ Stayman to look for a fit before inviting game; we are not yet committed to game.",
+    "We have {hcp} high-card points. {shape} Bid 2♣ Stayman before choosing a game. With a fit, choose the major; without one, the basic continuation is 3NT.",
+    "With both four-card majors, opener bids 2♥ first. These replies describe the majors, not minimum or maximum strength.",
+    "After opening 1NT with {hcp} high-card points, reply 2♦ to Stayman: there is no four-card major. The diamonds in this hand are incidental; 2♦ does not promise diamonds.",
+    "With {hcp} high-card points and both four-card majors, reply 2♥ first. Spades remain possible and may be found later; maximum strength does not justify a jump.",
+    "With {hcp} high-card points, four spades and only three hearts, reply 2♠. This shows spades and denies four hearts.",
+    "With a fit, 8–9 high-card points invite with 3♥ or 3♠, which opener may pass. With 10 or more and no slam interest, bid 4♥ or 4♠ to play.",
+    "Opener usually declines with a minimum and accepts with a maximum. With an intermediate hand, consider distribution, useful honours and overall quality.",
+    "After 1NT – 2♣ – 2♥, {hcp} high-card points and four hearts justify 3♥, inviting game. Opener makes the final decision.",
+    "With {hcp} high-card points and four-card support in {major}, bid {answer} to play. There is enough for game even opposite opener's minimum, without slam interest.",
+    "Without a major-suit fit, 8–9 high-card points invite with 2NT; with 10 or more and no slam interest, the basic game choice is 3NT.",
+    "These notrump continuations assume a suitable hand. Hands with 5–4 in the majors and their special continuations require further agreements and are outside this basic lesson.",
+    "After 1NT – 2♣ – 2♦, we have {hcp} high-card points. Opener denied a four-card major, so there is no spade fit. Bid 2NT to invite; opener may pass with a minimum or bid 3NT with a suitable maximum.",
+    "After 1NT – 2♣ – 2♥, we have {hcp} high-card points, four spades and only two hearts. Bid 3NT. Because we used Stayman but did not support hearts, opener infers four spades: with four spades, choose 4♠; otherwise pass 3NT.",
+    "In the basic version, where Stayman promises a four-card major, after 1NT – 2♣ – 2♥ – 2NT opener with four spades bids 3♠ with a minimum, passable, or 4♠ to accept. Without four spades, choose pass or 3NT. This inference is not automatic under the minor-Transfer agreement noted above.",
+    "2♣ asks about a major and forces one round, not game. 2♦ denies a four-card major and is not natural; 2♥ does not deny four spades. Points alone do not justify basic Stayman. With one five-card or longer major and fewer than four in the other, normally use Jacoby Transfer. Opener's initial reply does not distinguish strength within 15–17."
+  ],
+  "e": [
+    "We have 4 high-card points, four spades and 4–3–3–3 distribution. Pass 1NT. There is neither invitational strength nor a distributional reason to seek another contract; a four-card major alone is insufficient for Stayman.",
+    "We have 12 high-card points and a balanced hand without a four-card major. Bid 3NT directly: there is no major to investigate with Stayman.",
+    "We have 15 high-card points. After our 2♥ response to Stayman, partner bids 3NT, showing game values and four spades without a heart fit. With our four spades, bid 4♠. Partner has already committed to game opposite a minimum.",
+    "We have 15 high-card points and 4–3–3–3 distribution. After our 2♠ reply to Stayman, partner invites with 3♠, showing a fit. With a minimum and no extra distributional value, pass.",
+    "We have 17 high-card points. After our 2♥ reply to Stayman, partner invites with 3♥, showing a fit. With a maximum, accept by bidding 4♥."
+  ],
+  "answers": [
+    "No four-card major; does not promise diamonds.",
+    "Four hearts; may also have four spades.",
+    "Four spades; denies four hearts."
+  ]
+}

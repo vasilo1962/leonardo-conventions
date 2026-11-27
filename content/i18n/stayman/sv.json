@@ -1,0 +1,52 @@
+{
+  "h": [
+    "När används det?",
+    "Vad är syftet?",
+    "Exempel på första svaret",
+    "Öppnarens svar",
+    "Svarshandens fortsättning",
+    "Att tänka på"
+  ],
+  "meta": "Stayman efter öppningen 1NT: krav, öppnarens svar och fortsättningar med eller utan högfärgsanpassning. Teori, exempel och interaktiva övningar.",
+  "shape": [
+    "Vi har fyra kort i båda högfärgerna.",
+    "Vi har fyra hjärter.",
+    "Vi har fyra spader."
+  ],
+  "p": [
+    "1NT visar styrka och balanserad hand, men inte eventuell fyrkorts högfärg. Stayman söker högfärgsanpassning innan vi väljer sang.",
+    "Efter 1NT med 15–17 honnörspoäng, utan motståndarnas inkliv, har vi minst en fyrkorts högfärg och 8 honnörspoäng. Artificiella 2♣ frågar efter högfärg, lovar inte klöver och kräver svar.",
+    "Observera: om direkt 2NT används som Transfer till lågfärg går sanginvit via Stayman. Med det avtalet lovar 2♣ inte alltid fyrkorts högfärg. Transfer till lågfärgerna blir nästa lektion.",
+    "Här behandlas grundformen. Svaga tillämpningar kräver lämplig fördelning och avtalade fortsättningar och ingår inte.",
+    "En 4–4-anpassning i högfärg kan vara bättre än sang: trumfen möjliggör stölder och utnyttjar fördelningen. Stayman lämnar utrymme att välja nivå och färg.",
+    "Mot 15–17 är 8–9 honnörspoäng normalt invit och minst 10 vanligtvis utgångsstyrka. Fördelning och kortkvalitet räknas också.",
+    "Vi har {hcp} honnörspoäng. {shape} Vi bjuder 2♣ Stayman för att söka anpassning före en utgångsinvit, utan att redan kräva utgång.",
+    "Vi har {hcp} honnörspoäng. {shape} Vi bjuder 2♣ Stayman före utgångsvalet: högfärg med anpassning, annars normalt 3NT.",
+    "Med båda högfärgerna fjärde svarar öppnaren först 2♥. Svaren visar färger, inte minimum eller maximum.",
+    "Efter vår 1NT-öppning med {hcp} honnörspoäng svarar vi 2♦: ingen fyrkorts högfärg. Rutern här är en tillfällighet; 2♦ lovar inte ruter.",
+    "Med {hcp} honnörspoäng och båda högfärgerna fjärde svarar vi 2♥. Spader kan hittas senare; maximum motiverar inte hopp.",
+    "Med {hcp} honnörspoäng, fyra spader och bara tre hjärter svarar vi 2♠ och förnekar fyra hjärter.",
+    "Med anpassning och 8–9 honnörspoäng inviterar 3♥ eller 3♠ och får passas. Med minst 10 utan slamintresse bjuder vi 4♥ eller 4♠ för spel.",
+    "Öppnaren avböjer normalt med minimum och accepterar med maximum. Med mellanstyrka värderas fördelning och nyttiga honnörer.",
+    "Efter 1NT – 2♣ – 2♥ inviterar vi med {hcp} honnörspoäng och fyra hjärter genom 3♥. Öppnaren avgör.",
+    "Med {hcp} honnörspoäng och fyrkortsstöd i {major} bjuder vi {answer} för spel. Utgång är rimlig även mot minimum, utan slamintresse.",
+    "Utan högfärgsanpassning inviterar 8–9 honnörspoäng med 2NT; med minst 10 utan slamintresse är grundvalet 3NT.",
+    "Detta förutsätter en hand som passar för sang. 5–4 i högfärgerna och särskilda fortsättningar kräver fler avtal.",
+    "Efter 1NT – 2♣ – 2♦ har vi {hcp} honnörspoäng. Öppnaren förnekade fyrkorts högfärg, så spaderanpassning saknas. 2NT inviterar: pass med minimum eller 3NT med lämpligt maximum.",
+    "Efter 1NT – 2♣ – 2♥ har vi {hcp} honnörspoäng, fyra spader och två hjärter. Vi bjuder 3NT. Stayman utan hjärterstöd visar här spader: med fyra spader korrigerar öppnaren till 4♠, annars pass.",
+    "I grundformen som lovar fyrkorts högfärg bjuder öppnaren efter 1NT – 2♣ – 2♥ – 2NT med fyra spader passbara 3♠ med minimum eller 4♠ för att acceptera. Utan fyra spader: pass eller 3NT. Slutsatsen gäller inte automatiskt med lågfärgs-Transfer enligt noten ovan.",
+    "2♣ kräver en rond, inte utgång. 2♦ visar inte ruter; 2♥ förnekar inte fyra spader. Poäng ensamma räcker inte för grundformen. Med en enda minst femkorts högfärg och färre än fyra i den andra används normalt Jacoby Transfer. Första svaret skiljer inte styrkan inom 15–17."
+  ],
+  "e": [
+    "Med 4 honnörspoäng, fyra spader och 4–3–3–3 passar vi 1NT. Vi saknar invitstyrka och fördelningsskäl att söka annat kontrakt. En fyrkorts högfärg ensam räcker inte.",
+    "Med 12 honnörspoäng och balanserad hand utan fyrkorts högfärg bjuder vi direkt 3NT; ingen högfärg behöver undersökas.",
+    "Vi har 15 honnörspoäng. Efter vårt Stayman-svar 2♥ visar partnerns 3NT utgångsstyrka och fyra spader utan hjärteranpassning. Med fyra spader bjuder vi 4♠ även med minimum.",
+    "Med 15 honnörspoäng och 4–3–3–3 passar vi efter vårt Stayman-svar 2♠ partnerns invit 3♠ med anpassning: minimum utan extra fördelningsvärden.",
+    "Med 17 honnörspoäng accepterar vi efter vårt Stayman-svar 2♥ partnerns invit 3♥ med anpassning genom 4♥."
+  ],
+  "answers": [
+    "Ingen fyrkorts högfärg; lovar inte ruter.",
+    "Fyra hjärter; kan också ha fyra spader.",
+    "Fyra spader, inte fyra hjärter."
+  ]
+}

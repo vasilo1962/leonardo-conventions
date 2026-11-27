@@ -1,0 +1,108 @@
+# Stayman
+
+1ST describe fuerza y mano equilibrada, pero no los posibles mayores cuartos. Stayman busca un fit mayor antes de decidir jugar sin triunfo.
+
+## ¿Cuándo se utiliza?
+
+Tras 1ST de 15–17 puntos de honor, sin intervención contraria, tenemos al menos un mayor cuarto y 8 puntos de honor. 2♣ es artificial: pregunta por un mayor cuarto, no promete tréboles y obliga al abridor a responder.
+
+Nota: si la respuesta directa de 2ST es un Transfer a un menor, la invitación a manga sin triunfo pasa por Stayman. Con ese acuerdo, 2♣ no promete necesariamente un mayor cuarto. Los Transfer a los menores serán nuestra próxima lección.
+
+Estudiamos el Stayman básico. Su uso con manos débiles exige distribución adecuada y continuaciones acordadas y queda fuera de esta lección.
+
+## ¿Para qué sirve?
+
+Un fit mayor 4–4 puede ser mejor que sin triunfo: permite fallos y aprovecha la distribución. Stayman deja espacio para elegir nivel y denominación.
+
+Frente a 15–17, 8–9 puntos de honor suelen invitar a manga; con 10 o más suele haber fuerza de manga. También cuentan distribución y calidad de las cartas.
+
+## Ejemplos de la respuesta inicial
+
+♠ KJ84  
+♥ Q732  
+♦ K65  
+♣ 92
+
+Tenemos 9 puntos de honor. Tenemos cuatro cartas en cada mayor. Declaramos 2♣ Stayman para buscar fit antes de invitar a manga, sin comprometernos todavía a jugarla.
+
+♠ AQ84  
+♥ K732  
+♦ Q65  
+♣ 92
+
+Tenemos 11 puntos de honor. Tenemos cuatro cartas en cada mayor. Declaramos 2♣ Stayman antes de elegir manga: en el mayor con fit; en caso contrario, normalmente 3ST.
+
+## Respuestas del abridor
+
+| Stayman | Respuestas del abridor |
+| --- | --- |
+| **2♦** | Ningún mayor cuarto; no promete diamantes. |
+| **2♥** | Cuatro corazones; puede tener cuatro picas. |
+| **2♠** | Cuatro picas, sin cuatro corazones. |
+
+Con ambos mayores cuartos, el abridor responde primero 2♥. Estas respuestas describen los mayores, sin distinguir mínimo y máximo.
+
+♠ AQ8  
+♥ K72  
+♦ KJ65  
+♣ Q92
+
+Tras abrir 1ST con 15 puntos de honor, respondemos 2♦: ningún mayor cuarto. Los diamantes de esta mano son casuales; 2♦ no los promete.
+
+♠ KJ84  
+♥ AQ73  
+♦ K65  
+♣ Q2
+
+Con 15 puntos de honor y ambos mayores cuartos respondemos 2♥. Las picas se podrán descubrir después; el máximo no justifica un salto.
+
+♠ AQ84  
+♥ K72  
+♦ QJ6  
+♣ K92
+
+Con 15 puntos de honor, cuatro picas y solo tres corazones respondemos 2♠, negando cuatro corazones.
+
+## Continuaciones del respondedor
+
+Con fit, 8–9 puntos de honor invitan con 3♥ o 3♠, que pueden pasarse. Con 10 o más, sin interés en slam, 4♥ o 4♠ son para jugar.
+
+El abridor suele rechazar con mínimo y aceptar con máximo. Con fuerza intermedia valora distribución, honores útiles y calidad de la mano.
+
+♠ Q84  
+♥ KJ73  
+♦ K65  
+♣ 972
+
+Tras 1ST – 2♣ – 2♥, con 9 puntos de honor y cuatro corazones invitamos con 3♥. Decide el abridor.
+
+♠ K84  
+♥ AQ73  
+♦ Q65  
+♣ J92
+
+Con 12 puntos de honor y apoyo de cuatro cartas en corazones, declaramos 4♥ para jugar. Hay manga incluso frente al mínimo, sin interés en slam.
+
+Sin fit mayor, 8–9 puntos de honor invitan con 2ST; con 10 o más, sin interés en slam, la elección básica es 3ST.
+
+Estas continuaciones suponen una mano adecuada para sin triunfo. Las manos 5–4 en mayores y sus desarrollos especiales necesitan otros acuerdos.
+
+♠ KJ84  
+♥ Q7  
+♦ K865  
+♣ 972
+
+Tras 1ST – 2♣ – 2♦ tenemos 9 puntos de honor. El abridor negó un mayor cuarto: no hay fit en picas. Invitamos con 2ST; puede pasar mínimo o declarar 3ST con un máximo adecuado.
+
+♠ AQ84  
+♥ K7  
+♦ Q865  
+♣ J92
+
+Tras 1ST – 2♣ – 2♥ tenemos 12 puntos de honor, cuatro picas y dos corazones. Declaramos 3ST. Stayman sin apoyar corazones revela las picas: el abridor corrige a 4♠ con cuatro picas; si no, pasa.
+
+En la versión básica que promete un mayor cuarto, tras 1ST – 2♣ – 2♥ – 2ST el abridor con cuatro picas declara 3♠ pasable con mínimo o 4♠ para aceptar. Sin cuatro picas: paso o 3ST. La deducción no es automática con el acuerdo de Transfer a menores antes indicado.
+
+## Puntos importantes
+
+2♣ es forcing por una vuelta, no a manga. 2♦ no muestra diamantes; 2♥ no niega cuatro picas. Los puntos solos no bastan para el Stayman básico. Con un único mayor de cinco o más cartas y menos de cuatro en el otro suele usarse [Jacoby Transfer](../jacoby-transfer/). La primera respuesta no precisa la fuerza dentro de 15–17.

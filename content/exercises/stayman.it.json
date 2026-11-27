@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "it",
+  "route": "it/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "Rispondo a 1SA",
+    "response": "Risposte e sviluppi",
+    "overcallQuestion": "Cosa dichiari?",
+    "responseQuestion": "Cosa dichiari?",
+    "description": "Stayman dopo l’apertura di 1SA: requisiti, risposte dell’apertore e sviluppi con o senza fit in un nobile. Teoria, esempi ed esercizi interattivi.",
+    "agreements": "Dopo 1SA di 15–17 punti onori, senza intervento avversario, abbiamo almeno un nobile quarto e 8 punti onori. 2♣ è artificiale: chiede un nobile quarto, non promette fiori e obbliga l’apertore a rispondere. Con entrambi i nobili quarti, l’apertore risponde prima 2♥. Le risposte descrivono i nobili, senza distinguere minimo e massimo.",
+    "locale": {
+      "exercises": "Esercizi",
+      "back": "Torna alla lezione",
+      "eyebrow": "ESERCIZI",
+      "intro": "Vedi solo la tua mano. Scegli la dichiarazione dal bidding box.",
+      "type": "Tipo di esercizio",
+      "previous": "Esercizio precedente",
+      "exercise": "Esercizio",
+      "correctCount": "Corrette",
+      "vulnerability": "Nessuno in zona",
+      "table": "Tavolo di esercizio",
+      "question": "Cosa dichiari?",
+      "hand": "La tua mano, 13 carte",
+      "you": "Tu",
+      "south": "Sud",
+      "turn": "Il tuo turno",
+      "result": "Risultato",
+      "next": "Esercizio successivo",
+      "completed": "Gruppo completato",
+      "restart": "Riprova le stesse mani",
+      "return": "Torna alla lezione",
+      "noscript": "Gli esercizi interattivi richiedono JavaScript.",
+      "footer": "Esercizi sulle convenzioni",
+      "pass": "Passo",
+      "double": "Contro",
+      "redouble": "Surcontro",
+      "auction": "Dichiarazione finora",
+      "partner": "Compagno",
+      "opponent": "Avversario",
+      "noBid": "nessuna dichiarazione in questo giro",
+      "answered": "Hai risposto",
+      "correct": "Corretto!",
+      "rightBid": "La dichiarazione corretta è",
+      "choice": "La tua scelta",
+      "seeResult": "Vedi il risultato",
+      "bidLevels": "Dichiarazioni da 1 a 7",
+      "actions": "Passo, contro e surcontro",
+      "groupDone": "Gruppo completato",
+      "points": "punti",
+      "alreadyAnswered": "Hai già risposto.",
+      "overcall": "Rispondo a 1SA",
+      "response": "Risposte e sviluppi"
+    },
+    "suitNames": {
+      "S": "picche",
+      "H": "cuori",
+      "D": "quadri",
+      "C": "fiori",
+      "NT": "senza atout"
+    },
+    "rankNames": {
+      "A": "asso",
+      "K": "re",
+      "Q": "donna",
+      "J": "fante",
+      "T": "dieci"
+    },
+    "positions": {
+      "W": "Ovest",
+      "N": "Nord",
+      "E": "Est",
+      "S": "Sud"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 9 punti onori. Abbiamo entrambi i nobili quarti. Dichiariamo 2♣ Stayman per cercare un fit prima di invitare a manche, senza essere ancora impegnati a raggiungerla."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 8 punti onori. Abbiamo quattro cuori. Dichiariamo 2♣ Stayman per cercare un fit prima di invitare a manche, senza essere ancora impegnati a raggiungerla."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 10 punti onori. Abbiamo quattro picche. Dichiariamo 2♣ Stayman prima di scegliere la manche: nel nobile con fit, altrimenti normalmente 3SA."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 10 punti onori. Abbiamo quattro cuori. Dichiariamo 2♣ Stayman prima di scegliere la manche: nel nobile con fit, altrimenti normalmente 3SA."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 9 punti onori. Abbiamo quattro picche. Dichiariamo 2♣ Stayman per cercare un fit prima di invitare a manche, senza essere ancora impegnati a raggiungerla."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 10 punti onori. Abbiamo quattro cuori. Dichiariamo 2♣ Stayman prima di scegliere la manche: nel nobile con fit, altrimenti normalmente 3SA."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 8 punti onori. Abbiamo entrambi i nobili quarti. Dichiariamo 2♣ Stayman per cercare un fit prima di invitare a manche, senza essere ancora impegnati a raggiungerla."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 10 punti onori. Abbiamo quattro picche. Dichiariamo 2♣ Stayman prima di scegliere la manche: nel nobile con fit, altrimenti normalmente 3SA."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 4 punti onori, quattro picche e distribuzione 4–3–3–3 passiamo 1SA. Non abbiamo né forza d’invito né motivo distribuzionale per cercare altro. Un nobile quarto da solo non basta."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 12 punti onori e mano bilanciata senza nobili quarti dichiariamo direttamente 3SA: non c’è un nobile da cercare."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Dopo avere aperto 1SA con 15 punti onori, rispondiamo 2♦: nessun nobile quarto. Le quadri di questa mano sono casuali; 2♦ non le promette."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 17 punti onori ed entrambi i nobili quarti rispondiamo 2♥. Le picche si potranno trovare dopo; il massimo non giustifica un salto."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 16 punti onori, quattro picche e soltanto tre cuori rispondiamo 2♠, negando quattro cuori."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Dopo 1SA – 2♣ – 2♥, con 9 punti onori e quattro cuori invitiamo con 3♥. Decide l’apertore."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 12 punti onori e appoggio quarto a picche, dichiariamo 4♠ conclusivo. La manche è giustificata anche di fronte al minimo, senza interesse di slam."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Dopo 1SA – 2♣ – 2♦ abbiamo 9 punti onori. L’apertore ha negato nobili quarti: niente fit a picche. Invitiamo con 2SA; può passare minimo o dire 3SA con un massimo adatto."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Dopo 1SA – 2♣ – 2♥ abbiamo 12 punti onori, quattro picche e due cuori. Diciamo 3SA. Stayman senza appoggio a cuori rivela le picche: l’apertore corregge a 4♠ con quattro picche, altrimenti passa."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Abbiamo 15 punti onori. Dopo il nostro 2♥ su Stayman, 3SA del compagno mostra forza di manche, quattro picche e niente fit a cuori. Con quattro picche diciamo 4♠ anche col minimo."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 15 punti onori e 4–3–3–3, dopo il nostro 2♠ su Stayman e l’invito a 3♠ con fit, passiamo: minimo senza valori distribuzionali aggiuntivi."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Cosa dichiari?",
+      "explanation": "Con 17 punti onori, dopo il nostro 2♥ su Stayman e l’invito a 3♥ con fit, accettiamo con 4♥."
+    }
+  ]
+}

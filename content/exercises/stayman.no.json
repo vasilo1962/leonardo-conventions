@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "no",
+  "route": "no/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "Svar på 1NT",
+    "response": "Svar og fortsettelser",
+    "overcallQuestion": "Hva melder du?",
+    "responseQuestion": "Hva melder du?",
+    "description": "Stayman etter en 1NT-åpning: krav, åpnerens svar og fortsettelser med eller uten majortilpasning. Teori, eksempler og interaktive øvelser.",
+    "agreements": "Etter 1NT med 15–17 honnørpoeng, uten motpartens innmelding, har vi minst én firekorts major og 8 honnørpoeng. Kunstige 2♣ spør etter major, lover ikke kløver og krever svar. Med begge majorfarger fjerde svarer åpner først 2♥. Svarene viser farger, ikke minimum eller maksimum.",
+    "locale": {
+      "exercises": "Øvelser",
+      "back": "Tilbake til leksjonen",
+      "eyebrow": "ØVELSER",
+      "intro": "Du ser bare din egen hånd. Velg meldingen i meldeboksen.",
+      "type": "Øvelsestype",
+      "previous": "Forrige øvelse",
+      "exercise": "Øvelse",
+      "correctCount": "Riktige",
+      "vulnerability": "Ingen i sonen",
+      "table": "Øvelsesbord",
+      "question": "Hva melder du?",
+      "hand": "Din hånd, 13 kort",
+      "you": "Du",
+      "south": "Syd",
+      "turn": "Din tur",
+      "result": "Resultat",
+      "next": "Neste øvelse",
+      "completed": "Gruppen er fullført",
+      "restart": "Samme hender igjen",
+      "return": "Tilbake til leksjonen",
+      "noscript": "Interaktive øvelser krever JavaScript.",
+      "footer": "Konvensjonsøvelser",
+      "pass": "Pass",
+      "double": "Dobler",
+      "redouble": "Redobler",
+      "auction": "Meldingene hittil",
+      "partner": "Makker",
+      "opponent": "Motstander",
+      "noBid": "ingen melding i denne runden",
+      "answered": "Du har svart",
+      "correct": "Riktig!",
+      "rightBid": "Riktig melding er",
+      "choice": "Ditt valg",
+      "seeResult": "Se resultatet",
+      "bidLevels": "Meldinger fra 1 til 7",
+      "actions": "Pass, dobler og redobler",
+      "groupDone": "Gruppen er fullført",
+      "points": "poeng",
+      "alreadyAnswered": "Du har allerede svart.",
+      "overcall": "Svar på 1NT",
+      "response": "Svar og fortsettelser"
+    },
+    "suitNames": {
+      "S": "spar",
+      "H": "hjerter",
+      "D": "ruter",
+      "C": "kløver",
+      "NT": "grand"
+    },
+    "rankNames": {
+      "A": "ess",
+      "K": "konge",
+      "Q": "dame",
+      "J": "knekt",
+      "T": "ti"
+    },
+    "positions": {
+      "W": "Vest",
+      "N": "Nord",
+      "E": "Øst",
+      "S": "Syd"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 9 honnørpoeng. Vi har fire kort i begge majorfarger. Vi melder 2♣ Stayman for å søke tilpasning før en utgangsinvitt, uten ennå å kreve utgang."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 8 honnørpoeng. Vi har fire hjerter. Vi melder 2♣ Stayman for å søke tilpasning før en utgangsinvitt, uten ennå å kreve utgang."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 10 honnørpoeng. Vi har fire spar. Vi melder 2♣ Stayman før utgangsvalget: major med tilpasning, ellers normalt 3NT."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 10 honnørpoeng. Vi har fire hjerter. Vi melder 2♣ Stayman før utgangsvalget: major med tilpasning, ellers normalt 3NT."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 9 honnørpoeng. Vi har fire spar. Vi melder 2♣ Stayman for å søke tilpasning før en utgangsinvitt, uten ennå å kreve utgang."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 10 honnørpoeng. Vi har fire hjerter. Vi melder 2♣ Stayman før utgangsvalget: major med tilpasning, ellers normalt 3NT."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 8 honnørpoeng. Vi har fire kort i begge majorfarger. Vi melder 2♣ Stayman for å søke tilpasning før en utgangsinvitt, uten ennå å kreve utgang."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 10 honnørpoeng. Vi har fire spar. Vi melder 2♣ Stayman før utgangsvalget: major med tilpasning, ellers normalt 3NT."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 4 honnørpoeng, fire spar og 4–3–3–3 passer vi 1NT. Verken invittstyrke eller fordeling tilsier et annet kontraktsforsøk. Firekorts major alene er ikke nok."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 12 honnørpoeng og en balansert hånd uten firekorts major melder vi direkte 3NT; ingen major skal undersøkes."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Etter vår 1NT-åpning med 15 honnørpoeng svarer vi 2♦: ingen firekorts major. Ruteren her er tilfeldig; 2♦ lover ikke ruter."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 17 honnørpoeng og begge majorfarger fjerde svarer vi 2♥. Spar kan finnes senere; maksimum gir ikke grunnlag for hopp."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 16 honnørpoeng, fire spar og bare tre hjerter svarer vi 2♠ og benekter fire hjerter."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Etter 1NT – 2♣ – 2♥ inviterer vi med 9 honnørpoeng og fire hjerter gjennom 3♥. Åpner avgjør."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 12 honnørpoeng og firekortsstøtte i spar melder vi 4♠ for spill. Utgang er riktig også mot minimum, uten sleminteresse."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Etter 1NT – 2♣ – 2♦ har vi 9 honnørpoeng. Åpner benektet firekorts major, så vi har ingen spartilpasning. 2NT inviterer: pass med minimum eller 3NT med egnet maksimum."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Etter 1NT – 2♣ – 2♥ har vi 12 honnørpoeng, fire spar og to hjerter. Vi melder 3NT. Stayman uten hjerterstøtte viser her spar: med fire spar korrigerer åpner til 4♠, ellers pass."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Vi har 15 honnørpoeng. Etter vårt Stayman-svar 2♥ viser makkers 3NT utgangsstyrke og fire spar uten hjertetilpasning. Med fire spar melder vi 4♠ selv med minimum."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 15 honnørpoeng og 4–3–3–3 passer vi etter vårt Stayman-svar 2♠ makkers invitt 3♠ med tilpasning: minimum uten ekstra fordelingsverdier."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Hva melder du?",
+      "explanation": "Med 17 honnørpoeng aksepterer vi etter vårt Stayman-svar 2♥ makkers invitt 3♥ med tilpasning ved å melde 4♥."
+    }
+  ]
+}

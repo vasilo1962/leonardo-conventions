@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "id",
+  "route": "id/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "Menjawab 1NT",
+    "response": "Jawaban dan kelanjutan",
+    "overcallQuestion": "Apa tawaranmu?",
+    "responseQuestion": "Apa tawaranmu?",
+    "description": "Stayman setelah pembukaan 1NT: syarat, jawaban pembuka dan kelanjutan dengan atau tanpa fit mayor. Teori, contoh dan latihan interaktif.",
+    "agreements": "Setelah 1NT dengan 15–17 poin honor, tanpa overcall lawan, kita memiliki sedikitnya satu mayor empat kartu dan 8 poin honor. Tawaran artifisial 2♣ menanyakan mayor, tidak menjanjikan keriting dan mewajibkan pembuka menjawab. Dengan empat kartu di kedua mayor, pembuka menjawab 2♥ lebih dahulu. Jawaban menunjukkan mayor, bukan minimum atau maksimum.",
+    "locale": {
+      "exercises": "Latihan",
+      "back": "Kembali ke pelajaran",
+      "eyebrow": "LATIHAN",
+      "intro": "Kamu hanya melihat tanganmu. Pilih tawaran dari bidding box.",
+      "type": "Jenis latihan",
+      "previous": "Latihan sebelumnya",
+      "exercise": "Latihan",
+      "correctCount": "Benar",
+      "vulnerability": "Tidak ada yang vulnerable",
+      "table": "Meja latihan",
+      "question": "Apa tawaranmu?",
+      "hand": "Tanganmu, 13 kartu",
+      "you": "Kamu",
+      "south": "Selatan",
+      "turn": "Giliranmu",
+      "result": "Hasil",
+      "next": "Latihan berikutnya",
+      "completed": "Grup selesai",
+      "restart": "Ulangi tangan yang sama",
+      "return": "Kembali ke pelajaran",
+      "noscript": "Latihan interaktif memerlukan JavaScript.",
+      "footer": "Latihan konvensi",
+      "pass": "Pass",
+      "double": "Double",
+      "redouble": "Redouble",
+      "auction": "Bidding sejauh ini",
+      "partner": "Partner",
+      "opponent": "Lawan",
+      "noBid": "tidak ada tawaran pada putaran ini",
+      "answered": "Sudah menjawab",
+      "correct": "Benar!",
+      "rightBid": "Tawaran yang benar adalah",
+      "choice": "Pilihanmu",
+      "seeResult": "Lihat hasil",
+      "bidLevels": "Tawaran dari 1 sampai 7",
+      "actions": "Pass, double dan redouble",
+      "groupDone": "Grup selesai",
+      "points": "poin",
+      "alreadyAnswered": "Kamu sudah menjawab.",
+      "overcall": "Menjawab 1NT",
+      "response": "Jawaban dan kelanjutan"
+    },
+    "suitNames": {
+      "S": "spade",
+      "H": "heart",
+      "D": "diamond",
+      "C": "club",
+      "NT": "tanpa truf"
+    },
+    "rankNames": {
+      "A": "as",
+      "K": "king",
+      "Q": "queen",
+      "J": "jack",
+      "T": "sepuluh"
+    },
+    "positions": {
+      "W": "Barat",
+      "N": "Utara",
+      "E": "Timur",
+      "S": "Selatan"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 9 poin honor. Kita memiliki empat kartu di kedua mayor. Tawar 2♣ Stayman untuk mencari fit sebelum mengundang game, tanpa langsung mewajibkan game."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 8 poin honor. Kita memiliki empat hati. Tawar 2♣ Stayman untuk mencari fit sebelum mengundang game, tanpa langsung mewajibkan game."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 10 poin honor. Kita memiliki empat sekop. Tawar 2♣ Stayman sebelum memilih game: mayor jika ada fit, jika tidak biasanya 3NT."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 10 poin honor. Kita memiliki empat hati. Tawar 2♣ Stayman sebelum memilih game: mayor jika ada fit, jika tidak biasanya 3NT."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 9 poin honor. Kita memiliki empat sekop. Tawar 2♣ Stayman untuk mencari fit sebelum mengundang game, tanpa langsung mewajibkan game."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 10 poin honor. Kita memiliki empat hati. Tawar 2♣ Stayman sebelum memilih game: mayor jika ada fit, jika tidak biasanya 3NT."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 8 poin honor. Kita memiliki empat kartu di kedua mayor. Tawar 2♣ Stayman untuk mencari fit sebelum mengundang game, tanpa langsung mewajibkan game."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 10 poin honor. Kita memiliki empat sekop. Tawar 2♣ Stayman sebelum memilih game: mayor jika ada fit, jika tidak biasanya 3NT."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 4 poin honor, empat sekop dan 4–3–3–3, pas pada 1NT. Tidak ada kekuatan undangan atau alasan distribusi untuk mencari kontrak lain. Empat kartu mayor saja tidak cukup."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 12 poin honor dan tangan seimbang tanpa empat kartu mayor, langsung tawar 3NT: tidak ada mayor yang perlu dicari."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Setelah membuka 1NT dengan 15 poin honor, jawab 2♦: tidak ada empat kartu mayor. Wajik di tangan ini kebetulan; 2♦ tidak menjanjikan wajik."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 17 poin honor dan empat kartu di kedua mayor, jawab 2♥. Sekop masih mungkin ditemukan nanti; maksimum tidak membenarkan lompatan."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 16 poin honor, empat sekop dan hanya tiga hati, jawab 2♠, menyangkal empat hati."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Setelah 1NT – 2♣ – 2♥, dengan 9 poin honor dan empat hati, undang melalui 3♥. Pembuka memutuskan."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 12 poin honor dan dukungan empat kartu pada spade, tawar 4♠ untuk dimainkan. Cukup untuk game sekalipun pembuka minimum, tanpa minat slam."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Setelah 1NT – 2♣ – 2♦, kita memiliki 9 poin honor. Pembuka menyangkal empat kartu mayor, jadi tidak ada fit sekop. 2NT mengundang: minimum boleh pas, maksimum yang sesuai menawar 3NT."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Setelah 1NT – 2♣ – 2♥, kita memiliki 12 poin honor, empat sekop dan dua hati. Tawar 3NT. Stayman tanpa dukungan hati menunjukkan sekop di sini: dengan empat sekop pembuka mengoreksi ke 4♠, jika tidak pas."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Kita memiliki 15 poin honor. Setelah jawaban 2♥ kita terhadap Stayman, 3NT partner menunjukkan kekuatan game dan empat sekop tanpa fit hati. Dengan empat sekop, tawar 4♠ sekalipun minimum."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 15 poin honor dan 4–3–3–3, setelah jawaban 2♠ kita terhadap Stayman, pas pada undangan 3♠ dengan fit: minimum tanpa nilai distribusi tambahan."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Apa tawaranmu?",
+      "explanation": "Dengan 17 poin honor, setelah jawaban 2♥ kita terhadap Stayman, terima undangan 3♥ dengan fit melalui 4♥."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "h": [
+    "Kiedy stosować?",
+    "Czemu służy?",
+    "Przykłady pierwszej odpowiedzi",
+    "Odpowiedzi otwierającego",
+    "Dalsza licytacja odpowiadającego",
+    "Ważne uwagi"
+  ],
+  "meta": "Stayman po otwarciu 1BA: warunki, odpowiedzi otwierającego i dalsza licytacja z fitem starszym lub bez. Teoria, przykłady i ćwiczenia interaktywne.",
+  "shape": [
+    "Mamy obie starsze czwórki.",
+    "Mamy cztery kiery.",
+    "Mamy cztery piki."
+  ],
+  "p": [
+    "1BA opisuje siłę i skład zrównoważony, ale nie ujawnia starszych czwórek. Stayman szuka starszego fitu przed wyborem bez atu.",
+    "Po 1BA, 15–17 punktów honorowych, bez interwencji przeciwników, mamy co najmniej starszą czwórkę i 8 punktów honorowych. Sztuczne 2♣ pyta o starszą czwórkę, nie obiecuje trefli i zmusza do odpowiedzi.",
+    "Uwaga: jeśli bezpośrednie 2BA jest Transferem na młodszy kolor, inwit do końcówki bez atu przechodzi przez Staymana. Przy takim ustaleniu 2♣ nie musi obiecywać starszej czwórki. Transfery na młodsze kolory będą następną lekcją.",
+    "Omawiamy wersję podstawową. Zastosowania ze słabymi rękami wymagają odpowiedniego składu i uzgodnionych kontynuacji; nie są tu omawiane.",
+    "Starszy fit 4–4 może być lepszy niż bez atu: atuty pozwalają na przebitki i wykorzystanie składu. Stayman zachowuje miejsce na wybór wysokości i miana.",
+    "Naprzeciw 15–17, 8–9 punktów honorowych zwykle inwituje, a od 10 zazwyczaj jest końcówka. Liczą się też skład i jakość kart.",
+    "Mamy {hcp} punktów honorowych. {shape} Licytujemy 2♣ Stayman, szukając fitu przed inwitem; nie zobowiązujemy się jeszcze do końcówki.",
+    "Mamy {hcp} punktów honorowych. {shape} Licytujemy 2♣ Stayman przed wyborem końcówki: w starszy kolor z fitem, w przeciwnym razie zwykle 3BA.",
+    "Z obiema starszymi czwórkami otwierający odpowiada najpierw 2♥. Odpowiedzi pokazują kolory, nie minimum ani maksimum.",
+    "Po otwarciu 1BA z {hcp} punktami honorowymi odpowiadamy 2♦: brak starszej czwórki. Kara w tej ręce są przypadkowe; 2♦ ich nie obiecuje.",
+    "Z {hcp} punktami honorowymi i obiema starszymi czwórkami odpowiadamy 2♥. Piki można odnaleźć później; maksimum nie uzasadnia skoku.",
+    "Z {hcp} punktami honorowymi, czterema pikami i tylko trzema kierami odpowiadamy 2♠, wykluczając cztery kiery.",
+    "Z fitem i 8–9 punktami honorowymi 3♥ lub 3♠ inwituje i można spasować. Od 10, bez zainteresowania szlemikiem, 4♥ lub 4♠ jest do gry.",
+    "Otwierający zwykle odrzuca z minimum i przyjmuje z maksimum. Ze średnią siłą ocenia skład i użyteczne honory.",
+    "Po 1BA – 2♣ – 2♥, z {hcp} punktami honorowymi i czterema kierami inwitujemy przez 3♥. Otwierający decyduje.",
+    "Z {hcp} punktami honorowymi i czterokartowym poparciem w kolorze {major} licytujemy {answer} do gry. Końcówka jest uzasadniona nawet przy minimum partnera, bez aspiracji szlemikowych.",
+    "Bez starszego fitu 8–9 punktów honorowych inwituje przez 2BA; od 10, bez zainteresowania szlemikiem, podstawowym wyborem jest 3BA.",
+    "Te kontynuacje zakładają rękę odpowiednią do bez atu. Składy 5–4 w starszych i specjalne dalsze odzywki wymagają dodatkowych ustaleń.",
+    "Po 1BA – 2♣ – 2♦ mamy {hcp} punktów honorowych. Otwierający wykluczył starszą czwórkę, więc nie ma fitu pikowego. 2BA inwituje: minimum może spasować, odpowiednie maksimum zalicytować 3BA.",
+    "Po 1BA – 2♣ – 2♥ mamy {hcp} punktów honorowych, cztery piki i dwa kiery. Licytujemy 3BA. Stayman bez poparcia kierowego wskazuje tu piki: z czterema pikami otwierający poprawia na 4♠, inaczej pasuje.",
+    "W podstawowej wersji obiecującej starszą czwórkę, po 1BA – 2♣ – 2♥ – 2BA otwierający z czterema pikami licytuje pasowalne 3♠ z minimum lub 4♠, przyjmując inwit. Bez czterech pików: pas lub 3BA. W ustaleniu z Transferami na młodsze ten wniosek nie jest automatyczny.",
+    "2♣ forsuje jedno okrążenie, nie do końcówki. 2♦ nie pokazuje kar; 2♥ nie wyklucza czterech pików. Same punkty nie wystarczą na podstawowego Staymana. Z jednym co najmniej pięciokartowym starszym kolorem i mniej niż czterema kartami w drugim zwykle stosujemy Jacoby Transfer. Pierwsza odpowiedź nie precyzuje siły w granicach 15–17."
+  ],
+  "e": [
+    "Z 4 punktami honorowymi, czterema pikami i składem 4–3–3–3 pasujemy na 1BA. Brak siły inwitującej i przesłanek układowych do szukania innego kontraktu. Sama starsza czwórka nie wystarcza.",
+    "Z 12 punktami honorowymi i ręką zrównoważoną bez starszej czwórki licytujemy bezpośrednio 3BA: nie ma starszego koloru do szukania.",
+    "Mamy 15 punktów honorowych. Po naszej odpowiedzi 2♥ na Staymana partner licytuje 3BA: siła końcówki, cztery piki i brak fitu kierowego. Z czterema pikami licytujemy 4♠ nawet z minimum.",
+    "Z 15 punktami honorowymi i 4–3–3–3, po naszej odpowiedzi 2♠ na Staymana pasujemy na inwit 3♠ z fitem: minimum bez dodatkowych walorów układowych.",
+    "Z 17 punktami honorowymi, po naszej odpowiedzi 2♥ na Staymana przyjmujemy inwit 3♥ z fitem przez 4♥."
+  ],
+  "answers": [
+    "Brak starszej czwórki; nie obiecuje kar.",
+    "Cztery kiery; możliwe cztery piki.",
+    "Cztery piki, bez czterech kierów."
+  ]
+}

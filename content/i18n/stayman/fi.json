@@ -1,0 +1,52 @@
+{
+  "h": [
+    "Milloin sitä käytetään?",
+    "Mikä on tarkoitus?",
+    "Ensimmäisen vastauksen esimerkkejä",
+    "Avaajan vastaukset",
+    "Vastaajan jatkot",
+    "Huomioitavaa"
+  ],
+  "meta": "Stayman 1NT-avauksen jälkeen: edellytykset, avaajan vastaukset ja jatkot ylävärivaltilla tai ilman. Teoriaa, esimerkkejä ja vuorovaikutteisia harjoituksia.",
+  "shape": [
+    "Meillä on molemmat ylävärit neljän kortin mittaisina.",
+    "Meillä on neljä herttaa.",
+    "Meillä on neljä pataa."
+  ],
+  "p": [
+    "1NT kertoo voiman ja tasaisen käden, muttei mahdollista neljän kortin yläväriä. Stayman etsii ylävärisovitusta ennen sangipäätöstä.",
+    "Kun partneri avaa 1NT, 15–17 arvopistettä, ilman vastustajan väliintuloa, meillä on vähintään neljän kortin yläväri ja 8 arvopistettä. Keinotekoinen 2♣ kysyy yläväriä, ei lupaa ristiä ja pakottaa avaajan vastaamaan.",
+    "Huomautus: jos suora 2NT-vastaus on Transfer alaväriin, sangitäyspelivihje kulkee Staymanin kautta. Silloin 2♣ ei välttämättä lupaa neljän kortin yläväriä. Alaväri-Transferit ovat seuraava oppituntimme.",
+    "Käsittelemme perusmuotoa. Heikkojen käsien sovellukset vaativat sopivan jakauman ja sovitut jatkot eivätkä kuulu tähän.",
+    "Ylävärin 4–4-sovitus voi olla parempi kuin sangi: valtit mahdollistavat varkaudet ja hyödyntävät jakaumaa. Stayman jättää tilaa tason ja pelivärin valintaan.",
+    "15–17 pistettä vastaan 8–9 arvopistettä yleensä vihjaa täyspeliin; vähintään 10 merkitsee tavallisesti täyspelivoimaa. Jakauma ja korttien laatu vaikuttavat.",
+    "Meillä on {hcp} arvopistettä. {shape} Tarjoamme 2♣ Stayman etsiäksemme sovituksen ennen täyspelivihjettä, vielä sitoutumatta täyspeliin.",
+    "Meillä on {hcp} arvopistettä. {shape} Tarjoamme 2♣ Stayman ennen täyspelin valintaa: sovituksella yläväri, muuten yleensä 3NT.",
+    "Kun molemmat ylävärit ovat neljän kortin mittaisia, avaaja vastaa ensin 2♥. Vastaukset kertovat värit, eivät minimiä tai maksimia.",
+    "Avattuamme 1NT kädellä, jossa on {hcp} arvopistettä, vastaamme 2♦: ei neljän kortin yläväriä. Ruudut tässä kädessä ovat sattumaa; 2♦ ei lupaa ruutua.",
+    "Kun meillä on {hcp} arvopistettä ja molemmat neljän kortin ylävärit, vastaamme 2♥. Pata voi löytyä myöhemmin; maksimi ei oikeuta hyppyä.",
+    "Kun meillä on {hcp} arvopistettä, neljä pataa ja vain kolme herttaa, vastaamme 2♠, joka kieltää neljä herttaa.",
+    "Sovituksella 8–9 arvopistettä vihjaa 3♥ tai 3♠, johon saa passata. Vähintään 10 pisteellä ilman slammi-innostusta 4♥ tai 4♠ on loppusitoumus.",
+    "Avaaja yleensä hylkää minimillä ja hyväksyy maksimilla. Välikädellä arvioidaan jakauma ja hyödylliset kuvakortit.",
+    "Sarjan 1NT – 2♣ – 2♥ jälkeen {hcp} arvopistettä ja neljä herttaa riittävät 3♥-täyspelivihjeeseen. Avaaja päättää.",
+    "Kun meillä on {hcp} arvopistettä ja neljän kortin tuki värissä {major}, tarjoamme {answer} loppusitoumukseksi. Täyspeli riittää myös minimiä vastaan, ilman slammitavoitetta.",
+    "Ilman ylävärisovitusta 8–9 arvopistettä vihjaa 2NT; vähintään 10 pisteellä ilman slammitavoitetta perusvalinta on 3NT.",
+    "Jatkot edellyttävät sangiin sopivaa kättä. Ylävärien 5–4-kädet ja niiden erityisjatkot vaativat lisäsopimuksia.",
+    "Sarjan 1NT – 2♣ – 2♦ jälkeen meillä on {hcp} arvopistettä. Avaaja kielsi neljän kortin ylävärin, joten patasovitusta ei ole. 2NT vihjaa: minimi voi passata, sopiva maksimi tarjoaa 3NT.",
+    "Sarjan 1NT – 2♣ – 2♥ jälkeen meillä on {hcp} arvopistettä, neljä pataa ja kaksi herttaa. Tarjoamme 3NT. Stayman ilman herttatukea ilmaisee tässä padan: neljällä padalla avaaja korjaa 4♠:ään, muuten passaa.",
+    "Neljän kortin ylävärin lupaavassa perusmuodossa avaaja tarjoaa sarjan 1NT – 2♣ – 2♥ – 2NT jälkeen neljällä padalla ja minimillä passattavan 3♠ tai hyväksyessään 4♠. Ilman neljää pataa: passi tai 3NT. Edellä mainitussa alaväri-Transfer-sopimuksessa tätä päätelmää ei voi tehdä automaattisesti.",
+    "2♣ pakottaa yhden kierroksen, ei täyspeliin. 2♦ ei näytä ruutua; 2♥ ei kiellä neljää pataa. Pisteet yksin eivät riitä perus-Staymaniin. Yhdellä vähintään viiden kortin ylävärillä ja alle neljällä toisessa käytetään yleensä Jacoby Transferia. Ensimmäinen vastaus ei tarkenna voimaa alueella 15–17."
+  ],
+  "e": [
+    "Kun meillä on 4 arvopistettä, neljä pataa ja 4–3–3–3, passaamme 1NT:hen. Ei vihjevoimaa eikä jakaumasyytä etsiä muuta sitoumusta. Neljän kortin yläväri ei yksin riitä.",
+    "Kun meillä on 12 arvopistettä ja tasainen käsi ilman neljän kortin yläväriä, tarjoamme suoraan 3NT: ei tutkittavaa yläväriä.",
+    "Meillä on 15 arvopistettä. Stayman-vastauksemme 2♥ jälkeen partnerin 3NT näyttää täyspelivoiman ja neljä pataa ilman herttasovitusta. Neljällä padalla tarjoamme 4♠ myös minimillä.",
+    "Kun meillä on 15 arvopistettä ja 4–3–3–3, passaamme Stayman-vastauksemme 2♠ jälkeiseen, sovituksen osoittavaan 3♠-vihjeeseen: minimi ilman lisäjakauma-arvoja.",
+    "Kun meillä on 17 arvopistettä, hyväksymme Stayman-vastauksemme 2♥ jälkeisen, sovituksen osoittavan 3♥-vihjeen tarjoamalla 4♥."
+  ],
+  "answers": [
+    "Ei neljän kortin yläväriä; ei lupaa ruutua.",
+    "Neljä herttaa; myös neljä pataa mahdollisia.",
+    "Neljä pataa, ei neljää herttaa."
+  ]
+}

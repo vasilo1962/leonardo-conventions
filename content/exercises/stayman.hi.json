@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "hi",
+  "route": "hi/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "1NT का जवाब",
+    "response": "उत्तर और आगे की बोली",
+    "overcallQuestion": "क्या बोलेंगे?",
+    "responseQuestion": "क्या बोलेंगे?",
+    "description": "1NT ओपनिंग के बाद Stayman: शर्तें, ओपनर के उत्तर और मेजर फिट होने या न होने पर आगे की बोली। सिद्धांत, उदाहरण और इंटरैक्टिव अभ्यास।",
+    "agreements": "साथी 15–17 हाई-कार्ड पॉइंट के साथ 1NT खोलता है और विरोधी overcall नहीं करते। हमारे पास कम से कम एक चार-पत्ती मेजर और 8 हाई-कार्ड पॉइंट हैं। कृत्रिम 2♣ चार-पत्ती मेजर पूछता है, क्लब का वादा नहीं करता और ओपनर को उत्तर देना होता है। दोनों मेजर चार-पत्ती हों तो ओपनर पहले 2♥ बोलता है। ये उत्तर मेजर बताते हैं, न्यूनतम या अधिकतम ताकत नहीं।",
+    "locale": {
+      "exercises": "अभ्यास",
+      "back": "पाठ पर लौटें",
+      "eyebrow": "अभ्यास",
+      "intro": "आप केवल अपना हाथ देखते हैं। बिडिंग बॉक्स से बोली चुनें।",
+      "type": "अभ्यास का प्रकार",
+      "previous": "पिछला अभ्यास",
+      "exercise": "अभ्यास",
+      "correctCount": "सही",
+      "vulnerability": "कोई पक्ष वल्नरेबल नहीं",
+      "table": "अभ्यास की मेज",
+      "question": "क्या बोलेंगे?",
+      "hand": "आपका हाथ, 13 पत्ते",
+      "you": "आप",
+      "south": "दक्षिण",
+      "turn": "आपकी बारी",
+      "result": "परिणाम",
+      "next": "अगला अभ्यास",
+      "completed": "समूह पूरा हुआ",
+      "restart": "वही हाथ फिर से",
+      "return": "पाठ पर लौटें",
+      "noscript": "इंटरैक्टिव अभ्यास के लिए JavaScript चाहिए।",
+      "footer": "कन्वेंशन अभ्यास",
+      "pass": "पास",
+      "double": "डबल",
+      "redouble": "रीडबल",
+      "auction": "अब तक की बोलियाँ",
+      "partner": "साथी",
+      "opponent": "विरोधी",
+      "noBid": "इस दौर में कोई बोली नहीं",
+      "answered": "जवाब दिया",
+      "correct": "सही!",
+      "rightBid": "सही बोली है",
+      "choice": "आपका चुनाव",
+      "seeResult": "परिणाम देखें",
+      "bidLevels": "1 से 7 तक की बोलियाँ",
+      "actions": "पास, डबल और रीडबल",
+      "groupDone": "समूह पूरा हुआ",
+      "points": "पॉइंट",
+      "alreadyAnswered": "आप पहले ही जवाब दे चुके हैं।",
+      "overcall": "1NT का जवाब",
+      "response": "उत्तर और आगे की बोली"
+    },
+    "suitNames": {
+      "S": "हुकुम",
+      "H": "पान",
+      "D": "ईंट",
+      "C": "चिड़ी",
+      "NT": "नो ट्रम्प"
+    },
+    "rankNames": {
+      "A": "इक्का",
+      "K": "बादशाह",
+      "Q": "रानी",
+      "J": "गुलाम",
+      "T": "दस"
+    },
+    "positions": {
+      "W": "पश्चिम",
+      "N": "उत्तर",
+      "E": "पूर्व",
+      "S": "दक्षिण"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 9 हाई-कार्ड पॉइंट हैं। हमारे पास दोनों मेजर में चार-चार पत्ते हैं। गेम का निमंत्रण देने से पहले फिट खोजने के लिए 2♣ Stayman बोलते हैं; अभी गेम अनिवार्य नहीं करते।"
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 8 हाई-कार्ड पॉइंट हैं। हमारे पास चार हार्ट हैं। गेम का निमंत्रण देने से पहले फिट खोजने के लिए 2♣ Stayman बोलते हैं; अभी गेम अनिवार्य नहीं करते।"
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 10 हाई-कार्ड पॉइंट हैं। हमारे पास चार स्पेड हैं। गेम चुनने से पहले 2♣ Stayman बोलते हैं: फिट हो तो मेजर, नहीं तो सामान्य अगली बोली 3NT है।"
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 10 हाई-कार्ड पॉइंट हैं। हमारे पास चार हार्ट हैं। गेम चुनने से पहले 2♣ Stayman बोलते हैं: फिट हो तो मेजर, नहीं तो सामान्य अगली बोली 3NT है।"
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 9 हाई-कार्ड पॉइंट हैं। हमारे पास चार स्पेड हैं। गेम का निमंत्रण देने से पहले फिट खोजने के लिए 2♣ Stayman बोलते हैं; अभी गेम अनिवार्य नहीं करते।"
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 10 हाई-कार्ड पॉइंट हैं। हमारे पास चार हार्ट हैं। गेम चुनने से पहले 2♣ Stayman बोलते हैं: फिट हो तो मेजर, नहीं तो सामान्य अगली बोली 3NT है।"
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 8 हाई-कार्ड पॉइंट हैं। हमारे पास दोनों मेजर में चार-चार पत्ते हैं। गेम का निमंत्रण देने से पहले फिट खोजने के लिए 2♣ Stayman बोलते हैं; अभी गेम अनिवार्य नहीं करते।"
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 10 हाई-कार्ड पॉइंट हैं। हमारे पास चार स्पेड हैं। गेम चुनने से पहले 2♣ Stayman बोलते हैं: फिट हो तो मेजर, नहीं तो सामान्य अगली बोली 3NT है।"
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "4 हाई-कार्ड पॉइंट, चार स्पेड और 4–3–3–3 के साथ 1NT पर पास करते हैं। न निमंत्रण की ताकत है, न दूसरा कॉन्ट्रैक्ट खोजने का वितरण संबंधी कारण। केवल चार-पत्ती मेजर पर्याप्त नहीं।"
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "12 हाई-कार्ड पॉइंट और बिना चार-पत्ती मेजर के संतुलित हाथ से सीधे 3NT बोलते हैं; खोजने के लिए कोई मेजर नहीं है।"
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "15 हाई-कार्ड पॉइंट से 1NT खोलने के बाद Stayman को 2♦ उत्तर देते हैं: कोई चार-पत्ती मेजर नहीं। इस हाथ में डायमंड होना संयोग है; 2♦ डायमंड का वादा नहीं करता।"
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "17 हाई-कार्ड पॉइंट और दोनों चार-पत्ती मेजर के साथ 2♥ उत्तर देते हैं। स्पेड बाद में मिल सकते हैं; अधिकतम ताकत से भी जंप नहीं करते।"
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "16 हाई-कार्ड पॉइंट, चार स्पेड और केवल तीन हार्ट के साथ 2♠ उत्तर देते हैं और चार हार्ट नकारते हैं।"
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "1NT – 2♣ – 2♥ के बाद 9 हाई-कार्ड पॉइंट और चार हार्ट के साथ 3♥ से गेम का निमंत्रण देते हैं। ओपनर निर्णय करता है।"
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "12 हाई-कार्ड पॉइंट और हुकुम में चार पत्तों के समर्थन के साथ 4♠ खेलने के लिए बोलते हैं। न्यूनतम ओपनिंग के सामने भी गेम की ताकत है, स्लैम में रुचि नहीं।"
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "1NT – 2♣ – 2♦ के बाद हमारे पास 9 हाई-कार्ड पॉइंट हैं। ओपनर ने चार-पत्ती मेजर नकारा है, इसलिए स्पेड फिट नहीं है। 2NT निमंत्रण है: न्यूनतम पास कर सकता है और उपयुक्त अधिकतम 3NT बोलता है।"
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "1NT – 2♣ – 2♥ के बाद 12 हाई-कार्ड पॉइंट, चार स्पेड और दो हार्ट हैं। 3NT बोलते हैं। Stayman के बाद हार्ट का समर्थन न करना यहाँ स्पेड बताता है: ओपनर चार स्पेड के साथ 4♠ में बदलता है, वरना पास करता है।"
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "हमारे पास 15 हाई-कार्ड पॉइंट हैं। Stayman पर हमारे 2♥ के बाद साथी का 3NT गेम की ताकत, चार स्पेड और हार्ट फिट का अभाव बताता है। चार स्पेड से न्यूनतम होते हुए भी 4♠ बोलते हैं।"
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "15 हाई-कार्ड पॉइंट और 4–3–3–3 के साथ, Stayman पर हमारे 2♠ के बाद फिट बताने वाले 3♠ निमंत्रण पर पास करते हैं: न्यूनतम और अतिरिक्त वितरण मूल्य नहीं।"
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "क्या बोलेंगे?",
+      "explanation": "17 हाई-कार्ड पॉइंट के साथ, Stayman पर हमारे 2♥ के बाद फिट बताने वाला 3♥ निमंत्रण 4♥ बोलकर स्वीकार करते हैं।"
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "tr",
+  "route": "tr/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "1NT’ye cevap veriyorum",
+    "response": "Yanıtlar ve devamlar",
+    "overcallQuestion": "Ne dersin?",
+    "responseQuestion": "Ne dersin?",
+    "description": "1NT açışından sonra Stayman: koşullar, açıcının cevapları ve majör fiti bulunduğunda veya bulunmadığında devamlar. Teori, örnekler ve etkileşimli alıştırmalar.",
+    "agreements": "Rakip araya girmeden, 15–17 onör puanlık 1NT açışına karşı en az bir dörtlü majör ve 8 onör puanımız vardır. Yapay 2♣, dörtlü majörü sorar; trefl vadetmez ve açıcıyı cevap vermeye zorlar. Her iki majör dörtlüyse açıcı önce 2♥ cevaplar. Cevaplar majörleri gösterir; minimum ve maksimumu ayırmaz.",
+    "locale": {
+      "exercises": "Alıştırmalar",
+      "back": "Derse dön",
+      "eyebrow": "ALIŞTIRMALAR",
+      "intro": "Yalnızca kendi elini görürsün. Konuşmanı bidding box’tan seç.",
+      "type": "Alıştırma türü",
+      "previous": "Önceki alıştırma",
+      "exercise": "Alıştırma",
+      "correctCount": "Doğru",
+      "vulnerability": "Kimse zonda değil",
+      "table": "Alıştırma masası",
+      "question": "Ne dersin?",
+      "hand": "Elin, 13 kart",
+      "you": "Sen",
+      "south": "Güney",
+      "turn": "Sıra sende",
+      "result": "Sonuç",
+      "next": "Sonraki alıştırma",
+      "completed": "Grup tamamlandı",
+      "restart": "Aynı elleri tekrar dene",
+      "return": "Derse dön",
+      "noscript": "Etkileşimli alıştırmalar JavaScript gerektirir.",
+      "footer": "Konvansiyon alıştırmaları",
+      "pass": "Pas",
+      "double": "Kontr",
+      "redouble": "Sürkontr",
+      "auction": "Şimdiye kadarki konuşmalar",
+      "partner": "Ortak",
+      "opponent": "Rakip",
+      "noBid": "bu turda konuşma yok",
+      "answered": "Yanıtladın",
+      "correct": "Doğru!",
+      "rightBid": "Doğru konuşma",
+      "choice": "Seçimin",
+      "seeResult": "Sonucu gör",
+      "bidLevels": "1’den 7’ye konuşmalar",
+      "actions": "Pas, kontr ve sürkontr",
+      "groupDone": "Grup tamamlandı",
+      "points": "puan",
+      "alreadyAnswered": "Zaten yanıtladın.",
+      "overcall": "1NT’ye cevap veriyorum",
+      "response": "Yanıtlar ve devamlar"
+    },
+    "suitNames": {
+      "S": "pik",
+      "H": "kör",
+      "D": "karo",
+      "C": "trefli",
+      "NT": "sanzatu"
+    },
+    "rankNames": {
+      "A": "as",
+      "K": "rua",
+      "Q": "dam",
+      "J": "vale",
+      "T": "on"
+    },
+    "positions": {
+      "W": "Batı",
+      "N": "Kuzey",
+      "E": "Doğu",
+      "S": "Güney"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "9 onör puanımız var. Her iki majörümüz de dörtlüdür. Zona henüz bağlanmadan fit aramak ve ardından zon daveti yapmak için 2♣ Stayman deriz."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "8 onör puanımız var. Dört körümüz var. Zona henüz bağlanmadan fit aramak ve ardından zon daveti yapmak için 2♣ Stayman deriz."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "10 onör puanımız var. Dört pikimiz var. Zonu seçmeden önce 2♣ Stayman deriz: fit varsa majörde zon, yoksa temel devam 3NT."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "10 onör puanımız var. Dört körümüz var. Zonu seçmeden önce 2♣ Stayman deriz: fit varsa majörde zon, yoksa temel devam 3NT."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "9 onör puanımız var. Dört pikimiz var. Zona henüz bağlanmadan fit aramak ve ardından zon daveti yapmak için 2♣ Stayman deriz."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "10 onör puanımız var. Dört körümüz var. Zonu seçmeden önce 2♣ Stayman deriz: fit varsa majörde zon, yoksa temel devam 3NT."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "8 onör puanımız var. Her iki majörümüz de dörtlüdür. Zona henüz bağlanmadan fit aramak ve ardından zon daveti yapmak için 2♣ Stayman deriz."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "10 onör puanımız var. Dört pikimiz var. Zonu seçmeden önce 2♣ Stayman deriz: fit varsa majörde zon, yoksa temel devam 3NT."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "4 onör puan, dört pik ve 4–3–3–3 ile 1NT’ye pas geçeriz. Ne davet gücü ne de başka kontrat aramayı gerektiren dağılım vardır. Yalnız dörtlü majör yetmez."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "12 onör puan ve dörtlü majörü olmayan dengeli elle doğrudan 3NT deriz; araştırılacak majör yoktur."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "15 onör puanla 1NT açtıktan sonra Stayman’a 2♦ cevaplarız: dörtlü majör yok. Elimizdeki karolar rastlantıdır; 2♦ karo vadetmez."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "17 onör puan ve iki dörtlü majörle 2♥ cevaplarız. Pik daha sonra bulunabilir; maksimum olmak sıçramayı gerektirmez."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "16 onör puan, dört pik ve yalnız üç körle 2♠ cevaplarız; dört körü inkâr ederiz."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "1NT – 2♣ – 2♥ sonrasında 9 onör puan ve dört körle 3♥ diyerek zon daveti yaparız. Açıcı karar verir."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "12 onör puan ve pik renginde dört kart destekle 4♠ deriz. Şlem ilgisi olmadan, minimum açış karşısında bile zon gücümüz vardır."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "1NT – 2♣ – 2♦ sonrasında 9 onör puanımız var. Açıcı dörtlü majörü inkâr ettiğinden pik fiti yoktur. 2NT ile davet ederiz; minimumla pas veya uygun maksimumla 3NT diyebilir."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "1NT – 2♣ – 2♥ sonrasında 12 onör puan, dört pik ve iki körle 3NT deriz. Stayman yapıp kör desteği göstermememiz piki belirtir: açıcı dört pikle 4♠’e düzeltir, yoksa pas geçer."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "15 onör puanımız var. Stayman’a 2♥ cevabımızdan sonra ortağın 3NT’si zon gücü, dört pik ve kör fiti olmadığını gösterir. Dört pikle minimum olsak da 4♠ deriz."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "15 onör puan ve 4–3–3–3 ile Stayman’a 2♠ cevabımızdan sonra fit gösteren 3♠ davetine pas geçeriz: minimum ve ek dağılım değeri yok."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "Ne dersin?",
+      "explanation": "17 onör puanla Stayman’a 2♥ cevabımızdan sonra fit gösteren 3♥ davetini 4♥ ile kabul ederiz."
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "he",
+  "route": "he/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "משיבים ל־1NT",
+    "response": "תשובות והמשכים",
+    "overcallQuestion": "מה תכריזו?",
+    "responseQuestion": "מה תכריזו?",
+    "description": "Stayman לאחר פתיחת 1NT: תנאים, תשובות הפותח והמשך עם או בלי התאמה במייג׳ור. הסברים, דוגמאות ותרגילים אינטראקטיביים.",
+    "agreements": "לאחר 1NT עם 15–17 נקודות גבוהות, ללא התערבות היריבים, יש לנו לפחות רביעייה במייג׳ור ו־8 נקודות גבוהות. 2♣ מלאכותי שואל על רביעייה במייג׳ור, אינו מבטיח קלאב ומחייב את הפותח לענות. עם שתי רביעיות במייג׳ורים הפותח עונה תחילה 2♥. התשובות מראות סדרות, לא מינימום או מקסימום.",
+    "locale": {
+      "exercises": "תרגילים",
+      "back": "חזרה לשיעור",
+      "eyebrow": "תרגילים",
+      "intro": "רואים רק את היד שלך. בחרו הכרזה מתיבת ההכרזות.",
+      "type": "סוג תרגיל",
+      "previous": "התרגיל הקודם",
+      "exercise": "תרגיל",
+      "correctCount": "נכונות",
+      "vulnerability": "אף צד אינו פגיע",
+      "table": "שולחן תרגול",
+      "question": "מה תכריזו?",
+      "hand": "היד שלך, 13 קלפים",
+      "you": "אתם",
+      "south": "דרום",
+      "turn": "תורכם",
+      "result": "תוצאה",
+      "next": "התרגיל הבא",
+      "completed": "הקבוצה הושלמה",
+      "restart": "אותן ידיים שוב",
+      "return": "חזרה לשיעור",
+      "noscript": "תרגילים אינטראקטיביים דורשים JavaScript.",
+      "footer": "תרגילי קונבנציות",
+      "pass": "Pass",
+      "double": "כפל",
+      "redouble": "כפל חוזר",
+      "auction": "ההכרזה עד כה",
+      "partner": "שותף",
+      "opponent": "יריב",
+      "noBid": "אין הכרזה בסיבוב זה",
+      "answered": "עניתם",
+      "correct": "נכון!",
+      "rightBid": "ההכרזה הנכונה היא",
+      "choice": "הבחירה שלכם",
+      "seeResult": "הצגת התוצאה",
+      "bidLevels": "הכרזות מ־1 עד 7",
+      "actions": "Pass, כפל וכפל חוזר",
+      "groupDone": "הקבוצה הושלמה",
+      "points": "נקודות",
+      "alreadyAnswered": "כבר עניתם.",
+      "overcall": "משיבים ל־1NT",
+      "response": "תשובות והמשכים"
+    },
+    "suitNames": {
+      "S": "ספייד",
+      "H": "הארט",
+      "D": "דיאמונד",
+      "C": "קלאב",
+      "NT": "ללא שליט"
+    },
+    "rankNames": {
+      "A": "אס",
+      "K": "מלך",
+      "Q": "מלכה",
+      "J": "נסיך",
+      "T": "עשר"
+    },
+    "positions": {
+      "W": "מערב",
+      "N": "צפון",
+      "E": "מזרח",
+      "S": "דרום"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 9 נקודות גבוהות. יש לנו ארבעה קלפים בכל אחד מהמייג׳ורים. נכריז 2♣ Stayman לחיפוש התאמה לפני הזמנה למשחק מלא, בלי להתחייב אליו עדיין."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 8 נקודות גבוהות. יש לנו ארבעה הארט. נכריז 2♣ Stayman לחיפוש התאמה לפני הזמנה למשחק מלא, בלי להתחייב אליו עדיין."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 10 נקודות גבוהות. יש לנו ארבעה ספייד. נכריז 2♣ Stayman לפני בחירת המשחק המלא: במייג׳ור עם התאמה, אחרת בדרך כלל 3NT."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 10 נקודות גבוהות. יש לנו ארבעה הארט. נכריז 2♣ Stayman לפני בחירת המשחק המלא: במייג׳ור עם התאמה, אחרת בדרך כלל 3NT."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 9 נקודות גבוהות. יש לנו ארבעה ספייד. נכריז 2♣ Stayman לחיפוש התאמה לפני הזמנה למשחק מלא, בלי להתחייב אליו עדיין."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 10 נקודות גבוהות. יש לנו ארבעה הארט. נכריז 2♣ Stayman לפני בחירת המשחק המלא: במייג׳ור עם התאמה, אחרת בדרך כלל 3NT."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 8 נקודות גבוהות. יש לנו ארבעה קלפים בכל אחד מהמייג׳ורים. נכריז 2♣ Stayman לחיפוש התאמה לפני הזמנה למשחק מלא, בלי להתחייב אליו עדיין."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 10 נקודות גבוהות. יש לנו ארבעה ספייד. נכריז 2♣ Stayman לפני בחירת המשחק המלא: במייג׳ור עם התאמה, אחרת בדרך כלל 3NT."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 4 נקודות גבוהות, ארבעה ספייד ו־4–3–3–3 נקרא פאס על 1NT. אין כוח להזמנה וגם אין סיבה חלוקתית לחפש חוזה אחר. רביעייה במייג׳ור לבדה אינה מספיקה."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 12 נקודות גבוהות ויד מאוזנת ללא רביעייה במייג׳ור נכריז ישירות 3NT: אין מייג׳ור שצריך לחפש."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "אחרי שפתחנו 1NT עם 15 נקודות גבוהות, נענה 2♦: אין רביעייה במייג׳ור. הדיאמונד ביד הזאת הוא מקרי; 2♦ אינו מבטיח דיאמונד."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 17 נקודות גבוהות ושתי רביעיות במייג׳ורים נענה 2♥. ספייד עדיין עשוי להתגלות בהמשך; מקסימום אינו מצדיק קפיצה."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 16 נקודות גבוהות, ארבעה ספייד ורק שלושה הארט נענה 2♠ ונשלול ארבעה הארט."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "אחרי 1NT – 2♣ – 2♥, עם 9 נקודות גבוהות וארבעה הארט נזמין באמצעות 3♥. הפותח מחליט."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 12 נקודות גבוהות ותמיכה של ארבעה קלפים בסדרה ספייד, נכריז 4♠ למשחק. יש די כוח גם מול מינימום, ללא עניין בסלם."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "אחרי 1NT – 2♣ – 2♦ יש לנו 9 נקודות גבוהות. הפותח שלל רביעייה במייג׳ור, ולכן אין התאמה בספייד. 2NT מזמין: מינימום יכול לקרוא פאס, ומקסימום מתאים מכריז 3NT."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "אחרי 1NT – 2♣ – 2♥ יש לנו 12 נקודות גבוהות, ארבעה ספייד ושני הארט. נכריז 3NT. Stayman ללא תמיכה בהארט מראה כאן ספייד: הפותח מתקן ל־4♠ עם ארבעה ספייד, אחרת קורא פאס."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "יש לנו 15 נקודות גבוהות. אחרי שענינו 2♥ ל־Stayman, ה־3NT של השותף מראה כוח למשחק מלא, ארבעה ספייד וללא התאמה בהארט. עם ארבעה ספייד נכריז 4♠ גם במינימום."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 15 נקודות גבוהות ו־4–3–3–3, אחרי תשובתנו 2♠ ל־Stayman, נקרא פאס על הזמנת 3♠ שמראה התאמה: מינימום ללא ערך חלוקתי נוסף."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "מה תכריזו?",
+      "explanation": "עם 17 נקודות גבוהות, אחרי תשובתנו 2♥ ל־Stayman, נקבל הזמנת 3♥ שמראה התאמה באמצעות 4♥."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "h": [
+    "Quand l’utiliser ?",
+    "À quoi sert-il ?",
+    "Exemples de réponse initiale",
+    "Réponses de l’ouvreur",
+    "Suites du répondant",
+    "Points d’attention"
+  ],
+  "meta": "Stayman après une ouverture de 1SA : conditions, réponses de l’ouvreur et suites avec ou sans fit majeur. Théorie, exemples et exercices interactifs.",
+  "shape": [
+    "Nous avons les deux majeures quatrièmes.",
+    "Nous avons quatre cœurs.",
+    "Nous avons quatre piques."
+  ],
+  "p": [
+    "L’ouverture de 1SA décrit la force et une main régulière, sans préciser les majeures quatrièmes. Stayman recherche un fit majeur avant de choisir les sans-atout.",
+    "Sur 1SA régulier, 15–17 points H, sans intervention adverse, nous avons au moins une majeure quatrième et 8 points H. 2♣ est artificiel : il demande une majeure quatrième, sans promettre de trèfles, et oblige l’ouvreur à répondre.",
+    "Note : si la réponse directe de 2SA sert de Transfer vers une mineure, la proposition de manche à sans-atout passe par Stayman. Dans cet accord, 2♣ ne promet pas nécessairement une majeure quatrième. Les Transfer vers les mineures seront notre prochaine leçon.",
+    "Nous étudions le Stayman de base. Les emplois avec une main faible demandent une distribution adaptée et des suites convenues ; ils restent hors de cette leçon.",
+    "Un fit majeur 4–4 peut être préférable aux sans-atout : les atouts permettent des coupes et valorisent la distribution. Stayman laisse la place pour choisir le palier et la dénomination.",
+    "Face à 15–17, 8–9 points H proposent généralement la manche ; 10 ou plus permettent habituellement de la demander. Distribution et qualité des cartes restent importantes.",
+    "Nous avons {hcp} points H. {shape} Nous disons 2♣ Stayman pour chercher un fit avant de proposer la manche, sans encore nous y engager.",
+    "Nous avons {hcp} points H. {shape} Nous disons 2♣ Stayman avant de choisir la manche : en majeure avec un fit, sinon généralement 3SA.",
+    "Avec les deux majeures quatrièmes, l’ouvreur répond d’abord 2♥. Ces réponses décrivent les majeures, sans distinguer minimum et maximum.",
+    "Après avoir ouvert de 1SA avec {hcp} points H, nous répondons 2♦ : aucune majeure quatrième. Nos carreaux sont une coïncidence ; 2♦ ne les promet pas.",
+    "Avec {hcp} points H et les deux majeures quatrièmes, nous répondons 2♥. Les piques pourront se découvrir ensuite ; même un maximum ne justifie pas de saut.",
+    "Avec {hcp} points H, quatre piques et seulement trois cœurs, nous répondons 2♠, qui dénie quatre cœurs.",
+    "Avec un fit, 8–9 points H proposent par 3♥ ou 3♠, que l’ouvreur peut passer. Avec 10 ou plus, sans espoir de chelem, 4♥ ou 4♠ est une conclusion.",
+    "L’ouvreur refuse généralement avec un minimum et accepte avec un maximum. Avec une main intermédiaire, il évalue la distribution et les honneurs utiles.",
+    "Après 1SA – 2♣ – 2♥, avec {hcp} points H et quatre cœurs, nous proposons la manche par 3♥. L’ouvreur décide.",
+    "Avec {hcp} points H et un soutien quatrième à {major}, nous concluons à {answer}. La manche est justifiée même face au minimum, sans recherche de chelem.",
+    "Sans fit majeur, 8–9 points H proposent par 2SA ; avec 10 ou plus, sans espoir de chelem, la suite de base est 3SA.",
+    "Ces suites supposent une main adaptée aux sans-atout. Les mains 5–4 en majeures et leurs développements particuliers nécessitent d’autres accords.",
+    "Après 1SA – 2♣ – 2♦, avec {hcp} points H, pas de fit à pique : l’ouvreur a dénié une majeure quatrième. Nous proposons par 2SA ; il passe minimum ou dit 3SA avec un maximum adapté.",
+    "Après 1SA – 2♣ – 2♥, avec {hcp} points H, quatre piques et deux cœurs, nous disons 3SA. Stayman sans soutien à cœur indique les piques : l’ouvreur corrige à 4♠ avec quatre piques, sinon passe.",
+    "Dans la version de base promettant une majeure quatrième, après 1SA – 2♣ – 2♥ – 2SA, l’ouvreur avec quatre piques dit 3♠ minimum, que l’on peut passer, ou 4♠ pour accepter. Sans quatre piques : passe ou 3SA. Cette déduction n’est pas automatique avec l’accord de Transfer en mineure indiqué plus haut.",
+    "2♣ est forcing un tour, pas de manche. 2♦ ne montre pas les carreaux ; 2♥ ne dénie pas quatre piques. Les points seuls ne suffisent pas pour le Stayman de base. Avec une seule majeure au moins cinquième, sans quatre cartes dans l’autre, on utilise normalement Jacoby Transfer. La réponse initiale ne précise pas la force à l’intérieur de 15–17."
+  ],
+  "e": [
+    "Avec 4 points H, quatre piques et 4–3–3–3, nous passons 1SA. Ni force de proposition ni avantage distributionnel ne justifient une autre recherche. Une majeure quatrième seule ne suffit pas.",
+    "Avec 12 points H réguliers, sans majeure quatrième, nous concluons directement à 3SA : aucune majeure à rechercher.",
+    "Nous avons 15 points H. Après notre réponse de 2♥ au Stayman, le 3SA du partenaire montre la manche et quatre piques, sans fit cœur. Avec quatre piques, nous disons 4♠, même minimum.",
+    "Avec 15 points H et 4–3–3–3, après notre réponse de 2♠ au Stayman et la proposition à 3♠ montrant le fit, nous passons : minimum, sans plus-value distributionnelle.",
+    "Avec 17 points H, après notre réponse de 2♥ au Stayman et la proposition à 3♥ montrant le fit, nous acceptons par 4♥."
+  ],
+  "answers": [
+    "Aucune majeure quatrième ; ne promet pas de carreaux.",
+    "Quatre cœurs ; quatre piques possibles.",
+    "Quatre piques, sans quatre cœurs."
+  ]
+}

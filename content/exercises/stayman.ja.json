@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "ja",
+  "route": "ja/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "1NTに応答する",
+    "response": "応答と継続",
+    "overcallQuestion": "何をビッドしますか？",
+    "responseQuestion": "何をビッドしますか？",
+    "description": "1NTオープン後のStayman：条件、オープナーの応答、メジャーのフィットの有無による継続。解説、例題、対話式練習。",
+    "agreements": "相手の介入なしで、パートナーが15–17 HCPの1NTをオープンした場面です。こちらは4枚以上のメジャーを少なくとも一つ持ち、8 HCP以上あります。人工的な2♣は4枚のメジャーを尋ね、クラブを約束せず、オープナーは必ず応答します。 両メジャーが4枚なら、オープナーは先に2♥と応答します。応答はメジャーを示し、ミニマムとマキシマムを区別しません。",
+    "locale": {
+      "exercises": "練習",
+      "back": "レッスンに戻る",
+      "eyebrow": "練習",
+      "intro": "自分の手だけが見えます。ビディングボックスから選んでください。",
+      "type": "練習の種類",
+      "previous": "前の問題",
+      "exercise": "問題",
+      "correctCount": "正解",
+      "vulnerability": "双方ノンバル",
+      "table": "練習テーブル",
+      "question": "何をビッドしますか？",
+      "hand": "あなたの手、13枚",
+      "you": "あなた",
+      "south": "南",
+      "turn": "あなたの番",
+      "result": "結果",
+      "next": "次の問題",
+      "completed": "グループ完了",
+      "restart": "同じ手でもう一度",
+      "return": "レッスンに戻る",
+      "noscript": "対話式練習にはJavaScriptが必要です。",
+      "footer": "コンベンション練習",
+      "pass": "パス",
+      "double": "ダブル",
+      "redouble": "リダブル",
+      "auction": "ここまでのビッド",
+      "partner": "パートナー",
+      "opponent": "相手",
+      "noBid": "このラウンドのビッドなし",
+      "answered": "回答済み",
+      "correct": "正解！",
+      "rightBid": "正しいビッドは",
+      "choice": "あなたの選択",
+      "seeResult": "結果を見る",
+      "bidLevels": "1から7のビッド",
+      "actions": "パス、ダブル、リダブル",
+      "groupDone": "グループ完了",
+      "points": "点",
+      "alreadyAnswered": "すでに回答しています。",
+      "overcall": "1NTに応答する",
+      "response": "応答と継続"
+    },
+    "suitNames": {
+      "S": "スペード",
+      "H": "ハート",
+      "D": "ダイヤモンド",
+      "C": "クラブ",
+      "NT": "ノートランプ"
+    },
+    "rankNames": {
+      "A": "エース",
+      "K": "キング",
+      "Q": "クイーン",
+      "J": "ジャック",
+      "T": "テン"
+    },
+    "positions": {
+      "W": "西",
+      "N": "北",
+      "E": "東",
+      "S": "南"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "9 HCPあります。両メジャーが4枚ずつあります。2♣ Staymanでフィットを探してからゲームへ誘います。まだゲームを強制してはいません。"
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "8 HCPあります。ハートが4枚あります。2♣ Staymanでフィットを探してからゲームへ誘います。まだゲームを強制してはいません。"
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "10 HCPあります。スペードが4枚あります。ゲームを選ぶ前に2♣ Staymanを使います。フィットがあればメジャー、なければ基本は3NTです。"
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "10 HCPあります。ハートが4枚あります。ゲームを選ぶ前に2♣ Staymanを使います。フィットがあればメジャー、なければ基本は3NTです。"
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "9 HCPあります。スペードが4枚あります。2♣ Staymanでフィットを探してからゲームへ誘います。まだゲームを強制してはいません。"
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "10 HCPあります。ハートが4枚あります。ゲームを選ぶ前に2♣ Staymanを使います。フィットがあればメジャー、なければ基本は3NTです。"
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "8 HCPあります。両メジャーが4枚ずつあります。2♣ Staymanでフィットを探してからゲームへ誘います。まだゲームを強制してはいません。"
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "10 HCPあります。スペードが4枚あります。ゲームを選ぶ前に2♣ Staymanを使います。フィットがあればメジャー、なければ基本は3NTです。"
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "4 HCP、スペード4枚、4–3–3–3なら1NTにパスします。誘う強さも、別のコントラクトを探す分布上の理由もありません。4枚のメジャーだけでは不十分です。"
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "12 HCP、4枚のメジャーがないバランス型なら直接3NTです。調べるメジャーがありません。"
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "15 HCPで1NTをオープンした後、Staymanには2♦と応答します。4枚のメジャーがないからです。このハンドのダイヤモンドは偶然で、2♦はダイヤモンドを約束しません。"
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "17 HCPと両メジャー4枚なら2♥と応答します。スペードは後で見つかる可能性があります。マキシマムでもジャンプしません。"
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "16 HCP、スペード4枚、ハートは3枚だけなら2♠と応答し、ハート4枚を否定します。"
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "1NT – 2♣ – 2♥の後、9 HCPとハート4枚なら3♥でゲームに誘います。最終判断はオープナーです。"
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "12 HCPとスペードへの4枚サポートがあれば、4♠でプレーします。相手がミニマムでもゲームに十分で、スラムは狙いません。"
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "1NT – 2♣ – 2♦の後、9 HCPあります。オープナーは4枚のメジャーを否定したのでスペードフィットはありません。2NTで誘い、ミニマムならパス、適切なマキシマムなら3NTです。"
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "1NT – 2♣ – 2♥の後、12 HCP、スペード4枚、ハート2枚なら3NTとビッドします。Staymanを使ってハートをサポートしなかったため、この場合はスペードを示します。オープナーはスペード4枚なら4♠に直し、なければパスします。"
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "15 HCPあります。Staymanに2♥と応答した後、パートナーの3NTはゲームの強さ、スペード4枚、ハートのフィットなしを示します。こちらはスペード4枚なのでミニマムでも4♠です。"
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "15 HCP、4–3–3–3でStaymanに2♠と答えた後、フィットを示す3♠の誘いにはパスします。ミニマムで分布上の追加価値がありません。"
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "何をビッドしますか？",
+      "explanation": "17 HCPでStaymanに2♥と答えた後、フィットを示す3♥の誘いを4♥で受けます。"
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "title": "Stayman",
+  "language": "ar",
+  "route": "ar/stayman-practice/",
+  "lessonHref": "../stayman/",
+  "ui": {
+    "overcall": "أجيب على 1NT",
+    "response": "الردود والمتابعات",
+    "overcallQuestion": "ماذا تعلن؟",
+    "responseQuestion": "ماذا تعلن؟",
+    "description": "Stayman بعد افتتاح 1NT: الشروط وردود صاحب الافتتاح والمتابعات مع توافق في لون رئيسي أو بدونه. شرح وأمثلة وتمارين تفاعلية.",
+    "agreements": "بعد افتتاح 1NT بقوة 15–17 نقطة أوراق شرفية، دون overcall من الخصمين، لدينا أربع أوراق على الأقل في لون رئيسي و8 نقاط شرفية على الأقل. إعلان 2♣ اصطناعي يسأل عن لون رئيسي رباعي، ولا يعد بالسباتي، ويُلزم صاحب الافتتاح بالرد. بوجود أربع أوراق في كلا اللونين الرئيسيين يرد صاحب الافتتاح أولًا بـ2♥. هذه الردود تصف الألوان، ولا تميز الحد الأدنى من الأقصى.",
+    "locale": {
+      "exercises": "تمارين",
+      "back": "العودة إلى الدرس",
+      "eyebrow": "تمارين",
+      "intro": "ترى يدك فقط. اختر إعلانك من صندوق المزايدة.",
+      "type": "نوع التمرين",
+      "previous": "التمرين السابق",
+      "exercise": "تمرين",
+      "correctCount": "الصحيحة",
+      "vulnerability": "لا أحد في المنطقة",
+      "table": "طاولة التمرين",
+      "question": "ماذا تعلن؟",
+      "hand": "يدك، 13 ورقة",
+      "you": "أنت",
+      "south": "الجنوب",
+      "turn": "دورك",
+      "result": "النتيجة",
+      "next": "التمرين التالي",
+      "completed": "اكتملت المجموعة",
+      "restart": "إعادة الأيدي نفسها",
+      "return": "العودة إلى الدرس",
+      "noscript": "تتطلب التمارين التفاعلية JavaScript.",
+      "footer": "تمارين الاصطلاحات",
+      "pass": "مرور",
+      "double": "مضاعفة",
+      "redouble": "إعادة المضاعفة",
+      "auction": "المزايدة حتى الآن",
+      "partner": "الشريك",
+      "opponent": "الخصم",
+      "noBid": "لا إعلان في هذه الجولة",
+      "answered": "أجبت",
+      "correct": "صحيح!",
+      "rightBid": "الإعلان الصحيح هو",
+      "choice": "اختيارك",
+      "seeResult": "عرض النتيجة",
+      "bidLevels": "إعلانات من 1 إلى 7",
+      "actions": "مرور ومضاعفة وإعادة المضاعفة",
+      "groupDone": "اكتملت المجموعة",
+      "points": "نقاط",
+      "alreadyAnswered": "لقد أجبت بالفعل.",
+      "overcall": "أجيب على 1NT",
+      "response": "الردود والمتابعات"
+    },
+    "suitNames": {
+      "S": "سبيد",
+      "H": "هارت",
+      "D": "دايموند",
+      "C": "كلوب",
+      "NT": "دون رابح"
+    },
+    "rankNames": {
+      "A": "آس",
+      "K": "ملك",
+      "Q": "ملكة",
+      "J": "شاب",
+      "T": "عشرة"
+    },
+    "positions": {
+      "W": "الغرب",
+      "N": "الشمال",
+      "E": "الشرق",
+      "S": "الجنوب"
+    }
+  },
+  "questions": [
+    {
+      "id": "stayman-overcall-1",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "Q864",
+        "D": "K72",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 9 نقاط شرفية. لدينا أربع أوراق في كل من اللونين الرئيسيين. نعلن 2♣ Stayman للبحث عن توافق قبل دعوة المانش، دون الالتزام بالمانش بعد."
+    },
+    {
+      "id": "stayman-overcall-2",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "A73",
+        "H": "KJ84",
+        "D": "9862",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 8 نقاط شرفية. لدينا أربع أوراق قلوب. نعلن 2♣ Stayman للبحث عن توافق قبل دعوة المانش، دون الالتزام بالمانش بعد."
+    },
+    {
+      "id": "stayman-overcall-3",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AQ94",
+        "H": "72",
+        "D": "KJ83",
+        "C": "964"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 10 نقاط شرفية. لدينا أربع أوراق بستوني. نعلن 2♣ Stayman قبل اختيار المانش: في اللون الرئيسي عند وجود توافق، وإلا فالمتابعة الأساسية 3NT."
+    },
+    {
+      "id": "stayman-overcall-4",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "K8",
+        "H": "QJ94",
+        "D": "A763",
+        "C": "862"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 10 نقاط شرفية. لدينا أربع أوراق قلوب. نعلن 2♣ Stayman قبل اختيار المانش: في اللون الرئيسي عند وجود توافق، وإلا فالمتابعة الأساسية 3NT."
+    },
+    {
+      "id": "stayman-overcall-5",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "QT86",
+        "H": "K73",
+        "D": "A9",
+        "C": "8642"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 9 نقاط شرفية. لدينا أربع أوراق بستوني. نعلن 2♣ Stayman للبحث عن توافق قبل دعوة المانش، دون الالتزام بالمانش بعد."
+    },
+    {
+      "id": "stayman-overcall-6",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "J74",
+        "H": "AQ86",
+        "D": "K963",
+        "C": "85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 10 نقاط شرفية. لدينا أربع أوراق قلوب. نعلن 2♣ Stayman قبل اختيار المانش: في اللون الرئيسي عند وجود توافق، وإلا فالمتابعة الأساسية 3NT."
+    },
+    {
+      "id": "stayman-overcall-7",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "invitation",
+      "hand": {
+        "S": "KQ73",
+        "H": "J862",
+        "D": "Q74",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 8 نقاط شرفية. لدينا أربع أوراق في كل من اللونين الرئيسيين. نعلن 2♣ Stayman للبحث عن توافق قبل دعوة المانش، دون الالتزام بالمانش بعد."
+    },
+    {
+      "id": "stayman-overcall-8",
+      "role": "overcall",
+      "kind": "convention",
+      "objective": "game",
+      "hand": {
+        "S": "AK84",
+        "H": "Q96",
+        "D": "J7",
+        "C": "8632"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2C",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 10 نقاط شرفية. لدينا أربع أوراق بستوني. نعلن 2♣ Stayman قبل اختيار المانش: في اللون الرئيسي عند وجود توافق، وإلا فالمتابعة الأساسية 3NT."
+    },
+    {
+      "id": "stayman-overcall-9",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "weak-balanced",
+      "hand": {
+        "S": "K843",
+        "H": "972",
+        "D": "J65",
+        "C": "984"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 4 نقاط شرفية وأربع أوراق بستوني وتوزيع 4–3–3–3 نمر على 1NT. لا قوة دعوة ولا سبب توزيعي للبحث عن عقد آخر. اللون الرئيسي الرباعي وحده لا يكفي."
+    },
+    {
+      "id": "stayman-overcall-10",
+      "role": "overcall",
+      "kind": "contrast",
+      "objective": "no-major",
+      "hand": {
+        "S": "K83",
+        "H": "A72",
+        "D": "QJ64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 12 نقطة شرفية ويد متوازنة دون لون رئيسي رباعي نعلن 3NT مباشرةً؛ لا يوجد لون رئيسي للبحث عنه."
+    },
+    {
+      "id": "stayman-response-1",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-no-major",
+      "hand": {
+        "S": "AQ7",
+        "H": "K83",
+        "D": "KJ94",
+        "C": "Q72"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2D",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "بعد افتتاحنا 1NT ومعنا 15 نقاط شرفية، نرد 2♦ لعدم وجود لون رئيسي رباعي. وجود الديناري في هذه اليد مصادفة؛ 2♦ لا يعد بالديناري."
+    },
+    {
+      "id": "stayman-response-2",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-both",
+      "hand": {
+        "S": "AK84",
+        "H": "KQ73",
+        "D": "AJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 17 نقاط شرفية وأربعة أوراق في كلا اللونين الرئيسيين، نرد 2♥. يمكن اكتشاف البستوني لاحقًا؛ الحد الأقصى لا يبرر القفز."
+    },
+    {
+      "id": "stayman-response-3",
+      "role": "response",
+      "kind": "convention",
+      "objective": "opener-spades",
+      "hand": {
+        "S": "KJ84",
+        "H": "A73",
+        "D": "KQ6",
+        "C": "K95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 16 نقاط شرفية وأربع أوراق بستوني وثلاث قلوب فقط، نرد 2♠، نافين أربع قلوب."
+    },
+    {
+      "id": "stayman-response-4",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-invitation",
+      "hand": {
+        "S": "Q7",
+        "H": "KJ84",
+        "D": "K962",
+        "C": "985"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "بعد 1NT – 2♣ – 2♥، ومع 9 نقاط شرفية وأربع قلوب، ندعو إلى المانش بـ3♥. القرار لصاحب الافتتاح."
+    },
+    {
+      "id": "stayman-response-5",
+      "role": "response",
+      "kind": "convention",
+      "objective": "fit-game",
+      "hand": {
+        "S": "KQ84",
+        "H": "A72",
+        "D": "QJ",
+        "C": "9842"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 12 نقاط شرفية ودعم من أربع أوراق في سبيد نعلن 4♠ للعب. القوة تكفي للمانش حتى أمام الحد الأدنى، دون اهتمام بالسلم."
+    },
+    {
+      "id": "stayman-response-6",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-invitation",
+      "hand": {
+        "S": "KJ83",
+        "H": "K7",
+        "D": "Q964",
+        "C": "852"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2D"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "2NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "بعد 1NT – 2♣ – 2♦ لدينا 9 نقاط شرفية. نفى صاحب الافتتاح اللون الرئيسي الرباعي، فلا توافق في البستوني. ندعو بـ2NT؛ يمكن للحد الأدنى المرور، وللحد الأقصى المناسب إعلان 3NT."
+    },
+    {
+      "id": "stayman-response-7",
+      "role": "response",
+      "kind": "convention",
+      "objective": "nt-game",
+      "hand": {
+        "S": "AQ83",
+        "H": "K7",
+        "D": "J964",
+        "C": "Q85"
+      },
+      "auction": [
+        {
+          "seat": "N",
+          "call": "1NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2C"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "3NT",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "بعد 1NT – 2♣ – 2♥ لدينا 12 نقاط شرفية وأربع أوراق بستوني وورقتا قلوب. نعلن 3NT. استخدام Stayman دون دعم القلوب يدل هنا على البستوني؛ يصحح صاحب الافتتاح إلى 4♠ مع أربع أوراق بستوني، وإلا يمر."
+    },
+    {
+      "id": "stayman-response-8",
+      "role": "response",
+      "kind": "convention",
+      "objective": "recover-game",
+      "hand": {
+        "S": "AQ84",
+        "H": "KJ73",
+        "D": "KQ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3NT"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4S",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "لدينا 15 نقطة شرفية. بعد ردنا 2♥ على Stayman، يُظهر 3NT من الشريك قوة المانش وأربع أوراق بستوني دون توافق قلوب. بأربع أوراق بستوني نعلن 4♠ حتى مع الحد الأدنى."
+    },
+    {
+      "id": "stayman-response-9",
+      "role": "response",
+      "kind": "convention",
+      "objective": "decline-fit-invitation",
+      "hand": {
+        "S": "KQ83",
+        "H": "AJ7",
+        "D": "K64",
+        "C": "Q95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2S"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3S"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "PASS",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 15 نقطة شرفية وتوزيع 4–3–3–3، بعد ردنا 2♠ على Stayman، نمر على دعوة 3♠ التي تُظهر التوافق: حد أدنى دون قيمة توزيعية إضافية."
+    },
+    {
+      "id": "stayman-response-10",
+      "role": "response",
+      "kind": "convention",
+      "objective": "accept-fit-invitation",
+      "hand": {
+        "S": "AQ83",
+        "H": "AK72",
+        "D": "KJ6",
+        "C": "95"
+      },
+      "auction": [
+        {
+          "seat": "S",
+          "call": "1NT"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "2C"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        },
+        {
+          "seat": "S",
+          "call": "2H"
+        },
+        {
+          "seat": "W",
+          "call": "PASS"
+        },
+        {
+          "seat": "N",
+          "call": "3H"
+        },
+        {
+          "seat": "E",
+          "call": "PASS"
+        }
+      ],
+      "answer": "4H",
+      "vulnerability": "None",
+      "ntRange": "15–17",
+      "situation": "ماذا تعلن؟",
+      "explanation": "مع 17 نقطة شرفية، بعد ردنا 2♥ على Stayman، نقبل دعوة 3♥ التي تُظهر التوافق بإعلان 4♥."
+    }
+  ]
+}
