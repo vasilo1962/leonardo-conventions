@@ -41,6 +41,13 @@ for(const [index,q] of questions.entries()){
    assert.equal(history.length,4);assert.equal(history[0].seat,'S');
    assert.ok(hcp>=15&&hcp<=17);assert.ok(Math.min(...Object.values(q.hand).map(h=>h.length))>=2);
    assert.equal(q.answer,len('H')===4?'2H':len('S')===4?'2S':'2D');
+  }else if(['decline-fit-invitation','accept-fit-invitation'].includes(q.objective)){
+   assert.equal(history.length,8);assert.equal(history[0].seat,'S');
+   const shown=history[4].call.slice(1);
+   assert.equal(len(shown),4);assert.equal(history[6].call,'3'+shown);
+   if(q.objective==='decline-fit-invitation'){
+    assert.equal(hcp,15);assert.deepEqual(Object.values(q.hand).map(h=>h.length).sort(),[3,3,3,4]);assert.equal(q.answer,'PASS');
+   }else{assert.equal(hcp,17);assert.equal(q.answer,'4'+shown);}
   }else if(q.objective.startsWith('recover-')){
    assert.equal(history.length,8);assert.equal(history[0].seat,'S');
    assert.equal(history[4].call,'2H');assert.equal(len('H'),4);assert.equal(len('S'),4);
@@ -65,4 +72,4 @@ for(const id of ['previous-exercise','forward-exercise','exercise-score','exerci
 assert.ok(html.includes('href="../"'));
 assert.ok((await readFile('site/el/stayman/index.html','utf8')).includes('href="practice/"'));
 assert.equal(new Set(questions.filter(q=>q.role==='response').map(q=>q.situation)).size,1);
-console.log('Verified Stayman: 20 unique hands, 8 uses/2 contrasts, 3 opener replies, fit/NT invitations and games, spade recovery at minimum/maximum, exact HCP/shape, neutral prompts and complete legal auctions.');
+console.log('Verified Stayman: 20 unique hands, 8 uses/2 contrasts, 3 opener replies, fit/NT invitations and games, spade recovery after 3NT and acceptance/decline with a known fit, exact HCP/shape, neutral prompts and complete legal auctions.');
