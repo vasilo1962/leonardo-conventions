@@ -31,7 +31,7 @@ for (const slug of sets) {
       assert.deepEqual([...s],[...s].sort((a,b)=>'AKQJT98765432'.indexOf(a)-'AKQJT98765432'.indexOf(b)));
     }
     const hcp=cards.reduce((n,c)=>n+(points[c.rank]||0),0);
-    assert.ok(q.explanation.includes(hcp+' πόντους ονέρ'),q.id+': actual HCP');
+    assert.ok(q.explanation.includes(hcp+' πόντους από ονέρ'),q.id+': actual HCP');
     assert.equal(q.vulnerability,'None');
     assert.ok(!/Drury|φυλλ|πόντ|προτασιακ|μανς/.test(q.situation),q.id+': neutral prompt');
     const order='WNES';let next=q.auction[0].seat;

@@ -13,7 +13,7 @@ const expectedHcp=[9,8,10,10,9,10,8,10,4,12,15,17,16,9,12,9,12,15,15,17];
 for(const [index,q] of questions.entries()){
  const cards=handCards(q.hand),hcp=cards.reduce((n,c)=>n+(points[c.rank]||0),0),len=s=>q.hand[s].length;
  assert.equal(cards.length,13,q.id);assert.equal(new Set(cards.map(c=>c.suit+c.rank)).size,13,q.id);
- assert.equal(hcp,expectedHcp[index],q.id);assert.ok(q.explanation.includes(`${hcp} πόντους ονέρ`),q.id);
+ assert.equal(hcp,expectedHcp[index],q.id);assert.ok(q.explanation.includes(`${hcp} πόντους από ονέρ`),q.id);
  for(const holding of Object.values(q.hand))assert.equal(holding,[...holding].sort((a,b)=>ranks.indexOf(a)-ranks.indexOf(b)).join(''),q.id);
  let next=q.auction[0].seat;const history=[];
  for(const a of q.auction){

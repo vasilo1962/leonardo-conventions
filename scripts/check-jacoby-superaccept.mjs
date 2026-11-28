@@ -21,7 +21,7 @@ for(const q of data.questions){
  assert.equal(cards.length,13,q.id);
  assert.equal(new Set(cards.map(c=>c.suit+c.rank)).size,13,q.id);
  assert.ok(!previous.has(key(q.hand)),q.id+': previously used hand');
- assert.ok(q.explanation.includes(`${hcp(q.hand)} πόντους ονέρ`),q.id+': HCP explanation');
+ assert.ok(q.explanation.includes(`${hcp(q.hand)} πόντους από ονέρ`),q.id+': HCP explanation');
  for(const s of Object.values(q.hand))assert.equal(s,[...s].sort((a,b)=>'AKQJT98765432'.indexOf(a)-'AKQJT98765432'.indexOf(b)).join(''));
  let next=q.auction[0].seat;const history=[];
  for(const a of q.auction){

@@ -19,7 +19,7 @@ for(const q of data.questions){
   assert.ok([...suit].every(r=>ranks.includes(r)),q.id);
   assert.equal(suit,[...suit].sort((a,b)=>ranks.indexOf(a)-ranks.indexOf(b)).join(''),q.id);
  }
- assert.ok(q.explanation.includes(`${hcp} πόντους ονέρ`),q.id);
+ assert.ok(q.explanation.includes(`${hcp} πόντους από ονέρ`),q.id);
  const major=q.hand.H.length>=5?'H':'S',minorMajor=major==='H'?'S':'H',len=q.hand[major].length;
  assert.ok(q.hand[minorMajor].length<4,q.id);
  assert.ok(q.explanation.includes(`${len}φυλλη`),q.id);

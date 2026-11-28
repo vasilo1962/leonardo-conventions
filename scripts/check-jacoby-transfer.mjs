@@ -14,7 +14,7 @@ for(const [goal,count] of Object.entries(expectedCounts))assert.equal(data.quest
 for(const q of data.questions){
  const cards=handCards(q.hand),hcp=cards.reduce((a,c)=>a+(points[c.rank]||0),0);
  assert.equal(cards.length,13,q.id);assert.equal(new Set(cards.map(c=>c.suit+c.rank)).size,13,q.id);
- assert.ok(q.explanation.includes(`${hcp} πόντους ονέρ`),q.id);
+ assert.ok(q.explanation.includes(`${hcp} πόντους από ονέρ`),q.id);
  for(const s of Object.values(q.hand))assert.equal(s,[...s].sort((a,b)=>'AKQJT98765432'.indexOf(a)-'AKQJT98765432'.indexOf(b)).join(''));
  const major=q.hand.H.length>=5?'H':'S',len=q.hand[major].length;
  if(q.kind!=='contrast'){assert.ok(len>=5);assert.ok(q.hand[major==='H'?'S':'H'].length<4);}
