@@ -2,6 +2,7 @@ import { availableIn } from './articles.mjs';
 
 // Topic membership is shared across languages; titles and labels are localized.
 export const articleTopics = {
+  'minor-suit-transfers': ['opening-responses', 'responses-1nt', 'minor-fit', 'slam'],
   'stayman': ['opening-responses', 'responses-1nt'],
   'texas-transfer': ['opening-responses', 'responses-1nt', 'slam'],
   'jacoby-transfer-superaccept': ['opener-rebids', 'responses-1nt', 'major-fit', 'slam'],
